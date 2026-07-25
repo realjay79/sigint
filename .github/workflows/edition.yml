@@ -1,0 +1,45 @@
+name: edition
+
+on:
+  schedule:
+    # Every 30 minutes. GitHub queues scheduled runs under load, so treat this
+    # as "roughly every 30-60 minutes". Fine for a newspaper, not for alerting.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+# Needed so the job can push edition.json and scored.json back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: edition
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Build edition
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: go run ./cmd/edition
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "sigint-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/scored.json docs/edition.json
+          if git diff --staged --quiet; then
+            echo "no change; nothing to publish"
+            exit 0
+          fi
+          git commit -m "edition: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

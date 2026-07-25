@@ -1,0 +1,5 @@
+# The archive (data/scored.json) is deliberately NOT ignored — it is the
+# seen-set, and the workflow commits it every run. Ignoring it would make
+# every scheduled run re-score the whole window. Do not add it here.
+*.tmp
+.DS_Store

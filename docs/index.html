@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIGINT — security research and practitioner news, scored</title>
+<meta name="description" content="Security, appsec, AI security and quantum news scored for novelty and actionability. Updated every 30 minutes.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Serif:wght@500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+
+<!-- Analytics: GoatCounter. No cookies, no banner, ~3KB, invisible to the
+     reader. Replace MYCODE with the code from your goatcounter.com signup.
+     Counts script loads, not JSON polls, so your always-open tab does not
+     inflate the numbers. -->
+<script data-goatcounter="https://sigint.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__row">
+    <span class="masthead__mark" aria-hidden="true">^C</span>
+    <h1 class="masthead__name">SIGINT</h1>
+    <p class="masthead__edition" id="edition-line">&nbsp;</p>
+  </div>
+  <p class="masthead__standfirst" id="standfirst">
+    Security research and practitioner news, scored for novelty and actionability.
+  </p>
+</header>
+
+<nav class="controls" aria-label="Filters">
+  <div class="controls__group">
+    <span class="controls__label">Source</span>
+    <div class="controls__chips" id="source-filters" role="group" aria-label="Filter by source"></div>
+  </div>
+  <div class="controls__group">
+    <span class="controls__label">Quadrant</span>
+    <div class="controls__chips" id="quadrant-filters" role="group" aria-label="Filter by quadrant"></div>
+  </div>
+</nav>
+
+<main id="stories" class="stories" aria-live="polite">
+  <p class="state">Loading the current edition…</p>
+</main>
+
+<section id="noise" class="noise" aria-label="Filed under noise"></section>
+
+<!-- Email capture. Collect from day one; send nothing yet. Every route to
+     eventual revenue runs through this list, and traffic without capture
+     evaporates — you cannot retroactively collect past visitors. Replace the
+     action URL with your Kit form's endpoint (Kit form > Embed > raw HTML). -->
+<section class="signup" aria-label="Subscribe">
+  <p class="signup__pitch">A weekly edition, hand-topped with what the week actually meant. No noise.</p>
+  <form class="signup__form" action="https://app.kit.com/forms/9726048/subscriptions"
+      method="post" target="_blank">
+    <input class="signup__email" type="email" name="email_address"
+           placeholder="you@work.com" aria-label="Email address" required>
+    <button class="signup__button" type="submit">Subscribe</button>
+  </form>
+  <p class="signup__fine">Free. Unsubscribe any time.</p>
+</section>
+
+<footer class="colophon">
+  <p id="colophon-text"></p>
+  <p class="colophon__meta">
+    Headlines and links only; full text stays with the publisher.
+    Sources: arXiv (cs.CR, quant-ph), Hacker News, and CISA KEV.
+    <span id="refreshed"></span>
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

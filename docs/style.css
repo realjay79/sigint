@@ -1,0 +1,432 @@
+/* SIGINT — broadsheet layout on Jay's existing token system.
+   The signature element is the score rail: a mono readout of the two axes
+   in the left margin of every story. It is the thesis of the publication
+   rendered as structure, so everything else stays quiet. */
+
+:root {
+  --paper:  #faf9f5;
+  --ink:    #14181b;
+  --accent: #1f4a5f;   /* carried over from jaysrinivasan.dev */
+  --rule:   #d3cec4;
+  --muted:  #6c7378;
+  --flag:   #8a2b1c;   /* the only warm colour; BREAK GLASS only */
+
+  /* One colour per quadrant. Heat is reserved for the urgent one so the
+     page stays quiet when nothing is on fire. */
+  --q-break-glass:     #8a2b1c;
+  --q-standing-orders: #1f4a5f;
+  --q-new-ground:      #4a5c66;
+  --q-noise-floor:     #8d9298;
+
+  --serif: "IBM Plex Serif", Georgia, serif;
+  --sans:  "IBM Plex Sans", system-ui, sans-serif;
+  --mono:  "IBM Plex Mono", ui-monospace, monospace;
+
+  --measure: 68ch;
+  --rail: 4.25rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+  max-width: 54rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* ---------------------------------------------------------------- masthead */
+
+.masthead {
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 0.75rem;
+}
+
+.masthead__row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.masthead__mark {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  border: 1px solid var(--rule);
+  padding: 0.1rem 0.35rem;
+  transform: translateY(-0.35rem);
+}
+
+.masthead__name {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(2.4rem, 9vw, 4rem);
+  letter-spacing: 0.14em;
+  line-height: 1;
+}
+
+.masthead__edition {
+  margin: 0 0 0 auto;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.masthead__standfirst {
+  margin: 0.7rem 0 0;
+  max-width: var(--measure);
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+/* ---------------------------------------------------------------- controls */
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 2.5rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+}
+
+.controls__group { display: flex; align-items: center; gap: 0.7rem; }
+
+.controls__label {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.controls__chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+
+.chip {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.22rem 0.5rem;
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--muted);
+}
+
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+
+.chip[aria-pressed="true"] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.chip__count { opacity: 0.55; margin-left: 0.3rem; }
+
+/* ----------------------------------------------------------------- stories */
+
+.stories { margin: 0; }
+
+.story {
+  display: grid;
+  grid-template-columns: var(--rail) 1fr;
+  gap: 0 1.5rem;
+  padding: 1.6rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* The lead story gets size, not decoration. */
+.story--lead { padding-top: 2.1rem; }
+.story--lead .story__title { font-size: clamp(1.5rem, 4.2vw, 2.05rem); }
+.story--lead .story__dek   { font-size: 1.05rem; }
+
+/* -- the score rail: the one memorable thing on the page ------------------ */
+
+.rail {
+  border-right: 1px solid var(--rule);
+  padding-right: 1rem;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.rail__axis { display: flex; justify-content: space-between; letter-spacing: 0.04em; }
+.rail__axis + .rail__axis { margin-top: 0.3rem; }
+.rail__val { color: var(--ink); }
+
+.rail__bar {
+  display: flex;
+  gap: 2px;
+  margin-top: 0.2rem;
+}
+
+.rail__tick {
+  height: 3px;
+  flex: 1;
+  background: var(--rule);
+}
+
+.rail__tick--on { background: var(--accent); }
+
+/* The signature element: a literal 2x2 with the live cell filled.
+   Top row is high novelty, right column is high actionability, so the
+   glyph reads as a position rather than a rank. */
+.matrix {
+  display: grid;
+  grid-template-columns: repeat(2, 9px);
+  grid-template-rows: repeat(2, 9px);
+  gap: 2px;
+  margin-top: 0.75rem;
+}
+
+.matrix__cell {
+  border: 1px solid var(--rule);
+}
+
+.matrix__cell--on { border-color: transparent; }
+
+.matrix__cell--break-glass     { background: var(--q-break-glass); }
+.matrix__cell--standing-orders { background: var(--q-standing-orders); }
+.matrix__cell--new-ground      { background: var(--q-new-ground); }
+.matrix__cell--noise-floor     { background: var(--q-noise-floor); }
+
+.rail__quad {
+  margin-top: 0.5rem;
+  padding-top: 0.45rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.58rem;
+  letter-spacing: 0.06em;
+  line-height: 1.3;
+}
+
+.rail__quad--break-glass     { color: var(--q-break-glass); }
+.rail__quad--standing-orders { color: var(--q-standing-orders); }
+.rail__quad--new-ground      { color: var(--q-new-ground); }
+.rail__quad--noise-floor     { color: var(--q-noise-floor); }
+
+/* -- the story body ------------------------------------------------------- */
+
+.story__title {
+  margin: -0.15rem 0 0;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.22rem;
+  line-height: 1.24;
+  max-width: var(--measure);
+}
+
+.story__title a { text-decoration: none; }
+.story__title a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.story__dek {
+  margin: 0.5rem 0 0;
+  max-width: var(--measure);
+  color: #333b40;
+}
+
+.story__unproven {
+  margin: 0.5rem 0 0;
+  max-width: var(--measure);
+  padding-left: 0.7rem;
+  border-left: 2px solid var(--rule);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.story__unproven span {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+/* Prior coverage. Deliberately warmer than the caveat line: this is the one
+   place the publication gets to point at its own memory. */
+.story__prior {
+  margin: 0.5rem 0 0;
+  max-width: var(--measure);
+  padding: 0.4rem 0.7rem;
+  border-left: 2px solid var(--flag);
+  background: rgba(138, 43, 28, 0.04);
+  font-size: 0.85rem;
+}
+
+.story__prior span {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--flag);
+  margin-right: 0.35rem;
+}
+
+.story__prior a { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
+
+.story__meta {
+  margin: 0.65rem 0 0;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.story__meta em { font-style: normal; color: var(--accent); }
+
+/* -------------------------------------------------------- states, colophon */
+
+.state {
+  padding: 3rem 0;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* ------------------------------------------------------- filed under noise */
+
+.noise { margin-top: 2.25rem; }
+
+.noise__head {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.noise__intro {
+  margin: 0.15rem 0 0.7rem;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.noise__list { margin: 0; padding: 0; list-style: none; }
+
+.noise__item {
+  padding: 0.45rem 0;
+  border-top: 1px solid var(--rule);
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.noise__item a { color: var(--muted); text-decoration: none; }
+.noise__item a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+
+.noise__meta {
+  display: block;
+  margin-top: 0.15rem;
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.05em;
+}
+
+.colophon {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--ink);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.colophon p { margin: 0 0 0.4rem; }
+.colophon__meta { max-width: var(--measure); }
+
+/* ---------------------------------------------------------------- responsive */
+
+@media (max-width: 34rem) {
+  body { padding: 1.75rem 1.1rem 3rem; }
+
+  .story { grid-template-columns: 1fr; gap: 0.6rem; }
+
+  .rail {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--rule);
+    padding: 0 0 0.5rem;
+  }
+
+  .rail__axis { gap: 0.35rem; }
+  .rail__bar  { display: none; }
+  .matrix     { margin: 0; }
+  .rail__quad { margin: 0 0 0 auto; padding: 0; border-top: 0; }
+
+  .masthead__edition { margin-left: 0; width: 100%; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .story { animation: rise 0.32s ease-out both; }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: none; }
+  }
+}
+
+/* ---------------------------------------------------------------- signup */
+
+.signup {
+  margin-top: 2.25rem;
+  padding: 1.5rem;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+}
+
+.signup__pitch {
+  margin: 0 0 0.9rem;
+  max-width: var(--measure);
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  color: var(--ink);
+}
+
+.signup__form { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+.signup__email {
+  flex: 1 1 16rem;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink);
+}
+
+.signup__email:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.signup__button {
+  padding: 0.6rem 1.1rem;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+.signup__button:hover { background: var(--accent); border-color: var(--accent); }
+
+.signup__fine {
+  margin: 0.7rem 0 0;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  color: var(--muted);
+}
