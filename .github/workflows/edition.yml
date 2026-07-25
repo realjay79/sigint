@@ -2,9 +2,9 @@ name: edition
 
 on:
   schedule:
-    # Every 30 minutes. GitHub queues scheduled runs under load, so treat this
-    # as "roughly every 30-60 minutes". Fine for a newspaper, not for alerting.
-    - cron: "*/30 * * * *"
+    # Every 4 hours. GitHub queues scheduled runs under load, so treat this as
+    # "roughly every 4-5 hours". Fine for a newspaper, not for alerting.
+    - cron: "0 */4 * * *"
   workflow_dispatch: {}
 
 # Needed so the job can push edition.json and scored.json back to the repo.
