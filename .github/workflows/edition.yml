@@ -29,7 +29,7 @@ jobs:
 
       - name: Build edition
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SCORING_API_KEY: ${{ secrets.SCORING_API_KEY }}
         run: go run ./cmd/edition
 
       - name: Commit if anything changed

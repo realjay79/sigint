@@ -31,8 +31,8 @@ const (
 
 // ArxivCategories are fetched in separate requests, 3s apart, as arXiv asks.
 var ArxivCategories = []string{
-	"cs.CR", // cryptography and security
-	// "quant-ph", // quantum physics; noisy, so the rubric has to work harder
+	"cs.CR",   // cryptography and security
+	"quant-ph", // quantum physics; noisy, so the rubric has to work harder
 }
 
 // ArxivMaxResults per category per run.
@@ -99,8 +99,20 @@ var HNKeywords = []string{
 // ---------------------------------------------------------------------------
 
 const (
-	// Model is the scoring model. Haiku is plenty for this and costs cents.
-	Model = "claude-haiku-4-5-20251001"
+	// Scoring provider. Kept here so the score package stays provider-agnostic:
+	// swapping models or vendors is a config edit, not a code change.
+	Model           = "claude-haiku-4-5-20251001"
+	ScoringEndpoint = "https://api.anthropic.com/v1/messages"
+	ScoringAPIVersion = "2023-06-01"
+
+	// APIKeyEnv is the environment variable the key is read from. Neutral by
+	// design — the code never hardcodes a vendor name.
+	APIKeyEnv = "SCORING_API_KEY"
+
+	// ScoringVersionHeader is the provider's required version header name.
+	// A protocol requirement, not branding; kept here so score.go carries no
+	// vendor strings at all.
+	ScoringVersionHeader = "anthropic-version"
 
 	// BatchSize is how many items go into one API call.
 	BatchSize = 10

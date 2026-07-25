@@ -15,7 +15,7 @@
      reader. Replace MYCODE with the code from your goatcounter.com signup.
      Counts script loads, not JSON polls, so your always-open tab does not
      inflate the numbers. -->
-<script data-goatcounter="https://sigint.goatcounter.com/count"
+<script data-goatcounter="https://MYCODE.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -48,14 +48,13 @@
 
 <section id="noise" class="noise" aria-label="Filed under noise"></section>
 
-<!-- Email capture. Collect from day one; send nothing yet. Every route to
-     eventual revenue runs through this list, and traffic without capture
-     evaporates — you cannot retroactively collect past visitors. Replace the
-     action URL with your Kit form's endpoint (Kit form > Embed > raw HTML). -->
+<!-- Email capture -> Kit form 9726048. Collect from day one; send nothing yet.
+     Every route to eventual revenue runs through this list, and traffic without
+     capture evaporates. The plain POST needs no Kit JavaScript to work. -->
 <section class="signup" aria-label="Subscribe">
   <p class="signup__pitch">A weekly edition, hand-topped with what the week actually meant. No noise.</p>
   <form class="signup__form" action="https://app.kit.com/forms/9726048/subscriptions"
-      method="post" target="_blank">
+        method="post" target="_blank">
     <input class="signup__email" type="email" name="email_address"
            placeholder="you@work.com" aria-label="Email address" required>
     <button class="signup__button" type="submit">Subscribe</button>
@@ -67,7 +66,7 @@
   <p id="colophon-text"></p>
   <p class="colophon__meta">
     Headlines and links only; full text stays with the publisher.
-    Sources: arXiv (cs.CR, quant-ph), Hacker News, and CISA KEV.
+    Sources: arXiv (cs.CR), Hacker News, and CISA KEV.
     <span id="refreshed"></span>
   </p>
 </footer>

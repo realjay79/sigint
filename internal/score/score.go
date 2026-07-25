@@ -164,9 +164,9 @@ type promptItem struct {
 // back with a usable verdict. A failed batch is logged and skipped; the items
 // stay unscored and will be retried on the next run.
 func Batch(client *http.Client, items []model.Item) []model.Item {
-	apiKey := os.Getenv("ANTHROPIC_API_KEY")
+	apiKey := os.Getenv(config.APIKeyEnv)
 	if apiKey == "" {
-		fmt.Println("  ANTHROPIC_API_KEY not set — skipping scoring")
+		fmt.Printf("  %s not set — skipping scoring\n", config.APIKeyEnv)
 		return nil
 	}
 
@@ -239,13 +239,13 @@ func scoreOne(client *http.Client, apiKey string, batch []model.Item) ([]verdict
 	}
 
 	req, err := http.NewRequest(http.MethodPost,
-		"https://api.anthropic.com/v1/messages", bytes.NewReader(body))
+		config.ScoringEndpoint, bytes.NewReader(body))
 	if err != nil {
 		return nil, err
 	}
 	req.Header.Set("content-type", "application/json")
 	req.Header.Set("x-api-key", apiKey)
-	req.Header.Set("anthropic-version", "2023-06-01")
+	req.Header.Set(config.ScoringVersionHeader, config.ScoringAPIVersion)
 
 	resp, err := client.Do(req)
 	if err != nil {

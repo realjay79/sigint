@@ -1,100 +1,15 @@
 {
-  "generated": "2026-07-25T16:26:07.906847Z",
-  "edition": 1,
+  "generated": "2026-07-22T00:00:00Z",
+  "edition": 0,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
-  "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
+  "colophon": "sigint.wtf \u2014 the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 5,
-    "by_source": {
-      "arxiv": 2,
-      "hn": 3
-    },
-    "by_quadrant": {
-      "NEW GROUND": 1,
-      "NOISE FLOOR": 3,
-      "STANDING ORDERS": 1
-    }
+    "total": 0,
+    "by_source": {},
+    "by_quadrant": {}
   },
-  "items": [
-    {
-      "id": "hn:49034292",
-      "source": "hn",
-      "title": "My security camera shipped a GitHub admin token in its login page",
-      "url": "https://hhh.hn/hanwha-github-token",
-      "published": "2026-07-24T11:54:41Z",
-      "authors": "hhh",
-      "points": 631,
-      "novelty": 2,
-      "actionability": 3,
-      "score": 5,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Security camera shipped GitHub admin token in login page HTML.",
-      "unproven": "whether this affects other devices from the same vendor or product line",
-      "scored_at": "2026-07-25T16:26:07.896689Z"
-    },
-    {
-      "id": "arxiv:2607.21551v1",
-      "source": "arxiv",
-      "title": "Unconditional Unclonable Encryption",
-      "url": "http://arxiv.org/abs/2607.21551v1",
-      "published": "2026-07-23T17:35:44Z",
-      "authors": "Prabhanjan Ananth et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Information-theoretic unconditional construction of one-time unclonable encryption for one-bit messages with efficient operations.",
-      "unproven": "Scalability to multi-bit or practical message spaces; practical utility compared to conditional constructions.",
-      "scored_at": "2026-07-25T16:24:03.856296Z"
-    },
-    {
-      "id": "arxiv:2607.21564v1",
-      "source": "arxiv",
-      "title": "Where You Tap Matters: A Probe-and-Model Benchmark for Open-Set RF Fingerprinting",
-      "url": "http://arxiv.org/abs/2607.21564v1",
-      "published": "2026-07-23T17:48:38Z",
-      "authors": "Gabriele Oligeri et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Systematic evaluation of radio frequency fingerprinting probe points shows timing recovery stage enables best classification but finding is domain-specific to RF hardware.",
-      "unproven": "Applicability beyond BPSK receiver chains and lab-collected signals; no deployment validation in production RF systems.",
-      "scored_at": "2026-07-25T16:24:03.856294Z"
-    },
-    {
-      "id": "hn:49024938",
-      "source": "hn",
-      "title": "Kimi K3 exploited the latest Redis server",
-      "url": "https://twitter.com/fried_rice/status/2080059356322918777",
-      "published": "2026-07-23T17:10:02Z",
-      "authors": "Alifatisk",
-      "points": 265,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Social media post alleges exploitation of Redis without technical details or PoC.",
-      "unproven": "exploitation technique, affected versions, reproducibility, real-world impact",
-      "scored_at": "2026-07-25T16:26:07.896692Z"
-    },
-    {
-      "id": "hn:49024643",
-      "source": "hn",
-      "title": "The arguments against open source AI are bad",
-      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad",
-      "published": "2026-07-23T16:49:57Z",
-      "authors": "jjfoooo4",
-      "points": 309,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Opinion piece arguing against open-source AI licensing restrictions.",
-      "scored_at": "2026-07-25T16:26:07.896692Z"
-    }
-  ],
-  "noise": null
+  "items": [],
+  "noise": []
 }
