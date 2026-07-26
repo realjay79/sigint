@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-25T18:23:52.661586Z",
-  "edition": 1,
+  "generated": "2026-07-26T01:51:51.249565563Z",
+  "edition": 2,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -12,9 +12,9 @@
       "hn": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 5,
-      "NEW GROUND": 7,
-      "NOISE FLOOR": 12,
+      "BREAK GLASS": 2,
+      "NEW GROUND": 8,
+      "NOISE FLOOR": 14,
       "STANDING ORDERS": 1
     }
   },
@@ -35,36 +35,6 @@
       "scored_at": "2026-07-25T16:24:03.856315Z"
     },
     {
-      "id": "arxiv:2607.20800v1",
-      "source": "arxiv",
-      "title": "Classical Acceptance Is Not Hybrid Authentication: Measuring X.509 Verifier Semantics in Post-Quantum Migration",
-      "url": "http://arxiv.org/abs/2607.20800v1",
-      "published": "2026-07-23T00:04:32Z",
-      "authors": "Taesung Kim et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Eight X.509 path-validation stacks accept hybrid post-quantum certificates on classical evidence alone, silently bypassing post-quantum verification.",
-      "unproven": "Limited to tested stacks and certificate schemes; real-world deployment impact and remediation timeline for affected vendors not yet established.",
-      "scored_at": "2026-07-25T16:24:15.937692Z"
-    },
-    {
-      "id": "arxiv:2607.20759v1",
-      "source": "arxiv",
-      "title": "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
-      "url": "http://arxiv.org/abs/2607.20759v1",
-      "published": "2026-07-22T22:20:02Z",
-      "authors": "Ankur Singh et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "66.5% of malicious GitHub issues crafted to exploit autonomous coding agents trigger code injection or data exfiltration in production tools.",
-      "unproven": "Evaluation against three agent implementations and two model families; generalization to agents not tested and deployment mitigations not assessed.",
-      "scored_at": "2026-07-25T16:24:15.937693Z"
-    },
-    {
       "id": "arxiv:2607.21325v1",
       "source": "arxiv",
       "title": "Toward cryptographically verifiable authorization for autonomous AI agents: A security hypothesis, preliminary formal model, and proof-of-concept implementation",
@@ -78,36 +48,6 @@
       "dek": "Cryptographically Verifiable Agent Authorization formalizes policy-bound authorization as a zk-SNARK relation, directly applicable to AI agents in SDLC.",
       "unproven": "Scalability and performance overhead in production deployments; compatibility with existing SDLC orchestration and policy frameworks.",
       "scored_at": "2026-07-25T16:24:03.856299Z"
-    },
-    {
-      "id": "arxiv:2607.20723v1",
-      "source": "arxiv",
-      "title": "Leaky Language Models: Stealing Architecture and Inference Optimizations via Per-Token Timing",
-      "url": "http://arxiv.org/abs/2607.20723v1",
-      "published": "2026-07-22T20:51:28Z",
-      "authors": "Sadegh Majidi et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Token-generation timing from remote LLM APIs reveals speculative decoding, draft context windows, and transformer layer counts.",
-      "unproven": "Demonstrated only on Google Gemini; generalization to other providers' APIs and defenses against timing side-channels not explored.",
-      "scored_at": "2026-07-25T16:24:15.937695Z"
-    },
-    {
-      "id": "arxiv:2607.20713v1",
-      "source": "arxiv",
-      "title": "Security Vulnerability Patterns in AI-Generated Code: A Cross-Model Comparative Study",
-      "url": "http://arxiv.org/abs/2607.20713v1",
-      "published": "2026-07-22T20:31:11Z",
-      "authors": "Shanna M. Kahn et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "BREAK GLASS",
-      "dek": "All automation code from ChatGPT, Copilot, and Gemini contained CVSS-scorable vulnerabilities; risk uniform across models, not tool-specific.",
-      "unproven": "Limited to three models and automation domain; generalization to code-generation at scale and to custom enterprise prompts not established.",
-      "scored_at": "2026-07-25T16:24:15.937696Z"
     },
     {
       "id": "hn:49034292",
@@ -216,19 +156,49 @@
       "scored_at": "2026-07-25T16:24:03.856313Z"
     },
     {
-      "id": "arxiv:2607.20698v1",
+      "id": "arxiv:2607.21002v1",
       "source": "arxiv",
-      "title": "Buzz to Boom: Detecting Message Progression Vulnerabilities in Electron Applications via Segmented Directed Fuzzing",
-      "url": "http://arxiv.org/abs/2607.20698v1",
-      "published": "2026-07-22T20:11:33Z",
-      "authors": "Jianjia Yu et al.",
-      "novelty": 3,
-      "actionability": 2,
+      "title": "On-chip Radio Frequency Maser",
+      "url": "http://arxiv.org/abs/2607.21002v1",
+      "published": "2026-07-23T07:37:17Z",
+      "authors": "Hongliang Wu et al.",
+      "novelty": 4,
+      "actionability": 1,
       "score": 5,
       "quadrant": "NEW GROUND",
-      "dek": "Directed fuzzing framework detects multi-step Electron inter-process message attacks that propagate attacker input to privileged APIs.",
-      "unproven": "Evaluated on synthetic Electron testbed; no evidence of real-world Electron application scanning or comparison to existing Electron security tooling.",
-      "scored_at": "2026-07-25T16:24:15.937697Z"
+      "dek": "First on-chip room-temperature radio-frequency maser achieves femtotesla-scale magnetic-field sensitivity at 106 MHz.",
+      "unproven": "Scalability to practical sensing deployments, integration into measurement systems beyond laboratory demonstration, long-term stability under realistic operating conditions.",
+      "scored_at": "2026-07-26T01:51:35.436999989Z"
+    },
+    {
+      "id": "arxiv:2607.20959v1",
+      "source": "arxiv",
+      "title": "Large deviations in quantum dynamics and complexity",
+      "url": "http://arxiv.org/abs/2607.20959v1",
+      "published": "2026-07-23T06:36:47Z",
+      "authors": "Xiangyu Cao et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Large deviation functions in many-body quantum dynamics reveal sharp timescale separation: expectation-value convergence requires exponentially long evolution times.",
+      "unproven": "Connection to computationally relevant systems, testability on near-term quantum hardware, practical application beyond theoretical framework.",
+      "scored_at": "2026-07-26T01:51:35.43700083Z"
+    },
+    {
+      "id": "arxiv:2607.20919v1",
+      "source": "arxiv",
+      "title": "Random unitary circuits with constant spectral gap",
+      "url": "http://arxiv.org/abs/2607.20919v1",
+      "published": "2026-07-23T04:56:09Z",
+      "authors": "Tim Baer et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Constant spectral gaps proven for random Pauli rotations and brickwork unitary circuits independent of system size and representation.",
+      "unproven": "Experimental observation of these gaps on quantum hardware, implications for circuit-depth requirements in practical randomization schemes.",
+      "scored_at": "2026-07-26T01:51:35.437001401Z"
     },
     {
       "id": "arxiv:2607.21449v1",
@@ -393,6 +363,35 @@
       "dek": "Entanglement asymmetry quantifies Kramers-Wannier symmetry breaking; quantum Mpemba effect emerges in quenches.",
       "unproven": "whether the effect survives realistic dissipation or occurs in physical systems beyond the transverse-field Ising chain",
       "scored_at": "2026-07-25T18:23:52.656464Z"
+    },
+    {
+      "id": "arxiv:2607.21216v1",
+      "source": "arxiv",
+      "title": "ARGON: A GNN-Empowered Compilation Framework for Scalable Neutral Atom Computing",
+      "url": "http://arxiv.org/abs/2607.21216v1",
+      "published": "2026-07-23T11:30:05Z",
+      "authors": "Wenjie Sun et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "GNN-based compiler decouples spatial and temporal optimization for neutral atom quantum circuits.",
+      "unproven": "whether the approach scales to circuits large enough to demonstrate quantum advantage or works on deployed neutral atom hardware",
+      "scored_at": "2026-07-25T18:23:52.656464Z"
+    },
+    {
+      "id": "arxiv:2607.21215v1",
+      "source": "arxiv",
+      "title": "Quantum Circuit Fragments and Link Products in Continuous Variables",
+      "url": "http://arxiv.org/abs/2607.21215v1",
+      "published": "2026-07-23T11:29:37Z",
+      "authors": "Amalina Lai et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Link product framework extends circuit-fragment composition to continuous-variable quantum systems.",
+      "scored_at": "2026-07-25T18:23:52.656465Z"
     }
   ],
   "noise": [
