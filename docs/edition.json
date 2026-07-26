@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T09:51:00.851623292Z",
+  "generated": "2026-07-26T12:58:38.047182809Z",
   "edition": 2,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,13 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 21,
-      "hn": 4
+      "arxiv": 18,
+      "hn": 7
     },
     "by_quadrant": {
       "BREAK GLASS": 1,
-      "NEW GROUND": 5,
-      "NOISE FLOOR": 18,
+      "NEW GROUND": 3,
+      "NOISE FLOOR": 20,
       "STANDING ORDERS": 1
     }
   },
@@ -143,36 +143,6 @@
       "scored_at": "2026-07-25T18:23:44.946854Z"
     },
     {
-      "id": "arxiv:2607.21240v1",
-      "source": "arxiv",
-      "title": "Why Some Quantum States Cannot Be Recovered",
-      "url": "http://arxiv.org/abs/2607.21240v1",
-      "published": "2026-07-23T11:58:01Z",
-      "authors": "Yuan Liu et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Unrecoverable quantum information called ghost correlations exhibits universal error floor and spectral phase transition.",
-      "unproven": "whether the theoretical predictions hold for realistic noise and whether the results apply beyond the theoretical model studied",
-      "scored_at": "2026-07-25T18:23:52.656463Z"
-    },
-    {
-      "id": "arxiv:2607.21162v1",
-      "source": "arxiv",
-      "title": "Agree on the Model, Verify the Inference: GKR Protocols for HND-Based Transformer Inference",
-      "url": "http://arxiv.org/abs/2607.21162v1",
-      "published": "2026-07-23T10:52:53Z",
-      "authors": "Xiaolong Liang et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "GKR-HND protocol verifies Transformer inference against model substitution by combining registered-weight checks with delegated computation.",
-      "unproven": "Practical performance cost; real-world threat model for outsourced inference in financial services; assumed honest verifier is restrictive.",
-      "scored_at": "2026-07-25T16:24:03.856313Z"
-    },
-    {
       "id": "arxiv:2607.21449v1",
       "source": "arxiv",
       "title": "QuantumChain: Blockchain-Backed Quantum Federated Learning for Financial Fraud Detection",
@@ -293,79 +263,6 @@
       "scored_at": "2026-07-25T18:23:52.656461Z"
     },
     {
-      "id": "arxiv:2607.21256v1",
-      "source": "arxiv",
-      "title": "Space-division multiplexed quantum key distribution exploiting multi-plane light conversion for few-mode fibers",
-      "url": "http://arxiv.org/abs/2607.21256v1",
-      "published": "2026-07-23T12:27:46Z",
-      "authors": "Qian Zhang et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Multi-plane light conversion enables space-division multiplexing of QKD over few-mode fiber.",
-      "unproven": "whether the approach works at distances and key rates required for production quantum networks, or whether it scales beyond two channels",
-      "scored_at": "2026-07-25T18:23:52.656462Z"
-    },
-    {
-      "id": "arxiv:2607.21248v1",
-      "source": "arxiv",
-      "title": "Tailoring optical Schrödinger cat states via orientation-dependent high-harmonic generation in $\\rm{H}_2^+$",
-      "url": "http://arxiv.org/abs/2607.21248v1",
-      "published": "2026-07-23T12:17:16Z",
-      "authors": "Ziyang Gan et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Molecular orientation controls Schrödinger cat state generation via high-harmonic generation.",
-      "scored_at": "2026-07-25T18:23:52.656463Z"
-    },
-    {
-      "id": "arxiv:2607.21226v1",
-      "source": "arxiv",
-      "title": "Entanglement asymmetry and quantum Mpemba effect for Kramers-Wannier duality",
-      "url": "http://arxiv.org/abs/2607.21226v1",
-      "published": "2026-07-23T11:42:49Z",
-      "authors": "Milo Vescovo et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Entanglement asymmetry quantifies Kramers-Wannier symmetry breaking; quantum Mpemba effect emerges in quenches.",
-      "unproven": "whether the effect survives realistic dissipation or occurs in physical systems beyond the transverse-field Ising chain",
-      "scored_at": "2026-07-25T18:23:52.656464Z"
-    },
-    {
-      "id": "arxiv:2607.21216v1",
-      "source": "arxiv",
-      "title": "ARGON: A GNN-Empowered Compilation Framework for Scalable Neutral Atom Computing",
-      "url": "http://arxiv.org/abs/2607.21216v1",
-      "published": "2026-07-23T11:30:05Z",
-      "authors": "Wenjie Sun et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "GNN-based compiler decouples spatial and temporal optimization for neutral atom quantum circuits.",
-      "unproven": "whether the approach scales to circuits large enough to demonstrate quantum advantage or works on deployed neutral atom hardware",
-      "scored_at": "2026-07-25T18:23:52.656464Z"
-    },
-    {
-      "id": "arxiv:2607.21215v1",
-      "source": "arxiv",
-      "title": "Quantum Circuit Fragments and Link Products in Continuous Variables",
-      "url": "http://arxiv.org/abs/2607.21215v1",
-      "published": "2026-07-23T11:29:37Z",
-      "authors": "Amalina Lai et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Link product framework extends circuit-fragment composition to continuous-variable quantum systems.",
-      "scored_at": "2026-07-25T18:23:52.656465Z"
-    },
-    {
       "id": "hn:49048034",
       "source": "hn",
       "title": "Open-weight AI is having its Kubernetes moment",
@@ -395,6 +292,112 @@
       "dek": "Systematic evaluation of radio frequency fingerprinting probe points shows timing recovery stage enables best classification but finding is domain-specific to RF hardware.",
       "unproven": "Applicability beyond BPSK receiver chains and lab-collected signals; no deployment validation in production RF systems.",
       "scored_at": "2026-07-25T16:24:03.856294Z"
+    },
+    {
+      "id": "arxiv:2607.21544v1",
+      "source": "arxiv",
+      "title": "The trainability of photonic quantum circuits",
+      "url": "http://arxiv.org/abs/2607.21544v1",
+      "published": "2026-07-23T17:31:09Z",
+      "authors": "Alexander Makarovskiy et al.",
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Trainability of photonic quantum circuits depends on sample variance to circuit variance ratio.",
+      "unproven": "outside reader's remit entirely",
+      "scored_at": "2026-07-25T18:23:30.741846Z"
+    },
+    {
+      "id": "arxiv:2607.21411v1",
+      "source": "arxiv",
+      "title": "QSTAR: Quantum Selective Transfer with Adaptive Routing",
+      "url": "http://arxiv.org/abs/2607.21411v1",
+      "published": "2026-07-23T15:14:29Z",
+      "authors": "Saim Rehman et al.",
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Hybrid quantum-classical routing on Fashion-MNIST shows quantum branch has marginal advantage on low-confidence samples.",
+      "unproven": "Results limited to Fashion-MNIST with frozen ResNet18; no evidence quantum branch generalizes to production ML pipelines or real financial datasets.",
+      "scored_at": "2026-07-25T18:23:44.946848Z"
+    },
+    {
+      "id": "arxiv:2607.21406v1",
+      "source": "arxiv",
+      "title": "Themis Consensus Extension v1: MEV Mitigation by Randomized Delayed Execution and Intent-Hiding Transactions in Application-Specific Blockchains",
+      "url": "http://arxiv.org/abs/2607.21406v1",
+      "published": "2026-07-23T15:05:09Z",
+      "authors": "Shoeb Siddiqui et al.",
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Themis Consensus Extension v1 separates MEV extraction types via randomized delayed execution and intent-hiding but does not achieve full transaction fairness.",
+      "unproven": "Robustness under collusion; applicability beyond intent-hiding constraints; validation on live blockchains at scale.",
+      "scored_at": "2026-07-25T16:24:03.856297Z"
+    },
+    {
+      "id": "arxiv:2607.21399v1",
+      "source": "arxiv",
+      "title": "Towards more accurate natural orbital functional approximations: including 4-index cumulant contributions",
+      "url": "http://arxiv.org/abs/2607.21399v1",
+      "published": "2026-07-23T14:59:50Z",
+      "authors": "Valerii Chuiko et al.",
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Refined density matrix functional improves dissociation energy prediction for strongly correlated molecules.",
+      "unproven": "Incremental improvement to existing method; application to systems beyond small molecules unclear.",
+      "scored_at": "2026-07-25T18:23:44.946852Z"
+    },
+    {
+      "id": "hn:49053385",
+      "source": "hn",
+      "title": "Git rebase -I is not that scary",
+      "url": "https://cachebag.sh/journal/interactive-rebasing",
+      "published": "2026-07-26T00:37:54Z",
+      "authors": "vinhnx",
+      "points": 48,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Tutorial on git rebase interactive flag.",
+      "unproven": "entirely outside the reader's domain; developer tooling advice unrelated to application security or SDLC governance",
+      "scored_at": "2026-07-26T06:29:56.056381073Z"
+    },
+    {
+      "id": "hn:49052912",
+      "source": "hn",
+      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+      "published": "2026-07-25T23:32:50Z",
+      "authors": "oliculipolicula",
+      "points": 121,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Leaked transcript of DeepSeek fundraising comments; reporting on corporate strategy and geopolitics.",
+      "scored_at": "2026-07-26T06:30:00.114406132Z"
+    },
+    {
+      "id": "hn:49050058",
+      "source": "hn",
+      "title": "Memory Safety Absolutists",
+      "url": "https://itsallaboutthebit.com/memory-safety-absolutists",
+      "published": "2026-07-25T18:08:52Z",
+      "authors": "drogus",
+      "points": 81,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Opinion piece on memory safety philosophy; no new finding or actionable guidance for tooling decisions.",
+      "scored_at": "2026-07-26T06:30:00.114406743Z"
     }
   ],
   "noise": [
@@ -430,19 +433,19 @@
       "scored_at": "2026-07-25T16:26:07.896692Z"
     },
     {
-      "id": "hn:49052912",
+      "id": "hn:49047707",
       "source": "hn",
-      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
-      "published": "2026-07-25T23:32:50Z",
-      "authors": "oliculipolicula",
-      "points": 121,
+      "title": "Scanwheel is a drum style mechanical television you can build yourself",
+      "url": "https://github.com/AncientJames/Scanwheel",
+      "published": "2026-07-25T14:10:43Z",
+      "authors": "tobr",
+      "points": 67,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Leaked transcript of DeepSeek fundraising comments; reporting on corporate strategy and geopolitics.",
-      "scored_at": "2026-07-26T06:30:00.114406132Z"
+      "dek": "DIY mechanical television project; entirely outside application security and financial services domain.",
+      "scored_at": "2026-07-26T06:30:00.114407184Z"
     }
   ]
 }
