@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T01:51:51.249565563Z",
+  "generated": "2026-07-26T06:30:00.116722284Z",
   "edition": 2,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,32 +8,17 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 24,
-      "hn": 1
+      "arxiv": 22,
+      "hn": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 2,
-      "NEW GROUND": 8,
-      "NOISE FLOOR": 14,
+      "BREAK GLASS": 1,
+      "NEW GROUND": 7,
+      "NOISE FLOOR": 16,
       "STANDING ORDERS": 1
     }
   },
   "items": [
-    {
-      "id": "arxiv:2607.20860v1",
-      "source": "arxiv",
-      "title": "Which Model Is Actually Serving You? IRIS: Budgeted Black-Box Auditing of Model Substitution and Routing Dilution in LLM Gateways",
-      "url": "http://arxiv.org/abs/2607.20860v1",
-      "published": "2026-07-23T02:32:08Z",
-      "authors": "Yuewei Zhang et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "IRIS audits LLM gateway model substitution and routing dilution using only returned text, self-sizing query budget, and fingerprinting.",
-      "unproven": "Robustness against adversarially-designed backends; applicability to non-text modalities or streaming inference; reproducibility on gateways beyond OpenRouter.",
-      "scored_at": "2026-07-25T16:24:03.856315Z"
-    },
     {
       "id": "arxiv:2607.21325v1",
       "source": "arxiv",
@@ -48,6 +33,38 @@
       "dek": "Cryptographically Verifiable Agent Authorization formalizes policy-bound authorization as a zk-SNARK relation, directly applicable to AI agents in SDLC.",
       "unproven": "Scalability and performance overhead in production deployments; compatibility with existing SDLC orchestration and policy frameworks.",
       "scored_at": "2026-07-25T16:24:03.856299Z"
+    },
+    {
+      "id": "hn:49050152",
+      "source": "hn",
+      "title": "Tile's security is so bad it's a feature for stalkers",
+      "url": "https://blog.adafruit.com/2026/03/05/tiles-security-is-so-bad-its-a-feature-for-stalkers",
+      "published": "2026-07-25T18:18:42Z",
+      "authors": "sambellll",
+      "points": 154,
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Tile tracking device security weaknesses documented; hardware outside reader's SDLC scope.",
+      "unproven": "scope limited to one product line; no implications for financial services software architecture",
+      "scored_at": "2026-07-26T06:30:00.114406482Z"
+    },
+    {
+      "id": "hn:49040296",
+      "source": "hn",
+      "title": "Postgres LISTEN/NOTIFY actually scales",
+      "url": "https://dbos.dev/blog/postgres-listen-notify-scalability",
+      "published": "2026-07-24T19:05:53Z",
+      "authors": "KraftyOne",
+      "points": 361,
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Postgres LISTEN/NOTIFY performance characteristics measured; relevant only if reader uses this feature for secure-SDLC infrastructure.",
+      "unproven": "scope limited to one database feature; applicability to reader's specific architecture unknown",
+      "scored_at": "2026-07-26T06:30:00.114407344Z"
     },
     {
       "id": "hn:49034292",
@@ -184,21 +201,6 @@
       "dek": "Large deviation functions in many-body quantum dynamics reveal sharp timescale separation: expectation-value convergence requires exponentially long evolution times.",
       "unproven": "Connection to computationally relevant systems, testability on near-term quantum hardware, practical application beyond theoretical framework.",
       "scored_at": "2026-07-26T01:51:35.43700083Z"
-    },
-    {
-      "id": "arxiv:2607.20919v1",
-      "source": "arxiv",
-      "title": "Random unitary circuits with constant spectral gap",
-      "url": "http://arxiv.org/abs/2607.20919v1",
-      "published": "2026-07-23T04:56:09Z",
-      "authors": "Tim Baer et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Constant spectral gaps proven for random Pauli rotations and brickwork unitary circuits independent of system size and representation.",
-      "unproven": "Experimental observation of these gaps on quantum hardware, implications for circuit-depth requirements in practical randomization schemes.",
-      "scored_at": "2026-07-26T01:51:35.437001401Z"
     },
     {
       "id": "arxiv:2607.21449v1",
@@ -395,6 +397,22 @@
     }
   ],
   "noise": [
+    {
+      "id": "hn:49048034",
+      "source": "hn",
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment",
+      "published": "2026-07-25T14:49:49Z",
+      "authors": "tknaup",
+      "points": 360,
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Essay comparing open-weight AI adoption to Kubernetes; no measurement or decision framework provided.",
+      "unproven": "no empirical data on security implications for agents entering SDLC",
+      "scored_at": "2026-07-26T06:30:00.114406923Z"
+    },
     {
       "id": "hn:49024643",
       "source": "hn",
