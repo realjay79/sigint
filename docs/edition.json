@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T06:30:00.116722284Z",
+  "generated": "2026-07-26T09:51:00.851623292Z",
   "edition": 2,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,13 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 22,
-      "hn": 3
+      "arxiv": 21,
+      "hn": 4
     },
     "by_quadrant": {
       "BREAK GLASS": 1,
-      "NEW GROUND": 7,
-      "NOISE FLOOR": 16,
+      "NEW GROUND": 5,
+      "NOISE FLOOR": 18,
       "STANDING ORDERS": 1
     }
   },
@@ -171,36 +171,6 @@
       "dek": "GKR-HND protocol verifies Transformer inference against model substitution by combining registered-weight checks with delegated computation.",
       "unproven": "Practical performance cost; real-world threat model for outsourced inference in financial services; assumed honest verifier is restrictive.",
       "scored_at": "2026-07-25T16:24:03.856313Z"
-    },
-    {
-      "id": "arxiv:2607.21002v1",
-      "source": "arxiv",
-      "title": "On-chip Radio Frequency Maser",
-      "url": "http://arxiv.org/abs/2607.21002v1",
-      "published": "2026-07-23T07:37:17Z",
-      "authors": "Hongliang Wu et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "First on-chip room-temperature radio-frequency maser achieves femtotesla-scale magnetic-field sensitivity at 106 MHz.",
-      "unproven": "Scalability to practical sensing deployments, integration into measurement systems beyond laboratory demonstration, long-term stability under realistic operating conditions.",
-      "scored_at": "2026-07-26T01:51:35.436999989Z"
-    },
-    {
-      "id": "arxiv:2607.20959v1",
-      "source": "arxiv",
-      "title": "Large deviations in quantum dynamics and complexity",
-      "url": "http://arxiv.org/abs/2607.20959v1",
-      "published": "2026-07-23T06:36:47Z",
-      "authors": "Xiangyu Cao et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Large deviation functions in many-body quantum dynamics reveal sharp timescale separation: expectation-value convergence requires exponentially long evolution times.",
-      "unproven": "Connection to computationally relevant systems, testability on near-term quantum hardware, practical application beyond theoretical framework.",
-      "scored_at": "2026-07-26T01:51:35.43700083Z"
     },
     {
       "id": "arxiv:2607.21449v1",
@@ -394,9 +364,7 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Link product framework extends circuit-fragment composition to continuous-variable quantum systems.",
       "scored_at": "2026-07-25T18:23:52.656465Z"
-    }
-  ],
-  "noise": [
+    },
     {
       "id": "hn:49048034",
       "source": "hn",
@@ -413,6 +381,23 @@
       "unproven": "no empirical data on security implications for agents entering SDLC",
       "scored_at": "2026-07-26T06:30:00.114406923Z"
     },
+    {
+      "id": "arxiv:2607.21564v1",
+      "source": "arxiv",
+      "title": "Where You Tap Matters: A Probe-and-Model Benchmark for Open-Set RF Fingerprinting",
+      "url": "http://arxiv.org/abs/2607.21564v1",
+      "published": "2026-07-23T17:48:38Z",
+      "authors": "Gabriele Oligeri et al.",
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Systematic evaluation of radio frequency fingerprinting probe points shows timing recovery stage enables best classification but finding is domain-specific to RF hardware.",
+      "unproven": "Applicability beyond BPSK receiver chains and lab-collected signals; no deployment validation in production RF systems.",
+      "scored_at": "2026-07-25T16:24:03.856294Z"
+    }
+  ],
+  "noise": [
     {
       "id": "hn:49024643",
       "source": "hn",
@@ -443,6 +428,21 @@
       "dek": "Social media post alleges exploitation of Redis without technical details or PoC.",
       "unproven": "exploitation technique, affected versions, reproducibility, real-world impact",
       "scored_at": "2026-07-25T16:26:07.896692Z"
+    },
+    {
+      "id": "hn:49052912",
+      "source": "hn",
+      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+      "published": "2026-07-25T23:32:50Z",
+      "authors": "oliculipolicula",
+      "points": 121,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Leaked transcript of DeepSeek fundraising comments; reporting on corporate strategy and geopolitics.",
+      "scored_at": "2026-07-26T06:30:00.114406132Z"
     }
   ]
 }
