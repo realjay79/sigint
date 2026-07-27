@@ -1,21 +1,38 @@
 {
-  "generated": "2026-07-27T06:55:34.971422004Z",
+  "generated": "2026-07-27T11:11:35.486176888Z",
   "edition": 3,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 13,
+    "total": 22,
     "by_source": {
+      "arxiv": 9,
       "hn": 13
     },
     "by_quadrant": {
-      "NOISE FLOOR": 12,
+      "BREAK GLASS": 1,
+      "NOISE FLOOR": 20,
       "STANDING ORDERS": 1
     }
   },
   "items": [
+    {
+      "id": "arxiv:2607.22445v1",
+      "source": "arxiv",
+      "title": "Dynamic Capability Scoping for Enterprise AI Agents: A Synthetic Dataset and Three-Source Permission Architecture",
+      "url": "http://arxiv.org/abs/2607.22445v1",
+      "published": "2026-07-24T16:08:03Z",
+      "authors": "Halil Burak Noyan",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Three-layer dynamic capability scoping for enterprise AI agents reduces over-privilege attack surface using role, task context, and policy fusion.",
+      "unproven": "production integration with existing agent frameworks and real enterprise policy data; evaluation limited to synthetic 600-prompt dataset",
+      "scored_at": "2026-07-27T11:11:02.134223273Z"
+    },
     {
       "id": "hn:49050152",
       "source": "hn",
@@ -65,6 +82,94 @@
       "scored_at": "2026-07-25T16:26:07.896689Z"
     },
     {
+      "id": "arxiv:2607.22522v1",
+      "source": "arxiv",
+      "title": "Exact Neural-Network Representations of the Motzkin States",
+      "url": "http://arxiv.org/abs/2607.22522v1",
+      "published": "2026-07-24T17:50:44Z",
+      "authors": "Runde Zha et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Training-free exact neural-network representations of Motzkin spin chains across four architectures using causal prefix-sum and stack modules.",
+      "scored_at": "2026-07-27T11:11:35.483263396Z"
+    },
+    {
+      "id": "arxiv:2607.22521v1",
+      "source": "arxiv",
+      "title": "Critical Sensing with Autonomous Devices: The Self-Oscillation Threshold of a Frequency-Locked NV-Centre Magnetometer",
+      "url": "http://arxiv.org/abs/2607.22521v1",
+      "published": "2026-07-24T17:50:23Z",
+      "authors": "Joan Toledo Aguilera et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "NV-centre magnetometer operating beyond feedback-lock stability exhibits period-doubling bifurcation at a calculable critical gain.",
+      "scored_at": "2026-07-27T11:11:35.483264718Z"
+    },
+    {
+      "id": "arxiv:2607.22516v1",
+      "source": "arxiv",
+      "title": "Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency Support",
+      "url": "http://arxiv.org/abs/2607.22516v1",
+      "published": "2026-07-24T17:39:14Z",
+      "authors": "Peiyong Wang et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Quantum Spectral Models encode matrix-valued data via spectral decomposition; outperform comparison quantum models on Pendigits and synthetic benchmarks.",
+      "unproven": "whether spectral inductive bias transfers to datasets beyond Pendigits or synthetic spectral tasks; scaling to larger circuits or real-world problems",
+      "scored_at": "2026-07-27T11:11:35.483264938Z"
+    },
+    {
+      "id": "arxiv:2607.22450v1",
+      "source": "arxiv",
+      "title": "A Maximum Entropy Implementation of Differential Privacy Under Linear Invariants",
+      "url": "http://arxiv.org/abs/2607.22450v1",
+      "published": "2026-07-24T16:13:07Z",
+      "authors": "Ryan Lafferty et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Differential privacy under linear invariants using maximum entropy maintains aggregate constraints with theoretical privacy bounds.",
+      "unproven": "applicability to census-scale systems and interaction with production DP pipelines beyond theory",
+      "scored_at": "2026-07-27T11:11:02.134222662Z"
+    },
+    {
+      "id": "arxiv:2607.22386v1",
+      "source": "arxiv",
+      "title": "Correlation-Aware and Gaussianity-Preserving Robust Latent Angular Watermarking for Diffusion Models",
+      "url": "http://arxiv.org/abs/2607.22386v1",
+      "published": "2026-07-24T15:10:44Z",
+      "authors": "Yebin Zheng et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Latent angular watermarking for diffusion models preserves Gaussianity and resists removal via antipodal angle encoding.",
+      "unproven": "resistance to adaptive attacks specifically designed against this scheme; deployment in commercial generative systems",
+      "scored_at": "2026-07-27T11:11:02.134224315Z"
+    },
+    {
+      "id": "arxiv:2607.22230v1",
+      "source": "arxiv",
+      "title": "trasgoDP: An Open Source Framework for Releasing Noised Tabular Microdata under Local Differential Privacy",
+      "url": "http://arxiv.org/abs/2607.22230v1",
+      "published": "2026-07-24T11:56:09Z",
+      "authors": "Judith Sáinz-Pardo Díaz et al.",
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "trasgoDP open-source framework implements local differential privacy mechanisms for tabular and location microdata release.",
+      "unproven": "integration with production data pipelines; comparison to commercial DP tools on standard benchmarks",
+      "scored_at": "2026-07-27T11:11:02.134225438Z"
+    },
+    {
       "id": "hn:49063175",
       "source": "hn",
       "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
@@ -95,6 +200,35 @@
       "dek": "Essay comparing open-weight AI adoption to Kubernetes; no measurement or decision framework provided.",
       "unproven": "no empirical data on security implications for agents entering SDLC",
       "scored_at": "2026-07-26T06:30:00.114406923Z"
+    },
+    {
+      "id": "arxiv:2607.22526v1",
+      "source": "arxiv",
+      "title": "Optomechanical systems with a Fano membrane in the middle",
+      "url": "http://arxiv.org/abs/2607.22526v1",
+      "published": "2026-07-24T17:56:54Z",
+      "authors": "Lei Du et al.",
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Photonic-crystal Fano membrane in optomechanical cavity enables spectral engineering of optical modes.",
+      "scored_at": "2026-07-27T11:11:35.483263205Z"
+    },
+    {
+      "id": "arxiv:2607.22269v1",
+      "source": "arxiv",
+      "title": "Kalyna Block Cipher: From Design Space Exploration to ASIC Design",
+      "url": "http://arxiv.org/abs/2607.22269v1",
+      "published": "2026-07-24T13:07:45Z",
+      "authors": "Carlos Gewehr et al.",
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Hardware designs for Kalyna block cipher ASIC implementations explore area-latency trade-offs with side-channel countermeasures in 65nm.",
+      "unproven": "wider adoption or practical deployment; relevance to readers using Ukrainian national standards",
+      "scored_at": "2026-07-27T11:11:02.134225287Z"
     },
     {
       "id": "hn:49061769",
