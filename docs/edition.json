@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-27T01:58:58.404561383Z",
+  "generated": "2026-07-27T06:55:34.971422004Z",
   "edition": 3,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 12,
+    "total": 13,
     "by_source": {
-      "hn": 12
+      "hn": 13
     },
     "by_quadrant": {
-      "NOISE FLOOR": 11,
+      "NOISE FLOOR": 12,
       "STANDING ORDERS": 1
     }
   },
@@ -63,6 +63,22 @@
       "dek": "Security camera shipped GitHub admin token in login page HTML.",
       "unproven": "whether this affects other devices from the same vendor or product line",
       "scored_at": "2026-07-25T16:26:07.896689Z"
+    },
+    {
+      "id": "hn:49063175",
+      "source": "hn",
+      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
+      "url": "https://github.com/vercel-labs/scriptc",
+      "published": "2026-07-26T22:46:10Z",
+      "authors": "maxloh",
+      "points": 118,
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Vercel's TypeScript-to-native compiler removes JavaScript engine from binary; ahead-of-time compilation is established practice.",
+      "unproven": "Whether compiled binaries match interpreted performance and security properties across representative application workloads; applicability to the reader's SDLC tooling and agent deployment scenarios.",
+      "scored_at": "2026-07-27T06:55:34.969550817Z"
     },
     {
       "id": "hn:49048034",

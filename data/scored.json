@@ -3197,6 +3197,22 @@
     "dek": "Opinion piece on GitHub's security org structure and priorities.",
     "scored_at": "2026-07-26T20:46:06.113896941Z"
   },
+  "hn:49063175": {
+    "id": "hn:49063175",
+    "source": "hn",
+    "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
+    "url": "https://github.com/vercel-labs/scriptc",
+    "published": "2026-07-26T22:46:10Z",
+    "authors": "maxloh",
+    "points": 118,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Vercel's TypeScript-to-native compiler removes JavaScript engine from binary; ahead-of-time compilation is established practice.",
+    "unproven": "Whether compiled binaries match interpreted performance and security properties across representative application workloads; applicability to the reader's SDLC tooling and agent deployment scenarios.",
+    "scored_at": "2026-07-27T06:55:34.969550817Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
