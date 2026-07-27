@@ -1,20 +1,19 @@
 {
-  "generated": "2026-07-27T11:11:35.486176888Z",
+  "generated": "2026-07-27T14:11:18.212398261Z",
   "edition": 3,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 22,
+    "total": 25,
     "by_source": {
-      "arxiv": 9,
-      "hn": 13
+      "arxiv": 13,
+      "hn": 12
     },
     "by_quadrant": {
       "BREAK GLASS": 1,
-      "NOISE FLOOR": 20,
-      "STANDING ORDERS": 1
+      "NOISE FLOOR": 24
     }
   },
   "items": [
@@ -64,22 +63,6 @@
       "dek": "Postgres LISTEN/NOTIFY performance characteristics measured; relevant only if reader uses this feature for secure-SDLC infrastructure.",
       "unproven": "scope limited to one database feature; applicability to reader's specific architecture unknown",
       "scored_at": "2026-07-26T06:30:00.114407344Z"
-    },
-    {
-      "id": "hn:49034292",
-      "source": "hn",
-      "title": "My security camera shipped a GitHub admin token in its login page",
-      "url": "https://hhh.hn/hanwha-github-token",
-      "published": "2026-07-24T11:54:41Z",
-      "authors": "hhh",
-      "points": 631,
-      "novelty": 2,
-      "actionability": 3,
-      "score": 5,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Security camera shipped GitHub admin token in login page HTML.",
-      "unproven": "whether this affects other devices from the same vendor or product line",
-      "scored_at": "2026-07-25T16:26:07.896689Z"
     },
     {
       "id": "arxiv:2607.22522v1",
@@ -155,19 +138,19 @@
       "scored_at": "2026-07-27T11:11:02.134224315Z"
     },
     {
-      "id": "arxiv:2607.22230v1",
+      "id": "arxiv:2607.22372v1",
       "source": "arxiv",
-      "title": "trasgoDP: An Open Source Framework for Releasing Noised Tabular Microdata under Local Differential Privacy",
-      "url": "http://arxiv.org/abs/2607.22230v1",
-      "published": "2026-07-24T11:56:09Z",
-      "authors": "Judith Sáinz-Pardo Díaz et al.",
-      "novelty": 2,
-      "actionability": 2,
+      "title": "Quantum-informed surrogate sampling for combinatorial optimization",
+      "url": "http://arxiv.org/abs/2607.22372v1",
+      "published": "2026-07-24T14:58:57Z",
+      "authors": "Elisabeth Wybo et al.",
+      "novelty": 3,
+      "actionability": 1,
       "score": 4,
       "quadrant": "NOISE FLOOR",
-      "dek": "trasgoDP open-source framework implements local differential privacy mechanisms for tabular and location microdata release.",
-      "unproven": "integration with production data pipelines; comparison to commercial DP tools on standard benchmarks",
-      "scored_at": "2026-07-27T11:11:02.134225438Z"
+      "dek": "Shallow quantum circuits generate candidate solutions for combinatorial optimization via classical post-processing.",
+      "unproven": "evaluation limited to MaxCut and MaxIndependentSet; real-world optimization problem applicability unclear",
+      "scored_at": "2026-07-27T14:11:02.083463312Z"
     },
     {
       "id": "hn:49063175",
@@ -214,21 +197,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Photonic-crystal Fano membrane in optomechanical cavity enables spectral engineering of optical modes.",
       "scored_at": "2026-07-27T11:11:35.483263205Z"
-    },
-    {
-      "id": "arxiv:2607.22269v1",
-      "source": "arxiv",
-      "title": "Kalyna Block Cipher: From Design Space Exploration to ASIC Design",
-      "url": "http://arxiv.org/abs/2607.22269v1",
-      "published": "2026-07-24T13:07:45Z",
-      "authors": "Carlos Gewehr et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Hardware designs for Kalyna block cipher ASIC implementations explore area-latency trade-offs with side-channel countermeasures in 65nm.",
-      "unproven": "wider adoption or practical deployment; relevance to readers using Ukrainian national standards",
-      "scored_at": "2026-07-27T11:11:02.134225287Z"
     },
     {
       "id": "hn:49061769",
@@ -351,6 +319,76 @@
       "quadrant": "NOISE FLOOR",
       "dek": "DIY mechanical television project; entirely outside application security and financial services domain.",
       "scored_at": "2026-07-26T06:30:00.114407184Z"
+    },
+    {
+      "id": "arxiv:2607.22503v1",
+      "source": "arxiv",
+      "title": "Correlated Coherent Errors in Stabilizer Codes: A General Cumulant Framework and Interference-Based Error Suppression",
+      "url": "http://arxiv.org/abs/2607.22503v1",
+      "published": "2026-07-24T17:16:19Z",
+      "authors": "Rohan N Rajmohan et al.",
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Quantum error correction framework for coherent noise in stabilizer codes; outside application security engineer's domain.",
+      "scored_at": "2026-07-27T14:10:54.59943503Z"
+    },
+    {
+      "id": "arxiv:2607.22498v1",
+      "source": "arxiv",
+      "title": "Automated Flag-based Fault-Tolerant State Preparation using Integer Linear Programming",
+      "url": "http://arxiv.org/abs/2607.22498v1",
+      "published": "2026-07-24T17:11:09Z",
+      "authors": "Ben Criger et al.",
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Integer linear programming for fault-tolerant quantum state preparation; not relevant to application security.",
+      "scored_at": "2026-07-27T14:10:54.599435781Z"
+    },
+    {
+      "id": "arxiv:2607.22495v1",
+      "source": "arxiv",
+      "title": "Fractal quantum many-body scars and Hamiltonian inverse design from ZX-calculus",
+      "url": "http://arxiv.org/abs/2607.22495v1",
+      "published": "2026-07-24T17:06:05Z",
+      "authors": "Marcin Szyniszewski",
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Fractal many-body quantum states constructed from ZX-calculus diagrams; outside reader's SDLC and security scope.",
+      "scored_at": "2026-07-27T14:10:54.599436302Z"
+    },
+    {
+      "id": "arxiv:2607.22468v1",
+      "source": "arxiv",
+      "title": "Learning to Prepare Molecular Ground States with Transformer Models",
+      "url": "http://arxiv.org/abs/2607.22468v1",
+      "published": "2026-07-24T16:32:40Z",
+      "authors": "Alex Koziell-Pipe et al.",
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Transformer model for quantum circuit generation in chemistry; not relevant to application security or SDLC tooling.",
+      "scored_at": "2026-07-27T14:10:54.599436923Z"
+    },
+    {
+      "id": "arxiv:2607.22466v1",
+      "source": "arxiv",
+      "title": "Multiplexed storage and interaction of Rydberg spinwaves via the gradient echo memory protocol",
+      "url": "http://arxiv.org/abs/2607.22466v1",
+      "published": "2026-07-24T16:29:53Z",
+      "authors": "Bartosz Niewelt et al.",
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Rydberg spinwave storage protocol via gradient echo memory; quantum physics research with no security application.",
+      "scored_at": "2026-07-27T14:10:54.599437123Z"
     }
   ],
   "noise": null
