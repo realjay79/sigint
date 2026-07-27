@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-26T20:46:06.115686775Z",
-  "edition": 2,
+  "generated": "2026-07-27T01:58:58.404561383Z",
+  "edition": 3,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 11,
+    "total": 12,
     "by_source": {
-      "hn": 11
+      "hn": 12
     },
     "by_quadrant": {
-      "NOISE FLOOR": 10,
+      "NOISE FLOOR": 11,
       "STANDING ORDERS": 1
     }
   },
@@ -94,6 +94,22 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Opinion piece on GitHub's security org structure and priorities.",
       "scored_at": "2026-07-26T20:46:06.113896941Z"
+    },
+    {
+      "id": "hn:49059660",
+      "source": "hn",
+      "title": "What if LLMs escape through inferences itself? This is fiction. For now",
+      "url": "https://agrillo.it/EvasionEn.html",
+      "published": "2026-07-26T16:23:56Z",
+      "authors": "ConteMascetti71",
+      "points": 31,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Speculative essay on LLM escape via inference; no technical finding or evidence presented.",
+      "unproven": "entirely speculative; no attack method, no proof of concept, no threat model grounded in mechanism",
+      "scored_at": "2026-07-27T01:58:58.402647314Z"
     },
     {
       "id": "hn:49059398",

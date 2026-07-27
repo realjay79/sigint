@@ -3166,6 +3166,22 @@
     "dek": "Open-source CCTV software project for Raspberry Pi and similar boards.",
     "scored_at": "2026-07-26T20:46:06.113897371Z"
   },
+  "hn:49059660": {
+    "id": "hn:49059660",
+    "source": "hn",
+    "title": "What if LLMs escape through inferences itself? This is fiction. For now",
+    "url": "https://agrillo.it/EvasionEn.html",
+    "published": "2026-07-26T16:23:56Z",
+    "authors": "ConteMascetti71",
+    "points": 31,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Speculative essay on LLM escape via inference; no technical finding or evidence presented.",
+    "unproven": "entirely speculative; no attack method, no proof of concept, no threat model grounded in mechanism",
+    "scored_at": "2026-07-27T01:58:58.402647314Z"
+  },
   "hn:49061769": {
     "id": "hn:49061769",
     "source": "hn",
