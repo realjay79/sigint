@@ -1,37 +1,21 @@
 {
-  "generated": "2026-07-27T14:11:18.212398261Z",
+  "generated": "2026-07-27T17:30:24.193284055Z",
   "edition": 3,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 25,
+    "total": 17,
     "by_source": {
-      "arxiv": 13,
-      "hn": 12
+      "arxiv": 4,
+      "hn": 13
     },
     "by_quadrant": {
-      "BREAK GLASS": 1,
-      "NOISE FLOOR": 24
+      "NOISE FLOOR": 17
     }
   },
   "items": [
-    {
-      "id": "arxiv:2607.22445v1",
-      "source": "arxiv",
-      "title": "Dynamic Capability Scoping for Enterprise AI Agents: A Synthetic Dataset and Three-Source Permission Architecture",
-      "url": "http://arxiv.org/abs/2607.22445v1",
-      "published": "2026-07-24T16:08:03Z",
-      "authors": "Halil Burak Noyan",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Three-layer dynamic capability scoping for enterprise AI agents reduces over-privilege attack surface using role, task context, and policy fusion.",
-      "unproven": "production integration with existing agent frameworks and real enterprise policy data; evaluation limited to synthetic 600-prompt dataset",
-      "scored_at": "2026-07-27T11:11:02.134223273Z"
-    },
     {
       "id": "hn:49050152",
       "source": "hn",
@@ -108,51 +92,6 @@
       "scored_at": "2026-07-27T11:11:35.483264938Z"
     },
     {
-      "id": "arxiv:2607.22450v1",
-      "source": "arxiv",
-      "title": "A Maximum Entropy Implementation of Differential Privacy Under Linear Invariants",
-      "url": "http://arxiv.org/abs/2607.22450v1",
-      "published": "2026-07-24T16:13:07Z",
-      "authors": "Ryan Lafferty et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Differential privacy under linear invariants using maximum entropy maintains aggregate constraints with theoretical privacy bounds.",
-      "unproven": "applicability to census-scale systems and interaction with production DP pipelines beyond theory",
-      "scored_at": "2026-07-27T11:11:02.134222662Z"
-    },
-    {
-      "id": "arxiv:2607.22386v1",
-      "source": "arxiv",
-      "title": "Correlation-Aware and Gaussianity-Preserving Robust Latent Angular Watermarking for Diffusion Models",
-      "url": "http://arxiv.org/abs/2607.22386v1",
-      "published": "2026-07-24T15:10:44Z",
-      "authors": "Yebin Zheng et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Latent angular watermarking for diffusion models preserves Gaussianity and resists removal via antipodal angle encoding.",
-      "unproven": "resistance to adaptive attacks specifically designed against this scheme; deployment in commercial generative systems",
-      "scored_at": "2026-07-27T11:11:02.134224315Z"
-    },
-    {
-      "id": "arxiv:2607.22372v1",
-      "source": "arxiv",
-      "title": "Quantum-informed surrogate sampling for combinatorial optimization",
-      "url": "http://arxiv.org/abs/2607.22372v1",
-      "published": "2026-07-24T14:58:57Z",
-      "authors": "Elisabeth Wybo et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Shallow quantum circuits generate candidate solutions for combinatorial optimization via classical post-processing.",
-      "unproven": "evaluation limited to MaxCut and MaxIndependentSet; real-world optimization problem applicability unclear",
-      "scored_at": "2026-07-27T14:11:02.083463312Z"
-    },
-    {
       "id": "hn:49063175",
       "source": "hn",
       "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
@@ -197,6 +136,21 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Photonic-crystal Fano membrane in optomechanical cavity enables spectral engineering of optical modes.",
       "scored_at": "2026-07-27T11:11:35.483263205Z"
+    },
+    {
+      "id": "hn:49065779",
+      "source": "hn",
+      "title": "Show HN: Descript wanted $24/mo, I built an open-source alternative in a weekend",
+      "url": "https://github.com/wassgha/rescript",
+      "published": "2026-07-27T06:22:56Z",
+      "authors": "wassimgr",
+      "points": 34,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Browser-based video editing tool via transcript manipulation; consumer application without security implications for SAST/DAST tooling.",
+      "scored_at": "2026-07-27T17:30:24.191543421Z"
     },
     {
       "id": "hn:49061769",
@@ -319,76 +273,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "DIY mechanical television project; entirely outside application security and financial services domain.",
       "scored_at": "2026-07-26T06:30:00.114407184Z"
-    },
-    {
-      "id": "arxiv:2607.22503v1",
-      "source": "arxiv",
-      "title": "Correlated Coherent Errors in Stabilizer Codes: A General Cumulant Framework and Interference-Based Error Suppression",
-      "url": "http://arxiv.org/abs/2607.22503v1",
-      "published": "2026-07-24T17:16:19Z",
-      "authors": "Rohan N Rajmohan et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantum error correction framework for coherent noise in stabilizer codes; outside application security engineer's domain.",
-      "scored_at": "2026-07-27T14:10:54.59943503Z"
-    },
-    {
-      "id": "arxiv:2607.22498v1",
-      "source": "arxiv",
-      "title": "Automated Flag-based Fault-Tolerant State Preparation using Integer Linear Programming",
-      "url": "http://arxiv.org/abs/2607.22498v1",
-      "published": "2026-07-24T17:11:09Z",
-      "authors": "Ben Criger et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Integer linear programming for fault-tolerant quantum state preparation; not relevant to application security.",
-      "scored_at": "2026-07-27T14:10:54.599435781Z"
-    },
-    {
-      "id": "arxiv:2607.22495v1",
-      "source": "arxiv",
-      "title": "Fractal quantum many-body scars and Hamiltonian inverse design from ZX-calculus",
-      "url": "http://arxiv.org/abs/2607.22495v1",
-      "published": "2026-07-24T17:06:05Z",
-      "authors": "Marcin Szyniszewski",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Fractal many-body quantum states constructed from ZX-calculus diagrams; outside reader's SDLC and security scope.",
-      "scored_at": "2026-07-27T14:10:54.599436302Z"
-    },
-    {
-      "id": "arxiv:2607.22468v1",
-      "source": "arxiv",
-      "title": "Learning to Prepare Molecular Ground States with Transformer Models",
-      "url": "http://arxiv.org/abs/2607.22468v1",
-      "published": "2026-07-24T16:32:40Z",
-      "authors": "Alex Koziell-Pipe et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Transformer model for quantum circuit generation in chemistry; not relevant to application security or SDLC tooling.",
-      "scored_at": "2026-07-27T14:10:54.599436923Z"
-    },
-    {
-      "id": "arxiv:2607.22466v1",
-      "source": "arxiv",
-      "title": "Multiplexed storage and interaction of Rydberg spinwaves via the gradient echo memory protocol",
-      "url": "http://arxiv.org/abs/2607.22466v1",
-      "published": "2026-07-24T16:29:53Z",
-      "authors": "Bartosz Niewelt et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Rydberg spinwave storage protocol via gradient echo memory; quantum physics research with no security application.",
-      "scored_at": "2026-07-27T14:10:54.599437123Z"
     }
   ],
   "noise": null
