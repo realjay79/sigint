@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T17:30:24.193284055Z",
+  "generated": "2026-07-27T21:03:54.873210402Z",
   "edition": 3,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,14 +8,64 @@
   "counts": {
     "total": 17,
     "by_source": {
-      "arxiv": 4,
-      "hn": 13
+      "hn": 15,
+      "kev": 2
     },
     "by_quadrant": {
-      "NOISE FLOOR": 17
+      "NEW GROUND": 1,
+      "NOISE FLOOR": 14,
+      "STANDING ORDERS": 2
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-16812",
+      "source": "kev",
+      "title": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
+      "published": "2026-07-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 30 July.",
+      "cves": [
+        "CVE-2026-16812"
+      ],
+      "scored_at": "2026-07-27T21:03:50.800676989Z"
+    },
+    {
+      "id": "kev:CVE-2025-68686",
+      "source": "kev",
+      "title": "CVE-2025-68686 — Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686",
+      "published": "2026-07-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Fortinet FortiOS. Confirmed exploited in the wild. Federal remediation due 10 August.",
+      "cves": [
+        "CVE-2025-68686"
+      ],
+      "scored_at": "2026-07-27T21:03:50.800673905Z"
+    },
+    {
+      "id": "hn:49070756",
+      "source": "hn",
+      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack",
+      "published": "2026-07-27T15:08:16Z",
+      "authors": "EatonZ",
+      "points": 92,
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Authentication bypass in Volvo/Eicher fleet management platform permits unauthorized control of connected vehicles across user accounts.",
+      "unproven": "Whether vulnerability affects production deployments or only test instances; no public PoC or active exploitation evidence provided; remediation timeline unknown.",
+      "scored_at": "2026-07-27T21:03:54.870713728Z"
+    },
     {
       "id": "hn:49050152",
       "source": "hn",
@@ -33,63 +83,20 @@
       "scored_at": "2026-07-26T06:30:00.114406482Z"
     },
     {
-      "id": "hn:49040296",
+      "id": "hn:49071365",
       "source": "hn",
-      "title": "Postgres LISTEN/NOTIFY actually scales",
-      "url": "https://dbos.dev/blog/postgres-listen-notify-scalability",
-      "published": "2026-07-24T19:05:53Z",
-      "authors": "KraftyOne",
-      "points": 361,
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Postgres LISTEN/NOTIFY performance characteristics measured; relevant only if reader uses this feature for secure-SDLC infrastructure.",
-      "unproven": "scope limited to one database feature; applicability to reader's specific architecture unknown",
-      "scored_at": "2026-07-26T06:30:00.114407344Z"
-    },
-    {
-      "id": "arxiv:2607.22522v1",
-      "source": "arxiv",
-      "title": "Exact Neural-Network Representations of the Motzkin States",
-      "url": "http://arxiv.org/abs/2607.22522v1",
-      "published": "2026-07-24T17:50:44Z",
-      "authors": "Runde Zha et al.",
-      "novelty": 3,
+      "title": "Show HN: Let's Seal – Let's Encrypt for document signing, free and self-hosted",
+      "url": "https://github.com/letsseal/letsseal",
+      "published": "2026-07-27T15:52:13Z",
+      "authors": "nsokin",
+      "points": 37,
+      "novelty": 2,
       "actionability": 1,
-      "score": 4,
+      "score": 3,
       "quadrant": "NOISE FLOOR",
-      "dek": "Training-free exact neural-network representations of Motzkin spin chains across four architectures using causal prefix-sum and stack modules.",
-      "scored_at": "2026-07-27T11:11:35.483263396Z"
-    },
-    {
-      "id": "arxiv:2607.22521v1",
-      "source": "arxiv",
-      "title": "Critical Sensing with Autonomous Devices: The Self-Oscillation Threshold of a Frequency-Locked NV-Centre Magnetometer",
-      "url": "http://arxiv.org/abs/2607.22521v1",
-      "published": "2026-07-24T17:50:23Z",
-      "authors": "Joan Toledo Aguilera et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "NV-centre magnetometer operating beyond feedback-lock stability exhibits period-doubling bifurcation at a calculable critical gain.",
-      "scored_at": "2026-07-27T11:11:35.483264718Z"
-    },
-    {
-      "id": "arxiv:2607.22516v1",
-      "source": "arxiv",
-      "title": "Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency Support",
-      "url": "http://arxiv.org/abs/2607.22516v1",
-      "published": "2026-07-24T17:39:14Z",
-      "authors": "Peiyong Wang et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantum Spectral Models encode matrix-valued data via spectral decomposition; outperform comparison quantum models on Pendigits and synthetic benchmarks.",
-      "unproven": "whether spectral inductive bias transfers to datasets beyond Pendigits or synthetic spectral tasks; scaling to larger circuits or real-world problems",
-      "scored_at": "2026-07-27T11:11:35.483264938Z"
+      "dek": "Open-source document signing platform using certificate chains, transparency logs, and blockchain timestamping as alternative to Adobe ecosystem.",
+      "unproven": "Whether verification adoption by document recipients will reach parity with established commercial platforms; no evidence of integration into existing SDLC workflows.",
+      "scored_at": "2026-07-27T21:03:54.870713297Z"
     },
     {
       "id": "hn:49063175",
@@ -124,18 +131,20 @@
       "scored_at": "2026-07-26T06:30:00.114406923Z"
     },
     {
-      "id": "arxiv:2607.22526v1",
-      "source": "arxiv",
-      "title": "Optomechanical systems with a Fano membrane in the middle",
-      "url": "http://arxiv.org/abs/2607.22526v1",
-      "published": "2026-07-24T17:56:54Z",
-      "authors": "Lei Du et al.",
-      "novelty": 2,
+      "id": "hn:49066557",
+      "source": "hn",
+      "title": "Zeiss expands German site that caps ASML's EUV scanner output",
+      "url": "https://tomshardware.com/tech-industry/zeiss-expands-german-site-that-caps-asmls-euv-scanner-output",
+      "published": "2026-07-27T08:14:53Z",
+      "authors": "01-_-",
+      "points": 32,
+      "novelty": 1,
       "actionability": 1,
-      "score": 3,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Photonic-crystal Fano membrane in optomechanical cavity enables spectral engineering of optical modes.",
-      "scored_at": "2026-07-27T11:11:35.483263205Z"
+      "dek": "Zeiss facility expansion aims to increase EUV lithography scanner throughput constrained by ASML production bottleneck.",
+      "unproven": "Outside the reader's remit; geopolitical supply-chain reporting has no bearing on application security engineering or SDLC decisions.",
+      "scored_at": "2026-07-27T21:03:54.870714309Z"
     },
     {
       "id": "hn:49065779",

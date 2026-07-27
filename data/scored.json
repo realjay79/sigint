@@ -4627,6 +4627,54 @@
     "dek": "Browser-based video editing tool via transcript manipulation; consumer application without security implications for SAST/DAST tooling.",
     "scored_at": "2026-07-27T17:30:24.191543421Z"
   },
+  "hn:49066557": {
+    "id": "hn:49066557",
+    "source": "hn",
+    "title": "Zeiss expands German site that caps ASML's EUV scanner output",
+    "url": "https://tomshardware.com/tech-industry/zeiss-expands-german-site-that-caps-asmls-euv-scanner-output",
+    "published": "2026-07-27T08:14:53Z",
+    "authors": "01-_-",
+    "points": 32,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Zeiss facility expansion aims to increase EUV lithography scanner throughput constrained by ASML production bottleneck.",
+    "unproven": "Outside the reader's remit; geopolitical supply-chain reporting has no bearing on application security engineering or SDLC decisions.",
+    "scored_at": "2026-07-27T21:03:54.870714309Z"
+  },
+  "hn:49070756": {
+    "id": "hn:49070756",
+    "source": "hn",
+    "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+    "url": "https://eaton-works.com/2026/07/27/my-eicher-hack",
+    "published": "2026-07-27T15:08:16Z",
+    "authors": "EatonZ",
+    "points": 92,
+    "novelty": 4,
+    "actionability": 2,
+    "score": 6,
+    "quadrant": "NEW GROUND",
+    "dek": "Authentication bypass in Volvo/Eicher fleet management platform permits unauthorized control of connected vehicles across user accounts.",
+    "unproven": "Whether vulnerability affects production deployments or only test instances; no public PoC or active exploitation evidence provided; remediation timeline unknown.",
+    "scored_at": "2026-07-27T21:03:54.870713728Z"
+  },
+  "hn:49071365": {
+    "id": "hn:49071365",
+    "source": "hn",
+    "title": "Show HN: Let's Seal – Let's Encrypt for document signing, free and self-hosted",
+    "url": "https://github.com/letsseal/letsseal",
+    "published": "2026-07-27T15:52:13Z",
+    "authors": "nsokin",
+    "points": 37,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Open-source document signing platform using certificate chains, transparency logs, and blockchain timestamping as alternative to Adobe ecosystem.",
+    "unproven": "Whether verification adoption by document recipients will reach parity with established commercial platforms; no evidence of integration into existing SDLC workflows.",
+    "scored_at": "2026-07-27T21:03:54.870713297Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
@@ -4674,6 +4722,22 @@
       "CVE-2023-4346"
     ],
     "scored_at": "2026-07-25T16:23:52.503398Z"
+  },
+  "kev:CVE-2025-68686": {
+    "id": "kev:CVE-2025-68686",
+    "source": "kev",
+    "title": "CVE-2025-68686 — Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686",
+    "published": "2026-07-27T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Fortinet FortiOS. Confirmed exploited in the wild. Federal remediation due 10 August.",
+    "cves": [
+      "CVE-2025-68686"
+    ],
+    "scored_at": "2026-07-27T21:03:50.800673905Z"
   },
   "kev:CVE-2026-0770": {
     "id": "kev:CVE-2026-0770",
@@ -4738,6 +4802,22 @@
       "CVE-2026-16232"
     ],
     "scored_at": "2026-07-25T16:23:52.503378Z"
+  },
+  "kev:CVE-2026-16812": {
+    "id": "kev:CVE-2026-16812",
+    "source": "kev",
+    "title": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
+    "published": "2026-07-27T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 30 July.",
+    "cves": [
+      "CVE-2026-16812"
+    ],
+    "scored_at": "2026-07-27T21:03:50.800676989Z"
   },
   "kev:CVE-2026-25089": {
     "id": "kev:CVE-2026-25089",
