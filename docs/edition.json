@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28T06:19:26.880157009Z",
+  "generated": "2026-07-28T10:25:52.118821361Z",
   "edition": 4,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,8 +14,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 3,
-      "NEW GROUND": 8,
-      "NOISE FLOOR": 10,
+      "NEW GROUND": 9,
+      "NOISE FLOOR": 9,
       "STANDING ORDERS": 4
     }
   },
@@ -36,22 +36,6 @@
       "scored_at": "2026-07-28T06:18:58.925928788Z"
     },
     {
-      "id": "kev:CVE-2026-16812",
-      "source": "kev",
-      "title": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
-      "published": "2026-07-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 30 July.",
-      "cves": [
-        "CVE-2026-16812"
-      ],
-      "scored_at": "2026-07-27T21:03:50.800676989Z"
-    },
-    {
       "id": "kev:CVE-2025-68686",
       "source": "kev",
       "title": "CVE-2025-68686 — Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
@@ -66,6 +50,22 @@
         "CVE-2025-68686"
       ],
       "scored_at": "2026-07-27T21:03:50.800673905Z"
+    },
+    {
+      "id": "kev:CVE-2026-16812",
+      "source": "kev",
+      "title": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
+      "published": "2026-07-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 30 July.",
+      "cves": [
+        "CVE-2026-16812"
+      ],
+      "scored_at": "2026-07-27T21:03:50.800676989Z"
     },
     {
       "id": "arxiv:2607.23586v1",
@@ -173,6 +173,36 @@
       "scored_at": "2026-07-28T01:42:20.171025373Z"
     },
     {
+      "id": "arxiv:2607.24639v1",
+      "source": "arxiv",
+      "title": "Experimental Side Channel Analysis of Protocol Stages in Quantum Identity Authentication",
+      "url": "http://arxiv.org/abs/2607.24639v1",
+      "published": "2026-07-27T16:35:47Z",
+      "authors": "Marwan Elawady et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Beam-splitter side channel on quantum identity authentication reveals protocol stages via photon timing and power without disrupting quantum states.",
+      "unproven": "Whether the attack succeeds at realistic network distances and noise levels; whether the threat applies to deployed quantum networks or testbeds only.",
+      "scored_at": "2026-07-28T10:25:29.765925219Z"
+    },
+    {
+      "id": "arxiv:2607.24624v1",
+      "source": "arxiv",
+      "title": "Experimental Protocol Fingerprinting in Quantum Networks via Physical Layer Side Channel Analysis",
+      "url": "http://arxiv.org/abs/2607.24624v1",
+      "published": "2026-07-27T16:19:17Z",
+      "authors": "Lance Young et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Four quantum protocols exhibit passive side channel signatures distinguishable via single-photon detection statistics on entangled photon link.",
+      "unproven": "Whether signatures remain distinct in longer-range quantum networks; whether countermeasures are practical; applicability to standard quantum network deployments.",
+      "scored_at": "2026-07-28T10:25:29.765925439Z"
+    },
+    {
       "id": "arxiv:2607.24552v1",
       "source": "arxiv",
       "title": "VulnGym: Evaluating Vulnerability Management Strategies against Advanced Persistent Threats",
@@ -247,21 +277,6 @@
       "dek": "Survey of ZKP bug-detection tools finds 45.7% detection on isolated code, 19.6% on full codebases, with Circom dominance and newer DSLs underserved.",
       "unproven": "effectiveness across production ZKP codebases and whether tool improvements would close the gap or hit fundamental limits",
       "scored_at": "2026-07-28T01:41:57.729330093Z"
-    },
-    {
-      "id": "arxiv:2607.23088v1",
-      "source": "arxiv",
-      "title": "Poster: Rethinking Security in LLM Code Generation through Real-World Risk Scenarios",
-      "url": "http://arxiv.org/abs/2607.23088v1",
-      "published": "2026-07-25T07:46:13Z",
-      "authors": "Lixun Ma et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLMs generate code with over 56% vulnerability rates under realistic conditions including ambiguous requirements, under-specified context, and security-functionality conflicts.",
-      "unproven": "generalizability of three scenarios to other development workflows; whether security-aware prompting degrades other model capabilities; durability under adversarial prompting",
-      "scored_at": "2026-07-28T01:42:20.171025524Z"
     },
     {
       "id": "arxiv:2607.24693v1",
@@ -382,21 +397,6 @@
       "dek": "Prompt injection attacks can cause LLM-based log interpreters to misclassify malicious activity as benign.",
       "unproven": "reader does not run a SOC; whether defenses survive real attack adaptation; generalization beyond the tested LLM set",
       "scored_at": "2026-07-28T06:19:09.426265907Z"
-    },
-    {
-      "id": "arxiv:2607.23882v1",
-      "source": "arxiv",
-      "title": "ADVERSARIAL: And-Inverter Graph-Assisted Hardware Trojan Detection At Scale",
-      "url": "http://arxiv.org/abs/2607.23882v1",
-      "published": "2026-07-26T23:00:09Z",
-      "authors": "Yaroslav Popryho et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Knowledge graph embeddings on And-Inverter Graphs scale hardware trojan detection to modern SoC gate counts.",
-      "unproven": "Evaluated only on benchmarks; does not demonstrate detection on real production SoCs or unknown trojans designed to evade this method.",
-      "scored_at": "2026-07-28T06:19:20.18470981Z"
     }
   ],
   "noise": [
