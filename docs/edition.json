@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28T13:31:43.218910632Z",
+  "generated": "2026-07-28T17:19:21.882783578Z",
   "edition": 4,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,8 +8,8 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 22,
-      "hn": 1,
+      "arxiv": 20,
+      "hn": 3,
       "kev": 2
     },
     "by_quadrant": {
@@ -36,22 +36,6 @@
       "scored_at": "2026-07-28T06:18:58.925928788Z"
     },
     {
-      "id": "kev:CVE-2026-16812",
-      "source": "kev",
-      "title": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
-      "published": "2026-07-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 30 July.",
-      "cves": [
-        "CVE-2026-16812"
-      ],
-      "scored_at": "2026-07-27T21:03:50.800676989Z"
-    },
-    {
       "id": "kev:CVE-2025-68686",
       "source": "kev",
       "title": "CVE-2025-68686 — Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
@@ -66,6 +50,22 @@
         "CVE-2025-68686"
       ],
       "scored_at": "2026-07-27T21:03:50.800673905Z"
+    },
+    {
+      "id": "kev:CVE-2026-16812",
+      "source": "kev",
+      "title": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
+      "published": "2026-07-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 30 July.",
+      "cves": [
+        "CVE-2026-16812"
+      ],
+      "scored_at": "2026-07-27T21:03:50.800676989Z"
     },
     {
       "id": "arxiv:2607.23586v1",
@@ -278,6 +278,38 @@
       "scored_at": "2026-07-28T01:41:57.729330093Z"
     },
     {
+      "id": "hn:49081783",
+      "source": "hn",
+      "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
+      "url": "https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026",
+      "published": "2026-07-28T10:20:50Z",
+      "authors": "adulion",
+      "points": 110,
+      "novelty": 2,
+      "actionability": 3,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "68.4% of domains do not enforce DMARC despite 12-year availability; survey of adoption gap.",
+      "unproven": "scope and method of domain sample not stated; does not establish why non-adoption persists for this reader's firm",
+      "scored_at": "2026-07-28T17:19:21.877898314Z"
+    },
+    {
+      "id": "hn:49078266",
+      "source": "hn",
+      "title": "Residential Proxies Are a National Security Threat",
+      "url": "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat",
+      "published": "2026-07-28T01:51:18Z",
+      "authors": "joshbetz",
+      "points": 79,
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Residential proxies enable evasion of network controls; national security concern flagged.",
+      "unproven": "threat model does not directly apply to secure-SDLC or application security engineering decisions",
+      "scored_at": "2026-07-28T17:19:21.877899376Z"
+    },
+    {
       "id": "arxiv:2607.24693v1",
       "source": "arxiv",
       "title": "Quantum Incapacity beyond No-Cloning and PPT Mechanisms",
@@ -366,54 +398,24 @@
       "dek": "DeepFaith generates faithful natural-language APT incident reports by grounding LLM outputs to provenance-graph evidence with post-generation verification.",
       "unproven": "enterprise testbed evaluation limited to specific autonomous defense system; generalization to heterogeneous SOC tooling and analyst workflows untested",
       "scored_at": "2026-07-28T06:18:58.925935875Z"
-    },
-    {
-      "id": "arxiv:2607.24177v1",
-      "source": "arxiv",
-      "title": "EXE-Bench: Ranking the Tradeoffs of AI-based Windows Malware Detectors for Real-World Usability",
-      "url": "http://arxiv.org/abs/2607.24177v1",
-      "published": "2026-07-27T09:02:56Z",
-      "authors": "Andrea Ponte et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "EXE-Bench ranks AI malware detectors on performance, temporal drift, adversarial robustness, and computational cost.",
-      "unproven": "whether results hold across Windows versions and attacker sophistication levels beyond the tested adversarial methods",
-      "scored_at": "2026-07-28T06:19:09.42626571Z"
-    },
-    {
-      "id": "arxiv:2607.24174v1",
-      "source": "arxiv",
-      "title": "Just Testing, Move Along: Evasion of LLM-based System Log Interpretation by Prompt Injection",
-      "url": "http://arxiv.org/abs/2607.24174v1",
-      "published": "2026-07-27T08:59:00Z",
-      "authors": "Max Landauer et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Prompt injection attacks can cause LLM-based log interpreters to misclassify malicious activity as benign.",
-      "unproven": "reader does not run a SOC; whether defenses survive real attack adaptation; generalization beyond the tested LLM set",
-      "scored_at": "2026-07-28T06:19:09.426265907Z"
     }
   ],
   "noise": [
     {
-      "id": "hn:49048034",
+      "id": "hn:49081555",
       "source": "hn",
-      "title": "Open-weight AI is having its Kubernetes moment",
-      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment",
-      "published": "2026-07-25T14:49:49Z",
-      "authors": "tknaup",
-      "points": 360,
-      "novelty": 2,
-      "actionability": 1,
+      "title": "About the security content of macOS Tahoe 26.6",
+      "url": "https://support.apple.com/en-us/128067",
+      "published": "2026-07-28T09:45:43Z",
+      "authors": "andor",
+      "points": 175,
+      "novelty": 1,
+      "actionability": 2,
       "score": 3,
       "quadrant": "NOISE FLOOR",
-      "dek": "Essay comparing open-weight AI adoption to Kubernetes; no measurement or decision framework provided.",
-      "unproven": "no empirical data on security implications for agents entering SDLC",
-      "scored_at": "2026-07-26T06:30:00.114406923Z"
+      "dek": "Apple security release notes for macOS Tahoe 26.6; routine CVE disclosures.",
+      "unproven": "standard vendor patch notification; no novel vulnerability class or exploitation technique described",
+      "scored_at": "2026-07-28T17:19:21.877898825Z"
     },
     {
       "id": "hn:49050152",
