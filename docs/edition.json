@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28T17:19:21.882783578Z",
+  "generated": "2026-07-28T20:59:20.424808716Z",
   "edition": 4,
   "name": "SIGINT",
   "mark": "^C",
@@ -418,22 +418,6 @@
       "scored_at": "2026-07-28T17:19:21.877898825Z"
     },
     {
-      "id": "hn:49050152",
-      "source": "hn",
-      "title": "Tile's security is so bad it's a feature for stalkers",
-      "url": "https://blog.adafruit.com/2026/03/05/tiles-security-is-so-bad-its-a-feature-for-stalkers",
-      "published": "2026-07-25T18:18:42Z",
-      "authors": "sambellll",
-      "points": 154,
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Tile tracking device security weaknesses documented; hardware outside reader's SDLC scope.",
-      "unproven": "scope limited to one product line; no implications for financial services software architecture",
-      "scored_at": "2026-07-26T06:30:00.114406482Z"
-    },
-    {
       "id": "hn:49059367",
       "source": "hn",
       "title": "Design is compromise",
@@ -447,6 +431,21 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Essay on tradeoffs in design decisions and system constraints.",
       "scored_at": "2026-07-26T20:46:06.113900847Z"
+    },
+    {
+      "id": "hn:49052912",
+      "source": "hn",
+      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+      "published": "2026-07-25T23:32:50Z",
+      "authors": "oliculipolicula",
+      "points": 121,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Leaked transcript of DeepSeek fundraising comments; reporting on corporate strategy and geopolitics.",
+      "scored_at": "2026-07-26T06:30:00.114406132Z"
     }
   ]
 }
