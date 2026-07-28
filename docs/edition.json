@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28T10:25:52.118821361Z",
+  "generated": "2026-07-28T13:31:43.218910632Z",
   "edition": 4,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,9 +14,9 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 3,
-      "NEW GROUND": 9,
+      "NEW GROUND": 10,
       "NOISE FLOOR": 9,
-      "STANDING ORDERS": 4
+      "STANDING ORDERS": 3
     }
   },
   "items": [
@@ -36,22 +36,6 @@
       "scored_at": "2026-07-28T06:18:58.925928788Z"
     },
     {
-      "id": "kev:CVE-2025-68686",
-      "source": "kev",
-      "title": "CVE-2025-68686 — Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686",
-      "published": "2026-07-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Fortinet FortiOS. Confirmed exploited in the wild. Federal remediation due 10 August.",
-      "cves": [
-        "CVE-2025-68686"
-      ],
-      "scored_at": "2026-07-27T21:03:50.800673905Z"
-    },
-    {
       "id": "kev:CVE-2026-16812",
       "source": "kev",
       "title": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
@@ -66,6 +50,22 @@
         "CVE-2026-16812"
       ],
       "scored_at": "2026-07-27T21:03:50.800676989Z"
+    },
+    {
+      "id": "kev:CVE-2025-68686",
+      "source": "kev",
+      "title": "CVE-2025-68686 — Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686",
+      "published": "2026-07-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Fortinet FortiOS. Confirmed exploited in the wild. Federal remediation due 10 August.",
+      "cves": [
+        "CVE-2025-68686"
+      ],
+      "scored_at": "2026-07-27T21:03:50.800673905Z"
     },
     {
       "id": "arxiv:2607.23586v1",
@@ -158,21 +158,6 @@
       "scored_at": "2026-07-28T01:41:57.729342311Z"
     },
     {
-      "id": "arxiv:2607.23147v1",
-      "source": "arxiv",
-      "title": "False Prophets: On the Security of World Models in Agentic Systems",
-      "url": "http://arxiv.org/abs/2607.23147v1",
-      "published": "2026-07-25T10:55:14Z",
-      "authors": "Erik Imgrund et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Agents using world models can be manipulated to execute malicious code with 95% success rate via misprediction attacks on environment simulators.",
-      "unproven": "whether defenses proposed hold against adaptive attackers; effectiveness in production agent deployment; cost of proposed mitigations",
-      "scored_at": "2026-07-28T01:42:20.171025373Z"
-    },
-    {
       "id": "arxiv:2607.24639v1",
       "source": "arxiv",
       "title": "Experimental Side Channel Analysis of Protocol Stages in Quantum Identity Authentication",
@@ -262,6 +247,20 @@
       "dek": "Three-stage defense (ingest filtering, retrieval re-ranking, consensus) reduces RAG poisoning success from 90% to under 10%.",
       "unproven": "Tested on limited attack scenarios; does not cover adaptive adversaries or measure latency and availability cost at scale.",
       "scored_at": "2026-07-28T06:19:20.184710445Z"
+    },
+    {
+      "id": "arxiv:2607.23773v1",
+      "source": "arxiv",
+      "title": "Quantum Separability in Polynomial Time",
+      "url": "http://arxiv.org/abs/2607.23773v1",
+      "published": "2026-07-26T17:48:29Z",
+      "authors": "Giulio Malavolta",
+      "novelty": 5,
+      "actionability": 1,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Polynomial-time randomized algorithm solves quantum separability problem with constant gap in Euclidean norm.",
+      "scored_at": "2026-07-28T13:31:27.615742652Z"
     },
     {
       "id": "arxiv:2607.23752v1",
