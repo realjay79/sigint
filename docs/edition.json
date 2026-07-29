@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T10:31:16.347949492Z",
+  "generated": "2026-07-29T13:46:17.393050915Z",
   "edition": 5,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,8 +14,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 5,
-      "NEW GROUND": 13,
-      "NOISE FLOOR": 3,
+      "NEW GROUND": 12,
+      "NOISE FLOOR": 4,
       "STANDING ORDERS": 4
     }
   },
@@ -309,6 +309,21 @@
       "scored_at": "2026-07-29T10:30:45.950716364Z"
     },
     {
+      "id": "arxiv:2607.25647v1",
+      "source": "arxiv",
+      "title": "KQFuzz: Knowledge-Guided Fuzzing for Quantum Libraries via Large Language Models",
+      "url": "http://arxiv.org/abs/2607.25647v1",
+      "published": "2026-07-28T12:31:34Z",
+      "authors": "Fuyuan Xia et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "LLM-based fuzzing for quantum library bugs; potentially relevant as agents enter SDLC but limited to quantum-specific tools.",
+      "unproven": "generalizability to classical libraries and production quantum stacks; effectiveness vs. traditional fuzzing; integration into existing SAST/DAST pipelines",
+      "scored_at": "2026-07-29T13:46:11.527688485Z"
+    },
+    {
       "id": "arxiv:2607.25027v1",
       "source": "arxiv",
       "title": "An Attack on High Rate McEliece Cryptosystems Using Generalized Reed Solomon Codes with Weight $2$ Mask",
@@ -383,21 +398,6 @@
       "dek": "Authentication bypass in Volvo/Eicher fleet management platform permits unauthorized control of connected vehicles across user accounts.",
       "unproven": "Whether vulnerability affects production deployments or only test instances; no public PoC or active exploitation evidence provided; remediation timeline unknown.",
       "scored_at": "2026-07-27T21:03:54.870713728Z"
-    },
-    {
-      "id": "arxiv:2607.24006v1",
-      "source": "arxiv",
-      "title": "Agentic Cloud Decoys: A Deception-Driven Framework for Autonomous Intrusion Investigation",
-      "url": "http://arxiv.org/abs/2607.24006v1",
-      "published": "2026-07-27T05:05:57Z",
-      "authors": "Mohan Manivannan et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Autonomous agent paired with cloud decoy compresses intrusion investigation by bounding evidence horizon and detecting indirect prompt injection.",
-      "unproven": "reader does not run IR or operate a SOC; evaluation on real breaches or adversary adaptation; scope of false positives in production",
-      "scored_at": "2026-07-28T06:19:09.426266586Z"
     }
   ],
   "noise": [
