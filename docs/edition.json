@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T13:46:17.393050915Z",
+  "generated": "2026-07-29T17:04:56.898496943Z",
   "edition": 5,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,9 +14,9 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 5,
-      "NEW GROUND": 12,
+      "NEW GROUND": 13,
       "NOISE FLOOR": 4,
-      "STANDING ORDERS": 4
+      "STANDING ORDERS": 3
     }
   },
   "items": [
@@ -263,21 +263,6 @@
       "scored_at": "2026-07-28T06:19:09.426266986Z"
     },
     {
-      "id": "arxiv:2607.23710v1",
-      "source": "arxiv",
-      "title": "The Illusion of Secure LLM Code: Closing the Security Gap via Iterative Reprompting",
-      "url": "http://arxiv.org/abs/2607.23710v1",
-      "published": "2026-07-26T15:16:44Z",
-      "authors": "Ishpuneet Singh et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Five LLM code assistants fail to generate NIST-compliant authentication code without iterative reprompting; single-shot NIST context alone insufficient.",
-      "unproven": "whether iterative reprompting generalizes to other security domains or remains limited to authentication; tested on five models and one task class",
-      "scored_at": "2026-07-28T01:41:57.729336112Z"
-    },
-    {
       "id": "hn:49089500",
       "source": "hn",
       "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the Incident",
@@ -398,6 +383,21 @@
       "dek": "Authentication bypass in Volvo/Eicher fleet management platform permits unauthorized control of connected vehicles across user accounts.",
       "unproven": "Whether vulnerability affects production deployments or only test instances; no public PoC or active exploitation evidence provided; remediation timeline unknown.",
       "scored_at": "2026-07-27T21:03:54.870713728Z"
+    },
+    {
+      "id": "arxiv:2607.24006v1",
+      "source": "arxiv",
+      "title": "Agentic Cloud Decoys: A Deception-Driven Framework for Autonomous Intrusion Investigation",
+      "url": "http://arxiv.org/abs/2607.24006v1",
+      "published": "2026-07-27T05:05:57Z",
+      "authors": "Mohan Manivannan et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Autonomous agent paired with cloud decoy compresses intrusion investigation by bounding evidence horizon and detecting indirect prompt injection.",
+      "unproven": "reader does not run IR or operate a SOC; evaluation on real breaches or adversary adaptation; scope of false positives in production",
+      "scored_at": "2026-07-28T06:19:09.426266586Z"
     }
   ],
   "noise": [
@@ -418,6 +418,22 @@
       "scored_at": "2026-07-29T01:44:27.426848367Z"
     },
     {
+      "id": "hn:49098510",
+      "source": "hn",
+      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "published": "2026-07-29T15:05:43Z",
+      "authors": "gitpusher42",
+      "points": 225,
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "TurboFieldfare runs 4-bit Gemma 4 26B on 2 GB RAM by streaming experts from SSD; on-device inference optimization technique.",
+      "unproven": "single model and hardware platform; does not establish whether technique applies to other MoE models or architectures",
+      "scored_at": "2026-07-29T17:04:56.892603002Z"
+    },
+    {
       "id": "hn:49081555",
       "source": "hn",
       "title": "About the security content of macOS Tahoe 26.6",
@@ -432,21 +448,6 @@
       "dek": "Apple security release notes for macOS Tahoe 26.6; routine CVE disclosures.",
       "unproven": "standard vendor patch notification; no novel vulnerability class or exploitation technique described",
       "scored_at": "2026-07-28T17:19:21.877898825Z"
-    },
-    {
-      "id": "hn:49059367",
-      "source": "hn",
-      "title": "Design is compromise",
-      "url": "https://stephango.com/design-is-compromise",
-      "published": "2026-07-26T15:51:12Z",
-      "authors": "ankitg12",
-      "points": 131,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Essay on tradeoffs in design decisions and system constraints.",
-      "scored_at": "2026-07-26T20:46:06.113900847Z"
     }
   ]
 }
