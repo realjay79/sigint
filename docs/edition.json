@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-28T20:59:20.424808716Z",
-  "edition": 4,
+  "generated": "2026-07-29T01:44:27.431028196Z",
+  "edition": 5,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,8 +8,8 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 20,
-      "hn": 3,
+      "arxiv": 19,
+      "hn": 4,
       "kev": 2
     },
     "by_quadrant": {
@@ -36,22 +36,6 @@
       "scored_at": "2026-07-28T06:18:58.925928788Z"
     },
     {
-      "id": "kev:CVE-2025-68686",
-      "source": "kev",
-      "title": "CVE-2025-68686 — Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686",
-      "published": "2026-07-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Fortinet FortiOS. Confirmed exploited in the wild. Federal remediation due 10 August.",
-      "cves": [
-        "CVE-2025-68686"
-      ],
-      "scored_at": "2026-07-27T21:03:50.800673905Z"
-    },
-    {
       "id": "kev:CVE-2026-16812",
       "source": "kev",
       "title": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
@@ -66,6 +50,22 @@
         "CVE-2026-16812"
       ],
       "scored_at": "2026-07-27T21:03:50.800676989Z"
+    },
+    {
+      "id": "kev:CVE-2025-68686",
+      "source": "kev",
+      "title": "CVE-2025-68686 — Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686",
+      "published": "2026-07-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Fortinet FortiOS. Confirmed exploited in the wild. Federal remediation due 10 August.",
+      "cves": [
+        "CVE-2025-68686"
+      ],
+      "scored_at": "2026-07-27T21:03:50.800673905Z"
     },
     {
       "id": "arxiv:2607.23586v1",
@@ -156,6 +156,22 @@
       "dek": "Mechanistic interpretability links scenario-wrapped jailbreaks to internal scenario directions; Concept2Scenario framework identifies vulnerable scenario combinations.",
       "unproven": "generalization to models beyond three tested; whether identified scenarios enable hardening or only explain existing failures",
       "scored_at": "2026-07-28T01:41:57.729342311Z"
+    },
+    {
+      "id": "hn:49089500",
+      "source": "hn",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "published": "2026-07-28T20:28:33Z",
+      "authors": "artninja1988",
+      "points": 54,
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Post-mortem of AI agent compromise at a research lab documents exploitation chain and detection gaps.",
+      "unproven": "whether the attack vector applies to agents in controlled SDLC environments versus public deployment",
+      "scored_at": "2026-07-29T01:44:27.426848837Z"
     },
     {
       "id": "arxiv:2607.24639v1",
@@ -383,24 +399,25 @@
       "dek": "Systematic study of jailbreak defense trade-offs finds rule-based defenses preserve performance best, while self-reflective and multi-round defenses increase over-refusal and latency.",
       "unproven": "evaluation on representative open-source models; applicability to proprietary closed-source LLMs and domain-specific fine-tuned agents in financial workflows unclear",
       "scored_at": "2026-07-28T06:18:58.92593578Z"
-    },
-    {
-      "id": "arxiv:2607.24348v1",
-      "source": "arxiv",
-      "title": "DeepFaith: Evidence-Grounded LLMs for Faithful Incident Reporting in Multi-Stage APT Defense",
-      "url": "http://arxiv.org/abs/2607.24348v1",
-      "published": "2026-07-27T12:27:17Z",
-      "authors": "Trung V. Phan et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "DeepFaith generates faithful natural-language APT incident reports by grounding LLM outputs to provenance-graph evidence with post-generation verification.",
-      "unproven": "enterprise testbed evaluation limited to specific autonomous defense system; generalization to heterogeneous SOC tooling and analyst workflows untested",
-      "scored_at": "2026-07-28T06:18:58.925935875Z"
     }
   ],
   "noise": [
+    {
+      "id": "hn:49089755",
+      "source": "hn",
+      "title": "Codex Security",
+      "url": "https://github.com/openai/codex-security",
+      "published": "2026-07-28T20:52:55Z",
+      "authors": "bakigul",
+      "points": 340,
+      "novelty": 1,
+      "actionability": 2,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Product marketing for a SAST vendor with security rule catalog.",
+      "unproven": "whether Codex rules outperform existing SAST tooling the reader already owns and tunes",
+      "scored_at": "2026-07-29T01:44:27.426848367Z"
+    },
     {
       "id": "hn:49081555",
       "source": "hn",
@@ -431,21 +448,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Essay on tradeoffs in design decisions and system constraints.",
       "scored_at": "2026-07-26T20:46:06.113900847Z"
-    },
-    {
-      "id": "hn:49052912",
-      "source": "hn",
-      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
-      "published": "2026-07-25T23:32:50Z",
-      "authors": "oliculipolicula",
-      "points": 121,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Leaked transcript of DeepSeek fundraising comments; reporting on corporate strategy and geopolitics.",
-      "scored_at": "2026-07-26T06:30:00.114406132Z"
     }
   ]
 }
