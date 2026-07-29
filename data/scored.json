@@ -7275,6 +7275,38 @@
     "unproven": "whether Codex rules outperform existing SAST tooling the reader already owns and tunes",
     "scored_at": "2026-07-29T01:44:27.426848367Z"
   },
+  "hn:49091730": {
+    "id": "hn:49091730",
+    "source": "hn",
+    "title": "Hubble: Open-source notetaking app for you and your agents",
+    "url": "https://hubble.md/",
+    "published": "2026-07-29T00:11:23Z",
+    "authors": "handfuloflight",
+    "points": 86,
+    "novelty": 2,
+    "actionability": 2,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Open-source notetaking tool with agent integration; commercial product announcement with no security design disclosure.",
+    "unproven": "security properties of agent integration, threat model, design decisions governing data handling",
+    "scored_at": "2026-07-29T06:25:44.753633647Z"
+  },
+  "hn:49093569": {
+    "id": "hn:49093569",
+    "source": "hn",
+    "title": "More Tailscale tricks for your jailbroken Kindle",
+    "url": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
+    "published": "2026-07-29T04:58:46Z",
+    "authors": "Error6571",
+    "points": 62,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Tailscale configuration patterns for consumer devices; outside application security engineering scope.",
+    "unproven": "entirely outside the reader's domain",
+    "scored_at": "2026-07-29T06:25:44.753632926Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",

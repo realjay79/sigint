@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T01:44:27.431028196Z",
+  "generated": "2026-07-29T06:25:44.759157572Z",
   "edition": 5,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 3,
+      "BREAK GLASS": 2,
       "NEW GROUND": 10,
-      "NOISE FLOOR": 9,
+      "NOISE FLOOR": 10,
       "STANDING ORDERS": 3
     }
   },
@@ -81,21 +81,6 @@
       "dek": "Formalizes authorization continuity for evolving agents: when tool grants remain valid after a model acquires skills or changes behavior, fixed ceiling and envelope model.",
       "unproven": "whether state-bound model integrates with existing tool-policy frameworks or requires separate governance layer; no reference implementation",
       "scored_at": "2026-07-28T01:41:57.72934179Z"
-    },
-    {
-      "id": "arxiv:2607.23444v1",
-      "source": "arxiv",
-      "title": "Isolated but Exposed: Persistence-Based Memory Extraction Attack on LLM Agents",
-      "url": "http://arxiv.org/abs/2607.23444v1",
-      "published": "2026-07-26T03:51:20Z",
-      "authors": "Xinyu Gao et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Tool interface enables memory exfiltration from isolated LLM agent storage, bypassing user-level isolation.",
-      "unproven": "Validated only on constructed agents; does not cover LLM providers' deployed production mitigations or tool-call rate-limiting in live systems.",
-      "scored_at": "2026-07-28T01:42:08.769013686Z"
     },
     {
       "id": "arxiv:2607.24625v1",
@@ -399,6 +384,21 @@
       "dek": "Systematic study of jailbreak defense trade-offs finds rule-based defenses preserve performance best, while self-reflective and multi-round defenses increase over-refusal and latency.",
       "unproven": "evaluation on representative open-source models; applicability to proprietary closed-source LLMs and domain-specific fine-tuned agents in financial workflows unclear",
       "scored_at": "2026-07-28T06:18:58.92593578Z"
+    },
+    {
+      "id": "arxiv:2607.24348v1",
+      "source": "arxiv",
+      "title": "DeepFaith: Evidence-Grounded LLMs for Faithful Incident Reporting in Multi-Stage APT Defense",
+      "url": "http://arxiv.org/abs/2607.24348v1",
+      "published": "2026-07-27T12:27:17Z",
+      "authors": "Trung V. Phan et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "DeepFaith generates faithful natural-language APT incident reports by grounding LLM outputs to provenance-graph evidence with post-generation verification.",
+      "unproven": "enterprise testbed evaluation limited to specific autonomous defense system; generalization to heterogeneous SOC tooling and analyst workflows untested",
+      "scored_at": "2026-07-28T06:18:58.925935875Z"
     }
   ],
   "noise": [
