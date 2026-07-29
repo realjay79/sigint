@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T17:04:56.898496943Z",
+  "generated": "2026-07-29T20:42:51.535831033Z",
   "edition": 5,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,18 +8,34 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 21,
+      "arxiv": 20,
       "hn": 2,
-      "kev": 2
+      "kev": 3
     },
     "by_quadrant": {
       "BREAK GLASS": 5,
-      "NEW GROUND": 13,
+      "NEW GROUND": 12,
       "NOISE FLOOR": 4,
-      "STANDING ORDERS": 3
+      "STANDING ORDERS": 4
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-20316",
+      "source": "kev",
+      "title": "CVE-2026-20316 — Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
+      "published": "2026-07-29T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Secure Firewall Management Center (FMC). Confirmed exploited in the wild. Federal remediation due 1 August.",
+      "cves": [
+        "CVE-2026-20316"
+      ],
+      "scored_at": "2026-07-29T20:42:48.087167335Z"
+    },
     {
       "id": "arxiv:2607.25619v1",
       "source": "arxiv",
@@ -111,22 +127,6 @@
       "scored_at": "2026-07-29T10:31:16.343700509Z"
     },
     {
-      "id": "kev:CVE-2026-16812",
-      "source": "kev",
-      "title": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
-      "published": "2026-07-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 30 July.",
-      "cves": [
-        "CVE-2026-16812"
-      ],
-      "scored_at": "2026-07-27T21:03:50.800676989Z"
-    },
-    {
       "id": "kev:CVE-2025-68686",
       "source": "kev",
       "title": "CVE-2025-68686 — Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
@@ -141,6 +141,22 @@
         "CVE-2025-68686"
       ],
       "scored_at": "2026-07-27T21:03:50.800673905Z"
+    },
+    {
+      "id": "kev:CVE-2026-16812",
+      "source": "kev",
+      "title": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
+      "published": "2026-07-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 30 July.",
+      "cves": [
+        "CVE-2026-16812"
+      ],
+      "scored_at": "2026-07-27T21:03:50.800676989Z"
     },
     {
       "id": "arxiv:2607.25936v1",
@@ -383,21 +399,6 @@
       "dek": "Authentication bypass in Volvo/Eicher fleet management platform permits unauthorized control of connected vehicles across user accounts.",
       "unproven": "Whether vulnerability affects production deployments or only test instances; no public PoC or active exploitation evidence provided; remediation timeline unknown.",
       "scored_at": "2026-07-27T21:03:54.870713728Z"
-    },
-    {
-      "id": "arxiv:2607.24006v1",
-      "source": "arxiv",
-      "title": "Agentic Cloud Decoys: A Deception-Driven Framework for Autonomous Intrusion Investigation",
-      "url": "http://arxiv.org/abs/2607.24006v1",
-      "published": "2026-07-27T05:05:57Z",
-      "authors": "Mohan Manivannan et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Autonomous agent paired with cloud decoy compresses intrusion investigation by bounding evidence horizon and detecting indirect prompt injection.",
-      "unproven": "reader does not run IR or operate a SOC; evaluation on real breaches or adversary adaptation; scope of false positives in production",
-      "scored_at": "2026-07-28T06:19:09.426266586Z"
     }
   ],
   "noise": [

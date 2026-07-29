@@ -9084,6 +9084,52 @@
     "unproven": "entirely outside the reader's domain",
     "scored_at": "2026-07-29T06:25:44.753632926Z"
   },
+  "hn:49095714": {
+    "id": "hn:49095714",
+    "source": "hn",
+    "title": "National Security Determination Threat Posed by Foreign-Produced Robotic Devices [pdf]",
+    "url": "https://fcc.gov/sites/default/files/robots-nsd.pdf",
+    "published": "2026-07-29T10:47:57Z",
+    "authors": "ellingsworth",
+    "points": 67,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "FCC regulatory determination on robotic devices; policy document outside application security practice.",
+    "scored_at": "2026-07-29T20:42:51.531079104Z"
+  },
+  "hn:49096427": {
+    "id": "hn:49096427",
+    "source": "hn",
+    "title": "Disrupting supply chain attacks on NPM and GitHub Actions",
+    "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions",
+    "published": "2026-07-29T12:11:18Z",
+    "authors": "nyku",
+    "points": 78,
+    "novelty": 2,
+    "actionability": 3,
+    "score": 5,
+    "quadrant": "NOISE FLOOR",
+    "dek": "GitHub introduces supply chain attack detection for NPM and Actions; applies to dependency security tooling review.",
+    "unproven": "scope of detection rules and false-positive rate against production repositories not disclosed",
+    "scored_at": "2026-07-29T20:42:51.531078924Z"
+  },
+  "hn:49097591": {
+    "id": "hn:49097591",
+    "source": "hn",
+    "title": "Valve Sponsors Work Bringing Open-Source RADV Driver to Windows",
+    "url": "https://phoronix.com/news/Valve-Sponsors-RADV-Windows",
+    "published": "2026-07-29T13:55:00Z",
+    "authors": "DemiGuru",
+    "points": 60,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Graphics driver porting effort outside application security engineering remit.",
+    "scored_at": "2026-07-29T20:42:51.531078223Z"
+  },
   "hn:49098510": {
     "id": "hn:49098510",
     "source": "hn",
@@ -9099,6 +9145,36 @@
     "dek": "TurboFieldfare runs 4-bit Gemma 4 26B on 2 GB RAM by streaming experts from SSD; on-device inference optimization technique.",
     "unproven": "single model and hardware platform; does not establish whether technique applies to other MoE models or architectures",
     "scored_at": "2026-07-29T17:04:56.892603002Z"
+  },
+  "hn:49099715": {
+    "id": "hn:49099715",
+    "source": "hn",
+    "title": "Keychron announces first open-source firmware for gaming mice",
+    "url": "https://digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
+    "published": "2026-07-29T16:36:59Z",
+    "authors": "JLO64",
+    "points": 173,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Gaming peripherals firmware announcement unrelated to application or supply-chain security.",
+    "scored_at": "2026-07-29T20:42:51.531077461Z"
+  },
+  "hn:49101198": {
+    "id": "hn:49101198",
+    "source": "hn",
+    "title": "Turning a Dumb AC Unit Smart (Without Losing My Security Deposit)",
+    "url": "https://prilik.com/blog/post/automating-ac-nyc",
+    "published": "2026-07-29T18:28:51Z",
+    "authors": "austinallegro",
+    "points": 42,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Consumer IoT modification project outside application security scope.",
+    "scored_at": "2026-07-29T20:42:51.53107647Z"
   },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
@@ -9243,6 +9319,22 @@
       "CVE-2026-16812"
     ],
     "scored_at": "2026-07-27T21:03:50.800676989Z"
+  },
+  "kev:CVE-2026-20316": {
+    "id": "kev:CVE-2026-20316",
+    "source": "kev",
+    "title": "CVE-2026-20316 — Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
+    "published": "2026-07-29T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Cisco Secure Firewall Management Center (FMC). Confirmed exploited in the wild. Federal remediation due 1 August.",
+    "cves": [
+      "CVE-2026-20316"
+    ],
+    "scored_at": "2026-07-29T20:42:48.087167335Z"
   },
   "kev:CVE-2026-25089": {
     "id": "kev:CVE-2026-25089",
