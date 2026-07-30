@@ -10973,6 +10973,22 @@
     "unproven": "whether Wiz disclosed responsibly before publication; whether Microsoft has issued patches or workarounds for existing deployments",
     "scored_at": "2026-07-30T17:15:17.669420649Z"
   },
+  "hn:49113913": {
+    "id": "hn:49113913",
+    "source": "hn",
+    "title": "Making Postgres queues scale",
+    "url": "https://dbos.dev/blog/making-postgres-queues-scale",
+    "published": "2026-07-30T18:39:32Z",
+    "authors": "KraftyOne",
+    "points": 76,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Database-backed queue patterns; engineering blog on scaling Postgres for job dispatch.",
+    "unproven": "outside the reader's remit; not an application security finding",
+    "scored_at": "2026-07-30T20:56:32.387045441Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",

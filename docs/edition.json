@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30T17:15:17.675341675Z",
+  "generated": "2026-07-30T20:56:32.393276304Z",
   "edition": 6,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
+      "BREAK GLASS": 5,
       "NEW GROUND": 12,
-      "NOISE FLOOR": 5,
+      "NOISE FLOOR": 6,
       "STANDING ORDERS": 2
     }
   },
@@ -111,21 +111,6 @@
       "dek": "Domain-conditioned prompts show no statistically significant security drift across seven LLMs and eight critical infrastructure sectors.",
       "unproven": "effect sizes small and composition-driven by two CWE types; generalization to custom prompting strategies uncertain",
       "scored_at": "2026-07-29T10:31:05.571338039Z"
-    },
-    {
-      "id": "arxiv:2607.24964v1",
-      "source": "arxiv",
-      "title": "ALIBI: Adaptive Agentic Attacks on LLM-Based Vulnerability Detectors via Adversarial Code Comments",
-      "url": "http://arxiv.org/abs/2607.24964v1",
-      "published": "2026-07-27T18:13:28Z",
-      "authors": "Zixuan Wu et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "LLM-based vulnerability detectors evade detection 90%+ of the time via adversarial code comments without changing behavior.",
-      "unproven": "Limited to null-pointer dereference; generalization to other vulnerability classes and detector architectures unclear.",
-      "scored_at": "2026-07-29T10:31:16.343699988Z"
     },
     {
       "id": "arxiv:2607.26791v1",
@@ -397,6 +382,21 @@
       "dek": "LLM-generated Kubernetes patches fail when they ignore live service dependencies; adding cluster context improves correctness.",
       "unproven": "Evaluation limited to 36-deployment healthcare cluster; generalization to production scale and vendor diversity unstated.",
       "scored_at": "2026-07-29T10:30:45.950716364Z"
+    },
+    {
+      "id": "arxiv:2607.25987v2",
+      "source": "arxiv",
+      "title": "IH-Benchmark: A Conflict-Centered Benchmark for Instruction-Hierarchy Robustness in LLM Applications",
+      "url": "http://arxiv.org/abs/2607.25987v2",
+      "published": "2026-07-28T17:06:13Z",
+      "authors": "Conor McCauley et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "IH-Benchmark measures instruction-hierarchy robustness across 37 LLM models; system-user compliance is poor proxy for tool-user robustness.",
+      "unproven": "taxonomy of 44 constraint families; no evidence of how failures manifest in production SDLC agent deployments or how to remediate in model selection",
+      "scored_at": "2026-07-30T01:26:49.295282264Z"
     }
   ],
   "noise": [
