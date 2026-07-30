@@ -10957,6 +10957,22 @@
     "unproven": "outside reader's remit entirely",
     "scored_at": "2026-07-30T10:14:48.91640102Z"
   },
+  "hn:49108963": {
+    "id": "hn:49108963",
+    "source": "hn",
+    "title": "CosmosEscape: Taking over Every Database in Azure Cosmos DB",
+    "url": "https://wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db",
+    "published": "2026-07-30T12:13:42Z",
+    "authors": "uvuv",
+    "points": 43,
+    "novelty": 5,
+    "actionability": 4,
+    "score": 9,
+    "quadrant": "BREAK GLASS",
+    "dek": "Authentication bypass in Azure Cosmos DB allows account takeover across all databases via connection string exposure in error messages.",
+    "unproven": "whether Wiz disclosed responsibly before publication; whether Microsoft has issued patches or workarounds for existing deployments",
+    "scored_at": "2026-07-30T17:15:17.669420649Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30T13:27:52.438864557Z",
+  "generated": "2026-07-30T17:15:17.675341675Z",
   "edition": 6,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,18 +8,34 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 23,
-      "hn": 1,
+      "arxiv": 22,
+      "hn": 2,
       "kev": 1
     },
     "by_quadrant": {
       "BREAK GLASS": 6,
-      "NEW GROUND": 13,
-      "NOISE FLOOR": 4,
+      "NEW GROUND": 12,
+      "NOISE FLOOR": 5,
       "STANDING ORDERS": 2
     }
   },
   "items": [
+    {
+      "id": "hn:49108963",
+      "source": "hn",
+      "title": "CosmosEscape: Taking over Every Database in Azure Cosmos DB",
+      "url": "https://wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db",
+      "published": "2026-07-30T12:13:42Z",
+      "authors": "uvuv",
+      "points": 43,
+      "novelty": 5,
+      "actionability": 4,
+      "score": 9,
+      "quadrant": "BREAK GLASS",
+      "dek": "Authentication bypass in Azure Cosmos DB allows account takeover across all databases via connection string exposure in error messages.",
+      "unproven": "whether Wiz disclosed responsibly before publication; whether Microsoft has issued patches or workarounds for existing deployments",
+      "scored_at": "2026-07-30T17:15:17.669420649Z"
+    },
     {
       "id": "arxiv:2607.26719v1",
       "source": "arxiv",
@@ -110,21 +126,6 @@
       "dek": "LLM-based vulnerability detectors evade detection 90%+ of the time via adversarial code comments without changing behavior.",
       "unproven": "Limited to null-pointer dereference; generalization to other vulnerability classes and detector architectures unclear.",
       "scored_at": "2026-07-29T10:31:16.343699988Z"
-    },
-    {
-      "id": "arxiv:2607.24618v1",
-      "source": "arxiv",
-      "title": "Modeling Local Exploit Hazard - A Bayesian Framework for Quantifying Exploit Risk and Operational Efficiency",
-      "url": "http://arxiv.org/abs/2607.24618v1",
-      "published": "2026-07-27T16:15:00Z",
-      "authors": "Stephen Shaffer et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Bayesian framework converts EPSS global probabilities into per-organization daily exploit hazard rates calibrated from telemetry and known-exploited-vulnerabilities timing.",
-      "unproven": "Beta-Binomial inference validation depends on quality of organizational telemetry; applicability across heterogeneous enterprise environments unclear",
-      "scored_at": "2026-07-28T06:18:58.925928788Z"
     },
     {
       "id": "arxiv:2607.26791v1",
@@ -262,36 +263,6 @@
       "scored_at": "2026-07-29T10:31:05.571337899Z"
     },
     {
-      "id": "arxiv:2607.24625v1",
-      "source": "arxiv",
-      "title": "Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents",
-      "url": "http://arxiv.org/abs/2607.24625v1",
-      "published": "2026-07-27T16:19:45Z",
-      "authors": "Arseny Kravchenko et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "APPA framework uses context branching and prospective label evaluation to enable LLM agents to inspect untrusted data without tainting primary context.",
-      "unproven": "evaluation limited to four model families on single multi-turn benchmark; integration with production SDLC agent pipelines not demonstrated",
-      "scored_at": "2026-07-28T06:18:58.925928304Z"
-    },
-    {
-      "id": "arxiv:2607.24893v1",
-      "source": "arxiv",
-      "title": "Early Detection of Distributed Backdoors in Multi-Agent LLM Systems: A Characterization Study",
-      "url": "http://arxiv.org/abs/2607.24893v1",
-      "published": "2026-07-27T15:18:06Z",
-      "authors": "Diego Fernandez Arias et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Distributed backdoor in multi-agent LLM systems detectable 99.3% of the time within five steps of injection.",
-      "unproven": "Five language models and two domains tested; applicability to production agent frameworks and other tasks uncertain.",
-      "scored_at": "2026-07-29T10:31:16.343700378Z"
-    },
-    {
       "id": "arxiv:2607.27080v1",
       "source": "arxiv",
       "title": "MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair",
@@ -396,6 +367,36 @@
       "dek": "Post-mortem of AI agent compromise at a research lab documents exploitation chain and detection gaps.",
       "unproven": "whether the attack vector applies to agents in controlled SDLC environments versus public deployment",
       "scored_at": "2026-07-29T01:44:27.426848837Z"
+    },
+    {
+      "id": "arxiv:2607.26241v1",
+      "source": "arxiv",
+      "title": "Learning the Word Problem: Geodesic Lengths and Cryptographic Applications",
+      "url": "http://arxiv.org/abs/2607.26241v1",
+      "published": "2026-07-28T20:22:47Z",
+      "authors": "Elisabeth Fink",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Graph neural network solves word problem heuristically on Baumslag-Solitar and Artin groups, breaks Wagner-Magyarik PQC.",
+      "unproven": "demonstration on two group families; no code or released model; whether attack scales to parameterized groups or real post-quantum deployments unknown",
+      "scored_at": "2026-07-30T01:26:49.295281874Z"
+    },
+    {
+      "id": "arxiv:2607.25995v1",
+      "source": "arxiv",
+      "title": "Does Runtime Topology Context Improve LLM-Generated Kubernetes Security Patches?",
+      "url": "http://arxiv.org/abs/2607.25995v1",
+      "published": "2026-07-28T17:12:12Z",
+      "authors": "Farooq Shaikh",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "LLM-generated Kubernetes patches fail when they ignore live service dependencies; adding cluster context improves correctness.",
+      "unproven": "Evaluation limited to 36-deployment healthcare cluster; generalization to production scale and vendor diversity unstated.",
+      "scored_at": "2026-07-29T10:30:45.950716364Z"
     }
   ],
   "noise": [
