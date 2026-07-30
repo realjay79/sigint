@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30T10:14:48.922348986Z",
+  "generated": "2026-07-30T13:27:52.438864557Z",
   "edition": 6,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,13 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 24,
+      "arxiv": 23,
+      "hn": 1,
       "kev": 1
     },
     "by_quadrant": {
       "BREAK GLASS": 6,
-      "NEW GROUND": 14,
-      "NOISE FLOOR": 3,
+      "NEW GROUND": 13,
+      "NOISE FLOOR": 4,
       "STANDING ORDERS": 2
     }
   },
@@ -124,21 +125,6 @@
       "dek": "Bayesian framework converts EPSS global probabilities into per-organization daily exploit hazard rates calibrated from telemetry and known-exploited-vulnerabilities timing.",
       "unproven": "Beta-Binomial inference validation depends on quality of organizational telemetry; applicability across heterogeneous enterprise environments unclear",
       "scored_at": "2026-07-28T06:18:58.925928788Z"
-    },
-    {
-      "id": "arxiv:2607.24888v1",
-      "source": "arxiv",
-      "title": "Trusting-Trust Attack against an Entire Linux Distribution through Binary Manipulation",
-      "url": "http://arxiv.org/abs/2607.24888v1",
-      "published": "2026-07-27T12:59:15Z",
-      "authors": "Julien Malka et al.",
-      "novelty": 5,
-      "actionability": 3,
-      "score": 8,
-      "quadrant": "NEW GROUND",
-      "dek": "Trusting-trust attack propagates via GNU strip binary manipulation through NixOS bootstrap, backdooring distribution binaries.",
-      "unproven": "Proof-of-concept on one distribution version; applicability to reproducible-build verification practices in financial CI/CD needs testing.",
-      "scored_at": "2026-07-29T10:31:16.343700509Z"
     },
     {
       "id": "arxiv:2607.26791v1",
@@ -394,6 +380,22 @@
       "dek": "RAGuard layered defense mitigates corpus poisoning in RAG systems via adversarial retriever tuning and label-free leave-one-out filtering.",
       "unproven": "evaluation on synthetic poisoned Natural Questions; defense against natural or adaptive poisoning, and efficacy in production retrieval corpora unknown",
       "scored_at": "2026-07-30T01:26:49.295281603Z"
+    },
+    {
+      "id": "hn:49089500",
+      "source": "hn",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "published": "2026-07-28T20:28:33Z",
+      "authors": "artninja1988",
+      "points": 54,
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Post-mortem of AI agent compromise at a research lab documents exploitation chain and detection gaps.",
+      "unproven": "whether the attack vector applies to agents in controlled SDLC environments versus public deployment",
+      "scored_at": "2026-07-29T01:44:27.426848837Z"
     }
   ],
   "noise": [
