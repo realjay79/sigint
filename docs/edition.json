@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30T01:26:59.56105148Z",
+  "generated": "2026-07-30T06:20:25.229013771Z",
   "edition": 6,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,8 +13,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 6,
-      "NEW GROUND": 15,
-      "NOISE FLOOR": 2,
+      "NEW GROUND": 14,
+      "NOISE FLOOR": 3,
       "STANDING ORDERS": 2
     }
   },
@@ -306,21 +306,6 @@
       "scored_at": "2026-07-29T10:31:16.343700378Z"
     },
     {
-      "id": "arxiv:2607.23999v1",
-      "source": "arxiv",
-      "title": "ContainmentBench: Trace-Based Evaluation of Post-Injection Containment in Tool-Using LLM Agents",
-      "url": "http://arxiv.org/abs/2607.23999v1",
-      "published": "2026-07-27T04:51:20Z",
-      "authors": "Wenhao Lan et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "ContainmentBench shows 73.5% of prompt-injection defenses with identical zero-harm outcomes differ in logged propagation and authorized-utility completion.",
-      "unproven": "whether trace-based containment metrics translate to security posture in agents entering the SDLC; generalization beyond Qwen2.5-7B",
-      "scored_at": "2026-07-28T06:19:09.426266986Z"
-    },
-    {
       "id": "arxiv:2607.27080v1",
       "source": "arxiv",
       "title": "MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair",
@@ -394,6 +379,21 @@
       "dek": "LLM agents show residual bid correlation despite individual competitive pricing, defeating single-agent price audits by design.",
       "unproven": "measurement limited to 20 models from 19 developers; generalization to production trading systems and defense feasibility untested",
       "scored_at": "2026-07-30T01:26:49.295280892Z"
+    },
+    {
+      "id": "arxiv:2607.26339v1",
+      "source": "arxiv",
+      "title": "RAGuard: A Layered Defense Framework for Retrieval-Augmented Generation Systems Against Data Poisoning",
+      "url": "http://arxiv.org/abs/2607.26339v1",
+      "published": "2026-07-28T23:21:04Z",
+      "authors": "Pushkal Kumar et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "RAGuard layered defense mitigates corpus poisoning in RAG systems via adversarial retriever tuning and label-free leave-one-out filtering.",
+      "unproven": "evaluation on synthetic poisoned Natural Questions; defense against natural or adaptive poisoning, and efficacy in production retrieval corpora unknown",
+      "scored_at": "2026-07-30T01:26:49.295281603Z"
     }
   ],
   "noise": [
