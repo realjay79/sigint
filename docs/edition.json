@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31T13:40:33.976141935Z",
+  "generated": "2026-07-31T17:19:39.400292253Z",
   "edition": 7,
   "name": "SIGINT",
   "mark": "^C",
@@ -15,8 +15,8 @@
     "by_quadrant": {
       "BREAK GLASS": 3,
       "NEW GROUND": 13,
-      "NOISE FLOOR": 7,
-      "STANDING ORDERS": 2
+      "NOISE FLOOR": 8,
+      "STANDING ORDERS": 1
     }
   },
   "items": [
@@ -203,21 +203,6 @@
       "scored_at": "2026-07-30T01:26:49.295281743Z"
     },
     {
-      "id": "arxiv:2607.25936v1",
-      "source": "arxiv",
-      "title": "From Role Prompt to Infinite Thinking: Exploiting Persona Conditioning for Inference Cost Attacks in LLMs",
-      "url": "http://arxiv.org/abs/2607.25936v1",
-      "published": "2026-07-28T16:20:01Z",
-      "authors": "Zhiyi Mou et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Persona-conditioning prompts induce excessive token generation; role-play injection bypasses detectable adversarial suffixes.",
-      "unproven": "Mitigation strategy not presented; no evidence of deployment in production LLM services.",
-      "scored_at": "2026-07-29T10:30:45.950719359Z"
-    },
-    {
       "id": "arxiv:2607.28431v1",
       "source": "arxiv",
       "title": "Emerging Challenges in Threat Modeling for GenAI-Augmented Systems: A View from the Trenches",
@@ -397,6 +382,21 @@
       "dek": "Graph neural network solves word problem heuristically on Baumslag-Solitar and Artin groups, breaks Wagner-Magyarik PQC.",
       "unproven": "demonstration on two group families; no code or released model; whether attack scales to parameterized groups or real post-quantum deployments unknown",
       "scored_at": "2026-07-30T01:26:49.295281874Z"
+    },
+    {
+      "id": "arxiv:2607.28561v1",
+      "source": "arxiv",
+      "title": "Statistically secure uncloneable encryption of arbitrary messages",
+      "url": "http://arxiv.org/abs/2607.28561v1",
+      "published": "2026-07-30T17:27:40Z",
+      "authors": "Archishna Bhattacharyya et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Statistically secure uncloneable encryption extended to arbitrary message length; theoretical contribution without deployment path.",
+      "unproven": "no evidence of practical implementation or comparison to existing key material protection schemes; no timeline for quantum hardware capable of the required operations",
+      "scored_at": "2026-07-31T06:37:17.891592812Z"
     }
   ],
   "noise": [

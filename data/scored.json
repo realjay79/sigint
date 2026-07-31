@@ -12864,6 +12864,22 @@
     "dek": "Hungarian nuclear plant shut down due to low Danube water levels; infrastructure news unrelated to application security.",
     "scored_at": "2026-07-31T13:40:33.969118615Z"
   },
+  "hn:49124409": {
+    "id": "hn:49124409",
+    "source": "hn",
+    "title": "New Defcon Badges Pack a Unique Open-Source Chip That Doubles as a Security Key",
+    "url": "https://wired.com/story/defcon-34-badge-baochip-andrew-bunnie-huang",
+    "published": "2026-07-31T15:33:02Z",
+    "authors": "hn_acker",
+    "points": 40,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "DEF CON 2024 badges incorporate an open-source chip usable as a security key.",
+    "unproven": "outside the reader's remit; hardware novelty at a conference does not affect SDLC tooling, secure coding practice, or agent/post-quantum planning",
+    "scored_at": "2026-07-31T17:19:39.394023864Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
