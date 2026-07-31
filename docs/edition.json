@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31T01:53:28.609239206Z",
+  "generated": "2026-07-31T06:37:34.041481417Z",
   "edition": 7,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
+      "BREAK GLASS": 4,
       "NEW GROUND": 14,
-      "NOISE FLOOR": 3,
+      "NOISE FLOOR": 5,
       "STANDING ORDERS": 2
     }
   },
@@ -96,36 +96,6 @@
       "dek": "SkillGate detects malicious AI agent skill files before installation via hybrid regex and LLM screening in SDLC toolchains.",
       "unproven": "false-positive rates against legitimate skill files; evasion resistance against sophisticated obfuscation.",
       "scored_at": "2026-07-29T10:30:55.680140934Z"
-    },
-    {
-      "id": "arxiv:2607.25297v1",
-      "source": "arxiv",
-      "title": "Hybrid Analysis for Secure MCP Tool Use in LLM Agents",
-      "url": "http://arxiv.org/abs/2607.25297v1",
-      "published": "2026-07-28T05:17:34Z",
-      "authors": "Ping He et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "MTGuard combines static and dynamic analysis to block harmful MCP tool use in LLM agents across multiple attack categories.",
-      "unproven": "tested on research benchmarks; requires integration and tuning for production agent workflows",
-      "scored_at": "2026-07-29T10:31:05.571337368Z"
-    },
-    {
-      "id": "arxiv:2607.25225v1",
-      "source": "arxiv",
-      "title": "SecDrift: Measuring Sector-Conditioned Security Drift in AI-Generated Code",
-      "url": "http://arxiv.org/abs/2607.25225v1",
-      "published": "2026-07-28T02:57:19Z",
-      "authors": "Narayanaswami Natraj Bharadwaj et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Domain-conditioned prompts show no statistically significant security drift across seven LLMs and eight critical infrastructure sectors.",
-      "unproven": "effect sizes small and composition-driven by two CWE types; generalization to custom prompting strategies uncertain",
-      "scored_at": "2026-07-29T10:31:05.571338039Z"
     },
     {
       "id": "arxiv:2607.28147v1",
@@ -293,34 +263,19 @@
       "scored_at": "2026-07-29T10:30:55.680141896Z"
     },
     {
-      "id": "arxiv:2607.25255v1",
+      "id": "arxiv:2607.28431v1",
       "source": "arxiv",
-      "title": "SafeFlow: Semantic Information-Flow Control for Blocking Malicious Propagation in Multi-Agent Systems",
-      "url": "http://arxiv.org/abs/2607.25255v1",
-      "published": "2026-07-28T03:55:47Z",
-      "authors": "Haowen Dai et al.",
-      "novelty": 4,
+      "title": "Emerging Challenges in Threat Modeling for GenAI-Augmented Systems: A View from the Trenches",
+      "url": "http://arxiv.org/abs/2607.28431v1",
+      "published": "2026-07-30T16:08:33Z",
+      "authors": "Nicolás E. Díaz Ferreyra et al.",
+      "novelty": 3,
       "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "SafeFlow models multi-agent attacks as semantic information-flow problems; blocks fragmented harmful requests before execution.",
-      "unproven": "evaluated on four benchmarks; robustness against adaptive agents and real multi-step production workflows not established",
-      "scored_at": "2026-07-29T10:31:05.571337779Z"
-    },
-    {
-      "id": "arxiv:2607.25227v1",
-      "source": "arxiv",
-      "title": "Decision-Level Hijacking: Injecting Cognitive Bias into Large Language Models via Bit-Flip Attacks",
-      "url": "http://arxiv.org/abs/2607.25227v1",
-      "published": "2026-07-28T02:59:32Z",
-      "authors": "Yu Yan et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Bit-flip attacks can inject stable cognitive bias into deployed LLMs with minimal weight modifications.",
-      "unproven": "limited to vision and language models; robustness against weight quantization and integrity verification not addressed",
-      "scored_at": "2026-07-29T10:31:05.571337899Z"
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Three threat-modeling methods applied to GenAI systems in SME; gaps identified in supply-chain and human-centered risk categories.",
+      "unproven": "generalizability beyond single case study; maturity and adoption readiness of methods for application-security teams",
+      "scored_at": "2026-07-31T06:37:08.218034358Z"
     },
     {
       "id": "arxiv:2607.28187v1",
@@ -396,6 +351,51 @@
       "dek": "Benchmark of 95 real AI-discovered CVEs shows small open-weight models rediscover 68% of vulnerabilities; frontier models detect none.",
       "unproven": "Eight repositories and vulnerability types may not represent distribution of exploitable defects in the reader's codebase; generalization to non-open-source codebases unclear.",
       "scored_at": "2026-07-30T01:26:27.235742898Z"
+    },
+    {
+      "id": "arxiv:2607.26935v1",
+      "source": "arxiv",
+      "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
+      "url": "http://arxiv.org/abs/2607.26935v1",
+      "published": "2026-07-29T14:05:26Z",
+      "authors": "Vishisht Choudhary et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Three-class detector distinguishes humans, bots, and browser-automation agents; binary classifiers misroute 34–39% of agents as human.",
+      "unproven": "Controlled benchmark with synthetic evasion; effectiveness against production traffic patterns, distributed agent behaviors, and adaptive mimicry of human cursor dynamics not established.",
+      "scored_at": "2026-07-30T01:26:27.235748757Z"
+    },
+    {
+      "id": "arxiv:2607.26639v1",
+      "source": "arxiv",
+      "title": "Borrowed Strength: Best-of-N Search over a Code EncodingBreaks Self-Check Jailbreak Defenses",
+      "url": "http://arxiv.org/abs/2607.26639v1",
+      "published": "2026-07-29T09:01:26Z",
+      "authors": "Haoyu Zhang et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Code encoding plus best-of-N search bypasses SAGE self-check jailbreak defense, reaching 67% attack success on open models.",
+      "unproven": "whether defense-aware retraining closes the gap; applicability to production-hardened or proprietary model guards.",
+      "scored_at": "2026-07-30T01:26:37.901534394Z"
+    },
+    {
+      "id": "arxiv:2607.26385v1",
+      "source": "arxiv",
+      "title": "Collusion with Competitive Marginals: Price-Level Audits Are Blind by Construction",
+      "url": "http://arxiv.org/abs/2607.26385v1",
+      "published": "2026-07-29T01:39:13Z",
+      "authors": "Xin Xu et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "LLM agents show residual bid correlation despite individual competitive pricing, defeating single-agent price audits by design.",
+      "unproven": "measurement limited to 20 models from 19 developers; generalization to production trading systems and defense feasibility untested",
+      "scored_at": "2026-07-30T01:26:49.295280892Z"
     }
   ],
   "noise": [
