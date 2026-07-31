@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31T06:37:34.041481417Z",
+  "generated": "2026-07-31T10:29:39.243768397Z",
   "edition": 7,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,14 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 23,
-      "hn": 1,
+      "arxiv": 22,
+      "hn": 2,
       "kev": 1
     },
     "by_quadrant": {
       "BREAK GLASS": 4,
-      "NEW GROUND": 14,
-      "NOISE FLOOR": 5,
+      "NEW GROUND": 12,
+      "NOISE FLOOR": 7,
       "STANDING ORDERS": 2
     }
   },
@@ -233,36 +233,6 @@
       "scored_at": "2026-07-29T10:30:45.950719359Z"
     },
     {
-      "id": "arxiv:2607.25479v1",
-      "source": "arxiv",
-      "title": "Architectural Backdoors in Vision-Language Model Supply Chains via Representation Steering",
-      "url": "http://arxiv.org/abs/2607.25479v1",
-      "published": "2026-07-28T09:12:11Z",
-      "authors": "Maria Rosaria Briglia et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Architectural backdoors embedded via representation steering in VLM supply chains persist through fine-tuning and deployment without poisoned data.",
-      "unproven": "detection by standard model auditing; effectiveness across all VLM families and downstream task types.",
-      "scored_at": "2026-07-29T10:30:55.680141645Z"
-    },
-    {
-      "id": "arxiv:2607.25451v1",
-      "source": "arxiv",
-      "title": "Bits and Memories: Measuring Verbatim Extraction Across LLM Quantization",
-      "url": "http://arxiv.org/abs/2607.25451v1",
-      "published": "2026-07-28T08:41:31Z",
-      "authors": "Akshay Sasi",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Four-bit quantization reduces verbatim training data extraction faster than capability loss, but does not eliminate memorization at scale.",
-      "unproven": "application to models with training-data-specific defenses; interaction with other privacy-enhancing techniques.",
-      "scored_at": "2026-07-29T10:30:55.680141896Z"
-    },
-    {
       "id": "arxiv:2607.28431v1",
       "source": "arxiv",
       "title": "Emerging Challenges in Threat Modeling for GenAI-Augmented Systems: A View from the Trenches",
@@ -396,6 +366,37 @@
       "dek": "LLM agents show residual bid correlation despite individual competitive pricing, defeating single-agent price audits by design.",
       "unproven": "measurement limited to 20 models from 19 developers; generalization to production trading systems and defense feasibility untested",
       "scored_at": "2026-07-30T01:26:49.295280892Z"
+    },
+    {
+      "id": "arxiv:2607.26339v1",
+      "source": "arxiv",
+      "title": "RAGuard: A Layered Defense Framework for Retrieval-Augmented Generation Systems Against Data Poisoning",
+      "url": "http://arxiv.org/abs/2607.26339v1",
+      "published": "2026-07-28T23:21:04Z",
+      "authors": "Pushkal Kumar et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "RAGuard layered defense mitigates corpus poisoning in RAG systems via adversarial retriever tuning and label-free leave-one-out filtering.",
+      "unproven": "evaluation on synthetic poisoned Natural Questions; defense against natural or adaptive poisoning, and efficacy in production retrieval corpora unknown",
+      "scored_at": "2026-07-30T01:26:49.295281603Z"
+    },
+    {
+      "id": "hn:49089500",
+      "source": "hn",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "published": "2026-07-28T20:28:33Z",
+      "authors": "artninja1988",
+      "points": 54,
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Post-mortem of AI agent compromise at a research lab documents exploitation chain and detection gaps.",
+      "unproven": "whether the attack vector applies to agents in controlled SDLC environments versus public deployment",
+      "scored_at": "2026-07-29T01:44:27.426848837Z"
     }
   ],
   "noise": [
@@ -432,20 +433,19 @@
       "scored_at": "2026-07-29T17:04:56.892603002Z"
     },
     {
-      "id": "hn:49081555",
+      "id": "hn:49099715",
       "source": "hn",
-      "title": "About the security content of macOS Tahoe 26.6",
-      "url": "https://support.apple.com/en-us/128067",
-      "published": "2026-07-28T09:45:43Z",
-      "authors": "andor",
-      "points": 175,
+      "title": "Keychron announces first open-source firmware for gaming mice",
+      "url": "https://digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
+      "published": "2026-07-29T16:36:59Z",
+      "authors": "JLO64",
+      "points": 173,
       "novelty": 1,
-      "actionability": 2,
-      "score": 3,
+      "actionability": 1,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Apple security release notes for macOS Tahoe 26.6; routine CVE disclosures.",
-      "unproven": "standard vendor patch notification; no novel vulnerability class or exploitation technique described",
-      "scored_at": "2026-07-28T17:19:21.877898825Z"
+      "dek": "Gaming peripherals firmware announcement unrelated to application or supply-chain security.",
+      "scored_at": "2026-07-29T20:42:51.531077461Z"
     }
   ]
 }
