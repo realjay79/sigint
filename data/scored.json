@@ -12864,6 +12864,22 @@
     "dek": "Hungarian nuclear plant shut down due to low Danube water levels; infrastructure news unrelated to application security.",
     "scored_at": "2026-07-31T13:40:33.969118615Z"
   },
+  "hn:49122882": {
+    "id": "hn:49122882",
+    "source": "hn",
+    "title": "Anti-fraud tools can't keep pace with robocall scammers",
+    "url": "https://broadbandbreakfast.com/how-to-fight-back-against-fraudulent-robocalls",
+    "published": "2026-07-31T13:28:05Z",
+    "authors": "dredmorbius",
+    "points": 55,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Anti-fraud tools lag robocall sophistication; systemic detection gap known and outside application security scope.",
+    "unproven": "whether presented evidence is new measurement or existing reporting of known arms race",
+    "scored_at": "2026-07-31T20:54:09.952990808Z"
+  },
   "hn:49124409": {
     "id": "hn:49124409",
     "source": "hn",
@@ -12879,6 +12895,37 @@
     "dek": "DEF CON 2024 badges incorporate an open-source chip usable as a security key.",
     "unproven": "outside the reader's remit; hardware novelty at a conference does not affect SDLC tooling, secure coding practice, or agent/post-quantum planning",
     "scored_at": "2026-07-31T17:19:39.394023864Z"
+  },
+  "hn:49124658": {
+    "id": "hn:49124658",
+    "source": "hn",
+    "title": "Algorithms on billion-scale graph using 10GB RAM: I love DataFusion",
+    "url": "https://semyonsinchenko.github.io/ssinchenko/post/datafusion-graphs-cc-2",
+    "published": "2026-07-31T15:53:37Z",
+    "authors": "speckx",
+    "points": 75,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Engineering blog post on using DataFusion for graph processing demonstrates a tool capability, not a security finding.",
+    "scored_at": "2026-07-31T20:54:09.952989526Z"
+  },
+  "hn:49127306": {
+    "id": "hn:49127306",
+    "source": "hn",
+    "title": "Tailscale didn't stop the Hugging Face intrusion",
+    "url": "https://tailscale.com/blog/hugging-face-intrusion",
+    "published": "2026-07-31T19:03:45Z",
+    "authors": "bluehatbrit",
+    "points": 157,
+    "novelty": 3,
+    "actionability": 3,
+    "score": 6,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Hugging Face intrusion proceeded despite Tailscale deployment, indicating VPN alone insufficient for supply-chain protection.",
+    "unproven": "whether Tailscale was misconfigured, what the actual attack vector was, or how this generalizes beyond this incident",
+    "scored_at": "2026-07-31T20:54:09.952989116Z"
   },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",

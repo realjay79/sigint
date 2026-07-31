@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31T17:19:39.400292253Z",
+  "generated": "2026-07-31T20:54:09.959684565Z",
   "edition": 7,
   "name": "SIGINT",
   "mark": "^C",
@@ -203,6 +203,22 @@
       "scored_at": "2026-07-30T01:26:49.295281743Z"
     },
     {
+      "id": "hn:49127306",
+      "source": "hn",
+      "title": "Tailscale didn't stop the Hugging Face intrusion",
+      "url": "https://tailscale.com/blog/hugging-face-intrusion",
+      "published": "2026-07-31T19:03:45Z",
+      "authors": "bluehatbrit",
+      "points": 157,
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Hugging Face intrusion proceeded despite Tailscale deployment, indicating VPN alone insufficient for supply-chain protection.",
+      "unproven": "whether Tailscale was misconfigured, what the actual attack vector was, or how this generalizes beyond this incident",
+      "scored_at": "2026-07-31T20:54:09.952989116Z"
+    },
+    {
       "id": "arxiv:2607.28431v1",
       "source": "arxiv",
       "title": "Emerging Challenges in Threat Modeling for GenAI-Augmented Systems: A View from the Trenches",
@@ -353,37 +369,6 @@
       "scored_at": "2026-07-30T01:26:49.295281603Z"
     },
     {
-      "id": "hn:49089500",
-      "source": "hn",
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the Incident",
-      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "published": "2026-07-28T20:28:33Z",
-      "authors": "artninja1988",
-      "points": 54,
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Post-mortem of AI agent compromise at a research lab documents exploitation chain and detection gaps.",
-      "unproven": "whether the attack vector applies to agents in controlled SDLC environments versus public deployment",
-      "scored_at": "2026-07-29T01:44:27.426848837Z"
-    },
-    {
-      "id": "arxiv:2607.26241v1",
-      "source": "arxiv",
-      "title": "Learning the Word Problem: Geodesic Lengths and Cryptographic Applications",
-      "url": "http://arxiv.org/abs/2607.26241v1",
-      "published": "2026-07-28T20:22:47Z",
-      "authors": "Elisabeth Fink",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Graph neural network solves word problem heuristically on Baumslag-Solitar and Artin groups, breaks Wagner-Magyarik PQC.",
-      "unproven": "demonstration on two group families; no code or released model; whether attack scales to parameterized groups or real post-quantum deployments unknown",
-      "scored_at": "2026-07-30T01:26:49.295281874Z"
-    },
-    {
       "id": "arxiv:2607.28561v1",
       "source": "arxiv",
       "title": "Statistically secure uncloneable encryption of arbitrary messages",
@@ -397,25 +382,24 @@
       "dek": "Statistically secure uncloneable encryption extended to arbitrary message length; theoretical contribution without deployment path.",
       "unproven": "no evidence of practical implementation or comparison to existing key material protection schemes; no timeline for quantum hardware capable of the required operations",
       "scored_at": "2026-07-31T06:37:17.891592812Z"
+    },
+    {
+      "id": "arxiv:2607.28260v1",
+      "source": "arxiv",
+      "title": "Optimal T Counts under Sparsity: from QROM to State Preparation and Block Encoding",
+      "url": "http://arxiv.org/abs/2607.28260v1",
+      "published": "2026-07-30T14:18:29Z",
+      "authors": "Tongyang Li et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Optimal T-count bounds for sparse quantum read-only memory scale as Θ(√sm + √sn), matching lower bounds.",
+      "unproven": "no experimental validation on quantum hardware; theoretical result only",
+      "scored_at": "2026-07-31T01:53:28.602865012Z"
     }
   ],
   "noise": [
-    {
-      "id": "hn:49089755",
-      "source": "hn",
-      "title": "Codex Security",
-      "url": "https://github.com/openai/codex-security",
-      "published": "2026-07-28T20:52:55Z",
-      "authors": "bakigul",
-      "points": 340,
-      "novelty": 1,
-      "actionability": 2,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Product marketing for a SAST vendor with security rule catalog.",
-      "unproven": "whether Codex rules outperform existing SAST tooling the reader already owns and tunes",
-      "scored_at": "2026-07-29T01:44:27.426848367Z"
-    },
     {
       "id": "hn:49114639",
       "source": "hn",
@@ -446,6 +430,22 @@
       "dek": "TurboFieldfare runs 4-bit Gemma 4 26B on 2 GB RAM by streaming experts from SSD; on-device inference optimization technique.",
       "unproven": "single model and hardware platform; does not establish whether technique applies to other MoE models or architectures",
       "scored_at": "2026-07-29T17:04:56.892603002Z"
+    },
+    {
+      "id": "hn:49116922",
+      "source": "hn",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "published": "2026-07-30T23:00:51Z",
+      "authors": "surprisetalk",
+      "points": 195,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Anthropic documents three real-world cybersecurity incidents found during AI model evaluations; incident taxonomy adds vocabulary, no immediate tooling change.",
+      "unproven": "No disclosure of which evaluations, what findings changed in practice, or whether incidents apply to agents entering SDLC processes.",
+      "scored_at": "2026-07-31T13:40:33.969119186Z"
     }
   ]
 }
