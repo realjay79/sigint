@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-31T20:54:09.959684565Z",
-  "edition": 7,
+  "generated": "2026-08-01T01:54:11.46096858Z",
+  "edition": 8,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 22,
-      "hn": 2,
-      "kev": 1
+      "arxiv": 23,
+      "hn": 2
     },
     "by_quadrant": {
       "BREAK GLASS": 3,
       "NEW GROUND": 13,
-      "NOISE FLOOR": 8,
-      "STANDING ORDERS": 1
+      "NOISE FLOOR": 9
     }
   },
   "items": [
@@ -65,22 +63,6 @@
       "dek": "Lily integrates backdoor detection into CI pipelines and release workflows via trigger-aware fuzzing on Linux distributions.",
       "unproven": "false-positive rate on real-world codebases; whether trigger space is sufficiently compressed to scale to large projects.",
       "scored_at": "2026-07-30T01:26:37.901533944Z"
-    },
-    {
-      "id": "kev:CVE-2026-20316",
-      "source": "kev",
-      "title": "CVE-2026-20316 — Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
-      "published": "2026-07-29T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Secure Firewall Management Center (FMC). Confirmed exploited in the wild. Federal remediation due 1 August.",
-      "cves": [
-        "CVE-2026-20316"
-      ],
-      "scored_at": "2026-07-29T20:42:48.087167335Z"
     },
     {
       "id": "arxiv:2607.28147v1",
@@ -186,21 +168,6 @@
       "dek": "HTTP/3 to HTTP/1.1 conversion at CDNs enables bandwidth and connection amplification DoS; measured on Tranco Top 1M.",
       "unproven": "whether measured CDNs have deployed patches; attack cost and detectability in practice; applicability to HTTP/3-HTTP/3 deployments.",
       "scored_at": "2026-07-30T01:26:37.901534615Z"
-    },
-    {
-      "id": "arxiv:2607.26314v1",
-      "source": "arxiv",
-      "title": "StealthBench: Measuring Operational Stealth in Autonomous Offensive-Security Agents",
-      "url": "http://arxiv.org/abs/2607.26314v1",
-      "published": "2026-07-28T22:23:34Z",
-      "authors": "Ads Dawson et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "StealthBench measures operational-security failures in autonomous red-team agents across 14 scenarios; agents leak credentials and destroy resources despite successful exploitation.",
-      "unproven": "11 hand-verified OPSEC incidents expanded into 14 dockerized tasks; whether findings transfer to agents operating against live infrastructure or sophisticated detection untested",
-      "scored_at": "2026-07-30T01:26:49.295281743Z"
     },
     {
       "id": "hn:49127306",
@@ -339,36 +306,6 @@
       "scored_at": "2026-07-30T01:26:37.901534394Z"
     },
     {
-      "id": "arxiv:2607.26385v1",
-      "source": "arxiv",
-      "title": "Collusion with Competitive Marginals: Price-Level Audits Are Blind by Construction",
-      "url": "http://arxiv.org/abs/2607.26385v1",
-      "published": "2026-07-29T01:39:13Z",
-      "authors": "Xin Xu et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "LLM agents show residual bid correlation despite individual competitive pricing, defeating single-agent price audits by design.",
-      "unproven": "measurement limited to 20 models from 19 developers; generalization to production trading systems and defense feasibility untested",
-      "scored_at": "2026-07-30T01:26:49.295280892Z"
-    },
-    {
-      "id": "arxiv:2607.26339v1",
-      "source": "arxiv",
-      "title": "RAGuard: A Layered Defense Framework for Retrieval-Augmented Generation Systems Against Data Poisoning",
-      "url": "http://arxiv.org/abs/2607.26339v1",
-      "published": "2026-07-28T23:21:04Z",
-      "authors": "Pushkal Kumar et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "RAGuard layered defense mitigates corpus poisoning in RAG systems via adversarial retriever tuning and label-free leave-one-out filtering.",
-      "unproven": "evaluation on synthetic poisoned Natural Questions; defense against natural or adaptive poisoning, and efficacy in production retrieval corpora unknown",
-      "scored_at": "2026-07-30T01:26:49.295281603Z"
-    },
-    {
       "id": "arxiv:2607.28561v1",
       "source": "arxiv",
       "title": "Statistically secure uncloneable encryption of arbitrary messages",
@@ -397,6 +334,66 @@
       "dek": "Optimal T-count bounds for sparse quantum read-only memory scale as Θ(√sm + √sn), matching lower bounds.",
       "unproven": "no experimental validation on quantum hardware; theoretical result only",
       "scored_at": "2026-07-31T01:53:28.602865012Z"
+    },
+    {
+      "id": "arxiv:2607.28226v1",
+      "source": "arxiv",
+      "title": "Security of World-Model-Based Embodied AI: A Lifecycle of Threats, Defenses, and Evaluation",
+      "url": "http://arxiv.org/abs/2607.28226v1",
+      "published": "2026-07-30T13:58:33Z",
+      "authors": "Fazhong Liu et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Survey maps attack families—poisoning, backdoors, adversarial examples—onto world-model lifecycle in embodied AI systems.",
+      "unproven": "Taxonomy paper without new attacks, defenses, or measurements; vocabulary only for an emerging threat surface the reader does not yet own.",
+      "scored_at": "2026-07-31T01:52:55.618077965Z"
+    },
+    {
+      "id": "arxiv:2607.28149v1",
+      "source": "arxiv",
+      "title": "Efficient atom rearrangements for quantum error correction primitives with a single AOD",
+      "url": "http://arxiv.org/abs/2607.28149v1",
+      "published": "2026-07-30T12:56:01Z",
+      "authors": "Tom Hartweg et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Logarithmic AOD stroke count for atom rearrangements reduces 90° rotation from O(d²) to O(log d) using geometric decompositions.",
+      "unproven": "implementation on neutral-atom hardware and integration with full error correction codes not demonstrated",
+      "scored_at": "2026-07-31T01:53:28.602866944Z"
+    },
+    {
+      "id": "arxiv:2607.28088v1",
+      "source": "arxiv",
+      "title": "Checking Information Flow in Cloud-based IoT Access Control Policies (Extended Version)",
+      "url": "http://arxiv.org/abs/2607.28088v1",
+      "published": "2026-07-30T11:54:36Z",
+      "authors": "Lorenzo Ceragioli et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "SMT-based tool verifies unwanted information flow in AWS IoT Core access control policies via reachability analysis.",
+      "unproven": "Tool evaluated on one realistic scenario and unspecified real-world policies; scalability to large deployments and comparison to commercial IoT policy checkers not shown.",
+      "scored_at": "2026-07-31T01:52:55.618079948Z"
+    },
+    {
+      "id": "arxiv:2607.28075v1",
+      "source": "arxiv",
+      "title": "Temporal Poisoning: Clean-Label Backdoors via Event Redistribution in SNNs",
+      "url": "http://arxiv.org/abs/2607.28075v1",
+      "published": "2026-07-30T11:49:28Z",
+      "authors": "Roberto Riaño et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Clean-label backdoor attack on Spiking Neural Networks via temporal event redistribution achieves 100% attack success rate.",
+      "unproven": "SNNs are niche hardware; no evidence this threatens systems the reader deploys or must defend, and no practical mitigation beyond rate-collapse defenses.",
+      "scored_at": "2026-07-31T01:52:55.618080058Z"
     }
   ],
   "noise": [

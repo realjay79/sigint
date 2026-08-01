@@ -12911,6 +12911,22 @@
     "dek": "Engineering blog post on using DataFusion for graph processing demonstrates a tool capability, not a security finding.",
     "scored_at": "2026-07-31T20:54:09.952989526Z"
   },
+  "hn:49126919": {
+    "id": "hn:49126919",
+    "source": "hn",
+    "title": "Using the railway network as a flatbed scanner [video]",
+    "url": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
+    "published": "2026-07-31T18:30:44Z",
+    "authors": "Jimmc414",
+    "points": 52,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "CCC talk on using railway infrastructure for image capture; outside application security scope.",
+    "unproven": "entirely outside the reader's remit in secure SDLC, tooling, and agent/post-quantum security",
+    "scored_at": "2026-08-01T01:54:11.453292336Z"
+  },
   "hn:49127306": {
     "id": "hn:49127306",
     "source": "hn",
