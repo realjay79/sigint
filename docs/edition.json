@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-01T06:20:56.395767731Z",
+  "generated": "2026-08-01T09:50:07.149187127Z",
   "edition": 8,
   "name": "SIGINT",
   "mark": "^C",
@@ -140,36 +140,6 @@
       "scored_at": "2026-07-30T01:26:37.901533052Z"
     },
     {
-      "id": "arxiv:2607.26656v1",
-      "source": "arxiv",
-      "title": "Graph Is the Verifier: Agentic Reinforcement Learning for Interprocedural Vulnerability Detection",
-      "url": "http://arxiv.org/abs/2607.26656v1",
-      "published": "2026-07-29T09:16:54Z",
-      "authors": "Yikun Li et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "VulAgentRL uses CPG-verified evidence to detect 71.7% of real CVEs requiring interprocedural analysis; RL policy learns via teacher distillation.",
-      "unproven": "generalization to codebases and vulnerability types outside training distribution; scalability to production codebases larger than test set.",
-      "scored_at": "2026-07-30T01:26:37.901534124Z"
-    },
-    {
-      "id": "arxiv:2607.26589v1",
-      "source": "arxiv",
-      "title": "CDN Tsunami: Exploiting HTTP/3-HTTP/1.1 Conversion for DoS Attacks",
-      "url": "http://arxiv.org/abs/2607.26589v1",
-      "published": "2026-07-29T08:09:36Z",
-      "authors": "Ziyu Lin et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "HTTP/3 to HTTP/1.1 conversion at CDNs enables bandwidth and connection amplification DoS; measured on Tranco Top 1M.",
-      "unproven": "whether measured CDNs have deployed patches; attack cost and detectability in practice; applicability to HTTP/3-HTTP/3 deployments.",
-      "scored_at": "2026-07-30T01:26:37.901534615Z"
-    },
-    {
       "id": "hn:49127306",
       "source": "hn",
       "title": "Tailscale didn't stop the Hugging Face intrusion",
@@ -291,21 +261,6 @@
       "scored_at": "2026-07-30T01:26:27.235748757Z"
     },
     {
-      "id": "arxiv:2607.26639v1",
-      "source": "arxiv",
-      "title": "Borrowed Strength: Best-of-N Search over a Code EncodingBreaks Self-Check Jailbreak Defenses",
-      "url": "http://arxiv.org/abs/2607.26639v1",
-      "published": "2026-07-29T09:01:26Z",
-      "authors": "Haoyu Zhang et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Code encoding plus best-of-N search bypasses SAGE self-check jailbreak defense, reaching 67% attack success on open models.",
-      "unproven": "whether defense-aware retraining closes the gap; applicability to production-hardened or proprietary model guards.",
-      "scored_at": "2026-07-30T01:26:37.901534394Z"
-    },
-    {
       "id": "arxiv:2607.28561v1",
       "source": "arxiv",
       "title": "Statistically secure uncloneable encryption of arbitrary messages",
@@ -394,6 +349,51 @@
       "dek": "Clean-label backdoor attack on Spiking Neural Networks via temporal event redistribution achieves 100% attack success rate.",
       "unproven": "SNNs are niche hardware; no evidence this threatens systems the reader deploys or must defend, and no practical mitigation beyond rate-collapse defenses.",
       "scored_at": "2026-07-31T01:52:55.618080058Z"
+    },
+    {
+      "id": "arxiv:2607.28063v1",
+      "source": "arxiv",
+      "title": "Deterministic QKD source robust against side-channel attacks",
+      "url": "http://arxiv.org/abs/2607.28063v1",
+      "published": "2026-07-30T11:40:49Z",
+      "authors": "Kiyoshi Tamaki et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "QKD source architecture eliminates need for post-selection or extinction ratio constraints while resisting Trojan-horse attacks.",
+      "unproven": "no laboratory demonstration; relies on unvalidated assumptions about practical device imperfections",
+      "scored_at": "2026-07-31T01:53:28.602867375Z"
+    },
+    {
+      "id": "arxiv:2607.27957v1",
+      "source": "arxiv",
+      "title": "Exponential Advantage of Multipartite Entanglement over Quantum Communication with Applications to Bounded-Storage Cryptography",
+      "url": "http://arxiv.org/abs/2607.27957v1",
+      "published": "2026-07-30T10:04:53Z",
+      "authors": "Ananya Chakraborty et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Multipartite entanglement achieves exponential communication advantage over quantum communication alone; cryptographic separation shown in randomness extraction.",
+      "unproven": "physical implementation feasibility; practical cryptographic deployment against real adversaries; whether bounded-storage assumptions hold post-quantum.",
+      "scored_at": "2026-07-31T10:29:11.788906037Z"
+    },
+    {
+      "id": "arxiv:2607.27892v1",
+      "source": "arxiv",
+      "title": "Witness robustness: An operational quantifier of measurement resources via free state discrimination",
+      "url": "http://arxiv.org/abs/2607.27892v1",
+      "published": "2026-07-30T09:08:55Z",
+      "authors": "Jingsong Ao et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Witness robustness quantifies measurement advantage in free-state discrimination and vanishes when resource-destroying maps exist.",
+      "unproven": "whether operational interpretation applies beyond the measurement-discrimination setting; practical use in resource-theory optimization; faithfulness conditions in common theories.",
+      "scored_at": "2026-07-31T10:29:11.788909123Z"
     }
   ],
   "noise": [
