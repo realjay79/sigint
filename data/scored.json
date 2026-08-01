@@ -12849,6 +12849,22 @@
     "unproven": "No disclosure of which evaluations, what findings changed in practice, or whether incidents apply to agents entering SDLC processes.",
     "scored_at": "2026-07-31T13:40:33.969119186Z"
   },
+  "hn:49119065": {
+    "id": "hn:49119065",
+    "source": "hn",
+    "title": "Just brute force your embeddings",
+    "url": "https://softwaredoug.com/blog/2026/07/29/just-brute-force-embeddings",
+    "published": "2026-07-31T04:39:07Z",
+    "authors": "JohnBerryman",
+    "points": 31,
+    "novelty": 2,
+    "actionability": 2,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Brute-force search over embeddings as a baseline for vector retrieval; known technique applied to a specific corpus.",
+    "unproven": "Whether this scales to production embedding dimensions and corpora; whether computational cost trades favorably against indexed retrieval in realistic deployments.",
+    "scored_at": "2026-08-01T12:57:17.281387922Z"
+  },
   "hn:49120120": {
     "id": "hn:49120120",
     "source": "hn",

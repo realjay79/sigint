@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-01T09:50:07.149187127Z",
+  "generated": "2026-08-01T12:57:17.288341715Z",
   "edition": 8,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,9 +12,9 @@
       "hn": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 3,
+      "BREAK GLASS": 2,
       "NEW GROUND": 13,
-      "NOISE FLOOR": 9
+      "NOISE FLOOR": 10
     }
   },
   "items": [
@@ -48,21 +48,6 @@
       "dek": "Concurrent audio prompt injections using instruction augmentation and scenario concealment achieve 69% attack success on Gemini 3 Pro and GPT-4o-audio.",
       "unproven": "Evaluation limited to audio-in multimodal agents; does not test whether agents in SDLC pipelines (code review, architecture analysis) inherit the same vulnerability.",
       "scored_at": "2026-07-31T01:52:55.618079667Z"
-    },
-    {
-      "id": "arxiv:2607.26719v1",
-      "source": "arxiv",
-      "title": "Not In My Git Yard: Catching Backdoors at Commit and Release Time",
-      "url": "http://arxiv.org/abs/2607.26719v1",
-      "published": "2026-07-29T10:09:48Z",
-      "authors": "Dimitri Kokkonis et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Lily integrates backdoor detection into CI pipelines and release workflows via trigger-aware fuzzing on Linux distributions.",
-      "unproven": "false-positive rate on real-world codebases; whether trigger space is sufficiently compressed to scale to large projects.",
-      "scored_at": "2026-07-30T01:26:37.901533944Z"
     },
     {
       "id": "arxiv:2607.28147v1",
@@ -123,21 +108,6 @@
       "dek": "Signal, iMessage, Threema, and WhatsApp allow group members to send inconsistent transcripts without UI warning; equivocation vectors span protocol fallback and pairwise channels.",
       "unproven": "scope limited to named messengers; unclear whether patches or mitigations exist; no disclosure timeline or vendor response reported",
       "scored_at": "2026-07-31T01:53:19.760562749Z"
-    },
-    {
-      "id": "arxiv:2607.26791v1",
-      "source": "arxiv",
-      "title": "SecRespond: Benchmarking AI Agents for Real-World Post-Compromise Incident Response",
-      "url": "http://arxiv.org/abs/2607.26791v1",
-      "published": "2026-07-29T11:32:23Z",
-      "authors": "Lehan Wang et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "First benchmark for LLM agent evaluation on post-compromise incident response across 10 cyber ranges and 23 models.",
-      "unproven": "whether performance on constructed cyber ranges predicts real IR outcomes; whether results generalize beyond the tested LLM families.",
-      "scored_at": "2026-07-30T01:26:37.901533052Z"
     },
     {
       "id": "hn:49127306",
@@ -394,6 +364,36 @@
       "dek": "Witness robustness quantifies measurement advantage in free-state discrimination and vanishes when resource-destroying maps exist.",
       "unproven": "whether operational interpretation applies beyond the measurement-discrimination setting; practical use in resource-theory optimization; faithfulness conditions in common theories.",
       "scored_at": "2026-07-31T10:29:11.788909123Z"
+    },
+    {
+      "id": "arxiv:2607.27776v1",
+      "source": "arxiv",
+      "title": "CHARGE: Leveraging CWE Hierarchies for Hardware Security SystemVerilog Assertion Generation",
+      "url": "http://arxiv.org/abs/2607.27776v1",
+      "published": "2026-07-30T07:08:49Z",
+      "authors": "Xiao Tan et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "LLM-driven SystemVerilog assertion generation using CWE hierarchies detects 27 of 42 bugs in open-source SoC designs.",
+      "unproven": "false-positive rates and vacuity analysis on proprietary RTL; whether generated assertions integrate into existing hardware security workflows without manual triage.",
+      "scored_at": "2026-07-31T01:53:06.677540832Z"
+    },
+    {
+      "id": "arxiv:2607.27719v1",
+      "source": "arxiv",
+      "title": "Phase Retrieval in $\\mathbb C^4$ Requires Exactly Eleven Measurements",
+      "url": "http://arxiv.org/abs/2607.27719v1",
+      "published": "2026-07-30T05:56:44Z",
+      "authors": "Meng Huang",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Phase retrieval in C^4 requires exactly 11 measurements, resolving a long-standing problem in quantum tomography.",
+      "unproven": "application to any system the reader's organization operates",
+      "scored_at": "2026-07-31T10:29:28.255217751Z"
     }
   ],
   "noise": [
