@@ -12959,6 +12959,21 @@
     "unproven": "whether Tailscale was misconfigured, what the actual attack vector was, or how this generalizes beyond this incident",
     "scored_at": "2026-07-31T20:54:09.952989116Z"
   },
+  "hn:49133647": {
+    "id": "hn:49133647",
+    "source": "hn",
+    "title": "Morten Linderud resigning from Arch Linux development team",
+    "url": "https://lists.archlinux.org/archives/list/arch-dev-public@lists.archlinux.org/thread/2AX2BCJ3EQX7G3YXSDX73BR4NCAWXXBZ",
+    "published": "2026-08-01T11:59:45Z",
+    "authors": "datakan",
+    "points": 34,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Arch Linux maintainer resignation announced; personnel change with no bearing on tooling or process.",
+    "scored_at": "2026-08-01T16:48:53.256442156Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",

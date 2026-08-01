@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-01T12:57:17.288341715Z",
+  "generated": "2026-08-01T16:48:53.265214317Z",
   "edition": 8,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,8 +13,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 2,
-      "NEW GROUND": 13,
-      "NOISE FLOOR": 10
+      "NEW GROUND": 14,
+      "NOISE FLOOR": 9
     }
   },
   "items": [
@@ -186,51 +186,6 @@
       "scored_at": "2026-07-31T01:53:19.760562398Z"
     },
     {
-      "id": "arxiv:2607.27080v1",
-      "source": "arxiv",
-      "title": "MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair",
-      "url": "http://arxiv.org/abs/2607.27080v1",
-      "published": "2026-07-29T16:06:54Z",
-      "authors": "Xuanze Chen et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "MemSecBench benchmark tracks malicious instruction persistence, recall, and repair across 310 cases in agent memory systems with diverse backends.",
-      "unproven": "Lab environment with controlled agent harness; behavior of memory poisoning under production deployment conditions and agent-specific drift not measured.",
-      "scored_at": "2026-07-30T01:26:27.235738231Z"
-    },
-    {
-      "id": "arxiv:2607.27030v1",
-      "source": "arxiv",
-      "title": "HoF-Bench: Rediscovering Real AI-Discovered CVEs Without Frontier Models",
-      "url": "http://arxiv.org/abs/2607.27030v1",
-      "published": "2026-07-29T15:25:07Z",
-      "authors": "Petr Simecek et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Benchmark of 95 real AI-discovered CVEs shows small open-weight models rediscover 68% of vulnerabilities; frontier models detect none.",
-      "unproven": "Eight repositories and vulnerability types may not represent distribution of exploitable defects in the reader's codebase; generalization to non-open-source codebases unclear.",
-      "scored_at": "2026-07-30T01:26:27.235742898Z"
-    },
-    {
-      "id": "arxiv:2607.26935v1",
-      "source": "arxiv",
-      "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
-      "url": "http://arxiv.org/abs/2607.26935v1",
-      "published": "2026-07-29T14:05:26Z",
-      "authors": "Vishisht Choudhary et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Three-class detector distinguishes humans, bots, and browser-automation agents; binary classifiers misroute 34–39% of agents as human.",
-      "unproven": "Controlled benchmark with synthetic evasion; effectiveness against production traffic patterns, distributed agent behaviors, and adaptive mimicry of human cursor dynamics not established.",
-      "scored_at": "2026-07-30T01:26:27.235748757Z"
-    },
-    {
       "id": "arxiv:2607.28561v1",
       "source": "arxiv",
       "title": "Statistically secure uncloneable encryption of arbitrary messages",
@@ -394,6 +349,51 @@
       "dek": "Phase retrieval in C^4 requires exactly 11 measurements, resolving a long-standing problem in quantum tomography.",
       "unproven": "application to any system the reader's organization operates",
       "scored_at": "2026-07-31T10:29:28.255217751Z"
+    },
+    {
+      "id": "arxiv:2607.27683v1",
+      "source": "arxiv",
+      "title": "Quadruply Bonded Mo2 Molecules: An Innate Emitter-Resonator Quantum System in Free Space",
+      "url": "http://arxiv.org/abs/2607.27683v1",
+      "published": "2026-07-30T04:59:35Z",
+      "authors": "Miao Meng et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Mo2 molecules act as innate emitter-resonator systems, trapping visible photons and producing vacuum Rabi splitting.",
+      "unproven": "scalability beyond laboratory demonstration or integration into optical devices",
+      "scored_at": "2026-07-31T10:29:28.255218512Z"
+    },
+    {
+      "id": "arxiv:2607.27661v1",
+      "source": "arxiv",
+      "title": "Strategy Phasing of Cyber Attacks on Digital Substations",
+      "url": "http://arxiv.org/abs/2607.27661v1",
+      "published": "2026-07-30T04:17:40Z",
+      "authors": "Akila Herath et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "HMM-based detector infers multi-phase cyber attacks on IEC 61850 digital substations from fused IDS logs.",
+      "unproven": "evaluation on attacks not in training set; integration with operational SCADA/IDS deployments; false-alarm impact on legitimate substation operations.",
+      "scored_at": "2026-07-31T01:53:06.677541112Z"
+    },
+    {
+      "id": "arxiv:2607.27534v1",
+      "source": "arxiv",
+      "title": "Efficient learning of bosonic unitaries beyond the Gaussian class",
+      "url": "http://arxiv.org/abs/2607.27534v1",
+      "published": "2026-07-30T00:03:07Z",
+      "authors": "Xiaobin Zhao et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Multimode bosonic unitaries outside the Gaussian class become learnable if multimode non-Gaussian correlations remain irreducible.",
+      "unproven": "practical learning protocols for high mode count or realistic noise conditions",
+      "scored_at": "2026-07-31T10:29:28.255219114Z"
     }
   ],
   "noise": [
@@ -413,22 +413,6 @@
       "scored_at": "2026-07-31T13:40:33.969136167Z"
     },
     {
-      "id": "hn:49098510",
-      "source": "hn",
-      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
-      "url": "https://github.com/drumih/turbo-fieldfare",
-      "published": "2026-07-29T15:05:43Z",
-      "authors": "gitpusher42",
-      "points": 225,
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "TurboFieldfare runs 4-bit Gemma 4 26B on 2 GB RAM by streaming experts from SSD; on-device inference optimization technique.",
-      "unproven": "single model and hardware platform; does not establish whether technique applies to other MoE models or architectures",
-      "scored_at": "2026-07-29T17:04:56.892603002Z"
-    },
-    {
       "id": "hn:49116922",
       "source": "hn",
       "title": "Investigating three real-world incidents in our cybersecurity evaluations",
@@ -443,6 +427,22 @@
       "dek": "Anthropic documents three real-world cybersecurity incidents found during AI model evaluations; incident taxonomy adds vocabulary, no immediate tooling change.",
       "unproven": "No disclosure of which evaluations, what findings changed in practice, or whether incidents apply to agents entering SDLC processes.",
       "scored_at": "2026-07-31T13:40:33.969119186Z"
+    },
+    {
+      "id": "hn:49113913",
+      "source": "hn",
+      "title": "Making Postgres queues scale",
+      "url": "https://dbos.dev/blog/making-postgres-queues-scale",
+      "published": "2026-07-30T18:39:32Z",
+      "authors": "KraftyOne",
+      "points": 76,
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Database-backed queue patterns; engineering blog on scaling Postgres for job dispatch.",
+      "unproven": "outside the reader's remit; not an application security finding",
+      "scored_at": "2026-07-30T20:56:32.387045441Z"
     }
   ]
 }
