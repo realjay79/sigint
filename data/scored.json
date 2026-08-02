@@ -13022,6 +13022,22 @@
     "unproven": "does not establish timeline for enforcement or impact on legacy systems the reader must support",
     "scored_at": "2026-08-02T06:26:20.230394295Z"
   },
+  "hn:49142569": {
+    "id": "hn:49142569",
+    "source": "hn",
+    "title": "Show HN: Bor – Open-source policy management for Linux desktops",
+    "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release",
+    "published": "2026-08-02T09:06:33Z",
+    "authors": "eniac111",
+    "points": 64,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Open-source Linux desktop policy management tool with mTLS/gRPC delivery; version 0.8 adds Thunderbird and FirewallD support.",
+    "unproven": "no evidence of deployment at scale, no comparative analysis against existing EDR or MDM tooling, no threat model or security audit published",
+    "scored_at": "2026-08-02T12:58:53.549844345Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
