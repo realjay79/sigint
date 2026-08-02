@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02T01:50:18.685406233Z",
+  "generated": "2026-08-02T06:26:20.23720668Z",
   "edition": 9,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,13 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 20,
-      "hn": 5
+      "arxiv": 19,
+      "hn": 6
     },
     "by_quadrant": {
       "BREAK GLASS": 2,
-      "NEW GROUND": 12,
-      "NOISE FLOOR": 11
+      "NEW GROUND": 10,
+      "NOISE FLOOR": 13
     }
   },
   "items": [
@@ -154,6 +154,22 @@
       "dek": "Machine unlearning can activate dormant clean-label backdoors injected at training time, bypassing post-training detection.",
       "unproven": "whether the attack survives standard model quantization, pruning, or other deployment optimizations; transferability across model families.",
       "scored_at": "2026-07-31T01:53:06.677540191Z"
+    },
+    {
+      "id": "hn:49139711",
+      "source": "hn",
+      "title": "RFC 10015: Deprecating Obsolete Key Exchange Methods in TLS 1.2 and DTLS 1.2",
+      "url": "https://rfc-editor.org/rfc/rfc10015.html",
+      "published": "2026-08-01T23:44:55Z",
+      "authors": "Jimmc414",
+      "points": 51,
+      "novelty": 2,
+      "actionability": 3,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "RFC 10015 proposes deprecating obsolete key exchange methods in TLS 1.2 and DTLS 1.2.",
+      "unproven": "does not establish timeline for enforcement or impact on legacy systems the reader must support",
+      "scored_at": "2026-08-02T06:26:20.230394295Z"
     },
     {
       "id": "arxiv:2607.28561v1",
@@ -306,51 +322,6 @@
       "scored_at": "2026-07-31T01:53:06.677540832Z"
     },
     {
-      "id": "arxiv:2607.27719v1",
-      "source": "arxiv",
-      "title": "Phase Retrieval in $\\mathbb C^4$ Requires Exactly Eleven Measurements",
-      "url": "http://arxiv.org/abs/2607.27719v1",
-      "published": "2026-07-30T05:56:44Z",
-      "authors": "Meng Huang",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Phase retrieval in C^4 requires exactly 11 measurements, resolving a long-standing problem in quantum tomography.",
-      "unproven": "application to any system the reader's organization operates",
-      "scored_at": "2026-07-31T10:29:28.255217751Z"
-    },
-    {
-      "id": "arxiv:2607.27683v1",
-      "source": "arxiv",
-      "title": "Quadruply Bonded Mo2 Molecules: An Innate Emitter-Resonator Quantum System in Free Space",
-      "url": "http://arxiv.org/abs/2607.27683v1",
-      "published": "2026-07-30T04:59:35Z",
-      "authors": "Miao Meng et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Mo2 molecules act as innate emitter-resonator systems, trapping visible photons and producing vacuum Rabi splitting.",
-      "unproven": "scalability beyond laboratory demonstration or integration into optical devices",
-      "scored_at": "2026-07-31T10:29:28.255218512Z"
-    },
-    {
-      "id": "arxiv:2607.27661v1",
-      "source": "arxiv",
-      "title": "Strategy Phasing of Cyber Attacks on Digital Substations",
-      "url": "http://arxiv.org/abs/2607.27661v1",
-      "published": "2026-07-30T04:17:40Z",
-      "authors": "Akila Herath et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "HMM-based detector infers multi-phase cyber attacks on IEC 61850 digital substations from fused IDS logs.",
-      "unproven": "evaluation on attacks not in training set; integration with operational SCADA/IDS deployments; false-alarm impact on legitimate substation operations.",
-      "scored_at": "2026-07-31T01:53:06.677541112Z"
-    },
-    {
       "id": "hn:49136955",
       "source": "hn",
       "title": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets",
@@ -397,6 +368,36 @@
       "dek": "Anthropic documents three real-world cybersecurity incidents found during AI model evaluations; incident taxonomy adds vocabulary, no immediate tooling change.",
       "unproven": "No disclosure of which evaluations, what findings changed in practice, or whether incidents apply to agents entering SDLC processes.",
       "scored_at": "2026-07-31T13:40:33.969119186Z"
+    },
+    {
+      "id": "arxiv:2607.28572v1",
+      "source": "arxiv",
+      "title": "Quantum Fidelity-per-Cost: A Metric for Evaluation of Quantum Computing Systems",
+      "url": "http://arxiv.org/abs/2607.28572v1",
+      "published": "2026-07-30T17:36:23Z",
+      "authors": "Siddarth Shinde et al.",
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Cross-provider measurement of 12 quantum processors and cost-aware scoring metric; no action for non-quantum teams.",
+      "unproven": "limited to current NISQ hardware offerings; does not address cryptographically relevant quantum capability timelines or post-quantum migration strategy",
+      "scored_at": "2026-07-31T06:37:17.891592421Z"
+    },
+    {
+      "id": "arxiv:2607.28542v1",
+      "source": "arxiv",
+      "title": "Implementing Homomorphic Encryption-Based Logic Locking in System-on-Chip Designs",
+      "url": "http://arxiv.org/abs/2607.28542v1",
+      "published": "2026-07-30T17:11:14Z",
+      "authors": "Ye Ziyang et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Logic locking for RISC-V SoC using homomorphic encryption; 6% LUT overhead, 2.6µs unlock latency.",
+      "unproven": "evaluation on attack scenarios beyond parameterization exposure; threat model scope limited to privilege-switching paths",
+      "scored_at": "2026-07-31T06:37:08.218033446Z"
     }
   ],
   "noise": [

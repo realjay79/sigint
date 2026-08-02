@@ -13006,6 +13006,22 @@
     "unproven": "not relevant to SAST/DAST/SCA tooling, secure SDLC processes, or AI/post-quantum security in the reader's domain",
     "scored_at": "2026-08-01T20:40:32.756131283Z"
   },
+  "hn:49139711": {
+    "id": "hn:49139711",
+    "source": "hn",
+    "title": "RFC 10015: Deprecating Obsolete Key Exchange Methods in TLS 1.2 and DTLS 1.2",
+    "url": "https://rfc-editor.org/rfc/rfc10015.html",
+    "published": "2026-08-01T23:44:55Z",
+    "authors": "Jimmc414",
+    "points": 51,
+    "novelty": 2,
+    "actionability": 3,
+    "score": 5,
+    "quadrant": "NOISE FLOOR",
+    "dek": "RFC 10015 proposes deprecating obsolete key exchange methods in TLS 1.2 and DTLS 1.2.",
+    "unproven": "does not establish timeline for enforcement or impact on legacy systems the reader must support",
+    "scored_at": "2026-08-02T06:26:20.230394295Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
