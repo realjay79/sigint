@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-01T20:40:32.763342692Z",
-  "edition": 8,
+  "generated": "2026-08-02T01:50:18.685406233Z",
+  "edition": 9,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,13 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 23,
-      "hn": 2
+      "arxiv": 20,
+      "hn": 5
     },
     "by_quadrant": {
       "BREAK GLASS": 2,
-      "NEW GROUND": 14,
-      "NOISE FLOOR": 9
+      "NEW GROUND": 12,
+      "NOISE FLOOR": 11
     }
   },
   "items": [
@@ -95,21 +95,6 @@
       "scored_at": "2026-07-31T01:53:06.677540321Z"
     },
     {
-      "id": "arxiv:2607.27510v1",
-      "source": "arxiv",
-      "title": "Send and Pretend: Exploiting Transcript Consistency Issues in End-to-End Encrypted Group Chats",
-      "url": "http://arxiv.org/abs/2607.27510v1",
-      "published": "2026-07-29T22:54:21Z",
-      "authors": "Gabriel K. Gegenhuber et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Signal, iMessage, Threema, and WhatsApp allow group members to send inconsistent transcripts without UI warning; equivocation vectors span protocol fallback and pairwise channels.",
-      "unproven": "scope limited to named messengers; unclear whether patches or mitigations exist; no disclosure timeline or vendor response reported",
-      "scored_at": "2026-07-31T01:53:19.760562749Z"
-    },
-    {
       "id": "hn:49127306",
       "source": "hn",
       "title": "Tailscale didn't stop the Hugging Face intrusion",
@@ -169,21 +154,6 @@
       "dek": "Machine unlearning can activate dormant clean-label backdoors injected at training time, bypassing post-training detection.",
       "unproven": "whether the attack survives standard model quantization, pruning, or other deployment optimizations; transferability across model families.",
       "scored_at": "2026-07-31T01:53:06.677540191Z"
-    },
-    {
-      "id": "arxiv:2607.27528v1",
-      "source": "arxiv",
-      "title": "ThreatForest: Multi-Agent Attack Tree Generation with Pluggable TTP Framework Mapping",
-      "url": "http://arxiv.org/abs/2607.27528v1",
-      "published": "2026-07-29T23:46:23Z",
-      "authors": "Cristian Leo et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Multi-agent system generates attack trees and maps steps to MITRE ATT\u0026CK; embedding accuracy is the bottleneck, not orchestration.",
-      "unproven": "evaluation limited to seven application domains; no comparison to manual threat modeling or existing automated tools; single sentence-transformer embedding may not generalize across architectures",
-      "scored_at": "2026-07-31T01:53:19.760562398Z"
     },
     {
       "id": "arxiv:2607.28561v1",
@@ -381,19 +351,52 @@
       "scored_at": "2026-07-31T01:53:06.677541112Z"
     },
     {
-      "id": "arxiv:2607.27534v1",
-      "source": "arxiv",
-      "title": "Efficient learning of bosonic unitaries beyond the Gaussian class",
-      "url": "http://arxiv.org/abs/2607.27534v1",
-      "published": "2026-07-30T00:03:07Z",
-      "authors": "Xiaobin Zhao et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Multimode bosonic unitaries outside the Gaussian class become learnable if multimode non-Gaussian correlations remain irreducible.",
-      "unproven": "practical learning protocols for high mode count or realistic noise conditions",
-      "scored_at": "2026-07-31T10:29:28.255219114Z"
+      "id": "hn:49136955",
+      "source": "hn",
+      "title": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets",
+      "url": "https://trufflesecurity.com/blog/scanning-7-6-petabytes-of-ai-training-data-for-secrets",
+      "published": "2026-08-01T18:21:41Z",
+      "authors": "882542F3884314B",
+      "points": 34,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Truffle Security scanned HuggingFace data for exposed secrets; found many, no novel detection method disclosed.",
+      "unproven": "Whether findings represent actual exploitable credentials versus false positives; no methodology for remediation or impact assessment provided.",
+      "scored_at": "2026-08-02T01:50:18.678241702Z"
+    },
+    {
+      "id": "hn:49119065",
+      "source": "hn",
+      "title": "Just brute force your embeddings",
+      "url": "https://softwaredoug.com/blog/2026/07/29/just-brute-force-embeddings",
+      "published": "2026-07-31T04:39:07Z",
+      "authors": "JohnBerryman",
+      "points": 31,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Brute-force search over embeddings as a baseline for vector retrieval; known technique applied to a specific corpus.",
+      "unproven": "Whether this scales to production embedding dimensions and corpora; whether computational cost trades favorably against indexed retrieval in realistic deployments.",
+      "scored_at": "2026-08-01T12:57:17.281387922Z"
+    },
+    {
+      "id": "hn:49116922",
+      "source": "hn",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "published": "2026-07-30T23:00:51Z",
+      "authors": "surprisetalk",
+      "points": 195,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Anthropic documents three real-world cybersecurity incidents found during AI model evaluations; incident taxonomy adds vocabulary, no immediate tooling change.",
+      "unproven": "No disclosure of which evaluations, what findings changed in practice, or whether incidents apply to agents entering SDLC processes.",
+      "scored_at": "2026-07-31T13:40:33.969119186Z"
     }
   ],
   "noise": [
@@ -413,22 +416,6 @@
       "scored_at": "2026-07-31T13:40:33.969136167Z"
     },
     {
-      "id": "hn:49116922",
-      "source": "hn",
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-      "url": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "published": "2026-07-30T23:00:51Z",
-      "authors": "surprisetalk",
-      "points": 195,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Anthropic documents three real-world cybersecurity incidents found during AI model evaluations; incident taxonomy adds vocabulary, no immediate tooling change.",
-      "unproven": "No disclosure of which evaluations, what findings changed in practice, or whether incidents apply to agents entering SDLC processes.",
-      "scored_at": "2026-07-31T13:40:33.969119186Z"
-    },
-    {
       "id": "hn:49113913",
       "source": "hn",
       "title": "Making Postgres queues scale",
@@ -443,6 +430,21 @@
       "dek": "Database-backed queue patterns; engineering blog on scaling Postgres for job dispatch.",
       "unproven": "outside the reader's remit; not an application security finding",
       "scored_at": "2026-07-30T20:56:32.387045441Z"
+    },
+    {
+      "id": "hn:49124658",
+      "source": "hn",
+      "title": "Algorithms on billion-scale graph using 10GB RAM: I love DataFusion",
+      "url": "https://semyonsinchenko.github.io/ssinchenko/post/datafusion-graphs-cc-2",
+      "published": "2026-07-31T15:53:37Z",
+      "authors": "speckx",
+      "points": 75,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Engineering blog post on using DataFusion for graph processing demonstrates a tool capability, not a security finding.",
+      "scored_at": "2026-07-31T20:54:09.952989526Z"
     }
   ]
 }

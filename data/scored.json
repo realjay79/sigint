@@ -12974,6 +12974,22 @@
     "dek": "Arch Linux maintainer resignation announced; personnel change with no bearing on tooling or process.",
     "scored_at": "2026-08-01T16:48:53.256442156Z"
   },
+  "hn:49136955": {
+    "id": "hn:49136955",
+    "source": "hn",
+    "title": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets",
+    "url": "https://trufflesecurity.com/blog/scanning-7-6-petabytes-of-ai-training-data-for-secrets",
+    "published": "2026-08-01T18:21:41Z",
+    "authors": "882542F3884314B",
+    "points": 34,
+    "novelty": 2,
+    "actionability": 2,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Truffle Security scanned HuggingFace data for exposed secrets; found many, no novel detection method disclosed.",
+    "unproven": "Whether findings represent actual exploitable credentials versus false positives; no methodology for remediation or impact assessment provided.",
+    "scored_at": "2026-08-02T01:50:18.678241702Z"
+  },
   "hn:49137060": {
     "id": "hn:49137060",
     "source": "hn",
