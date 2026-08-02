@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02T06:26:20.23720668Z",
+  "generated": "2026-08-02T09:48:34.781547822Z",
   "edition": 9,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,8 +13,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 2,
-      "NEW GROUND": 10,
-      "NOISE FLOOR": 13
+      "NEW GROUND": 7,
+      "NOISE FLOOR": 16
     }
   },
   "items": [
@@ -80,21 +80,6 @@
       "scored_at": "2026-07-31T01:53:06.677540041Z"
     },
     {
-      "id": "arxiv:2607.27886v1",
-      "source": "arxiv",
-      "title": "Don't Trust the AI Ecosystem: Analyzing Privacy Leakage in Compromised Open-Source Components",
-      "url": "http://arxiv.org/abs/2607.27886v1",
-      "published": "2026-07-30T09:02:02Z",
-      "authors": "Jin-Seong Kim et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "GradLock embeds pixel-perfect training data into model weights via compromised supply chains, extracting with near-lossless fidelity.",
-      "unproven": "robustness against federated learning or other gradient obfuscation; detection feasibility during code review or model inspection.",
-      "scored_at": "2026-07-31T01:53:06.677540321Z"
-    },
-    {
       "id": "hn:49127306",
       "source": "hn",
       "title": "Tailscale didn't stop the Hugging Face intrusion",
@@ -139,21 +124,6 @@
       "dek": "Simple image transformations—color inversion, grayscale, rotation—bypass three commercial multimodal content-moderation APIs at scale.",
       "unproven": "Black-box evaluation of public APIs only; does not establish whether this reflects architectural flaws or tuning gaps in the reader's own deployment.",
       "scored_at": "2026-07-31T01:52:55.618078676Z"
-    },
-    {
-      "id": "arxiv:2607.27936v1",
-      "source": "arxiv",
-      "title": "Benign on Label, Malicious by Design: Clean-Label Dormant-to-Activated Backdoor via Machine Unlearning with Removable Camouflage",
-      "url": "http://arxiv.org/abs/2607.27936v1",
-      "published": "2026-07-30T09:46:02Z",
-      "authors": "Dongdong Zhao et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Machine unlearning can activate dormant clean-label backdoors injected at training time, bypassing post-training detection.",
-      "unproven": "whether the attack survives standard model quantization, pruning, or other deployment optimizations; transferability across model families.",
-      "scored_at": "2026-07-31T01:53:06.677540191Z"
     },
     {
       "id": "hn:49139711",
@@ -292,36 +262,6 @@
       "scored_at": "2026-07-31T10:29:11.788906037Z"
     },
     {
-      "id": "arxiv:2607.27892v1",
-      "source": "arxiv",
-      "title": "Witness robustness: An operational quantifier of measurement resources via free state discrimination",
-      "url": "http://arxiv.org/abs/2607.27892v1",
-      "published": "2026-07-30T09:08:55Z",
-      "authors": "Jingsong Ao et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Witness robustness quantifies measurement advantage in free-state discrimination and vanishes when resource-destroying maps exist.",
-      "unproven": "whether operational interpretation applies beyond the measurement-discrimination setting; practical use in resource-theory optimization; faithfulness conditions in common theories.",
-      "scored_at": "2026-07-31T10:29:11.788909123Z"
-    },
-    {
-      "id": "arxiv:2607.27776v1",
-      "source": "arxiv",
-      "title": "CHARGE: Leveraging CWE Hierarchies for Hardware Security SystemVerilog Assertion Generation",
-      "url": "http://arxiv.org/abs/2607.27776v1",
-      "published": "2026-07-30T07:08:49Z",
-      "authors": "Xiao Tan et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLM-driven SystemVerilog assertion generation using CWE hierarchies detects 27 of 42 bugs in open-source SoC designs.",
-      "unproven": "false-positive rates and vacuity analysis on proprietary RTL; whether generated assertions integrate into existing hardware security workflows without manual triage.",
-      "scored_at": "2026-07-31T01:53:06.677540832Z"
-    },
-    {
       "id": "hn:49136955",
       "source": "hn",
       "title": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets",
@@ -398,6 +338,66 @@
       "dek": "Logic locking for RISC-V SoC using homomorphic encryption; 6% LUT overhead, 2.6µs unlock latency.",
       "unproven": "evaluation on attack scenarios beyond parameterization exposure; threat model scope limited to privilege-switching paths",
       "scored_at": "2026-07-31T06:37:08.218033446Z"
+    },
+    {
+      "id": "arxiv:2607.28536v1",
+      "source": "arxiv",
+      "title": "When quantum thermal states look classical",
+      "url": "http://arxiv.org/abs/2607.28536v1",
+      "published": "2026-07-30T17:04:09Z",
+      "authors": "Harald Putterman et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Quantum Gibbs states retain classical properties above distinct temperature thresholds; fundamental physics with no security application.",
+      "unproven": "theoretical result; no connection to cryptography, agent security, or post-quantum systems",
+      "scored_at": "2026-07-31T06:37:17.891593323Z"
+    },
+    {
+      "id": "arxiv:2607.28504v1",
+      "source": "arxiv",
+      "title": "Spacetime Layout and Logical Compilation of Color Code",
+      "url": "http://arxiv.org/abs/2607.28504v1",
+      "published": "2026-07-30T16:46:17Z",
+      "authors": "Qinjing Yu et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Logical compilation framework for color-code quantum computing using spacetime block diagrams and ZX diagram semantics.",
+      "unproven": "No hardware demonstration; applicability to fault-tolerant thresholds and realistic noise models untested.",
+      "scored_at": "2026-07-31T06:37:27.74233462Z"
+    },
+    {
+      "id": "arxiv:2607.28499v1",
+      "source": "arxiv",
+      "title": "Structure-Preserving Quantum Simulation of Wave Equations on a Trapped-Ion Processor",
+      "url": "http://arxiv.org/abs/2607.28499v1",
+      "published": "2026-07-30T16:44:58Z",
+      "authors": "Abhishek Shringi et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Trapped-ion processor demonstration of wave-equation and Dirac-dynamics simulation on grids up to 32×32 with sub-2.4% kinetic-energy error.",
+      "unproven": "Single hardware platform and problem class; scaling to practical applications and larger systems not established.",
+      "scored_at": "2026-07-31T06:37:27.742334921Z"
+    },
+    {
+      "id": "arxiv:2607.28493v1",
+      "source": "arxiv",
+      "title": "Generating broadband optical squeezing via Cascaded Micro-Ring Resonators",
+      "url": "http://arxiv.org/abs/2607.28493v1",
+      "published": "2026-07-30T16:41:27Z",
+      "authors": "Chung-Hsien Wang et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Cascaded microring resonators generate broadband squeezed light with flat spectrum using five cavities instead of single high-Q design.",
+      "unproven": "No experimental validation; fabrication tolerance and robustness claims are simulation-only.",
+      "scored_at": "2026-07-31T06:37:27.742335172Z"
     }
   ],
   "noise": [
