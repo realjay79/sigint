@@ -1,18 +1,17 @@
 {
-  "generated": "2026-08-02T16:47:37.076801978Z",
+  "generated": "2026-08-02T20:43:01.423686538Z",
   "edition": 9,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 25,
+    "total": 15,
     "by_source": {
-      "arxiv": 9,
-      "hn": 16
+      "hn": 15
     },
     "by_quadrant": {
-      "NOISE FLOOR": 25
+      "NOISE FLOOR": 15
     }
   },
   "items": [
@@ -47,21 +46,6 @@
       "dek": "RFC 10015 proposes deprecating obsolete key exchange methods in TLS 1.2 and DTLS 1.2.",
       "unproven": "does not establish timeline for enforcement or impact on legacy systems the reader must support",
       "scored_at": "2026-08-02T06:26:20.230394295Z"
-    },
-    {
-      "id": "arxiv:2607.28561v1",
-      "source": "arxiv",
-      "title": "Statistically secure uncloneable encryption of arbitrary messages",
-      "url": "http://arxiv.org/abs/2607.28561v1",
-      "published": "2026-07-30T17:27:40Z",
-      "authors": "Archishna Bhattacharyya et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Statistically secure uncloneable encryption extended to arbitrary message length; theoretical contribution without deployment path.",
-      "unproven": "no evidence of practical implementation or comparison to existing key material protection schemes; no timeline for quantum hardware capable of the required operations",
-      "scored_at": "2026-07-31T06:37:17.891592812Z"
     },
     {
       "id": "hn:49136955",
@@ -112,49 +96,20 @@
       "scored_at": "2026-07-31T13:40:33.969119186Z"
     },
     {
-      "id": "arxiv:2607.28572v1",
-      "source": "arxiv",
-      "title": "Quantum Fidelity-per-Cost: A Metric for Evaluation of Quantum Computing Systems",
-      "url": "http://arxiv.org/abs/2607.28572v1",
-      "published": "2026-07-30T17:36:23Z",
-      "authors": "Siddarth Shinde et al.",
+      "id": "hn:49145883",
+      "source": "hn",
+      "title": "Rooting, firmware analysis and persistent credentials of TP-Link TL-841N",
+      "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1",
+      "published": "2026-08-02T16:19:17Z",
+      "authors": "mindracer",
+      "points": 60,
       "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Cross-provider measurement of 12 quantum processors and cost-aware scoring metric; no action for non-quantum teams.",
-      "unproven": "limited to current NISQ hardware offerings; does not address cryptographically relevant quantum capability timelines or post-quantum migration strategy",
-      "scored_at": "2026-07-31T06:37:17.891592421Z"
-    },
-    {
-      "id": "arxiv:2607.28542v1",
-      "source": "arxiv",
-      "title": "Implementing Homomorphic Encryption-Based Logic Locking in System-on-Chip Designs",
-      "url": "http://arxiv.org/abs/2607.28542v1",
-      "published": "2026-07-30T17:11:14Z",
-      "authors": "Ye Ziyang et al.",
-      "novelty": 3,
       "actionability": 1,
-      "score": 4,
+      "score": 3,
       "quadrant": "NOISE FLOOR",
-      "dek": "Logic locking for RISC-V SoC using homomorphic encryption; 6% LUT overhead, 2.6µs unlock latency.",
-      "unproven": "evaluation on attack scenarios beyond parameterization exposure; threat model scope limited to privilege-switching paths",
-      "scored_at": "2026-07-31T06:37:08.218033446Z"
-    },
-    {
-      "id": "arxiv:2607.28536v1",
-      "source": "arxiv",
-      "title": "When quantum thermal states look classical",
-      "url": "http://arxiv.org/abs/2607.28536v1",
-      "published": "2026-07-30T17:04:09Z",
-      "authors": "Harald Putterman et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantum Gibbs states retain classical properties above distinct temperature thresholds; fundamental physics with no security application.",
-      "unproven": "theoretical result; no connection to cryptography, agent security, or post-quantum systems",
-      "scored_at": "2026-07-31T06:37:17.891593323Z"
+      "dek": "TP-Link TL-841N firmware analysis extracts hardcoded credentials and rooting technique.",
+      "unproven": "applicability beyond this specific model; whether credentials are reused across product lines; relevance to current firmware versions in production",
+      "scored_at": "2026-08-02T20:43:01.416344549Z"
     },
     {
       "id": "hn:49142569",
@@ -187,82 +142,6 @@
       "dek": "Anti-fraud tools lag robocall sophistication; systemic detection gap known and outside application security scope.",
       "unproven": "whether presented evidence is new measurement or existing reporting of known arms race",
       "scored_at": "2026-07-31T20:54:09.952990808Z"
-    },
-    {
-      "id": "hn:49113913",
-      "source": "hn",
-      "title": "Making Postgres queues scale",
-      "url": "https://dbos.dev/blog/making-postgres-queues-scale",
-      "published": "2026-07-30T18:39:32Z",
-      "authors": "KraftyOne",
-      "points": 76,
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Database-backed queue patterns; engineering blog on scaling Postgres for job dispatch.",
-      "unproven": "outside the reader's remit; not an application security finding",
-      "scored_at": "2026-07-30T20:56:32.387045441Z"
-    },
-    {
-      "id": "arxiv:2607.28570v1",
-      "source": "arxiv",
-      "title": "Benchmarking Quantum Simulations of the Lipkin-Meshkov-Glick Model Using Large Tensor Networks",
-      "url": "http://arxiv.org/abs/2607.28570v1",
-      "published": "2026-07-30T17:34:48Z",
-      "authors": "Maggie Bao et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "DMRG benchmark of VQE and SQD on LMG model up to 1400 particles shows subspace methods scale better; no security application.",
-      "unproven": "single benchmark problem; does not establish performance on realistic chemistry or cryptanalysis workloads",
-      "scored_at": "2026-07-31T06:37:17.891592632Z"
-    },
-    {
-      "id": "arxiv:2607.28548v1",
-      "source": "arxiv",
-      "title": "Quantum Computing Enabled ab initio Molecular Dynamics Simulations",
-      "url": "http://arxiv.org/abs/2607.28548v1",
-      "published": "2026-07-30T17:17:40Z",
-      "authors": "Susanta Das et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantum-classical workflow for ab initio molecular dynamics on current hardware; no security relevance.",
-      "unproven": "restricted to chemistry simulation; does not address security properties or threats within an SDLC context",
-      "scored_at": "2026-07-31T06:37:17.891592982Z"
-    },
-    {
-      "id": "arxiv:2607.28541v1",
-      "source": "arxiv",
-      "title": "A Provable Oracle-Free Quantum Algorithm for Nonlinear Dynamics on Hybrid Oscillator-Qubit Processors",
-      "url": "http://arxiv.org/abs/2607.28541v1",
-      "published": "2026-07-30T17:10:47Z",
-      "authors": "Kausthubh Chandramouli et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Hybrid qubit-qumode algorithm for nonlinear ODEs with polynomial drift; quantum simulation, not security.",
-      "unproven": "entirely outside the reader's remit; no relevance to application security, tooling, or cryptographic migration",
-      "scored_at": "2026-07-31T06:37:17.891593153Z"
-    },
-    {
-      "id": "arxiv:2607.28524v1",
-      "source": "arxiv",
-      "title": "Exact chiral symmetry with quantum signal processing",
-      "url": "http://arxiv.org/abs/2607.28524v1",
-      "published": "2026-07-30T17:00:58Z",
-      "authors": "Henry Lamm et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantum signal processing preserves chiral symmetry for overlap fermion simulation; lattice QCD, not security.",
-      "unproven": "entirely outside the reader's remit; theoretical particle physics with no bearing on SAST/DAST tooling or SDLC process",
-      "scored_at": "2026-07-31T06:37:17.891593514Z"
     },
     {
       "id": "hn:49137060",
@@ -371,35 +250,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Police shooting in swatting incident spawns lawsuit; criminal justice news outside application security scope.",
       "scored_at": "2026-07-31T13:40:33.969119346Z"
-    },
-    {
-      "id": "hn:49114639",
-      "source": "hn",
-      "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
-      "url": "https://github.com/AminBlg/SimpleEnglish",
-      "published": "2026-07-30T19:34:27Z",
-      "authors": "navs",
-      "points": 309,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "GitHub repository adds agent skill to produce simplified technical English; tool development not tied to SAST/DAST/SCA or SDLC process.",
-      "scored_at": "2026-07-31T13:40:33.969136167Z"
-    },
-    {
-      "id": "arxiv:2607.28621v1",
-      "source": "arxiv",
-      "title": "Lifting Lifted Product Codes",
-      "url": "http://arxiv.org/abs/2607.28621v1",
-      "published": "2026-07-30T17:59:18Z",
-      "authors": "Yuta Hirasaki et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantum error correction via lifted product codes; entirely outside reader remit.",
-      "scored_at": "2026-07-31T06:37:08.218034628Z"
     }
   ],
   "noise": null

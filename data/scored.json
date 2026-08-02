@@ -13038,6 +13038,22 @@
     "unproven": "no evidence of deployment at scale, no comparative analysis against existing EDR or MDM tooling, no threat model or security audit published",
     "scored_at": "2026-08-02T12:58:53.549844345Z"
   },
+  "hn:49145883": {
+    "id": "hn:49145883",
+    "source": "hn",
+    "title": "Rooting, firmware analysis and persistent credentials of TP-Link TL-841N",
+    "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1",
+    "published": "2026-08-02T16:19:17Z",
+    "authors": "mindracer",
+    "points": 60,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "TP-Link TL-841N firmware analysis extracts hardcoded credentials and rooting technique.",
+    "unproven": "applicability beyond this specific model; whether credentials are reused across product lines; relevance to current firmware versions in production",
+    "scored_at": "2026-08-02T20:43:01.416344549Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
