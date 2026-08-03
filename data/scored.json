@@ -14527,6 +14527,37 @@
     "dek": "Opinion piece arguing for open-source development tools; no evidence or novel argument.",
     "scored_at": "2026-08-03T17:46:52.991384236Z"
   },
+  "hn:49158581": {
+    "id": "hn:49158581",
+    "source": "hn",
+    "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+    "url": "https://blog.cloudflare.com/smaller-faster-safer-models",
+    "published": "2026-08-03T17:08:46Z",
+    "authors": "ascorbic",
+    "points": 70,
+    "novelty": 2,
+    "actionability": 2,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Cloudflare deployment patterns for inference models; operational vocabulary for running large language models at scale.",
+    "unproven": "limited to Cloudflare's infrastructure and chosen models; generalizability to other deployment contexts unclear",
+    "scored_at": "2026-08-03T20:55:15.652031742Z"
+  },
+  "hn:49158837": {
+    "id": "hn:49158837",
+    "source": "hn",
+    "title": "Leaked Flock Guide Shows How It Teaches Cops to Promote Its Tech",
+    "url": "https://404media.co/own-the-narrative-leaked-flock-guide-shows-how-it-teaches-cops-to-promote-its-tech",
+    "published": "2026-08-03T17:27:08Z",
+    "authors": "cdrnsf",
+    "points": 37,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Law enforcement surveillance vendor's internal training materials leaked; demonstrates marketing tactics to police.",
+    "scored_at": "2026-08-03T20:55:15.652031382Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
@@ -14670,6 +14701,22 @@
       "CVE-2026-16812"
     ],
     "scored_at": "2026-07-27T21:03:50.800676989Z"
+  },
+  "kev:CVE-2026-18577": {
+    "id": "kev:CVE-2026-18577",
+    "source": "kev",
+    "title": "CVE-2026-18577 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577",
+    "published": "2026-08-03T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 6 August.",
+    "cves": [
+      "CVE-2026-18577"
+    ],
+    "scored_at": "2026-08-03T20:55:13.458772734Z"
   },
   "kev:CVE-2026-20316": {
     "id": "kev:CVE-2026-20316",

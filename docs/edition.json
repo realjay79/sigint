@@ -1,36 +1,37 @@
 {
-  "generated": "2026-08-03T17:46:52.998712657Z",
+  "generated": "2026-08-03T20:55:15.657858485Z",
   "edition": 10,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 23,
+    "total": 19,
     "by_source": {
-      "arxiv": 5,
-      "hn": 18
+      "hn": 18,
+      "kev": 1
     },
     "by_quadrant": {
-      "NOISE FLOOR": 23
+      "NOISE FLOOR": 18,
+      "STANDING ORDERS": 1
     }
   },
   "items": [
     {
-      "id": "hn:49127306",
-      "source": "hn",
-      "title": "Tailscale didn't stop the Hugging Face intrusion",
-      "url": "https://tailscale.com/blog/hugging-face-intrusion",
-      "published": "2026-07-31T19:03:45Z",
-      "authors": "bluehatbrit",
-      "points": 157,
+      "id": "kev:CVE-2026-18577",
+      "source": "kev",
+      "title": "CVE-2026-18577 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577",
+      "published": "2026-08-03T00:00:00Z",
       "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Hugging Face intrusion proceeded despite Tailscale deployment, indicating VPN alone insufficient for supply-chain protection.",
-      "unproven": "whether Tailscale was misconfigured, what the actual attack vector was, or how this generalizes beyond this incident",
-      "scored_at": "2026-07-31T20:54:09.952989116Z"
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 6 August.",
+      "cves": [
+        "CVE-2026-18577"
+      ],
+      "scored_at": "2026-08-03T20:55:13.458772734Z"
     },
     {
       "id": "hn:49139711",
@@ -47,6 +48,22 @@
       "dek": "RFC 10015 proposes deprecating obsolete key exchange methods in TLS 1.2 and DTLS 1.2.",
       "unproven": "does not establish timeline for enforcement or impact on legacy systems the reader must support",
       "scored_at": "2026-08-02T06:26:20.230394295Z"
+    },
+    {
+      "id": "hn:49158581",
+      "source": "hn",
+      "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+      "url": "https://blog.cloudflare.com/smaller-faster-safer-models",
+      "published": "2026-08-03T17:08:46Z",
+      "authors": "ascorbic",
+      "points": 70,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Cloudflare deployment patterns for inference models; operational vocabulary for running large language models at scale.",
+      "unproven": "limited to Cloudflare's infrastructure and chosen models; generalizability to other deployment contexts unclear",
+      "scored_at": "2026-08-03T20:55:15.652031742Z"
     },
     {
       "id": "hn:49154332",
@@ -97,51 +114,6 @@
       "scored_at": "2026-08-02T01:50:18.678241702Z"
     },
     {
-      "id": "arxiv:2607.29686v1",
-      "source": "arxiv",
-      "title": "Online Shadow Tomography Matching the Classical Bounds",
-      "url": "http://arxiv.org/abs/2607.29686v1",
-      "published": "2026-07-31T17:59:54Z",
-      "authors": "Sitan Chen et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Online shadow tomography algorithm matches classical adaptive-data-analysis bounds for quantum state measurement.",
-      "unproven": "Quantum theory; outside reader's domain.",
-      "scored_at": "2026-08-03T06:52:38.345751296Z"
-    },
-    {
-      "id": "arxiv:2607.29680v1",
-      "source": "arxiv",
-      "title": "Spectrum Estimation is Almost as Hard as Tomography",
-      "url": "http://arxiv.org/abs/2607.29680v1",
-      "published": "2026-07-31T17:57:03Z",
-      "authors": "Marco Fanizza et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Sample complexity lower bound for quantum spectrum and entropy estimation scales as Ω(d²⁻ᵞ).",
-      "unproven": "Quantum information theory; not applicable to reader's SDLC or agent security work.",
-      "scored_at": "2026-08-03T06:52:38.345751527Z"
-    },
-    {
-      "id": "arxiv:2607.29672v1",
-      "source": "arxiv",
-      "title": "The Kikuchi Hierarchy is Sharp for $k$XOR",
-      "url": "http://arxiv.org/abs/2607.29672v1",
-      "published": "2026-07-31T17:54:11Z",
-      "authors": "Alexander Schmidhuber et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Kikuchi hierarchy achieves sharp planted-signal trade-off for kXOR without polylogarithmic loss.",
-      "unproven": "Complexity theory; no bearing on application security tooling or software supply-chain decisions.",
-      "scored_at": "2026-08-03T06:52:38.345751737Z"
-    },
-    {
       "id": "hn:49145883",
       "source": "hn",
       "title": "Rooting, firmware analysis and persistent credentials of TP-Link TL-841N",
@@ -188,6 +160,21 @@
       "dek": "Hardware wallet compromise demonstrates supply-chain risk in self-custody infrastructure.",
       "unproven": "does not address the reader's SDLC or application security tooling",
       "scored_at": "2026-08-03T14:16:15.548274414Z"
+    },
+    {
+      "id": "hn:49158837",
+      "source": "hn",
+      "title": "Leaked Flock Guide Shows How It Teaches Cops to Promote Its Tech",
+      "url": "https://404media.co/own-the-narrative-leaked-flock-guide-shows-how-it-teaches-cops-to-promote-its-tech",
+      "published": "2026-08-03T17:27:08Z",
+      "authors": "cdrnsf",
+      "points": 37,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Law enforcement surveillance vendor's internal training materials leaked; demonstrates marketing tactics to police.",
+      "scored_at": "2026-08-03T20:55:15.652031382Z"
     },
     {
       "id": "hn:49156111",
@@ -325,52 +312,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Arch Linux maintainer resignation announced; personnel change with no bearing on tooling or process.",
       "scored_at": "2026-08-01T16:48:53.256442156Z"
-    },
-    {
-      "id": "hn:49126919",
-      "source": "hn",
-      "title": "Using the railway network as a flatbed scanner [video]",
-      "url": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
-      "published": "2026-07-31T18:30:44Z",
-      "authors": "Jimmc414",
-      "points": 52,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "CCC talk on using railway infrastructure for image capture; outside application security scope.",
-      "unproven": "entirely outside the reader's remit in secure SDLC, tooling, and agent/post-quantum security",
-      "scored_at": "2026-08-01T01:54:11.453292336Z"
-    },
-    {
-      "id": "arxiv:2607.29670v1",
-      "source": "arxiv",
-      "title": "Fermionic entropy: an efficiently measurable strong monotone for non-Gaussianity",
-      "url": "http://arxiv.org/abs/2607.29670v1",
-      "published": "2026-07-31T17:53:24Z",
-      "authors": "Lorenzo Leone et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantum physics paper on fermionic entropy measurement; entirely outside application security engineering.",
-      "unproven": "Not applicable; outside reader's domain.",
-      "scored_at": "2026-08-03T06:52:45.198163124Z"
-    },
-    {
-      "id": "arxiv:2607.29666v1",
-      "source": "arxiv",
-      "title": "Release-free phononic crystal with strong microwave coupling",
-      "url": "http://arxiv.org/abs/2607.29666v1",
-      "published": "2026-07-31T17:50:46Z",
-      "authors": "Joey Frey et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Phononic crystal cavity design for quantum interconnects; unrelated to secure SDLC or application security.",
-      "unproven": "Not applicable; outside reader's domain.",
-      "scored_at": "2026-08-03T06:52:45.198163465Z"
     }
   ],
   "noise": null
