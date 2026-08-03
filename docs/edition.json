@@ -1,18 +1,18 @@
 {
-  "generated": "2026-08-03T14:16:15.555085047Z",
+  "generated": "2026-08-03T17:46:52.998712657Z",
   "edition": 10,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 25,
+    "total": 23,
     "by_source": {
-      "arxiv": 9,
-      "hn": 16
+      "arxiv": 5,
+      "hn": 18
     },
     "by_quadrant": {
-      "NOISE FLOOR": 25
+      "NOISE FLOOR": 23
     }
   },
   "items": [
@@ -190,49 +190,34 @@
       "scored_at": "2026-08-03T14:16:15.548274414Z"
     },
     {
-      "id": "arxiv:2607.29604v1",
-      "source": "arxiv",
-      "title": "CWEEP: A Lexical Static Analysis Framework for CWE Early Prevention",
-      "url": "http://arxiv.org/abs/2607.29604v1",
-      "published": "2026-07-31T16:35:13Z",
-      "authors": "Bryan Kwan et al.",
-      "novelty": 2,
+      "id": "hn:49156111",
+      "source": "hn",
+      "title": "Devtools must be open source",
+      "url": "https://blog.exe.dev/devtools-must-be-open-source",
+      "published": "2026-08-03T14:15:47Z",
+      "authors": "bryanmikaelian",
+      "points": 225,
+      "novelty": 1,
       "actionability": 1,
-      "score": 3,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Static analysis for RTL hardware security reaches 60.8% precision on synthetic bug datasets; outside application security scope.",
-      "unproven": "evaluation limited to manually inserted bugs and LLM-generated code; no real production RTL or comparison to manual review; reader does not work in hardware design.",
-      "scored_at": "2026-08-03T06:52:15.502588989Z"
+      "dek": "Opinion piece arguing for open-source development tools; no evidence or novel argument.",
+      "scored_at": "2026-08-03T17:46:52.991384236Z"
     },
     {
-      "id": "arxiv:2607.29582v1",
-      "source": "arxiv",
-      "title": "Quantum computing-based solver for interacting power grids",
-      "url": "http://arxiv.org/abs/2607.29582v1",
-      "published": "2026-07-31T16:07:07Z",
-      "authors": "Ankit Kumar Das et al.",
-      "novelty": 2,
+      "id": "hn:49156071",
+      "source": "hn",
+      "title": "Utah produced more power from solar than any other source in May, a new first",
+      "url": "https://sltrib.com/news/environment/2026/08/03/utah-sets-solar-power-record",
+      "published": "2026-08-03T14:13:24Z",
+      "authors": "toomuchtodo",
+      "points": 86,
+      "novelty": 1,
       "actionability": 1,
-      "score": 3,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Quantum hybrid solver for power grid resonance analysis; quantum computing application unrelated to SDLC or secure code review.",
-      "unproven": "Validated on single 5-bus system only; no evidence this scales to production grids or outperforms classical approaches in practice.",
-      "scored_at": "2026-08-03T06:52:45.198164587Z"
-    },
-    {
-      "id": "arxiv:2607.29550v1",
-      "source": "arxiv",
-      "title": "Beyond Resilience: Antifragility in Critical Infrastructure Cybersecurity",
-      "url": "http://arxiv.org/abs/2607.29550v1",
-      "published": "2026-07-31T15:42:18Z",
-      "authors": "Stephen Flowerday et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Theory and measurement of antifragility in industrial control systems; reader manages software security, not OT infrastructure.",
-      "unproven": "findings drawn from event databases and one hardware testbed; does not establish operational guidance for application security teams.",
-      "scored_at": "2026-08-03T06:52:15.50258947Z"
+      "dek": "Utah energy generation milestone; entirely outside application security and SDLC scope.",
+      "scored_at": "2026-08-03T17:46:52.991384787Z"
     },
     {
       "id": "hn:49153481",
@@ -386,54 +371,7 @@
       "dek": "Phononic crystal cavity design for quantum interconnects; unrelated to secure SDLC or application security.",
       "unproven": "Not applicable; outside reader's domain.",
       "scored_at": "2026-08-03T06:52:45.198163465Z"
-    },
-    {
-      "id": "arxiv:2607.29660v1",
-      "source": "arxiv",
-      "title": "A Simple Necessary and Sufficient Condition for Yang--Baxter Integrability",
-      "url": "http://arxiv.org/abs/2607.29660v1",
-      "published": "2026-07-31T17:40:36Z",
-      "authors": "Mizuki Sanatani et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Yang-Baxter integrability condition in quantum spin chains; not relevant to application security practice.",
-      "unproven": "Not applicable; outside reader's domain.",
-      "scored_at": "2026-08-03T06:52:45.198163636Z"
     }
   ],
-  "noise": [
-    {
-      "id": "hn:49124658",
-      "source": "hn",
-      "title": "Algorithms on billion-scale graph using 10GB RAM: I love DataFusion",
-      "url": "https://semyonsinchenko.github.io/ssinchenko/post/datafusion-graphs-cc-2",
-      "published": "2026-07-31T15:53:37Z",
-      "authors": "speckx",
-      "points": 75,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Engineering blog post on using DataFusion for graph processing demonstrates a tool capability, not a security finding.",
-      "scored_at": "2026-07-31T20:54:09.952989526Z"
-    },
-    {
-      "id": "hn:49124409",
-      "source": "hn",
-      "title": "New Defcon Badges Pack a Unique Open-Source Chip That Doubles as a Security Key",
-      "url": "https://wired.com/story/defcon-34-badge-baochip-andrew-bunnie-huang",
-      "published": "2026-07-31T15:33:02Z",
-      "authors": "hn_acker",
-      "points": 40,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "DEF CON 2024 badges incorporate an open-source chip usable as a security key.",
-      "unproven": "outside the reader's remit; hardware novelty at a conference does not affect SDLC tooling, secure coding practice, or agent/post-quantum planning",
-      "scored_at": "2026-07-31T17:19:39.394023864Z"
-    }
-  ]
+  "noise": null
 }

@@ -14497,6 +14497,36 @@
     "unproven": "link text only; actual vulnerability details and exploitation scope not accessible in submission",
     "scored_at": "2026-08-03T14:16:13.383060896Z"
   },
+  "hn:49156071": {
+    "id": "hn:49156071",
+    "source": "hn",
+    "title": "Utah produced more power from solar than any other source in May, a new first",
+    "url": "https://sltrib.com/news/environment/2026/08/03/utah-sets-solar-power-record",
+    "published": "2026-08-03T14:13:24Z",
+    "authors": "toomuchtodo",
+    "points": 86,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Utah energy generation milestone; entirely outside application security and SDLC scope.",
+    "scored_at": "2026-08-03T17:46:52.991384787Z"
+  },
+  "hn:49156111": {
+    "id": "hn:49156111",
+    "source": "hn",
+    "title": "Devtools must be open source",
+    "url": "https://blog.exe.dev/devtools-must-be-open-source",
+    "published": "2026-08-03T14:15:47Z",
+    "authors": "bryanmikaelian",
+    "points": 225,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Opinion piece arguing for open-source development tools; no evidence or novel argument.",
+    "scored_at": "2026-08-03T17:46:52.991384236Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
