@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03T06:52:45.207007403Z",
+  "generated": "2026-08-03T11:13:45.143643774Z",
   "edition": 10,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,30 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 16,
-      "hn": 9
+      "arxiv": 13,
+      "hn": 12
     },
     "by_quadrant": {
-      "BREAK GLASS": 1,
-      "NOISE FLOOR": 24
+      "NOISE FLOOR": 25
     }
   },
   "items": [
-    {
-      "id": "arxiv:2607.29167v1",
-      "source": "arxiv",
-      "title": "Memory Provenance Laundering in LLM Agents: A Non-Amplification Firewall for Persistent Memory",
-      "url": "http://arxiv.org/abs/2607.29167v1",
-      "published": "2026-07-31T08:46:27Z",
-      "authors": "Jinghan Xu et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Memory consolidation in LLM agents can launder untrusted observations into trusted context; a provenance-preserving firewall blocks unauthorized tool calls.",
-      "unproven": "Evaluation limited to fixed risk policies and schema-grounded settings; generalization to production agent architectures and mixed-trust memory sources untested.",
-      "scored_at": "2026-08-03T06:52:26.571910003Z"
-    },
     {
       "id": "hn:49127306",
       "source": "hn",
@@ -93,36 +77,6 @@
       "dek": "Benchmark study shows lateral movement detector evaluations vary widely by preprocessing and labeling; affects threat hunting, not application security.",
       "unproven": "reader does not own threat detection or hunting infrastructure; findings inform research rigor but do not change SDLC or architecture review decisions.",
       "scored_at": "2026-08-03T06:52:15.502596763Z"
-    },
-    {
-      "id": "arxiv:2607.29221v1",
-      "source": "arxiv",
-      "title": "MOSAIC: Masked Outsourcing of Secure AI Computations",
-      "url": "http://arxiv.org/abs/2607.29221v1",
-      "published": "2026-07-31T09:53:51Z",
-      "authors": "James Hsin-yu Chiang et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Protocol for secure outsourced AI inference with acceptable transformer perplexity; interesting but no evidence of deployment or adoption.",
-      "unproven": "single implementation on 70B models; no field use; reader concerned with agents in SDLC, not external inference outsourcing; unclear threat model vs. existing model quantization.",
-      "scored_at": "2026-08-03T06:52:15.502597255Z"
-    },
-    {
-      "id": "arxiv:2607.29199v1",
-      "source": "arxiv",
-      "title": "Alignment Is Local: A Paired Diagnostic for GUI Agents under User-Side Persuasion",
-      "url": "http://arxiv.org/abs/2607.29199v1",
-      "published": "2026-07-31T09:18:55Z",
-      "authors": "Haoxin An et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "GUI agents degrade under multi-turn persuasion despite single-turn guardrails; relevant to agent SDLC security but limited to mobile setting.",
-      "unproven": "tested on three frontier models; no evidence on agents in reader's software pipeline; escalation patterns may not transfer to backend or API agent deployments.",
-      "scored_at": "2026-08-03T06:52:15.502597375Z"
     },
     {
       "id": "hn:49146605",
@@ -202,21 +156,6 @@
       "scored_at": "2026-08-03T06:52:38.345751737Z"
     },
     {
-      "id": "arxiv:2607.29100v1",
-      "source": "arxiv",
-      "title": "StraightDP: Geometry-Aware Differential Privacy for Rectified-Flow Transformers",
-      "url": "http://arxiv.org/abs/2607.29100v1",
-      "published": "2026-07-31T07:27:52Z",
-      "authors": "Xujun Che et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Differential privacy for generative models exploits geometry of rectified flows to mitigate utility cliffs under strong privacy budgets.",
-      "unproven": "Single architecture (transformers) and dataset (MNIST); scaling and applicability to large production models not demonstrated.",
-      "scored_at": "2026-08-03T06:52:26.571910283Z"
-    },
-    {
       "id": "hn:49145883",
       "source": "hn",
       "title": "Rooting, firmware analysis and persistent credentials of TP-Link TL-841N",
@@ -294,6 +233,21 @@
       "scored_at": "2026-08-03T06:52:15.50258947Z"
     },
     {
+      "id": "arxiv:2607.29453v1",
+      "source": "arxiv",
+      "title": "Quantum Algorithms for Modular Factorials",
+      "url": "http://arxiv.org/abs/2607.29453v1",
+      "published": "2026-07-31T14:15:12Z",
+      "authors": "Yann Tal",
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Quantum algorithm for modular factorials breaks the 1/2 exponent barrier under divisor promise.",
+      "unproven": "post-quantum migration impact depends on whether this affects cryptographic assumptions; requires threat modeling against quantum adversaries the reader cannot yet quantify",
+      "scored_at": "2026-08-03T11:13:21.581021606Z"
+    },
+    {
       "id": "arxiv:2607.29444v1",
       "source": "arxiv",
       "title": "Bending the Curve: Operational Cyber Epidemiology for Ransomware",
@@ -307,6 +261,21 @@
       "dek": "SEIR epidemiology model applied to ransomware incident management and SOC decision support; reader does not run security operations.",
       "unproven": "framework is conceptual; no evidence from active incident response, no operational SOC deployment, no data showing R0/Re improve decision quality.",
       "scored_at": "2026-08-03T06:52:15.502592165Z"
+    },
+    {
+      "id": "arxiv:2607.29443v1",
+      "source": "arxiv",
+      "title": "Erasure surface code circuit without mid-circuit erasure checks",
+      "url": "http://arxiv.org/abs/2607.29443v1",
+      "published": "2026-07-31T14:08:54Z",
+      "authors": "Margaret Pavlovich et al.",
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Quantum error correction circuit design reduces overhead for erasure checks.",
+      "unproven": "reader does not operate quantum systems; relevance to post-quantum cryptography migration planning is indirect and hardware-dependent",
+      "scored_at": "2026-08-03T11:13:21.581021736Z"
     },
     {
       "id": "arxiv:2607.29417v1",
@@ -355,21 +324,6 @@
       "scored_at": "2026-08-03T06:52:15.502596904Z"
     },
     {
-      "id": "arxiv:2607.29244v1",
-      "source": "arxiv",
-      "title": "JUNO: Aggregated Vector Consensus for Optimal Asynchronous Common Subset",
-      "url": "http://arxiv.org/abs/2607.29244v1",
-      "published": "2026-07-31T10:18:00Z",
-      "authors": "Liangrong Zhao et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Consensus protocol achieves O(n²) message complexity with 93% throughput gain over HoneyBadgerBFT; distributed systems theory, not application security.",
-      "unproven": "reader does not build or operate blockchain or BFT systems; evaluation is algorithmic, not relevant to SDLC or secure architecture.",
-      "scored_at": "2026-08-03T06:52:15.502597134Z"
-    },
-    {
       "id": "hn:49148987",
       "source": "hn",
       "title": "Californians' data deletion requests, DROP, become enforceable Aug. 1",
@@ -398,6 +352,52 @@
       "quadrant": "NOISE FLOOR",
       "dek": "EU AI Act enforcement timeline and regulatory scope summary.",
       "scored_at": "2026-08-03T01:54:17.066646059Z"
+    },
+    {
+      "id": "hn:49146372",
+      "source": "hn",
+      "title": "The Coldcard Disaster Gets Worse: The Hack May Have Reached $88.6M",
+      "url": "https://medium.com/mountain-movers/the-coldcard-disaster-gets-worse-the-hack-may-have-reached-88-6-af507b028594",
+      "published": "2026-08-02T17:19:47Z",
+      "authors": "paulpauper",
+      "points": 33,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Coldcard hardware wallet breach impact reporting; outside application security scope.",
+      "scored_at": "2026-08-03T01:54:17.066648383Z"
+    },
+    {
+      "id": "hn:49137060",
+      "source": "hn",
+      "title": "Postmortem for Kernel Soundness Bug #14576",
+      "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576",
+      "published": "2026-08-01T18:32:20Z",
+      "authors": "juhopitk",
+      "points": 69,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Post-mortem of a kernel bug in Lean theorem prover; outside application security engineering scope.",
+      "unproven": "not relevant to SAST/DAST/SCA tooling, secure SDLC processes, or AI/post-quantum security in the reader's domain",
+      "scored_at": "2026-08-01T20:40:32.756131283Z"
+    },
+    {
+      "id": "hn:49133647",
+      "source": "hn",
+      "title": "Morten Linderud resigning from Arch Linux development team",
+      "url": "https://lists.archlinux.org/archives/list/arch-dev-public@lists.archlinux.org/thread/2AX2BCJ3EQX7G3YXSDX73BR4NCAWXXBZ",
+      "published": "2026-08-01T11:59:45Z",
+      "authors": "datakan",
+      "points": 34,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Arch Linux maintainer resignation announced; personnel change with no bearing on tooling or process.",
+      "scored_at": "2026-08-01T16:48:53.256442156Z"
     }
   ],
   "noise": [
@@ -417,35 +417,36 @@
       "scored_at": "2026-07-31T20:54:09.952989526Z"
     },
     {
-      "id": "hn:49137060",
+      "id": "hn:49126919",
       "source": "hn",
-      "title": "Postmortem for Kernel Soundness Bug #14576",
-      "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576",
-      "published": "2026-08-01T18:32:20Z",
-      "authors": "juhopitk",
-      "points": 69,
+      "title": "Using the railway network as a flatbed scanner [video]",
+      "url": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
+      "published": "2026-07-31T18:30:44Z",
+      "authors": "Jimmc414",
+      "points": 52,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Post-mortem of a kernel bug in Lean theorem prover; outside application security engineering scope.",
-      "unproven": "not relevant to SAST/DAST/SCA tooling, secure SDLC processes, or AI/post-quantum security in the reader's domain",
-      "scored_at": "2026-08-01T20:40:32.756131283Z"
+      "dek": "CCC talk on using railway infrastructure for image capture; outside application security scope.",
+      "unproven": "entirely outside the reader's remit in secure SDLC, tooling, and agent/post-quantum security",
+      "scored_at": "2026-08-01T01:54:11.453292336Z"
     },
     {
-      "id": "hn:49120120",
+      "id": "hn:49124409",
       "source": "hn",
-      "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
-      "url": "https://bbc.com/news/articles/cn0nqv05g0do",
-      "published": "2026-07-31T07:33:10Z",
-      "authors": "vrganj",
-      "points": 54,
+      "title": "New Defcon Badges Pack a Unique Open-Source Chip That Doubles as a Security Key",
+      "url": "https://wired.com/story/defcon-34-badge-baochip-andrew-bunnie-huang",
+      "published": "2026-07-31T15:33:02Z",
+      "authors": "hn_acker",
+      "points": 40,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Hungarian nuclear plant shut down due to low Danube water levels; infrastructure news unrelated to application security.",
-      "scored_at": "2026-07-31T13:40:33.969118615Z"
+      "dek": "DEF CON 2024 badges incorporate an open-source chip usable as a security key.",
+      "unproven": "outside the reader's remit; hardware novelty at a conference does not affect SDLC tooling, secure coding practice, or agent/post-quantum planning",
+      "scored_at": "2026-07-31T17:19:39.394023864Z"
     }
   ]
 }
