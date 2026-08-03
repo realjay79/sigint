@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-02T20:43:01.423686538Z",
-  "edition": 9,
+  "generated": "2026-08-03T01:54:17.073339098Z",
+  "edition": 10,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 15,
+    "total": 17,
     "by_source": {
-      "hn": 15
+      "hn": 17
     },
     "by_quadrant": {
-      "NOISE FLOOR": 15
+      "NOISE FLOOR": 17
     }
   },
   "items": [
@@ -48,6 +48,22 @@
       "scored_at": "2026-08-02T06:26:20.230394295Z"
     },
     {
+      "id": "hn:49146605",
+      "source": "hn",
+      "title": "Harvesting SSH Credentials: Insights from My Honeypot Network",
+      "url": "https://uphillsecurity.com/articles/harvesting-ssh-credentials-insights-from-my-honeypot-network",
+      "published": "2026-08-02T17:45:51Z",
+      "authors": "whatbackup",
+      "points": 36,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Honeypot data characterizes SSH credential theft patterns; no novel attack method.",
+      "unproven": "generalization beyond the operator's network and threat model",
+      "scored_at": "2026-08-03T01:54:17.066647291Z"
+    },
+    {
       "id": "hn:49136955",
       "source": "hn",
       "title": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets",
@@ -78,22 +94,6 @@
       "dek": "Brute-force search over embeddings as a baseline for vector retrieval; known technique applied to a specific corpus.",
       "unproven": "Whether this scales to production embedding dimensions and corpora; whether computational cost trades favorably against indexed retrieval in realistic deployments.",
       "scored_at": "2026-08-01T12:57:17.281387922Z"
-    },
-    {
-      "id": "hn:49116922",
-      "source": "hn",
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-      "url": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "published": "2026-07-30T23:00:51Z",
-      "authors": "surprisetalk",
-      "points": 195,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Anthropic documents three real-world cybersecurity incidents found during AI model evaluations; incident taxonomy adds vocabulary, no immediate tooling change.",
-      "unproven": "No disclosure of which evaluations, what findings changed in practice, or whether incidents apply to agents entering SDLC processes.",
-      "scored_at": "2026-07-31T13:40:33.969119186Z"
     },
     {
       "id": "hn:49145883",
@@ -142,6 +142,51 @@
       "dek": "Anti-fraud tools lag robocall sophistication; systemic detection gap known and outside application security scope.",
       "unproven": "whether presented evidence is new measurement or existing reporting of known arms race",
       "scored_at": "2026-07-31T20:54:09.952990808Z"
+    },
+    {
+      "id": "hn:49148987",
+      "source": "hn",
+      "title": "Californians' data deletion requests, DROP, become enforceable Aug. 1",
+      "url": "https://nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771",
+      "published": "2026-08-02T22:16:34Z",
+      "authors": "MilnerRoute",
+      "points": 85,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "California data deletion law becomes enforceable August 1.",
+      "scored_at": "2026-08-03T01:54:17.066645508Z"
+    },
+    {
+      "id": "hn:49147606",
+      "source": "hn",
+      "title": "EU rules on AI models become enforceable. What's going to change?",
+      "url": "https://euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
+      "published": "2026-08-02T19:40:19Z",
+      "authors": "devonnull",
+      "points": 47,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "EU AI Act enforcement timeline and regulatory scope summary.",
+      "scored_at": "2026-08-03T01:54:17.066646059Z"
+    },
+    {
+      "id": "hn:49146372",
+      "source": "hn",
+      "title": "The Coldcard Disaster Gets Worse: The Hack May Have Reached $88.6M",
+      "url": "https://medium.com/mountain-movers/the-coldcard-disaster-gets-worse-the-hack-may-have-reached-88-6-af507b028594",
+      "published": "2026-08-02T17:19:47Z",
+      "authors": "paulpauper",
+      "points": 33,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Coldcard hardware wallet breach impact reporting; outside application security scope.",
+      "scored_at": "2026-08-03T01:54:17.066648383Z"
     },
     {
       "id": "hn:49137060",
@@ -235,21 +280,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Hungarian nuclear plant shut down due to low Danube water levels; infrastructure news unrelated to application security.",
       "scored_at": "2026-07-31T13:40:33.969118615Z"
-    },
-    {
-      "id": "hn:49115506",
-      "source": "hn",
-      "title": "Man seeks millions after being shot by police in game-related swatting incident",
-      "url": "https://tucsonsentinel.com/local/report/072926_melendez_swatting/man-seeks-millions-after-being-shot-by-pima-deputies-swatting-incident",
-      "published": "2026-07-30T20:44:13Z",
-      "authors": "anigbrowl",
-      "points": 69,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Police shooting in swatting incident spawns lawsuit; criminal justice news outside application security scope.",
-      "scored_at": "2026-07-31T13:40:33.969119346Z"
     }
   ],
   "noise": null
