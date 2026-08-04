@@ -17181,6 +17181,21 @@
     "unproven": "scope of compromise in reader's codebase unknown without direct inventory check",
     "scored_at": "2026-08-04T17:29:47.774902007Z"
   },
+  "hn:49172834": {
+    "id": "hn:49172834",
+    "source": "hn",
+    "title": "Web security is too hard",
+    "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall",
+    "published": "2026-08-04T18:29:32Z",
+    "authors": "kevincox",
+    "points": 148,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Opinion piece arguing web security complexity exceeds developer capability.",
+    "scored_at": "2026-08-04T21:02:09.851388214Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
@@ -17325,6 +17340,22 @@
     ],
     "scored_at": "2026-07-27T21:03:50.800676989Z"
   },
+  "kev:CVE-2026-18556": {
+    "id": "kev:CVE-2026-18556",
+    "source": "kev",
+    "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
+    "published": "2026-08-04T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 7 August.",
+    "cves": [
+      "CVE-2026-18556"
+    ],
+    "scored_at": "2026-08-04T21:02:05.249434504Z"
+  },
   "kev:CVE-2026-18577": {
     "id": "kev:CVE-2026-18577",
     "source": "kev",
@@ -17372,6 +17403,22 @@
       "CVE-2026-25089"
     ],
     "scored_at": "2026-07-25T16:23:52.503393Z"
+  },
+  "kev:CVE-2026-34486": {
+    "id": "kev:CVE-2026-34486",
+    "source": "kev",
+    "title": "CVE-2026-34486 — Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34486",
+    "published": "2026-08-04T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Apache Tomcat. Confirmed exploited in the wild. Federal remediation due 7 August.",
+    "cves": [
+      "CVE-2026-34486"
+    ],
+    "scored_at": "2026-08-04T21:02:05.249437303Z"
   },
   "kev:CVE-2026-39808": {
     "id": "kev:CVE-2026-39808",
@@ -17500,5 +17547,21 @@
       "CVE-2026-63030"
     ],
     "scored_at": "2026-07-25T16:23:52.503386Z"
+  },
+  "kev:CVE-2026-9198": {
+    "id": "kev:CVE-2026-9198",
+    "source": "kev",
+    "title": "CVE-2026-9198 — IBM Langflow Code Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9198",
+    "published": "2026-08-04T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "IBM Langflow. Confirmed exploited in the wild. Federal remediation due 7 August.",
+    "cves": [
+      "CVE-2026-9198"
+    ],
+    "scored_at": "2026-08-04T21:02:05.249439209Z"
   }
 }

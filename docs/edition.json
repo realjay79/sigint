@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T17:29:47.783540877Z",
+  "generated": "2026-08-04T21:02:09.860226435Z",
   "edition": 11,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,18 +8,66 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 23,
+      "arxiv": 20,
       "hn": 1,
-      "kev": 1
+      "kev": 4
     },
     "by_quadrant": {
       "BREAK GLASS": 4,
-      "NEW GROUND": 9,
-      "NOISE FLOOR": 10,
-      "STANDING ORDERS": 2
+      "NEW GROUND": 7,
+      "NOISE FLOOR": 9,
+      "STANDING ORDERS": 5
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-18556",
+      "source": "kev",
+      "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
+      "published": "2026-08-04T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 7 August.",
+      "cves": [
+        "CVE-2026-18556"
+      ],
+      "scored_at": "2026-08-04T21:02:05.249434504Z"
+    },
+    {
+      "id": "kev:CVE-2026-9198",
+      "source": "kev",
+      "title": "CVE-2026-9198 — IBM Langflow Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9198",
+      "published": "2026-08-04T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "IBM Langflow. Confirmed exploited in the wild. Federal remediation due 7 August.",
+      "cves": [
+        "CVE-2026-9198"
+      ],
+      "scored_at": "2026-08-04T21:02:05.249439209Z"
+    },
+    {
+      "id": "kev:CVE-2026-34486",
+      "source": "kev",
+      "title": "CVE-2026-34486 — Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34486",
+      "published": "2026-08-04T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Apache Tomcat. Confirmed exploited in the wild. Federal remediation due 7 August.",
+      "cves": [
+        "CVE-2026-34486"
+      ],
+      "scored_at": "2026-08-04T21:02:05.249437303Z"
+    },
     {
       "id": "arxiv:2608.02336v1",
       "source": "arxiv",
@@ -263,21 +311,6 @@
       "scored_at": "2026-08-04T01:27:52.548364865Z"
     },
     {
-      "id": "arxiv:2608.00801v1",
-      "source": "arxiv",
-      "title": "Hardware-rooted attestation for AI-agent evidence: composing IETF RATS with action evidence packages",
-      "url": "http://arxiv.org/abs/2608.00801v1",
-      "published": "2026-08-01T18:01:36Z",
-      "authors": "Anton Sokolov",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Composite attestation binds hardware RATS appraisal to software action evidence packages to verify deployed model version produced agent output.",
-      "unproven": "Practical deployment model when agent output timing does not align with measured-boot attestation cycles; whether Veraison performance scales to multi-agent scenarios.",
-      "scored_at": "2026-08-04T01:28:03.760710698Z"
-    },
-    {
       "id": "arxiv:2608.02478v1",
       "source": "arxiv",
       "title": "Solving the Shortest Vector Problem in time $2^{0.6039n}$ Time via Mid-point Hessian",
@@ -366,36 +399,6 @@
       "dek": "Call-graph context improves binary function embeddings on some tasks but not others; semantic and syntactic optimization trade off.",
       "unproven": "Results limited to two embedding models and specific graph architectures; generalization to production reverse-engineering pipelines untested.",
       "scored_at": "2026-08-04T06:20:58.836581604Z"
-    },
-    {
-      "id": "arxiv:2608.01909v1",
-      "source": "arxiv",
-      "title": "Optimality of Gaussian Entanglement of Formation",
-      "url": "http://arxiv.org/abs/2608.01909v1",
-      "published": "2026-08-03T08:42:19Z",
-      "authors": "Gerardo Adesso",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Proof that entanglement of formation for two-mode Gaussian states equals its Gaussian restriction, resolving open problem.",
-      "unproven": "Pure theoretical result; no experimental validation or practical application to quantum systems in scope.",
-      "scored_at": "2026-08-04T13:48:04.093525027Z"
-    },
-    {
-      "id": "arxiv:2608.01887v1",
-      "source": "arxiv",
-      "title": "The Pangaea Architecture: Fault-Tolerant Heterogeneous Topological Codes via a Quantum Bus",
-      "url": "http://arxiv.org/abs/2608.01887v1",
-      "published": "2026-08-03T08:28:21Z",
-      "authors": "Sheir Yarkoni et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Pangaea architecture uses quantum bus to reduce physical qubit count by 10× for multi-qubit operations versus surface codes.",
-      "unproven": "Verified only via pseudo-threshold simulations; no experimental demonstration on real hardware.",
-      "scored_at": "2026-08-04T13:48:04.093525739Z"
     }
   ],
   "noise": [
@@ -431,19 +434,19 @@
       "scored_at": "2026-08-03T17:46:52.991384236Z"
     },
     {
-      "id": "hn:49156071",
+      "id": "hn:49172834",
       "source": "hn",
-      "title": "Utah produced more power from solar than any other source in May, a new first",
-      "url": "https://sltrib.com/news/environment/2026/08/03/utah-sets-solar-power-record",
-      "published": "2026-08-03T14:13:24Z",
-      "authors": "toomuchtodo",
-      "points": 86,
+      "title": "Web security is too hard",
+      "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall",
+      "published": "2026-08-04T18:29:32Z",
+      "authors": "kevincox",
+      "points": 148,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Utah energy generation milestone; entirely outside application security and SDLC scope.",
-      "scored_at": "2026-08-03T17:46:52.991384787Z"
+      "dek": "Opinion piece arguing web security complexity exceeds developer capability.",
+      "scored_at": "2026-08-04T21:02:09.851388214Z"
     }
   ]
 }
