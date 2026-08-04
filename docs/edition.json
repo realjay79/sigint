@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T10:27:54.240581315Z",
+  "generated": "2026-08-04T13:48:28.587077135Z",
   "edition": 11,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,8 +13,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 4,
-      "NEW GROUND": 9,
-      "NOISE FLOOR": 8,
+      "NEW GROUND": 7,
+      "NOISE FLOOR": 10,
       "STANDING ORDERS": 4
     }
   },
@@ -94,21 +94,6 @@
       "dek": "MCP registry descriptions decay unevenly over 89 days; re-auditing high-drift servers catches only 20% of description changes versus 27% for random re-auditing.",
       "unproven": "limited to single registry; whether findings apply to other package ecosystems with different churn rates or governance models",
       "scored_at": "2026-08-04T01:27:52.548363302Z"
-    },
-    {
-      "id": "arxiv:2608.00583v1",
-      "source": "arxiv",
-      "title": "A False Average: Chain-of-Thought Monitors Collapse Where They Are the Only Defense",
-      "url": "http://arxiv.org/abs/2608.00583v1",
-      "published": "2026-08-01T10:42:41Z",
-      "authors": "Shikhar Shiromani et al.",
-      "novelty": 5,
-      "actionability": 3,
-      "score": 8,
-      "quadrant": "NEW GROUND",
-      "dek": "Rewriting chain-of-thought reasoning while preserving actions drops monitor catch rate from 95% to 11% on hacks where reasoning is the only defense signal.",
-      "unproven": "attack is demonstrated on fixed Gemini proposals and lab agents; does not establish whether production monitors with external trace signals or live human oversight recover the defense substantially",
-      "scored_at": "2026-08-04T01:28:16.231620129Z"
     },
     {
       "id": "arxiv:2608.01639v1",
@@ -199,21 +184,6 @@
       "dek": "Multi-agent LLM pipelines lack inter-agent boundary verification, enabling content injection, impersonation, plan deviation, and memory poisoning from benign deployments.",
       "unproven": "Whether proposed boundary verification primitives can be retrofitted to existing production pipelines without latency penalty; defense effectiveness against composite attacks.",
       "scored_at": "2026-08-04T01:28:03.76071118Z"
-    },
-    {
-      "id": "arxiv:2608.00643v1",
-      "source": "arxiv",
-      "title": "Domain Decoupling Attack: Exploiting the Validation Gap Between Protective DNS and Shared Edge Routing",
-      "url": "http://arxiv.org/abs/2608.00643v1",
-      "published": "2026-08-01T12:56:28Z",
-      "authors": "Weizhe Wang et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "DNS-based validation gap allows reuse of shared IP authorization to reach co-tenant domains; 95.8% exposure rate across measured domains.",
-      "unproven": "measurement scope is passive DNS and routing enumeration; does not demonstrate active exploitation or quantify real-world attack surface for any specific infrastructure operator",
-      "scored_at": "2026-08-04T01:28:16.231619945Z"
     },
     {
       "id": "arxiv:2608.02407v1",
@@ -394,6 +364,36 @@
       "dek": "TurboRetry offloads QUIC Retry mechanism to DPUs to mitigate handshake floods without host CPU bottleneck.",
       "unproven": "evaluation limited to testbed; real-world deployment on production QUIC services; DPU availability across mainstream infrastructure providers; backward compatibility with existing clients",
       "scored_at": "2026-08-04T10:27:33.442355856Z"
+    },
+    {
+      "id": "arxiv:2608.02125v1",
+      "source": "arxiv",
+      "title": "Vulnerability Detection in AArch64 Machine Code Using a Digital Twin",
+      "url": "http://arxiv.org/abs/2608.02125v1",
+      "published": "2026-08-03T12:15:42Z",
+      "authors": "Oleksandr Mostovyi et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Digital twin detects AArch64 vulnerabilities (integer overflow, null dereference, heap overflow) via symbolic rules compiled to finite automata.",
+      "unproven": "evaluation on three CWE classes only; scalability to real binaries with complex control flow; integration with existing SAST/DAST tool chains; comparison to existing binary analysis approaches",
+      "scored_at": "2026-08-04T10:27:33.442356106Z"
+    },
+    {
+      "id": "arxiv:2608.02084v1",
+      "source": "arxiv",
+      "title": "Pretraining on Call Graphs: When Binary Analysis Tasks Profit From Context",
+      "url": "http://arxiv.org/abs/2608.02084v1",
+      "published": "2026-08-03T11:44:09Z",
+      "authors": "Samuel Valenzuela et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Call-graph context improves binary function embeddings on some tasks but not others; semantic and syntactic optimization trade off.",
+      "unproven": "Results limited to two embedding models and specific graph architectures; generalization to production reverse-engineering pipelines untested.",
+      "scored_at": "2026-08-04T06:20:58.836581604Z"
     }
   ],
   "noise": [
