@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T13:48:28.587077135Z",
+  "generated": "2026-08-04T17:29:47.783540877Z",
   "edition": 11,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,14 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 24,
+      "arxiv": 23,
+      "hn": 1,
       "kev": 1
     },
     "by_quadrant": {
       "BREAK GLASS": 4,
-      "NEW GROUND": 7,
+      "NEW GROUND": 9,
       "NOISE FLOOR": 10,
-      "STANDING ORDERS": 4
+      "STANDING ORDERS": 2
     }
   },
   "items": [
@@ -96,6 +97,22 @@
       "scored_at": "2026-08-04T01:27:52.548363302Z"
     },
     {
+      "id": "hn:49166874",
+      "source": "hn",
+      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
+      "url": "https://aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+      "published": "2026-08-04T11:01:37Z",
+      "authors": "cimi_",
+      "points": 145,
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Keyv and dependencies compromised in active supply chain attack; SCA tooling and dependency audits warrant immediate review.",
+      "unproven": "scope of compromise in reader's codebase unknown without direct inventory check",
+      "scored_at": "2026-08-04T17:29:47.774902007Z"
+    },
+    {
       "id": "arxiv:2608.01639v1",
       "source": "arxiv",
       "title": "Mutate to Bypass: Autonomous Endpoint Evasion via Knowledge-Driven Multi-Agent Orchestration",
@@ -139,51 +156,6 @@
       "dek": "Multi-turn LLM jailbreaks organized by intent structure reveal that effectiveness depends on how intent unfolds across turns, not volume.",
       "unproven": "Limited to text-based LLMs; interaction patterns with agents in SDLC contexts and guardrail effectiveness under this taxonomy not measured.",
       "scored_at": "2026-08-04T06:21:20.801449024Z"
-    },
-    {
-      "id": "arxiv:2608.00783v1",
-      "source": "arxiv",
-      "title": "Safety Invariants for Agents Orchestrating Irreversible State Transitions: A Four-Dimensional Formalism Evaluated on Public Ledgers",
-      "url": "http://arxiv.org/abs/2608.00783v1",
-      "published": "2026-08-01T17:29:42Z",
-      "authors": "Zhaoming Yin",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Four-dimensional formalism with seven safety invariants guarantees irreversible ledger transitions execute exactly once, even under retry and delegation faults.",
-      "unproven": "Whether execution-fidelity theorem holds when user-intent preview itself contains ambiguity; applicability to non-ledger irreversible state changes.",
-      "scored_at": "2026-08-04T01:28:03.760710917Z"
-    },
-    {
-      "id": "arxiv:2608.00747v1",
-      "source": "arxiv",
-      "title": "When Prompts Control Robots: Prompt Injection Attacks in Multi-Agent Robotic Systems",
-      "url": "http://arxiv.org/abs/2608.00747v1",
-      "published": "2026-08-01T16:31:00Z",
-      "authors": "Neha Nagaraja et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Prompt injection in multi-agent robotic systems propagates across agents via shared prompts; first systematic study of cross-agent contamination.",
-      "unproven": "Whether defenses tested on lab robotic rigs generalize to production hardware; long-horizon attack composition beyond single injection.",
-      "scored_at": "2026-08-04T01:28:03.760711057Z"
-    },
-    {
-      "id": "arxiv:2608.00718v1",
-      "source": "arxiv",
-      "title": "Adversarial Attacks in Multi-Agent LLM Pipelines: Unveiling Structural Vulnerabilities in Agentic AI Architectures",
-      "url": "http://arxiv.org/abs/2608.00718v1",
-      "published": "2026-08-01T15:35:58Z",
-      "authors": "Faisal Haque Bappy et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Multi-agent LLM pipelines lack inter-agent boundary verification, enabling content injection, impersonation, plan deviation, and memory poisoning from benign deployments.",
-      "unproven": "Whether proposed boundary verification primitives can be retrofitted to existing production pipelines without latency penalty; defense effectiveness against composite attacks.",
-      "scored_at": "2026-08-04T01:28:03.76071118Z"
     },
     {
       "id": "arxiv:2608.02407v1",
@@ -394,6 +366,36 @@
       "dek": "Call-graph context improves binary function embeddings on some tasks but not others; semantic and syntactic optimization trade off.",
       "unproven": "Results limited to two embedding models and specific graph architectures; generalization to production reverse-engineering pipelines untested.",
       "scored_at": "2026-08-04T06:20:58.836581604Z"
+    },
+    {
+      "id": "arxiv:2608.01909v1",
+      "source": "arxiv",
+      "title": "Optimality of Gaussian Entanglement of Formation",
+      "url": "http://arxiv.org/abs/2608.01909v1",
+      "published": "2026-08-03T08:42:19Z",
+      "authors": "Gerardo Adesso",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Proof that entanglement of formation for two-mode Gaussian states equals its Gaussian restriction, resolving open problem.",
+      "unproven": "Pure theoretical result; no experimental validation or practical application to quantum systems in scope.",
+      "scored_at": "2026-08-04T13:48:04.093525027Z"
+    },
+    {
+      "id": "arxiv:2608.01887v1",
+      "source": "arxiv",
+      "title": "The Pangaea Architecture: Fault-Tolerant Heterogeneous Topological Codes via a Quantum Bus",
+      "url": "http://arxiv.org/abs/2608.01887v1",
+      "published": "2026-08-03T08:28:21Z",
+      "authors": "Sheir Yarkoni et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Pangaea architecture uses quantum bus to reduce physical qubit count by 10× for multi-qubit operations versus surface codes.",
+      "unproven": "Verified only via pseudo-threshold simulations; no experimental demonstration on real hardware.",
+      "scored_at": "2026-08-04T13:48:04.093525739Z"
     }
   ],
   "noise": [
