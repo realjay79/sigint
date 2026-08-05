@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05T01:43:07.886051764Z",
+  "generated": "2026-08-05T06:20:49.610639673Z",
   "edition": 12,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,10 +13,9 @@
       "kev": 4
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
-      "NEW GROUND": 12,
-      "NOISE FLOOR": 1,
-      "STANDING ORDERS": 6
+      "BREAK GLASS": 8,
+      "NEW GROUND": 10,
+      "STANDING ORDERS": 7
     }
   },
   "items": [
@@ -51,22 +50,6 @@
       "scored_at": "2026-08-05T01:43:07.876466332Z"
     },
     {
-      "id": "kev:CVE-2026-18556",
-      "source": "kev",
-      "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
-      "published": "2026-08-04T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 7 August.",
-      "cves": [
-        "CVE-2026-18556"
-      ],
-      "scored_at": "2026-08-04T21:02:05.249434504Z"
-    },
-    {
       "id": "kev:CVE-2026-9198",
       "source": "kev",
       "title": "CVE-2026-9198 — IBM Langflow Code Injection Vulnerability",
@@ -81,6 +64,22 @@
         "CVE-2026-9198"
       ],
       "scored_at": "2026-08-04T21:02:05.249439209Z"
+    },
+    {
+      "id": "kev:CVE-2026-18556",
+      "source": "kev",
+      "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
+      "published": "2026-08-04T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 7 August.",
+      "cves": [
+        "CVE-2026-18556"
+      ],
+      "scored_at": "2026-08-04T21:02:05.249434504Z"
     },
     {
       "id": "kev:CVE-2026-34486",
@@ -114,6 +113,21 @@
       "scored_at": "2026-08-04T10:27:33.442354734Z"
     },
     {
+      "id": "arxiv:2608.02698v1",
+      "source": "arxiv",
+      "title": "Steganalysis of Adaptive Covert Collusion in Tool-Using Agent Populations: A Black-Box, Cross-Principal Approach",
+      "url": "http://arxiv.org/abs/2608.02698v1",
+      "published": "2026-08-03T13:00:25Z",
+      "authors": "Mohamed Chahine Ghanem",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Black-box steganalysis detector identifies covert coordination among tool-using agents on shared infrastructure.",
+      "unproven": "demonstrated on tool-use and memory-carrying agents in research setting; transferability to production multi-tenant deployments and integration into SDLC governance untested",
+      "scored_at": "2026-08-05T06:20:19.348553513Z"
+    },
+    {
       "id": "arxiv:2608.02147v1",
       "source": "arxiv",
       "title": "Measuring Post-Quantum TLS Deployment Across UK Internet Sectors",
@@ -127,6 +141,36 @@
       "dek": "Measurement of 4,665 UK organizations shows 44% HTTPS but only 6.4% SMTP post-quantum support; HTTPS 16.89x more common.",
       "unproven": "measurement captures only observable public endpoints; does not assess internal TLS migration or organizational readiness timelines; sector-specific barriers to SMTP deployment not identified",
       "scored_at": "2026-08-04T10:27:33.442355986Z"
+    },
+    {
+      "id": "arxiv:2608.02695v1",
+      "source": "arxiv",
+      "title": "Stylometric Defenses Against Author Impersonation in Software Repositories",
+      "url": "http://arxiv.org/abs/2608.02695v1",
+      "published": "2026-08-03T11:02:13Z",
+      "authors": "Leonid Ravich et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Patch-level stylometric embeddings detect forged commits with 93% ROC AUC, retroactively surfacing real supply-chain incidents.",
+      "unproven": "validation on two retrospective incidents only; generalization to future attack styles and integration into CI/CD triage workflows not established",
+      "scored_at": "2026-08-05T06:20:19.348554044Z"
+    },
+    {
+      "id": "arxiv:2608.02693v1",
+      "source": "arxiv",
+      "title": "PRWeaver: Evaluating LLM-Based Code Auditors against Long-Horizon Malicious Pull Requests",
+      "url": "http://arxiv.org/abs/2608.02693v1",
+      "published": "2026-08-03T10:05:08Z",
+      "authors": "Yuekun Wang et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "LLM code auditors drop to 16–22% detection when attacks interleave benign and malicious changes across repository history.",
+      "unproven": "tested on ten repositories with 208 execution-validated attacks; scalability to larger codebases and unknown attack patterns not demonstrated",
+      "scored_at": "2026-08-05T06:20:19.348554194Z"
     },
     {
       "id": "kev:CVE-2026-18577",
@@ -145,34 +189,19 @@
       "scored_at": "2026-08-03T20:55:13.458772734Z"
     },
     {
-      "id": "arxiv:2608.01020v1",
+      "id": "arxiv:2608.02669v1",
       "source": "arxiv",
-      "title": "Inverting the Hidden: Unveiling Multimodal Privacy Leakage in Collaborative LVLM Inference",
-      "url": "http://arxiv.org/abs/2608.01020v1",
-      "published": "2026-08-02T05:56:23Z",
-      "authors": "Shuaifan Jin et al.",
+      "title": "Vulnerabilities, Secrets and Misconfiguration in the Highest-Exposure Docker Hub Images",
+      "url": "http://arxiv.org/abs/2608.02669v1",
+      "published": "2026-08-02T13:57:28Z",
+      "authors": "Cristhian Kapelinski et al.",
       "novelty": 4,
       "actionability": 4,
       "score": 8,
       "quadrant": "BREAK GLASS",
-      "dek": "RASR attack recovers visual content from intermediate hidden states in collaborative LVLM inference by 50% better than prior methods, demonstrating privacy leak in edge-cloud deployments.",
-      "unproven": "tested on two LVLM families; whether attack scales to production-grade defenses or white-box detection mechanisms",
-      "scored_at": "2026-08-04T01:27:52.548361366Z"
-    },
-    {
-      "id": "arxiv:2608.00997v1",
-      "source": "arxiv",
-      "title": "Registry Descriptions Go Stale Unevenly: An 89-Day Measurement of Model Context Protocol Drift, and Why Drift-Ranked Re-Auditing Under-Covers It",
-      "url": "http://arxiv.org/abs/2608.00997v1",
-      "published": "2026-08-02T04:54:06Z",
-      "authors": "Gautam Bharti",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "MCP registry descriptions decay unevenly over 89 days; re-auditing high-drift servers catches only 20% of description changes versus 27% for random re-auditing.",
-      "unproven": "limited to single registry; whether findings apply to other package ecosystems with different churn rates or governance models",
-      "scored_at": "2026-08-04T01:27:52.548363302Z"
+      "dek": "96.3% of highest-exposure Docker Hub images carry known vulnerabilities; scanner disagreement means tool choice alone determines 66.8% of reported findings.",
+      "unproven": "snapshot of one registry at one moment; does not establish root causes of misconfigurations or patch velocity; scanner selection bias unquantified.",
+      "scored_at": "2026-08-05T06:20:32.083706034Z"
     },
     {
       "id": "arxiv:2608.03700v1",
@@ -311,6 +340,36 @@
       "scored_at": "2026-08-04T06:21:10.872456008Z"
     },
     {
+      "id": "arxiv:2608.02672v1",
+      "source": "arxiv",
+      "title": "Security-First Evaluation of Text-to-Terraform: Benchmarking LLMs and SLMs for Secure IaC Generation",
+      "url": "http://arxiv.org/abs/2608.02672v1",
+      "published": "2026-08-02T14:45:12Z",
+      "authors": "Francis Luis Santos Vargas et al.",
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Syntax validity and security compliance in LLM-generated Terraform are orthogonal; prompt engineering alone cannot replace automated scanning regardless of model.",
+      "unproven": "limited to AWS Terraform; generalization to other IaC languages and cloud providers not established; no A/B test on actual developer workflows.",
+      "scored_at": "2026-08-05T06:20:32.083689342Z"
+    },
+    {
+      "id": "arxiv:2608.02670v1",
+      "source": "arxiv",
+      "title": "Permission Denied: Policy-Graded Evaluation of Coding Agents in Hardened Environments",
+      "url": "http://arxiv.org/abs/2608.02670v1",
+      "published": "2026-08-02T14:26:12Z",
+      "authors": "Dotan Davidovich et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Coding agents lose 18.3 success points under strict enterprise security policies, with efficiency losses reaching 167%; policy-dependent model choice matters.",
+      "unproven": "Terminal-Bench 2.1 only; real production SDLC integration and long-running agent deployment untested; generalization to non-shell tasks unclear.",
+      "scored_at": "2026-08-05T06:20:32.083705893Z"
+    },
+    {
       "id": "arxiv:2608.01117v1",
       "source": "arxiv",
       "title": "SoK: Intent-Oriented Systematization of Multi-Turn LLM Jailbreaks",
@@ -326,78 +385,19 @@
       "scored_at": "2026-08-04T06:21:20.801449024Z"
     },
     {
-      "id": "arxiv:2608.03534v1",
+      "id": "arxiv:2608.03824v1",
       "source": "arxiv",
-      "title": "A Challenge-Nonce Freshness Gap in Project Veraison's TPM Reference Schemes, Found by Appraising Application-Layer Action Evidence End-to-End",
-      "url": "http://arxiv.org/abs/2608.03534v1",
-      "published": "2026-08-04T12:14:39Z",
-      "authors": "Anton Sokolov",
+      "title": "Impossibility of Perfectly Complete Many-Round Key Agreement in the QROM",
+      "url": "http://arxiv.org/abs/2608.03824v1",
+      "published": "2026-08-04T15:33:42Z",
+      "authors": "Longcheng Li et al.",
       "novelty": 4,
       "actionability": 2,
       "score": 6,
       "quadrant": "NEW GROUND",
-      "dek": "End-to-end appraisal of Project Veraison TPM attestation reveals freshness gap in challenge-nonce handling for signed action-evidence packages under RATS.",
-      "unproven": "Tested only on software TPM emulation with single key type (EC P-256); impact on production TPM implementations and hardware variants not assessed; fix validation pending.",
-      "scored_at": "2026-08-05T01:42:30.760342072Z"
-    },
-    {
-      "id": "arxiv:2608.03328v1",
-      "source": "arxiv",
-      "title": "Breaking ACDGV MinRank Gabidulin encryption schemes over matrix codes",
-      "url": "http://arxiv.org/abs/2608.03328v1",
-      "published": "2026-08-04T08:38:48Z",
-      "authors": "Thai Hung Le",
-      "novelty": 5,
-      "actionability": 1,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Cryptanalysis breaks all 16 EGMC post-quantum encryption parameter sets using combined combinatorial and algebraic recovery of masked Gabidulin codes.",
-      "scored_at": "2026-08-05T01:42:42.099784527Z"
-    },
-    {
-      "id": "arxiv:2608.03174v1",
-      "source": "arxiv",
-      "title": "Attribute-based Undetectable Watermarking for Generative AI Models",
-      "url": "http://arxiv.org/abs/2608.03174v1",
-      "published": "2026-08-04T06:05:58Z",
-      "authors": "Miryam Mi-Ying Huang et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Attribute-based policies constrain watermark detection keys to prevent scope abuse and user profiling in generative AI systems.",
-      "unproven": "no evaluation against adaptive adversaries with partial key knowledge; watermark robustness not compared to baseline schemes; deployment model unclear.",
-      "scored_at": "2026-08-05T01:42:55.259596691Z"
-    },
-    {
-      "id": "arxiv:2608.02995v1",
-      "source": "arxiv",
-      "title": "SparSEEty: Extracting Tokens from Sparsity-Exploiting LLM Serving Systems via Deterministic Side Channels",
-      "url": "http://arxiv.org/abs/2608.02995v1",
-      "published": "2026-08-04T01:21:29Z",
-      "authors": "Yongwan Jo et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Side-channel attack on sparsity-optimized LLM serving extracts tokens via neuron weight access patterns in Intel TDX confidential VMs.",
-      "unproven": "does not establish exploitability against production hardening, mitigations, or non-Intel confidential computing; proof of concept only",
-      "scored_at": "2026-08-05T01:43:07.876466493Z"
-    },
-    {
-      "id": "arxiv:2608.02407v1",
-      "source": "arxiv",
-      "title": "Antares: Foundation Models for Agentic Vulnerability Localization",
-      "url": "http://arxiv.org/abs/2608.02407v1",
-      "published": "2026-08-03T15:49:14Z",
-      "authors": "Supriti Vijay et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Antares compact models (350M–3B) for agentic vulnerability localization match GPT-4.5 while enabling local inference at $0.002 per task.",
-      "unproven": "evaluation limited to repository-level vulnerability tasks; generalization to custom internal codebases and proprietary frameworks; false positive rates on real SAST pipelines",
-      "scored_at": "2026-08-04T10:27:33.442353462Z"
+      "dek": "Perfectly complete quantum key agreement from one-way functions is impossible in QROM; eavesdropper recovers key in O((qA+qB)^5) queries.",
+      "unproven": "Applies only to QROM model; real-world quantum channel properties and practical deployment constraints not addressed.",
+      "scored_at": "2026-08-05T06:20:42.268067122Z"
     }
   ],
   "noise": [
