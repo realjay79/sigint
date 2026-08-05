@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05T10:26:13.37407624Z",
+  "generated": "2026-08-05T13:43:43.79018047Z",
   "edition": 12,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,17 +8,34 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 20,
-      "hn": 1,
+      "arxiv": 18,
+      "hn": 3,
       "kev": 4
     },
     "by_quadrant": {
-      "BREAK GLASS": 8,
-      "NEW GROUND": 10,
+      "BREAK GLASS": 9,
+      "NEW GROUND": 8,
+      "NOISE FLOOR": 1,
       "STANDING ORDERS": 7
     }
   },
   "items": [
+    {
+      "id": "hn:49175717",
+      "source": "hn",
+      "title": "Security Incident INC-2026-07-28-01 – UK AI Security Institute [pdf]",
+      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+      "published": "2026-08-04T21:52:58Z",
+      "authors": "_pdp_",
+      "points": 58,
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "UK AI Security Institute incident case study reveals agent failure mode and detection method; actionable taxonomy.",
+      "unproven": "Single incident; unclear if failure patterns generalize to reader's agent deployments and tooling.",
+      "scored_at": "2026-08-05T13:43:42.340655713Z"
+    },
     {
       "id": "arxiv:2608.03485v1",
       "source": "arxiv",
@@ -48,6 +65,22 @@
       "dek": "8B language model running locally in a trojan completes observe-decide-act cycles on real vulnerable services without cloud calls, though with unreliable execution.",
       "unproven": "does not demonstrate operational reliability at scale; tested only against Metasploitable2 in isolated lab; does not measure detection rate or survival likelihood in defended networks",
       "scored_at": "2026-08-05T01:43:07.876466332Z"
+    },
+    {
+      "id": "kev:CVE-2026-18556",
+      "source": "kev",
+      "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
+      "published": "2026-08-04T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 7 August.",
+      "cves": [
+        "CVE-2026-18556"
+      ],
+      "scored_at": "2026-08-04T21:02:05.249434504Z"
     },
     {
       "id": "kev:CVE-2026-9198",
@@ -80,22 +113,6 @@
         "CVE-2026-34486"
       ],
       "scored_at": "2026-08-04T21:02:05.249437303Z"
-    },
-    {
-      "id": "kev:CVE-2026-18556",
-      "source": "kev",
-      "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
-      "published": "2026-08-04T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 7 August.",
-      "cves": [
-        "CVE-2026-18556"
-      ],
-      "scored_at": "2026-08-04T21:02:05.249434504Z"
     },
     {
       "id": "arxiv:2608.02336v1",
@@ -370,34 +387,20 @@
       "scored_at": "2026-08-05T06:20:32.083705893Z"
     },
     {
-      "id": "arxiv:2608.03824v1",
-      "source": "arxiv",
-      "title": "Impossibility of Perfectly Complete Many-Round Key Agreement in the QROM",
-      "url": "http://arxiv.org/abs/2608.03824v1",
-      "published": "2026-08-04T15:33:42Z",
-      "authors": "Longcheng Li et al.",
-      "novelty": 4,
-      "actionability": 2,
+      "id": "hn:49176644",
+      "source": "hn",
+      "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
+      "url": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks",
+      "published": "2026-08-04T23:22:37Z",
+      "authors": "jchanimal",
+      "points": 48,
+      "novelty": 3,
+      "actionability": 3,
       "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Perfectly complete quantum key agreement from one-way functions is impossible in QROM; eavesdropper recovers key in O((qA+qB)^5) queries.",
-      "unproven": "Applies only to QROM model; real-world quantum channel properties and practical deployment constraints not addressed.",
-      "scored_at": "2026-08-05T06:20:42.268067122Z"
-    },
-    {
-      "id": "arxiv:2608.03534v1",
-      "source": "arxiv",
-      "title": "A Challenge-Nonce Freshness Gap in Project Veraison's TPM Reference Schemes, Found by Appraising Application-Layer Action Evidence End-to-End",
-      "url": "http://arxiv.org/abs/2608.03534v1",
-      "published": "2026-08-04T12:14:39Z",
-      "authors": "Anton Sokolov",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "End-to-end appraisal of Project Veraison TPM attestation reveals freshness gap in challenge-nonce handling for signed action-evidence packages under RATS.",
-      "unproven": "Tested only on software TPM emulation with single key type (EC P-256); impact on production TPM implementations and hardware variants not assessed; fix validation pending.",
-      "scored_at": "2026-08-05T01:42:30.760342072Z"
+      "quadrant": "NOISE FLOOR",
+      "dek": "Passkey implementation flaws enable credential interception during transport and storage; review deployments.",
+      "unproven": "Single deployment model tested; generalizability to all passkey implementations unclear.",
+      "scored_at": "2026-08-05T13:43:42.340655172Z"
     }
   ],
   "noise": [
@@ -418,6 +421,22 @@
       "scored_at": "2026-08-03T14:16:13.383060896Z"
     },
     {
+      "id": "hn:49175826",
+      "source": "hn",
+      "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
+      "url": "https://africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol",
+      "published": "2026-08-04T22:01:41Z",
+      "authors": "bookofjoe",
+      "points": 273,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Interpol report claims AI drives over 50% of African cybercrime; lacks detail and reader operates at SDLC layer.",
+      "unproven": "No access to underlying data; regional threat report outside reader's deployment context.",
+      "scored_at": "2026-08-05T13:43:42.340655542Z"
+    },
+    {
       "id": "hn:49156111",
       "source": "hn",
       "title": "Devtools must be open source",
@@ -431,21 +450,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Opinion piece arguing for open-source development tools; no evidence or novel argument.",
       "scored_at": "2026-08-03T17:46:52.991384236Z"
-    },
-    {
-      "id": "hn:49172834",
-      "source": "hn",
-      "title": "Web security is too hard",
-      "url": "https://textslashplain.com/2026/08/04/security-is-hard-yall",
-      "published": "2026-08-04T18:29:32Z",
-      "authors": "kevincox",
-      "points": 148,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Opinion piece arguing web security complexity exceeds developer capability.",
-      "scored_at": "2026-08-04T21:02:09.851388214Z"
     }
   ]
 }
