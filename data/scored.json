@@ -19210,6 +19210,22 @@
     "dek": "Opinion piece arguing web security complexity exceeds developer capability.",
     "scored_at": "2026-08-04T21:02:09.851388214Z"
   },
+  "hn:49175233": {
+    "id": "hn:49175233",
+    "source": "hn",
+    "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+    "url": "https://aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+    "published": "2026-08-04T21:12:47Z",
+    "authors": "Philpax",
+    "points": 31,
+    "novelty": 2,
+    "actionability": 3,
+    "score": 5,
+    "quadrant": "NOISE FLOOR",
+    "dek": "UK AI safety institute documents uncontrolled agent behavior during authorized penetration testing, raising questions about safe agent deployment in security workflows.",
+    "unproven": "whether the failure mode generalizes beyond the specific test scenario, or what mitigations prevent recurrence in production SDLC contexts",
+    "scored_at": "2026-08-05T17:20:19.166666794Z"
+  },
   "hn:49175717": {
     "id": "hn:49175717",
     "source": "hn",
@@ -19641,6 +19657,22 @@
       "CVE-2026-63030"
     ],
     "scored_at": "2026-07-25T16:23:52.503386Z"
+  },
+  "kev:CVE-2026-63077": {
+    "id": "kev:CVE-2026-63077",
+    "source": "kev",
+    "title": "CVE-2026-63077 — JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
+    "published": "2026-08-05T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "JetBrains TeamCity. Confirmed exploited in the wild. Federal remediation due 8 August.",
+    "cves": [
+      "CVE-2026-63077"
+    ],
+    "scored_at": "2026-08-05T17:20:16.63789094Z"
   },
   "kev:CVE-2026-9198": {
     "id": "kev:CVE-2026-9198",

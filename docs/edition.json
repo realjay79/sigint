@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05T13:43:43.79018047Z",
+  "generated": "2026-08-05T17:20:19.177041521Z",
   "edition": 12,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,18 +8,34 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 18,
+      "arxiv": 17,
       "hn": 3,
-      "kev": 4
+      "kev": 5
     },
     "by_quadrant": {
-      "BREAK GLASS": 9,
-      "NEW GROUND": 8,
+      "BREAK GLASS": 8,
+      "NEW GROUND": 9,
       "NOISE FLOOR": 1,
       "STANDING ORDERS": 7
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-63077",
+      "source": "kev",
+      "title": "CVE-2026-63077 — JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
+      "published": "2026-08-05T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "JetBrains TeamCity. Confirmed exploited in the wild. Federal remediation due 8 August.",
+      "cves": [
+        "CVE-2026-63077"
+      ],
+      "scored_at": "2026-08-05T17:20:16.63789094Z"
+    },
     {
       "id": "hn:49175717",
       "source": "hn",
@@ -67,22 +83,6 @@
       "scored_at": "2026-08-05T01:43:07.876466332Z"
     },
     {
-      "id": "kev:CVE-2026-18556",
-      "source": "kev",
-      "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
-      "published": "2026-08-04T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 7 August.",
-      "cves": [
-        "CVE-2026-18556"
-      ],
-      "scored_at": "2026-08-04T21:02:05.249434504Z"
-    },
-    {
       "id": "kev:CVE-2026-9198",
       "source": "kev",
       "title": "CVE-2026-9198 — IBM Langflow Code Injection Vulnerability",
@@ -97,6 +97,22 @@
         "CVE-2026-9198"
       ],
       "scored_at": "2026-08-04T21:02:05.249439209Z"
+    },
+    {
+      "id": "kev:CVE-2026-18556",
+      "source": "kev",
+      "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
+      "published": "2026-08-04T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 7 August.",
+      "cves": [
+        "CVE-2026-18556"
+      ],
+      "scored_at": "2026-08-04T21:02:05.249434504Z"
     },
     {
       "id": "kev:CVE-2026-34486",
@@ -204,21 +220,6 @@
         "CVE-2026-18577"
       ],
       "scored_at": "2026-08-03T20:55:13.458772734Z"
-    },
-    {
-      "id": "arxiv:2608.02669v1",
-      "source": "arxiv",
-      "title": "Vulnerabilities, Secrets and Misconfiguration in the Highest-Exposure Docker Hub Images",
-      "url": "http://arxiv.org/abs/2608.02669v1",
-      "published": "2026-08-02T13:57:28Z",
-      "authors": "Cristhian Kapelinski et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "96.3% of highest-exposure Docker Hub images carry known vulnerabilities; scanner disagreement means tool choice alone determines 66.8% of reported findings.",
-      "unproven": "snapshot of one registry at one moment; does not establish root causes of misconfigurations or patch velocity; scanner selection bias unquantified.",
-      "scored_at": "2026-08-05T06:20:32.083706034Z"
     },
     {
       "id": "arxiv:2608.03700v1",
@@ -342,51 +343,6 @@
       "scored_at": "2026-08-04T06:20:58.836586043Z"
     },
     {
-      "id": "arxiv:2608.01388v1",
-      "source": "arxiv",
-      "title": "Why Formal Monitors Fail: Attack Distribution Entropy as a Coverage Bound for LTL-Based LLM Agent Safety",
-      "url": "http://arxiv.org/abs/2608.01388v1",
-      "published": "2026-08-02T17:08:21Z",
-      "authors": "Ruiyang Zhang",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Shannon entropy of attack distribution bounds FSA monitor recall; GPT models yield 0.24-bit concentrated patterns (96% in one), Gemini 2.81-bit dispersed (6–13% coverage).",
-      "unproven": "Eight models tested but sample limited to frontier LLM classes; applicability to fine-tuned, specialized, or older model families unexamined.",
-      "scored_at": "2026-08-04T06:21:10.872456008Z"
-    },
-    {
-      "id": "arxiv:2608.02672v1",
-      "source": "arxiv",
-      "title": "Security-First Evaluation of Text-to-Terraform: Benchmarking LLMs and SLMs for Secure IaC Generation",
-      "url": "http://arxiv.org/abs/2608.02672v1",
-      "published": "2026-08-02T14:45:12Z",
-      "authors": "Francis Luis Santos Vargas et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Syntax validity and security compliance in LLM-generated Terraform are orthogonal; prompt engineering alone cannot replace automated scanning regardless of model.",
-      "unproven": "limited to AWS Terraform; generalization to other IaC languages and cloud providers not established; no A/B test on actual developer workflows.",
-      "scored_at": "2026-08-05T06:20:32.083689342Z"
-    },
-    {
-      "id": "arxiv:2608.02670v1",
-      "source": "arxiv",
-      "title": "Permission Denied: Policy-Graded Evaluation of Coding Agents in Hardened Environments",
-      "url": "http://arxiv.org/abs/2608.02670v1",
-      "published": "2026-08-02T14:26:12Z",
-      "authors": "Dotan Davidovich et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Coding agents lose 18.3 success points under strict enterprise security policies, with efficiency losses reaching 167%; policy-dependent model choice matters.",
-      "unproven": "Terminal-Bench 2.1 only; real production SDLC integration and long-running agent deployment untested; generalization to non-shell tasks unclear.",
-      "scored_at": "2026-08-05T06:20:32.083705893Z"
-    },
-    {
       "id": "hn:49176644",
       "source": "hn",
       "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
@@ -401,6 +357,50 @@
       "dek": "Passkey implementation flaws enable credential interception during transport and storage; review deployments.",
       "unproven": "Single deployment model tested; generalizability to all passkey implementations unclear.",
       "scored_at": "2026-08-05T13:43:42.340655172Z"
+    },
+    {
+      "id": "arxiv:2608.03824v1",
+      "source": "arxiv",
+      "title": "Impossibility of Perfectly Complete Many-Round Key Agreement in the QROM",
+      "url": "http://arxiv.org/abs/2608.03824v1",
+      "published": "2026-08-04T15:33:42Z",
+      "authors": "Longcheng Li et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Perfectly complete quantum key agreement from one-way functions is impossible in QROM; eavesdropper recovers key in O((qA+qB)^5) queries.",
+      "unproven": "Applies only to QROM model; real-world quantum channel properties and practical deployment constraints not addressed.",
+      "scored_at": "2026-08-05T06:20:42.268067122Z"
+    },
+    {
+      "id": "arxiv:2608.03534v1",
+      "source": "arxiv",
+      "title": "A Challenge-Nonce Freshness Gap in Project Veraison's TPM Reference Schemes, Found by Appraising Application-Layer Action Evidence End-to-End",
+      "url": "http://arxiv.org/abs/2608.03534v1",
+      "published": "2026-08-04T12:14:39Z",
+      "authors": "Anton Sokolov",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "End-to-end appraisal of Project Veraison TPM attestation reveals freshness gap in challenge-nonce handling for signed action-evidence packages under RATS.",
+      "unproven": "Tested only on software TPM emulation with single key type (EC P-256); impact on production TPM implementations and hardware variants not assessed; fix validation pending.",
+      "scored_at": "2026-08-05T01:42:30.760342072Z"
+    },
+    {
+      "id": "arxiv:2608.03328v1",
+      "source": "arxiv",
+      "title": "Breaking ACDGV MinRank Gabidulin encryption schemes over matrix codes",
+      "url": "http://arxiv.org/abs/2608.03328v1",
+      "published": "2026-08-04T08:38:48Z",
+      "authors": "Thai Hung Le",
+      "novelty": 5,
+      "actionability": 1,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Cryptanalysis breaks all 16 EGMC post-quantum encryption parameter sets using combined combinatorial and algebraic recovery of masked Gabidulin codes.",
+      "scored_at": "2026-08-05T01:42:42.099784527Z"
     }
   ],
   "noise": [
