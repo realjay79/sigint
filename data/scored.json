@@ -19306,6 +19306,36 @@
     "unproven": "Policy announcement with no technical content or implementation guidance.",
     "scored_at": "2026-08-05T13:43:42.340654922Z"
   },
+  "hn:49183750": {
+    "id": "hn:49183750",
+    "source": "hn",
+    "title": "Oracle cut its Always Free ARM limits to 2 OCPU / 12GB, enforced Aug 18",
+    "url": "https://cnelecar.com/blog/oracle-always-free-arm-limits-cut-2026",
+    "published": "2026-08-05T14:46:36Z",
+    "authors": "iplaypc",
+    "points": 157,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Oracle reduced free tier capacity limits; a vendor policy change with no security or SDLC implication.",
+    "scored_at": "2026-08-05T20:57:32.077384949Z"
+  },
+  "hn:49186766": {
+    "id": "hn:49186766",
+    "source": "hn",
+    "title": "Microsoft's AI Sales Mostly Come from OpenAI, Disclosures Show",
+    "url": "https://bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show",
+    "published": "2026-08-05T18:19:10Z",
+    "authors": "mapping365",
+    "points": 52,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Microsoft's AI revenue composition is a financial disclosure, not a security finding.",
+    "scored_at": "2026-08-05T20:57:32.077384539Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",

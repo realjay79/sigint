@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05T17:20:19.177041521Z",
+  "generated": "2026-08-05T20:57:32.086636128Z",
   "edition": 12,
   "name": "SIGINT",
   "mark": "^C",
@@ -83,22 +83,6 @@
       "scored_at": "2026-08-05T01:43:07.876466332Z"
     },
     {
-      "id": "kev:CVE-2026-9198",
-      "source": "kev",
-      "title": "CVE-2026-9198 — IBM Langflow Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9198",
-      "published": "2026-08-04T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "IBM Langflow. Confirmed exploited in the wild. Federal remediation due 7 August.",
-      "cves": [
-        "CVE-2026-9198"
-      ],
-      "scored_at": "2026-08-04T21:02:05.249439209Z"
-    },
-    {
       "id": "kev:CVE-2026-18556",
       "source": "kev",
       "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
@@ -113,6 +97,22 @@
         "CVE-2026-18556"
       ],
       "scored_at": "2026-08-04T21:02:05.249434504Z"
+    },
+    {
+      "id": "kev:CVE-2026-9198",
+      "source": "kev",
+      "title": "CVE-2026-9198 — IBM Langflow Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9198",
+      "published": "2026-08-04T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "IBM Langflow. Confirmed exploited in the wild. Federal remediation due 7 August.",
+      "cves": [
+        "CVE-2026-9198"
+      ],
+      "scored_at": "2026-08-04T21:02:05.249439209Z"
     },
     {
       "id": "kev:CVE-2026-34486",
