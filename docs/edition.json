@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05T06:20:49.610639673Z",
+  "generated": "2026-08-05T10:26:13.37407624Z",
   "edition": 12,
   "name": "SIGINT",
   "mark": "^C",
@@ -66,22 +66,6 @@
       "scored_at": "2026-08-04T21:02:05.249439209Z"
     },
     {
-      "id": "kev:CVE-2026-18556",
-      "source": "kev",
-      "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
-      "published": "2026-08-04T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 7 August.",
-      "cves": [
-        "CVE-2026-18556"
-      ],
-      "scored_at": "2026-08-04T21:02:05.249434504Z"
-    },
-    {
       "id": "kev:CVE-2026-34486",
       "source": "kev",
       "title": "CVE-2026-34486 — Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
@@ -96,6 +80,22 @@
         "CVE-2026-34486"
       ],
       "scored_at": "2026-08-04T21:02:05.249437303Z"
+    },
+    {
+      "id": "kev:CVE-2026-18556",
+      "source": "kev",
+      "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
+      "published": "2026-08-04T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 7 August.",
+      "cves": [
+        "CVE-2026-18556"
+      ],
+      "scored_at": "2026-08-04T21:02:05.249434504Z"
     },
     {
       "id": "arxiv:2608.02336v1",
@@ -370,21 +370,6 @@
       "scored_at": "2026-08-05T06:20:32.083705893Z"
     },
     {
-      "id": "arxiv:2608.01117v1",
-      "source": "arxiv",
-      "title": "SoK: Intent-Oriented Systematization of Multi-Turn LLM Jailbreaks",
-      "url": "http://arxiv.org/abs/2608.01117v1",
-      "published": "2026-08-02T09:24:08Z",
-      "authors": "Siyuan Li et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Multi-turn LLM jailbreaks organized by intent structure reveal that effectiveness depends on how intent unfolds across turns, not volume.",
-      "unproven": "Limited to text-based LLMs; interaction patterns with agents in SDLC contexts and guardrail effectiveness under this taxonomy not measured.",
-      "scored_at": "2026-08-04T06:21:20.801449024Z"
-    },
-    {
       "id": "arxiv:2608.03824v1",
       "source": "arxiv",
       "title": "Impossibility of Perfectly Complete Many-Round Key Agreement in the QROM",
@@ -398,6 +383,21 @@
       "dek": "Perfectly complete quantum key agreement from one-way functions is impossible in QROM; eavesdropper recovers key in O((qA+qB)^5) queries.",
       "unproven": "Applies only to QROM model; real-world quantum channel properties and practical deployment constraints not addressed.",
       "scored_at": "2026-08-05T06:20:42.268067122Z"
+    },
+    {
+      "id": "arxiv:2608.03534v1",
+      "source": "arxiv",
+      "title": "A Challenge-Nonce Freshness Gap in Project Veraison's TPM Reference Schemes, Found by Appraising Application-Layer Action Evidence End-to-End",
+      "url": "http://arxiv.org/abs/2608.03534v1",
+      "published": "2026-08-04T12:14:39Z",
+      "authors": "Anton Sokolov",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "End-to-end appraisal of Project Veraison TPM attestation reveals freshness gap in challenge-nonce handling for signed action-evidence packages under RATS.",
+      "unproven": "Tested only on software TPM emulation with single key type (EC P-256); impact on production TPM implementations and hardware variants not assessed; fix validation pending.",
+      "scored_at": "2026-08-05T01:42:30.760342072Z"
     }
   ],
   "noise": [
