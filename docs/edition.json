@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T20:57:32.086636128Z",
-  "edition": 12,
+  "generated": "2026-08-06T01:42:54.847478313Z",
+  "edition": 13,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 17,
+      "arxiv": 18,
       "hn": 3,
-      "kev": 5
+      "kev": 4
     },
     "by_quadrant": {
       "BREAK GLASS": 8,
-      "NEW GROUND": 9,
+      "NEW GROUND": 10,
       "NOISE FLOOR": 1,
-      "STANDING ORDERS": 7
+      "STANDING ORDERS": 6
     }
   },
   "items": [
@@ -206,22 +206,6 @@
       "scored_at": "2026-08-05T06:20:19.348554194Z"
     },
     {
-      "id": "kev:CVE-2026-18577",
-      "source": "kev",
-      "title": "CVE-2026-18577 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577",
-      "published": "2026-08-03T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 6 August.",
-      "cves": [
-        "CVE-2026-18577"
-      ],
-      "scored_at": "2026-08-03T20:55:13.458772734Z"
-    },
-    {
       "id": "arxiv:2608.03700v1",
       "source": "arxiv",
       "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
@@ -401,6 +385,21 @@
       "quadrant": "NEW GROUND",
       "dek": "Cryptanalysis breaks all 16 EGMC post-quantum encryption parameter sets using combined combinatorial and algebraic recovery of masked Gabidulin codes.",
       "scored_at": "2026-08-05T01:42:42.099784527Z"
+    },
+    {
+      "id": "arxiv:2608.03174v1",
+      "source": "arxiv",
+      "title": "Attribute-based Undetectable Watermarking for Generative AI Models",
+      "url": "http://arxiv.org/abs/2608.03174v1",
+      "published": "2026-08-04T06:05:58Z",
+      "authors": "Miryam Mi-Ying Huang et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Attribute-based policies constrain watermark detection keys to prevent scope abuse and user profiling in generative AI systems.",
+      "unproven": "no evaluation against adaptive adversaries with partial key knowledge; watermark robustness not compared to baseline schemes; deployment model unclear.",
+      "scored_at": "2026-08-05T01:42:55.259596691Z"
     }
   ],
   "noise": [
