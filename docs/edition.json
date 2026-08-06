@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06T06:23:33.234424764Z",
+  "generated": "2026-08-06T10:29:01.647794095Z",
   "edition": 13,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,8 +13,8 @@
       "kev": 4
     },
     "by_quadrant": {
-      "BREAK GLASS": 10,
-      "NEW GROUND": 8,
+      "BREAK GLASS": 9,
+      "NEW GROUND": 9,
       "STANDING ORDERS": 7
     }
   },
@@ -220,21 +220,6 @@
       "scored_at": "2026-08-05T06:20:19.348554044Z"
     },
     {
-      "id": "arxiv:2608.02693v1",
-      "source": "arxiv",
-      "title": "PRWeaver: Evaluating LLM-Based Code Auditors against Long-Horizon Malicious Pull Requests",
-      "url": "http://arxiv.org/abs/2608.02693v1",
-      "published": "2026-08-03T10:05:08Z",
-      "authors": "Yuekun Wang et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "LLM code auditors drop to 16–22% detection when attacks interleave benign and malicious changes across repository history.",
-      "unproven": "tested on ten repositories with 208 execution-validated attacks; scalability to larger codebases and unknown attack patterns not demonstrated",
-      "scored_at": "2026-08-05T06:20:19.348554194Z"
-    },
-    {
       "id": "arxiv:2608.04857v1",
       "source": "arxiv",
       "title": "Hidden Ciphers and Where to Find Them: Static Discovery and Assessment of Cryptographic Assets in Software",
@@ -399,6 +384,21 @@
       "dek": "Benchmark of four frontier models against 67 jailbreak techniques finds 63 universal prompts against Grok 4.5 and hundredfold variation in safeguard robustness.",
       "unproven": "does not test safeguards as deployed in production; does not measure post-patch resilience or account for defensive iteration between benchmark runs and model release",
       "scored_at": "2026-08-05T01:43:07.876465982Z"
+    },
+    {
+      "id": "arxiv:2608.02820v1",
+      "source": "arxiv",
+      "title": "Evading Chain-of-Thought Monitoring Through Model Poisoning",
+      "url": "http://arxiv.org/abs/2608.02820v1",
+      "published": "2026-08-03T19:32:13Z",
+      "authors": "Giorgio Severi et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Backdoors can be implanted via fine-tuning to produce attacker-chosen output while chain-of-thought reasoning traces appear benign.",
+      "unproven": "does not test against deployed CoT safety monitoring; limited to reasoning models; does not measure practical detectability or prevention strategies",
+      "scored_at": "2026-08-05T01:43:07.876467214Z"
     }
   ],
   "noise": [
