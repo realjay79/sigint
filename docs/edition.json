@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-06T13:42:20.165840624Z",
-  "edition": 13,
+  "generated": "2026-08-07T00:50:30.582267452Z",
+  "edition": 14,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 18,
-      "hn": 3,
-      "kev": 4
+      "arxiv": 19,
+      "hn": 5,
+      "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
+      "BREAK GLASS": 5,
       "NEW GROUND": 11,
-      "NOISE FLOOR": 1,
-      "STANDING ORDERS": 7
+      "NOISE FLOOR": 5,
+      "STANDING ORDERS": 4
     }
   },
   "items": [
@@ -111,69 +111,6 @@
       "dek": "8B language model running locally in a trojan completes observe-decide-act cycles on real vulnerable services without cloud calls, though with unreliable execution.",
       "unproven": "does not demonstrate operational reliability at scale; tested only against Metasploitable2 in isolated lab; does not measure detection rate or survival likelihood in defended networks",
       "scored_at": "2026-08-05T01:43:07.876466332Z"
-    },
-    {
-      "id": "kev:CVE-2026-18556",
-      "source": "kev",
-      "title": "CVE-2026-18556 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
-      "published": "2026-08-04T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 7 August.",
-      "cves": [
-        "CVE-2026-18556"
-      ],
-      "scored_at": "2026-08-04T21:02:05.249434504Z"
-    },
-    {
-      "id": "kev:CVE-2026-34486",
-      "source": "kev",
-      "title": "CVE-2026-34486 — Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34486",
-      "published": "2026-08-04T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Apache Tomcat. Confirmed exploited in the wild. Federal remediation due 7 August.",
-      "cves": [
-        "CVE-2026-34486"
-      ],
-      "scored_at": "2026-08-04T21:02:05.249437303Z"
-    },
-    {
-      "id": "kev:CVE-2026-9198",
-      "source": "kev",
-      "title": "CVE-2026-9198 — IBM Langflow Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9198",
-      "published": "2026-08-04T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "IBM Langflow. Confirmed exploited in the wild. Federal remediation due 7 August.",
-      "cves": [
-        "CVE-2026-9198"
-      ],
-      "scored_at": "2026-08-04T21:02:05.249439209Z"
-    },
-    {
-      "id": "arxiv:2608.02336v1",
-      "source": "arxiv",
-      "title": "Lost in Permissions: Exploring the Microsoft 365 App Ecosystem",
-      "url": "http://arxiv.org/abs/2608.02336v1",
-      "published": "2026-08-03T14:54:23Z",
-      "authors": "Vincenzo Longo et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Analysis of 8,000 Microsoft 365 third-party apps finds permission-functionality misalignment in 40% of cases via anomaly detection.",
-      "unproven": "anomaly detection framework tuning on limited labeled examples; false positive rates when applied to new application cohorts; automated detection accuracy compared to manual security review",
-      "scored_at": "2026-08-04T10:27:33.442354734Z"
     },
     {
       "id": "arxiv:2608.04857v1",
@@ -342,19 +279,23 @@
       "scored_at": "2026-08-05T01:43:07.876465982Z"
     },
     {
-      "id": "arxiv:2608.02820v1",
-      "source": "arxiv",
-      "title": "Evading Chain-of-Thought Monitoring Through Model Poisoning",
-      "url": "http://arxiv.org/abs/2608.02820v1",
-      "published": "2026-08-03T19:32:13Z",
-      "authors": "Giorgio Severi et al.",
+      "id": "hn:49198843",
+      "source": "hn",
+      "title": "Zapscape (CVE-2026-64561): Guest-to-Host Escape in KVM/x86",
+      "url": "https://github.com/V4bel/Zapscape",
+      "published": "2026-08-06T16:24:36Z",
+      "authors": "john_strinlai",
+      "points": 65,
       "novelty": 4,
-      "actionability": 3,
-      "score": 7,
+      "actionability": 2,
+      "score": 6,
       "quadrant": "NEW GROUND",
-      "dek": "Backdoors can be implanted via fine-tuning to produce attacker-chosen output while chain-of-thought reasoning traces appear benign.",
-      "unproven": "does not test against deployed CoT safety monitoring; limited to reasoning models; does not measure practical detectability or prevention strategies",
-      "scored_at": "2026-08-05T01:43:07.876467214Z"
+      "dek": "KVM/x86 guest-to-host escape discovered and published with PoC; hypervisor vendors must patch.",
+      "unproven": "applicability to production deployments with standard mitigations (SMEP, SMAP, nested virt disabled) not established",
+      "cves": [
+        "CVE-2026-64561"
+      ],
+      "scored_at": "2026-08-07T00:50:30.572205359Z"
     },
     {
       "id": "hn:49191365",
@@ -401,6 +342,67 @@
       "dek": "PURPOSE attack poisons RAG conflict resolution by grounding false facts in query context rather than direct contradiction, achieving +9.7 mean ASR over prior work.",
       "unproven": "evaluation on three QA benchmarks and five generator families; transferability to production RAG guardrails and real-world knowledge bases not demonstrated",
       "scored_at": "2026-08-06T06:23:11.472885447Z"
+    },
+    {
+      "id": "arxiv:2608.04744v1",
+      "source": "arxiv",
+      "title": "Web Cache Overflow: Exploiting Imprecise Keys for Cache Degradation and Beyond",
+      "url": "http://arxiv.org/abs/2608.04744v1",
+      "published": "2026-08-05T12:12:33Z",
+      "authors": "Matteo Golinelli et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Imprecise cache keys allow crafting redundant entries to degrade hit rates and increase origin load across five caching proxies.",
+      "unproven": "no evidence of real-world exploitation; impact magnitude on modern CDNs and cloud cache layers not measured",
+      "scored_at": "2026-08-06T06:23:11.472885707Z"
+    },
+    {
+      "id": "arxiv:2608.04523v1",
+      "source": "arxiv",
+      "title": "Checked-In Secret Detection: Strings Are All You Need",
+      "url": "http://arxiv.org/abs/2608.04523v1",
+      "published": "2026-08-05T06:55:54Z",
+      "authors": "Zhengdong Huang et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "String-focused secret detection outperforms regex and context-aware methods on obfuscation robustness and cross-language generalization.",
+      "unproven": "Tested on unspecified datasets; no comparison against deployed secret scanning tools the reader currently operates.",
+      "scored_at": "2026-08-06T06:23:22.833396827Z"
+    },
+    {
+      "id": "hn:49176644",
+      "source": "hn",
+      "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
+      "url": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks",
+      "published": "2026-08-04T23:22:37Z",
+      "authors": "jchanimal",
+      "points": 48,
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Passkey implementation flaws enable credential interception during transport and storage; review deployments.",
+      "unproven": "Single deployment model tested; generalizability to all passkey implementations unclear.",
+      "scored_at": "2026-08-05T13:43:42.340655172Z"
+    },
+    {
+      "id": "arxiv:2608.04115v1",
+      "source": "arxiv",
+      "title": "NEBULA: A Language - Independent Specification for Opaque Rotating Refresh Tokens",
+      "url": "http://arxiv.org/abs/2608.04115v1",
+      "published": "2026-08-04T18:10:55Z",
+      "authors": "Matteo Teodori",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "NEBULA specifies precise, language-independent refresh token rotation and replay detection conforming to RFC 9700 with ten reference implementations.",
+      "unproven": "reference implementations provided but adoption and real-world integration testing not yet demonstrated",
+      "scored_at": "2026-08-06T06:23:33.224279131Z"
     }
   ],
   "noise": [
@@ -421,19 +423,19 @@
       "scored_at": "2026-08-05T13:43:42.340655542Z"
     },
     {
-      "id": "hn:49156111",
+      "id": "hn:49197137",
       "source": "hn",
-      "title": "Devtools must be open source",
-      "url": "https://blog.exe.dev/devtools-must-be-open-source",
-      "published": "2026-08-03T14:15:47Z",
-      "authors": "bryanmikaelian",
-      "points": 225,
+      "title": "Show HN: I spent 2 years designing a mechanical Magic Keyboard",
+      "url": "https://electronicmaterialsoffice.com/",
+      "published": "2026-08-06T14:26:14Z",
+      "authors": "aemerson_",
+      "points": 256,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Opinion piece arguing for open-source development tools; no evidence or novel argument.",
-      "scored_at": "2026-08-03T17:46:52.991384236Z"
+      "dek": "Mechanical keyboard product launch; hardware design work unrelated to security or SDLC.",
+      "scored_at": "2026-08-07T00:50:30.572209365Z"
     },
     {
       "id": "hn:49183750",
