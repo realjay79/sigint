@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T05:28:42.256549441Z",
+  "generated": "2026-08-07T08:47:05.937645848Z",
   "edition": 14,
   "name": "SIGINT",
   "mark": "^C",
@@ -324,21 +324,6 @@
       "scored_at": "2026-08-04T17:29:47.774902007Z"
     },
     {
-      "id": "arxiv:2608.03169v1",
-      "source": "arxiv",
-      "title": "Test-time reasoning effort and unauthorized tool use in language-model agents: a prespecified equivalence study",
-      "url": "http://arxiv.org/abs/2608.03169v1",
-      "published": "2026-08-04T06:01:14Z",
-      "authors": "Xiaonan Xu et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Prespecified test of reasoning-effort parameters in GPT agents found zero unauthorized tool calls across 840 trajectories, with 95% limits below 5.2%.",
-      "unproven": "single model family (GPT); test suite limited to 20 scenarios; no evidence whether other LLM families or deployment conditions differ; access controls tested are synthetic.",
-      "scored_at": "2026-08-05T01:42:55.259597101Z"
-    },
-    {
       "id": "hn:49198843",
       "source": "hn",
       "title": "Zapscape (CVE-2026-64561): Guest-to-Host Escape in KVM/x86",
@@ -402,6 +387,21 @@
       "dek": "LLMs lack the computational capacity to break symmetric cryptography; addresses a misconception in agent security threat modeling.",
       "unproven": "does not account for hybrid attacks, side channels, or deployment contexts where LLMs assist human cryptanalysts.",
       "scored_at": "2026-08-06T13:42:20.154541135Z"
+    },
+    {
+      "id": "arxiv:2608.05495v1",
+      "source": "arxiv",
+      "title": "PromptShield Home: Ambient Multimodal Prompt Injection Defense for Smart-Home Agents",
+      "url": "http://arxiv.org/abs/2608.05495v1",
+      "published": "2026-08-06T00:51:46Z",
+      "authors": "He Zhang et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Benchmark of multimodal prompt injection in smart-home agents reveals detectors over-block while LLMs over-refuse genuine commands.",
+      "unproven": "Pilot benchmark on synthetic scenarios; no evidence that three-layer mediation strategy reaches production deployment or matches real-world ambient noise and occupancy patterns.",
+      "scored_at": "2026-08-07T05:28:31.884058625Z"
     }
   ],
   "noise": [
