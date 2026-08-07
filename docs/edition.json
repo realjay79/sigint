@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T08:47:05.937645848Z",
+  "generated": "2026-08-07T12:40:49.57753998Z",
   "edition": 14,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 20,
-      "hn": 4,
+      "arxiv": 21,
+      "hn": 3,
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 7,
-      "NEW GROUND": 11,
+      "BREAK GLASS": 6,
+      "NEW GROUND": 13,
       "NOISE FLOOR": 3,
-      "STANDING ORDERS": 4
+      "STANDING ORDERS": 3
     }
   },
   "items": [
@@ -126,21 +126,6 @@
       "dek": "Black-box attack reconstructs hidden LLM agent skill functionality from benign task requests and responses without file access.",
       "unproven": "tested on 30 skills in isolation; generalization to production agent ecosystems and defense effectiveness unclear",
       "scored_at": "2026-08-06T06:23:33.2242785Z"
-    },
-    {
-      "id": "arxiv:2608.03485v1",
-      "source": "arxiv",
-      "title": "SkillSentry: Adaptive Honey Worlds for Dynamic Safety Testing of Agent Skills",
-      "url": "http://arxiv.org/abs/2608.03485v1",
-      "published": "2026-08-04T11:22:22Z",
-      "authors": "Nizhang Li et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "SkillSentry achieves 99.5% recall on dynamic safety testing of LLM agent skills using adaptive honey worlds and trajectory comparison.",
-      "unproven": "evaluated on standard benchmarks and custom evasion; unclear how well framework generalizes to in-house skill catalogs or proprietary agent architectures",
-      "scored_at": "2026-08-05T01:42:42.099784367Z"
     },
     {
       "id": "arxiv:2608.05563v1",
@@ -293,37 +278,6 @@
       "scored_at": "2026-08-05T01:42:30.760340059Z"
     },
     {
-      "id": "arxiv:2608.03509v1",
-      "source": "arxiv",
-      "title": "SkillJack: Persistent Skill Backdoors in Self-Evolving Agents",
-      "url": "http://arxiv.org/abs/2608.03509v1",
-      "published": "2026-08-04T11:51:23Z",
-      "authors": "Zonghao Ying et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "SkillJack attack poisons self-evolving agent experience-to-skill pipelines, creating durable behavioral backdoors that survive source removal.",
-      "unproven": "evaluation limited to two skill systems; no evidence that agents entering SDLC will use skill persistence as described; cross-system applicability unknown",
-      "scored_at": "2026-08-05T01:42:42.099784116Z"
-    },
-    {
-      "id": "hn:49166874",
-      "source": "hn",
-      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
-      "url": "https://aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
-      "published": "2026-08-04T11:01:37Z",
-      "authors": "cimi_",
-      "points": 145,
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Keyv and dependencies compromised in active supply chain attack; SCA tooling and dependency audits warrant immediate review.",
-      "unproven": "scope of compromise in reader's codebase unknown without direct inventory check",
-      "scored_at": "2026-08-04T17:29:47.774902007Z"
-    },
-    {
       "id": "hn:49198843",
       "source": "hn",
       "title": "Zapscape (CVE-2026-64561): Guest-to-Host Escape in KVM/x86",
@@ -402,6 +356,51 @@
       "dek": "Benchmark of multimodal prompt injection in smart-home agents reveals detectors over-block while LLMs over-refuse genuine commands.",
       "unproven": "Pilot benchmark on synthetic scenarios; no evidence that three-layer mediation strategy reaches production deployment or matches real-world ambient noise and occupancy patterns.",
       "scored_at": "2026-08-07T05:28:31.884058625Z"
+    },
+    {
+      "id": "arxiv:2608.05247v1",
+      "source": "arxiv",
+      "title": "The Hidden Life of Public Safety Communications Signals: A Comparative Security Analysis of TETRA, TETRAPOL, and P25",
+      "url": "http://arxiv.org/abs/2608.05247v1",
+      "published": "2026-08-05T15:39:45Z",
+      "authors": "Larry Hernandez et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Passive SDR observation of P25, TETRA, TETRAPOL signaling planes recovers topology, unit presence, and mobility without content decryption.",
+      "unproven": "limited to what an adversary can infer from unencrypted signaling; no countermeasure evaluation or evidence of field deployment against defended systems",
+      "scored_at": "2026-08-07T05:28:42.249865557Z"
+    },
+    {
+      "id": "arxiv:2608.04893v1",
+      "source": "arxiv",
+      "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
+      "url": "http://arxiv.org/abs/2608.04893v1",
+      "published": "2026-08-05T14:18:42Z",
+      "authors": "Jiaming Cheng et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Causal audit of multi-agent LLM cache relays shows latent communication buys 100% advantage only when sender holds private task information; effect disappears when it does not.",
+      "unproven": "whether findings generalize to systems not designed for zero-shot relay or to deployments with stronger privacy constraints and output filtering",
+      "scored_at": "2026-08-06T06:22:59.483657263Z"
+    },
+    {
+      "id": "arxiv:2608.04756v1",
+      "source": "arxiv",
+      "title": "PURPOSE: Poisoning Conflict Resolution in RAG via Proxy-Fact-Grounded Updates",
+      "url": "http://arxiv.org/abs/2608.04756v1",
+      "published": "2026-08-05T12:23:24Z",
+      "authors": "Zijian Wang et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "PURPOSE attack poisons RAG conflict resolution by grounding false facts in query context rather than direct contradiction, achieving +9.7 mean ASR over prior work.",
+      "unproven": "evaluation on three QA benchmarks and five generator families; transferability to production RAG guardrails and real-world knowledge bases not demonstrated",
+      "scored_at": "2026-08-06T06:23:11.472885447Z"
     }
   ],
   "noise": [
