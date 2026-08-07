@@ -23390,6 +23390,22 @@
     ],
     "scored_at": "2026-08-05T17:20:16.63789094Z"
   },
+  "kev:CVE-2026-8037": {
+    "id": "kev:CVE-2026-8037",
+    "source": "kev",
+    "title": "CVE-2026-8037 — Progress LoadMaster Command Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8037",
+    "published": "2026-08-07T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Progress LoadMaster. Confirmed exploited in the wild. Federal remediation due 10 August.",
+    "cves": [
+      "CVE-2026-8037"
+    ],
+    "scored_at": "2026-08-07T20:30:03.598381744Z"
+  },
   "kev:CVE-2026-9198": {
     "id": "kev:CVE-2026-9198",
     "source": "kev",

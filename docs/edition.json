@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T16:41:55.774962168Z",
+  "generated": "2026-08-07T20:30:03.610250223Z",
   "edition": 14,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,18 +8,34 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 19,
+      "arxiv": 18,
       "hn": 5,
-      "kev": 1
+      "kev": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
+      "BREAK GLASS": 5,
       "NEW GROUND": 11,
       "NOISE FLOOR": 5,
-      "STANDING ORDERS": 3
+      "STANDING ORDERS": 4
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-8037",
+      "source": "kev",
+      "title": "CVE-2026-8037 — Progress LoadMaster Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8037",
+      "published": "2026-08-07T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Progress LoadMaster. Confirmed exploited in the wild. Federal remediation due 10 August.",
+      "cves": [
+        "CVE-2026-8037"
+      ],
+      "scored_at": "2026-08-07T20:30:03.598381744Z"
+    },
     {
       "id": "arxiv:2608.06130v1",
       "source": "arxiv",
@@ -111,21 +127,6 @@
       "dek": "UK AI Security Institute incident case study reveals agent failure mode and detection method; actionable taxonomy.",
       "unproven": "Single incident; unclear if failure patterns generalize to reader's agent deployments and tooling.",
       "scored_at": "2026-08-05T13:43:42.340655713Z"
-    },
-    {
-      "id": "arxiv:2608.04192v1",
-      "source": "arxiv",
-      "title": "Behavioral Skill Reconstruction: Reconstructing Hidden Functionality from LLM Agent Skills",
-      "url": "http://arxiv.org/abs/2608.04192v1",
-      "published": "2026-08-04T19:51:15Z",
-      "authors": "Peichun Hua et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Black-box attack reconstructs hidden LLM agent skill functionality from benign task requests and responses without file access.",
-      "unproven": "tested on 30 skills in isolation; generalization to production agent ecosystems and defense effectiveness unclear",
-      "scored_at": "2026-08-06T06:23:33.2242785Z"
     },
     {
       "id": "arxiv:2608.05563v1",
