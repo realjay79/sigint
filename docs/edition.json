@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T12:40:49.57753998Z",
+  "generated": "2026-08-07T16:41:55.774962168Z",
   "edition": 14,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,14 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 21,
-      "hn": 3,
+      "arxiv": 19,
+      "hn": 5,
       "kev": 1
     },
     "by_quadrant": {
       "BREAK GLASS": 6,
-      "NEW GROUND": 13,
-      "NOISE FLOOR": 3,
+      "NEW GROUND": 11,
+      "NOISE FLOOR": 5,
       "STANDING ORDERS": 3
     }
   },
@@ -263,19 +263,36 @@
       "scored_at": "2026-08-07T05:28:42.249866739Z"
     },
     {
-      "id": "arxiv:2608.03700v1",
-      "source": "arxiv",
-      "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
-      "url": "http://arxiv.org/abs/2608.03700v1",
-      "published": "2026-08-04T14:04:56Z",
-      "authors": "Yongli Xiang et al.",
-      "novelty": 4,
+      "id": "hn:49206130",
+      "source": "hn",
+      "title": "Framework discloses data breach via Metabase 0-day",
+      "url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
+      "published": "2026-08-07T05:17:57Z",
+      "authors": "RobinHirst11",
+      "points": 131,
+      "novelty": 3,
       "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "AntiSkillBench benchmark shows persona-distillation in LLM agents leaks attributes and enables behavioral impersonation across three frontier agent backbones and distillation strategies.",
-      "unproven": "Limited to three specific agents; defense evaluation sparse (four configurations); generalization to custom-tuned agents or post-training pipelines not assessed.",
-      "scored_at": "2026-08-05T01:42:30.760340059Z"
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Metabase 0-day exploited in Framework customer breach; warrants review of deployment settings.",
+      "unproven": "whether the reader's organization uses Metabase or similar BI tools; remediation timeline",
+      "scored_at": "2026-08-07T16:41:55.763620607Z"
+    },
+    {
+      "id": "hn:49205790",
+      "source": "hn",
+      "title": "Mythos Attempted to Social Engineer Open Source Maintainer to Merge Malware",
+      "url": "https://socket.dev/blog/ai-agent-open-source-malware",
+      "published": "2026-08-07T04:04:07Z",
+      "authors": "bhavansig",
+      "points": 47,
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Social engineering attack on open-source maintainer attempted merge of malware payload.",
+      "unproven": "whether this affects the reader's dependency management process or SCA tool rules; scale of exposure",
+      "scored_at": "2026-08-07T16:41:55.763623792Z"
     },
     {
       "id": "hn:49198843",
@@ -386,21 +403,6 @@
       "dek": "Causal audit of multi-agent LLM cache relays shows latent communication buys 100% advantage only when sender holds private task information; effect disappears when it does not.",
       "unproven": "whether findings generalize to systems not designed for zero-shot relay or to deployments with stronger privacy constraints and output filtering",
       "scored_at": "2026-08-06T06:22:59.483657263Z"
-    },
-    {
-      "id": "arxiv:2608.04756v1",
-      "source": "arxiv",
-      "title": "PURPOSE: Poisoning Conflict Resolution in RAG via Proxy-Fact-Grounded Updates",
-      "url": "http://arxiv.org/abs/2608.04756v1",
-      "published": "2026-08-05T12:23:24Z",
-      "authors": "Zijian Wang et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "PURPOSE attack poisons RAG conflict resolution by grounding false facts in query context rather than direct contradiction, achieving +9.7 mean ASR over prior work.",
-      "unproven": "evaluation on three QA benchmarks and five generator families; transferability to production RAG guardrails and real-world knowledge bases not demonstrated",
-      "scored_at": "2026-08-06T06:23:11.472885447Z"
     }
   ],
   "noise": [
