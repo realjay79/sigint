@@ -23022,6 +23022,22 @@
     "unproven": "specific architectural or security implications for the reader's tooling and SDLC process",
     "scored_at": "2026-08-07T16:41:55.763617773Z"
   },
+  "hn:49214468": {
+    "id": "hn:49214468",
+    "source": "hn",
+    "title": "Managing AI Coding Costs at Scale",
+    "url": "https://databricks.com/blog/managing-ai-coding-costs-scale",
+    "published": "2026-08-07T18:25:17Z",
+    "authors": "moonikakiss",
+    "points": 155,
+    "novelty": 2,
+    "actionability": 2,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Databricks cost-management patterns for AI coding tools; establishes vocabulary around token budgets and batching.",
+    "unproven": "applicability beyond Databricks' own infrastructure and use cases; no independent validation of claims",
+    "scored_at": "2026-08-08T00:54:21.988655646Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",

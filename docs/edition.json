@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-07T20:30:03.610250223Z",
-  "edition": 14,
+  "generated": "2026-08-08T00:54:21.999796043Z",
+  "edition": 15,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 18,
-      "hn": 5,
-      "kev": 2
+      "arxiv": 20,
+      "hn": 4,
+      "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 5,
+      "BREAK GLASS": 4,
       "NEW GROUND": 11,
-      "NOISE FLOOR": 5,
-      "STANDING ORDERS": 4
+      "NOISE FLOOR": 7,
+      "STANDING ORDERS": 3
     }
   },
   "items": [
@@ -95,38 +95,6 @@
       "dek": "Trident framework demonstrates DRL cyber defenses fail against adaptive LLM red agents trained on 13k interaction trajectories.",
       "unproven": "Evaluated on CybORG and CyberWheel sandboxes only; applicability to production network defense or agent integration into SDLC undemonstrated.",
       "scored_at": "2026-08-06T06:23:22.833398499Z"
-    },
-    {
-      "id": "kev:CVE-2026-63077",
-      "source": "kev",
-      "title": "CVE-2026-63077 — JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
-      "published": "2026-08-05T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "JetBrains TeamCity. Confirmed exploited in the wild. Federal remediation due 8 August.",
-      "cves": [
-        "CVE-2026-63077"
-      ],
-      "scored_at": "2026-08-05T17:20:16.63789094Z"
-    },
-    {
-      "id": "hn:49175717",
-      "source": "hn",
-      "title": "Security Incident INC-2026-07-28-01 – UK AI Security Institute [pdf]",
-      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
-      "published": "2026-08-04T21:52:58Z",
-      "authors": "_pdp_",
-      "points": 58,
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "UK AI Security Institute incident case study reveals agent failure mode and detection method; actionable taxonomy.",
-      "unproven": "Single incident; unclear if failure patterns generalize to reader's agent deployments and tooling.",
-      "scored_at": "2026-08-05T13:43:42.340655713Z"
     },
     {
       "id": "arxiv:2608.05563v1",
@@ -247,21 +215,6 @@
       "dek": "DeepInvert breaks nine obfuscation defenses by recovering tokens from obfuscated embeddings using semi-supervised learning on unlabeled data.",
       "unproven": "Attacks evaluated on academic defenses and models; generalization to production cloud language model endpoints undemonstrated.",
       "scored_at": "2026-08-06T06:23:22.833397558Z"
-    },
-    {
-      "id": "arxiv:2608.05199v1",
-      "source": "arxiv",
-      "title": "Post-Hoc Trajectory-Risk Certification for Modular LLM-Based Security Agents",
-      "url": "http://arxiv.org/abs/2608.05199v1",
-      "published": "2026-08-04T23:48:36Z",
-      "authors": "Zhenpeng Li",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Conformal-prediction framework certifies trajectory-level coverage guarantees for multi-stage LLM security pipelines using spanning-tree correlation bounds.",
-      "unproven": "tested on two-stage intrusion-detection with six LLMs; applicability to multi-stage agent-based security workflows in production untested",
-      "scored_at": "2026-08-07T05:28:42.249866739Z"
     },
     {
       "id": "hn:49206130",
@@ -404,25 +357,54 @@
       "dek": "Causal audit of multi-agent LLM cache relays shows latent communication buys 100% advantage only when sender holds private task information; effect disappears when it does not.",
       "unproven": "whether findings generalize to systems not designed for zero-shot relay or to deployments with stronger privacy constraints and output filtering",
       "scored_at": "2026-08-06T06:22:59.483657263Z"
+    },
+    {
+      "id": "arxiv:2608.04756v1",
+      "source": "arxiv",
+      "title": "PURPOSE: Poisoning Conflict Resolution in RAG via Proxy-Fact-Grounded Updates",
+      "url": "http://arxiv.org/abs/2608.04756v1",
+      "published": "2026-08-05T12:23:24Z",
+      "authors": "Zijian Wang et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "PURPOSE attack poisons RAG conflict resolution by grounding false facts in query context rather than direct contradiction, achieving +9.7 mean ASR over prior work.",
+      "unproven": "evaluation on three QA benchmarks and five generator families; transferability to production RAG guardrails and real-world knowledge bases not demonstrated",
+      "scored_at": "2026-08-06T06:23:11.472885447Z"
+    },
+    {
+      "id": "arxiv:2608.04744v1",
+      "source": "arxiv",
+      "title": "Web Cache Overflow: Exploiting Imprecise Keys for Cache Degradation and Beyond",
+      "url": "http://arxiv.org/abs/2608.04744v1",
+      "published": "2026-08-05T12:12:33Z",
+      "authors": "Matteo Golinelli et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Imprecise cache keys allow crafting redundant entries to degrade hit rates and increase origin load across five caching proxies.",
+      "unproven": "no evidence of real-world exploitation; impact magnitude on modern CDNs and cloud cache layers not measured",
+      "scored_at": "2026-08-06T06:23:11.472885707Z"
+    },
+    {
+      "id": "arxiv:2608.04523v1",
+      "source": "arxiv",
+      "title": "Checked-In Secret Detection: Strings Are All You Need",
+      "url": "http://arxiv.org/abs/2608.04523v1",
+      "published": "2026-08-05T06:55:54Z",
+      "authors": "Zhengdong Huang et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "String-focused secret detection outperforms regex and context-aware methods on obfuscation robustness and cross-language generalization.",
+      "unproven": "Tested on unspecified datasets; no comparison against deployed secret scanning tools the reader currently operates.",
+      "scored_at": "2026-08-06T06:23:22.833396827Z"
     }
   ],
   "noise": [
-    {
-      "id": "hn:49175826",
-      "source": "hn",
-      "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
-      "url": "https://africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol",
-      "published": "2026-08-04T22:01:41Z",
-      "authors": "bookofjoe",
-      "points": 273,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Interpol report claims AI drives over 50% of African cybercrime; lacks detail and reader operates at SDLC layer.",
-      "unproven": "No access to underlying data; regional threat report outside reader's deployment context.",
-      "scored_at": "2026-08-05T13:43:42.340655542Z"
-    },
     {
       "id": "hn:49197137",
       "source": "hn",
@@ -452,6 +434,22 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Oracle reduced free tier capacity limits; a vendor policy change with no security or SDLC implication.",
       "scored_at": "2026-08-05T20:57:32.077384949Z"
+    },
+    {
+      "id": "hn:49214468",
+      "source": "hn",
+      "title": "Managing AI Coding Costs at Scale",
+      "url": "https://databricks.com/blog/managing-ai-coding-costs-scale",
+      "published": "2026-08-07T18:25:17Z",
+      "authors": "moonikakiss",
+      "points": 155,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Databricks cost-management patterns for AI coding tools; establishes vocabulary around token budgets and batching.",
+      "unproven": "applicability beyond Databricks' own infrastructure and use cases; no independent validation of claims",
+      "scored_at": "2026-08-08T00:54:21.988655646Z"
     }
   ]
 }
