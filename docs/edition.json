@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08T16:21:11.324180344Z",
+  "generated": "2026-08-08T20:17:37.951977943Z",
   "edition": 15,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,8 +14,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 2,
-      "NEW GROUND": 8,
-      "NOISE FLOOR": 13,
+      "NEW GROUND": 7,
+      "NOISE FLOOR": 14,
       "STANDING ORDERS": 2
     }
   },
@@ -95,21 +95,6 @@
       "dek": "Context-aware detector of indirect prompt injection in LLM agents combines query-relative classification with adversarial training against evasion.",
       "unproven": "Evaluation methodology not specified; unclear which datasets, evasion strategies, or real agent deployments are covered; code availability not stated.",
       "scored_at": "2026-08-07T05:28:31.884059156Z"
-    },
-    {
-      "id": "arxiv:2608.05300v1",
-      "source": "arxiv",
-      "title": "eMicro: Real-Time Multi-Hop Access Control for Microservices with eBPF",
-      "url": "http://arxiv.org/abs/2608.05300v1",
-      "published": "2026-08-05T18:00:43Z",
-      "authors": "Rizky Ramadhana Putra et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "eBPF-based system enforces multi-hop access control on microservices using DFA-encoded policies; tested on 12M workflows from Uber, Alibaba, ByteDance.",
-      "unproven": "Deployed on proprietary production traces but no open-source code or reproducible evaluation; unclear whether policy language fits reader's existing SDLC controls or requires custom implementation.",
-      "scored_at": "2026-08-07T05:28:31.884059456Z"
     },
     {
       "id": "hn:49206130",
@@ -402,6 +387,21 @@
       "dek": "Self-calibrating quantum fault tolerance with provable efficiency; addresses drift during long-running quantum computation.",
       "unproven": "proof assumes detection rate as calibration signal; no empirical validation on real quantum hardware; applicability to post-quantum cryptography migration timelines unclear",
       "scored_at": "2026-08-07T12:40:26.889408654Z"
+    },
+    {
+      "id": "arxiv:2608.05578v1",
+      "source": "arxiv",
+      "title": "Detecting Safety Training Modification in Language Models via Activation Analysis",
+      "url": "http://arxiv.org/abs/2608.05578v1",
+      "published": "2026-08-06T03:57:38Z",
+      "authors": "Glen Messenger",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "AMS detects safety-training modifications in LLMs by measuring activation-space geometry across four architecture families with 71% cross-validation accuracy.",
+      "unproven": "Lab validation only; does not demonstrate detection of adversarially-trained jailbreaks or applicability to supply-chain code-generation agent vetting.",
+      "scored_at": "2026-08-07T05:28:18.776938871Z"
     }
   ],
   "noise": [
@@ -437,20 +437,20 @@
       "scored_at": "2026-08-08T00:54:21.988655646Z"
     },
     {
-      "id": "hn:49208458",
+      "id": "hn:49223845",
       "source": "hn",
-      "title": "Show HN: textlog – A quiet, text-only microblogging platform, open-source, no JS",
-      "url": "https://textlog.cc/about",
-      "published": "2026-08-07T10:52:21Z",
-      "authors": "stagas",
-      "points": 58,
+      "title": "Amazon Is Creating the Biggest Pollution Source in the Country",
+      "url": "https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country",
+      "published": "2026-08-08T17:27:52Z",
+      "authors": "geox",
+      "points": 88,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Open-source text-only microblogging platform announcement.",
-      "unproven": "relevance to application security or secure SDLC",
-      "scored_at": "2026-08-07T16:41:55.763620447Z"
+      "dek": "Environmental policy piece on Amazon's data center footprint; outside application security.",
+      "unproven": "entire item outside reader's remit",
+      "scored_at": "2026-08-08T20:17:37.94072338Z"
     }
   ]
 }

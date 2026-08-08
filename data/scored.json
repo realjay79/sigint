@@ -23054,6 +23054,22 @@
     "unproven": "no source material provided; cannot assess claim; link destination unknown",
     "scored_at": "2026-08-08T08:28:13.8013453Z"
   },
+  "hn:49223845": {
+    "id": "hn:49223845",
+    "source": "hn",
+    "title": "Amazon Is Creating the Biggest Pollution Source in the Country",
+    "url": "https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country",
+    "published": "2026-08-08T17:27:52Z",
+    "authors": "geox",
+    "points": 88,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Environmental policy piece on Amazon's data center footprint; outside application security.",
+    "unproven": "entire item outside reader's remit",
+    "scored_at": "2026-08-08T20:17:37.94072338Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
