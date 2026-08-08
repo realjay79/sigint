@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08T08:28:13.812102146Z",
+  "generated": "2026-08-08T12:26:34.54254956Z",
   "edition": 15,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 3,
-      "NEW GROUND": 13,
-      "NOISE FLOOR": 6,
+      "BREAK GLASS": 2,
+      "NEW GROUND": 10,
+      "NOISE FLOOR": 10,
       "STANDING ORDERS": 3
     }
   },
@@ -65,21 +65,6 @@
       "dek": "Agentic Posture Vulnerability (APV) framework operationalizes persistent agent-control exposure tracking across components.",
       "unproven": "integration with existing vulnerability-management platforms; field validation beyond vignette; automation of APV detection and closure verification.",
       "scored_at": "2026-08-07T05:28:08.422242219Z"
-    },
-    {
-      "id": "arxiv:2608.05223v1",
-      "source": "arxiv",
-      "title": "Towards a Risk Assessment of Malicious Skill Files in Coding Agents",
-      "url": "http://arxiv.org/abs/2608.05223v1",
-      "published": "2026-08-05T11:33:43Z",
-      "authors": "Rui Yang et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Malicious shell commands evade coding agents at 71.6–96.1% rates via natural-language skill files; 2,826-skill benchmark released.",
-      "unproven": "evaluation limited to Gemini CLI and Qwen Code; generalization to other agent platforms and skill loading architectures untested",
-      "scored_at": "2026-08-07T05:28:42.249865967Z"
     },
     {
       "id": "arxiv:2608.05563v1",
@@ -140,36 +125,6 @@
       "dek": "Static scanner discovers cryptographic assets and post-quantum migration candidates with 0.75 F1 score; found six CVEs and 52 PQC targets in real infrastructure.",
       "unproven": "evaluation on ten services; generalization to proprietary cryptographic implementations and custom DSLs not established",
       "scored_at": "2026-08-06T06:23:11.472885256Z"
-    },
-    {
-      "id": "arxiv:2608.04755v1",
-      "source": "arxiv",
-      "title": "\"Allow\" to Achieve, Over-Privileged Inadvertently: The Unintended Cost of Task-Completion-Driven Pop-up Decisions in Mobile GUI Agents",
-      "url": "http://arxiv.org/abs/2608.04755v1",
-      "published": "2026-08-05T12:23:16Z",
-      "authors": "Dongsheng Chen et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Mobile GUI agents grant unnecessary Android permissions based on app identity and task context, with app-trust bias reducing grants from 26/32 to 0/32 on same task.",
-      "unproven": "evaluation on four frontier multimodal LLMs; does not address whether agents deployed in production exhibit same permission-literacy failures or how to remediate systematically",
-      "scored_at": "2026-08-06T06:23:11.472885567Z"
-    },
-    {
-      "id": "arxiv:2608.04741v1",
-      "source": "arxiv",
-      "title": "LoginTrap: Uncovering Task-Agnostic Phishing-Style Indirect Prompt Injection Attacks against LLM-based Web Agents",
-      "url": "http://arxiv.org/abs/2608.04741v1",
-      "published": "2026-08-05T12:08:16Z",
-      "authors": "Longtao Guo et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "LoginTrap induces LLM web agents to login via indirect prompt injection, achieving 86% end-to-end attack success on realistic task execution.",
-      "unproven": "evaluation on black-box agents with webpage-context control; does not establish whether commercial agent frameworks or enterprise deployments exhibit same vulnerability",
-      "scored_at": "2026-08-06T06:23:11.472885867Z"
     },
     {
       "id": "hn:49206130",
@@ -314,36 +269,6 @@
       "scored_at": "2026-08-06T06:22:59.483657263Z"
     },
     {
-      "id": "arxiv:2608.04756v1",
-      "source": "arxiv",
-      "title": "PURPOSE: Poisoning Conflict Resolution in RAG via Proxy-Fact-Grounded Updates",
-      "url": "http://arxiv.org/abs/2608.04756v1",
-      "published": "2026-08-05T12:23:24Z",
-      "authors": "Zijian Wang et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "PURPOSE attack poisons RAG conflict resolution by grounding false facts in query context rather than direct contradiction, achieving +9.7 mean ASR over prior work.",
-      "unproven": "evaluation on three QA benchmarks and five generator families; transferability to production RAG guardrails and real-world knowledge bases not demonstrated",
-      "scored_at": "2026-08-06T06:23:11.472885447Z"
-    },
-    {
-      "id": "arxiv:2608.04744v1",
-      "source": "arxiv",
-      "title": "Web Cache Overflow: Exploiting Imprecise Keys for Cache Degradation and Beyond",
-      "url": "http://arxiv.org/abs/2608.04744v1",
-      "published": "2026-08-05T12:12:33Z",
-      "authors": "Matteo Golinelli et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Imprecise cache keys allow crafting redundant entries to degrade hit rates and increase origin load across five caching proxies.",
-      "unproven": "no evidence of real-world exploitation; impact magnitude on modern CDNs and cloud cache layers not measured",
-      "scored_at": "2026-08-06T06:23:11.472885707Z"
-    },
-    {
       "id": "arxiv:2608.06345v1",
       "source": "arxiv",
       "title": "Dimension-Free Polylogarithmic Quantum Shadow Tomography from Sequential Pretty-Good Measurements",
@@ -402,6 +327,81 @@
       "dek": "Optimal syndrome-measurement timing inversely proportional to code distance yields exponential logical-error reduction in quantum surface-code memories.",
       "unproven": "applicability to the reader's secure-SDLC processes or classical infrastructure; whether this affects SAST/DAST/SCA tooling decisions",
       "scored_at": "2026-08-07T08:46:37.988025759Z"
+    },
+    {
+      "id": "arxiv:2608.06211v1",
+      "source": "arxiv",
+      "title": "Reversible Unlearnable Examples: Towards the Copyright Protection in Deep Learning Era",
+      "url": "http://arxiv.org/abs/2608.06211v1",
+      "published": "2026-08-06T16:04:05Z",
+      "authors": "Binze Wang et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Unlearnable examples with reversibility protect training data copyright; vocabulary for data-poison risk modeling.",
+      "unproven": "robustness against adaptive attacks; generalization beyond vision tasks; feasibility in production ML pipelines.",
+      "scored_at": "2026-08-07T05:28:08.422240646Z"
+    },
+    {
+      "id": "arxiv:2608.06061v1",
+      "source": "arxiv",
+      "title": "A Note on the Influence of a Zero Length Nonce on GCM and GMAC",
+      "url": "http://arxiv.org/abs/2608.06061v1",
+      "published": "2026-08-06T14:07:05Z",
+      "authors": "Yaobin Shen",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Zero-length nonce in ISO/IEC GCM and GMAC allows hash-key recovery; NIST variant unaffected.",
+      "unproven": "whether financial services deployments use ISO/IEC variant; impact scope limited to implementations that permit zero-length nonces.",
+      "scored_at": "2026-08-07T05:28:08.422241958Z"
+    },
+    {
+      "id": "arxiv:2608.05909v1",
+      "source": "arxiv",
+      "title": "MMAligner: Safeguarding Multimodal Large Language Models through Representation Calibration",
+      "url": "http://arxiv.org/abs/2608.05909v1",
+      "published": "2026-08-06T11:39:08Z",
+      "authors": "Shenyi Zhang et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Multimodal LLM safety disparity traced to representation misalignment; calibration method proposed but no production deployment evidence.",
+      "unproven": "applicability to proprietary LLMs used in agents; utility-safety trade-off measurement; generalization across model families and task domains.",
+      "scored_at": "2026-08-07T05:28:08.422242048Z"
+    },
+    {
+      "id": "arxiv:2608.05870v1",
+      "source": "arxiv",
+      "title": "RustGo: Fairly Directed Greybox Fuzzing for Enforcing Rust Memory Safety",
+      "url": "http://arxiv.org/abs/2608.05870v1",
+      "published": "2026-08-06T10:48:37Z",
+      "authors": "Dongyeon Yu et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Rust-directed fuzzer prunes 78% of irrelevant paths by targeting unsafe code; fuzzing methodology, not SAST/DAST tooling integration.",
+      "unproven": "integration into existing CI/CD fuzzing pipelines; performance on large codebases; memory-bug discovery rate versus standard greybox fuzzers.",
+      "scored_at": "2026-08-07T05:28:08.422242339Z"
+    },
+    {
+      "id": "arxiv:2608.05836v1",
+      "source": "arxiv",
+      "title": "An End-to-End Threat Model for the Quantum-as-a-Service Pipeline",
+      "url": "http://arxiv.org/abs/2608.05836v1",
+      "published": "2026-08-06T10:04:59Z",
+      "authors": "Badhon Rahman et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "STRIDE threat model decomposed across six-stage QaaS pipeline identifies attack vectors and cross-stage chains.",
+      "unproven": "Does not establish which attack chains are practically exploitable or what mitigations apply to real deployments.",
+      "scored_at": "2026-08-07T05:28:18.776933192Z"
     }
   ],
   "noise": [
