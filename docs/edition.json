@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08T00:54:21.999796043Z",
+  "generated": "2026-08-08T04:46:51.578101673Z",
   "edition": 15,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 4,
+      "BREAK GLASS": 3,
       "NEW GROUND": 11,
-      "NOISE FLOOR": 7,
+      "NOISE FLOOR": 8,
       "STANDING ORDERS": 3
     }
   },
@@ -80,21 +80,6 @@
       "dek": "Malicious shell commands evade coding agents at 71.6–96.1% rates via natural-language skill files; 2,826-skill benchmark released.",
       "unproven": "evaluation limited to Gemini CLI and Qwen Code; generalization to other agent platforms and skill loading architectures untested",
       "scored_at": "2026-08-07T05:28:42.249865967Z"
-    },
-    {
-      "id": "arxiv:2608.04317v1",
-      "source": "arxiv",
-      "title": "Trident : How to Break Deep Reinforcement Learning Cyber Defenses (Agentic)",
-      "url": "http://arxiv.org/abs/2608.04317v1",
-      "published": "2026-08-05T00:54:57Z",
-      "authors": "Ryozo Masukawa et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Trident framework demonstrates DRL cyber defenses fail against adaptive LLM red agents trained on 13k interaction trajectories.",
-      "unproven": "Evaluated on CybORG and CyberWheel sandboxes only; applicability to production network defense or agent integration into SDLC undemonstrated.",
-      "scored_at": "2026-08-06T06:23:22.833398499Z"
     },
     {
       "id": "arxiv:2608.05563v1",
@@ -402,6 +387,21 @@
       "dek": "String-focused secret detection outperforms regex and context-aware methods on obfuscation robustness and cross-language generalization.",
       "unproven": "Tested on unspecified datasets; no comparison against deployed secret scanning tools the reader currently operates.",
       "scored_at": "2026-08-06T06:23:22.833396827Z"
+    },
+    {
+      "id": "arxiv:2608.05201v1",
+      "source": "arxiv",
+      "title": "ASTELD: A Six-Axis Classification Framework for Autonomous AI Agents - Design, Evaluation, and an OpenClaw Case Study",
+      "url": "http://arxiv.org/abs/2608.05201v1",
+      "published": "2026-08-05T05:05:20Z",
+      "authors": "Siyuan Li et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Six-axis taxonomy (ASTELD) classifies autonomous AI agents by architecture, security, tools, execution, autonomy, and deployment.",
+      "unproven": "framework applied only to eight representative platforms and OpenClaw derivatives; no validation against production agent deployments in financial services",
+      "scored_at": "2026-08-07T05:28:42.249866398Z"
     }
   ],
   "noise": [
