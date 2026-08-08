@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08T12:26:34.54254956Z",
+  "generated": "2026-08-08T16:21:11.324180344Z",
   "edition": 15,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,9 +14,9 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 2,
-      "NEW GROUND": 10,
-      "NOISE FLOOR": 10,
-      "STANDING ORDERS": 3
+      "NEW GROUND": 8,
+      "NOISE FLOOR": 13,
+      "STANDING ORDERS": 2
     }
   },
   "items": [
@@ -110,21 +110,6 @@
       "dek": "eBPF-based system enforces multi-hop access control on microservices using DFA-encoded policies; tested on 12M workflows from Uber, Alibaba, ByteDance.",
       "unproven": "Deployed on proprietary production traces but no open-source code or reproducible evaluation; unclear whether policy language fits reader's existing SDLC controls or requires custom implementation.",
       "scored_at": "2026-08-07T05:28:31.884059456Z"
-    },
-    {
-      "id": "arxiv:2608.04857v1",
-      "source": "arxiv",
-      "title": "Hidden Ciphers and Where to Find Them: Static Discovery and Assessment of Cryptographic Assets in Software",
-      "url": "http://arxiv.org/abs/2608.04857v1",
-      "published": "2026-08-05T13:50:44Z",
-      "authors": "Christian Näther et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Static scanner discovers cryptographic assets and post-quantum migration candidates with 0.75 F1 score; found six CVEs and 52 PQC targets in real infrastructure.",
-      "unproven": "evaluation on ten services; generalization to proprietary cryptographic implementations and custom DSLs not established",
-      "scored_at": "2026-08-06T06:23:11.472885256Z"
     },
     {
       "id": "hn:49206130",
@@ -237,36 +222,6 @@
       "dek": "Benchmark of multimodal prompt injection in smart-home agents reveals detectors over-block while LLMs over-refuse genuine commands.",
       "unproven": "Pilot benchmark on synthetic scenarios; no evidence that three-layer mediation strategy reaches production deployment or matches real-world ambient noise and occupancy patterns.",
       "scored_at": "2026-08-07T05:28:31.884058625Z"
-    },
-    {
-      "id": "arxiv:2608.05247v1",
-      "source": "arxiv",
-      "title": "The Hidden Life of Public Safety Communications Signals: A Comparative Security Analysis of TETRA, TETRAPOL, and P25",
-      "url": "http://arxiv.org/abs/2608.05247v1",
-      "published": "2026-08-05T15:39:45Z",
-      "authors": "Larry Hernandez et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Passive SDR observation of P25, TETRA, TETRAPOL signaling planes recovers topology, unit presence, and mobility without content decryption.",
-      "unproven": "limited to what an adversary can infer from unencrypted signaling; no countermeasure evaluation or evidence of field deployment against defended systems",
-      "scored_at": "2026-08-07T05:28:42.249865557Z"
-    },
-    {
-      "id": "arxiv:2608.04893v1",
-      "source": "arxiv",
-      "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
-      "url": "http://arxiv.org/abs/2608.04893v1",
-      "published": "2026-08-05T14:18:42Z",
-      "authors": "Jiaming Cheng et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Causal audit of multi-agent LLM cache relays shows latent communication buys 100% advantage only when sender holds private task information; effect disappears when it does not.",
-      "unproven": "whether findings generalize to systems not designed for zero-shot relay or to deployments with stronger privacy constraints and output filtering",
-      "scored_at": "2026-08-06T06:22:59.483657263Z"
     },
     {
       "id": "arxiv:2608.06345v1",
@@ -402,6 +357,51 @@
       "dek": "STRIDE threat model decomposed across six-stage QaaS pipeline identifies attack vectors and cross-stage chains.",
       "unproven": "Does not establish which attack chains are practically exploitable or what mitigations apply to real deployments.",
       "scored_at": "2026-08-07T05:28:18.776933192Z"
+    },
+    {
+      "id": "arxiv:2608.05831v1",
+      "source": "arxiv",
+      "title": "On the Figures of Merit for Quantum Software Security: Toward a Benchmarking Rubric",
+      "url": "http://arxiv.org/abs/2608.05831v1",
+      "published": "2026-08-06T09:59:49Z",
+      "authors": "Badhon Rahman et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Proposes Security Figures of Merit for quantum software organized by ISO/IEC 25010 and QaaS pipeline layers.",
+      "unproven": "Does not validate that proposed S-FoM set correlates with real security outcomes or inform tool selection.",
+      "scored_at": "2026-08-07T05:28:18.776933443Z"
+    },
+    {
+      "id": "arxiv:2608.05790v1",
+      "source": "arxiv",
+      "title": "ChainClaw: A Layered Agent Framework for Reliable On-Chain Execution",
+      "url": "http://arxiv.org/abs/2608.05790v1",
+      "published": "2026-08-06T09:25:34Z",
+      "authors": "Jiacheng Wei et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "ChainClaw agent framework addresses reactivity, irreversibility, and observability gaps in blockchain environments via layered architecture.",
+      "unproven": "Evaluation on purpose-built benchmark; does not establish robustness against adversarial contracts or economic attacks in live deployment.",
+      "scored_at": "2026-08-07T05:28:18.776933743Z"
+    },
+    {
+      "id": "arxiv:2608.05686v1",
+      "source": "arxiv",
+      "title": "Provably Efficient Self-Calibrating Quantum Fault Tolerance",
+      "url": "http://arxiv.org/abs/2608.05686v1",
+      "published": "2026-08-06T07:22:20Z",
+      "authors": "Weiyuan Gong et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Self-calibrating quantum fault tolerance with provable efficiency; addresses drift during long-running quantum computation.",
+      "unproven": "proof assumes detection rate as calibration signal; no empirical validation on real quantum hardware; applicability to post-quantum cryptography migration timelines unclear",
+      "scored_at": "2026-08-07T12:40:26.889408654Z"
     }
   ],
   "noise": [
@@ -421,21 +421,6 @@
       "scored_at": "2026-08-07T00:50:30.572209365Z"
     },
     {
-      "id": "hn:49183750",
-      "source": "hn",
-      "title": "Oracle cut its Always Free ARM limits to 2 OCPU / 12GB, enforced Aug 18",
-      "url": "https://cnelecar.com/blog/oracle-always-free-arm-limits-cut-2026",
-      "published": "2026-08-05T14:46:36Z",
-      "authors": "iplaypc",
-      "points": 157,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Oracle reduced free tier capacity limits; a vendor policy change with no security or SDLC implication.",
-      "scored_at": "2026-08-05T20:57:32.077384949Z"
-    },
-    {
       "id": "hn:49214468",
       "source": "hn",
       "title": "Managing AI Coding Costs at Scale",
@@ -450,6 +435,22 @@
       "dek": "Databricks cost-management patterns for AI coding tools; establishes vocabulary around token budgets and batching.",
       "unproven": "applicability beyond Databricks' own infrastructure and use cases; no independent validation of claims",
       "scored_at": "2026-08-08T00:54:21.988655646Z"
+    },
+    {
+      "id": "hn:49208458",
+      "source": "hn",
+      "title": "Show HN: textlog – A quiet, text-only microblogging platform, open-source, no JS",
+      "url": "https://textlog.cc/about",
+      "published": "2026-08-07T10:52:21Z",
+      "authors": "stagas",
+      "points": 58,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Open-source text-only microblogging platform announcement.",
+      "unproven": "relevance to application security or secure SDLC",
+      "scored_at": "2026-08-07T16:41:55.763620447Z"
     }
   ]
 }
