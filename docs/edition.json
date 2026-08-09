@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T04:55:24.449608936Z",
+  "generated": "2026-08-09T08:30:40.123851657Z",
   "edition": 16,
   "name": "SIGINT",
   "mark": "^C",
@@ -116,36 +116,6 @@
         "CVE-2026-64561"
       ],
       "scored_at": "2026-08-07T00:50:30.572205359Z"
-    },
-    {
-      "id": "arxiv:2608.05695v1",
-      "source": "arxiv",
-      "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
-      "url": "http://arxiv.org/abs/2608.05695v1",
-      "published": "2026-08-06T07:37:49Z",
-      "authors": "Wenhao Lin et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "DreamGuard proactive guardrail predicts multi-horizon risks for LLM agents via recurrent latent state and fused intervention signals.",
-      "unproven": "Benchmarks on four synthetic tasks; does not establish robustness to adversarial agents or practical overhead in production SDLC integration.",
-      "scored_at": "2026-08-07T05:28:18.776934264Z"
-    },
-    {
-      "id": "arxiv:2608.05659v1",
-      "source": "arxiv",
-      "title": "Breaking Customized LLMs for Coding: Automated Red Teaming for Instruction Backdoor Attacks",
-      "url": "http://arxiv.org/abs/2608.05659v1",
-      "published": "2026-08-06T06:57:10Z",
-      "authors": "Yuchen Chen et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "ARIA automated red-teaming framework generates covert backdoored instructions for customized LLMs across three code intelligence tasks.",
-      "unproven": "Demonstrates attack feasibility on custom LLM platforms; does not establish detection or mitigation strategies for secure SDLC deployment.",
-      "scored_at": "2026-08-07T05:28:18.776934344Z"
     },
     {
       "id": "arxiv:2608.06345v1",
@@ -313,21 +283,6 @@
       "scored_at": "2026-08-07T05:28:18.776933743Z"
     },
     {
-      "id": "arxiv:2608.05686v1",
-      "source": "arxiv",
-      "title": "Provably Efficient Self-Calibrating Quantum Fault Tolerance",
-      "url": "http://arxiv.org/abs/2608.05686v1",
-      "published": "2026-08-06T07:22:20Z",
-      "authors": "Weiyuan Gong et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Self-calibrating quantum fault tolerance with provable efficiency; addresses drift during long-running quantum computation.",
-      "unproven": "proof assumes detection rate as calibration signal; no empirical validation on real quantum hardware; applicability to post-quantum cryptography migration timelines unclear",
-      "scored_at": "2026-08-07T12:40:26.889408654Z"
-    },
-    {
       "id": "hn:49226536",
       "source": "hn",
       "title": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
@@ -405,6 +360,51 @@
       "dek": "Multi-state geometry framework extends sum rules for nonlinear rectification beyond clean systems, with no disorder or interaction constraints.",
       "unproven": "experimental validation; connection to systems the reader operates or secures",
       "scored_at": "2026-08-07T08:46:37.988022944Z"
+    },
+    {
+      "id": "arxiv:2608.06319v1",
+      "source": "arxiv",
+      "title": "The Quantum Mechanics of Rare Events: From Quantum Walks to Stochastic Inflation",
+      "url": "http://arxiv.org/abs/2608.06319v1",
+      "published": "2026-08-06T17:33:55Z",
+      "authors": "Daniel Green et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Large deviation theory applied to quantum systems shows rare fluctuations minimize measurement-induced relative entropy.",
+      "unproven": "whether findings change understanding or practice in systems relevant to application security or financial services infrastructure",
+      "scored_at": "2026-08-07T08:46:37.988023625Z"
+    },
+    {
+      "id": "arxiv:2608.06318v1",
+      "source": "arxiv",
+      "title": "Breaking Memory Bottlenecks in Quantum Control Systems for More Precise Experiments and Higher Throughput Computing",
+      "url": "http://arxiv.org/abs/2608.06318v1",
+      "published": "2026-08-06T17:32:22Z",
+      "authors": "Yicheng Guang et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Ant-Q memory hierarchy integrates DRAM and BRAM to eliminate circuit-loading overhead in quantum control systems, reducing overhead from 22.90%-1417.05% to near zero.",
+      "unproven": "whether the reader operates or secures quantum computing infrastructure; scalability beyond the 26 circuits tested",
+      "scored_at": "2026-08-07T08:46:37.988024206Z"
+    },
+    {
+      "id": "arxiv:2608.06303v1",
+      "source": "arxiv",
+      "title": "Impact of Nonlinearities on Local Kinetic and Thermokinetic Uncertainty Relations in Bosonic Transport",
+      "url": "http://arxiv.org/abs/2608.06303v1",
+      "published": "2026-08-06T17:21:51Z",
+      "authors": "Didrik Palmqvist et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Nonlinearities affect local kinetic and thermokinetic uncertainty relations in bosonic transport; bounds remain tight in some regimes.",
+      "unproven": "applicability to systems outside fundamental physics or quantum information domains",
+      "scored_at": "2026-08-07T08:46:37.988025428Z"
     }
   ],
   "noise": [
