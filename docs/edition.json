@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-08T20:17:37.951977943Z",
-  "edition": 15,
+  "generated": "2026-08-09T00:56:30.892871416Z",
+  "edition": 16,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 20,
-      "hn": 4,
+      "arxiv": 19,
+      "hn": 5,
       "kev": 1
     },
     "by_quadrant": {
       "BREAK GLASS": 2,
-      "NEW GROUND": 7,
-      "NOISE FLOOR": 14,
-      "STANDING ORDERS": 2
+      "NEW GROUND": 6,
+      "NOISE FLOOR": 16,
+      "STANDING ORDERS": 1
     }
   },
   "items": [
@@ -80,21 +80,6 @@
       "dek": "Trajectory-poisoning attack embeds malicious behaviors into self-evolving LLM agent skills at 91% success rate across six mainstream evolvers.",
       "unproven": "Limited to closed-world skill banks and LLM families tested; unclear if mitigations exist in production agent systems or whether real-world trajectories behave like controlled canaries.",
       "scored_at": "2026-08-07T05:28:31.884058134Z"
-    },
-    {
-      "id": "arxiv:2608.05430v1",
-      "source": "arxiv",
-      "title": "Robust Context-Aware Detection of Malicious Instructions in Text",
-      "url": "http://arxiv.org/abs/2608.05430v1",
-      "published": "2026-08-05T21:44:44Z",
-      "authors": "Buzhao Liu et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Context-aware detector of indirect prompt injection in LLM agents combines query-relative classification with adversarial training against evasion.",
-      "unproven": "Evaluation methodology not specified; unclear which datasets, evasion strategies, or real agent deployments are covered; code availability not stated.",
-      "scored_at": "2026-08-07T05:28:31.884059156Z"
     },
     {
       "id": "hn:49206130",
@@ -192,21 +177,6 @@
       "dek": "LLMs lack the computational capacity to break symmetric cryptography; addresses a misconception in agent security threat modeling.",
       "unproven": "does not account for hybrid attacks, side channels, or deployment contexts where LLMs assist human cryptanalysts.",
       "scored_at": "2026-08-06T13:42:20.154541135Z"
-    },
-    {
-      "id": "arxiv:2608.05495v1",
-      "source": "arxiv",
-      "title": "PromptShield Home: Ambient Multimodal Prompt Injection Defense for Smart-Home Agents",
-      "url": "http://arxiv.org/abs/2608.05495v1",
-      "published": "2026-08-06T00:51:46Z",
-      "authors": "He Zhang et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Benchmark of multimodal prompt injection in smart-home agents reveals detectors over-block while LLMs over-refuse genuine commands.",
-      "unproven": "Pilot benchmark on synthetic scenarios; no evidence that three-layer mediation strategy reaches production deployment or matches real-world ambient noise and occupancy patterns.",
-      "scored_at": "2026-08-07T05:28:31.884058625Z"
     },
     {
       "id": "arxiv:2608.06345v1",
@@ -402,6 +372,37 @@
       "dek": "AMS detects safety-training modifications in LLMs by measuring activation-space geometry across four architecture families with 71% cross-validation accuracy.",
       "unproven": "Lab validation only; does not demonstrate detection of adversarially-trained jailbreaks or applicability to supply-chain code-generation agent vetting.",
       "scored_at": "2026-08-07T05:28:18.776938871Z"
+    },
+    {
+      "id": "arxiv:2608.05548v1",
+      "source": "arxiv",
+      "title": "Behavioral Residualization for Unsupervised Intrusion Detection in Automotive CAN Networks",
+      "url": "http://arxiv.org/abs/2608.05548v1",
+      "published": "2026-08-06T03:03:28Z",
+      "authors": "Chandan Hegde et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Per-ID behavioral residualization improves CAN intrusion detection F1 scores on two datasets when attackers reuse legitimate frame IDs.",
+      "unproven": "Evaluation limited to two datasets and six unsupervised detectors; unclear how well residualization transfers to vehicles not in training set or attacks not in evaluation corpus.",
+      "scored_at": "2026-08-07T05:28:31.884058525Z"
+    },
+    {
+      "id": "hn:49214468",
+      "source": "hn",
+      "title": "Managing AI Coding Costs at Scale",
+      "url": "https://databricks.com/blog/managing-ai-coding-costs-scale",
+      "published": "2026-08-07T18:25:17Z",
+      "authors": "moonikakiss",
+      "points": 155,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Databricks cost-management patterns for AI coding tools; establishes vocabulary around token budgets and batching.",
+      "unproven": "applicability beyond Databricks' own infrastructure and use cases; no independent validation of claims",
+      "scored_at": "2026-08-08T00:54:21.988655646Z"
     }
   ],
   "noise": [
@@ -421,22 +422,6 @@
       "scored_at": "2026-08-07T00:50:30.572209365Z"
     },
     {
-      "id": "hn:49214468",
-      "source": "hn",
-      "title": "Managing AI Coding Costs at Scale",
-      "url": "https://databricks.com/blog/managing-ai-coding-costs-scale",
-      "published": "2026-08-07T18:25:17Z",
-      "authors": "moonikakiss",
-      "points": 155,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Databricks cost-management patterns for AI coding tools; establishes vocabulary around token budgets and batching.",
-      "unproven": "applicability beyond Databricks' own infrastructure and use cases; no independent validation of claims",
-      "scored_at": "2026-08-08T00:54:21.988655646Z"
-    },
-    {
       "id": "hn:49223845",
       "source": "hn",
       "title": "Amazon Is Creating the Biggest Pollution Source in the Country",
@@ -451,6 +436,21 @@
       "dek": "Environmental policy piece on Amazon's data center footprint; outside application security.",
       "unproven": "entire item outside reader's remit",
       "scored_at": "2026-08-08T20:17:37.94072338Z"
+    },
+    {
+      "id": "hn:49225139",
+      "source": "hn",
+      "title": "Open-source interactive map for the Aug 12 total solar eclipse",
+      "url": "https://eclipsefan.org/?lat=43.4623\u0026layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm\u0026lon=-3.8099\u0026opacity=besselian%3A0.2%2Cumbra-live%3A0.2\u0026palier=minute\u0026t=max\u0026v=2\u0026zoom=6",
+      "published": "2026-08-08T19:38:08Z",
+      "authors": "MarcoDewey",
+      "points": 83,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Interactive eclipse map for August 12 total solar eclipse.",
+      "scored_at": "2026-08-09T00:56:30.881080459Z"
     }
   ]
 }
