@@ -1,20 +1,18 @@
 {
-  "generated": "2026-08-09T16:22:29.956518782Z",
+  "generated": "2026-08-09T20:20:21.156896626Z",
   "edition": 16,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 25,
+    "total": 13,
     "by_source": {
-      "arxiv": 12,
       "hn": 12,
       "kev": 1
     },
     "by_quadrant": {
-      "NEW GROUND": 5,
-      "NOISE FLOOR": 19,
+      "NOISE FLOOR": 12,
       "STANDING ORDERS": 1
     }
   },
@@ -66,85 +64,6 @@
       "dek": "Social engineering attack on open-source maintainer attempted merge of malware payload.",
       "unproven": "whether this affects the reader's dependency management process or SCA tool rules; scale of exposure",
       "scored_at": "2026-08-07T16:41:55.763623792Z"
-    },
-    {
-      "id": "hn:49198843",
-      "source": "hn",
-      "title": "Zapscape (CVE-2026-64561): Guest-to-Host Escape in KVM/x86",
-      "url": "https://github.com/V4bel/Zapscape",
-      "published": "2026-08-06T16:24:36Z",
-      "authors": "john_strinlai",
-      "points": 65,
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "KVM/x86 guest-to-host escape discovered and published with PoC; hypervisor vendors must patch.",
-      "unproven": "applicability to production deployments with standard mitigations (SMEP, SMAP, nested virt disabled) not established",
-      "cves": [
-        "CVE-2026-64561"
-      ],
-      "scored_at": "2026-08-07T00:50:30.572205359Z"
-    },
-    {
-      "id": "arxiv:2608.06345v1",
-      "source": "arxiv",
-      "title": "Dimension-Free Polylogarithmic Quantum Shadow Tomography from Sequential Pretty-Good Measurements",
-      "url": "http://arxiv.org/abs/2608.06345v1",
-      "published": "2026-08-06T17:51:13Z",
-      "authors": "Fernando Granha Jeronimo et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Quantum shadow tomography achieves polylogarithmic sample complexity independent of state dimension, resolving an open question from 2018.",
-      "unproven": "applicability to near-term quantum hardware; practical relevance to the reader's SDLC tooling and secure development processes",
-      "scored_at": "2026-08-07T08:46:37.988021531Z"
-    },
-    {
-      "id": "arxiv:2608.06308v1",
-      "source": "arxiv",
-      "title": "On Optimal Quantum Data Hiding and Maximal Separable Ball",
-      "url": "http://arxiv.org/abs/2608.06308v1",
-      "published": "2026-08-06T17:23:27Z",
-      "authors": "Zhi Li",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Optimal data-hiding ratios against separable and LOCC measurements proven to equal min{n,m} for bipartite systems.",
-      "unproven": "relevance to classical application security or financial services systems the reader secures",
-      "scored_at": "2026-08-07T08:46:37.988024346Z"
-    },
-    {
-      "id": "arxiv:2608.06304v1",
-      "source": "arxiv",
-      "title": "Time-Reversal Selection Rules for Quantum Error Correction",
-      "url": "http://arxiv.org/abs/2608.06304v1",
-      "published": "2026-08-06T17:21:55Z",
-      "authors": "Eric Kubischta et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Time-reversal symmetry imposes parity selection rules on quantum error-correction codes, making even-weight error detection imply correction.",
-      "unproven": "whether findings apply to error-correction schemes the reader must evaluate or deploy",
-      "scored_at": "2026-08-07T08:46:37.988025298Z"
-    },
-    {
-      "id": "arxiv:2608.06242v1",
-      "source": "arxiv",
-      "title": "Exponential logical-error reduction in quantum memories via optimal syndrome-measurement timing",
-      "url": "http://arxiv.org/abs/2608.06242v1",
-      "published": "2026-08-06T16:27:55Z",
-      "authors": "Tobias Haug et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Optimal syndrome-measurement timing inversely proportional to code distance yields exponential logical-error reduction in quantum surface-code memories.",
-      "unproven": "applicability to the reader's secure-SDLC processes or classical infrastructure; whether this affects SAST/DAST/SCA tooling decisions",
-      "scored_at": "2026-08-07T08:46:37.988025759Z"
     },
     {
       "id": "hn:49226536",
@@ -209,126 +128,6 @@
       "dek": "Sopwith malware disclosed with limited context on distribution mechanism or scope.",
       "unproven": "what Sopwith is, how it was distributed, and whether it affects development toolchains in use",
       "scored_at": "2026-08-07T16:41:55.763623912Z"
-    },
-    {
-      "id": "arxiv:2608.06326v1",
-      "source": "arxiv",
-      "title": "Multi-State Geometry of Density Matrices and Rectification Sum Rules",
-      "url": "http://arxiv.org/abs/2608.06326v1",
-      "published": "2026-08-06T17:38:53Z",
-      "authors": "Barry Bradlyn",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Multi-state geometry framework extends sum rules for nonlinear rectification beyond clean systems, with no disorder or interaction constraints.",
-      "unproven": "experimental validation; connection to systems the reader operates or secures",
-      "scored_at": "2026-08-07T08:46:37.988022944Z"
-    },
-    {
-      "id": "arxiv:2608.06319v1",
-      "source": "arxiv",
-      "title": "The Quantum Mechanics of Rare Events: From Quantum Walks to Stochastic Inflation",
-      "url": "http://arxiv.org/abs/2608.06319v1",
-      "published": "2026-08-06T17:33:55Z",
-      "authors": "Daniel Green et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Large deviation theory applied to quantum systems shows rare fluctuations minimize measurement-induced relative entropy.",
-      "unproven": "whether findings change understanding or practice in systems relevant to application security or financial services infrastructure",
-      "scored_at": "2026-08-07T08:46:37.988023625Z"
-    },
-    {
-      "id": "arxiv:2608.06318v1",
-      "source": "arxiv",
-      "title": "Breaking Memory Bottlenecks in Quantum Control Systems for More Precise Experiments and Higher Throughput Computing",
-      "url": "http://arxiv.org/abs/2608.06318v1",
-      "published": "2026-08-06T17:32:22Z",
-      "authors": "Yicheng Guang et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Ant-Q memory hierarchy integrates DRAM and BRAM to eliminate circuit-loading overhead in quantum control systems, reducing overhead from 22.90%-1417.05% to near zero.",
-      "unproven": "whether the reader operates or secures quantum computing infrastructure; scalability beyond the 26 circuits tested",
-      "scored_at": "2026-08-07T08:46:37.988024206Z"
-    },
-    {
-      "id": "arxiv:2608.06303v1",
-      "source": "arxiv",
-      "title": "Impact of Nonlinearities on Local Kinetic and Thermokinetic Uncertainty Relations in Bosonic Transport",
-      "url": "http://arxiv.org/abs/2608.06303v1",
-      "published": "2026-08-06T17:21:51Z",
-      "authors": "Didrik Palmqvist et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Nonlinearities affect local kinetic and thermokinetic uncertainty relations in bosonic transport; bounds remain tight in some regimes.",
-      "unproven": "applicability to systems outside fundamental physics or quantum information domains",
-      "scored_at": "2026-08-07T08:46:37.988025428Z"
-    },
-    {
-      "id": "arxiv:2608.06289v1",
-      "source": "arxiv",
-      "title": "Nonlinear Compton scattering in a quantized pump field",
-      "url": "http://arxiv.org/abs/2608.06289v1",
-      "published": "2026-08-06T17:14:54Z",
-      "authors": "Kenan Qu",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Fully quantized nonlinear Compton scattering in quantum fields retains pump depletion, back-action, and correlations via displaced Fock states.",
-      "unproven": "relevance to application security, SDLC processes, or secure development of financial systems",
-      "scored_at": "2026-08-07T08:46:37.988025529Z"
-    },
-    {
-      "id": "arxiv:2608.06261v1",
-      "source": "arxiv",
-      "title": "Game Hopping in Lean",
-      "url": "http://arxiv.org/abs/2608.06261v1",
-      "published": "2026-08-06T16:52:16Z",
-      "authors": "Stefan Dziembowski et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Lean 4 framework for mechanizing game-hopping cryptographic proofs; useful for proof engineers, not application security practitioners.",
-      "unproven": "impact on SDLC artifact verification or tooling integration for security engineers.",
-      "scored_at": "2026-08-07T05:28:08.422240035Z"
-    },
-    {
-      "id": "arxiv:2608.06258v1",
-      "source": "arxiv",
-      "title": "Approximate Quantum Error Correction at Chiral Topological Edges",
-      "url": "http://arxiv.org/abs/2608.06258v1",
-      "published": "2026-08-06T16:48:36Z",
-      "authors": "Yuntai Song et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Chiral topological edges realize approximate quantum error-correcting codes combining robustness of gapped bulk with flexibility of gapless edges.",
-      "unproven": "whether the reader must design or audit quantum error-correction in deployed systems; scalability to large encoded states",
-      "scored_at": "2026-08-07T08:46:37.988025639Z"
-    },
-    {
-      "id": "arxiv:2608.06315v1",
-      "source": "arxiv",
-      "title": "A Sound Translation from Tamarin to ProVerif: Enabling Comparative Analysis",
-      "url": "http://arxiv.org/abs/2608.06315v1",
-      "published": "2026-08-06T17:28:50Z",
-      "authors": "Kevin Morio et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Translation from Tamarin to ProVerif enables tool comparison but requires formal verification expertise outside SDLC tooling.",
-      "unproven": "applicability to the reader's protocol-verification workflows; formal methods adoption in mid-size financial services remains rare.",
-      "scored_at": "2026-08-07T05:28:08.422239685Z"
     },
     {
       "id": "hn:49225139",
@@ -407,9 +206,7 @@
       "quadrant": "NOISE FLOOR",
       "dek": "GitHub Actions experienced a major outage; status page confirms incident resolved.",
       "scored_at": "2026-08-07T00:50:30.572204718Z"
-    }
-  ],
-  "noise": [
+    },
     {
       "id": "hn:49202566",
       "source": "hn",
@@ -426,5 +223,6 @@
       "unproven": "what the incident is and whether it affects agent security in the SDLC",
       "scored_at": "2026-08-07T16:41:55.763624052Z"
     }
-  ]
+  ],
+  "noise": null
 }
