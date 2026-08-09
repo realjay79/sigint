@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T12:29:10.78993416Z",
+  "generated": "2026-08-09T16:22:29.956518782Z",
   "edition": 16,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,14 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 17,
-      "hn": 7,
+      "arxiv": 12,
+      "hn": 12,
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 1,
       "NEW GROUND": 5,
-      "NOISE FLOOR": 18,
+      "NOISE FLOOR": 19,
       "STANDING ORDERS": 1
     }
   },
@@ -35,21 +34,6 @@
         "CVE-2026-8037"
       ],
       "scored_at": "2026-08-07T20:30:03.598381744Z"
-    },
-    {
-      "id": "arxiv:2608.06130v1",
-      "source": "arxiv",
-      "title": "Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture",
-      "url": "http://arxiv.org/abs/2608.06130v1",
-      "published": "2026-08-06T15:04:26Z",
-      "authors": "Leo Sambrook et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Hardware keystores via PKCS#11 prevent agent private-key exfiltration in Git and API workflows; zero-trust MCP enforcement stack.",
-      "unproven": "deployment at scale in containerized CI/CD; HSM/TPM availability and cost trade-offs in financial services; taint-tracking effectiveness across framework boundaries.",
-      "scored_at": "2026-08-07T05:28:08.422241117Z"
     },
     {
       "id": "hn:49206130",
@@ -161,36 +145,6 @@
       "dek": "Optimal syndrome-measurement timing inversely proportional to code distance yields exponential logical-error reduction in quantum surface-code memories.",
       "unproven": "applicability to the reader's secure-SDLC processes or classical infrastructure; whether this affects SAST/DAST/SCA tooling decisions",
       "scored_at": "2026-08-07T08:46:37.988025759Z"
-    },
-    {
-      "id": "arxiv:2608.06211v1",
-      "source": "arxiv",
-      "title": "Reversible Unlearnable Examples: Towards the Copyright Protection in Deep Learning Era",
-      "url": "http://arxiv.org/abs/2608.06211v1",
-      "published": "2026-08-06T16:04:05Z",
-      "authors": "Binze Wang et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Unlearnable examples with reversibility protect training data copyright; vocabulary for data-poison risk modeling.",
-      "unproven": "robustness against adaptive attacks; generalization beyond vision tasks; feasibility in production ML pipelines.",
-      "scored_at": "2026-08-07T05:28:08.422240646Z"
-    },
-    {
-      "id": "arxiv:2608.06061v1",
-      "source": "arxiv",
-      "title": "A Note on the Influence of a Zero Length Nonce on GCM and GMAC",
-      "url": "http://arxiv.org/abs/2608.06061v1",
-      "published": "2026-08-06T14:07:05Z",
-      "authors": "Yaobin Shen",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Zero-length nonce in ISO/IEC GCM and GMAC allows hash-key recovery; NIST variant unaffected.",
-      "unproven": "whether financial services deployments use ISO/IEC variant; impact scope limited to implementations that permit zero-length nonces.",
-      "scored_at": "2026-08-07T05:28:08.422241958Z"
     },
     {
       "id": "hn:49226536",
@@ -362,66 +316,34 @@
       "scored_at": "2026-08-07T08:46:37.988025639Z"
     },
     {
-      "id": "arxiv:2608.06187v1",
+      "id": "arxiv:2608.06315v1",
       "source": "arxiv",
-      "title": "Error-detected surgery on Iceberg codes",
-      "url": "http://arxiv.org/abs/2608.06187v1",
-      "published": "2026-08-06T15:46:10Z",
-      "authors": "Andrea Di Fini et al.",
-      "novelty": 3,
+      "title": "A Sound Translation from Tamarin to ProVerif: Enabling Comparative Analysis",
+      "url": "http://arxiv.org/abs/2608.06315v1",
+      "published": "2026-08-06T17:28:50Z",
+      "authors": "Kevin Morio et al.",
+      "novelty": 2,
       "actionability": 1,
-      "score": 4,
+      "score": 3,
       "quadrant": "NOISE FLOOR",
-      "dek": "Error-detecting surgery gadgets constructed for Iceberg codes enable fault-detected Pauli measurements on neutral-atom arrays.",
-      "unproven": "entirely outside the reader's domain; quantum error correction research with no bearing on application security, SAST/DAST tooling, or agent security",
-      "scored_at": "2026-08-07T08:46:48.629392533Z"
+      "dek": "Translation from Tamarin to ProVerif enables tool comparison but requires formal verification expertise outside SDLC tooling.",
+      "unproven": "applicability to the reader's protocol-verification workflows; formal methods adoption in mid-size financial services remains rare.",
+      "scored_at": "2026-08-07T05:28:08.422239685Z"
     },
     {
-      "id": "arxiv:2608.06169v1",
-      "source": "arxiv",
-      "title": "Dual-Faraday-laser-pumped cesium beam clock with $7.7\\times 10^{-13}/\\sqrtτ$ frequency stability",
-      "url": "http://arxiv.org/abs/2608.06169v1",
-      "published": "2026-08-06T15:35:05Z",
-      "authors": "Xiaomin Qin et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Dual-Faraday-laser-pumped cesium clock achieves 7.7×10⁻¹³/√τ frequency stability in compact form factor.",
-      "unproven": "entirely outside the reader's domain; atomic clock engineering with no relevance to application security or SDLC",
-      "scored_at": "2026-08-07T08:46:48.629392703Z"
-    },
-    {
-      "id": "arxiv:2608.06124v1",
-      "source": "arxiv",
-      "title": "dfence: Fine-Grained Speculation Barriers for Efficient and Effective Hardware-Software Protection in the Spectre Era (Extended Version)",
-      "url": "http://arxiv.org/abs/2608.06124v1",
-      "published": "2026-08-06T14:55:00Z",
-      "authors": "Davide Davoli et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "dfence CPU instruction mitigates Spectre-PHT and Spectre-STL with type-system verification; requires hardware and compiler support.",
-      "unproven": "adoption path for existing x86/ARM ecosystems; integration into GCC/Clang; backward compatibility with legacy SAST/DAST rule sets.",
-      "scored_at": "2026-08-07T05:28:08.422241347Z"
-    }
-  ],
-  "noise": [
-    {
-      "id": "hn:49197137",
+      "id": "hn:49225139",
       "source": "hn",
-      "title": "Show HN: I spent 2 years designing a mechanical Magic Keyboard",
-      "url": "https://electronicmaterialsoffice.com/",
-      "published": "2026-08-06T14:26:14Z",
-      "authors": "aemerson_",
-      "points": 256,
+      "title": "Open-source interactive map for the Aug 12 total solar eclipse",
+      "url": "https://eclipsefan.org/?lat=43.4623\u0026layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm\u0026lon=-3.8099\u0026opacity=besselian%3A0.2%2Cumbra-live%3A0.2\u0026palier=minute\u0026t=max\u0026v=2\u0026zoom=6",
+      "published": "2026-08-08T19:38:08Z",
+      "authors": "MarcoDewey",
+      "points": 83,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Mechanical keyboard product launch; hardware design work unrelated to security or SDLC.",
-      "scored_at": "2026-08-07T00:50:30.572209365Z"
+      "dek": "Interactive eclipse map for August 12 total solar eclipse.",
+      "scored_at": "2026-08-09T00:56:30.881080459Z"
     },
     {
       "id": "hn:49223845",
@@ -440,19 +362,69 @@
       "scored_at": "2026-08-08T20:17:37.94072338Z"
     },
     {
-      "id": "hn:49225139",
+      "id": "hn:49219508",
       "source": "hn",
-      "title": "Open-source interactive map for the Aug 12 total solar eclipse",
-      "url": "https://eclipsefan.org/?lat=43.4623\u0026layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm\u0026lon=-3.8099\u0026opacity=besselian%3A0.2%2Cumbra-live%3A0.2\u0026palier=minute\u0026t=max\u0026v=2\u0026zoom=6",
-      "published": "2026-08-08T19:38:08Z",
-      "authors": "MarcoDewey",
-      "points": 83,
+      "title": "Hardware backdoors in some x86 CPUs",
+      "url": "https://github.com/xoreaxeaxeax/rosenbridge",
+      "published": "2026-08-08T07:04:51Z",
+      "authors": "epestr",
+      "points": 42,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Interactive eclipse map for August 12 total solar eclipse.",
-      "scored_at": "2026-08-09T00:56:30.881080459Z"
+      "dek": "Hacker News link post with minimal engagement; no evidence of actual finding.",
+      "unproven": "no source material provided; cannot assess claim; link destination unknown",
+      "scored_at": "2026-08-08T08:28:13.8013453Z"
+    },
+    {
+      "id": "hn:49208458",
+      "source": "hn",
+      "title": "Show HN: textlog – A quiet, text-only microblogging platform, open-source, no JS",
+      "url": "https://textlog.cc/about",
+      "published": "2026-08-07T10:52:21Z",
+      "authors": "stagas",
+      "points": 58,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Open-source text-only microblogging platform announcement.",
+      "unproven": "relevance to application security or secure SDLC",
+      "scored_at": "2026-08-07T16:41:55.763620447Z"
+    },
+    {
+      "id": "hn:49203184",
+      "source": "hn",
+      "title": "GitHub Actions suffers second-longest major outage in its history",
+      "url": "https://githubstatus.com/uptime/br0l2tvcx85d",
+      "published": "2026-08-06T21:59:01Z",
+      "authors": "KernelPryanic",
+      "points": 41,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "GitHub Actions experienced a major outage; status page confirms incident resolved.",
+      "scored_at": "2026-08-07T00:50:30.572204718Z"
+    }
+  ],
+  "noise": [
+    {
+      "id": "hn:49202566",
+      "source": "hn",
+      "title": "The OpenAI–Hugging Face Incident [video]",
+      "url": "https://youtube.com/watch?v=87DyyMV0kCY",
+      "published": "2026-08-06T21:06:23Z",
+      "authors": "milkshakes",
+      "points": 45,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Video discussion of unspecified OpenAI–Hugging Face incident.",
+      "unproven": "what the incident is and whether it affects agent security in the SDLC",
+      "scored_at": "2026-08-07T16:41:55.763624052Z"
     }
   ]
 }
