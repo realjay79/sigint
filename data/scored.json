@@ -23085,6 +23085,22 @@
     "dek": "Interactive eclipse map for August 12 total solar eclipse.",
     "scored_at": "2026-08-09T00:56:30.881080459Z"
   },
+  "hn:49226536": {
+    "id": "hn:49226536",
+    "source": "hn",
+    "title": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
+    "url": "https://shopify.engineering/scaling-inventory-reservations",
+    "published": "2026-08-08T22:32:50Z",
+    "authors": "adletbalzhanov",
+    "points": 104,
+    "novelty": 2,
+    "actionability": 2,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Shopify migrated inventory reservation logic from Redis to MySQL; architectural choice specific to their scale and schema.",
+    "unproven": "whether the tradeoffs generalize beyond Shopify's specific workload, schema, and operational maturity.",
+    "scored_at": "2026-08-09T04:55:24.439005683Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",

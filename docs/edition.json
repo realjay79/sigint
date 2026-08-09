@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T00:56:30.892871416Z",
+  "generated": "2026-08-09T04:55:24.449608936Z",
   "edition": 16,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,14 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 19,
-      "hn": 5,
+      "arxiv": 17,
+      "hn": 7,
       "kev": 1
     },
     "by_quadrant": {
       "BREAK GLASS": 2,
-      "NEW GROUND": 6,
-      "NOISE FLOOR": 16,
+      "NEW GROUND": 5,
+      "NOISE FLOOR": 17,
       "STANDING ORDERS": 1
     }
   },
@@ -65,21 +65,6 @@
       "dek": "Agentic Posture Vulnerability (APV) framework operationalizes persistent agent-control exposure tracking across components.",
       "unproven": "integration with existing vulnerability-management platforms; field validation beyond vignette; automation of APV detection and closure verification.",
       "scored_at": "2026-08-07T05:28:08.422242219Z"
-    },
-    {
-      "id": "arxiv:2608.05563v1",
-      "source": "arxiv",
-      "title": "When Experience Becomes Instruction: Trajectory Poisoning in Self-Evolving Agent Skill Systems",
-      "url": "http://arxiv.org/abs/2608.05563v1",
-      "published": "2026-08-06T03:32:43Z",
-      "authors": "Jialuo Chen et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Trajectory-poisoning attack embeds malicious behaviors into self-evolving LLM agent skills at 91% success rate across six mainstream evolvers.",
-      "unproven": "Limited to closed-world skill banks and LLM families tested; unclear if mitigations exist in production agent systems or whether real-world trajectories behave like controlled canaries.",
-      "scored_at": "2026-08-07T05:28:31.884058134Z"
     },
     {
       "id": "hn:49206130",
@@ -161,22 +146,6 @@
       "dek": "ARIA automated red-teaming framework generates covert backdoored instructions for customized LLMs across three code intelligence tasks.",
       "unproven": "Demonstrates attack feasibility on custom LLM platforms; does not establish detection or mitigation strategies for secure SDLC deployment.",
       "scored_at": "2026-08-07T05:28:18.776934344Z"
-    },
-    {
-      "id": "hn:49191365",
-      "source": "hn",
-      "title": "LLMs won't break symmetric crypto",
-      "url": "https://bfswa.blog/p/llms-wont-break-symmetric-crypto",
-      "published": "2026-08-06T01:39:06Z",
-      "authors": "rowbin",
-      "points": 71,
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLMs lack the computational capacity to break symmetric cryptography; addresses a misconception in agent security threat modeling.",
-      "unproven": "does not account for hybrid attacks, side channels, or deployment contexts where LLMs assist human cryptanalysts.",
-      "scored_at": "2026-08-06T13:42:20.154541135Z"
     },
     {
       "id": "arxiv:2608.06345v1",
@@ -359,34 +328,20 @@
       "scored_at": "2026-08-07T12:40:26.889408654Z"
     },
     {
-      "id": "arxiv:2608.05578v1",
-      "source": "arxiv",
-      "title": "Detecting Safety Training Modification in Language Models via Activation Analysis",
-      "url": "http://arxiv.org/abs/2608.05578v1",
-      "published": "2026-08-06T03:57:38Z",
-      "authors": "Glen Messenger",
-      "novelty": 3,
+      "id": "hn:49226536",
+      "source": "hn",
+      "title": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
+      "url": "https://shopify.engineering/scaling-inventory-reservations",
+      "published": "2026-08-08T22:32:50Z",
+      "authors": "adletbalzhanov",
+      "points": 104,
+      "novelty": 2,
       "actionability": 2,
-      "score": 5,
+      "score": 4,
       "quadrant": "NOISE FLOOR",
-      "dek": "AMS detects safety-training modifications in LLMs by measuring activation-space geometry across four architecture families with 71% cross-validation accuracy.",
-      "unproven": "Lab validation only; does not demonstrate detection of adversarially-trained jailbreaks or applicability to supply-chain code-generation agent vetting.",
-      "scored_at": "2026-08-07T05:28:18.776938871Z"
-    },
-    {
-      "id": "arxiv:2608.05548v1",
-      "source": "arxiv",
-      "title": "Behavioral Residualization for Unsupervised Intrusion Detection in Automotive CAN Networks",
-      "url": "http://arxiv.org/abs/2608.05548v1",
-      "published": "2026-08-06T03:03:28Z",
-      "authors": "Chandan Hegde et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Per-ID behavioral residualization improves CAN intrusion detection F1 scores on two datasets when attackers reuse legitimate frame IDs.",
-      "unproven": "Evaluation limited to two datasets and six unsupervised detectors; unclear how well residualization transfers to vehicles not in training set or attacks not in evaluation corpus.",
-      "scored_at": "2026-08-07T05:28:31.884058525Z"
+      "dek": "Shopify migrated inventory reservation logic from Redis to MySQL; architectural choice specific to their scale and schema.",
+      "unproven": "whether the tradeoffs generalize beyond Shopify's specific workload, schema, and operational maturity.",
+      "scored_at": "2026-08-09T04:55:24.439005683Z"
     },
     {
       "id": "hn:49214468",
@@ -403,6 +358,53 @@
       "dek": "Databricks cost-management patterns for AI coding tools; establishes vocabulary around token budgets and batching.",
       "unproven": "applicability beyond Databricks' own infrastructure and use cases; no independent validation of claims",
       "scored_at": "2026-08-08T00:54:21.988655646Z"
+    },
+    {
+      "id": "hn:49209921",
+      "source": "hn",
+      "title": "The web server deployment model breaks at hobby scale",
+      "url": "https://w.on-t.work/web-deployment-model",
+      "published": "2026-08-07T13:15:36Z",
+      "authors": "meetpateltech",
+      "points": 55,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Discussion of web server deployment model constraints at small scale.",
+      "unproven": "specific architectural or security implications for the reader's tooling and SDLC process",
+      "scored_at": "2026-08-07T16:41:55.763617773Z"
+    },
+    {
+      "id": "hn:49205461",
+      "source": "hn",
+      "title": "\"It's unclear how Sopwith escaped to the general public.\"",
+      "url": "https://unsung.aresluna.org/its-unclear-how-sopwith-escaped-to-the-general-public",
+      "published": "2026-08-07T03:00:48Z",
+      "authors": "colinprince",
+      "points": 34,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Sopwith malware disclosed with limited context on distribution mechanism or scope.",
+      "unproven": "what Sopwith is, how it was distributed, and whether it affects development toolchains in use",
+      "scored_at": "2026-08-07T16:41:55.763623912Z"
+    },
+    {
+      "id": "arxiv:2608.06326v1",
+      "source": "arxiv",
+      "title": "Multi-State Geometry of Density Matrices and Rectification Sum Rules",
+      "url": "http://arxiv.org/abs/2608.06326v1",
+      "published": "2026-08-06T17:38:53Z",
+      "authors": "Barry Bradlyn",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Multi-state geometry framework extends sum rules for nonlinear rectification beyond clean systems, with no disorder or interaction constraints.",
+      "unproven": "experimental validation; connection to systems the reader operates or secures",
+      "scored_at": "2026-08-07T08:46:37.988022944Z"
     }
   ],
   "noise": [
