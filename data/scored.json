@@ -24442,6 +24442,22 @@
     "unproven": "entirely outside the reader's domain",
     "scored_at": "2026-08-10T16:43:04.19863727Z"
   },
+  "hn:49245491": {
+    "id": "hn:49245491",
+    "source": "hn",
+    "title": "Exploiting System Management Mode with a very long interrupt",
+    "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
+    "published": "2026-08-10T16:03:14Z",
+    "authors": "WhiteDawn",
+    "points": 87,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "SMM exploitation via interrupt timing is a known attack surface; this appears to be a writeup or PoC of existing technique.",
+    "unproven": "Whether this affects systems the reader's organization runs; whether it requires physical access or is remotely exploitable; applicability beyond lab conditions.",
+    "scored_at": "2026-08-10T20:31:39.419359935Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",

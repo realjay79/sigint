@@ -1,18 +1,17 @@
 {
-  "generated": "2026-08-10T16:43:04.209545904Z",
+  "generated": "2026-08-10T20:31:39.449298384Z",
   "edition": 17,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 17,
+    "total": 8,
     "by_source": {
-      "arxiv": 9,
       "hn": 8
     },
     "by_quadrant": {
-      "NOISE FLOOR": 17
+      "NOISE FLOOR": 8
     }
   },
   "items": [
@@ -49,20 +48,20 @@
       "scored_at": "2026-08-09T04:55:24.439005683Z"
     },
     {
-      "id": "hn:49214468",
+      "id": "hn:49245491",
       "source": "hn",
-      "title": "Managing AI Coding Costs at Scale",
-      "url": "https://databricks.com/blog/managing-ai-coding-costs-scale",
-      "published": "2026-08-07T18:25:17Z",
-      "authors": "moonikakiss",
-      "points": 155,
+      "title": "Exploiting System Management Mode with a very long interrupt",
+      "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
+      "published": "2026-08-10T16:03:14Z",
+      "authors": "WhiteDawn",
+      "points": 87,
       "novelty": 2,
-      "actionability": 2,
-      "score": 4,
+      "actionability": 1,
+      "score": 3,
       "quadrant": "NOISE FLOOR",
-      "dek": "Databricks cost-management patterns for AI coding tools; establishes vocabulary around token budgets and batching.",
-      "unproven": "applicability beyond Databricks' own infrastructure and use cases; no independent validation of claims",
-      "scored_at": "2026-08-08T00:54:21.988655646Z"
+      "dek": "SMM exploitation via interrupt timing is a known attack surface; this appears to be a writeup or PoC of existing technique.",
+      "unproven": "Whether this affects systems the reader's organization runs; whether it requires physical access or is remotely exploitable; applicability beyond lab conditions.",
+      "scored_at": "2026-08-10T20:31:39.419359935Z"
     },
     {
       "id": "hn:49239751",
@@ -79,51 +78,6 @@
       "dek": "Docker-based sandboxing for AI agents; Docker marketing announcement, practical relevance unclear without methodology detail.",
       "unproven": "whether isolated containers adequately constrain agent behavior in SDLC pipelines; security properties unspecified",
       "scored_at": "2026-08-10T12:44:28.468681926Z"
-    },
-    {
-      "id": "arxiv:2608.07451v1",
-      "source": "arxiv",
-      "title": "An Analysis of Architectural and Operational Dynamics of Phishkits in the Wild",
-      "url": "http://arxiv.org/abs/2608.07451v1",
-      "published": "2026-08-07T17:45:40Z",
-      "authors": "Behzad Ousat et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Analysis of 1,300 phishkits from 2020–2023 finds 22% lack evasion, most rely on messaging services for data exfiltration.",
-      "unproven": "does not establish how findings apply to phishkit prevalence or attacker behavior outside the collected corpus",
-      "scored_at": "2026-08-10T05:16:23.127955009Z"
-    },
-    {
-      "id": "arxiv:2608.07439v1",
-      "source": "arxiv",
-      "title": "An Exploratory Evaluation of LLM-Assisted Rewriting of Moderate-Complexity Financial Sentences for DisCoCat-Based Sentiment Analysis",
-      "url": "http://arxiv.org/abs/2608.07439v1",
-      "published": "2026-08-07T17:23:01Z",
-      "authors": "Brian Llinas et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLM-assisted sentence rewriting improves quantum NLP circuit efficiency on financial sentiment; niche application with marginal gains.",
-      "unproven": "whether modest accuracy improvements (0.550 vs 0.521) hold on production financial data or generalize beyond sentiment classification",
-      "scored_at": "2026-08-10T05:16:54.001557906Z"
-    },
-    {
-      "id": "arxiv:2608.07428v1",
-      "source": "arxiv",
-      "title": "QMIMO: Circuit Based Quantum MIMO Design with Variational Receiver",
-      "url": "http://arxiv.org/abs/2608.07428v1",
-      "published": "2026-08-07T17:16:07Z",
-      "authors": "Sayeda Bipanchi Ahmed et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantum circuit receiver for MIMO channels underperforms classical detectors; experimental quantum communications without security implication.",
-      "unproven": "whether trade-offs hold at scale or justify quantum approach for any practical communication task",
-      "scored_at": "2026-08-10T05:16:54.001558176Z"
     },
     {
       "id": "hn:49245071",
@@ -187,90 +141,6 @@
       "dek": "Hacker News link post with minimal engagement; no evidence of actual finding.",
       "unproven": "no source material provided; cannot assess claim; link destination unknown",
       "scored_at": "2026-08-08T08:28:13.8013453Z"
-    },
-    {
-      "id": "arxiv:2608.07467v1",
-      "source": "arxiv",
-      "title": "Quantum de Sitter and Analytically Continued Chern Simons Theory",
-      "url": "http://arxiv.org/abs/2608.07467v1",
-      "published": "2026-08-07T17:58:42Z",
-      "authors": "Stephon Alexander et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Theoretical physics on Chern–Simons theory and quantum gravity; outside application security scope.",
-      "scored_at": "2026-08-10T05:16:54.001557345Z"
-    },
-    {
-      "id": "arxiv:2608.07465v1",
-      "source": "arxiv",
-      "title": "Entanglement Mpemba Effect",
-      "url": "http://arxiv.org/abs/2608.07465v1",
-      "published": "2026-08-07T17:58:36Z",
-      "authors": "Ruicheng Bao et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantum physics on entanglement preparation dynamics; outside application security scope.",
-      "scored_at": "2026-08-10T05:16:54.001557586Z"
-    },
-    {
-      "id": "arxiv:2608.07442v1",
-      "source": "arxiv",
-      "title": "Phase-Noise-Induced Heating in Optical Lattices",
-      "url": "http://arxiv.org/abs/2608.07442v1",
-      "published": "2026-08-07T17:25:02Z",
-      "authors": "Jean Paul Nohra et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Experimental physics on laser phase noise in optical lattices; outside application security scope.",
-      "scored_at": "2026-08-10T05:16:54.001557746Z"
-    },
-    {
-      "id": "arxiv:2608.07431v1",
-      "source": "arxiv",
-      "title": "Designer Codes from GALA: Compact, Self-Dual, and Rate-1/2 QEC on Reconfigurable Atom Arrays",
-      "url": "http://arxiv.org/abs/2608.07431v1",
-      "published": "2026-08-07T17:17:22Z",
-      "authors": "Willers Yang et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantum error correction code design for neutral-atom arrays; outside application security scope.",
-      "scored_at": "2026-08-10T05:16:54.001558036Z"
-    },
-    {
-      "id": "arxiv:2608.07426v1",
-      "source": "arxiv",
-      "title": "Harnessing bound states in the continuum for quantum and nonlinear photonics in silicon nitride microresonators",
-      "url": "http://arxiv.org/abs/2608.07426v1",
-      "published": "2026-08-07T17:14:11Z",
-      "authors": "Eduardo C. Lima et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Bound states in continuum boost nonlinear photonics in silicon-nitride resonators; outside application security scope.",
-      "scored_at": "2026-08-10T05:16:54.00155985Z"
-    },
-    {
-      "id": "arxiv:2608.07412v1",
-      "source": "arxiv",
-      "title": "Analytic Spread Complexity from Level Statistics: From Chaos to Integrability",
-      "url": "http://arxiv.org/abs/2608.07412v1",
-      "published": "2026-08-07T16:59:35Z",
-      "authors": "Pallab Basu et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Spectral framework for quantum chaos spread complexity; theoretical physics without security application.",
-      "scored_at": "2026-08-10T05:16:54.00155999Z"
     }
   ],
   "noise": null
