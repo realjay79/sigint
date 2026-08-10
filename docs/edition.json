@@ -1,38 +1,20 @@
 {
-  "generated": "2026-08-09T20:20:21.156896626Z",
-  "edition": 16,
+  "generated": "2026-08-10T00:58:48.746394086Z",
+  "edition": 17,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 13,
+    "total": 11,
     "by_source": {
-      "hn": 12,
-      "kev": 1
+      "hn": 11
     },
     "by_quadrant": {
-      "NOISE FLOOR": 12,
-      "STANDING ORDERS": 1
+      "NOISE FLOOR": 11
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-8037",
-      "source": "kev",
-      "title": "CVE-2026-8037 — Progress LoadMaster Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8037",
-      "published": "2026-08-07T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Progress LoadMaster. Confirmed exploited in the wild. Federal remediation due 10 August.",
-      "cves": [
-        "CVE-2026-8037"
-      ],
-      "scored_at": "2026-08-07T20:30:03.598381744Z"
-    },
     {
       "id": "hn:49206130",
       "source": "hn",
@@ -64,6 +46,22 @@
       "dek": "Social engineering attack on open-source maintainer attempted merge of malware payload.",
       "unproven": "whether this affects the reader's dependency management process or SCA tool rules; scale of exposure",
       "scored_at": "2026-08-07T16:41:55.763623792Z"
+    },
+    {
+      "id": "hn:49234724",
+      "source": "hn",
+      "title": "Ransomware gangs skip the CEO, head straight for the 40-something IT manager",
+      "url": "https://theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
+      "published": "2026-08-09T19:20:40Z",
+      "authors": "joebuckwilliams",
+      "points": 69,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Ransomware operators target mid-level IT staff over executives; social engineering tactic, not technical discovery.",
+      "unproven": "Whether this represents a shift in attacker behavior or reporting bias; no empirical prevalence data across threat intel sources.",
+      "scored_at": "2026-08-10T00:58:48.733603245Z"
     },
     {
       "id": "hn:49226536",
@@ -191,37 +189,6 @@
       "dek": "Open-source text-only microblogging platform announcement.",
       "unproven": "relevance to application security or secure SDLC",
       "scored_at": "2026-08-07T16:41:55.763620447Z"
-    },
-    {
-      "id": "hn:49203184",
-      "source": "hn",
-      "title": "GitHub Actions suffers second-longest major outage in its history",
-      "url": "https://githubstatus.com/uptime/br0l2tvcx85d",
-      "published": "2026-08-06T21:59:01Z",
-      "authors": "KernelPryanic",
-      "points": 41,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "GitHub Actions experienced a major outage; status page confirms incident resolved.",
-      "scored_at": "2026-08-07T00:50:30.572204718Z"
-    },
-    {
-      "id": "hn:49202566",
-      "source": "hn",
-      "title": "The OpenAI–Hugging Face Incident [video]",
-      "url": "https://youtube.com/watch?v=87DyyMV0kCY",
-      "published": "2026-08-06T21:06:23Z",
-      "authors": "milkshakes",
-      "points": 45,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Video discussion of unspecified OpenAI–Hugging Face incident.",
-      "unproven": "what the incident is and whether it affects agent security in the SDLC",
-      "scored_at": "2026-08-07T16:41:55.763624052Z"
     }
   ],
   "noise": null

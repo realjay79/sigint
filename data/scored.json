@@ -23101,6 +23101,22 @@
     "unproven": "whether the tradeoffs generalize beyond Shopify's specific workload, schema, and operational maturity.",
     "scored_at": "2026-08-09T04:55:24.439005683Z"
   },
+  "hn:49234724": {
+    "id": "hn:49234724",
+    "source": "hn",
+    "title": "Ransomware gangs skip the CEO, head straight for the 40-something IT manager",
+    "url": "https://theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
+    "published": "2026-08-09T19:20:40Z",
+    "authors": "joebuckwilliams",
+    "points": 69,
+    "novelty": 2,
+    "actionability": 2,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Ransomware operators target mid-level IT staff over executives; social engineering tactic, not technical discovery.",
+    "unproven": "Whether this represents a shift in attacker behavior or reporting bias; no empirical prevalence data across threat intel sources.",
+    "scored_at": "2026-08-10T00:58:48.733603245Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
