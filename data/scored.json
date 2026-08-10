@@ -21211,6 +21211,20 @@
     "unproven": "entirely outside the reader's domain; theoretical quantum mechanics with no application to application security or SDLC",
     "scored_at": "2026-08-07T08:46:48.629392393Z"
   },
+  "arxiv:2608.06194v2": {
+    "id": "arxiv:2608.06194v2",
+    "source": "arxiv",
+    "title": "Quantum fluctuation relations in first-detection processes",
+    "url": "http://arxiv.org/abs/2608.06194v2",
+    "published": "2026-08-06T15:53:29Z",
+    "authors": "A. Imparato",
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Quantum fluctuation relations characterize work extraction in first-detection measurement processes; unrelated to application security.",
+    "scored_at": "2026-08-10T12:44:28.468681696Z"
+  },
   "arxiv:2608.06211v1": {
     "id": "arxiv:2608.06211v1",
     "source": "arxiv",
@@ -21496,6 +21510,20 @@
     "unproven": "transfer to production deployment scales; evaluation limited to C4 and synthetic attack scenarios",
     "scored_at": "2026-08-10T05:16:54.001556834Z"
   },
+  "arxiv:2608.06459v1": {
+    "id": "arxiv:2608.06459v1",
+    "source": "arxiv",
+    "title": "KPZ Superdiffusion of Local Correlators in Diffusive Random Quantum Circuits",
+    "url": "http://arxiv.org/abs/2608.06459v1",
+    "published": "2026-08-06T18:00:02Z",
+    "authors": "Ewan McCulloch",
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "KPZ superdiffusion observed in Green's functions of random quantum circuits; outside reader's scope.",
+    "scored_at": "2026-08-10T12:44:28.468681445Z"
+  },
   "arxiv:2608.06469v1": {
     "id": "arxiv:2608.06469v1",
     "source": "arxiv",
@@ -21541,6 +21569,20 @@
     "unproven": "whether state-of-the-art agent defenses (system prompts, tool filtering) mitigate decomposition; cost of decomposition vs. single-step attacks.",
     "scored_at": "2026-08-10T05:16:45.943962408Z"
   },
+  "arxiv:2608.06479v1": {
+    "id": "arxiv:2608.06479v1",
+    "source": "arxiv",
+    "title": "Improving quantum-battery charging via unidirectional quantum jumps to metastable state",
+    "url": "http://arxiv.org/abs/2608.06479v1",
+    "published": "2026-08-06T18:18:39Z",
+    "authors": "Ewelina Lange et al.",
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Three-level atoms with suppressed decay improve quantum-battery charging efficiency; not relevant to application security engineering.",
+    "scored_at": "2026-08-10T12:44:28.468678741Z"
+  },
   "arxiv:2608.06508v1": {
     "id": "arxiv:2608.06508v1",
     "source": "arxiv",
@@ -21555,6 +21597,63 @@
     "dek": "Canonicalization failures across hash, signature, and consensus systems share a common root: unenforced uniqueness in semantic-to-byte translation.",
     "unproven": "concrete review procedure for production systems; whether systematization prevents discovery of new canonicalization bugs.",
     "scored_at": "2026-08-10T05:16:45.943962257Z"
+  },
+  "arxiv:2608.06515v1": {
+    "id": "arxiv:2608.06515v1",
+    "source": "arxiv",
+    "title": "Quantum Computers will constrain the Equation of State of Neutron Stars",
+    "url": "http://arxiv.org/abs/2608.06515v1",
+    "published": "2026-08-06T18:55:05Z",
+    "authors": "Adrián Castaño-García et al.",
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Quantum computers could constrain neutron-star equations of state via QCD simulation; unrelated to application security.",
+    "scored_at": "2026-08-10T12:44:28.468678491Z"
+  },
+  "arxiv:2608.06554v1": {
+    "id": "arxiv:2608.06554v1",
+    "source": "arxiv",
+    "title": "Newton-Schulz Retraction-Based Inference Enables Hidden Quantum Markov Models to Outperform Classical HMMs",
+    "url": "http://arxiv.org/abs/2608.06554v1",
+    "published": "2026-08-06T20:11:55Z",
+    "authors": "Ning Ning",
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "NS-RIS algorithm trains hidden quantum Markov models that outperform classical HMMs on synthetic data; outside reader's remit.",
+    "unproven": "whether performance generalizes to real-world sequential data in financial systems or SDLC contexts",
+    "scored_at": "2026-08-10T12:44:28.468675737Z"
+  },
+  "arxiv:2608.06555v1": {
+    "id": "arxiv:2608.06555v1",
+    "source": "arxiv",
+    "title": "Temperature-tunable spin-wave refraction using superconducting control elements",
+    "url": "http://arxiv.org/abs/2608.06555v1",
+    "published": "2026-08-06T20:12:38Z",
+    "authors": "Pim H. Vree et al.",
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Superconducting elements tune spin-wave propagation in magnetic insulators; unrelated to application security engineering.",
+    "scored_at": "2026-08-10T12:44:28.468672422Z"
+  },
+  "arxiv:2608.06562v1": {
+    "id": "arxiv:2608.06562v1",
+    "source": "arxiv",
+    "title": "Detecting quantumness with generalized Loschmidt echoes",
+    "url": "http://arxiv.org/abs/2608.06562v1",
+    "published": "2026-08-06T20:16:57Z",
+    "authors": "Cecilia Cormick et al.",
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Generalized Loschmidt echoes detect non-classical dynamics in spin chains; outside the reader's domain.",
+    "scored_at": "2026-08-10T12:44:28.468671841Z"
   },
   "arxiv:2608.06567v1": {
     "id": "arxiv:2608.06567v1",
@@ -24310,6 +24409,22 @@
     "dek": "Ransomware operators target mid-level IT staff over executives; social engineering tactic, not technical discovery.",
     "unproven": "Whether this represents a shift in attacker behavior or reporting bias; no empirical prevalence data across threat intel sources.",
     "scored_at": "2026-08-10T00:58:48.733603245Z"
+  },
+  "hn:49239751": {
+    "id": "hn:49239751",
+    "source": "hn",
+    "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+    "url": "https://docker.com/products/docker-sandboxes",
+    "published": "2026-08-10T06:02:38Z",
+    "authors": "etoxin",
+    "points": 318,
+    "novelty": 1,
+    "actionability": 2,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Docker-based sandboxing for AI agents; Docker marketing announcement, practical relevance unclear without methodology detail.",
+    "unproven": "whether isolated containers adequately constrain agent behavior in SDLC pipelines; security properties unspecified",
+    "scored_at": "2026-08-10T12:44:28.468681926Z"
   },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
