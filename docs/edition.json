@@ -1,52 +1,21 @@
 {
-  "generated": "2026-08-10T12:44:28.479782238Z",
+  "generated": "2026-08-10T16:43:04.209545904Z",
   "edition": 17,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 25,
+    "total": 17,
     "by_source": {
-      "arxiv": 17,
+      "arxiv": 9,
       "hn": 8
     },
     "by_quadrant": {
-      "NEW GROUND": 2,
-      "NOISE FLOOR": 23
+      "NOISE FLOOR": 17
     }
   },
   "items": [
-    {
-      "id": "arxiv:2608.07185v1",
-      "source": "arxiv",
-      "title": "Ultrafast quantum gate operations in a Kramers-Henneberger atom Qubit",
-      "url": "http://arxiv.org/abs/2608.07185v1",
-      "published": "2026-08-07T13:00:01Z",
-      "authors": "A. Tasnim Aynul et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Kramers-Henneberger atom qubits demonstrate femtosecond single-qubit gates, six orders of magnitude faster than superconducting platforms.",
-      "unproven": "scaling to multi-qubit gates, practical fabrication and control engineering, noise and leakage suppression in hardware implementations",
-      "scored_at": "2026-08-10T09:07:58.043375768Z"
-    },
-    {
-      "id": "arxiv:2608.07178v1",
-      "source": "arxiv",
-      "title": "Exploring the Relaxation Landscape of a 2D Quantum Magnet on a 256-Qubit Processor",
-      "url": "http://arxiv.org/abs/2608.07178v1",
-      "published": "2026-08-07T12:48:43Z",
-      "authors": "Tiago Mendes-Santos et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "256-qubit Rydberg array maps relaxation regimes in 2D Ising model, identifying prethermal and slowdown phases beyond thermalization.",
-      "unproven": "whether results hold at larger scales or different Hamiltonians, classical simulation complexity claims need independent verification",
-      "scored_at": "2026-08-10T09:07:58.043376038Z"
-    },
     {
       "id": "hn:49234724",
       "source": "hn",
@@ -94,52 +63,6 @@
       "dek": "Databricks cost-management patterns for AI coding tools; establishes vocabulary around token budgets and batching.",
       "unproven": "applicability beyond Databricks' own infrastructure and use cases; no independent validation of claims",
       "scored_at": "2026-08-08T00:54:21.988655646Z"
-    },
-    {
-      "id": "arxiv:2608.07277v1",
-      "source": "arxiv",
-      "title": "Demonstration of an LLO CV-QKD system over 12 km of optical fiber",
-      "url": "http://arxiv.org/abs/2608.07277v1",
-      "published": "2026-08-07T14:37:33Z",
-      "authors": "Christiano M. S. Nascimento et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "CV-QKD system with independent transmitter and receiver lasers demonstrates 5.11 Mbit/s key rates over 12 km fiber.",
-      "unproven": "Post-quantum migration planning is on the reader's roadmap, but this is a physics demonstration of one QKD variant, not a deployment risk assessment or migration pathway; no assessment of when or whether this replaces current key exchange in financial infrastructure.",
-      "scored_at": "2026-08-10T09:07:48.069805578Z"
-    },
-    {
-      "id": "arxiv:2608.07211v1",
-      "source": "arxiv",
-      "title": "Observation of far-from-equilibrium scaling in the transient dynamics of 2D quantum magnets",
-      "url": "http://arxiv.org/abs/2608.07211v1",
-      "published": "2026-08-07T13:26:13Z",
-      "authors": "Fabio Bensch et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Rydberg-atom arrays show mean-field scaling in quench dynamics across multiple 2D lattice geometries.",
-      "unproven": "Quantum simulation on analog hardware does not inform application security, secure SDLC, or agent governance in financial services.",
-      "scored_at": "2026-08-10T09:07:48.069809666Z"
-    },
-    {
-      "id": "hn:49209921",
-      "source": "hn",
-      "title": "The web server deployment model breaks at hobby scale",
-      "url": "https://w.on-t.work/web-deployment-model",
-      "published": "2026-08-07T13:15:36Z",
-      "authors": "meetpateltech",
-      "points": 55,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Discussion of web server deployment model constraints at small scale.",
-      "unproven": "specific architectural or security implications for the reader's tooling and SDLC process",
-      "scored_at": "2026-08-07T16:41:55.763617773Z"
     },
     {
       "id": "hn:49239751",
@@ -203,49 +126,20 @@
       "scored_at": "2026-08-10T05:16:54.001558176Z"
     },
     {
-      "id": "arxiv:2608.07219v1",
-      "source": "arxiv",
-      "title": "Origin of Long-Lived Nuclear Spin States and Coherences in Aliphatic Chains Revealed by Relaxation Theory",
-      "url": "http://arxiv.org/abs/2608.07219v1",
-      "published": "2026-08-07T13:36:10Z",
-      "authors": "Danil A. Markelov et al.",
-      "novelty": 2,
+      "id": "hn:49245071",
+      "source": "hn",
+      "title": "Force-Fed by ICE",
+      "url": "https://theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli",
+      "published": "2026-08-10T15:35:44Z",
+      "authors": "HotGarbage",
+      "points": 72,
+      "novelty": 1,
       "actionability": 1,
-      "score": 3,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Long-lived nuclear spin states in aliphatic chains arise from zero-eigenvalue subspaces of the relaxation superoperator.",
-      "unproven": "NMR physics is outside the reader's remit; no connection to application security, SDLC tooling, or secure code practices.",
-      "scored_at": "2026-08-10T09:07:48.069809435Z"
-    },
-    {
-      "id": "arxiv:2608.07207v1",
-      "source": "arxiv",
-      "title": "Existence of Kraus decomposition in infinite dimension via strongly-convergent direct process tomography",
-      "url": "http://arxiv.org/abs/2608.07207v1",
-      "published": "2026-08-07T13:19:58Z",
-      "authors": "Paul E. Lammert",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Constructive algorithm for Kraus decomposition of completely positive operators in infinite-dimensional Hilbert spaces with strong-operator convergence.",
-      "unproven": "Quantum information theory has no practical bearing on the reader's SDLC tooling, code review process, or secure architecture decisions.",
-      "scored_at": "2026-08-10T09:07:48.069809816Z"
-    },
-    {
-      "id": "arxiv:2608.07205v1",
-      "source": "arxiv",
-      "title": "Atomic correlation effects in collapse-induced spontaneous radiation",
-      "url": "http://arxiv.org/abs/2608.07205v1",
-      "published": "2026-08-07T13:19:45Z",
-      "authors": "Simone Manti et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Atomic structure effects modulate spontaneous radiation rates predicted by collapse models, enabling model discrimination.",
-      "unproven": "Fundamental physics testing is outside the reader's domain; no relevance to application security, agent governance, or post-quantum migration planning.",
-      "scored_at": "2026-08-10T09:07:48.069809956Z"
+      "dek": "Guardian article on ICE detainee force-feeding; political reporting outside application security.",
+      "unproven": "entirely outside the reader's domain",
+      "scored_at": "2026-08-10T16:43:04.19863727Z"
     },
     {
       "id": "hn:49225139",
@@ -377,21 +271,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Spectral framework for quantum chaos spread complexity; theoretical physics without security application.",
       "scored_at": "2026-08-10T05:16:54.00155999Z"
-    },
-    {
-      "id": "arxiv:2608.07306v1",
-      "source": "arxiv",
-      "title": "Flip-chip integrated superconducting qubits using electroplated bump bonds",
-      "url": "http://arxiv.org/abs/2608.07306v1",
-      "published": "2026-08-07T15:01:24Z",
-      "authors": "Yen-An Shih et al.",
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Superconducting qubit architecture using electroplated indium bump bonds achieves 10^6 quality factors.",
-      "unproven": "Outside the reader's domain; quantum hardware engineering has no bearing on application security, SDLC tooling, or secure code review.",
-      "scored_at": "2026-08-10T09:07:48.069805067Z"
     }
   ],
   "noise": null

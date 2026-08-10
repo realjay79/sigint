@@ -24426,6 +24426,22 @@
     "unproven": "whether isolated containers adequately constrain agent behavior in SDLC pipelines; security properties unspecified",
     "scored_at": "2026-08-10T12:44:28.468681926Z"
   },
+  "hn:49245071": {
+    "id": "hn:49245071",
+    "source": "hn",
+    "title": "Force-Fed by ICE",
+    "url": "https://theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli",
+    "published": "2026-08-10T15:35:44Z",
+    "authors": "HotGarbage",
+    "points": 72,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Guardian article on ICE detainee force-feeding; political reporting outside application security.",
+    "unproven": "entirely outside the reader's domain",
+    "scored_at": "2026-08-10T16:43:04.19863727Z"
+  },
   "kev:CVE-2008-4128": {
     "id": "kev:CVE-2008-4128",
     "source": "kev",
