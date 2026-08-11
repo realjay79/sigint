@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T04:59:09.230398397Z",
+  "generated": "2026-08-11T08:44:22.12145622Z",
   "edition": 18,
   "name": "SIGINT",
   "mark": "^C",
@@ -11,9 +11,9 @@
       "arxiv": 25
     },
     "by_quadrant": {
-      "BREAK GLASS": 4,
+      "BREAK GLASS": 5,
       "NEW GROUND": 9,
-      "NOISE FLOOR": 11,
+      "NOISE FLOOR": 10,
       "STANDING ORDERS": 1
     }
   },
@@ -77,6 +77,21 @@
       "dek": "SAGE-Fin enforces typed authority handoff for financial agents, matching effects to consuming adapters and rechecking authorization after state changes.",
       "unproven": "whether the 616-case catalog covers edge cases in production deployment; whether deterministic specifications catch all failure modes",
       "scored_at": "2026-08-11T04:59:09.218012826Z"
+    },
+    {
+      "id": "arxiv:2608.08468v1",
+      "source": "arxiv",
+      "title": "SkillsMetric: Mapping the Detection Boundary of Static Analysis for Malicious Agent Skills",
+      "url": "http://arxiv.org/abs/2608.08468v1",
+      "published": "2026-08-09T04:19:10Z",
+      "authors": "Xinze Chen et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Static analysis detects 93% of data exfiltration in LLM agent skills but misses shell-command host destruction and prompt injection entirely.",
+      "unproven": "evaluation on constructed adversarial dataset of 2,266 skills; generalization to production skill repositories and post-deployment drift unknown",
+      "scored_at": "2026-08-11T08:43:54.3831367Z"
     },
     {
       "id": "arxiv:2608.09699v1",
@@ -229,6 +244,36 @@
       "scored_at": "2026-08-11T04:58:57.915334758Z"
     },
     {
+      "id": "arxiv:2608.08453v1",
+      "source": "arxiv",
+      "title": "What Keeps Agent Skills from Being Reusable? Evidence from 138K SKILL.md Files",
+      "url": "http://arxiv.org/abs/2608.08453v1",
+      "published": "2026-08-09T03:49:30Z",
+      "authors": "Chi Zhang et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "91.8% of 138K public agent skills contain defects: weak routing metadata, bloated bodies, poor resource organization rather than active attacks.",
+      "unproven": "defect taxonomy grounded in specification but impact on real agent performance limited to routing stress test; no evidence defect rates correlate with production failures",
+      "scored_at": "2026-08-11T08:43:54.383136861Z"
+    },
+    {
+      "id": "arxiv:2608.08131v1",
+      "source": "arxiv",
+      "title": "Compositional Threat Analysis of Latent Compromise in LLM Agent Systems: The Order 66 Scenario",
+      "url": "http://arxiv.org/abs/2608.08131v1",
+      "published": "2026-08-08T13:35:35Z",
+      "authors": "Satoshi Matsuoka",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Compositional threat model for LLM agents combining dormant payload, activation trigger, and operational authority; checkpoint scanning and prompt filtering insufficient.",
+      "unproven": "scenario-based analysis without prototype demonstration; cross-class feedback sustain-spread mechanism shown only in two-class example; no evaluation against deployed agent systems",
+      "scored_at": "2026-08-11T08:43:54.383138173Z"
+    },
+    {
       "id": "arxiv:2608.09542v1",
       "source": "arxiv",
       "title": "Dual-Adversarial Safety Alignment: Cultivating Intrinsic Threat Comprehension in LRMs",
@@ -347,51 +392,6 @@
       "dek": "Quantal Stackelberg equilibrium models attacker decision noise in security games and insures against model misspecification via logit choice.",
       "unproven": "whether rationality parameter λ is estimable from real attacker behavior; generalization beyond the two-network CVE case study",
       "scored_at": "2026-08-11T04:59:09.218013467Z"
-    },
-    {
-      "id": "arxiv:2608.08831v1",
-      "source": "arxiv",
-      "title": "Treating Statewide CORS Networks as Spatially Distributed Sensors for GNSS Integrity Monitoring under Unintentional and Deliberate Threats",
-      "url": "http://arxiv.org/abs/2608.08831v1",
-      "published": "2026-08-09T17:30:28Z",
-      "authors": "Minhaj Uddin Ahmad et al.",
-      "novelty": 2,
-      "actionability": 3,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Network Consistency Index detects GNSS interference in statewide CORS networks using spatial gradient and graph-smoothness metrics.",
-      "unproven": "false-positive rates under benign atmospheric variation; whether framework generalizes to networks outside Alabama; real-time detection feasibility",
-      "scored_at": "2026-08-11T04:59:09.218013577Z"
-    },
-    {
-      "id": "arxiv:2608.08645v1",
-      "source": "arxiv",
-      "title": "HaloMark: A Spectral Threshold for Embedding-Vector Watermarking under C2PA",
-      "url": "http://arxiv.org/abs/2608.08645v1",
-      "published": "2026-08-09T11:36:59Z",
-      "authors": "Tarun Sharma",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "HaloMark watermarks embedding vectors under C2PA by signing LSH commitments into the manifest rather than relying on recomputable hashes.",
-      "unproven": "robustness against adaptive whitening attacks; whether C2PA infrastructure adoption will support embedded-vector provenance at scale",
-      "scored_at": "2026-08-11T04:59:09.21801527Z"
-    },
-    {
-      "id": "arxiv:2608.09914v1",
-      "source": "arxiv",
-      "title": "Overcoming Data Scarcity and Confidentiality in Hardware Assurance via Synthetic Generation",
-      "url": "http://arxiv.org/abs/2608.09914v1",
-      "published": "2026-08-10T17:56:03Z",
-      "authors": "Gijung Lee et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "StyleGAN and Pix2PixHD synthesize SEM images of hardware layouts to train segmentation models without exposing proprietary designs.",
-      "unproven": "Transfer to real production hardware scanning pipelines; validation limited to segmentation task; IP distortion effectiveness not independently verified.",
-      "scored_at": "2026-08-11T04:58:35.024336337Z"
     }
   ],
   "noise": [
