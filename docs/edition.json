@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-10T20:31:39.449298384Z",
-  "edition": 17,
+  "generated": "2026-08-11T00:58:13.534263706Z",
+  "edition": 18,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 8,
+    "total": 9,
     "by_source": {
-      "hn": 8
+      "hn": 9
     },
     "by_quadrant": {
-      "NOISE FLOOR": 8
+      "NOISE FLOOR": 9
     }
   },
   "items": [
@@ -78,6 +78,22 @@
       "dek": "Docker-based sandboxing for AI agents; Docker marketing announcement, practical relevance unclear without methodology detail.",
       "unproven": "whether isolated containers adequately constrain agent behavior in SDLC pipelines; security properties unspecified",
       "scored_at": "2026-08-10T12:44:28.468681926Z"
+    },
+    {
+      "id": "hn:49249971",
+      "source": "hn",
+      "title": "Amazon backs power plant that may become top source of US climate pollution",
+      "url": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge",
+      "published": "2026-08-10T21:26:16Z",
+      "authors": "pjmlp",
+      "points": 156,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Amazon's power plant investment reported; outside application security and SDLC scope.",
+      "unproven": "entirely outside reader's remit",
+      "scored_at": "2026-08-11T00:58:13.523288794Z"
     },
     {
       "id": "hn:49245071",
