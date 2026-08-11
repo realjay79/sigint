@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T16:48:36.765458881Z",
+  "generated": "2026-08-11T20:35:39.723040732Z",
   "edition": 18,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,16 +8,65 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 25
+      "arxiv": 22,
+      "kev": 3
     },
     "by_quadrant": {
       "BREAK GLASS": 5,
-      "NEW GROUND": 8,
-      "NOISE FLOOR": 11,
-      "STANDING ORDERS": 1
+      "NEW GROUND": 7,
+      "NOISE FLOOR": 9,
+      "STANDING ORDERS": 4
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-72898",
+      "source": "kev",
+      "title": "CVE-2026-72898 — Metabase SQL Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898",
+      "published": "2026-08-11T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Metabase Metabase. Confirmed exploited in the wild. Federal remediation due 14 August.",
+      "cves": [
+        "CVE-2026-72898"
+      ],
+      "scored_at": "2026-08-11T20:35:04.20560726Z"
+    },
+    {
+      "id": "kev:CVE-2026-68820",
+      "source": "kev",
+      "title": "CVE-2026-68820 — Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820",
+      "published": "2026-08-11T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft Windows Ancillary Function Driver for WinSock. Confirmed exploited in the wild. Federal remediation due 25 August.",
+      "cves": [
+        "CVE-2026-68820"
+      ],
+      "scored_at": "2026-08-11T20:35:04.205605748Z"
+    },
+    {
+      "id": "kev:CVE-2026-20349",
+      "source": "kev",
+      "title": "CVE-2026-20349 — Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
+      "published": "2026-08-11T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD). Confirmed exploited in the wild. Federal remediation due 14 August.",
+      "cves": [
+        "CVE-2026-20349"
+      ],
+      "scored_at": "2026-08-11T20:35:04.205602593Z"
+    },
     {
       "id": "arxiv:2608.09867v1",
       "source": "arxiv",
@@ -259,6 +308,51 @@
       "scored_at": "2026-08-11T08:43:54.383136861Z"
     },
     {
+      "id": "arxiv:2608.09793v1",
+      "source": "arxiv",
+      "title": "Security of quantum key distribution with passive basis choice and detection-efficiency mismatch for a realistic satellite setup",
+      "url": "http://arxiv.org/abs/2608.09793v1",
+      "published": "2026-08-10T16:14:36Z",
+      "authors": "Egor Ivchenko et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "BB84 security proof with detection-efficiency mismatch accounts for four-detector imbalance and decoy-state method in satellite QKD.",
+      "unproven": "validation against practical adversaries exploiting residual detection asymmetries; real-world Micius setup performance incomplete in preprint.",
+      "scored_at": "2026-08-11T20:35:13.939432988Z"
+    },
+    {
+      "id": "arxiv:2608.09674v1",
+      "source": "arxiv",
+      "title": "Phase-error estimation for quantum key distribution with leaky receivers",
+      "url": "http://arxiv.org/abs/2608.09674v1",
+      "published": "2026-08-10T14:49:28Z",
+      "authors": "Álvaro Navarrete et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Finite-key security proof for prepare-and-measure QKD tolerating side-channel leakage from detector backflash and Trojan-horse attacks.",
+      "unproven": "whether the distinguishability bounds are measurable or verifiable on deployed hardware; applicability to systems with multiple simultaneous leakage channels",
+      "scored_at": "2026-08-11T20:35:25.452651789Z"
+    },
+    {
+      "id": "arxiv:2608.09661v1",
+      "source": "arxiv",
+      "title": "Memory-, Circuit-, and Ansatz-Efficient VQLS for CFD on Hybrid Quantum-HPC Systems",
+      "url": "http://arxiv.org/abs/2608.09661v1",
+      "published": "2026-08-10T14:37:59Z",
+      "authors": "Chao Lu et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "VQLS optimizations for CFD reduce peak memory 1298× on test grids via FWHT encoding and achieve 10,000× per-iteration speedup with SVD-based approach.",
+      "unproven": "end-to-end wall-clock speedup on production hardware compared to classical solvers; scalability beyond 11×11 grids; practical convergence on noisy devices at relevant problem scales",
+      "scored_at": "2026-08-11T20:35:25.45265231Z"
+    },
+    {
       "id": "arxiv:2608.09542v1",
       "source": "arxiv",
       "title": "Dual-Adversarial Safety Alignment: Cultivating Intrinsic Threat Comprehension in LRMs",
@@ -302,96 +396,6 @@
       "dek": "LLM-based incident response planner using staged state graphs achieves 0.94 normalized defense score on Docker cyber ranges.",
       "unproven": "Whether planning framework generalizes beyond containerized test scenarios; whether it handles novel attack patterns not in training data; applicability to actual incidents with incomplete information.",
       "scored_at": "2026-08-11T04:58:46.750869223Z"
-    },
-    {
-      "id": "arxiv:2608.09087v1",
-      "source": "arxiv",
-      "title": "Joint Lyapunov Certificates for K-Agent Generative AI Governance: Stochastic Stability, Emergent Ensemble Risk, and Zero-Knowledge Governance Attestation",
-      "url": "http://arxiv.org/abs/2608.09087v1",
-      "published": "2026-08-10T03:37:08Z",
-      "authors": "Sriram Nagaraj",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Joint Lyapunov framework with zero-knowledge attestation detects emergent ensemble drift in coupled multi-agent generative AI systems.",
-      "unproven": "no empirical evaluation on real systems; SNARK per-epoch overhead not measured; applicability to deployed model governance unclear",
-      "scored_at": "2026-08-11T04:58:57.915334627Z"
-    },
-    {
-      "id": "arxiv:2608.09069v1",
-      "source": "arxiv",
-      "title": "Telemetry and Concealment in Self-Adapting Generative AI: Logging Architecture, Adversarial Model Hiding, and the Limits of Detection",
-      "url": "http://arxiv.org/abs/2608.09069v1",
-      "published": "2026-08-10T03:20:06Z",
-      "authors": "Sriram Nagaraj",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Telemetry and tamper-evident logging architecture for self-adapting production generative AI models; formalizes model-hiding adversarial scenario.",
-      "unproven": "no deployed implementation; continuous-time generalization via Ito formula not empirically validated; assumes reader owns deployed self-adapting models",
-      "scored_at": "2026-08-11T04:58:57.915334898Z"
-    },
-    {
-      "id": "arxiv:2608.09001v1",
-      "source": "arxiv",
-      "title": "Mind the Hook: Source-Level Auditing of Privacy Defenses in Retrieval-Augmented Generation",
-      "url": "http://arxiv.org/abs/2608.09001v1",
-      "published": "2026-08-10T01:40:25Z",
-      "authors": "Yanhang Li et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Active-path audit exposes that DP-style RAG defenses modify retrieval only, leaving generation hooks unimplemented and named-entity leakage unguarded.",
-      "unproven": "whether findings generalize beyond the authors' reimplementations; scope limited to their testing stack and methodology",
-      "scored_at": "2026-08-11T04:59:09.218013106Z"
-    },
-    {
-      "id": "arxiv:2608.08993v1",
-      "source": "arxiv",
-      "title": "A Complexity-Theoretic Approach to Proofs of Space",
-      "url": "http://arxiv.org/abs/2608.08993v1",
-      "published": "2026-08-10T01:28:01Z",
-      "authors": "Marshall Ball et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Proofs of space can be constructed from derandomization and collision-resistant hashing rather than random-oracle assumptions alone.",
-      "unproven": "concrete instantiation parameters; practical efficiency relative to existing protocols; whether assumptions hold in adversarial settings",
-      "scored_at": "2026-08-11T04:59:09.218013227Z"
-    },
-    {
-      "id": "arxiv:2608.08865v1",
-      "source": "arxiv",
-      "title": "Beyond Best Response: Quantal Stackelberg Deception as Insurance Against Attacker Misspecification",
-      "url": "http://arxiv.org/abs/2608.08865v1",
-      "published": "2026-08-09T19:03:18Z",
-      "authors": "Asif Rahman et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantal Stackelberg equilibrium models attacker decision noise in security games and insures against model misspecification via logit choice.",
-      "unproven": "whether rationality parameter λ is estimable from real attacker behavior; generalization beyond the two-network CVE case study",
-      "scored_at": "2026-08-11T04:59:09.218013467Z"
-    },
-    {
-      "id": "arxiv:2608.08831v1",
-      "source": "arxiv",
-      "title": "Treating Statewide CORS Networks as Spatially Distributed Sensors for GNSS Integrity Monitoring under Unintentional and Deliberate Threats",
-      "url": "http://arxiv.org/abs/2608.08831v1",
-      "published": "2026-08-09T17:30:28Z",
-      "authors": "Minhaj Uddin Ahmad et al.",
-      "novelty": 2,
-      "actionability": 3,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Network Consistency Index detects GNSS interference in statewide CORS networks using spatial gradient and graph-smoothness metrics.",
-      "unproven": "false-positive rates under benign atmospheric variation; whether framework generalizes to networks outside Alabama; real-time detection feasibility",
-      "scored_at": "2026-08-11T04:59:09.218013577Z"
     }
   ],
   "noise": [
