@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T12:41:43.428549272Z",
+  "generated": "2026-08-11T16:48:36.765458881Z",
   "edition": 18,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,8 +12,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 5,
-      "NEW GROUND": 9,
-      "NOISE FLOOR": 10,
+      "NEW GROUND": 8,
+      "NOISE FLOOR": 11,
       "STANDING ORDERS": 1
     }
   },
@@ -259,21 +259,6 @@
       "scored_at": "2026-08-11T08:43:54.383136861Z"
     },
     {
-      "id": "arxiv:2608.08131v1",
-      "source": "arxiv",
-      "title": "Compositional Threat Analysis of Latent Compromise in LLM Agent Systems: The Order 66 Scenario",
-      "url": "http://arxiv.org/abs/2608.08131v1",
-      "published": "2026-08-08T13:35:35Z",
-      "authors": "Satoshi Matsuoka",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Compositional threat model for LLM agents combining dormant payload, activation trigger, and operational authority; checkpoint scanning and prompt filtering insufficient.",
-      "unproven": "scenario-based analysis without prototype demonstration; cross-class feedback sustain-spread mechanism shown only in two-class example; no evaluation against deployed agent systems",
-      "scored_at": "2026-08-11T08:43:54.383138173Z"
-    },
-    {
       "id": "arxiv:2608.09542v1",
       "source": "arxiv",
       "title": "Dual-Adversarial Safety Alignment: Cultivating Intrinsic Threat Comprehension in LRMs",
@@ -392,6 +377,21 @@
       "dek": "Quantal Stackelberg equilibrium models attacker decision noise in security games and insures against model misspecification via logit choice.",
       "unproven": "whether rationality parameter λ is estimable from real attacker behavior; generalization beyond the two-network CVE case study",
       "scored_at": "2026-08-11T04:59:09.218013467Z"
+    },
+    {
+      "id": "arxiv:2608.08831v1",
+      "source": "arxiv",
+      "title": "Treating Statewide CORS Networks as Spatially Distributed Sensors for GNSS Integrity Monitoring under Unintentional and Deliberate Threats",
+      "url": "http://arxiv.org/abs/2608.08831v1",
+      "published": "2026-08-09T17:30:28Z",
+      "authors": "Minhaj Uddin Ahmad et al.",
+      "novelty": 2,
+      "actionability": 3,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Network Consistency Index detects GNSS interference in statewide CORS networks using spatial gradient and graph-smoothness metrics.",
+      "unproven": "false-positive rates under benign atmospheric variation; whether framework generalizes to networks outside Alabama; real-time detection feasibility",
+      "scored_at": "2026-08-11T04:59:09.218013577Z"
     }
   ],
   "noise": [

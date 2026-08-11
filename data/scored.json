@@ -25690,6 +25690,21 @@
     "dek": "Mozilla rotated GPG signing key for Firefox and Thunderbird releases; update verification tooling if pinning the old key.",
     "scored_at": "2026-08-11T12:41:43.415836516Z"
   },
+  "hn:49254881": {
+    "id": "hn:49254881",
+    "source": "hn",
+    "title": "Closing Canario Terminal source code",
+    "url": "https://rapha.land/closing-canario-terminal-source-code",
+    "published": "2026-08-11T08:16:19Z",
+    "authors": "atan2",
+    "points": 37,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Terminal emulator project shutting down; no security finding or technique disclosed.",
+    "scored_at": "2026-08-11T16:48:36.753425382Z"
+  },
   "hn:49255496": {
     "id": "hn:49255496",
     "source": "hn",
