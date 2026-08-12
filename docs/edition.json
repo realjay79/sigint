@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T09:01:49.545089626Z",
+  "generated": "2026-08-12T12:45:15.385591081Z",
   "edition": 19,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,8 +13,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 5,
-      "NEW GROUND": 12,
-      "NOISE FLOOR": 3,
+      "NEW GROUND": 11,
+      "NOISE FLOOR": 4,
       "STANDING ORDERS": 5
     }
   },
@@ -36,22 +36,6 @@
       "scored_at": "2026-08-11T20:35:04.20560726Z"
     },
     {
-      "id": "kev:CVE-2026-20349",
-      "source": "kev",
-      "title": "CVE-2026-20349 — Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
-      "published": "2026-08-11T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD). Confirmed exploited in the wild. Federal remediation due 14 August.",
-      "cves": [
-        "CVE-2026-20349"
-      ],
-      "scored_at": "2026-08-11T20:35:04.205602593Z"
-    },
-    {
       "id": "kev:CVE-2026-68820",
       "source": "kev",
       "title": "CVE-2026-68820 — Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
@@ -66,6 +50,22 @@
         "CVE-2026-68820"
       ],
       "scored_at": "2026-08-11T20:35:04.205605748Z"
+    },
+    {
+      "id": "kev:CVE-2026-20349",
+      "source": "kev",
+      "title": "CVE-2026-20349 — Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
+      "published": "2026-08-11T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD). Confirmed exploited in the wild. Federal remediation due 14 August.",
+      "cves": [
+        "CVE-2026-20349"
+      ],
+      "scored_at": "2026-08-11T20:35:04.205602593Z"
     },
     {
       "id": "arxiv:2608.10281v1",
@@ -278,21 +278,6 @@
       "scored_at": "2026-08-11T04:59:09.218013687Z"
     },
     {
-      "id": "arxiv:2608.08641v1",
-      "source": "arxiv",
-      "title": "Whose Refusal Is It? The Unmeasured Contribution of Black-Box Multimodal Guardrails",
-      "url": "http://arxiv.org/abs/2608.08641v1",
-      "published": "2026-08-09T11:19:30Z",
-      "authors": "Haoyu Zhang et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Black-box guardrail safety metrics conflate model and guard contributions; attribution splits by payload channel and internal prompt framing.",
-      "unproven": "whether attribution recovery holds across all defense architectures; whether vendors will expose internal prompt handling to enable measurement",
-      "scored_at": "2026-08-11T04:59:09.21801541Z"
-    },
-    {
       "id": "arxiv:2608.10614v1",
       "source": "arxiv",
       "title": "Trigger the Straggler: Load Hijack on Mixture-of-Experts LLMs",
@@ -396,6 +381,21 @@
       "dek": "Subquadratic-sample estimator for von Neumann entropy breaks the quadratic barrier for d-dimensional quantum states.",
       "unproven": "This is outside the reader's domain entirely.",
       "scored_at": "2026-08-12T05:25:09.867494499Z"
+    },
+    {
+      "id": "arxiv:2608.11147v1",
+      "source": "arxiv",
+      "title": "When and Where Faults Matter: A Study of Transient Errors in CKKS Multiplication",
+      "url": "http://arxiv.org/abs/2608.11147v1",
+      "published": "2026-08-11T17:06:00Z",
+      "authors": "Vattana Chan et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Timing and location of transient faults in CKKS ciphertext components c_0 and c_1 significantly affect FHE output correctness.",
+      "unproven": "limited to unoptimized CKKS; no defense mechanism proposed; no evaluation against detection or mitigation in production deployments.",
+      "scored_at": "2026-08-12T05:24:50.125164377Z"
     }
   ],
   "noise": [
