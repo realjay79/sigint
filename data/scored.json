@@ -27697,6 +27697,21 @@
     "unproven": "whether Tailscale patches are deployed in reader's infrastructure; SQLite version inventory needed",
     "scored_at": "2026-08-12T16:46:29.246077751Z"
   },
+  "hn:49274894": {
+    "id": "hn:49274894",
+    "source": "hn",
+    "title": "Incident with Pull Requests and Issues – Resolved",
+    "url": "https://githubstatus.com/incidents/76t89hbfb09h",
+    "published": "2026-08-12T16:22:27Z",
+    "authors": "arm32",
+    "points": 52,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "GitHub status page incident report on pull requests and issues; no technical detail provided.",
+    "scored_at": "2026-08-12T20:33:05.834510956Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",
