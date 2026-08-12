@@ -26312,21 +26312,36 @@
     "dek": "London Underground deploys facial recognition at stations; outside the reader's remit.",
     "scored_at": "2026-08-11T12:41:43.415836076Z"
   },
-  "kev:CVE-2008-4128": {
-    "id": "kev:CVE-2008-4128",
-    "source": "kev",
-    "title": "CVE-2008-4128 — Cisco IOS Cross-Site Request Forgery Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128",
-    "published": "2026-07-13T00:00:00Z",
+  "hn:49258011": {
+    "id": "hn:49258011",
+    "source": "hn",
+    "title": "Show HN: Write.md – A free, open-source, themeable Markdown editor for macOS",
+    "url": "https://writemd.app/",
+    "published": "2026-08-11T13:30:39Z",
+    "authors": "danielbilekq",
+    "points": 79,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Open-source Markdown editor for macOS; no relevance to secure development tooling or application security engineering.",
+    "scored_at": "2026-08-12T01:05:14.679043735Z"
+  },
+  "hn:49265051": {
+    "id": "hn:49265051",
+    "source": "hn",
+    "title": "WorldClaw Agentic 3D open-world generation at scale",
+    "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw",
+    "published": "2026-08-11T21:56:18Z",
+    "authors": "EwanG",
+    "points": 104,
     "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "Cisco IOS. Confirmed exploited in the wild. Federal remediation due 16 July.",
-    "cves": [
-      "CVE-2008-4128"
-    ],
-    "scored_at": "2026-07-25T16:23:52.503406Z"
+    "actionability": 1,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Tencent's model generates 3D worlds at scale; a capability demonstration with no security or SDLC implications for application builders.",
+    "unproven": "Security properties, training data lineage, and whether agents using this output introduce novel attack surfaces in production systems.",
+    "scored_at": "2026-08-12T01:05:14.679043306Z"
   },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",

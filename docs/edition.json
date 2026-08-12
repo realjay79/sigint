@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-11T20:35:39.723040732Z",
-  "edition": 18,
+  "generated": "2026-08-12T01:05:14.693392796Z",
+  "edition": 19,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -19,6 +19,22 @@
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-20349",
+      "source": "kev",
+      "title": "CVE-2026-20349 — Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
+      "published": "2026-08-11T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD). Confirmed exploited in the wild. Federal remediation due 14 August.",
+      "cves": [
+        "CVE-2026-20349"
+      ],
+      "scored_at": "2026-08-11T20:35:04.205602593Z"
+    },
     {
       "id": "kev:CVE-2026-72898",
       "source": "kev",
@@ -50,22 +66,6 @@
         "CVE-2026-68820"
       ],
       "scored_at": "2026-08-11T20:35:04.205605748Z"
-    },
-    {
-      "id": "kev:CVE-2026-20349",
-      "source": "kev",
-      "title": "CVE-2026-20349 — Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
-      "published": "2026-08-11T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD). Confirmed exploited in the wild. Federal remediation due 14 August.",
-      "cves": [
-        "CVE-2026-20349"
-      ],
-      "scored_at": "2026-08-11T20:35:04.205602593Z"
     },
     {
       "id": "arxiv:2608.09867v1",
@@ -432,20 +432,20 @@
       "scored_at": "2026-08-11T00:58:13.523288794Z"
     },
     {
-      "id": "hn:49226536",
+      "id": "hn:49265051",
       "source": "hn",
-      "title": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
-      "url": "https://shopify.engineering/scaling-inventory-reservations",
-      "published": "2026-08-08T22:32:50Z",
-      "authors": "adletbalzhanov",
+      "title": "WorldClaw Agentic 3D open-world generation at scale",
+      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw",
+      "published": "2026-08-11T21:56:18Z",
+      "authors": "EwanG",
       "points": 104,
-      "novelty": 2,
-      "actionability": 2,
+      "novelty": 3,
+      "actionability": 1,
       "score": 4,
       "quadrant": "NOISE FLOOR",
-      "dek": "Shopify migrated inventory reservation logic from Redis to MySQL; architectural choice specific to their scale and schema.",
-      "unproven": "whether the tradeoffs generalize beyond Shopify's specific workload, schema, and operational maturity.",
-      "scored_at": "2026-08-09T04:55:24.439005683Z"
+      "dek": "Tencent's model generates 3D worlds at scale; a capability demonstration with no security or SDLC implications for application builders.",
+      "unproven": "Security properties, training data lineage, and whether agents using this output introduce novel attack surfaces in production systems.",
+      "scored_at": "2026-08-12T01:05:14.679043306Z"
     }
   ]
 }
