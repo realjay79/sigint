@@ -26851,6 +26851,22 @@
     "unproven": "Whether this affects systems the reader's organization runs; whether it requires physical access or is remotely exploitable; applicability beyond lab conditions.",
     "scored_at": "2026-08-10T20:31:39.419359935Z"
   },
+  "hn:49249111": {
+    "id": "hn:49249111",
+    "source": "hn",
+    "title": "How to Increase OpenBSDs Resilience to Power Outages",
+    "url": "https://zlhgo.com/posts/how_to_increase_openbsds_resilience_to_power_outages",
+    "published": "2026-08-10T20:16:40Z",
+    "authors": "currysausage",
+    "points": 31,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "OpenBSD hardening practices for power resilience; ops domain, not application security.",
+    "unproven": "applies only to a single OS and deployment model",
+    "scored_at": "2026-08-12T09:01:49.531037479Z"
+  },
   "hn:49249971": {
     "id": "hn:49249971",
     "source": "hn",
@@ -26926,6 +26942,22 @@
     "quadrant": "NOISE FLOOR",
     "dek": "Open-source Markdown editor for macOS; no relevance to secure development tooling or application security engineering.",
     "scored_at": "2026-08-12T01:05:14.679043735Z"
+  },
+  "hn:49264755": {
+    "id": "hn:49264755",
+    "source": "hn",
+    "title": "Suzanne: AI tool for designing and manufacturing physical products",
+    "url": "https://suzanne3d.com/",
+    "published": "2026-08-11T21:28:26Z",
+    "authors": "Samanthajeanneb",
+    "points": 50,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "CAD/manufacturing tool announcement with no security angle.",
+    "unproven": "outside reader's remit entirely",
+    "scored_at": "2026-08-12T09:01:49.531036907Z"
   },
   "hn:49265051": {
     "id": "hn:49265051",
