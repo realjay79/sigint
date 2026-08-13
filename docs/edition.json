@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T05:28:07.979545218Z",
+  "generated": "2026-08-13T09:03:25.645838037Z",
   "edition": 20,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,9 +14,9 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 9,
-      "NEW GROUND": 7,
-      "NOISE FLOOR": 4,
-      "STANDING ORDERS": 5
+      "NEW GROUND": 6,
+      "NOISE FLOOR": 6,
+      "STANDING ORDERS": 4
     }
   },
   "items": [
@@ -96,20 +96,20 @@
       "scored_at": "2026-08-13T05:28:07.964812994Z"
     },
     {
-      "id": "kev:CVE-2026-68820",
+      "id": "kev:CVE-2026-72898",
       "source": "kev",
-      "title": "CVE-2026-68820 — Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820",
+      "title": "CVE-2026-72898 — Metabase SQL Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898",
       "published": "2026-08-11T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft Windows Ancillary Function Driver for WinSock. Confirmed exploited in the wild. Federal remediation due 25 August.",
+      "dek": "Metabase Metabase. Confirmed exploited in the wild. Federal remediation due 14 August.",
       "cves": [
-        "CVE-2026-68820"
+        "CVE-2026-72898"
       ],
-      "scored_at": "2026-08-11T20:35:04.205605748Z"
+      "scored_at": "2026-08-11T20:35:04.20560726Z"
     },
     {
       "id": "kev:CVE-2026-20349",
@@ -128,20 +128,20 @@
       "scored_at": "2026-08-11T20:35:04.205602593Z"
     },
     {
-      "id": "kev:CVE-2026-72898",
+      "id": "kev:CVE-2026-68820",
       "source": "kev",
-      "title": "CVE-2026-72898 — Metabase SQL Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898",
+      "title": "CVE-2026-68820 — Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820",
       "published": "2026-08-11T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Metabase Metabase. Confirmed exploited in the wild. Federal remediation due 14 August.",
+      "dek": "Microsoft Windows Ancillary Function Driver for WinSock. Confirmed exploited in the wild. Federal remediation due 25 August.",
       "cves": [
-        "CVE-2026-72898"
+        "CVE-2026-68820"
       ],
-      "scored_at": "2026-08-11T20:35:04.20560726Z"
+      "scored_at": "2026-08-11T20:35:04.205605748Z"
     },
     {
       "id": "arxiv:2608.10281v1",
@@ -294,36 +294,6 @@
       "scored_at": "2026-08-11T04:58:35.024347964Z"
     },
     {
-      "id": "arxiv:2608.09225v1",
-      "source": "arxiv",
-      "title": "Governing the KV Cache: Preventing Timing Side-Channel Leakage in Multi-Tenant LLM Inference",
-      "url": "http://arxiv.org/abs/2608.09225v1",
-      "published": "2026-08-10T07:47:57Z",
-      "authors": "Tejasvi C. Addagada",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "KVGov defends multi-tenant LLM inference against three published cache-timing side channels using per-tenant salting and audit scheduling.",
-      "unproven": "Overhead at production scale; whether defense is complete against adaptive adversaries that probe other shared resources; adoption path for vLLM and SGLang in financial services deployments.",
-      "scored_at": "2026-08-11T04:58:46.750871516Z"
-    },
-    {
-      "id": "arxiv:2608.09181v1",
-      "source": "arxiv",
-      "title": "Memoir: Learning, Verifying, and Evolving False-Positive Memories for Static Application Security Testing Tools",
-      "url": "http://arxiv.org/abs/2608.09181v1",
-      "published": "2026-08-10T06:47:39Z",
-      "authors": "Shenyuan Guan et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "LLM-driven framework transforms historical false-positive alerts into reusable memories to improve SAST accuracy and reduce manual triage burden.",
-      "unproven": "effectiveness across different SAST tools and vulnerability types not demonstrated; memory evolution mechanism not tested on real tool outputs over time",
-      "scored_at": "2026-08-11T04:58:57.915333506Z"
-    },
-    {
       "id": "arxiv:2608.12246v1",
       "source": "arxiv",
       "title": "VICBench: A Multi-Language Benchmark for Code Vulnerability Detection",
@@ -398,25 +368,39 @@
       "dek": "Reproducibility audit of 104 LLM/agent vulnerability papers finds 56.7% have public artifacts, only 55.6% complete declared workflows, 56.9% embed mismatched CVE identifiers.",
       "unproven": "Sample bias in R0/R1 execution limited to 18 papers; artifact failure modes not systematized; prescriptive guidance for improvement limited.",
       "scored_at": "2026-08-11T04:58:35.024348105Z"
+    },
+    {
+      "id": "arxiv:2608.09476v1",
+      "source": "arxiv",
+      "title": "ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents",
+      "url": "http://arxiv.org/abs/2608.09476v1",
+      "published": "2026-08-10T11:45:03Z",
+      "authors": "Hongwei Yao et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Benchmark of 600 execution-based safety test cases reveals attack success rates from 10.1% to 94.4% across 15 LLMs and six agents.",
+      "unproven": "Whether test harness reflects real-world agent deployment constraints; whether payload optimization methods scale to production-scale systems; generalization beyond tested APIs.",
+      "scored_at": "2026-08-11T04:58:46.750869684Z"
+    },
+    {
+      "id": "arxiv:2608.12234v1",
+      "source": "arxiv",
+      "title": "Capability-Adaptive Cryptanalysis with Reduced-Space Quantum Verification",
+      "url": "http://arxiv.org/abs/2608.12234v1",
+      "published": "2026-08-12T16:29:53Z",
+      "authors": "Nivedita Dey et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Hybrid cryptanalysis framework combines linear, differential, and side-channel attacks with quantum verification; no timeline for post-quantum migration planning.",
+      "unproven": "no demonstrated break of production ciphers; assumes quantum verification apparatus exists; no guidance on which legacy systems to prioritize",
+      "scored_at": "2026-08-13T09:03:03.453037364Z"
     }
   ],
   "noise": [
-    {
-      "id": "hn:49239751",
-      "source": "hn",
-      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
-      "url": "https://docker.com/products/docker-sandboxes",
-      "published": "2026-08-10T06:02:38Z",
-      "authors": "etoxin",
-      "points": 318,
-      "novelty": 1,
-      "actionability": 2,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Docker-based sandboxing for AI agents; Docker marketing announcement, practical relevance unclear without methodology detail.",
-      "unproven": "whether isolated containers adequately constrain agent behavior in SDLC pipelines; security properties unspecified",
-      "scored_at": "2026-08-10T12:44:28.468681926Z"
-    },
     {
       "id": "hn:49270040",
       "source": "hn",
@@ -448,6 +432,22 @@
       "dek": "Amazon's power plant investment reported; outside application security and SDLC scope.",
       "unproven": "entirely outside reader's remit",
       "scored_at": "2026-08-11T00:58:13.523288794Z"
+    },
+    {
+      "id": "hn:49265051",
+      "source": "hn",
+      "title": "WorldClaw Agentic 3D open-world generation at scale",
+      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw",
+      "published": "2026-08-11T21:56:18Z",
+      "authors": "EwanG",
+      "points": 104,
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Tencent's model generates 3D worlds at scale; a capability demonstration with no security or SDLC implications for application builders.",
+      "unproven": "Security properties, training data lineage, and whether agents using this output introduce novel attack surfaces in production systems.",
+      "scored_at": "2026-08-12T01:05:14.679043306Z"
     }
   ]
 }
