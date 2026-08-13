@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T16:45:15.813435519Z",
+  "generated": "2026-08-13T20:31:27.227826222Z",
   "edition": 20,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 7,
+      "BREAK GLASS": 6,
       "NEW GROUND": 4,
-      "NOISE FLOOR": 10,
+      "NOISE FLOOR": 11,
       "STANDING ORDERS": 4
     }
   },
@@ -96,6 +96,22 @@
       "scored_at": "2026-08-13T05:28:07.964812994Z"
     },
     {
+      "id": "kev:CVE-2026-20349",
+      "source": "kev",
+      "title": "CVE-2026-20349 — Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
+      "published": "2026-08-11T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD). Confirmed exploited in the wild. Federal remediation due 14 August.",
+      "cves": [
+        "CVE-2026-20349"
+      ],
+      "scored_at": "2026-08-11T20:35:04.205602593Z"
+    },
+    {
       "id": "kev:CVE-2026-72898",
       "source": "kev",
       "title": "CVE-2026-72898 — Metabase SQL Injection Vulnerability",
@@ -128,22 +144,6 @@
       "scored_at": "2026-08-11T20:35:04.205605748Z"
     },
     {
-      "id": "kev:CVE-2026-20349",
-      "source": "kev",
-      "title": "CVE-2026-20349 — Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
-      "published": "2026-08-11T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD). Confirmed exploited in the wild. Federal remediation due 14 August.",
-      "cves": [
-        "CVE-2026-20349"
-      ],
-      "scored_at": "2026-08-11T20:35:04.205602593Z"
-    },
-    {
       "id": "arxiv:2608.10281v1",
       "source": "arxiv",
       "title": "From Prompt Injection to Web Exploitation: Revisiting Classic Vulnerabilities in LLM-Integrated Applications",
@@ -157,21 +157,6 @@
       "dek": "LLMs acting as confused deputies in tool-calling pipelines can mediate SQLi, XSS, SSTI, command injection, and SSRF; eight attack classes demonstrated across seven models.",
       "unproven": "whether mitigations in production LLM frameworks (prompt guards, tool sandboxing) actually block these attacks at scale; controlled to Flask and five SSRF scenarios.",
       "scored_at": "2026-08-12T05:25:02.130707701Z"
-    },
-    {
-      "id": "arxiv:2608.09867v1",
-      "source": "arxiv",
-      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "url": "http://arxiv.org/abs/2608.09867v1",
-      "published": "2026-08-10T17:24:50Z",
-      "authors": "Alexander Panfilov et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Encrypted reasoning traces from LLM APIs remain interchangeable across sessions, enabling extraction via cross-model injection without directly jailbreaking the target.",
-      "unproven": "Patch timeline and whether vendors have already remediated; scope limited to three providers at time of submission.",
-      "scored_at": "2026-08-11T04:58:35.024336747Z"
     },
     {
       "id": "arxiv:2608.11469v1",
@@ -398,6 +383,21 @@
       "dek": "Formal modeling of association-based privacy attacks in Wi-Fi P2P and BLE reveals replay and relay vulnerabilities; design changes acknowledged by Wi-Fi Alliance and Bluetooth SIG.",
       "unproven": "formal model does not establish feasibility of real-world exploitation; no public PoC; compliance acknowledgment does not confirm deployment timeline or uptake.",
       "scored_at": "2026-08-13T05:27:59.765079636Z"
+    },
+    {
+      "id": "arxiv:2608.11295v1",
+      "source": "arxiv",
+      "title": "Backdoor Decontamination Dynamics in LLM Agents",
+      "url": "http://arxiv.org/abs/2608.11295v1",
+      "published": "2026-08-11T17:54:26Z",
+      "authors": "Gabriel Huang et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Defensive poisoning followed by unlearning erases ~56% of backdoors directly and almost all survivors after decontamination; trigger and execution are behaviorally dissociable.",
+      "unproven": "115 experiments on AgentDyn only; no evidence method works on production agents or non-tool-calling architectures; unknown trigger assumption unrealistic in many defenses.",
+      "scored_at": "2026-08-13T05:27:59.765079777Z"
     }
   ],
   "noise": [

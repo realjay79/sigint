@@ -29171,6 +29171,22 @@
     "dek": "Oxide describes Kubernetes integration design choices for its hardware platform.",
     "scored_at": "2026-08-13T16:45:15.798566125Z"
   },
+  "hn:49286654": {
+    "id": "hn:49286654",
+    "source": "hn",
+    "title": "Flock updates privacy, accountability, security, and transparency safeguards",
+    "url": "https://flocksafety.com/blog/flock-guardrails-address-lpr-privacy-concerns-and-police-transparency",
+    "published": "2026-08-13T14:37:29Z",
+    "authors": "LazyMans",
+    "points": 33,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Flock Safety announces updates to its camera platform's privacy and security controls.",
+    "unproven": "outside the reader's remit; concerns physical security infrastructure, not SDLC or application security",
+    "scored_at": "2026-08-13T20:31:27.212677274Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",
