@@ -29140,6 +29140,37 @@
     "unproven": "entirely outside the reader's remit",
     "scored_at": "2026-08-13T01:07:01.935162385Z"
   },
+  "hn:49286357": {
+    "id": "hn:49286357",
+    "source": "hn",
+    "title": "We eliminated 1,400 CVEs in NanoClaw's container images",
+    "url": "https://echo.ai/blog/echo-xnanoclaw-under-the-hood",
+    "published": "2026-08-13T14:18:34Z",
+    "authors": "omrimaya",
+    "points": 37,
+    "novelty": 2,
+    "actionability": 2,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Container image hardening reduced reported CVE count in one vendor's product line.",
+    "unproven": "whether elimination reflects actual vulnerability removal or classification changes; generalizability beyond a single product",
+    "scored_at": "2026-08-13T16:45:15.798566636Z"
+  },
+  "hn:49286485": {
+    "id": "hn:49286485",
+    "source": "hn",
+    "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
+    "url": "https://oxide.computer/blog/kubernetes-on-oxide",
+    "published": "2026-08-13T14:26:41Z",
+    "authors": "stevehipwell",
+    "points": 61,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Oxide describes Kubernetes integration design choices for its hardware platform.",
+    "scored_at": "2026-08-13T16:45:15.798566125Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",
