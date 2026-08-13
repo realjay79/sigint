@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T01:07:01.949708735Z",
+  "generated": "2026-08-13T05:28:07.979545218Z",
   "edition": 20,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,13 +13,88 @@
       "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 5,
-      "NEW GROUND": 10,
-      "NOISE FLOOR": 5,
+      "BREAK GLASS": 9,
+      "NEW GROUND": 7,
+      "NOISE FLOOR": 4,
       "STANDING ORDERS": 5
     }
   },
   "items": [
+    {
+      "id": "arxiv:2608.12273v1",
+      "source": "arxiv",
+      "title": "Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents",
+      "url": "http://arxiv.org/abs/2608.12273v1",
+      "published": "2026-08-12T17:12:49Z",
+      "authors": "Junliang Liu et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "LLM agents selecting third-party skills vulnerable to coordinated text attacks that inflate costs while preserving task completion; 80% success rate on DeepSeek-V4-Pro.",
+      "unproven": "whether attacks work against production agent systems with skill curation and rate limiting; generalization beyond the 491 held-out tasks tested",
+      "scored_at": "2026-08-13T05:27:35.760350272Z"
+    },
+    {
+      "id": "arxiv:2608.11878v1",
+      "source": "arxiv",
+      "title": "ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents",
+      "url": "http://arxiv.org/abs/2608.11878v1",
+      "published": "2026-08-12T10:05:09Z",
+      "authors": "Yutao Mou et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "ToolHazard synthesizes adversarial environments to test LLM agents for indirect prompt injection, reveals timing and placement affect attack success, generates alignment data.",
+      "unproven": "whether alignment data generalizes to agents and task domains beyond the benchmark; no evidence robustness survives adversarial fine-tuning at scale",
+      "scored_at": "2026-08-13T05:27:35.760352667Z"
+    },
+    {
+      "id": "arxiv:2608.11730v1",
+      "source": "arxiv",
+      "title": "Plaintext Recovery Against Post-Filtering Access Control",
+      "url": "http://arxiv.org/abs/2608.11730v1",
+      "published": "2026-08-12T07:11:18Z",
+      "authors": "Zachary Espiritu et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Side-channel attacks on post-filtered access control in PostgreSQL and Elasticsearch enable full-record recovery via binary search over expressive queries.",
+      "unproven": "Whether practical defenses exist that preserve both utility and security; impact on real multi-tenant deployments with actual threat model enforcement.",
+      "scored_at": "2026-08-13T05:27:46.560431241Z"
+    },
+    {
+      "id": "arxiv:2608.11392v1",
+      "source": "arxiv",
+      "title": "AI Guardrail Survival under Single-Cycle Agentic Self-Summarization",
+      "url": "http://arxiv.org/abs/2608.11392v1",
+      "published": "2026-08-11T19:57:55Z",
+      "authors": "Ted Kwartler et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Safety rules degrade during LLM context compaction without being dropped, leaving degraded residues that fail to block prohibited actions; textual presence checks miss behavioral failure.",
+      "unproven": "limited to context compaction; tested on unspecified model set; unclear whether findings generalize to production agent architectures or other summarization methods.",
+      "scored_at": "2026-08-13T05:27:59.765079196Z"
+    },
+    {
+      "id": "arxiv:2608.11274v1",
+      "source": "arxiv",
+      "title": "Agent Safety Should Be a Runtime Contract",
+      "url": "http://arxiv.org/abs/2608.11274v1",
+      "published": "2026-08-11T08:01:05Z",
+      "authors": "Albus W. Ng et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Runtime contracts for agent safety via sandboxes and proof gates outperform training-only approaches; survey of 52 incidents and audit of 28,560 papers shows 8-12x imbalance toward prevention over verification.",
+      "unproven": "Evidence base limited to documented incidents and paper titles; deployment outcomes in production SDLC environments untested.",
+      "scored_at": "2026-08-13T05:28:07.964812994Z"
+    },
     {
       "id": "kev:CVE-2026-68820",
       "source": "kev",
@@ -37,22 +112,6 @@
       "scored_at": "2026-08-11T20:35:04.205605748Z"
     },
     {
-      "id": "kev:CVE-2026-72898",
-      "source": "kev",
-      "title": "CVE-2026-72898 — Metabase SQL Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898",
-      "published": "2026-08-11T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Metabase Metabase. Confirmed exploited in the wild. Federal remediation due 14 August.",
-      "cves": [
-        "CVE-2026-72898"
-      ],
-      "scored_at": "2026-08-11T20:35:04.20560726Z"
-    },
-    {
       "id": "kev:CVE-2026-20349",
       "source": "kev",
       "title": "CVE-2026-20349 — Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
@@ -67,6 +126,22 @@
         "CVE-2026-20349"
       ],
       "scored_at": "2026-08-11T20:35:04.205602593Z"
+    },
+    {
+      "id": "kev:CVE-2026-72898",
+      "source": "kev",
+      "title": "CVE-2026-72898 — Metabase SQL Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898",
+      "published": "2026-08-11T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Metabase Metabase. Confirmed exploited in the wild. Federal remediation due 14 August.",
+      "cves": [
+        "CVE-2026-72898"
+      ],
+      "scored_at": "2026-08-11T20:35:04.20560726Z"
     },
     {
       "id": "arxiv:2608.10281v1",
@@ -129,19 +204,34 @@
       "scored_at": "2026-08-11T04:58:35.024347824Z"
     },
     {
-      "id": "arxiv:2608.09025v1",
+      "id": "arxiv:2608.11469v1",
       "source": "arxiv",
-      "title": "Context Is Not Authority: Structured Runtime Governance for Financial Market Agents",
-      "url": "http://arxiv.org/abs/2608.09025v1",
-      "published": "2026-08-10T02:26:07Z",
-      "authors": "Rui Tang et al.",
+      "title": "The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark",
+      "url": "http://arxiv.org/abs/2608.11469v1",
+      "published": "2026-08-11T22:14:57Z",
+      "authors": "Jeremy Spence et al.",
       "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "SAGE-Fin enforces typed authority handoff for financial agents, matching effects to consuming adapters and rechecking authorization after state changes.",
-      "unproven": "whether the 616-case catalog covers edge cases in production deployment; whether deterministic specifications catch all failure modes",
-      "scored_at": "2026-08-11T04:59:09.218012826Z"
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "SRE-Bench provides 262 contamination-free binary reverse-engineering instances with 1,572 graded tasks; first realistic benchmark for agentic RE.",
+      "unproven": "Whether benchmark difficulty and anti-analysis protections reflect real-world proprietary malware or firmware; generalization of agent findings to actual targets.",
+      "scored_at": "2026-08-13T05:27:46.560431962Z"
+    },
+    {
+      "id": "arxiv:2608.11436v1",
+      "source": "arxiv",
+      "title": "When Agents Talk: Honeytokens under Shared Memory",
+      "url": "http://arxiv.org/abs/2608.11436v1",
+      "published": "2026-08-11T21:03:19Z",
+      "authors": "Joshua S. Gans",
+      "novelty": 5,
+      "actionability": 2,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Shared memory enables AI agents to maintain persistent exploit channels across sessions, defeating traditional honeytoken defenses; theory and 2026 case study.",
+      "unproven": "Whether theory applies to current LLM agents or requires architectural changes; practical constraints on agent memory capacity and coalition stability in real deployments.",
+      "scored_at": "2026-08-13T05:27:46.560432123Z"
     },
     {
       "id": "arxiv:2608.10959v1",
@@ -234,34 +324,19 @@
       "scored_at": "2026-08-11T04:58:57.915333506Z"
     },
     {
-      "id": "arxiv:2608.09094v1",
+      "id": "arxiv:2608.12246v1",
       "source": "arxiv",
-      "title": "VUPER: Verified ASN.1 UPER Parser",
-      "url": "http://arxiv.org/abs/2608.09094v1",
-      "published": "2026-08-10T03:47:38Z",
-      "authors": "Xiaotian Zhou et al.",
-      "novelty": 4,
+      "title": "VICBench: A Multi-Language Benchmark for Code Vulnerability Detection",
+      "url": "http://arxiv.org/abs/2608.12246v1",
+      "published": "2026-08-12T16:45:49Z",
+      "authors": "Jin Lu et al.",
+      "novelty": 3,
       "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Verified ASN.1 UPER parser framework uncovers 20 inconsistency types in 11 open-source and commercial parsers used in 5G and V2X protocols.",
-      "unproven": "findings limited to ASN.1 parsing; does not establish whether reader's organization uses affected parsers or protocols",
-      "scored_at": "2026-08-11T04:58:57.915334497Z"
-    },
-    {
-      "id": "arxiv:2608.09069v2",
-      "source": "arxiv",
-      "title": "Telemetry and Concealment in Self-Adapting Generative AI: Logging Architecture, Adversarial Model Hiding, and the Limits of Detection",
-      "url": "http://arxiv.org/abs/2608.09069v2",
-      "published": "2026-08-10T03:20:06Z",
-      "authors": "Sriram Nagaraj",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Self-adapting generative AI models that retrain in production violate static MRM assumptions; tamper-evident logging via Merkle chains and KL-divergence stopping times proposed.",
-      "unproven": "whether adversarial model hiding can be detected in practice; computational overhead of proposed telemetry; applicability to models not designed for self-adaptation.",
-      "scored_at": "2026-08-12T05:25:02.130708513Z"
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "VICBench dataset of 100 verified vulnerability-inducing commits across Python, Java, C++ exposes SZZ algorithm limitations with 33-40% F1, enabling better eval of detection tooling.",
+      "unproven": "whether F1 gaps reflect real detection blind spots in production SAST/DAST or measurement artifacts; transferability to codebases beyond the 88 projects included",
+      "scored_at": "2026-08-13T05:27:35.760350703Z"
     },
     {
       "id": "hn:49272832",
@@ -278,6 +353,21 @@
       "dek": "16-year-old SQLite WAL bug caused Tailscale data corruption; check whether deployed systems depend on affected versions.",
       "unproven": "whether Tailscale patches are deployed in reader's infrastructure; SQLite version inventory needed",
       "scored_at": "2026-08-12T16:46:29.246077751Z"
+    },
+    {
+      "id": "arxiv:2608.11418v1",
+      "source": "arxiv",
+      "title": "A Study of Kernel Telemetry Options for Security-Oriented Provenance",
+      "url": "http://arxiv.org/abs/2608.11418v1",
+      "published": "2026-08-11T20:33:44Z",
+      "authors": "Paul R. B. Houssel et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "eBPF identified as most viable kernel telemetry approach for provenance capture; existing tools lack integrity and availability guarantees for security use.",
+      "unproven": "evaluation limited to micro-benchmarks; production deployment outcomes not tested; container-level filtering not validated at scale.",
+      "scored_at": "2026-08-13T05:27:59.765078795Z"
     },
     {
       "id": "arxiv:2608.10614v1",
@@ -308,96 +398,6 @@
       "dek": "Reproducibility audit of 104 LLM/agent vulnerability papers finds 56.7% have public artifacts, only 55.6% complete declared workflows, 56.9% embed mismatched CVE identifiers.",
       "unproven": "Sample bias in R0/R1 execution limited to 18 papers; artifact failure modes not systematized; prescriptive guidance for improvement limited.",
       "scored_at": "2026-08-11T04:58:35.024348105Z"
-    },
-    {
-      "id": "arxiv:2608.09476v1",
-      "source": "arxiv",
-      "title": "ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents",
-      "url": "http://arxiv.org/abs/2608.09476v1",
-      "published": "2026-08-10T11:45:03Z",
-      "authors": "Hongwei Yao et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Benchmark of 600 execution-based safety test cases reveals attack success rates from 10.1% to 94.4% across 15 LLMs and six agents.",
-      "unproven": "Whether test harness reflects real-world agent deployment constraints; whether payload optimization methods scale to production-scale systems; generalization beyond tested APIs.",
-      "scored_at": "2026-08-11T04:58:46.750869684Z"
-    },
-    {
-      "id": "arxiv:2608.09075v1",
-      "source": "arxiv",
-      "title": "SLAC: Access-Driven CPU-to-GPU Side-channel Attacks via System-Level Cache on Apple Silicon",
-      "url": "http://arxiv.org/abs/2608.09075v1",
-      "published": "2026-08-10T03:25:16Z",
-      "authors": "Tianhong Xu et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Fine-grained CPU-to-GPU cache side-channel attacks on Apple Silicon extract GPU victim activity via shared system-level cache Prime+Probe variant.",
-      "unproven": "limited to Apple M1 architecture; no evidence of exploitation in the wild; reader does not manage GPU workloads or set Apple silicon policy",
-      "scored_at": "2026-08-11T04:58:57.915334758Z"
-    },
-    {
-      "id": "arxiv:2608.11187v1",
-      "source": "arxiv",
-      "title": "Statistically-Secure Bit Commitment and Coin Flipping Protocols Based on Quantum Hardware Assumptions",
-      "url": "http://arxiv.org/abs/2608.11187v1",
-      "published": "2026-08-11T17:45:59Z",
-      "authors": "Roo Dunnill et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Hybrid locked PUFs enable statistically secure bit commitment and coin-flipping protocols in quantum networks.",
-      "unproven": "requires deployment of hybrid locked physical unclonable functions in production; no comparison to existing quantum-safe protocols.",
-      "scored_at": "2026-08-12T05:24:50.125162073Z"
-    },
-    {
-      "id": "arxiv:2608.11155v1",
-      "source": "arxiv",
-      "title": "On the Sensitivity to Errors in Homomorphic Computing: Single Transient Bit-flip Client-side Error Characterization",
-      "url": "http://arxiv.org/abs/2608.11155v1",
-      "published": "2026-08-11T17:13:39Z",
-      "authors": "Matías Mazzanti et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "CKKS homomorphic encryption exhibits critical error sensitivity in multiplication, with fault propagation that can corrupt results silently.",
-      "unproven": "limited to CKKS scheme; no fault injection defense deployed; assessment of risk to deployed HE systems in finance or healthcare absent.",
-      "scored_at": "2026-08-12T05:24:50.125162674Z"
-    },
-    {
-      "id": "arxiv:2608.11151v1",
-      "source": "arxiv",
-      "title": "Breaking the Quadratic Barrier for von Neumann Entropy Estimation",
-      "url": "http://arxiv.org/abs/2608.11151v1",
-      "published": "2026-08-11T17:10:34Z",
-      "authors": "Minbo Gao et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Subquadratic-sample estimator for von Neumann entropy breaks the quadratic barrier for d-dimensional quantum states.",
-      "unproven": "This is outside the reader's domain entirely.",
-      "scored_at": "2026-08-12T05:25:09.867494499Z"
-    },
-    {
-      "id": "arxiv:2608.11147v1",
-      "source": "arxiv",
-      "title": "When and Where Faults Matter: A Study of Transient Errors in CKKS Multiplication",
-      "url": "http://arxiv.org/abs/2608.11147v1",
-      "published": "2026-08-11T17:06:00Z",
-      "authors": "Vattana Chan et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Timing and location of transient faults in CKKS ciphertext components c_0 and c_1 significantly affect FHE output correctness.",
-      "unproven": "limited to unoptimized CKKS; no defense mechanism proposed; no evaluation against detection or mitigation in production deployments.",
-      "scored_at": "2026-08-12T05:24:50.125164377Z"
     }
   ],
   "noise": [
