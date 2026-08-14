@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T05:26:01.22658906Z",
+  "generated": "2026-08-14T08:59:20.642870182Z",
   "edition": 21,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,10 +12,10 @@
       "hn": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 8,
+      "BREAK GLASS": 7,
       "NEW GROUND": 11,
       "NOISE FLOOR": 5,
-      "STANDING ORDERS": 1
+      "STANDING ORDERS": 2
     }
   },
   "items": [
@@ -125,21 +125,6 @@
       "scored_at": "2026-08-13T05:27:59.765079196Z"
     },
     {
-      "id": "arxiv:2608.11274v1",
-      "source": "arxiv",
-      "title": "Agent Safety Should Be a Runtime Contract",
-      "url": "http://arxiv.org/abs/2608.11274v1",
-      "published": "2026-08-11T08:01:05Z",
-      "authors": "Albus W. Ng et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Runtime contracts for agent safety via sandboxes and proof gates outperform training-only approaches; survey of 52 incidents and audit of 28,560 papers shows 8-12x imbalance toward prevention over verification.",
-      "unproven": "Evidence base limited to documented incidents and paper titles; deployment outcomes in production SDLC environments untested.",
-      "scored_at": "2026-08-13T05:28:07.964812994Z"
-    },
-    {
       "id": "arxiv:2608.13450v1",
       "source": "arxiv",
       "title": "LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles",
@@ -153,6 +138,51 @@
       "dek": "LLMs generate 3,700 test harnesses for safety-critical weaknesses in Autoware; 64% compile first-attempt, 80% failures are dependency wiring.",
       "unproven": "One codebase (Autoware), no evidence that generated harnesses find exploitable vulnerabilities missed by existing SAST or fuzzing pipelines.",
       "scored_at": "2026-08-14T05:25:22.489006519Z"
+    },
+    {
+      "id": "arxiv:2608.13050v1",
+      "source": "arxiv",
+      "title": "Operationalizing Cyber Threat Intelligence with GraphRAG",
+      "url": "http://arxiv.org/abs/2608.13050v1",
+      "published": "2026-08-13T10:15:05Z",
+      "authors": "Atul Kabra et al.",
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "GraphRAG-based detection rule generation sustained 100% alert rate after IP/domain/hash rotation versus 29% for vector-similarity retrieval on one APT28 report.",
+      "unproven": "single case study; generalization to other threat reports, detection engineering workflows, and false-positive trade-offs not established; comparison limited to one baseline approach.",
+      "scored_at": "2026-08-14T08:58:55.090835234Z"
+    },
+    {
+      "id": "arxiv:2608.13042v1",
+      "source": "arxiv",
+      "title": "InSPECtor: Improving SLEIGH Processor Specification Veracity via Proxy",
+      "url": "http://arxiv.org/abs/2608.13042v1",
+      "published": "2026-08-13T10:08:41Z",
+      "authors": "Michael Chesser et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Differential testing of SLEIGH processor specifications against hardware references uncovered over 38,920 discrepancies in x86-64, AArch64, ARM, RISC-V, and MSP430.",
+      "unproven": "impact of discrepancies on real-world disassembly, decompilation, or vulnerability analysis not quantified; whether findings force specification corrections or tool mitigations remains unclear.",
+      "scored_at": "2026-08-14T08:58:55.090836276Z"
+    },
+    {
+      "id": "arxiv:2608.12996v1",
+      "source": "arxiv",
+      "title": "ATOBench: Tracing How Autonomous Penetration-Testing Agents Verify Vulnerabilities When Target Evidence Lies",
+      "url": "http://arxiv.org/abs/2608.12996v1",
+      "published": "2026-08-13T09:20:45Z",
+      "authors": "Qiyang Chen et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "ATOBench makes autonomous penetration-testing agent verification observable by injecting response transformations at runtime and tracking report construction against deceptive evidence.",
+      "unproven": "evaluation on five model routes only; generalization to production red-team workflows and real exploitation scenarios not established; whether findings apply to agents deployed without observable verification loops unclear.",
+      "scored_at": "2026-08-14T08:58:55.090839202Z"
     },
     {
       "id": "arxiv:2608.12859v1",
@@ -260,6 +290,21 @@
       "scored_at": "2026-08-12T05:24:50.125165289Z"
     },
     {
+      "id": "arxiv:2608.13138v1",
+      "source": "arxiv",
+      "title": "A Commitment-Based Hybrid Post-Quantum Cryptographic Model for Multi-File Cloud Storage",
+      "url": "http://arxiv.org/abs/2608.13138v1",
+      "published": "2026-08-13T12:14:54Z",
+      "authors": "Lemdi Frank Prikutse et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Batch commitment over hybrid post-quantum signatures reduces per-file signing cost from O(n) to O(1) in cloud storage.",
+      "unproven": "evaluation limited to commodity client platform; integration cost with existing cloud APIs and key rotation workflows not measured; performance on competing batch-signature schemes not established.",
+      "scored_at": "2026-08-14T08:58:55.090834783Z"
+    },
+    {
       "id": "arxiv:2608.12713v1",
       "source": "arxiv",
       "title": "Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks",
@@ -336,21 +381,6 @@
       "scored_at": "2026-08-13T05:27:59.765078795Z"
     },
     {
-      "id": "arxiv:2608.10614v1",
-      "source": "arxiv",
-      "title": "Trigger the Straggler: Load Hijack on Mixture-of-Experts LLMs",
-      "url": "http://arxiv.org/abs/2608.10614v1",
-      "published": "2026-08-11T07:57:22Z",
-      "authors": "Rui Zhang et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Poisoning MoE router weights concentrates load on a single GPU, forcing stragglers and serving denial-of-service, triggered by attacker-controlled inputs.",
-      "unproven": "limited to MoE architectures under expert parallelism; no evaluation of detection by model inspection or anomaly monitoring in production; mitigation effectiveness not measured.",
-      "scored_at": "2026-08-12T05:24:50.1251656Z"
-    },
-    {
       "id": "hn:49290521",
       "source": "hn",
       "title": "Person Hides Prompt Injection in Legal Filing Telling AI to Side with Them",
@@ -365,36 +395,6 @@
       "dek": "Prompt injection embedded in legal document demonstrates an attack surface in LLM-assisted review workflows.",
       "unproven": "whether production legal AI systems lack defenses against this; applicability to agents in SDLC pipelines",
       "scored_at": "2026-08-14T01:05:03.010300944Z"
-    },
-    {
-      "id": "arxiv:2608.13561v1",
-      "source": "arxiv",
-      "title": "Experimental Quantum Key Distribution in an Indefinite Causal Order",
-      "url": "http://arxiv.org/abs/2608.13561v1",
-      "published": "2026-08-13T17:59:58Z",
-      "authors": "Yann Valibouse et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Photonic quantum BB84 variant using indefinite causal order detects eavesdropping without disclosing key material.",
-      "unproven": "lab-scale proof-of-concept only; post-quantum cryptography and quantum key distribution are outside reader's security-SDLC remit",
-      "scored_at": "2026-08-14T05:26:01.211164523Z"
-    },
-    {
-      "id": "arxiv:2608.13389v1",
-      "source": "arxiv",
-      "title": "TopoIntent: Compiling Security Intent into Executable, Compliance-Checked Network Topologies",
-      "url": "http://arxiv.org/abs/2608.13389v1",
-      "published": "2026-08-13T15:49:37Z",
-      "authors": "Xiaokang Qu et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLM system compiles natural-language security intent into network topologies, checks against CIS Controls v8.1.2, exports to Mininet.",
-      "unproven": "Evaluation benchmark constructed by authors; no evidence on real enterprise requirements or whether CIS-layer compliance ensures functional security.",
-      "scored_at": "2026-08-14T05:25:22.489008351Z"
     }
   ],
   "noise": [
