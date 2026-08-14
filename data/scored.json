@@ -29187,6 +29187,83 @@
     "unproven": "outside the reader's remit; concerns physical security infrastructure, not SDLC or application security",
     "scored_at": "2026-08-13T20:31:27.212677274Z"
   },
+  "hn:49288296": {
+    "id": "hn:49288296",
+    "source": "hn",
+    "title": "GoAccess – Open-source real-time log analyzer and interactive viewer",
+    "url": "https://goaccess.io/",
+    "published": "2026-08-13T16:22:16Z",
+    "authors": "gregsadetsky",
+    "points": 51,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Open-source log analysis tool; no security finding or vulnerability disclosed.",
+    "scored_at": "2026-08-14T01:05:03.010302206Z"
+  },
+  "hn:49290062": {
+    "id": "hn:49290062",
+    "source": "hn",
+    "title": "AI Is Threatening Natural Resources for Billions",
+    "url": "https://unric.org/en/ais-environmental-costs-threaten-water-land-and-climate",
+    "published": "2026-08-13T18:28:20Z",
+    "authors": "quaintdev",
+    "points": 52,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Opinion piece on AI resource consumption and environmental impact; outside application security scope.",
+    "scored_at": "2026-08-14T01:05:03.010301925Z"
+  },
+  "hn:49290065": {
+    "id": "hn:49290065",
+    "source": "hn",
+    "title": "Oracle exec boasts about supplying \"scary technology\" to the IDF for use in Gaza",
+    "url": "https://twitter.com/KweenInYellow/status/2087632844264796176",
+    "published": "2026-08-13T18:28:56Z",
+    "authors": "grandpajoey",
+    "points": 31,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Oracle executive statement about government technology; personnel commentary with no security engineering content.",
+    "scored_at": "2026-08-14T01:05:03.010301455Z"
+  },
+  "hn:49290521": {
+    "id": "hn:49290521",
+    "source": "hn",
+    "title": "Person Hides Prompt Injection in Legal Filing Telling AI to Side with Them",
+    "url": "https://404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them",
+    "published": "2026-08-13T19:04:52Z",
+    "authors": "hampelm",
+    "points": 41,
+    "novelty": 3,
+    "actionability": 2,
+    "score": 5,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Prompt injection embedded in legal document demonstrates an attack surface in LLM-assisted review workflows.",
+    "unproven": "whether production legal AI systems lack defenses against this; applicability to agents in SDLC pipelines",
+    "scored_at": "2026-08-14T01:05:03.010300944Z"
+  },
+  "hn:49291782": {
+    "id": "hn:49291782",
+    "source": "hn",
+    "title": "Terabytes of credentials leaked in supply-chain attack",
+    "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack",
+    "published": "2026-08-13T20:59:15Z",
+    "authors": "RattlesnakeJake",
+    "points": 35,
+    "novelty": 2,
+    "actionability": 2,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Supply-chain credential breach reported; scope and affected systems unclear from headline.",
+    "unproven": "which systems or dependencies the reader's firm actually uses; whether credentials are active or rotated",
+    "scored_at": "2026-08-14T01:05:03.010300363Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",
@@ -29202,22 +29279,6 @@
       "CVE-2021-27137"
     ],
     "scored_at": "2026-07-25T16:23:52.50339Z"
-  },
-  "kev:CVE-2023-4346": {
-    "id": "kev:CVE-2023-4346",
-    "source": "kev",
-    "title": "CVE-2023-4346 — KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346",
-    "published": "2026-07-15T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "KNX Association KNX Protocol Connection Authorization Option 1. Confirmed exploited in the wild. Federal remediation due 29 July.",
-    "cves": [
-      "CVE-2023-4346"
-    ],
-    "scored_at": "2026-07-25T16:23:52.503398Z"
   },
   "kev:CVE-2025-68686": {
     "id": "kev:CVE-2025-68686",
@@ -29394,22 +29455,6 @@
       "CVE-2026-39808"
     ],
     "scored_at": "2026-07-25T16:23:52.503394Z"
-  },
-  "kev:CVE-2026-46817": {
-    "id": "kev:CVE-2026-46817",
-    "source": "kev",
-    "title": "CVE-2026-46817 — Oracle E-Business Suite Improper Privilege Management Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817",
-    "published": "2026-07-15T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "Oracle E-Business Suite. Confirmed exploited in the wild. Federal remediation due 18 July.",
-    "cves": [
-      "CVE-2026-46817"
-    ],
-    "scored_at": "2026-07-25T16:23:52.503396Z"
   },
   "kev:CVE-2026-50522": {
     "id": "kev:CVE-2026-50522",

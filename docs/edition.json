@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-13T20:31:27.227826222Z",
-  "edition": 20,
+  "generated": "2026-08-14T01:05:03.023340375Z",
+  "edition": 21,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 21,
-      "hn": 1,
-      "kev": 3
+      "arxiv": 23,
+      "hn": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
-      "NEW GROUND": 4,
-      "NOISE FLOOR": 11,
-      "STANDING ORDERS": 4
+      "BREAK GLASS": 5,
+      "NEW GROUND": 6,
+      "NOISE FLOOR": 13,
+      "STANDING ORDERS": 1
     }
   },
   "items": [
@@ -94,69 +93,6 @@
       "dek": "Runtime contracts for agent safety via sandboxes and proof gates outperform training-only approaches; survey of 52 incidents and audit of 28,560 papers shows 8-12x imbalance toward prevention over verification.",
       "unproven": "Evidence base limited to documented incidents and paper titles; deployment outcomes in production SDLC environments untested.",
       "scored_at": "2026-08-13T05:28:07.964812994Z"
-    },
-    {
-      "id": "kev:CVE-2026-20349",
-      "source": "kev",
-      "title": "CVE-2026-20349 — Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
-      "published": "2026-08-11T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD). Confirmed exploited in the wild. Federal remediation due 14 August.",
-      "cves": [
-        "CVE-2026-20349"
-      ],
-      "scored_at": "2026-08-11T20:35:04.205602593Z"
-    },
-    {
-      "id": "kev:CVE-2026-72898",
-      "source": "kev",
-      "title": "CVE-2026-72898 — Metabase SQL Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898",
-      "published": "2026-08-11T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Metabase Metabase. Confirmed exploited in the wild. Federal remediation due 14 August.",
-      "cves": [
-        "CVE-2026-72898"
-      ],
-      "scored_at": "2026-08-11T20:35:04.20560726Z"
-    },
-    {
-      "id": "kev:CVE-2026-68820",
-      "source": "kev",
-      "title": "CVE-2026-68820 — Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820",
-      "published": "2026-08-11T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft Windows Ancillary Function Driver for WinSock. Confirmed exploited in the wild. Federal remediation due 25 August.",
-      "cves": [
-        "CVE-2026-68820"
-      ],
-      "scored_at": "2026-08-11T20:35:04.205605748Z"
-    },
-    {
-      "id": "arxiv:2608.10281v1",
-      "source": "arxiv",
-      "title": "From Prompt Injection to Web Exploitation: Revisiting Classic Vulnerabilities in LLM-Integrated Applications",
-      "url": "http://arxiv.org/abs/2608.10281v1",
-      "published": "2026-08-10T22:24:16Z",
-      "authors": "Spiros Tsigkopoulos et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "LLMs acting as confused deputies in tool-calling pipelines can mediate SQLi, XSS, SSTI, command injection, and SSRF; eight attack classes demonstrated across seven models.",
-      "unproven": "whether mitigations in production LLM frameworks (prompt guards, tool sandboxing) actually block these attacks at scale; controlled to Flask and five SSRF scenarios.",
-      "scored_at": "2026-08-12T05:25:02.130707701Z"
     },
     {
       "id": "arxiv:2608.11469v1",
@@ -280,6 +216,22 @@
       "scored_at": "2026-08-12T05:24:50.1251656Z"
     },
     {
+      "id": "hn:49290521",
+      "source": "hn",
+      "title": "Person Hides Prompt Injection in Legal Filing Telling AI to Side with Them",
+      "url": "https://404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them",
+      "published": "2026-08-13T19:04:52Z",
+      "authors": "hampelm",
+      "points": 41,
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Prompt injection embedded in legal document demonstrates an attack surface in LLM-assisted review workflows.",
+      "unproven": "whether production legal AI systems lack defenses against this; applicability to agents in SDLC pipelines",
+      "scored_at": "2026-08-14T01:05:03.010300944Z"
+    },
+    {
       "id": "arxiv:2608.12234v1",
       "source": "arxiv",
       "title": "Capability-Adaptive Cryptanalysis with Reduced-Space Quantum Verification",
@@ -398,6 +350,51 @@
       "dek": "Defensive poisoning followed by unlearning erases ~56% of backdoors directly and almost all survivors after decontamination; trigger and execution are behaviorally dissociable.",
       "unproven": "115 experiments on AgentDyn only; no evidence method works on production agents or non-tool-calling architectures; unknown trigger assumption unrealistic in many defenses.",
       "scored_at": "2026-08-13T05:27:59.765079777Z"
+    },
+    {
+      "id": "arxiv:2608.11187v1",
+      "source": "arxiv",
+      "title": "Statistically-Secure Bit Commitment and Coin Flipping Protocols Based on Quantum Hardware Assumptions",
+      "url": "http://arxiv.org/abs/2608.11187v1",
+      "published": "2026-08-11T17:45:59Z",
+      "authors": "Roo Dunnill et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Hybrid locked PUFs enable statistically secure bit commitment and coin-flipping protocols in quantum networks.",
+      "unproven": "requires deployment of hybrid locked physical unclonable functions in production; no comparison to existing quantum-safe protocols.",
+      "scored_at": "2026-08-12T05:24:50.125162073Z"
+    },
+    {
+      "id": "arxiv:2608.11155v1",
+      "source": "arxiv",
+      "title": "On the Sensitivity to Errors in Homomorphic Computing: Single Transient Bit-flip Client-side Error Characterization",
+      "url": "http://arxiv.org/abs/2608.11155v1",
+      "published": "2026-08-11T17:13:39Z",
+      "authors": "Matías Mazzanti et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "CKKS homomorphic encryption exhibits critical error sensitivity in multiplication, with fault propagation that can corrupt results silently.",
+      "unproven": "limited to CKKS scheme; no fault injection defense deployed; assessment of risk to deployed HE systems in finance or healthcare absent.",
+      "scored_at": "2026-08-12T05:24:50.125162674Z"
+    },
+    {
+      "id": "arxiv:2608.11151v1",
+      "source": "arxiv",
+      "title": "Breaking the Quadratic Barrier for von Neumann Entropy Estimation",
+      "url": "http://arxiv.org/abs/2608.11151v1",
+      "published": "2026-08-11T17:10:34Z",
+      "authors": "Minbo Gao et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Subquadratic-sample estimator for von Neumann entropy breaks the quadratic barrier for d-dimensional quantum states.",
+      "unproven": "This is outside the reader's domain entirely.",
+      "scored_at": "2026-08-12T05:25:09.867494499Z"
     }
   ],
   "noise": [
@@ -418,22 +415,6 @@
       "scored_at": "2026-08-12T16:46:29.246078552Z"
     },
     {
-      "id": "hn:49249971",
-      "source": "hn",
-      "title": "Amazon backs power plant that may become top source of US climate pollution",
-      "url": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge",
-      "published": "2026-08-10T21:26:16Z",
-      "authors": "pjmlp",
-      "points": 156,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Amazon's power plant investment reported; outside application security and SDLC scope.",
-      "unproven": "entirely outside reader's remit",
-      "scored_at": "2026-08-11T00:58:13.523288794Z"
-    },
-    {
       "id": "hn:49265051",
       "source": "hn",
       "title": "WorldClaw Agentic 3D open-world generation at scale",
@@ -448,6 +429,22 @@
       "dek": "Tencent's model generates 3D worlds at scale; a capability demonstration with no security or SDLC implications for application builders.",
       "unproven": "Security properties, training data lineage, and whether agents using this output introduce novel attack surfaces in production systems.",
       "scored_at": "2026-08-12T01:05:14.679043306Z"
+    },
+    {
+      "id": "hn:49272569",
+      "source": "hn",
+      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "url": "https://knownagents.com/insights",
+      "published": "2026-08-12T14:02:46Z",
+      "authors": "gavinhking",
+      "points": 95,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Spoofed bot user-agents running mass vulnerability scans; vocabulary for threat modeling agent-based reconnaissance.",
+      "unproven": "whether this reflects a sustained pattern or isolated incident; no evidence of novel attack method",
+      "scored_at": "2026-08-12T16:46:29.246078252Z"
     }
   ]
 }
