@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T12:41:51.027139977Z",
+  "generated": "2026-08-14T16:40:53.275965378Z",
   "edition": 21,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,13 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 22,
-      "hn": 3
+      "arxiv": 21,
+      "hn": 4
     },
     "by_quadrant": {
       "BREAK GLASS": 8,
-      "NEW GROUND": 11,
-      "NOISE FLOOR": 5,
+      "NEW GROUND": 10,
+      "NOISE FLOOR": 6,
       "STANDING ORDERS": 1
     }
   },
@@ -276,21 +276,6 @@
       "scored_at": "2026-08-14T05:26:01.211164056Z"
     },
     {
-      "id": "arxiv:2608.10959v1",
-      "source": "arxiv",
-      "title": "Once Poisoned, Arbitrarily Controlled: A Programmable Backdoor in VLMs",
-      "url": "http://arxiv.org/abs/2608.10959v1",
-      "published": "2026-08-11T14:25:29Z",
-      "authors": "Tao Lin et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Single poisoning phase plants programmable VLM backdoor allowing attacker to control target captions and synthesize triggers at inference time.",
-      "unproven": "evaluated on limited model families; no assessment of detection by SAST or architecture review tools; decoupling of training from inference control not validated across deployment scenarios.",
-      "scored_at": "2026-08-12T05:24:50.125164548Z"
-    },
-    {
       "id": "arxiv:2608.13138v1",
       "source": "arxiv",
       "title": "A Commitment-Based Hybrid Post-Quantum Cryptographic Model for Multi-File Cloud Storage",
@@ -396,6 +381,22 @@
       "dek": "Kubernetes CPU limits often misconfig and harm stability; informs platform hardening this quarter if reader runs K8s.",
       "unproven": "scoped to CPU limits only; does not cover memory, I/O, or network resource controls",
       "scored_at": "2026-08-14T12:41:51.01200426Z"
+    },
+    {
+      "id": "hn:49290521",
+      "source": "hn",
+      "title": "Person Hides Prompt Injection in Legal Filing Telling AI to Side with Them",
+      "url": "https://404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them",
+      "published": "2026-08-13T19:04:52Z",
+      "authors": "hampelm",
+      "points": 41,
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Prompt injection embedded in legal document demonstrates an attack surface in LLM-assisted review workflows.",
+      "unproven": "whether production legal AI systems lack defenses against this; applicability to agents in SDLC pipelines",
+      "scored_at": "2026-08-14T01:05:03.010300944Z"
     }
   ],
   "noise": [

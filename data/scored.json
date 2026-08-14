@@ -30880,6 +30880,21 @@
     "unproven": "depends on whether reader's codebase uses vulnerable deserialization patterns; exploitation conditions not yet confirmed in production environments",
     "scored_at": "2026-08-14T12:41:51.01200951Z"
   },
+  "hn:49296902": {
+    "id": "hn:49296902",
+    "source": "hn",
+    "title": "Ntfy – open-source Push to Mobile",
+    "url": "https://ntfy.sh/",
+    "published": "2026-08-14T10:35:43Z",
+    "authors": "Fake4d",
+    "points": 36,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Open-source push notification service; established pattern, no security angle.",
+    "scored_at": "2026-08-14T16:40:53.260166011Z"
+  },
   "hn:49296939": {
     "id": "hn:49296939",
     "source": "hn",
