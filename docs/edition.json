@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T08:59:20.642870182Z",
+  "generated": "2026-08-14T12:41:51.027139977Z",
   "edition": 21,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,17 +8,33 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 23,
-      "hn": 2
+      "arxiv": 22,
+      "hn": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 7,
+      "BREAK GLASS": 8,
       "NEW GROUND": 11,
       "NOISE FLOOR": 5,
-      "STANDING ORDERS": 2
+      "STANDING ORDERS": 1
     }
   },
   "items": [
+    {
+      "id": "hn:49295238",
+      "source": "hn",
+      "title": "Ruby 4.0 Universal RCE Deserialization Gadget Chain",
+      "url": "https://elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain",
+      "published": "2026-08-14T06:09:04Z",
+      "authors": "pentestercrab",
+      "points": 48,
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Universal Ruby deserialization gadget chain enables RCE; requires immediate review if Ruby is in the SDLC dependency tree.",
+      "unproven": "depends on whether reader's codebase uses vulnerable deserialization patterns; exploitation conditions not yet confirmed in production environments",
+      "scored_at": "2026-08-14T12:41:51.01200951Z"
+    },
     {
       "id": "arxiv:2608.13404v1",
       "source": "arxiv",
@@ -275,21 +291,6 @@
       "scored_at": "2026-08-12T05:24:50.125164548Z"
     },
     {
-      "id": "arxiv:2608.10760v1",
-      "source": "arxiv",
-      "title": "A Gateway Architecture for Enterprise MCP Authentication: Unifying Heterogeneous Auth, Identity Delegation, and the User / Non-User Persona Problem",
-      "url": "http://arxiv.org/abs/2608.10760v1",
-      "published": "2026-08-11T10:19:20Z",
-      "authors": "Suraj Kumar et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Production MCP gateway unifies heterogeneous authentication (SSO, OAuth, API keys) and identity delegation across fragmented enterprise LLM agent servers.",
-      "unproven": "deployment pattern from single organization; generalizability to different enterprise identity topologies not established; offboarding and revocation at scale not fully characterized.",
-      "scored_at": "2026-08-12T05:24:50.125165289Z"
-    },
-    {
       "id": "arxiv:2608.13138v1",
       "source": "arxiv",
       "title": "A Commitment-Based Hybrid Post-Quantum Cryptographic Model for Multi-File Cloud Storage",
@@ -381,20 +382,20 @@
       "scored_at": "2026-08-13T05:27:59.765078795Z"
     },
     {
-      "id": "hn:49290521",
+      "id": "hn:49296939",
       "source": "hn",
-      "title": "Person Hides Prompt Injection in Legal Filing Telling AI to Side with Them",
-      "url": "https://404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them",
-      "published": "2026-08-13T19:04:52Z",
-      "authors": "hampelm",
-      "points": 41,
-      "novelty": 3,
-      "actionability": 2,
+      "title": "For the love of god stop using CPU limits in Kubernetes",
+      "url": "https://github.com/inevolin/k8s-cpu-limits-analyzed",
+      "published": "2026-08-14T10:41:21Z",
+      "authors": "iljanevo",
+      "points": 39,
+      "novelty": 2,
+      "actionability": 3,
       "score": 5,
       "quadrant": "NOISE FLOOR",
-      "dek": "Prompt injection embedded in legal document demonstrates an attack surface in LLM-assisted review workflows.",
-      "unproven": "whether production legal AI systems lack defenses against this; applicability to agents in SDLC pipelines",
-      "scored_at": "2026-08-14T01:05:03.010300944Z"
+      "dek": "Kubernetes CPU limits often misconfig and harm stability; informs platform hardening this quarter if reader runs K8s.",
+      "unproven": "scoped to CPU limits only; does not cover memory, I/O, or network resource controls",
+      "scored_at": "2026-08-14T12:41:51.01200426Z"
     }
   ],
   "noise": [
