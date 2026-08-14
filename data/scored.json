@@ -30911,6 +30911,22 @@
     "unproven": "scoped to CPU limits only; does not cover memory, I/O, or network resource controls",
     "scored_at": "2026-08-14T12:41:51.01200426Z"
   },
+  "hn:49300314": {
+    "id": "hn:49300314",
+    "source": "hn",
+    "title": "Google is making private AI practical with homomorphic encryption",
+    "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+    "published": "2026-08-14T15:43:10Z",
+    "authors": "u1hcw9nx",
+    "points": 153,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Google applies homomorphic encryption to inference; practical deployment timeline and performance overhead remain undisclosed.",
+    "unproven": "production viability, latency and cost at scale, whether constraints apply to the reader's AI agent use cases in SDLC",
+    "scored_at": "2026-08-14T20:22:06.151173851Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",

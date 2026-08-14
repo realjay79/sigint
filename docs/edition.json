@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T16:40:53.275965378Z",
+  "generated": "2026-08-14T20:22:06.162635392Z",
   "edition": 21,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,8 +12,8 @@
       "hn": 4
     },
     "by_quadrant": {
-      "BREAK GLASS": 8,
-      "NEW GROUND": 10,
+      "BREAK GLASS": 7,
+      "NEW GROUND": 11,
       "NOISE FLOOR": 6,
       "STANDING ORDERS": 1
     }
@@ -124,21 +124,6 @@
       "dek": "Side-channel attacks on post-filtered access control in PostgreSQL and Elasticsearch enable full-record recovery via binary search over expressive queries.",
       "unproven": "Whether practical defenses exist that preserve both utility and security; impact on real multi-tenant deployments with actual threat model enforcement.",
       "scored_at": "2026-08-13T05:27:46.560431241Z"
-    },
-    {
-      "id": "arxiv:2608.11392v1",
-      "source": "arxiv",
-      "title": "AI Guardrail Survival under Single-Cycle Agentic Self-Summarization",
-      "url": "http://arxiv.org/abs/2608.11392v1",
-      "published": "2026-08-11T19:57:55Z",
-      "authors": "Ted Kwartler et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Safety rules degrade during LLM context compaction without being dropped, leaving degraded residues that fail to block prohibited actions; textual presence checks miss behavioral failure.",
-      "unproven": "limited to context compaction; tested on unspecified model set; unclear whether findings generalize to production agent architectures or other summarization methods.",
-      "scored_at": "2026-08-13T05:27:59.765079196Z"
     },
     {
       "id": "arxiv:2608.13450v1",
@@ -259,21 +244,6 @@
       "dek": "Shared memory enables AI agents to maintain persistent exploit channels across sessions, defeating traditional honeytoken defenses; theory and 2026 case study.",
       "unproven": "Whether theory applies to current LLM agents or requires architectural changes; practical constraints on agent memory capacity and coalition stability in real deployments.",
       "scored_at": "2026-08-13T05:27:46.560432123Z"
-    },
-    {
-      "id": "arxiv:2608.11392v2",
-      "source": "arxiv",
-      "title": "AI Guardrail Survival under Single-Cycle Agentic Self-Summarization",
-      "url": "http://arxiv.org/abs/2608.11392v2",
-      "published": "2026-08-11T19:57:55Z",
-      "authors": "Ted Kwartler et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "LLM agent context compaction degrades safety rules to ineffective residues even when textually present; 34–57 point violation increases.",
-      "unproven": "tested on two model families only; unclear whether effect scales to production agent frameworks or multimodal agents",
-      "scored_at": "2026-08-14T05:26:01.211164056Z"
     },
     {
       "id": "arxiv:2608.13138v1",
@@ -397,6 +367,36 @@
       "dek": "Prompt injection embedded in legal document demonstrates an attack surface in LLM-assisted review workflows.",
       "unproven": "whether production legal AI systems lack defenses against this; applicability to agents in SDLC pipelines",
       "scored_at": "2026-08-14T01:05:03.010300944Z"
+    },
+    {
+      "id": "arxiv:2608.13561v1",
+      "source": "arxiv",
+      "title": "Experimental Quantum Key Distribution in an Indefinite Causal Order",
+      "url": "http://arxiv.org/abs/2608.13561v1",
+      "published": "2026-08-13T17:59:58Z",
+      "authors": "Yann Valibouse et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Photonic quantum BB84 variant using indefinite causal order detects eavesdropping without disclosing key material.",
+      "unproven": "lab-scale proof-of-concept only; post-quantum cryptography and quantum key distribution are outside reader's security-SDLC remit",
+      "scored_at": "2026-08-14T05:26:01.211164523Z"
+    },
+    {
+      "id": "arxiv:2608.13521v1",
+      "source": "arxiv",
+      "title": "Exponential quantum advantage for learning signals with a single qubit",
+      "url": "http://arxiv.org/abs/2608.13521v1",
+      "published": "2026-08-13T17:40:39Z",
+      "authors": "Ishaan Kannan et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Single-qubit coupling to classical sensors achieves 10⁷-fold measurement reduction for signal learning.",
+      "unproven": "Scalability beyond proof-of-concept demonstrations; generalization to real dark-matter and wireless systems.",
+      "scored_at": "2026-08-14T08:59:03.329546127Z"
     }
   ],
   "noise": [
@@ -417,6 +417,22 @@
       "scored_at": "2026-08-12T16:46:29.246078552Z"
     },
     {
+      "id": "hn:49300314",
+      "source": "hn",
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+      "published": "2026-08-14T15:43:10Z",
+      "authors": "u1hcw9nx",
+      "points": 153,
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Google applies homomorphic encryption to inference; practical deployment timeline and performance overhead remain undisclosed.",
+      "unproven": "production viability, latency and cost at scale, whether constraints apply to the reader's AI agent use cases in SDLC",
+      "scored_at": "2026-08-14T20:22:06.151173851Z"
+    },
+    {
       "id": "hn:49265051",
       "source": "hn",
       "title": "WorldClaw Agentic 3D open-world generation at scale",
@@ -431,22 +447,6 @@
       "dek": "Tencent's model generates 3D worlds at scale; a capability demonstration with no security or SDLC implications for application builders.",
       "unproven": "Security properties, training data lineage, and whether agents using this output introduce novel attack surfaces in production systems.",
       "scored_at": "2026-08-12T01:05:14.679043306Z"
-    },
-    {
-      "id": "hn:49272569",
-      "source": "hn",
-      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
-      "url": "https://knownagents.com/insights",
-      "published": "2026-08-12T14:02:46Z",
-      "authors": "gavinhking",
-      "points": 95,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Spoofed bot user-agents running mass vulnerability scans; vocabulary for threat modeling agent-based reconnaissance.",
-      "unproven": "whether this reflects a sustained pattern or isolated incident; no evidence of novel attack method",
-      "scored_at": "2026-08-12T16:46:29.246078252Z"
     }
   ]
 }
