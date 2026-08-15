@@ -30989,6 +30989,21 @@
     "dek": "Richard Stallman's personal statement on a domain dispute.",
     "scored_at": "2026-08-15T12:17:52.756073704Z"
   },
+  "hn:49312413": {
+    "id": "hn:49312413",
+    "source": "hn",
+    "title": "Europe's scorched landscapes seen from space after summer heatwaves",
+    "url": "https://bbc.com/news/articles/c4gxy0wqqd9o",
+    "published": "2026-08-15T17:21:26Z",
+    "authors": "blondie9x",
+    "points": 83,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Satellite imagery of European heat damage; climate reporting outside security scope.",
+    "scored_at": "2026-08-15T20:11:37.948669137Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",

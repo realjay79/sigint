@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T16:13:04.85337586Z",
+  "generated": "2026-08-15T20:11:37.963906526Z",
   "edition": 22,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,9 +12,9 @@
       "hn": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 5,
-      "NEW GROUND": 11,
-      "NOISE FLOOR": 8,
+      "BREAK GLASS": 4,
+      "NEW GROUND": 10,
+      "NOISE FLOOR": 10,
       "STANDING ORDERS": 1
     }
   },
@@ -79,21 +79,6 @@
       "dek": "State-corruption attacks on tool-using agents succeed 84.7% of the time; PIPES screening reduces success to 2.3% via provenance and semantic priors.",
       "unproven": "tested on Gemma 4 31B and VitaBench/AgentDyn splits only; whether PIPES generalizes to production agents or other model families; deployment cost and false-positive rates on benign workflows not fully characterized",
       "scored_at": "2026-08-14T05:25:49.292140808Z"
-    },
-    {
-      "id": "arxiv:2608.12273v1",
-      "source": "arxiv",
-      "title": "Convergent Detour Hijacking: Task-Preserving Resource Amplification in Skill-Based LLM Agents",
-      "url": "http://arxiv.org/abs/2608.12273v1",
-      "published": "2026-08-12T17:12:49Z",
-      "authors": "Junliang Liu et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "LLM agents selecting third-party skills vulnerable to coordinated text attacks that inflate costs while preserving task completion; 80% success rate on DeepSeek-V4-Pro.",
-      "unproven": "whether attacks work against production agent systems with skill curation and rate limiting; generalization beyond the 491 held-out tasks tested",
-      "scored_at": "2026-08-13T05:27:35.760350272Z"
     },
     {
       "id": "arxiv:2608.13450v1",
@@ -214,36 +199,6 @@
       "dek": "Dual-signal watermark detects tampering in LLM text while preserving provenance; robust signal survives editing, fragile signal flags reader-visible changes.",
       "unproven": "evaluated on two models and two prompt datasets; whether tamper-detection generalizes to adversarial watermark removal attacks; integration with production content-verification workflows not demonstrated",
       "scored_at": "2026-08-14T05:25:49.292143071Z"
-    },
-    {
-      "id": "arxiv:2608.12444v1",
-      "source": "arxiv",
-      "title": "Non-Degenerate Risk Certification for Automated Security Decisions: A Decision-Contract Theory with ATT\\\u0026CK-Aligned Triage as a Worked Instance",
-      "url": "http://arxiv.org/abs/2608.12444v1",
-      "published": "2026-08-12T16:59:19Z",
-      "authors": "Zhenpeng Li",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Decision-contract theory formalizes structural limits of automated security classifiers; demonstrates alert-triage instability.",
-      "unproven": "tested only on IDS datasets with synthetic LLM classifiers; no evidence this transfers to SAST/DAST/SCA tool evaluation",
-      "scored_at": "2026-08-14T05:26:01.211163554Z"
-    },
-    {
-      "id": "arxiv:2608.12246v1",
-      "source": "arxiv",
-      "title": "VICBench: A Multi-Language Benchmark for Code Vulnerability Detection",
-      "url": "http://arxiv.org/abs/2608.12246v1",
-      "published": "2026-08-12T16:45:49Z",
-      "authors": "Jin Lu et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "VICBench dataset of 100 verified vulnerability-inducing commits across Python, Java, C++ exposes SZZ algorithm limitations with 33-40% F1, enabling better eval of detection tooling.",
-      "unproven": "whether F1 gaps reflect real detection blind spots in production SAST/DAST or measurement artifacts; transferability to codebases beyond the 88 projects included",
-      "scored_at": "2026-08-13T05:27:35.760350703Z"
     },
     {
       "id": "hn:49296939",
@@ -396,6 +351,51 @@
       "dek": "RAGSieve detects knowledge-poisoned retrieval documents via query-local and corpus-local contrast without requiring trusted references or global thresholds.",
       "unproven": "evaluation on three QA datasets only; attack success metric (67.4% baseline) not tied to real retrieval-augmented applications; false-positive cost at 5% clean-document removal not independently validated; scalability to production corpora unclear.",
       "scored_at": "2026-08-14T08:58:55.090837819Z"
+    },
+    {
+      "id": "arxiv:2608.12977v1",
+      "source": "arxiv",
+      "title": "Beyond Handcrafted Security: Towards Self-Evolving Defense for LLM Agents",
+      "url": "http://arxiv.org/abs/2608.12977v1",
+      "published": "2026-08-13T08:57:04Z",
+      "authors": "Jiajun Ruan et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "HARD is a self-evolving runtime defense framework that automatically identifies intervention strategies for LLM agents and improves artifacts from observed failure traces.",
+      "unproven": "no specification of how intervention strategies are enumerated or ranked; evaluation methodology and baselines not detailed; deployment feasibility and integration with production agent harnesses not addressed; whether autonomous evolution preserves interpretability of defenses unclear.",
+      "scored_at": "2026-08-14T08:58:55.090839352Z"
+    },
+    {
+      "id": "arxiv:2608.12962v1",
+      "source": "arxiv",
+      "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+      "url": "http://arxiv.org/abs/2608.12962v1",
+      "published": "2026-08-13T08:46:06Z",
+      "authors": "Ziqi Zhao et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Backdoor attacks on vertical federated learning fail under realistic constraints; prior research overlooks practical knowledge requirements and asymmetric information structures.",
+      "unproven": "focus on threat characterization rather than new defense mechanisms; specific constraints that break prior work not formalized; mitigation strategies beyond identifying the gap not proposed.",
+      "scored_at": "2026-08-14T08:58:55.090839492Z"
+    },
+    {
+      "id": "arxiv:2608.12911v1",
+      "source": "arxiv",
+      "title": "Beyond Visual Evidence: Revealing and Mitigating Relational Privacy Leakage in Document MLLMs",
+      "url": "http://arxiv.org/abs/2608.12911v1",
+      "published": "2026-08-13T07:53:53Z",
+      "authors": "Beining Xu et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Document MLLMs leak correlated PII fields when visual evidence is missing, unlearning framework proposed to suppress leakage.",
+      "unproven": "tested on three model families only; effectiveness of DRUF on production document-processing pipelines not demonstrated; whether field relations truly memorized versus learned from legitimate statistical correlation",
+      "scored_at": "2026-08-14T05:25:49.292139429Z"
     }
   ],
   "noise": [
@@ -432,19 +432,19 @@
       "scored_at": "2026-08-14T20:22:06.151173851Z"
     },
     {
-      "id": "hn:49286485",
+      "id": "hn:49312413",
       "source": "hn",
-      "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
-      "url": "https://oxide.computer/blog/kubernetes-on-oxide",
-      "published": "2026-08-13T14:26:41Z",
-      "authors": "stevehipwell",
-      "points": 61,
+      "title": "Europe's scorched landscapes seen from space after summer heatwaves",
+      "url": "https://bbc.com/news/articles/c4gxy0wqqd9o",
+      "published": "2026-08-15T17:21:26Z",
+      "authors": "blondie9x",
+      "points": 83,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Oxide describes Kubernetes integration design choices for its hardware platform.",
-      "scored_at": "2026-08-13T16:45:15.798566125Z"
+      "dek": "Satellite imagery of European heat damage; climate reporting outside security scope.",
+      "scored_at": "2026-08-15T20:11:37.948669137Z"
     }
   ]
 }
