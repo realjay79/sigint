@@ -30927,6 +30927,37 @@
     "unproven": "production viability, latency and cost at scale, whether constraints apply to the reader's AI agent use cases in SDLC",
     "scored_at": "2026-08-14T20:22:06.151173851Z"
   },
+  "hn:49300615": {
+    "id": "hn:49300615",
+    "source": "hn",
+    "title": "RayforceDB – a pure C analytics database with a Lisp-like syntax",
+    "url": "https://rayforcedb.com/",
+    "published": "2026-08-14T16:02:20Z",
+    "authors": "sourdecor",
+    "points": 31,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "New analytics database project announcement; outside application security remit.",
+    "scored_at": "2026-08-15T04:20:24.963796951Z"
+  },
+  "hn:49303433": {
+    "id": "hn:49303433",
+    "source": "hn",
+    "title": "Z.ai Security Disclosure",
+    "url": "https://cvd.z.ai",
+    "published": "2026-08-14T19:22:00Z",
+    "authors": "Alifatisk",
+    "points": 31,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Security disclosure landing page with no technical detail disclosed.",
+    "unproven": "the actual vulnerability, attack surface, affected versions, and whether exploitation is possible",
+    "scored_at": "2026-08-15T04:20:24.96379651Z"
+  },
   "hn:49304447": {
     "id": "hn:49304447",
     "source": "hn",
