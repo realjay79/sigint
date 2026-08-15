@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T04:20:24.979606272Z",
+  "generated": "2026-08-15T08:16:05.248590053Z",
   "edition": 22,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,9 +12,9 @@
       "hn": 4
     },
     "by_quadrant": {
-      "BREAK GLASS": 7,
+      "BREAK GLASS": 6,
       "NEW GROUND": 11,
-      "NOISE FLOOR": 6,
+      "NOISE FLOOR": 7,
       "STANDING ORDERS": 1
     }
   },
@@ -109,21 +109,6 @@
       "dek": "ToolHazard synthesizes adversarial environments to test LLM agents for indirect prompt injection, reveals timing and placement affect attack success, generates alignment data.",
       "unproven": "whether alignment data generalizes to agents and task domains beyond the benchmark; no evidence robustness survives adversarial fine-tuning at scale",
       "scored_at": "2026-08-13T05:27:35.760352667Z"
-    },
-    {
-      "id": "arxiv:2608.11730v1",
-      "source": "arxiv",
-      "title": "Plaintext Recovery Against Post-Filtering Access Control",
-      "url": "http://arxiv.org/abs/2608.11730v1",
-      "published": "2026-08-12T07:11:18Z",
-      "authors": "Zachary Espiritu et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Side-channel attacks on post-filtered access control in PostgreSQL and Elasticsearch enable full-record recovery via binary search over expressive queries.",
-      "unproven": "Whether practical defenses exist that preserve both utility and security; impact on real multi-tenant deployments with actual threat model enforcement.",
-      "scored_at": "2026-08-13T05:27:46.560431241Z"
     },
     {
       "id": "arxiv:2608.13450v1",
@@ -397,6 +382,21 @@
       "dek": "Fixed stabilizer protocol concentrates unknown non-stabilizer states to exact magic states using six copies.",
       "unproven": "Noise resilience; implementation on near-term processors; resource overhead versus existing distillation.",
       "scored_at": "2026-08-14T08:59:03.329548001Z"
+    },
+    {
+      "id": "arxiv:2608.13099v1",
+      "source": "arxiv",
+      "title": "Formal Verification of Quantum Ancilla Safety",
+      "url": "http://arxiv.org/abs/2608.13099v1",
+      "published": "2026-08-13T11:20:06Z",
+      "authors": "Jiqi Li et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Verification framework reduces dirty ancilla safety to 2m independent clean checks and algebraic commutativity.",
+      "unproven": "no deployed integration into existing quantum compilers; repair routines handle only local single-qubit faults",
+      "scored_at": "2026-08-14T08:59:20.624842455Z"
     }
   ],
   "noise": [
