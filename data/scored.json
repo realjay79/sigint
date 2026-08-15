@@ -30927,6 +30927,22 @@
     "unproven": "production viability, latency and cost at scale, whether constraints apply to the reader's AI agent use cases in SDLC",
     "scored_at": "2026-08-14T20:22:06.151173851Z"
   },
+  "hn:49304447": {
+    "id": "hn:49304447",
+    "source": "hn",
+    "title": "Going Dark, and the era of law enforcement hacking",
+    "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
+    "published": "2026-08-14T20:52:44Z",
+    "authors": "vslira",
+    "points": 165,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Essay on law enforcement encryption workarounds and device access; rehashes known debates without new technical findings.",
+    "unproven": "entirely outside reader's remit; concerns policy and law enforcement capability, not application security engineering or SDLC",
+    "scored_at": "2026-08-15T00:39:32.498204451Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",
@@ -31071,22 +31087,6 @@
     ],
     "scored_at": "2026-08-11T20:35:04.205602593Z"
   },
-  "kev:CVE-2026-25089": {
-    "id": "kev:CVE-2026-25089",
-    "source": "kev",
-    "title": "CVE-2026-25089 — Fortinet FortiSandbox OS Command Injection Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25089",
-    "published": "2026-07-16T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "Fortinet FortiSandbox. Confirmed exploited in the wild. Federal remediation due 19 July.",
-    "cves": [
-      "CVE-2026-25089"
-    ],
-    "scored_at": "2026-07-25T16:23:52.503393Z"
-  },
   "kev:CVE-2026-34486": {
     "id": "kev:CVE-2026-34486",
     "source": "kev",
@@ -31103,22 +31103,6 @@
     ],
     "scored_at": "2026-08-04T21:02:05.249437303Z"
   },
-  "kev:CVE-2026-39808": {
-    "id": "kev:CVE-2026-39808",
-    "source": "kev",
-    "title": "CVE-2026-39808 — Fortinet FortiSandbox OS Command Injection Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39808",
-    "published": "2026-07-16T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "Fortinet FortiSandbox. Confirmed exploited in the wild. Federal remediation due 19 July.",
-    "cves": [
-      "CVE-2026-39808"
-    ],
-    "scored_at": "2026-07-25T16:23:52.503394Z"
-  },
   "kev:CVE-2026-50522": {
     "id": "kev:CVE-2026-50522",
     "source": "kev",
@@ -31134,22 +31118,6 @@
       "CVE-2026-50522"
     ],
     "scored_at": "2026-07-25T16:23:52.503382Z"
-  },
-  "kev:CVE-2026-58644": {
-    "id": "kev:CVE-2026-58644",
-    "source": "kev",
-    "title": "CVE-2026-58644 — Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58644",
-    "published": "2026-07-16T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 19 July.",
-    "cves": [
-      "CVE-2026-58644"
-    ],
-    "scored_at": "2026-07-25T16:23:52.503391Z"
   },
   "kev:CVE-2026-60137": {
     "id": "kev:CVE-2026-60137",
