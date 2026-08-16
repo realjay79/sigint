@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T08:17:27.754521436Z",
+  "generated": "2026-08-16T12:19:27.472107639Z",
   "edition": 23,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,14 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 21,
-      "hn": 4
+      "arxiv": 19,
+      "hn": 6
     },
     "by_quadrant": {
       "BREAK GLASS": 2,
-      "NEW GROUND": 7,
-      "NOISE FLOOR": 15,
-      "STANDING ORDERS": 1
+      "NEW GROUND": 5,
+      "NOISE FLOOR": 18
     }
   },
   "items": [
@@ -64,66 +63,6 @@
       "dek": "LLMs generate 3,700 test harnesses for safety-critical weaknesses in Autoware; 64% compile first-attempt, 80% failures are dependency wiring.",
       "unproven": "One codebase (Autoware), no evidence that generated harnesses find exploitable vulnerabilities missed by existing SAST or fuzzing pipelines.",
       "scored_at": "2026-08-14T05:25:22.489006519Z"
-    },
-    {
-      "id": "arxiv:2608.13050v1",
-      "source": "arxiv",
-      "title": "Operationalizing Cyber Threat Intelligence with GraphRAG",
-      "url": "http://arxiv.org/abs/2608.13050v1",
-      "published": "2026-08-13T10:15:05Z",
-      "authors": "Atul Kabra et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "GraphRAG-based detection rule generation sustained 100% alert rate after IP/domain/hash rotation versus 29% for vector-similarity retrieval on one APT28 report.",
-      "unproven": "single case study; generalization to other threat reports, detection engineering workflows, and false-positive trade-offs not established; comparison limited to one baseline approach.",
-      "scored_at": "2026-08-14T08:58:55.090835234Z"
-    },
-    {
-      "id": "arxiv:2608.13042v1",
-      "source": "arxiv",
-      "title": "InSPECtor: Improving SLEIGH Processor Specification Veracity via Proxy",
-      "url": "http://arxiv.org/abs/2608.13042v1",
-      "published": "2026-08-13T10:08:41Z",
-      "authors": "Michael Chesser et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Differential testing of SLEIGH processor specifications against hardware references uncovered over 38,920 discrepancies in x86-64, AArch64, ARM, RISC-V, and MSP430.",
-      "unproven": "impact of discrepancies on real-world disassembly, decompilation, or vulnerability analysis not quantified; whether findings force specification corrections or tool mitigations remains unclear.",
-      "scored_at": "2026-08-14T08:58:55.090836276Z"
-    },
-    {
-      "id": "arxiv:2608.12996v1",
-      "source": "arxiv",
-      "title": "ATOBench: Tracing How Autonomous Penetration-Testing Agents Verify Vulnerabilities When Target Evidence Lies",
-      "url": "http://arxiv.org/abs/2608.12996v1",
-      "published": "2026-08-13T09:20:45Z",
-      "authors": "Qiyang Chen et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "ATOBench makes autonomous penetration-testing agent verification observable by injecting response transformations at runtime and tracking report construction against deceptive evidence.",
-      "unproven": "evaluation on five model routes only; generalization to production red-team workflows and real exploitation scenarios not established; whether findings apply to agents deployed without observable verification loops unclear.",
-      "scored_at": "2026-08-14T08:58:55.090839202Z"
-    },
-    {
-      "id": "arxiv:2608.13138v1",
-      "source": "arxiv",
-      "title": "A Commitment-Based Hybrid Post-Quantum Cryptographic Model for Multi-File Cloud Storage",
-      "url": "http://arxiv.org/abs/2608.13138v1",
-      "published": "2026-08-13T12:14:54Z",
-      "authors": "Lemdi Frank Prikutse et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Batch commitment over hybrid post-quantum signatures reduces per-file signing cost from O(n) to O(1) in cloud storage.",
-      "unproven": "evaluation limited to commodity client platform; integration cost with existing cloud APIs and key rotation workflows not measured; performance on competing batch-signature schemes not established.",
-      "scored_at": "2026-08-14T08:58:55.090834783Z"
     },
     {
       "id": "hn:49296939",
@@ -233,81 +172,6 @@
       "scored_at": "2026-08-14T08:59:03.329548001Z"
     },
     {
-      "id": "arxiv:2608.13099v1",
-      "source": "arxiv",
-      "title": "Formal Verification of Quantum Ancilla Safety",
-      "url": "http://arxiv.org/abs/2608.13099v1",
-      "published": "2026-08-13T11:20:06Z",
-      "authors": "Jiqi Li et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Verification framework reduces dirty ancilla safety to 2m independent clean checks and algebraic commutativity.",
-      "unproven": "no deployed integration into existing quantum compilers; repair routines handle only local single-qubit faults",
-      "scored_at": "2026-08-14T08:59:20.624842455Z"
-    },
-    {
-      "id": "arxiv:2608.13030v1",
-      "source": "arxiv",
-      "title": "InterSAGE: The Secure and Verifiable Interoperability Protocol for An Internet of Agents",
-      "url": "http://arxiv.org/abs/2608.13030v1",
-      "published": "2026-08-13T10:00:13Z",
-      "authors": "Zhenhua Zou et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "InterSAGE proposes identity, capability, trust negotiation, and audit layers for agent-to-agent interaction without consensus ledger.",
-      "unproven": "no implementation, no deployment data, no comparison to competing agent security frameworks; kernel-mediated audit trail design and performance impact not demonstrated; compatibility with MCP, A2A, ANP only stated as intent.",
-      "scored_at": "2026-08-14T08:58:55.090837659Z"
-    },
-    {
-      "id": "arxiv:2608.13010v1",
-      "source": "arxiv",
-      "title": "RAGSieve: Self-Referenced Local Contrast for Knowledge-Poison Detection in Retrieval-Augmented Generation",
-      "url": "http://arxiv.org/abs/2608.13010v1",
-      "published": "2026-08-13T09:29:48Z",
-      "authors": "Xinlong Xu et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "RAGSieve detects knowledge-poisoned retrieval documents via query-local and corpus-local contrast without requiring trusted references or global thresholds.",
-      "unproven": "evaluation on three QA datasets only; attack success metric (67.4% baseline) not tied to real retrieval-augmented applications; false-positive cost at 5% clean-document removal not independently validated; scalability to production corpora unclear.",
-      "scored_at": "2026-08-14T08:58:55.090837819Z"
-    },
-    {
-      "id": "arxiv:2608.12977v1",
-      "source": "arxiv",
-      "title": "Beyond Handcrafted Security: Towards Self-Evolving Defense for LLM Agents",
-      "url": "http://arxiv.org/abs/2608.12977v1",
-      "published": "2026-08-13T08:57:04Z",
-      "authors": "Jiajun Ruan et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "HARD is a self-evolving runtime defense framework that automatically identifies intervention strategies for LLM agents and improves artifacts from observed failure traces.",
-      "unproven": "no specification of how intervention strategies are enumerated or ranked; evaluation methodology and baselines not detailed; deployment feasibility and integration with production agent harnesses not addressed; whether autonomous evolution preserves interpretability of defenses unclear.",
-      "scored_at": "2026-08-14T08:58:55.090839352Z"
-    },
-    {
-      "id": "arxiv:2608.12962v1",
-      "source": "arxiv",
-      "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
-      "url": "http://arxiv.org/abs/2608.12962v1",
-      "published": "2026-08-13T08:46:06Z",
-      "authors": "Ziqi Zhao et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Backdoor attacks on vertical federated learning fail under realistic constraints; prior research overlooks practical knowledge requirements and asymmetric information structures.",
-      "unproven": "focus on threat characterization rather than new defense mechanisms; specific constraints that break prior work not formalized; mitigation strategies beyond identifying the gap not proposed.",
-      "scored_at": "2026-08-14T08:58:55.090839492Z"
-    },
-    {
       "id": "hn:49291782",
       "source": "hn",
       "title": "Terabytes of credentials leaked in supply-chain attack",
@@ -397,9 +261,128 @@
       "dek": "Local shallow circuits cannot form approximate unitary designs even with ambient unitaries.",
       "unproven": "Practical implications for near-term quantum device benchmarking remain unclear.",
       "scored_at": "2026-08-14T08:59:03.329545987Z"
-    }
-  ],
-  "noise": [
+    },
+    {
+      "id": "arxiv:2608.13465v1",
+      "source": "arxiv",
+      "title": "Concept Drift Detection and Adaptive Retraining of Malware Classification Models",
+      "url": "http://arxiv.org/abs/2608.13465v1",
+      "published": "2026-08-13T16:46:56Z",
+      "authors": "Christofer Washington Berruz Chungata et al.",
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Compares drift detection methods (OCSVM, K-Means, MMD) on malware classifiers across four model families.",
+      "unproven": "Single malware dataset, no evidence that drift detection timing improves real classifier maintenance or deployment decisions.",
+      "scored_at": "2026-08-14T05:25:22.489006049Z"
+    },
+    {
+      "id": "arxiv:2608.13462v1",
+      "source": "arxiv",
+      "title": "Aperiodicity is sufficient for macroscopic thermalization",
+      "url": "http://arxiv.org/abs/2608.13462v1",
+      "published": "2026-08-13T16:44:17Z",
+      "authors": "Amit Vikram",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Aperiodicity in quantum dynamics drives macroscopic thermalization independent of microscopic details.",
+      "unproven": "Connection to experimentally measurable equilibration timescales; applicability to open systems.",
+      "scored_at": "2026-08-14T08:59:03.32954763Z"
+    },
+    {
+      "id": "arxiv:2608.13449v1",
+      "source": "arxiv",
+      "title": "Spectral Localization Principle for Entanglement Harvesting",
+      "url": "http://arxiv.org/abs/2608.13449v1",
+      "published": "2026-08-13T16:33:26Z",
+      "authors": "Hao Xu",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Entanglement harvesting from quantum fields determined by spectral density localization.",
+      "unproven": "Extension beyond single-cavity model; experimental realization in realistic field geometries.",
+      "scored_at": "2026-08-14T08:59:03.32954774Z"
+    },
+    {
+      "id": "arxiv:2608.13390v1",
+      "source": "arxiv",
+      "title": "TeleGapper: On the (un)reliability of Privacy Policies in Telegram Mini apps",
+      "url": "http://arxiv.org/abs/2608.13390v1",
+      "published": "2026-08-13T15:51:18Z",
+      "authors": "Luca Ferrari et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Dynamic analysis of Telegram Mini Apps finds privacy policy mismatches and unrestricted data exfiltration to third parties.",
+      "unproven": "Telegram ecosystem only; outside reader's application security engineering and SDLC scope.",
+      "scored_at": "2026-08-14T05:25:22.489008213Z"
+    },
+    {
+      "id": "hn:49286357",
+      "source": "hn",
+      "title": "We eliminated 1,400 CVEs in NanoClaw's container images",
+      "url": "https://echo.ai/blog/echo-xnanoclaw-under-the-hood",
+      "published": "2026-08-13T14:18:34Z",
+      "authors": "omrimaya",
+      "points": 37,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Container image hardening reduced reported CVE count in one vendor's product line.",
+      "unproven": "whether elimination reflects actual vulnerability removal or classification changes; generalizability beyond a single product",
+      "scored_at": "2026-08-13T16:45:15.798566636Z"
+    },
+    {
+      "id": "arxiv:2608.13272v1",
+      "source": "arxiv",
+      "title": "Sovereign by necessity? Frontier AI export controls, cyber security, and the limits of national AI capability",
+      "url": "http://arxiv.org/abs/2608.13272v1",
+      "published": "2026-08-13T14:09:45Z",
+      "authors": "Alan Woodward et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Policy analysis of frontier AI export controls, sovereign capability constraints, and autonomous cyber campaigns; no technical actionable guidance.",
+      "unproven": "Opinion and regulatory analysis; does not establish technical vulnerability, mitigation, or SDLC integration pathway.",
+      "scored_at": "2026-08-14T05:25:22.489009339Z"
+    },
+    {
+      "id": "arxiv:2608.13227v1",
+      "source": "arxiv",
+      "title": "Homomorphic Aggregation of Continuous-Variable GKP States",
+      "url": "http://arxiv.org/abs/2608.13227v1",
+      "published": "2026-08-13T13:30:11Z",
+      "authors": "Nilesh Vyas",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Quantum error correction protocol for aggregating GKP states in distributed quantum computing via measurement-based framework.",
+      "unproven": "Fundamental quantum computing research; entirely outside reader's remit and security engineering practice.",
+      "scored_at": "2026-08-14T05:25:22.489009609Z"
+    },
+    {
+      "id": "arxiv:2608.13191v1",
+      "source": "arxiv",
+      "title": "Smart Contract Invariants Protect Against Cybercriminals",
+      "url": "http://arxiv.org/abs/2608.13191v1",
+      "published": "2026-08-13T12:58:36Z",
+      "authors": "Sofia Bobadilla et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Replayed 108,637 Ethereum transactions showing hand-authored invariants block all 28 known smart contract exploits.",
+      "unproven": "Ethereum smart contracts only; does not test whether automated tools can derive invariants at scale, or transfer to non-blockchain systems.",
+      "scored_at": "2026-08-14T05:25:22.489009725Z"
+    },
     {
       "id": "hn:49304447",
       "source": "hn",
@@ -415,7 +398,9 @@
       "dek": "Essay on law enforcement encryption workarounds and device access; rehashes known debates without new technical findings.",
       "unproven": "entirely outside reader's remit; concerns policy and law enforcement capability, not application security engineering or SDLC",
       "scored_at": "2026-08-15T00:39:32.498204451Z"
-    },
+    }
+  ],
+  "noise": [
     {
       "id": "hn:49300314",
       "source": "hn",
@@ -446,6 +431,21 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Satellite imagery of European heat damage; climate reporting outside security scope.",
       "scored_at": "2026-08-15T20:11:37.948669137Z"
+    },
+    {
+      "id": "hn:49286485",
+      "source": "hn",
+      "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
+      "url": "https://oxide.computer/blog/kubernetes-on-oxide",
+      "published": "2026-08-13T14:26:41Z",
+      "authors": "stevehipwell",
+      "points": 61,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Oxide describes Kubernetes integration design choices for its hardware platform.",
+      "scored_at": "2026-08-13T16:45:15.798566125Z"
     }
   ]
 }
