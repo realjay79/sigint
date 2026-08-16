@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T00:41:48.805569909Z",
+  "generated": "2026-08-16T04:26:29.664450419Z",
   "edition": 23,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,9 +12,9 @@
       "hn": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 4,
+      "BREAK GLASS": 3,
       "NEW GROUND": 10,
-      "NOISE FLOOR": 10,
+      "NOISE FLOOR": 11,
       "STANDING ORDERS": 1
     }
   },
@@ -64,21 +64,6 @@
       "dek": "Agent security evaluations suffer treatment leakage in labeling; audit of benchmark campaign corrects 58 mislabeled attack records, zero confirmed attacks in corrected dataset.",
       "unproven": "limited to one preserved campaign; whether labeling flaws are systematic across other published agent security benchmarks unknown; methodology not yet adopted by other evaluators",
       "scored_at": "2026-08-14T05:25:49.292139905Z"
-    },
-    {
-      "id": "arxiv:2608.12789v1",
-      "source": "arxiv",
-      "title": "PIPES: Securing Agent Perception with Provenance and Priors",
-      "url": "http://arxiv.org/abs/2608.12789v1",
-      "published": "2026-08-13T03:49:00Z",
-      "authors": "Sanjay Kariyappa et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "State-corruption attacks on tool-using agents succeed 84.7% of the time; PIPES screening reduces success to 2.3% via provenance and semantic priors.",
-      "unproven": "tested on Gemma 4 31B and VitaBench/AgentDyn splits only; whether PIPES generalizes to production agents or other model families; deployment cost and false-positive rates on benign workflows not fully characterized",
-      "scored_at": "2026-08-14T05:25:49.292140808Z"
     },
     {
       "id": "arxiv:2608.13450v1",
@@ -184,21 +169,6 @@
       "dek": "Batch commitment over hybrid post-quantum signatures reduces per-file signing cost from O(n) to O(1) in cloud storage.",
       "unproven": "evaluation limited to commodity client platform; integration cost with existing cloud APIs and key rotation workflows not measured; performance on competing batch-signature schemes not established.",
       "scored_at": "2026-08-14T08:58:55.090834783Z"
-    },
-    {
-      "id": "arxiv:2608.12713v1",
-      "source": "arxiv",
-      "title": "Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks",
-      "url": "http://arxiv.org/abs/2608.12713v1",
-      "published": "2026-08-13T01:55:16Z",
-      "authors": "Xiaoyan Feng et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Dual-signal watermark detects tampering in LLM text while preserving provenance; robust signal survives editing, fragile signal flags reader-visible changes.",
-      "unproven": "evaluated on two models and two prompt datasets; whether tamper-detection generalizes to adversarial watermark removal attacks; integration with production content-verification workflows not demonstrated",
-      "scored_at": "2026-08-14T05:25:49.292143071Z"
     },
     {
       "id": "hn:49296939",
@@ -396,6 +366,36 @@
       "dek": "Document MLLMs leak correlated PII fields when visual evidence is missing, unlearning framework proposed to suppress leakage.",
       "unproven": "tested on three model families only; effectiveness of DRUF on production document-processing pipelines not demonstrated; whether field relations truly memorized versus learned from legitimate statistical correlation",
       "scored_at": "2026-08-14T05:25:49.292139429Z"
+    },
+    {
+      "id": "arxiv:2608.12889v1",
+      "source": "arxiv",
+      "title": "Adversarial Robustness in Smishing Detection: A Comparative Analysis of Adversarial Fragility in Classical vs. Transformer-Based Detection Systems",
+      "url": "http://arxiv.org/abs/2608.12889v1",
+      "published": "2026-08-13T07:12:13Z",
+      "authors": "Denzel Chiuseni et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Classical ML models fail catastrophically on obfuscated smishing (RDR 0.988) while transformers resist better (RDR 0.351).",
+      "unproven": "single dataset of 27k messages; low-resource attacker behaviors not necessarily representative of production smishing campaigns; transferability to deployed detection systems unclear",
+      "scored_at": "2026-08-14T05:25:49.292139736Z"
+    },
+    {
+      "id": "arxiv:2608.12822v1",
+      "source": "arxiv",
+      "title": "RealmEye: Virtual Machine Introspection for Arm CCA Realm VMs",
+      "url": "http://arxiv.org/abs/2608.12822v1",
+      "published": "2026-08-13T04:53:49Z",
+      "authors": "Ruofei Qu et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "RealmEye enables VM introspection on Arm CCA Realm VMs via RMM, detecting rootkits without in-VM agent or hypervisor trust.",
+      "unproven": "outside reader's remit; application security engineer does not operate cloud infrastructure, manage confidential VMs, or defend against kernel-level threats; relevant to infrastructure teams, not SDLC or secure development",
+      "scored_at": "2026-08-14T05:25:49.292140646Z"
     }
   ],
   "noise": [
