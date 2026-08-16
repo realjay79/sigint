@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T12:19:27.472107639Z",
+  "generated": "2026-08-16T16:12:59.831466576Z",
   "edition": 23,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,13 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 19,
-      "hn": 6
+      "arxiv": 13,
+      "hn": 12
     },
     "by_quadrant": {
-      "BREAK GLASS": 2,
-      "NEW GROUND": 5,
-      "NOISE FLOOR": 18
+      "BREAK GLASS": 1,
+      "NEW GROUND": 4,
+      "NOISE FLOOR": 20
     }
   },
   "items": [
@@ -33,21 +33,6 @@
       "dek": "Universal Ruby deserialization gadget chain enables RCE; requires immediate review if Ruby is in the SDLC dependency tree.",
       "unproven": "depends on whether reader's codebase uses vulnerable deserialization patterns; exploitation conditions not yet confirmed in production environments",
       "scored_at": "2026-08-14T12:41:51.01200951Z"
-    },
-    {
-      "id": "arxiv:2608.13404v1",
-      "source": "arxiv",
-      "title": "Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-as-Code Repair",
-      "url": "http://arxiv.org/abs/2608.13404v1",
-      "published": "2026-08-13T16:01:32Z",
-      "authors": "Benjamin Agyekum et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "13.8% of LLM-repaired IaC scenarios regress on at least one CIS check while fixing others; iterative loops do not monotonically improve security.",
-      "unproven": "IaC-Eval benchmark only; unclear if regression pattern holds across other validation frameworks or real production workflows.",
-      "scored_at": "2026-08-14T05:25:22.48900727Z"
     },
     {
       "id": "arxiv:2608.13450v1",
@@ -140,36 +125,6 @@
       "dek": "Strong unitary designs achievable in logarithmic depth using only system qubits.",
       "unproven": "Experimental demonstration on real quantum hardware; overhead constants and noise resilience.",
       "scored_at": "2026-08-14T08:59:03.329546829Z"
-    },
-    {
-      "id": "arxiv:2608.13389v1",
-      "source": "arxiv",
-      "title": "TopoIntent: Compiling Security Intent into Executable, Compliance-Checked Network Topologies",
-      "url": "http://arxiv.org/abs/2608.13389v1",
-      "published": "2026-08-13T15:49:37Z",
-      "authors": "Xiaokang Qu et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLM system compiles natural-language security intent into network topologies, checks against CIS Controls v8.1.2, exports to Mininet.",
-      "unproven": "Evaluation benchmark constructed by authors; no evidence on real enterprise requirements or whether CIS-layer compliance ensures functional security.",
-      "scored_at": "2026-08-14T05:25:22.489008351Z"
-    },
-    {
-      "id": "arxiv:2608.13376v1",
-      "source": "arxiv",
-      "title": "Universal magic state concentration",
-      "url": "http://arxiv.org/abs/2608.13376v1",
-      "published": "2026-08-13T15:37:46Z",
-      "authors": "Jacopo Rizzo et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Fixed stabilizer protocol concentrates unknown non-stabilizer states to exact magic states using six copies.",
-      "unproven": "Noise resilience; implementation on near-term processors; resource overhead versus existing distillation.",
-      "scored_at": "2026-08-14T08:59:03.329548001Z"
     },
     {
       "id": "hn:49291782",
@@ -308,82 +263,6 @@
       "scored_at": "2026-08-14T08:59:03.32954774Z"
     },
     {
-      "id": "arxiv:2608.13390v1",
-      "source": "arxiv",
-      "title": "TeleGapper: On the (un)reliability of Privacy Policies in Telegram Mini apps",
-      "url": "http://arxiv.org/abs/2608.13390v1",
-      "published": "2026-08-13T15:51:18Z",
-      "authors": "Luca Ferrari et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Dynamic analysis of Telegram Mini Apps finds privacy policy mismatches and unrestricted data exfiltration to third parties.",
-      "unproven": "Telegram ecosystem only; outside reader's application security engineering and SDLC scope.",
-      "scored_at": "2026-08-14T05:25:22.489008213Z"
-    },
-    {
-      "id": "hn:49286357",
-      "source": "hn",
-      "title": "We eliminated 1,400 CVEs in NanoClaw's container images",
-      "url": "https://echo.ai/blog/echo-xnanoclaw-under-the-hood",
-      "published": "2026-08-13T14:18:34Z",
-      "authors": "omrimaya",
-      "points": 37,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Container image hardening reduced reported CVE count in one vendor's product line.",
-      "unproven": "whether elimination reflects actual vulnerability removal or classification changes; generalizability beyond a single product",
-      "scored_at": "2026-08-13T16:45:15.798566636Z"
-    },
-    {
-      "id": "arxiv:2608.13272v1",
-      "source": "arxiv",
-      "title": "Sovereign by necessity? Frontier AI export controls, cyber security, and the limits of national AI capability",
-      "url": "http://arxiv.org/abs/2608.13272v1",
-      "published": "2026-08-13T14:09:45Z",
-      "authors": "Alan Woodward et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Policy analysis of frontier AI export controls, sovereign capability constraints, and autonomous cyber campaigns; no technical actionable guidance.",
-      "unproven": "Opinion and regulatory analysis; does not establish technical vulnerability, mitigation, or SDLC integration pathway.",
-      "scored_at": "2026-08-14T05:25:22.489009339Z"
-    },
-    {
-      "id": "arxiv:2608.13227v1",
-      "source": "arxiv",
-      "title": "Homomorphic Aggregation of Continuous-Variable GKP States",
-      "url": "http://arxiv.org/abs/2608.13227v1",
-      "published": "2026-08-13T13:30:11Z",
-      "authors": "Nilesh Vyas",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Quantum error correction protocol for aggregating GKP states in distributed quantum computing via measurement-based framework.",
-      "unproven": "Fundamental quantum computing research; entirely outside reader's remit and security engineering practice.",
-      "scored_at": "2026-08-14T05:25:22.489009609Z"
-    },
-    {
-      "id": "arxiv:2608.13191v1",
-      "source": "arxiv",
-      "title": "Smart Contract Invariants Protect Against Cybercriminals",
-      "url": "http://arxiv.org/abs/2608.13191v1",
-      "published": "2026-08-13T12:58:36Z",
-      "authors": "Sofia Bobadilla et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Replayed 108,637 Ethereum transactions showing hand-authored invariants block all 28 known smart contract exploits.",
-      "unproven": "Ethereum smart contracts only; does not test whether automated tools can derive invariants at scale, or transfer to non-blockchain systems.",
-      "scored_at": "2026-08-14T05:25:22.489009725Z"
-    },
-    {
       "id": "hn:49304447",
       "source": "hn",
       "title": "Going Dark, and the era of law enforcement hacking",
@@ -398,9 +277,7 @@
       "dek": "Essay on law enforcement encryption workarounds and device access; rehashes known debates without new technical findings.",
       "unproven": "entirely outside reader's remit; concerns policy and law enforcement capability, not application security engineering or SDLC",
       "scored_at": "2026-08-15T00:39:32.498204451Z"
-    }
-  ],
-  "noise": [
+    },
     {
       "id": "hn:49300314",
       "source": "hn",
@@ -418,6 +295,37 @@
       "scored_at": "2026-08-14T20:22:06.151173851Z"
     },
     {
+      "id": "arxiv:2608.13493v1",
+      "source": "arxiv",
+      "title": "Quantum correlations and Basis-Independent Coherence Distribution in Two Gravitational Cat States",
+      "url": "http://arxiv.org/abs/2608.13493v1",
+      "published": "2026-08-13T17:23:04Z",
+      "authors": "Mostafa Mansour et al.",
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Basis-independent coherence measure applied to gravitationally coupled two-particle double-well system.",
+      "unproven": "Experimental validation and applicability to systems beyond this specific model.",
+      "scored_at": "2026-08-14T08:59:03.329546258Z"
+    },
+    {
+      "id": "hn:49317546",
+      "source": "hn",
+      "title": "Show HN: Laptop is the last place your secrets are still in plaintext",
+      "url": "https://github.com/jitpass/jit",
+      "published": "2026-08-16T06:55:04Z",
+      "authors": "bukershok",
+      "points": 38,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Tool to encrypt secrets on developer machines; plaintext storage risk is known.",
+      "unproven": "whether adoption solves the actual secret-sprawl problem or moves it to key management",
+      "scored_at": "2026-08-16T08:17:27.742759979Z"
+    },
+    {
       "id": "hn:49312413",
       "source": "hn",
       "title": "Europe's scorched landscapes seen from space after summer heatwaves",
@@ -433,19 +341,112 @@
       "scored_at": "2026-08-15T20:11:37.948669137Z"
     },
     {
-      "id": "hn:49286485",
+      "id": "hn:49307469",
       "source": "hn",
-      "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
-      "url": "https://oxide.computer/blog/kubernetes-on-oxide",
-      "published": "2026-08-13T14:26:41Z",
-      "authors": "stevehipwell",
-      "points": 61,
+      "title": "destruction-certificate.txt",
+      "url": "https://stallman.org/articles/destruction-certificate.txt",
+      "published": "2026-08-15T03:50:38Z",
+      "authors": "lr0",
+      "points": 44,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Oxide describes Kubernetes integration design choices for its hardware platform.",
-      "scored_at": "2026-08-13T16:45:15.798566125Z"
+      "dek": "Richard Stallman's personal statement on a domain dispute.",
+      "scored_at": "2026-08-15T12:17:52.756073704Z"
+    },
+    {
+      "id": "hn:49303433",
+      "source": "hn",
+      "title": "Z.ai Security Disclosure",
+      "url": "https://cvd.z.ai",
+      "published": "2026-08-14T19:22:00Z",
+      "authors": "Alifatisk",
+      "points": 31,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Security disclosure landing page with no technical detail disclosed.",
+      "unproven": "the actual vulnerability, attack surface, affected versions, and whether exploitation is possible",
+      "scored_at": "2026-08-15T04:20:24.96379651Z"
+    },
+    {
+      "id": "hn:49300615",
+      "source": "hn",
+      "title": "RayforceDB – a pure C analytics database with a Lisp-like syntax",
+      "url": "https://rayforcedb.com/",
+      "published": "2026-08-14T16:02:20Z",
+      "authors": "sourdecor",
+      "points": 31,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "New analytics database project announcement; outside application security remit.",
+      "scored_at": "2026-08-15T04:20:24.963796951Z"
+    },
+    {
+      "id": "hn:49296902",
+      "source": "hn",
+      "title": "Ntfy – open-source Push to Mobile",
+      "url": "https://ntfy.sh/",
+      "published": "2026-08-14T10:35:43Z",
+      "authors": "Fake4d",
+      "points": 36,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Open-source push notification service; established pattern, no security angle.",
+      "scored_at": "2026-08-14T16:40:53.260166011Z"
+    }
+  ],
+  "noise": [
+    {
+      "id": "hn:49290062",
+      "source": "hn",
+      "title": "AI Is Threatening Natural Resources for Billions",
+      "url": "https://unric.org/en/ais-environmental-costs-threaten-water-land-and-climate",
+      "published": "2026-08-13T18:28:20Z",
+      "authors": "quaintdev",
+      "points": 52,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Opinion piece on AI resource consumption and environmental impact; outside application security scope.",
+      "scored_at": "2026-08-14T01:05:03.010301925Z"
+    },
+    {
+      "id": "hn:49288296",
+      "source": "hn",
+      "title": "GoAccess – Open-source real-time log analyzer and interactive viewer",
+      "url": "https://goaccess.io/",
+      "published": "2026-08-13T16:22:16Z",
+      "authors": "gregsadetsky",
+      "points": 51,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Open-source log analysis tool; no security finding or vulnerability disclosed.",
+      "scored_at": "2026-08-14T01:05:03.010302206Z"
+    },
+    {
+      "id": "hn:49290065",
+      "source": "hn",
+      "title": "Oracle exec boasts about supplying \"scary technology\" to the IDF for use in Gaza",
+      "url": "https://twitter.com/KweenInYellow/status/2087632844264796176",
+      "published": "2026-08-13T18:28:56Z",
+      "authors": "grandpajoey",
+      "points": 31,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Oracle executive statement about government technology; personnel commentary with no security engineering content.",
+      "scored_at": "2026-08-14T01:05:03.010301455Z"
     }
   ]
 }
