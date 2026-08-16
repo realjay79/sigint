@@ -31004,6 +31004,22 @@
     "dek": "Satellite imagery of European heat damage; climate reporting outside security scope.",
     "scored_at": "2026-08-15T20:11:37.948669137Z"
   },
+  "hn:49317546": {
+    "id": "hn:49317546",
+    "source": "hn",
+    "title": "Show HN: Laptop is the last place your secrets are still in plaintext",
+    "url": "https://github.com/jitpass/jit",
+    "published": "2026-08-16T06:55:04Z",
+    "authors": "bukershok",
+    "points": 38,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Tool to encrypt secrets on developer machines; plaintext storage risk is known.",
+    "unproven": "whether adoption solves the actual secret-sprawl problem or moves it to key management",
+    "scored_at": "2026-08-16T08:17:27.742759979Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",
