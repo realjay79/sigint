@@ -31020,6 +31020,21 @@
     "unproven": "whether adoption solves the actual secret-sprawl problem or moves it to key management",
     "scored_at": "2026-08-16T08:17:27.742759979Z"
   },
+  "hn:49322979": {
+    "id": "hn:49322979",
+    "source": "hn",
+    "title": "The Trumps' Crypto Project Just Got One Step Closer to Becoming a Bank",
+    "url": "https://motherjones.com/politics/2026/08/donald-trump-world-liberty-regulatory-approval",
+    "published": "2026-08-16T19:41:18Z",
+    "authors": "rib3ye",
+    "points": 41,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Political figure's cryptocurrency venture advances toward banking charter; reporting on regulatory filings.",
+    "scored_at": "2026-08-17T00:39:55.967471559Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",
