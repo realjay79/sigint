@@ -32310,6 +32310,38 @@
     "dek": "Political figure's cryptocurrency venture advances toward banking charter; reporting on regulatory filings.",
     "scored_at": "2026-08-17T00:39:55.967471559Z"
   },
+  "hn:49330684": {
+    "id": "hn:49330684",
+    "source": "hn",
+    "title": "Incident with Github.com",
+    "url": "https://githubstatus.com/incidents/zkxwbgr0cnmx",
+    "published": "2026-08-17T13:40:55Z",
+    "authors": "kevcampb",
+    "points": 657,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "GitHub experienced an incident; status page notification with no technical detail disclosed.",
+    "unproven": "incident scope, root cause, and whether reader's infrastructure was affected remain unknown",
+    "scored_at": "2026-08-17T16:16:37.041624331Z"
+  },
+  "hn:49331423": {
+    "id": "hn:49331423",
+    "source": "hn",
+    "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
+    "url": "https://wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+    "published": "2026-08-17T14:18:38Z",
+    "authors": "galnagli",
+    "points": 87,
+    "novelty": 3,
+    "actionability": 4,
+    "score": 7,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Copilot-generated fix introduced authentication bypass in Snowflake's Jira; suggests checking AI-assisted remediation for security regressions.",
+    "unproven": "whether this pattern is systematic across codebases or isolated to this incident; no measurement of fix-suggestion safety across large corpus",
+    "scored_at": "2026-08-17T16:16:37.04162385Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",
@@ -32325,6 +32357,22 @@
       "CVE-2021-27137"
     ],
     "scored_at": "2026-07-25T16:23:52.50339Z"
+  },
+  "kev:CVE-2025-62593": {
+    "id": "kev:CVE-2025-62593",
+    "source": "kev",
+    "title": "CVE-2025-62593 — Ray-Project Ray Code Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
+    "published": "2026-08-18T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Ray-Project Ray. Confirmed exploited in the wild. Federal remediation due 21 August.",
+    "cves": [
+      "CVE-2025-62593"
+    ],
+    "scored_at": "2026-08-17T16:16:34.611058874Z"
   },
   "kev:CVE-2025-68686": {
     "id": "kev:CVE-2025-68686",

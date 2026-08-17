@@ -1,22 +1,56 @@
 {
-  "generated": "2026-08-17T12:22:32.096694078Z",
+  "generated": "2026-08-17T16:16:37.056804517Z",
   "edition": 24,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 25,
+    "total": 19,
     "by_source": {
-      "arxiv": 19,
-      "hn": 6
+      "arxiv": 10,
+      "hn": 8,
+      "kev": 1
     },
     "by_quadrant": {
-      "NEW GROUND": 5,
-      "NOISE FLOOR": 20
+      "NEW GROUND": 4,
+      "NOISE FLOOR": 13,
+      "STANDING ORDERS": 2
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2025-62593",
+      "source": "kev",
+      "title": "CVE-2025-62593 — Ray-Project Ray Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ray-Project Ray. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2025-62593"
+      ],
+      "scored_at": "2026-08-17T16:16:34.611058874Z"
+    },
+    {
+      "id": "hn:49331423",
+      "source": "hn",
+      "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
+      "url": "https://wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "published": "2026-08-17T14:18:38Z",
+      "authors": "galnagli",
+      "points": 87,
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Copilot-generated fix introduced authentication bypass in Snowflake's Jira; suggests checking AI-assisted remediation for security regressions.",
+      "unproven": "whether this pattern is systematic across codebases or isolated to this incident; no measurement of fix-suggestion safety across large corpus",
+      "scored_at": "2026-08-17T16:16:37.04162385Z"
+    },
     {
       "id": "arxiv:2608.14533v1",
       "source": "arxiv",
@@ -93,36 +127,6 @@
       "scored_at": "2026-08-17T04:32:45.608128271Z"
     },
     {
-      "id": "arxiv:2608.14418v1",
-      "source": "arxiv",
-      "title": "STINER: Automated Extraction of Strategic Cyber Threat Intelligence from X",
-      "url": "http://arxiv.org/abs/2608.14418v1",
-      "published": "2026-08-14T15:59:56Z",
-      "authors": "Yasir Ech-Chammakhy et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "STINER corpus and NER model extract threat actors and sectors from X with 8-entity taxonomy; benchmarks nine configurations on 2,100 alerts.",
-      "unproven": "single source (X); no production deployment; threat intelligence feed integration not addressed; no comparison to vendor CTI parsers.",
-      "scored_at": "2026-08-17T04:32:03.66023347Z"
-    },
-    {
-      "id": "arxiv:2608.14331v1",
-      "source": "arxiv",
-      "title": "Equivalence Between Average-Case Hardness of Learning and Cryptography for Mixed Quantum States",
-      "url": "http://arxiv.org/abs/2608.14331v1",
-      "published": "2026-08-14T14:20:46Z",
-      "authors": "Alexandru Cojocaru et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Equivalence proof between average-case learning hardness and one-way state generators for mixed quantum states.",
-      "unproven": "theoretical cryptography; unrelated to reader's secure-SDLC, SAST/DAST, or post-quantum migration planning.",
-      "scored_at": "2026-08-17T04:32:03.660234776Z"
-    },
-    {
       "id": "arxiv:2608.14508v1",
       "source": "arxiv",
       "title": "Universal aspects of bulk density of states in non-Hermitian lattices",
@@ -183,81 +187,6 @@
       "scored_at": "2026-08-17T04:32:45.608128419Z"
     },
     {
-      "id": "arxiv:2608.14387v1",
-      "source": "arxiv",
-      "title": "Linearised quantum signal processing",
-      "url": "http://arxiv.org/abs/2608.14387v1",
-      "published": "2026-08-14T15:29:37Z",
-      "authors": "Marek Arsenault et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Linearized quantum signal processing connects universal Hamiltonian eigenvalue transformation to generalized QSP frameworks.",
-      "unproven": "experimental implementation; practical overhead of linearization compared to standard QSVT; applicability to fault-tolerant quantum computers.",
-      "scored_at": "2026-08-17T04:32:45.60812853Z"
-    },
-    {
-      "id": "arxiv:2608.14370v1",
-      "source": "arxiv",
-      "title": "A Hybrid LLM-Based Framework for Automated Security Annotation Generation in Business Process Models",
-      "url": "http://arxiv.org/abs/2608.14370v1",
-      "published": "2026-08-14T15:11:10Z",
-      "authors": "Md Kamrul Islam et al.",
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLM pipeline generates SecBPMN2 annotations from process models and security docs; achieves 0.58 precision on 27-model dataset.",
-      "unproven": "small curated dataset; no evidence this scales to real enterprise process repositories; manual annotation remains ground truth.",
-      "scored_at": "2026-08-17T04:32:03.660233621Z"
-    },
-    {
-      "id": "arxiv:2608.14357v1",
-      "source": "arxiv",
-      "title": "Native multi-qubit gates on a single-junction unimon circuit",
-      "url": "http://arxiv.org/abs/2608.14357v1",
-      "published": "2026-08-14T14:59:35Z",
-      "authors": "Sasu Tuohino et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Single-junction multiunimon circuit achieves 99.5% simulated fidelity for multi-qubit gates with simple pulse control.",
-      "unproven": "experimental demonstration; noise improvements needed for 99.99% fidelity; scalability beyond three qubits; near-term device realization.",
-      "scored_at": "2026-08-17T04:32:45.608132076Z"
-    },
-    {
-      "id": "arxiv:2608.14353v1",
-      "source": "arxiv",
-      "title": "Orbital Hall Effect in Weyl Semimetals from quantum geometric band interference",
-      "url": "http://arxiv.org/abs/2608.14353v1",
-      "published": "2026-08-14T14:52:56Z",
-      "authors": "Chiara Pacella et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Band geometry governs orbital angular momentum transport in TaAs-family Weyl semimetals, validated by ab initio and analytic models.",
-      "unproven": "experimental measurement of orbital Hall effect in these materials; generalization beyond Weyl semimetals; temperature and disorder dependence.",
-      "scored_at": "2026-08-17T04:32:45.608132186Z"
-    },
-    {
-      "id": "arxiv:2608.14329v1",
-      "source": "arxiv",
-      "title": "A Four-Axis Trustworthiness Benchmark for LLM-as-Judge in Principle-Based Regulation",
-      "url": "http://arxiv.org/abs/2608.14329v1",
-      "published": "2026-08-14T14:20:38Z",
-      "authors": "Dipankar Sarkar",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLM-as-judge benchmark on 168 FCA financial-promotion scenarios shows 47-point accuracy drop under keyword-stuffing adversarial inputs.",
-      "unproven": "dataset limited to crypto-asset regulation; no evidence of generalization to other principle-based standards; outside application security scope.",
-      "scored_at": "2026-08-17T04:32:03.660234906Z"
-    },
-    {
       "id": "hn:49304447",
       "source": "hn",
       "title": "Going Dark, and the era of law enforcement hacking",
@@ -289,50 +218,20 @@
       "scored_at": "2026-08-17T04:32:45.608127432Z"
     },
     {
-      "id": "hn:49300314",
+      "id": "hn:49330684",
       "source": "hn",
-      "title": "Google is making private AI practical with homomorphic encryption",
-      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
-      "published": "2026-08-14T15:43:10Z",
-      "authors": "u1hcw9nx",
-      "points": 153,
-      "novelty": 2,
+      "title": "Incident with Github.com",
+      "url": "https://githubstatus.com/incidents/zkxwbgr0cnmx",
+      "published": "2026-08-17T13:40:55Z",
+      "authors": "kevcampb",
+      "points": 657,
+      "novelty": 1,
       "actionability": 1,
-      "score": 3,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Google applies homomorphic encryption to inference; practical deployment timeline and performance overhead remain undisclosed.",
-      "unproven": "production viability, latency and cost at scale, whether constraints apply to the reader's AI agent use cases in SDLC",
-      "scored_at": "2026-08-14T20:22:06.151173851Z"
-    },
-    {
-      "id": "arxiv:2608.14285v1",
-      "source": "arxiv",
-      "title": "Qu-Trefoil: Large-Scale Quantum Circuit Simulator Working on FPGA With SATA Storages",
-      "url": "http://arxiv.org/abs/2608.14285v1",
-      "published": "2026-08-14T13:10:18Z",
-      "authors": "Kaijie Wei et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "FPGA-based quantum circuit simulator scaling to 43+ qubits; engineering contribution, not application security.",
-      "unproven": "limited to specific hardware platform; no evidence of adoption in security workflows",
-      "scored_at": "2026-08-17T08:32:03.481385751Z"
-    },
-    {
-      "id": "arxiv:2608.14263v1",
-      "source": "arxiv",
-      "title": "SymQuPS: Symbolic Quantum Phase Space Algebra in Python",
-      "url": "http://arxiv.org/abs/2608.14263v1",
-      "published": "2026-08-14T12:41:25Z",
-      "authors": "Hendry M. Lim et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "SymPy library for quantum phase space algebra; math toolkit, not relevant to SAST/DAST/secure SDLC.",
-      "unproven": "entirely outside the reader's domain",
-      "scored_at": "2026-08-17T08:32:03.481386141Z"
+      "dek": "GitHub experienced an incident; status page notification with no technical detail disclosed.",
+      "unproven": "incident scope, root cause, and whether reader's infrastructure was affected remain unknown",
+      "scored_at": "2026-08-17T16:16:37.041624331Z"
     },
     {
       "id": "hn:49322979",
@@ -394,9 +293,7 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Richard Stallman's personal statement on a domain dispute.",
       "scored_at": "2026-08-15T12:17:52.756073704Z"
-    }
-  ],
-  "noise": [
+    },
     {
       "id": "hn:49303433",
       "source": "hn",
@@ -412,21 +309,7 @@
       "dek": "Security disclosure landing page with no technical detail disclosed.",
       "unproven": "the actual vulnerability, attack surface, affected versions, and whether exploitation is possible",
       "scored_at": "2026-08-15T04:20:24.96379651Z"
-    },
-    {
-      "id": "hn:49300615",
-      "source": "hn",
-      "title": "RayforceDB – a pure C analytics database with a Lisp-like syntax",
-      "url": "https://rayforcedb.com/",
-      "published": "2026-08-14T16:02:20Z",
-      "authors": "sourdecor",
-      "points": 31,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "New analytics database project announcement; outside application security remit.",
-      "scored_at": "2026-08-15T04:20:24.963796951Z"
     }
-  ]
+  ],
+  "noise": null
 }
