@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T04:32:45.623907963Z",
+  "generated": "2026-08-17T08:32:28.476536377Z",
   "edition": 24,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,32 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 22,
-      "hn": 3
+      "arxiv": 24,
+      "hn": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 1,
       "NEW GROUND": 5,
-      "NOISE FLOOR": 19
+      "NOISE FLOOR": 20
     }
   },
   "items": [
-    {
-      "id": "hn:49295238",
-      "source": "hn",
-      "title": "Ruby 4.0 Universal RCE Deserialization Gadget Chain",
-      "url": "https://elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain",
-      "published": "2026-08-14T06:09:04Z",
-      "authors": "pentestercrab",
-      "points": 48,
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Universal Ruby deserialization gadget chain enables RCE; requires immediate review if Ruby is in the SDLC dependency tree.",
-      "unproven": "depends on whether reader's codebase uses vulnerable deserialization patterns; exploitation conditions not yet confirmed in production environments",
-      "scored_at": "2026-08-14T12:41:51.01200951Z"
-    },
     {
       "id": "arxiv:2608.14533v1",
       "source": "arxiv",
@@ -201,21 +184,6 @@
       "scored_at": "2026-08-17T04:32:17.350528046Z"
     },
     {
-      "id": "arxiv:2608.13948v1",
-      "source": "arxiv",
-      "title": "Vectorized SQIsign Implementation Using AVX-512",
-      "url": "http://arxiv.org/abs/2608.13948v1",
-      "published": "2026-08-14T04:39:36Z",
-      "authors": "Weize Wang et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "AVX-512 vectorization of SQIsign achieves 2.69× signing speedup; NIST post-quantum standardization candidate.",
-      "unproven": "Speedup measured on reference implementation only; no comparison against other post-quantum signature schemes or real deployment contexts; optimization bound to AVX-512 availability and Intel hardware.",
-      "scored_at": "2026-08-17T04:32:17.350528461Z"
-    },
-    {
       "id": "arxiv:2608.14508v1",
       "source": "arxiv",
       "title": "Universal aspects of bulk density of states in non-Hermitian lattices",
@@ -351,20 +319,82 @@
       "scored_at": "2026-08-17T04:32:03.660234906Z"
     },
     {
-      "id": "arxiv:2608.13981v1",
+      "id": "arxiv:2608.14214v1",
       "source": "arxiv",
-      "title": "Structural Leakage in Graph Encryption: Attacks and Defenses",
-      "url": "http://arxiv.org/abs/2608.13981v1",
-      "published": "2026-08-14T05:44:29Z",
-      "authors": "Hua Shen et al.",
+      "title": "Exchange-only qubit stabilized by a single-spin qubit",
+      "url": "http://arxiv.org/abs/2608.14214v1",
+      "published": "2026-08-14T11:43:34Z",
+      "authors": "Irina Heinz et al.",
       "novelty": 3,
       "actionability": 1,
       "score": 4,
       "quadrant": "NOISE FLOOR",
-      "dek": "Fragment Tree attack recovers 10.24% of shortest-path queries in graph encryption; BlindGES reduces one-to-one token mappings below 20%.",
-      "unproven": "Attacks demonstrated on synthetic and real-world graphs; no evidence of practical feasibility against deployed graph encryption systems; BlindGES evaluated on benchmarks only, not in production.",
-      "scored_at": "2026-08-17T04:32:17.350528263Z"
+      "dek": "Hybrid spin qubit encoding for error detection in quantum hardware; physics, not application security.",
+      "unproven": "entirely outside the reader's domain",
+      "scored_at": "2026-08-17T08:32:03.481386412Z"
     },
+    {
+      "id": "arxiv:2608.14208v1",
+      "source": "arxiv",
+      "title": "Foundation Neural Effective Hamiltonian for Strongly Correlated Quantum Materials",
+      "url": "http://arxiv.org/abs/2608.14208v1",
+      "published": "2026-08-14T11:33:51Z",
+      "authors": "Lixing Zhang et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Neural quantum states for strongly correlated materials across parameter families; materials physics, not software security.",
+      "unproven": "entirely outside the reader's domain",
+      "scored_at": "2026-08-17T08:32:03.481386522Z"
+    },
+    {
+      "id": "arxiv:2608.14206v1",
+      "source": "arxiv",
+      "title": "Synthesizing In-Bulk Topological Corner States via Giant Atoms",
+      "url": "http://arxiv.org/abs/2608.14206v1",
+      "published": "2026-08-14T11:31:28Z",
+      "authors": "Zhao-Min Gao et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Topological corner states via giant atoms in SSH lattices; quantum engineering unrelated to application security.",
+      "unproven": "entirely outside the reader's domain",
+      "scored_at": "2026-08-17T08:32:03.481386642Z"
+    },
+    {
+      "id": "arxiv:2608.14169v1",
+      "source": "arxiv",
+      "title": "Classical Limits of Spectral Filtering in Quantum Generative Models",
+      "url": "http://arxiv.org/abs/2608.14169v1",
+      "published": "2026-08-14T10:29:09Z",
+      "authors": "Marco Roth",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Spectral filtering in quantum generative models offers no quantum-classical separation under matched sampling cost.",
+      "unproven": "limited to small synthetic systems; no scaling evidence or comparison on real-world generative tasks",
+      "scored_at": "2026-08-17T08:32:11.815939684Z"
+    },
+    {
+      "id": "arxiv:2608.14134v1",
+      "source": "arxiv",
+      "title": "Photonic Quantum Computing vs. Classical Solvers in Constrained Factor Portfolio Optimization",
+      "url": "http://arxiv.org/abs/2608.14134v1",
+      "published": "2026-08-14T09:40:58Z",
+      "authors": "Nirvik Sahoo et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Photonic quantum annealer underperforms classical mixed-integer programming on constrained factor portfolio optimization.",
+      "unproven": "single vendor, single problem family, single test window; findings not generalizable to other optimization domains or hardware",
+      "scored_at": "2026-08-17T08:32:11.815940005Z"
+    }
+  ],
+  "noise": [
     {
       "id": "hn:49304447",
       "source": "hn",
@@ -381,23 +411,6 @@
       "unproven": "entirely outside reader's remit; concerns policy and law enforcement capability, not application security engineering or SDLC",
       "scored_at": "2026-08-15T00:39:32.498204451Z"
     },
-    {
-      "id": "arxiv:2608.14544v1",
-      "source": "arxiv",
-      "title": "GPU implementation of mixed quantum-classical Liouville molecular dynamics without momentum jump",
-      "url": "http://arxiv.org/abs/2608.14544v1",
-      "published": "2026-08-14T17:58:01Z",
-      "authors": "Koji Ando",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "GPU implementation of quantum-classical molecular dynamics achieves tenfold speedup by eliminating thread-divergence overhead.",
-      "unproven": "generalization beyond the specific spawning-free trajectory method tested; production applicability to systems beyond those studied.",
-      "scored_at": "2026-08-17T04:32:45.608127432Z"
-    }
-  ],
-  "noise": [
     {
       "id": "hn:49300314",
       "source": "hn",
@@ -428,21 +441,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Satellite imagery of European heat damage; climate reporting outside security scope.",
       "scored_at": "2026-08-15T20:11:37.948669137Z"
-    },
-    {
-      "id": "hn:49307469",
-      "source": "hn",
-      "title": "destruction-certificate.txt",
-      "url": "https://stallman.org/articles/destruction-certificate.txt",
-      "published": "2026-08-15T03:50:38Z",
-      "authors": "lr0",
-      "points": 44,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Richard Stallman's personal statement on a domain dispute.",
-      "scored_at": "2026-08-15T12:17:52.756073704Z"
     }
   ]
 }
