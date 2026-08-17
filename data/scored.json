@@ -32326,6 +32326,21 @@
     "unproven": "incident scope, root cause, and whether reader's infrastructure was affected remain unknown",
     "scored_at": "2026-08-17T16:16:37.041624331Z"
   },
+  "hn:49331342": {
+    "id": "hn:49331342",
+    "source": "hn",
+    "title": "Binance gave Russia crypto donation records for Ukraine fundraisers",
+    "url": "https://reuters.com/legal/government/binance-gave-moscow-client-details-used-charge-russian-over-ukraine-donations-2026-08-17",
+    "published": "2026-08-17T14:13:55Z",
+    "authors": "ilamont",
+    "points": 34,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Binance disclosed crypto donation records to Russian fundraising accounts.",
+    "scored_at": "2026-08-17T20:15:15.707740968Z"
+  },
   "hn:49331423": {
     "id": "hn:49331423",
     "source": "hn",
@@ -32341,6 +32356,21 @@
     "dek": "Copilot-generated fix introduced authentication bypass in Snowflake's Jira; suggests checking AI-assisted remediation for security regressions.",
     "unproven": "whether this pattern is systematic across codebases or isolated to this incident; no measurement of fix-suggestion safety across large corpus",
     "scored_at": "2026-08-17T16:16:37.04162385Z"
+  },
+  "hn:49332564": {
+    "id": "hn:49332564",
+    "source": "hn",
+    "title": "Anthropic's War on open source AI",
+    "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
+    "published": "2026-08-17T15:24:34Z",
+    "authors": "bilsbie",
+    "points": 111,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Twitter commentary on Anthropic's licensing strategy toward open-source models.",
+    "scored_at": "2026-08-17T20:15:15.707740613Z"
   },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
