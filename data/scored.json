@@ -30232,6 +30232,51 @@
     "unproven": "only open-weight models tested; closed-source agent behavior unknown; generalization to production IDEs and safe-by-default tool configurations not established",
     "scored_at": "2026-08-18T08:24:30.683826739Z"
   },
+  "arxiv:2608.14979v1": {
+    "id": "arxiv:2608.14979v1",
+    "source": "arxiv",
+    "title": "Quantum Boltzmann Equation Self-Consistent-Field for the Entropic Regularization of Mean-Field Singularities",
+    "url": "http://arxiv.org/abs/2608.14979v1",
+    "published": "2026-08-15T02:17:33Z",
+    "authors": "Romit Chakraborty",
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Quantum Boltzmann equation formulation with entropic regularization resolves mean-field singularities in electronic structure calculations.",
+    "unproven": "Method presented theoretically with limited molecular test cases; no benchmarking against established quantum chemistry solvers or hardware implementation.",
+    "scored_at": "2026-08-18T20:12:45.465349824Z"
+  },
+  "arxiv:2608.14981v1": {
+    "id": "arxiv:2608.14981v1",
+    "source": "arxiv",
+    "title": "Qudit-ADAPT-VQE: an adaptive variational algorithm with counterdiabatic-inspired improvements for qudits",
+    "url": "http://arxiv.org/abs/2608.14981v1",
+    "published": "2026-08-15T02:19:32Z",
+    "authors": "Joaquín Molina et al.",
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "ADAPT-VQE adapted for qudits using counterdiabatic operators to reduce barren plateau effects in variational quantum algorithms.",
+    "unproven": "Demonstrated on Max 3-Cut only; no comparison to classical solvers, no hardware validation, no evidence of practical advantage over qubit-based methods.",
+    "scored_at": "2026-08-18T20:12:45.465349684Z"
+  },
+  "arxiv:2608.14995v1": {
+    "id": "arxiv:2608.14995v1",
+    "source": "arxiv",
+    "title": "PAS-QFL: Personalized Ansatz Selection for Quantum Federated Learning under Client Data Heterogeneity",
+    "url": "http://arxiv.org/abs/2608.14995v1",
+    "published": "2026-08-15T02:52:39Z",
+    "authors": "Jindi Wu et al.",
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Federated learning framework lets quantum clients train with heterogeneous data by personalizing ansatz structure per client.",
+    "unproven": "Tested only in simulation on toy problems; no evidence quantum hardware exists at scale to run this, or that it outperforms classical federated learning baselines.",
+    "scored_at": "2026-08-18T20:12:45.465349363Z"
+  },
   "arxiv:2608.15012v1": {
     "id": "arxiv:2608.15012v1",
     "source": "arxiv",
@@ -30817,6 +30862,96 @@
     "unproven": "entirely outside the reader's remit in application security and SDLC",
     "scored_at": "2026-08-18T16:19:58.929275198Z"
   },
+  "arxiv:2608.15545v1": {
+    "id": "arxiv:2608.15545v1",
+    "source": "arxiv",
+    "title": "Quantum Advantage with Adaptive Shallow Circuits",
+    "url": "http://arxiv.org/abs/2608.15545v1",
+    "published": "2026-08-16T05:42:52Z",
+    "authors": "Yusen Wu et al.",
+    "novelty": 4,
+    "actionability": 1,
+    "score": 5,
+    "quadrant": "NEW GROUND",
+    "dek": "Adaptive measurement feedback in shallow circuits enables polynomial-feedback encoding of discrete logarithm, creating a computational hierarchy beyond constant depth.",
+    "unproven": "Hardness assumes worst-case DLP complexity, not average-case; encoding overhead and gate error requirements for practical relevance unquantified; single-qubit readout severely constrains scalability.",
+    "scored_at": "2026-08-18T20:12:40.996311323Z"
+  },
+  "arxiv:2608.15576v1": {
+    "id": "arxiv:2608.15576v1",
+    "source": "arxiv",
+    "title": "Local observable errors from truncating interaction tails in gapped quantum lattice systems",
+    "url": "http://arxiv.org/abs/2608.15576v1",
+    "published": "2026-08-16T06:50:23Z",
+    "authors": "Kangle Li",
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Error bounds for local observables from Hamiltonian tail truncation scale as O(R^−(p−d)) for r^−p interactions in d dimensions.",
+    "unproven": "Purely theoretical bounds; no empirical validation on specific Hamiltonians; applicability to near-term quantum simulators unclear; locality assumptions may not hold in realistic systems.",
+    "scored_at": "2026-08-18T20:12:40.996311193Z"
+  },
+  "arxiv:2608.15577v1": {
+    "id": "arxiv:2608.15577v1",
+    "source": "arxiv",
+    "title": "Qutrit-Native Spatial-Orbital Encoding for Resource-Efficient Quantum Chemistry Simulation",
+    "url": "http://arxiv.org/abs/2608.15577v1",
+    "published": "2026-08-16T06:55:07Z",
+    "authors": "Sumin Lim",
+    "novelty": 3,
+    "actionability": 1,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Qutrit spatial-orbital encoding reduces errors by tens to hundreds of mHa in H₂O and LiH vs. qubit UCCSD, using half the quantum resources.",
+    "unproven": "Benchmarks on small molecules only (n≤10 qubits); truncation of spin-coupling in H₂O encoding impacts accuracy trade-off; scaling to larger systems undemonstrated.",
+    "scored_at": "2026-08-18T20:12:40.996311083Z"
+  },
+  "arxiv:2608.15604v1": {
+    "id": "arxiv:2608.15604v1",
+    "source": "arxiv",
+    "title": "Nonlinear Landau-Zener Tunneling with Heat-Bath Colored Noise",
+    "url": "http://arxiv.org/abs/2608.15604v1",
+    "published": "2026-08-16T08:04:19Z",
+    "authors": "Yi Cao et al.",
+    "novelty": 3,
+    "actionability": 1,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Colored noise suppresses nonlinear Landau-Zener tunneling beyond a critical noise amplitude, contrary to linear-regime thermal enhancement.",
+    "unproven": "Numerical simulation only; analytical results approximate; physical regimes (optical vs. atomic) where nonlinearity dominates not clearly demarcated; experimental validation absent.",
+    "scored_at": "2026-08-18T20:12:40.996310963Z"
+  },
+  "arxiv:2608.15607v1": {
+    "id": "arxiv:2608.15607v1",
+    "source": "arxiv",
+    "title": "Temperature encoding rates of two-level probes in de Sitter spacetime",
+    "url": "http://arxiv.org/abs/2608.15607v1",
+    "published": "2026-08-16T08:07:16Z",
+    "authors": "Yao Jin",
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Temperature encoding rate of two-level probes in de Sitter spacetime shows non-monotonic dependence on probe acceleration.",
+    "unproven": "Purely theoretical; no experimental temperature-measurement scenario; relevance to practical quantum metrology unclear; de Sitter approximation validity over probe timescales not discussed.",
+    "scored_at": "2026-08-18T20:12:40.996310842Z"
+  },
+  "arxiv:2608.15608v1": {
+    "id": "arxiv:2608.15608v1",
+    "source": "arxiv",
+    "title": "Linear optical fan-out gates using fewer ancillary single photons with enhanced success probability",
+    "url": "http://arxiv.org/abs/2608.15608v1",
+    "published": "2026-08-16T08:12:42Z",
+    "authors": "Wen-Qiang Liu et al.",
+    "novelty": 3,
+    "actionability": 1,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Linear-optical fan-out gate reduces ancillary photons from 2n−2 to n−1 and improves success probability from (1/8)^(n−1) to (1/4)^(n−1).",
+    "unproven": "Post-selection required; success probability remains exponentially small in n; photon loss and detector efficiency not modeled.",
+    "scored_at": "2026-08-18T20:12:40.996310051Z"
+  },
   "arxiv:2608.15617v1": {
     "id": "arxiv:2608.15617v1",
     "source": "arxiv",
@@ -30831,6 +30966,36 @@
     "dek": "Eight evaluation choices in power-system attack detection benchmarks reverse conclusions before model selection; labels, not pipeline, explain accuracy.",
     "unproven": "whether the identified methodological flaws propagate to defenses deployed in operational power systems; quantum models remain unproven against classical on this problem.",
     "scored_at": "2026-08-18T04:26:13.056518394Z"
+  },
+  "arxiv:2608.15620v1": {
+    "id": "arxiv:2608.15620v1",
+    "source": "arxiv",
+    "title": "Finite-energy GKP-QPC architectures for photonic quantum memories and repeaters",
+    "url": "http://arxiv.org/abs/2608.15620v1",
+    "published": "2026-08-16T08:38:38Z",
+    "authors": "Kaustav Chatterjee et al.",
+    "novelty": 3,
+    "actionability": 1,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "GKP-QPC concatenated code lowers squeezing threshold to 5.06 dB for photonic quantum memories, improving fidelity by 75–90% in intermediate-noise regime.",
+    "unproven": "Analysis assumes ideal pure-loss channels; realistic losses and imperfect syndrome extraction not modeled; repeater scalability beyond single concatenation layer unaddressed.",
+    "scored_at": "2026-08-18T20:12:40.996309931Z"
+  },
+  "arxiv:2608.15637v1": {
+    "id": "arxiv:2608.15637v1",
+    "source": "arxiv",
+    "title": "A scalable chip-integrated single-photon source array based on 50 individually addressable neutral atoms",
+    "url": "http://arxiv.org/abs/2608.15637v1",
+    "published": "2026-08-16T09:02:16Z",
+    "authors": "Ya-Dong Hu et al.",
+    "novelty": 4,
+    "actionability": 1,
+    "score": 5,
+    "quadrant": "NEW GROUND",
+    "dek": "50-atom neutral-atom single-photon source array with 0.4% cross-talk and 2.9 dB loss demonstrates scalable quantum light production.",
+    "unproven": "Photon quality limited by detector dark counts; reproducibility across chip variants untested; practical integration into large quantum networks not yet demonstrated.",
+    "scored_at": "2026-08-18T20:12:40.996309019Z"
   },
   "arxiv:2608.15640v1": {
     "id": "arxiv:2608.15640v1",
@@ -30861,6 +31026,36 @@
     "dek": "Spatiotemporal entropy fusion with adaptive thresholding detects DDoS in SDN at 99.26% recall; testbed results only.",
     "unproven": "whether the method scales to production SDN traffic volumes and heterogeneous IoT deployments beyond the testbed; no code or reproducibility artifacts mentioned.",
     "scored_at": "2026-08-18T04:26:13.056517977Z"
+  },
+  "arxiv:2608.15653v1": {
+    "id": "arxiv:2608.15653v1",
+    "source": "arxiv",
+    "title": "Charging of a Quantum Battery by a Two-Photon Quantum Pulse",
+    "url": "http://arxiv.org/abs/2608.15653v1",
+    "published": "2026-08-16T09:45:44Z",
+    "authors": "Elnaz Darsheshdar et al.",
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Theoretical analysis of two-photon charging of quantum batteries identifies non-Hermitian exceptional points governing efficiency.",
+    "unproven": "No experimental validation; no application to real quantum systems or energy scales; addressability of temporal-mode tuning in practice unclear.",
+    "scored_at": "2026-08-18T20:12:40.996308107Z"
+  },
+  "arxiv:2608.15655v1": {
+    "id": "arxiv:2608.15655v1",
+    "source": "arxiv",
+    "title": "Rand-SEMI-QAOA: Finite-Budget Depth-One MaxCut Ensembles on Compressed Quantum Registers",
+    "url": "http://arxiv.org/abs/2608.15655v1",
+    "published": "2026-08-16T09:47:55Z",
+    "authors": "Emilio Semre et al.",
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "QAOA variant for MaxCut shows 0.94 approximation ratio on 3-regular graphs with one layer, using mutually unbiased bases.",
+    "unproven": "Results limited to graphs with n≤22; scalability to problems of cryptographic relevance undemonstrated; no comparison to classical QAOA or hybrid benchmarks.",
+    "scored_at": "2026-08-18T20:12:40.996307616Z"
   },
   "arxiv:2608.15715v1": {
     "id": "arxiv:2608.15715v1",
@@ -34623,6 +34818,51 @@
     "unproven": "entirely outside reader's remit (car security, not application security or SDLC)",
     "scored_at": "2026-08-18T00:39:15.182894914Z"
   },
+  "hn:49341009": {
+    "id": "hn:49341009",
+    "source": "hn",
+    "title": "Expert Witness to ChatGPT: \"Show how 3M is 0 percent at fault\"",
+    "url": "https://404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit",
+    "published": "2026-08-18T03:44:41Z",
+    "authors": "kristjansson",
+    "points": 66,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "ChatGPT prompted to argue a defendant's innocence in a legal case, demonstrating tool misuse.",
+    "scored_at": "2026-08-18T20:12:45.465350536Z"
+  },
+  "hn:49344825": {
+    "id": "hn:49344825",
+    "source": "hn",
+    "title": "Using the railway network as a flatbed scanner",
+    "url": "https://philo.gay/linecam",
+    "published": "2026-08-18T12:43:54Z",
+    "authors": "otherayden",
+    "points": 327,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Railway network repurposed as a flatbed scanner in a technical novelty project.",
+    "scored_at": "2026-08-18T20:12:45.465350315Z"
+  },
+  "hn:49348079": {
+    "id": "hn:49348079",
+    "source": "hn",
+    "title": "Mojo is now open source!",
+    "url": "https://modular.com/blog/mojo-open-source",
+    "published": "2026-08-18T16:23:24Z",
+    "authors": "visheshdembla",
+    "points": 83,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Mojo programming language released as open source.",
+    "scored_at": "2026-08-18T20:12:45.465350055Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",
@@ -34783,6 +35023,22 @@
     ],
     "scored_at": "2026-08-11T20:35:04.205602593Z"
   },
+  "kev:CVE-2026-33824": {
+    "id": "kev:CVE-2026-33824",
+    "source": "kev",
+    "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
+    "published": "2026-08-18T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Microsoft Internet Key Exchange (IKE) Service Extensions. Confirmed exploited in the wild. Federal remediation due 21 August.",
+    "cves": [
+      "CVE-2026-33824"
+    ],
+    "scored_at": "2026-08-18T20:12:28.378148956Z"
+  },
   "kev:CVE-2026-34486": {
     "id": "kev:CVE-2026-34486",
     "source": "kev",
@@ -34814,6 +35070,38 @@
       "CVE-2026-50522"
     ],
     "scored_at": "2026-07-25T16:23:52.503382Z"
+  },
+  "kev:CVE-2026-55040": {
+    "id": "kev:CVE-2026-55040",
+    "source": "kev",
+    "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+    "published": "2026-08-18T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
+    "cves": [
+      "CVE-2026-55040"
+    ],
+    "scored_at": "2026-08-18T20:12:28.378153575Z"
+  },
+  "kev:CVE-2026-59310": {
+    "id": "kev:CVE-2026-59310",
+    "source": "kev",
+    "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
+    "published": "2026-08-18T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 21 August.",
+    "cves": [
+      "CVE-2026-59310"
+    ],
+    "scored_at": "2026-08-18T20:12:28.378151491Z"
   },
   "kev:CVE-2026-60137": {
     "id": "kev:CVE-2026-60137",
@@ -34862,6 +35150,22 @@
       "CVE-2026-63077"
     ],
     "scored_at": "2026-08-05T17:20:16.63789094Z"
+  },
+  "kev:CVE-2026-65400": {
+    "id": "kev:CVE-2026-65400",
+    "source": "kev",
+    "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+    "published": "2026-08-18T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
+    "cves": [
+      "CVE-2026-65400"
+    ],
+    "scored_at": "2026-08-18T20:12:28.378154967Z"
   },
   "kev:CVE-2026-68820": {
     "id": "kev:CVE-2026-68820",

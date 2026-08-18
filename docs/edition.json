@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T16:20:05.014242523Z",
+  "generated": "2026-08-18T20:12:45.482465104Z",
   "edition": 25,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,18 +8,50 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 23,
+      "arxiv": 19,
       "hn": 1,
-      "kev": 1
+      "kev": 5
     },
     "by_quadrant": {
       "BREAK GLASS": 3,
       "NEW GROUND": 9,
-      "NOISE FLOOR": 11,
-      "STANDING ORDERS": 2
+      "NOISE FLOOR": 7,
+      "STANDING ORDERS": 6
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-55040",
+      "source": "kev",
+      "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-55040"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378153575Z"
+    },
+    {
+      "id": "kev:CVE-2026-33824",
+      "source": "kev",
+      "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft Internet Key Exchange (IKE) Service Extensions. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-33824"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378148956Z"
+    },
     {
       "id": "kev:CVE-2025-62593",
       "source": "kev",
@@ -35,6 +67,38 @@
         "CVE-2025-62593"
       ],
       "scored_at": "2026-08-17T16:16:34.611058874Z"
+    },
+    {
+      "id": "kev:CVE-2026-59310",
+      "source": "kev",
+      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-59310"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378151491Z"
+    },
+    {
+      "id": "kev:CVE-2026-65400",
+      "source": "kev",
+      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-65400"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378154967Z"
     },
     {
       "id": "arxiv:2608.16044v1",
@@ -218,21 +282,6 @@
       "scored_at": "2026-08-18T04:26:13.056518928Z"
     },
     {
-      "id": "arxiv:2608.15391v1",
-      "source": "arxiv",
-      "title": "TwinGridShield: Consequence-Aware Runtime Authorization for LLM Grid-Agent Actions",
-      "url": "http://arxiv.org/abs/2608.15391v1",
-      "published": "2026-08-15T19:44:59Z",
-      "authors": "Md Fazley Rafy",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Runtime authorization layer validates LLM-proposed grid actions against a deterministic network twin before execution; stops 84.2% configured unsafe proposals.",
-      "unproven": "whether DC power flow model fidelity suffices for AC grid transients and whether the attack model reflects real LLM prompt-injection vulnerability in deployed systems.",
-      "scored_at": "2026-08-18T04:26:13.05652267Z"
-    },
-    {
       "id": "arxiv:2608.16860v1",
       "source": "arxiv",
       "title": "Classical Adversarial Fault-Tolerance and PCPs",
@@ -351,51 +400,6 @@
       "dek": "DeepSeek Harness agent resists indirect prompt injection with 16–25.5% attack success rates across 14,560 controlled tests.",
       "unproven": "Evaluation on isolated fixtures with recorded side effects, not live external integrations; results specific to this agent harness.",
       "scored_at": "2026-08-18T04:25:46.791074747Z"
-    },
-    {
-      "id": "arxiv:2608.16187v1",
-      "source": "arxiv",
-      "title": "Securing AI-Generated Code: A Just-in-Time Vulnerability Detection and Remediation Pipeline",
-      "url": "http://arxiv.org/abs/2608.16187v1",
-      "published": "2026-08-17T07:09:09Z",
-      "authors": "Mikhail Surikov",
-      "novelty": 2,
-      "actionability": 3,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Just-in-time pipeline detects and remediates AI-generated Python vulnerabilities using CodeQL, Bandit, and LLM validator; 9–54% finding reduction.",
-      "unproven": "Evaluation on 26 synthetic prompts only; no measurement of false positives, false negatives, or remediation quality in real SDLC.",
-      "scored_at": "2026-08-18T04:25:46.791077603Z"
-    },
-    {
-      "id": "arxiv:2608.16048v1",
-      "source": "arxiv",
-      "title": "zenDot: An LLM-integrated quantum TCAD platform for semiconductor quantum-device design and optimization automation",
-      "url": "http://arxiv.org/abs/2608.16048v1",
-      "published": "2026-08-17T03:21:02Z",
-      "authors": "Zeheng Wang et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLM-integrated TCAD platform automates quantum-device design; applicable only if reader develops quantum hardware.",
-      "unproven": "scope limited to silicon double quantum dots; generalization to other qubit types not established",
-      "scored_at": "2026-08-18T12:25:04.279630584Z"
-    },
-    {
-      "id": "arxiv:2608.16026v1",
-      "source": "arxiv",
-      "title": "SkillWatermark: An Embedded Skill Watermark of Progressive Privacy Inference via Benign Prompts",
-      "url": "http://arxiv.org/abs/2608.16026v1",
-      "published": "2026-08-17T02:38:32Z",
-      "authors": "Yu Li et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Watermarked skill descriptions in LLM agent prompts produce observable traffic patterns that encode private information across conversation turns.",
-      "unproven": "whether traffic pattern encoding is distinguishable under normal network noise and rate limiting; whether this covert channel survives prompt-injection defenses or agent output filtering.",
-      "scored_at": "2026-08-18T04:26:00.815082686Z"
     }
   ],
   "noise": [
@@ -416,6 +420,21 @@
       "scored_at": "2026-08-17T16:16:37.041624331Z"
     },
     {
+      "id": "hn:49344825",
+      "source": "hn",
+      "title": "Using the railway network as a flatbed scanner",
+      "url": "https://philo.gay/linecam",
+      "published": "2026-08-18T12:43:54Z",
+      "authors": "otherayden",
+      "points": 327,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Railway network repurposed as a flatbed scanner in a technical novelty project.",
+      "scored_at": "2026-08-18T20:12:45.465350315Z"
+    },
+    {
       "id": "hn:49332564",
       "source": "hn",
       "title": "Anthropic's War on open source AI",
@@ -429,21 +448,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Twitter commentary on Anthropic's licensing strategy toward open-source models.",
       "scored_at": "2026-08-17T20:15:15.707740613Z"
-    },
-    {
-      "id": "hn:49312413",
-      "source": "hn",
-      "title": "Europe's scorched landscapes seen from space after summer heatwaves",
-      "url": "https://bbc.com/news/articles/c4gxy0wqqd9o",
-      "published": "2026-08-15T17:21:26Z",
-      "authors": "blondie9x",
-      "points": 83,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Satellite imagery of European heat damage; climate reporting outside security scope.",
-      "scored_at": "2026-08-15T20:11:37.948669137Z"
     }
   ]
 }
