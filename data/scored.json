@@ -32372,6 +32372,22 @@
     "dek": "Twitter commentary on Anthropic's licensing strategy toward open-source models.",
     "scored_at": "2026-08-17T20:15:15.707740613Z"
   },
+  "hn:49333448": {
+    "id": "hn:49333448",
+    "source": "hn",
+    "title": "Flock-style scanners now track WiFi/Bluetooth identity from devices in your car",
+    "url": "https://techradar.com/vehicle-tech/think-flock-is-bad-this-new-tech-is-coming-to-link-license-plates-with-your-phone-and-it-could-be-more-bad-news-for-privacy",
+    "published": "2026-08-17T16:16:44Z",
+    "authors": "ck2",
+    "points": 44,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Consumer WiFi/Bluetooth tracking in vehicles is a known privacy risk; no new technique or measurement reported.",
+    "unproven": "entirely outside reader's remit (car security, not application security or SDLC)",
+    "scored_at": "2026-08-18T00:39:15.182894914Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",

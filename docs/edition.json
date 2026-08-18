@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-17T20:15:15.718675957Z",
-  "edition": 24,
+  "generated": "2026-08-18T00:39:15.197856095Z",
+  "edition": 25,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -50,20 +50,20 @@
       "scored_at": "2026-08-17T16:16:37.04162385Z"
     },
     {
-      "id": "hn:49304447",
+      "id": "hn:49333448",
       "source": "hn",
-      "title": "Going Dark, and the era of law enforcement hacking",
-      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
-      "published": "2026-08-14T20:52:44Z",
-      "authors": "vslira",
-      "points": 165,
-      "novelty": 2,
+      "title": "Flock-style scanners now track WiFi/Bluetooth identity from devices in your car",
+      "url": "https://techradar.com/vehicle-tech/think-flock-is-bad-this-new-tech-is-coming-to-link-license-plates-with-your-phone-and-it-could-be-more-bad-news-for-privacy",
+      "published": "2026-08-17T16:16:44Z",
+      "authors": "ck2",
+      "points": 44,
+      "novelty": 1,
       "actionability": 1,
-      "score": 3,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Essay on law enforcement encryption workarounds and device access; rehashes known debates without new technical findings.",
-      "unproven": "entirely outside reader's remit; concerns policy and law enforcement capability, not application security engineering or SDLC",
-      "scored_at": "2026-08-15T00:39:32.498204451Z"
+      "dek": "Consumer WiFi/Bluetooth tracking in vehicles is a known privacy risk; no new technique or measurement reported.",
+      "unproven": "entirely outside reader's remit (car security, not application security or SDLC)",
+      "scored_at": "2026-08-18T00:39:15.182894914Z"
     },
     {
       "id": "hn:49332564",
