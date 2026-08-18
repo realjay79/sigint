@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T08:24:46.932370223Z",
+  "generated": "2026-08-18T12:25:14.691001707Z",
   "edition": 25,
   "name": "SIGINT",
   "mark": "^C",
@@ -158,21 +158,6 @@
       "scored_at": "2026-08-18T04:26:13.056518394Z"
     },
     {
-      "id": "arxiv:2608.15184v1",
-      "source": "arxiv",
-      "title": "Pre-Model Representation Failures in GNN-Based Smart Contract Vulnerability Detection",
-      "url": "http://arxiv.org/abs/2608.15184v1",
-      "published": "2026-08-15T11:54:45Z",
-      "authors": "Birindwa Prisca Hondi et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "GNN-based smart contract detectors fail due to hardcoded 47-variable whitelist, byte-identical graphs from structurally different contracts, and missing reentrancy semantics.",
-      "unproven": "Analysis limited to GNNSCVulDetector; evasion attack effectiveness on defended systems not tested; generalization to other GNN detectors unestablished.",
-      "scored_at": "2026-08-18T08:24:16.629957385Z"
-    },
-    {
       "id": "arxiv:2608.16551v1",
       "source": "arxiv",
       "title": "What to Remember, What to Reveal: Privacy-Aware Memory for Conversational Agents",
@@ -323,6 +308,21 @@
       "scored_at": "2026-08-18T04:25:35.908628299Z"
     },
     {
+      "id": "arxiv:2608.16527v1",
+      "source": "arxiv",
+      "title": "Two-Photon Bound States in the Continuum: A No-Go Theorem and Long-Lived Quasi-Bound States",
+      "url": "http://arxiv.org/abs/2608.16527v1",
+      "published": "2026-08-17T13:07:31Z",
+      "authors": "Yue Chang",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "No-go theorem forbids two-photon bound states in the continuum for single nonlinear modes coupled to bosonic continua.",
+      "unproven": "Experimental realization of proposed long-lived quasi-bound states; extension to multiphoton systems beyond two photons.",
+      "scored_at": "2026-08-18T12:24:46.567206123Z"
+    },
+    {
       "id": "arxiv:2608.16430v1",
       "source": "arxiv",
       "title": "DCI: Dependency Confidence Index for Assessing Open-Source Dependency Trustworthiness",
@@ -383,19 +383,19 @@
       "scored_at": "2026-08-18T04:25:46.791077603Z"
     },
     {
-      "id": "arxiv:2608.16026v1",
+      "id": "arxiv:2608.16048v1",
       "source": "arxiv",
-      "title": "SkillWatermark: An Embedded Skill Watermark of Progressive Privacy Inference via Benign Prompts",
-      "url": "http://arxiv.org/abs/2608.16026v1",
-      "published": "2026-08-17T02:38:32Z",
-      "authors": "Yu Li et al.",
+      "title": "zenDot: An LLM-integrated quantum TCAD platform for semiconductor quantum-device design and optimization automation",
+      "url": "http://arxiv.org/abs/2608.16048v1",
+      "published": "2026-08-17T03:21:02Z",
+      "authors": "Zeheng Wang et al.",
       "novelty": 3,
       "actionability": 2,
       "score": 5,
       "quadrant": "NOISE FLOOR",
-      "dek": "Watermarked skill descriptions in LLM agent prompts produce observable traffic patterns that encode private information across conversation turns.",
-      "unproven": "whether traffic pattern encoding is distinguishable under normal network noise and rate limiting; whether this covert channel survives prompt-injection defenses or agent output filtering.",
-      "scored_at": "2026-08-18T04:26:00.815082686Z"
+      "dek": "LLM-integrated TCAD platform automates quantum-device design; applicable only if reader develops quantum hardware.",
+      "unproven": "scope limited to silicon double quantum dots; generalization to other qubit types not established",
+      "scored_at": "2026-08-18T12:25:04.279630584Z"
     }
   ],
   "noise": [
