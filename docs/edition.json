@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T12:25:14.691001707Z",
+  "generated": "2026-08-18T16:20:05.014242523Z",
   "edition": 25,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 4,
+      "BREAK GLASS": 3,
       "NEW GROUND": 9,
-      "NOISE FLOOR": 10,
+      "NOISE FLOOR": 11,
       "STANDING ORDERS": 2
     }
   },
@@ -80,21 +80,6 @@
       "dek": "Layered C memory-safety retrofits incur compounding performance penalties and protection gaps compared to native Rust or Go; cross-language benchmark exposes the engineering gap.",
       "unproven": "whether the standardized tasks cover the full attack surface of production C codebases or deployment patterns in financial services.",
       "scored_at": "2026-08-18T04:26:13.056518669Z"
-    },
-    {
-      "id": "arxiv:2608.15225v1",
-      "source": "arxiv",
-      "title": "Inferring 1-Minimal Trigger Configurations for Assessing Linux Kernel CVE Triggerability",
-      "url": "http://arxiv.org/abs/2608.15225v1",
-      "published": "2026-08-15T13:28:21Z",
-      "authors": "Tongjie Wei et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "FCC framework infers minimal Linux kernel configurations that trigger CVEs, improving post-olddefconfig success from 62.5% to 96.6% on 88 CVEs.",
-      "unproven": "Evaluated on KernelCTF and KernJC only; reproducer availability not quantified; applicability to vendor workflows outside academia unclear.",
-      "scored_at": "2026-08-18T08:24:16.629954519Z"
     },
     {
       "id": "hn:49331423",
@@ -396,6 +381,21 @@
       "dek": "LLM-integrated TCAD platform automates quantum-device design; applicable only if reader develops quantum hardware.",
       "unproven": "scope limited to silicon double quantum dots; generalization to other qubit types not established",
       "scored_at": "2026-08-18T12:25:04.279630584Z"
+    },
+    {
+      "id": "arxiv:2608.16026v1",
+      "source": "arxiv",
+      "title": "SkillWatermark: An Embedded Skill Watermark of Progressive Privacy Inference via Benign Prompts",
+      "url": "http://arxiv.org/abs/2608.16026v1",
+      "published": "2026-08-17T02:38:32Z",
+      "authors": "Yu Li et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Watermarked skill descriptions in LLM agent prompts produce observable traffic patterns that encode private information across conversation turns.",
+      "unproven": "whether traffic pattern encoding is distinguishable under normal network noise and rate limiting; whether this covert channel survives prompt-injection defenses or agent output filtering.",
+      "scored_at": "2026-08-18T04:26:00.815082686Z"
     }
   ],
   "noise": [
