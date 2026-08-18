@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T04:26:13.071691849Z",
+  "generated": "2026-08-18T08:24:46.932370223Z",
   "edition": 25,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 3,
-      "NEW GROUND": 6,
-      "NOISE FLOOR": 14,
+      "BREAK GLASS": 4,
+      "NEW GROUND": 9,
+      "NOISE FLOOR": 10,
       "STANDING ORDERS": 2
     }
   },
@@ -82,6 +82,21 @@
       "scored_at": "2026-08-18T04:26:13.056518669Z"
     },
     {
+      "id": "arxiv:2608.15225v1",
+      "source": "arxiv",
+      "title": "Inferring 1-Minimal Trigger Configurations for Assessing Linux Kernel CVE Triggerability",
+      "url": "http://arxiv.org/abs/2608.15225v1",
+      "published": "2026-08-15T13:28:21Z",
+      "authors": "Tongjie Wei et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "FCC framework infers minimal Linux kernel configurations that trigger CVEs, improving post-olddefconfig success from 62.5% to 96.6% on 88 CVEs.",
+      "unproven": "Evaluated on KernelCTF and KernJC only; reproducer availability not quantified; applicability to vendor workflows outside academia unclear.",
+      "scored_at": "2026-08-18T08:24:16.629954519Z"
+    },
+    {
       "id": "hn:49331423",
       "source": "hn",
       "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
@@ -141,6 +156,21 @@
       "dek": "Eight evaluation choices in power-system attack detection benchmarks reverse conclusions before model selection; labels, not pipeline, explain accuracy.",
       "unproven": "whether the identified methodological flaws propagate to defenses deployed in operational power systems; quantum models remain unproven against classical on this problem.",
       "scored_at": "2026-08-18T04:26:13.056518394Z"
+    },
+    {
+      "id": "arxiv:2608.15184v1",
+      "source": "arxiv",
+      "title": "Pre-Model Representation Failures in GNN-Based Smart Contract Vulnerability Detection",
+      "url": "http://arxiv.org/abs/2608.15184v1",
+      "published": "2026-08-15T11:54:45Z",
+      "authors": "Birindwa Prisca Hondi et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "GNN-based smart contract detectors fail due to hardcoded 47-variable whitelist, byte-identical graphs from structurally different contracts, and missing reentrancy semantics.",
+      "unproven": "Analysis limited to GNNSCVulDetector; evasion attack effectiveness on defended systems not tested; generalization to other GNN detectors unestablished.",
+      "scored_at": "2026-08-18T08:24:16.629957385Z"
     },
     {
       "id": "arxiv:2608.16551v1",
@@ -233,6 +263,51 @@
       "scored_at": "2026-08-18T04:26:13.05652267Z"
     },
     {
+      "id": "arxiv:2608.16860v1",
+      "source": "arxiv",
+      "title": "Classical Adversarial Fault-Tolerance and PCPs",
+      "url": "http://arxiv.org/abs/2608.16860v1",
+      "published": "2026-08-17T17:43:54Z",
+      "authors": "Anurag Anshu et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Fault-tolerance scheme enabling circuit compilation against adversarial bit corruption yields new polylogarithmic-query PCP construction.",
+      "unproven": "feasibility of quantization roadmap; practical instantiation of PCP results",
+      "scored_at": "2026-08-18T08:24:40.293799971Z"
+    },
+    {
+      "id": "arxiv:2608.16857v1",
+      "source": "arxiv",
+      "title": "Fault-Tolerant Quantum Computation with Adversarial Errors",
+      "url": "http://arxiv.org/abs/2608.16857v1",
+      "published": "2026-08-17T17:40:14Z",
+      "authors": "Nikolas P. Breuckmann et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Fault-tolerance theorem for quantum circuits tolerating adversarial corruption of almost-linear qubit fraction per timestep.",
+      "unproven": "implementation on near-term quantum hardware; scaling behavior beyond theoretical bounds",
+      "scored_at": "2026-08-18T08:24:40.293800192Z"
+    },
+    {
+      "id": "arxiv:2608.16815v1",
+      "source": "arxiv",
+      "title": "Hundred-hertz quantum circuit iteration rate in a reusable neutral-atom array",
+      "url": "http://arxiv.org/abs/2608.16815v1",
+      "published": "2026-08-17T17:04:33Z",
+      "authors": "Liang Chen et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Neutral-atom processor achieves 101 Hz quantum circuit iteration rate via non-destructive readout and atom reuse.",
+      "unproven": "scaling to larger qubit counts; sustained performance over extended runs; practical error correction integration",
+      "scored_at": "2026-08-18T08:24:40.293800793Z"
+    },
+    {
       "id": "arxiv:2608.16536v1",
       "source": "arxiv",
       "title": "DSPrompt: Dynamic Soft Prompt Defense Against M-RAG Corruption",
@@ -321,81 +396,6 @@
       "dek": "Watermarked skill descriptions in LLM agent prompts produce observable traffic patterns that encode private information across conversation turns.",
       "unproven": "whether traffic pattern encoding is distinguishable under normal network noise and rate limiting; whether this covert channel survives prompt-injection defenses or agent output filtering.",
       "scored_at": "2026-08-18T04:26:00.815082686Z"
-    },
-    {
-      "id": "arxiv:2608.15888v1",
-      "source": "arxiv",
-      "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
-      "url": "http://arxiv.org/abs/2608.15888v1",
-      "published": "2026-08-16T18:38:00Z",
-      "authors": "Xabier Muruaga",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Agentic Principal Chain (APC) tracks delegated authority and prevents prohibited action combinations via six authorization checks and composition closure.",
-      "unproven": "whether the six authorization checks are sufficient for all LLM agent architectures; whether proofs of Blast Radius Monotonicity and Composition Soundness hold under real prompt-injection scenarios; practical deployment overhead.",
-      "scored_at": "2026-08-18T04:26:00.815082918Z"
-    },
-    {
-      "id": "arxiv:2608.15475v1",
-      "source": "arxiv",
-      "title": "Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability",
-      "url": "http://arxiv.org/abs/2608.15475v1",
-      "published": "2026-08-16T01:44:09Z",
-      "authors": "Yudong Gao et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Gradient-selected bit flips in quantized Vision-Language-Action models reduce success to zero; action-head architecture determines vulnerability with budgets from 1 to 300 flips.",
-      "unproven": "applicability to unquantized models or to VLAs deployed in production robotics; emulated Rowhammer attacks do not confirm real hardware exploitation.",
-      "scored_at": "2026-08-18T04:26:13.056518806Z"
-    },
-    {
-      "id": "arxiv:2608.16858v1",
-      "source": "arxiv",
-      "title": "ECO-ID: Event-Camera based Optical System for Secure Multi-User Ultra-Low Latency Identification",
-      "url": "http://arxiv.org/abs/2608.16858v1",
-      "published": "2026-08-17T17:41:11Z",
-      "authors": "Subham Sabud et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Event-camera system achieves 98.7% identification latency at 0.64 ms using visible light communication.",
-      "unproven": "Deployment beyond single prototype; scalability to tens of concurrent users is theoretical only; no comparison to production identification systems.",
-      "scored_at": "2026-08-18T04:25:35.908619707Z"
-    },
-    {
-      "id": "arxiv:2608.16824v1",
-      "source": "arxiv",
-      "title": "GEO-Flag: Detecting and Measuring GEO-Optimized Web Content",
-      "url": "http://arxiv.org/abs/2608.16824v1",
-      "published": "2026-08-17T17:12:11Z",
-      "authors": "Junjie Chu et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Benchmark and detector for Generative Engine Optimization content achieves F1 0.88 but fails on authorship-conditioned evaluation.",
-      "unproven": "Generative search integration is hypothetical; no evidence this detection method would survive in-the-wild deployment or evasion.",
-      "scored_at": "2026-08-18T04:25:35.908620105Z"
-    },
-    {
-      "id": "arxiv:2608.16791v1",
-      "source": "arxiv",
-      "title": "Steering the Flow: Inverting Face Recognition Models via Gradient-Guided Flow Matching",
-      "url": "http://arxiv.org/abs/2608.16791v1",
-      "published": "2026-08-17T16:47:09Z",
-      "authors": "Ye Lu et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Gradient-guided flow matching inverts face recognition models to reconstruct training identities with improved stability.",
-      "unproven": "White-box threat model only; no evaluation against defenses or quantization; generalization to production systems unknown.",
-      "scored_at": "2026-08-18T04:25:35.908622965Z"
     }
   ],
   "noise": [
