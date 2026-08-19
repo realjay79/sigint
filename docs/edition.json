@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T16:20:15.626334373Z",
+  "generated": "2026-08-19T20:16:03.771084613Z",
   "edition": 26,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 19,
+      "arxiv": 18,
       "hn": 1,
-      "kev": 5
+      "kev": 6
     },
     "by_quadrant": {
       "BREAK GLASS": 8,
-      "NEW GROUND": 9,
+      "NEW GROUND": 8,
       "NOISE FLOOR": 1,
-      "STANDING ORDERS": 7
+      "STANDING ORDERS": 8
     }
   },
   "items": [
@@ -34,6 +34,22 @@
       "dek": "Microarchitectural timing side channels bypass Cloudflare Workers timer restrictions via amplification and remote-timer techniques, defeating Dynamic Process Isolation.",
       "unproven": "demonstration on production Cloudflare Workers; patch status and remediation timeline unclear at time of publication",
       "scored_at": "2026-08-19T08:24:48.363299594Z"
+    },
+    {
+      "id": "kev:CVE-2026-64849",
+      "source": "kev",
+      "title": "CVE-2026-64849 — MLflow Server-Side Request Forgery Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
+      "published": "2026-08-19T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "MLflow MLflow. Confirmed exploited in the wild. Federal remediation due 2 September.",
+      "cves": [
+        "CVE-2026-64849"
+      ],
+      "scored_at": "2026-08-19T20:15:54.378122026Z"
     },
     {
       "id": "arxiv:2608.17960v1",
@@ -114,20 +130,20 @@
       "scored_at": "2026-08-19T04:27:50.569527281Z"
     },
     {
-      "id": "kev:CVE-2026-33824",
+      "id": "kev:CVE-2026-65400",
       "source": "kev",
-      "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
+      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
       "published": "2026-08-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft Internet Key Exchange (IKE) Service Extensions. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
       "cves": [
-        "CVE-2026-33824"
+        "CVE-2026-65400"
       ],
-      "scored_at": "2026-08-18T20:12:28.378148956Z"
+      "scored_at": "2026-08-18T20:12:28.378154967Z"
     },
     {
       "id": "kev:CVE-2026-59310",
@@ -146,6 +162,22 @@
       "scored_at": "2026-08-18T20:12:28.378151491Z"
     },
     {
+      "id": "kev:CVE-2026-33824",
+      "source": "kev",
+      "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft Internet Key Exchange (IKE) Service Extensions. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-33824"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378148956Z"
+    },
+    {
       "id": "kev:CVE-2026-55040",
       "source": "kev",
       "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
@@ -160,22 +192,6 @@
         "CVE-2026-55040"
       ],
       "scored_at": "2026-08-18T20:12:28.378153575Z"
-    },
-    {
-      "id": "kev:CVE-2026-65400",
-      "source": "kev",
-      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
-      "published": "2026-08-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
-      "cves": [
-        "CVE-2026-65400"
-      ],
-      "scored_at": "2026-08-18T20:12:28.378154967Z"
     },
     {
       "id": "kev:CVE-2025-62593",
@@ -358,21 +374,6 @@
       "dek": "Milgram obedience paradigm applied to 42 LLMs finds baseline full-obedience rates 0%-100% (mean 42.9%), stable within model families but inconsistently sensitive to peer pressure.",
       "unproven": "whether obedience scores correlate with real-world agent safety failures in production; whether the paradigm's authority framing generalizes to downstream misuse scenarios.",
       "scored_at": "2026-08-19T08:25:01.304956108Z"
-    },
-    {
-      "id": "arxiv:2608.15913v1",
-      "source": "arxiv",
-      "title": "Conjunctive Poisoning in AI Supply-Chain Applications",
-      "url": "http://arxiv.org/abs/2608.15913v1",
-      "published": "2026-08-16T20:02:12Z",
-      "authors": "Nokimul Hasan Arif et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Prompt wrappers and metadata files can conjunctively alter LLM/VLM output without touching weights; tested on 15 models; TIF-BAH defense verifies wrapper integrity and behavioral attestations.",
-      "unproven": "whether TIF-BAH can be bypassed via supply-chain compromise of the middleware itself; whether wrapper scanning tools and SigStore adoption are operationally feasible at deployment scale.",
-      "scored_at": "2026-08-18T04:26:00.815082809Z"
     },
     {
       "id": "arxiv:2608.17729v1",
