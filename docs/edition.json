@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T04:27:50.586269342Z",
+  "generated": "2026-08-19T08:25:18.25556153Z",
   "edition": 26,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,13 +13,27 @@
       "kev": 5
     },
     "by_quadrant": {
-      "BREAK GLASS": 7,
-      "NEW GROUND": 8,
-      "NOISE FLOOR": 3,
+      "BREAK GLASS": 8,
+      "NEW GROUND": 10,
       "STANDING ORDERS": 7
     }
   },
   "items": [
+    {
+      "id": "arxiv:2608.17043v1",
+      "source": "arxiv",
+      "title": "Remote-Timer-as-a-Service: Efficient Microarchitectural Leakage in the Cloud with Remote Timers",
+      "url": "http://arxiv.org/abs/2608.17043v1",
+      "published": "2026-08-17T18:41:36Z",
+      "authors": "Martin Schwarzl et al.",
+      "novelty": 5,
+      "actionability": 4,
+      "score": 9,
+      "quadrant": "BREAK GLASS",
+      "dek": "Microarchitectural timing side channels bypass Cloudflare Workers timer restrictions via amplification and remote-timer techniques, defeating Dynamic Process Isolation.",
+      "unproven": "demonstration on production Cloudflare Workers; patch status and remediation timeline unclear at time of publication",
+      "scored_at": "2026-08-19T08:24:48.363299594Z"
+    },
     {
       "id": "arxiv:2608.17960v1",
       "source": "arxiv",
@@ -99,22 +113,6 @@
       "scored_at": "2026-08-19T04:27:50.569527281Z"
     },
     {
-      "id": "kev:CVE-2026-33824",
-      "source": "kev",
-      "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
-      "published": "2026-08-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft Internet Key Exchange (IKE) Service Extensions. Confirmed exploited in the wild. Federal remediation due 21 August.",
-      "cves": [
-        "CVE-2026-33824"
-      ],
-      "scored_at": "2026-08-18T20:12:28.378148956Z"
-    },
-    {
       "id": "kev:CVE-2026-55040",
       "source": "kev",
       "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
@@ -131,20 +129,20 @@
       "scored_at": "2026-08-18T20:12:28.378153575Z"
     },
     {
-      "id": "kev:CVE-2026-59310",
+      "id": "kev:CVE-2026-33824",
       "source": "kev",
-      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
+      "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
       "published": "2026-08-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "dek": "Microsoft Internet Key Exchange (IKE) Service Extensions. Confirmed exploited in the wild. Federal remediation due 21 August.",
       "cves": [
-        "CVE-2026-59310"
+        "CVE-2026-33824"
       ],
-      "scored_at": "2026-08-18T20:12:28.378151491Z"
+      "scored_at": "2026-08-18T20:12:28.378148956Z"
     },
     {
       "id": "kev:CVE-2026-65400",
@@ -161,6 +159,22 @@
         "CVE-2026-65400"
       ],
       "scored_at": "2026-08-18T20:12:28.378154967Z"
+    },
+    {
+      "id": "kev:CVE-2026-59310",
+      "source": "kev",
+      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-59310"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378151491Z"
     },
     {
       "id": "kev:CVE-2025-62593",
@@ -284,6 +298,21 @@
       "scored_at": "2026-08-19T04:27:38.533231823Z"
     },
     {
+      "id": "arxiv:2608.17148v1",
+      "source": "arxiv",
+      "title": "Authorization Before Context: A Model-Neutral Audience Boundary Against Cross-Audience Memory Leakage in Agentic Systems",
+      "url": "http://arxiv.org/abs/2608.17148v1",
+      "published": "2026-08-17T21:31:10Z",
+      "authors": "Sibo Liu",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Audience-boundary rule prevents cross-audience memory leakage in multi-tenant agents by enforcing authorization at context assembly, independent of model behavior.",
+      "unproven": "evaluation limited to synthetic Contextual-Integrity suite; production multi-agent systems with real memory stores and channel ambiguity untested",
+      "scored_at": "2026-08-19T08:24:48.363276629Z"
+    },
+    {
       "id": "hn:49331423",
       "source": "hn",
       "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
@@ -313,6 +342,21 @@
       "dek": "Scanner-passing LLM agent skills compose into exploitable chains; existing per-skill verification misses path-level risks.",
       "unproven": "Bench scale and real-world marketplace risk quantification unclear; no evidence of exploitation in deployed agent ecosystems.",
       "scored_at": "2026-08-18T04:25:46.791075492Z"
+    },
+    {
+      "id": "arxiv:2608.16177v2",
+      "source": "arxiv",
+      "title": "Measuring Obedience to Authority Across Large Language Models with the Milgram Paradigm",
+      "url": "http://arxiv.org/abs/2608.16177v2",
+      "published": "2026-08-17T06:48:53Z",
+      "authors": "Hidayet Aksu",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Milgram obedience paradigm applied to 42 LLMs finds baseline full-obedience rates 0%-100% (mean 42.9%), stable within model families but inconsistently sensitive to peer pressure.",
+      "unproven": "whether obedience scores correlate with real-world agent safety failures in production; whether the paradigm's authority framing generalizes to downstream misuse scenarios.",
+      "scored_at": "2026-08-19T08:25:01.304956108Z"
     },
     {
       "id": "arxiv:2608.15913v1",
@@ -358,51 +402,6 @@
       "dek": "BullsEye applies basic-block-level directed fuzzing to closed-source Linux firmware to detect known vulnerabilities in third-party components.",
       "unproven": "whether the methodology scales to firmware in the reader's supply chain, and whether it integrates with existing SAST/SCA workflows",
       "scored_at": "2026-08-19T04:27:14.999041035Z"
-    },
-    {
-      "id": "arxiv:2608.17538v1",
-      "source": "arxiv",
-      "title": "TENET: Telegram Mini App (in)security",
-      "url": "http://arxiv.org/abs/2608.17538v1",
-      "published": "2026-08-18T08:59:03Z",
-      "authors": "Andrea Ciccotelli et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Telegram Mini Apps store secrets in plaintext; TENET tool audits 61 apps and finds authentication tokens and wallet keys exposed.",
-      "unproven": "Whether findings generalize beyond the 61-app sample; whether the tooling would catch secrets obfuscated or encoded rather than plaintext.",
-      "scored_at": "2026-08-19T04:27:38.533230851Z"
-    },
-    {
-      "id": "arxiv:2608.17220v1",
-      "source": "arxiv",
-      "title": "PACE: Policy-Attested Contract Execution for Safe AI Agents in Decentralized Finance",
-      "url": "http://arxiv.org/abs/2608.17220v1",
-      "published": "2026-08-18T00:22:46Z",
-      "authors": "Rabimba Karanjai et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "PACE binds LLM transaction intents to on-chain execution via signed policy decision records with 29K–31K gas overhead.",
-      "unproven": "tested in deterministic sandbox with 40 synthetic tasks; real DeFi market conditions and novel prompt injections untested; replay attack vectors not fully enumerated",
-      "scored_at": "2026-08-19T04:27:50.569527822Z"
-    },
-    {
-      "id": "arxiv:2608.16551v1",
-      "source": "arxiv",
-      "title": "What to Remember, What to Reveal: Privacy-Aware Memory for Conversational Agents",
-      "url": "http://arxiv.org/abs/2608.16551v1",
-      "published": "2026-08-17T13:23:39Z",
-      "authors": "Wenjie Wang et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Privacy-aware memory architecture separates sanitized content from exact PII in conversational agents with selective retrieval.",
-      "unproven": "Benchmark is task-specific; no evidence that soft isolation prevents extraction attacks or handles agent jailbreaks; user consent model is underspecified.",
-      "scored_at": "2026-08-18T04:25:35.908628105Z"
     }
   ],
   "noise": [
