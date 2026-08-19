@@ -1,34 +1,4 @@
 {
-  "arxiv:2607.17786v1": {
-    "id": "arxiv:2607.17786v1",
-    "source": "arxiv",
-    "title": "Reasoning as a Double-Edged Sword: Architecture and Cross-Stage Robustness in Vision-Language-Action Models",
-    "url": "http://arxiv.org/abs/2607.17786v1",
-    "published": "2026-07-20T10:20:32Z",
-    "authors": "Tuan Duong Trinh et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NEW GROUND",
-    "dek": "Latent-iterative reasoning in VLA models degrades robustness to perturbation; monitoring reasoning outputs fails under adaptive attack.",
-    "unproven": "Results limited to two simulation environments; generalization to production robotics deployments untested.",
-    "scored_at": "2026-07-25T16:26:05.503532Z"
-  },
-  "arxiv:2607.17809v1": {
-    "id": "arxiv:2607.17809v1",
-    "source": "arxiv",
-    "title": "Residual Observability and Attack Detectability in Encrypted OPC UA Traffic",
-    "url": "http://arxiv.org/abs/2607.17809v1",
-    "published": "2026-07-20T10:56:17Z",
-    "authors": "Song Son Ha et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NEW GROUND",
-    "dek": "Structural leakage score predicts attack detectability in encrypted OPC UA traffic; multi-dimensional analysis needed for cross-family attacks.",
-    "unproven": "industrial 5G testbed only; four attack families evaluated; unclear if framework transfers to financial-services ICS or IT-OT boundaries; no actionable tuning rules.",
-    "scored_at": "2026-07-25T16:25:50.470486Z"
-  },
   "arxiv:2607.17889v1": {
     "id": "arxiv:2607.17889v1",
     "source": "arxiv",
@@ -163,21 +133,6 @@
     "dek": "Sample-based quantum diagonalization on IBM Heron shows modest energy shifts from CCSD perturbation and saturating accuracy at moderate shot budgets.",
     "unproven": "Quantum chemistry simulation; no connection to financial services, SDLC, or security concerns the reader owns; single hardware family and problem class.",
     "scored_at": "2026-07-25T16:25:36.818161Z"
-  },
-  "arxiv:2607.18347v1": {
-    "id": "arxiv:2607.18347v1",
-    "source": "arxiv",
-    "title": "A Decision-Centered Reference Architecture for Trustworthy Agentic Commerce",
-    "url": "http://arxiv.org/abs/2607.18347v1",
-    "published": "2026-07-20T08:33:31Z",
-    "authors": "Dimitrios S. Sfiris",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "BREAK GLASS",
-    "dek": "Protocol-agnostic reference architecture for agentic commerce uses protected hashes, dependency revalidation, and seven-axis claim gates to enforce payment authorization invariants.",
-    "unproven": "Evaluation limited to eight deterministic scenarios and one JavaScript implementation; real-world deployment and threat modeling against sophisticated attackers not demonstrated.",
-    "scored_at": "2026-07-25T16:26:05.503533Z"
   },
   "arxiv:2607.18360v1": {
     "id": "arxiv:2607.18360v1",
@@ -35936,6 +35891,21 @@
     "dek": "Mojo programming language released as open source.",
     "scored_at": "2026-08-18T20:12:45.465350055Z"
   },
+  "hn:49348141": {
+    "id": "hn:49348141",
+    "source": "hn",
+    "title": "Git at Any Scale",
+    "url": "https://cursor.com/blog/git-at-any-scale",
+    "published": "2026-08-18T16:26:56Z",
+    "authors": "meetpateltech",
+    "points": 42,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Git tooling product announcement outside secure-SDLC process scope.",
+    "scored_at": "2026-08-19T12:24:15.430552404Z"
+  },
   "hn:49349147": {
     "id": "hn:49349147",
     "source": "hn",
@@ -35950,6 +35920,21 @@
     "quadrant": "NOISE FLOOR",
     "dek": "Study of thermal emissions from data centers in residential areas; outside application security.",
     "scored_at": "2026-08-19T00:39:25.329905254Z"
+  },
+  "hn:49358327": {
+    "id": "hn:49358327",
+    "source": "hn",
+    "title": "The Mojo language (by Modular, now Qualcomm) is now open-source",
+    "url": "https://modular.com/blog/modcon-announcements",
+    "published": "2026-08-19T07:47:19Z",
+    "authors": "flaburgan",
+    "points": 99,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Programming language release announcement unrelated to application security practice.",
+    "scored_at": "2026-08-19T12:24:15.430551805Z"
   },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",

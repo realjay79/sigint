@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T08:25:18.25556153Z",
+  "generated": "2026-08-19T12:24:15.443448038Z",
   "edition": 26,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,7 +14,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 8,
-      "NEW GROUND": 10,
+      "NEW GROUND": 9,
+      "NOISE FLOOR": 1,
       "STANDING ORDERS": 7
     }
   },
@@ -113,22 +114,6 @@
       "scored_at": "2026-08-19T04:27:50.569527281Z"
     },
     {
-      "id": "kev:CVE-2026-55040",
-      "source": "kev",
-      "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
-      "published": "2026-08-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
-      "cves": [
-        "CVE-2026-55040"
-      ],
-      "scored_at": "2026-08-18T20:12:28.378153575Z"
-    },
-    {
       "id": "kev:CVE-2026-33824",
       "source": "kev",
       "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
@@ -145,20 +130,36 @@
       "scored_at": "2026-08-18T20:12:28.378148956Z"
     },
     {
-      "id": "kev:CVE-2026-65400",
+      "id": "kev:CVE-2026-55040",
       "source": "kev",
-      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+      "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
       "published": "2026-08-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
       "cves": [
-        "CVE-2026-65400"
+        "CVE-2026-55040"
       ],
-      "scored_at": "2026-08-18T20:12:28.378154967Z"
+      "scored_at": "2026-08-18T20:12:28.378153575Z"
+    },
+    {
+      "id": "kev:CVE-2025-62593",
+      "source": "kev",
+      "title": "CVE-2025-62593 — Ray-Project Ray Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ray-Project Ray. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2025-62593"
+      ],
+      "scored_at": "2026-08-17T16:16:34.611058874Z"
     },
     {
       "id": "kev:CVE-2026-59310",
@@ -177,20 +178,20 @@
       "scored_at": "2026-08-18T20:12:28.378151491Z"
     },
     {
-      "id": "kev:CVE-2025-62593",
+      "id": "kev:CVE-2026-65400",
       "source": "kev",
-      "title": "CVE-2025-62593 — Ray-Project Ray Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
+      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
       "published": "2026-08-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Ray-Project Ray. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
       "cves": [
-        "CVE-2025-62593"
+        "CVE-2026-65400"
       ],
-      "scored_at": "2026-08-17T16:16:34.611058874Z"
+      "scored_at": "2026-08-18T20:12:28.378154967Z"
     },
     {
       "id": "arxiv:2608.16044v1",
@@ -374,21 +375,6 @@
       "scored_at": "2026-08-18T04:26:00.815082809Z"
     },
     {
-      "id": "arxiv:2608.15617v1",
-      "source": "arxiv",
-      "title": "Benchmarking Quantum Machine Learning for Power-System Attack Detection: Evaluation Choices Decide the Outcome Before the Models Do",
-      "url": "http://arxiv.org/abs/2608.15617v1",
-      "published": "2026-08-16T08:32:39Z",
-      "authors": "Md Rezwanul Islam",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Eight evaluation choices in power-system attack detection benchmarks reverse conclusions before model selection; labels, not pipeline, explain accuracy.",
-      "unproven": "whether the identified methodological flaws propagate to defenses deployed in operational power systems; quantum models remain unproven against classical on this problem.",
-      "scored_at": "2026-08-18T04:26:13.056518394Z"
-    },
-    {
       "id": "arxiv:2608.17729v1",
       "source": "arxiv",
       "title": "BullsEye: Directed Firmware Fuzzing",
@@ -402,6 +388,21 @@
       "dek": "BullsEye applies basic-block-level directed fuzzing to closed-source Linux firmware to detect known vulnerabilities in third-party components.",
       "unproven": "whether the methodology scales to firmware in the reader's supply chain, and whether it integrates with existing SAST/SCA workflows",
       "scored_at": "2026-08-19T04:27:14.999041035Z"
+    },
+    {
+      "id": "arxiv:2608.17538v1",
+      "source": "arxiv",
+      "title": "TENET: Telegram Mini App (in)security",
+      "url": "http://arxiv.org/abs/2608.17538v1",
+      "published": "2026-08-18T08:59:03Z",
+      "authors": "Andrea Ciccotelli et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Telegram Mini Apps store secrets in plaintext; TENET tool audits 61 apps and finds authentication tokens and wallet keys exposed.",
+      "unproven": "Whether findings generalize beyond the 61-app sample; whether the tooling would catch secrets obfuscated or encoded rather than plaintext.",
+      "scored_at": "2026-08-19T04:27:38.533230851Z"
     }
   ],
   "noise": [
