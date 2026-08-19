@@ -34863,6 +34863,21 @@
     "dek": "Mojo programming language released as open source.",
     "scored_at": "2026-08-18T20:12:45.465350055Z"
   },
+  "hn:49349147": {
+    "id": "hn:49349147",
+    "source": "hn",
+    "title": "Field measurements of neighborhood-scale air temperature impacts of data centers",
+    "url": "https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban",
+    "published": "2026-08-18T17:24:53Z",
+    "authors": "cwwc",
+    "points": 280,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Study of thermal emissions from data centers in residential areas; outside application security.",
+    "scored_at": "2026-08-19T00:39:25.329905254Z"
+  },
   "kev:CVE-2021-27137": {
     "id": "kev:CVE-2021-27137",
     "source": "kev",
