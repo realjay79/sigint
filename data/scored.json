@@ -1,79 +1,4 @@
 {
-  "arxiv:2607.19267v1": {
-    "id": "arxiv:2607.19267v1",
-    "source": "arxiv",
-    "title": "They'll Verify. They Just Won't Act. How Authority Framing and Laundered Code Turn a Trusted Agentic CI/CD Pipeline Into an Attack Surface",
-    "url": "http://arxiv.org/abs/2607.19267v1",
-    "published": "2026-07-21T16:38:32Z",
-    "authors": "Yohann Sidot",
-    "novelty": 5,
-    "actionability": 4,
-    "score": 9,
-    "quadrant": "BREAK GLASS",
-    "dek": "Authority-framed injection and code laundering cause five-agent LLM CI/CD to pass secret exfiltration 55% of the time.",
-    "unproven": "tested on a single pipeline topology with three providers; generalization to other tool chains and guard configurations not established",
-    "scored_at": "2026-07-25T16:24:51.67417Z"
-  },
-  "arxiv:2607.19318v1": {
-    "id": "arxiv:2607.19318v1",
-    "source": "arxiv",
-    "title": "SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming",
-    "url": "http://arxiv.org/abs/2607.19318v1",
-    "published": "2026-07-21T17:38:52Z",
-    "authors": "Ahmed Azaz Humdoon et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "VQE-AdvBench systematizes prior attacks on variational quantum eigensolvers under a single evaluation protocol.",
-    "unproven": "organizes existing attacks; does not propose new defenses or demonstrate viability on current quantum hardware",
-    "scored_at": "2026-07-25T16:24:51.67417Z"
-  },
-  "arxiv:2607.19321v1": {
-    "id": "arxiv:2607.19321v1",
-    "source": "arxiv",
-    "title": "ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R\u0026D",
-    "url": "http://arxiv.org/abs/2607.19321v1",
-    "published": "2026-07-21T17:41:12Z",
-    "authors": "Lena Libon et al.",
-    "novelty": 4,
-    "actionability": 4,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "ResearchArena benchmark shows frontier AI agents can embed sabotage in training data, defeating 60–80% of monitors.",
-    "unproven": "limited to four R\u0026D tasks and four monitor architectures; generalization to other agentic workflows and monitor designs untested",
-    "scored_at": "2026-07-25T16:24:51.674167Z"
-  },
-  "arxiv:2607.19490v1": {
-    "id": "arxiv:2607.19490v1",
-    "source": "arxiv",
-    "title": "Integrity of peer-to-peer distributed LLM inference under malicious nodes",
-    "url": "http://arxiv.org/abs/2607.19490v1",
-    "published": "2026-07-21T18:08:43Z",
-    "authors": "Mert Cihangiroglu et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NEW GROUND",
-    "dek": "Canary-input method detects tampering in peer-to-peer LLM inference by measuring activation variance across nodes.",
-    "unproven": "tested on synthetic networks; practical feasibility in real distributed deployments with latency and scale constraints unknown",
-    "scored_at": "2026-07-25T16:24:51.674167Z"
-  },
-  "arxiv:2607.19545v1": {
-    "id": "arxiv:2607.19545v1",
-    "source": "arxiv",
-    "title": "When HTTP 402 Meets the Blockchain: Risks on Emerging x402 Payments",
-    "url": "http://arxiv.org/abs/2607.19545v1",
-    "published": "2026-07-21T19:45:13Z",
-    "authors": "Qinying Wang et al.",
-    "novelty": 4,
-    "actionability": 3,
-    "score": 7,
-    "quadrant": "BREAK GLASS",
-    "dek": "First systematic study of x402 payment protocol identifies eight security rules and four attack vectors against facilitators.",
-    "unproven": "demonstrates attacks on current deployments but does not measure prevalence or economic impact across the ecosystem",
-    "scored_at": "2026-07-25T16:24:51.674166Z"
-  },
   "arxiv:2607.19580v1": {
     "id": "arxiv:2607.19580v1",
     "source": "arxiv",
@@ -37559,6 +37484,52 @@
     "unproven": "entirely outside the reader's domain",
     "scored_at": "2026-08-20T16:22:30.926337235Z"
   },
+  "hn:49375244": {
+    "id": "hn:49375244",
+    "source": "hn",
+    "title": "Show HN: Open-source Stripe Connect alternative",
+    "url": "https://zoneless.com",
+    "published": "2026-08-20T14:38:45Z",
+    "authors": "tinyprojects",
+    "points": 50,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Commercial product launch announcement for Stripe Connect alternative using stablecoins.",
+    "scored_at": "2026-08-20T20:18:04.509291768Z"
+  },
+  "hn:49376332": {
+    "id": "hn:49376332",
+    "source": "hn",
+    "title": "How to compromise your system with a job interview",
+    "url": "https://codedge.de/posts/how-to-compromise-your-system-with-a-job-interview",
+    "published": "2026-08-20T15:50:57Z",
+    "authors": "codedge",
+    "points": 92,
+    "novelty": 2,
+    "actionability": 3,
+    "score": 5,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Social engineering via job interview process used to extract credentials and deploy backdoors; techniques applicable to threat modeling.",
+    "unproven": "whether the attack method described is novel or a systematization of known social-engineering patterns",
+    "scored_at": "2026-08-20T20:18:04.509291177Z"
+  },
+  "hn:49378957": {
+    "id": "hn:49378957",
+    "source": "hn",
+    "title": "The August 17 outage, and the work ahead",
+    "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead",
+    "published": "2026-08-20T19:22:24Z",
+    "authors": "0xedb",
+    "points": 41,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "GitHub publishes postmortem of August 17 outage; personnel and process changes.",
+    "scored_at": "2026-08-20T20:18:04.509290516Z"
+  },
   "kev:CVE-2025-62593": {
     "id": "kev:CVE-2025-62593",
     "source": "kev",
@@ -37830,6 +37801,38 @@
       "CVE-2026-68820"
     ],
     "scored_at": "2026-08-11T20:35:04.205605748Z"
+  },
+  "kev:CVE-2026-72529": {
+    "id": "kev:CVE-2026-72529",
+    "source": "kev",
+    "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
+    "published": "2026-08-20T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 23 August.",
+    "cves": [
+      "CVE-2026-72529"
+    ],
+    "scored_at": "2026-08-20T20:17:52.099149964Z"
+  },
+  "kev:CVE-2026-72530": {
+    "id": "kev:CVE-2026-72530",
+    "source": "kev",
+    "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
+    "published": "2026-08-20T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 3 September.",
+    "cves": [
+      "CVE-2026-72530"
+    ],
+    "scored_at": "2026-08-20T20:17:52.099146988Z"
   },
   "kev:CVE-2026-72898": {
     "id": "kev:CVE-2026-72898",

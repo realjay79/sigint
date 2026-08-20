@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T16:22:30.940329515Z",
+  "generated": "2026-08-20T20:18:04.526488391Z",
   "edition": 27,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,32 +8,48 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 18,
+      "arxiv": 16,
       "hn": 1,
-      "kev": 6
+      "kev": 8
     },
     "by_quadrant": {
-      "BREAK GLASS": 8,
+      "BREAK GLASS": 7,
       "NEW GROUND": 8,
-      "NOISE FLOOR": 1,
-      "STANDING ORDERS": 8
+      "STANDING ORDERS": 10
     }
   },
   "items": [
     {
-      "id": "arxiv:2608.17043v1",
-      "source": "arxiv",
-      "title": "Remote-Timer-as-a-Service: Efficient Microarchitectural Leakage in the Cloud with Remote Timers",
-      "url": "http://arxiv.org/abs/2608.17043v1",
-      "published": "2026-08-17T18:41:36Z",
-      "authors": "Martin Schwarzl et al.",
-      "novelty": 5,
-      "actionability": 4,
-      "score": 9,
-      "quadrant": "BREAK GLASS",
-      "dek": "Microarchitectural timing side channels bypass Cloudflare Workers timer restrictions via amplification and remote-timer techniques, defeating Dynamic Process Isolation.",
-      "unproven": "demonstration on production Cloudflare Workers; patch status and remediation timeline unclear at time of publication",
-      "scored_at": "2026-08-19T08:24:48.363299594Z"
+      "id": "kev:CVE-2026-72530",
+      "source": "kev",
+      "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
+      "published": "2026-08-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 3 September.",
+      "cves": [
+        "CVE-2026-72530"
+      ],
+      "scored_at": "2026-08-20T20:17:52.099146988Z"
+    },
+    {
+      "id": "kev:CVE-2026-72529",
+      "source": "kev",
+      "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
+      "published": "2026-08-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 23 August.",
+      "cves": [
+        "CVE-2026-72529"
+      ],
+      "scored_at": "2026-08-20T20:17:52.099149964Z"
     },
     {
       "id": "arxiv:2608.18876v1",
@@ -160,6 +176,22 @@
       "scored_at": "2026-08-19T04:27:50.569527281Z"
     },
     {
+      "id": "kev:CVE-2026-55040",
+      "source": "kev",
+      "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-55040"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378153575Z"
+    },
+    {
       "id": "kev:CVE-2026-59310",
       "source": "kev",
       "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
@@ -176,36 +208,20 @@
       "scored_at": "2026-08-18T20:12:28.378151491Z"
     },
     {
-      "id": "kev:CVE-2026-33824",
+      "id": "kev:CVE-2025-62593",
       "source": "kev",
-      "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
+      "title": "CVE-2025-62593 — Ray-Project Ray Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
       "published": "2026-08-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft Internet Key Exchange (IKE) Service Extensions. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "dek": "Ray-Project Ray. Confirmed exploited in the wild. Federal remediation due 21 August.",
       "cves": [
-        "CVE-2026-33824"
+        "CVE-2025-62593"
       ],
-      "scored_at": "2026-08-18T20:12:28.378148956Z"
-    },
-    {
-      "id": "kev:CVE-2026-55040",
-      "source": "kev",
-      "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
-      "published": "2026-08-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
-      "cves": [
-        "CVE-2026-55040"
-      ],
-      "scored_at": "2026-08-18T20:12:28.378153575Z"
+      "scored_at": "2026-08-17T16:16:34.611058874Z"
     },
     {
       "id": "kev:CVE-2026-65400",
@@ -224,20 +240,20 @@
       "scored_at": "2026-08-18T20:12:28.378154967Z"
     },
     {
-      "id": "kev:CVE-2025-62593",
+      "id": "kev:CVE-2026-33824",
       "source": "kev",
-      "title": "CVE-2025-62593 — Ray-Project Ray Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
+      "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
       "published": "2026-08-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Ray-Project Ray. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "dek": "Microsoft Internet Key Exchange (IKE) Service Extensions. Confirmed exploited in the wild. Federal remediation due 21 August.",
       "cves": [
-        "CVE-2025-62593"
+        "CVE-2026-33824"
       ],
-      "scored_at": "2026-08-17T16:16:34.611058874Z"
+      "scored_at": "2026-08-18T20:12:28.378148956Z"
     },
     {
       "id": "hn:49372853",
@@ -389,21 +405,6 @@
       "dek": "Audience-boundary rule prevents cross-audience memory leakage in multi-tenant agents by enforcing authorization at context assembly, independent of model behavior.",
       "unproven": "evaluation limited to synthetic Contextual-Integrity suite; production multi-agent systems with real memory stores and channel ambiguity untested",
       "scored_at": "2026-08-19T08:24:48.363276629Z"
-    },
-    {
-      "id": "arxiv:2608.19011v1",
-      "source": "arxiv",
-      "title": "From Threat Intelligence to Detection: Knowledge-driven Enrichment and Template-based Rule Grounding for Automated Sigma Rule Generation",
-      "url": "http://arxiv.org/abs/2608.19011v1",
-      "published": "2026-08-19T15:11:43Z",
-      "authors": "Sepehr Ghaffarzadegan et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "AUTOSIGMA automatically generates platform-independent Sigma rules from unstructured threat intelligence using knowledge-base enrichment.",
-      "unproven": "accuracy of rule grounding on real APT reports; false-positive rates when deployed in production SIEMs; maintenance burden of the knowledge base.",
-      "scored_at": "2026-08-20T04:27:08.915442218Z"
     }
   ],
   "noise": [
