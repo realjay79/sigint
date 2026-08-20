@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T08:26:05.668020784Z",
+  "generated": "2026-08-20T12:26:41.949927712Z",
   "edition": 27,
   "name": "SIGINT",
   "mark": "^C",
@@ -160,6 +160,22 @@
       "scored_at": "2026-08-19T04:27:50.569527281Z"
     },
     {
+      "id": "kev:CVE-2026-55040",
+      "source": "kev",
+      "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-55040"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378153575Z"
+    },
+    {
       "id": "kev:CVE-2026-33824",
       "source": "kev",
       "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
@@ -192,22 +208,6 @@
       "scored_at": "2026-08-18T20:12:28.378151491Z"
     },
     {
-      "id": "kev:CVE-2026-65400",
-      "source": "kev",
-      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
-      "published": "2026-08-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
-      "cves": [
-        "CVE-2026-65400"
-      ],
-      "scored_at": "2026-08-18T20:12:28.378154967Z"
-    },
-    {
       "id": "kev:CVE-2025-62593",
       "source": "kev",
       "title": "CVE-2025-62593 — Ray-Project Ray Code Injection Vulnerability",
@@ -224,20 +224,20 @@
       "scored_at": "2026-08-17T16:16:34.611058874Z"
     },
     {
-      "id": "kev:CVE-2026-55040",
+      "id": "kev:CVE-2026-65400",
       "source": "kev",
-      "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
       "published": "2026-08-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
       "cves": [
-        "CVE-2026-55040"
+        "CVE-2026-65400"
       ],
-      "scored_at": "2026-08-18T20:12:28.378153575Z"
+      "scored_at": "2026-08-18T20:12:28.378154967Z"
     },
     {
       "id": "arxiv:2608.19161v1",
