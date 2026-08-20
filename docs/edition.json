@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T04:27:40.603807005Z",
+  "generated": "2026-08-20T08:26:05.668020784Z",
   "edition": 27,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,7 +14,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 8,
-      "NEW GROUND": 9,
+      "NEW GROUND": 8,
+      "NOISE FLOOR": 1,
       "STANDING ORDERS": 8
     }
   },
@@ -159,6 +160,38 @@
       "scored_at": "2026-08-19T04:27:50.569527281Z"
     },
     {
+      "id": "kev:CVE-2026-33824",
+      "source": "kev",
+      "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft Internet Key Exchange (IKE) Service Extensions. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-33824"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378148956Z"
+    },
+    {
+      "id": "kev:CVE-2026-59310",
+      "source": "kev",
+      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-59310"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378151491Z"
+    },
+    {
       "id": "kev:CVE-2026-65400",
       "source": "kev",
       "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
@@ -207,38 +240,6 @@
       "scored_at": "2026-08-18T20:12:28.378153575Z"
     },
     {
-      "id": "kev:CVE-2026-59310",
-      "source": "kev",
-      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
-      "published": "2026-08-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 21 August.",
-      "cves": [
-        "CVE-2026-59310"
-      ],
-      "scored_at": "2026-08-18T20:12:28.378151491Z"
-    },
-    {
-      "id": "kev:CVE-2026-33824",
-      "source": "kev",
-      "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
-      "published": "2026-08-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft Internet Key Exchange (IKE) Service Extensions. Confirmed exploited in the wild. Federal remediation due 21 August.",
-      "cves": [
-        "CVE-2026-33824"
-      ],
-      "scored_at": "2026-08-18T20:12:28.378148956Z"
-    },
-    {
       "id": "arxiv:2608.19161v1",
       "source": "arxiv",
       "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
@@ -252,6 +253,21 @@
       "dek": "Framework detects covert coordination in multi-agent LLM systems via latent-state monitoring and achieves 0.993 AUROC on homogeneous pairs.",
       "unproven": "whether real deployed multi-agent systems exhibit such coordination; scalability beyond the auction benchmark; robustness to agent obfuscation.",
       "scored_at": "2026-08-20T04:27:08.915430761Z"
+    },
+    {
+      "id": "arxiv:2608.18714v1",
+      "source": "arxiv",
+      "title": "A single design choice determines whether machine learning models of materials make physically impossible predictions",
+      "url": "http://arxiv.org/abs/2608.18714v1",
+      "published": "2026-08-19T09:14:55Z",
+      "authors": "Can Polat et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Parity labeling in neural material models determines whether physically impossible piezoelectric predictions occur; six orders of magnitude effect.",
+      "unproven": "generalization beyond centrosymmetric crystals and piezoelectric constraints to other materials and properties used in cryptographic hardware",
+      "scored_at": "2026-08-20T08:25:57.702502038Z"
     },
     {
       "id": "arxiv:2608.18613v1",
@@ -375,34 +391,19 @@
       "scored_at": "2026-08-17T16:16:37.04162385Z"
     },
     {
-      "id": "arxiv:2608.16246v1",
+      "id": "arxiv:2608.19011v1",
       "source": "arxiv",
-      "title": "CompoSkill: Compositional Skill Chain Attacks from Individually Scanner-Passing LLM Agent Skills",
-      "url": "http://arxiv.org/abs/2608.16246v1",
-      "published": "2026-08-17T08:20:44Z",
-      "authors": "Mingxiao Liu et al.",
-      "novelty": 4,
+      "title": "From Threat Intelligence to Detection: Knowledge-driven Enrichment and Template-based Rule Grounding for Automated Sigma Rule Generation",
+      "url": "http://arxiv.org/abs/2608.19011v1",
+      "published": "2026-08-19T15:11:43Z",
+      "authors": "Sepehr Ghaffarzadegan et al.",
+      "novelty": 3,
       "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Scanner-passing LLM agent skills compose into exploitable chains; existing per-skill verification misses path-level risks.",
-      "unproven": "Bench scale and real-world marketplace risk quantification unclear; no evidence of exploitation in deployed agent ecosystems.",
-      "scored_at": "2026-08-18T04:25:46.791075492Z"
-    },
-    {
-      "id": "arxiv:2608.16177v2",
-      "source": "arxiv",
-      "title": "Measuring Obedience to Authority Across Large Language Models with the Milgram Paradigm",
-      "url": "http://arxiv.org/abs/2608.16177v2",
-      "published": "2026-08-17T06:48:53Z",
-      "authors": "Hidayet Aksu",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Milgram obedience paradigm applied to 42 LLMs finds baseline full-obedience rates 0%-100% (mean 42.9%), stable within model families but inconsistently sensitive to peer pressure.",
-      "unproven": "whether obedience scores correlate with real-world agent safety failures in production; whether the paradigm's authority framing generalizes to downstream misuse scenarios.",
-      "scored_at": "2026-08-19T08:25:01.304956108Z"
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "AUTOSIGMA automatically generates platform-independent Sigma rules from unstructured threat intelligence using knowledge-base enrichment.",
+      "unproven": "accuracy of rule grounding on real APT reports; false-positive rates when deployed in production SIEMs; maintenance burden of the knowledge base.",
+      "scored_at": "2026-08-20T04:27:08.915442218Z"
     }
   ],
   "noise": [
