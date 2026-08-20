@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T12:26:41.949927712Z",
+  "generated": "2026-08-20T16:22:30.940329515Z",
   "edition": 27,
   "name": "SIGINT",
   "mark": "^C",
@@ -160,20 +160,20 @@
       "scored_at": "2026-08-19T04:27:50.569527281Z"
     },
     {
-      "id": "kev:CVE-2026-55040",
+      "id": "kev:CVE-2026-59310",
       "source": "kev",
-      "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
       "published": "2026-08-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 21 August.",
       "cves": [
-        "CVE-2026-55040"
+        "CVE-2026-59310"
       ],
-      "scored_at": "2026-08-18T20:12:28.378153575Z"
+      "scored_at": "2026-08-18T20:12:28.378151491Z"
     },
     {
       "id": "kev:CVE-2026-33824",
@@ -192,20 +192,36 @@
       "scored_at": "2026-08-18T20:12:28.378148956Z"
     },
     {
-      "id": "kev:CVE-2026-59310",
+      "id": "kev:CVE-2026-55040",
       "source": "kev",
-      "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
+      "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
       "published": "2026-08-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
       "cves": [
-        "CVE-2026-59310"
+        "CVE-2026-55040"
       ],
-      "scored_at": "2026-08-18T20:12:28.378151491Z"
+      "scored_at": "2026-08-18T20:12:28.378153575Z"
+    },
+    {
+      "id": "kev:CVE-2026-65400",
+      "source": "kev",
+      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-65400"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378154967Z"
     },
     {
       "id": "kev:CVE-2025-62593",
@@ -224,20 +240,20 @@
       "scored_at": "2026-08-17T16:16:34.611058874Z"
     },
     {
-      "id": "kev:CVE-2026-65400",
-      "source": "kev",
-      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
-      "published": "2026-08-18T00:00:00Z",
+      "id": "hn:49372853",
+      "source": "hn",
+      "title": "Supply Chain Attack on Arrayref",
+      "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref",
+      "published": "2026-08-20T10:46:56Z",
+      "authors": "praseodym",
+      "points": 31,
       "novelty": 3,
-      "actionability": 5,
-      "score": 8,
+      "actionability": 4,
+      "score": 7,
       "quadrant": "STANDING ORDERS",
-      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
-      "cves": [
-        "CVE-2026-65400"
-      ],
-      "scored_at": "2026-08-18T20:12:28.378154967Z"
+      "dek": "Supply chain attack on Rust arrayref crate demonstrates real dependency risk; review SCA tool coverage of transitive Rust deps.",
+      "unproven": "scope of affected versions and downstream impact not fully quantified from submission",
+      "scored_at": "2026-08-20T16:22:30.926337736Z"
     },
     {
       "id": "arxiv:2608.19161v1",
@@ -375,22 +391,6 @@
       "scored_at": "2026-08-19T08:24:48.363276629Z"
     },
     {
-      "id": "hn:49331423",
-      "source": "hn",
-      "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
-      "url": "https://wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-      "published": "2026-08-17T14:18:38Z",
-      "authors": "galnagli",
-      "points": 87,
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Copilot-generated fix introduced authentication bypass in Snowflake's Jira; suggests checking AI-assisted remediation for security regressions.",
-      "unproven": "whether this pattern is systematic across codebases or isolated to this incident; no measurement of fix-suggestion safety across large corpus",
-      "scored_at": "2026-08-17T16:16:37.04162385Z"
-    },
-    {
       "id": "arxiv:2608.19011v1",
       "source": "arxiv",
       "title": "From Threat Intelligence to Detection: Knowledge-driven Enrichment and Template-based Rule Grounding for Automated Sigma Rule Generation",
@@ -407,22 +407,6 @@
     }
   ],
   "noise": [
-    {
-      "id": "hn:49330684",
-      "source": "hn",
-      "title": "Incident with Github.com",
-      "url": "https://githubstatus.com/incidents/zkxwbgr0cnmx",
-      "published": "2026-08-17T13:40:55Z",
-      "authors": "kevcampb",
-      "points": 657,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "GitHub experienced an incident; status page notification with no technical detail disclosed.",
-      "unproven": "incident scope, root cause, and whether reader's infrastructure was affected remain unknown",
-      "scored_at": "2026-08-17T16:16:37.041624331Z"
-    },
     {
       "id": "hn:49344825",
       "source": "hn",
@@ -452,6 +436,22 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Study of thermal emissions from data centers in residential areas; outside application security.",
       "scored_at": "2026-08-19T00:39:25.329905254Z"
+    },
+    {
+      "id": "hn:49362401",
+      "source": "hn",
+      "title": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+      "url": "https://ornith.ai/ornith_1_5.html",
+      "published": "2026-08-19T14:48:39Z",
+      "authors": "CommonGuy",
+      "points": 129,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Ornith announces incremental updates to its LLM product line.",
+      "unproven": "Outside reader's remit; product roadmap item, not a security finding or methodology change.",
+      "scored_at": "2026-08-19T20:16:03.753013905Z"
     }
   ]
 }
