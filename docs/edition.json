@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-19T20:16:03.771084613Z",
-  "edition": 26,
+  "generated": "2026-08-20T00:39:26.578234604Z",
+  "edition": 27,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -130,20 +130,20 @@
       "scored_at": "2026-08-19T04:27:50.569527281Z"
     },
     {
-      "id": "kev:CVE-2026-65400",
+      "id": "kev:CVE-2025-62593",
       "source": "kev",
-      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+      "title": "CVE-2025-62593 — Ray-Project Ray Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
       "published": "2026-08-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "dek": "Ray-Project Ray. Confirmed exploited in the wild. Federal remediation due 21 August.",
       "cves": [
-        "CVE-2026-65400"
+        "CVE-2025-62593"
       ],
-      "scored_at": "2026-08-18T20:12:28.378154967Z"
+      "scored_at": "2026-08-17T16:16:34.611058874Z"
     },
     {
       "id": "kev:CVE-2026-59310",
@@ -178,6 +178,22 @@
       "scored_at": "2026-08-18T20:12:28.378148956Z"
     },
     {
+      "id": "kev:CVE-2026-65400",
+      "source": "kev",
+      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-65400"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378154967Z"
+    },
+    {
       "id": "kev:CVE-2026-55040",
       "source": "kev",
       "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
@@ -192,22 +208,6 @@
         "CVE-2026-55040"
       ],
       "scored_at": "2026-08-18T20:12:28.378153575Z"
-    },
-    {
-      "id": "kev:CVE-2025-62593",
-      "source": "kev",
-      "title": "CVE-2025-62593 — Ray-Project Ray Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
-      "published": "2026-08-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ray-Project Ray. Confirmed exploited in the wild. Federal remediation due 21 August.",
-      "cves": [
-        "CVE-2025-62593"
-      ],
-      "scored_at": "2026-08-17T16:16:34.611058874Z"
     },
     {
       "id": "arxiv:2608.16044v1",

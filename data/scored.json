@@ -1,79 +1,4 @@
 {
-  "arxiv:2607.18496v2": {
-    "id": "arxiv:2607.18496v2",
-    "source": "arxiv",
-    "title": "Towards an Automated Test of LLM Security Knowledge",
-    "url": "http://arxiv.org/abs/2607.18496v2",
-    "published": "2026-07-20T20:37:37Z",
-    "authors": "Shufan Chai et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NEW GROUND",
-    "dek": "Automated method for testing LLM security knowledge using Consumer Protection Agency datasets identifies gaps in identity-theft and scam recognition.",
-    "unproven": "Limited to two topics and five models; no evidence this taxonomy scales to threats the reader's agents will actually encounter in the SDLC.",
-    "scored_at": "2026-07-25T16:25:36.818036Z"
-  },
-  "arxiv:2607.18533v1": {
-    "id": "arxiv:2607.18533v1",
-    "source": "arxiv",
-    "title": "PIP-NTT: Towards a Scalable Memory-Parallelized Accelerator for Iterative NTT in PQC",
-    "url": "http://arxiv.org/abs/2607.18533v1",
-    "published": "2026-07-20T21:57:25Z",
-    "authors": "Malik Imran et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NEW GROUND",
-    "dek": "FPGA accelerator for NTT in lattice-based PQC achieves higher throughput via memory parallelization.",
-    "unproven": "No evaluation against actual post-quantum migration timelines or silicon targets; hardware design space exploration does not establish production feasibility or cost relative to alternatives.",
-    "scored_at": "2026-07-25T16:25:36.818035Z"
-  },
-  "arxiv:2607.18538v1": {
-    "id": "arxiv:2607.18538v1",
-    "source": "arxiv",
-    "title": "CryptanalysisBench: Can LLMs do Cryptanalysis?",
-    "url": "http://arxiv.org/abs/2607.18538v1",
-    "published": "2026-07-20T22:09:40Z",
-    "authors": "Lukas Fluri et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NEW GROUND",
-    "dek": "Five frontier LLMs break 65–86% of Tier 1 cryptanalytic problems from NIST competitions; 6–12 Tier 2 schemes at full strength.",
-    "unproven": "whether 'break' means finding novel attacks or rediscovering known ones; whether results hold for production cryptographic parameters not derived from NIST competitions; applicability to post-quantum primitives; whether the task formulation constrains solutions in ways real cryptanalysis does not.",
-    "scored_at": "2026-07-25T16:25:24.138157Z"
-  },
-  "arxiv:2607.18567v1": {
-    "id": "arxiv:2607.18567v1",
-    "source": "arxiv",
-    "title": "Attacking Graph Foundation Models Through Their Shared Representation",
-    "url": "http://arxiv.org/abs/2607.18567v1",
-    "published": "2026-07-20T23:03:26Z",
-    "authors": "Pankaj Kumar et al.",
-    "novelty": 4,
-    "actionability": 1,
-    "score": 5,
-    "quadrant": "NEW GROUND",
-    "dek": "Graph foundation models' shared alignment layer is vulnerable to representation-space perturbation; OpenGraph spectral tokenizer collapses at one-fifth the budget of baseline networks.",
-    "unproven": "whether the perturbation budget translates to real input-space attacks on production models; whether deployed graph foundation models use the same tokenizer designs tested; applicability beyond the six models studied.",
-    "scored_at": "2026-07-25T16:25:24.138156Z"
-  },
-  "arxiv:2607.18575v1": {
-    "id": "arxiv:2607.18575v1",
-    "source": "arxiv",
-    "title": "RECEIPT: Deterministic, Reward-Hacking-Resistant Verification for White-Box Agentic XSS Discovery",
-    "url": "http://arxiv.org/abs/2607.18575v1",
-    "published": "2026-07-20T23:16:16Z",
-    "authors": "Muxi Lyu et al.",
-    "novelty": 4,
-    "actionability": 3,
-    "score": 7,
-    "quadrant": "BREAK GLASS",
-    "dek": "RECEIPT verification framework confirms agent-reported XSS through role-separated environment replay; discovered 24 previously unknown XSS in real-world applications.",
-    "unproven": "false positive rate on benign applications or complex JavaScript frameworks not in the test set; scalability to applications with stricter Content Security Policy; whether maintainers accept the 24 findings at the rate claimed after initial acknowledgement.",
-    "scored_at": "2026-07-25T16:25:24.138155Z"
-  },
   "arxiv:2607.18622v1": {
     "id": "arxiv:2607.18622v1",
     "source": "arxiv",
@@ -343,36 +268,6 @@
     "dek": "ResearchArena benchmark shows frontier AI agents can embed sabotage in training data, defeating 60–80% of monitors.",
     "unproven": "limited to four R\u0026D tasks and four monitor architectures; generalization to other agentic workflows and monitor designs untested",
     "scored_at": "2026-07-25T16:24:51.674167Z"
-  },
-  "arxiv:2607.19432v1": {
-    "id": "arxiv:2607.19432v1",
-    "source": "arxiv",
-    "title": "ChainWatch: A Kill Chain-Aligned Sequential Detection Framework for Multi-Step Attacks in MCP-Based AI Agent Systems",
-    "url": "http://arxiv.org/abs/2607.19432v1",
-    "published": "2026-07-20T22:36:26Z",
-    "authors": "Om Narayan et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NEW GROUND",
-    "dek": "ChainWatch applies Hidden Markov Models to detect multi-step MCP tool-call sequences matching a six-stage kill chain; evaluated on five attack scenarios.",
-    "unproven": "whether five representative scenarios cover the attack surface; false positive rate on legitimate multi-step agent workflows; whether HMM thresholds generalize across different MCP tool ecosystems.",
-    "scored_at": "2026-07-25T16:25:24.138157Z"
-  },
-  "arxiv:2607.19433v1": {
-    "id": "arxiv:2607.19433v1",
-    "source": "arxiv",
-    "title": "The Chronos Vulnerability: A Taxonomy of Temporal Persistence and Memory-Based Deception in Agentic AI",
-    "url": "http://arxiv.org/abs/2607.19433v1",
-    "published": "2026-07-20T22:50:33Z",
-    "authors": "Om Narayan et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Taxonomy of memory-injection and sleeper-agent attacks on stateful autonomous agents; defense categories proposed without implementation or evaluation.",
-    "unproven": "the existence of production stateful agent deployments vulnerable to these attacks; whether the proposed defenses are implementable without blocking legitimate long-term agent workflows; whether endpoint content filters are actually the current standard defense.",
-    "scored_at": "2026-07-25T16:25:24.138156Z"
   },
   "arxiv:2607.19436v1": {
     "id": "arxiv:2607.19436v1",
@@ -36447,22 +36342,6 @@
     "unproven": "Scope and rationale for Google's change not detailed; impact on other projects unclear.",
     "scored_at": "2026-08-19T20:16:02.502150195Z"
   },
-  "kev:CVE-2021-27137": {
-    "id": "kev:CVE-2021-27137",
-    "source": "kev",
-    "title": "CVE-2021-27137 — DD-WRT Stack-Based Buffer Overflow Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137",
-    "published": "2026-07-21T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "DD-WRT DD-WRT. Confirmed exploited in the wild. Federal remediation due 24 July.",
-    "cves": [
-      "CVE-2021-27137"
-    ],
-    "scored_at": "2026-07-25T16:23:52.50339Z"
-  },
   "kev:CVE-2025-62593": {
     "id": "kev:CVE-2025-62593",
     "source": "kev",
@@ -36494,22 +36373,6 @@
       "CVE-2025-68686"
     ],
     "scored_at": "2026-07-27T21:03:50.800673905Z"
-  },
-  "kev:CVE-2026-0770": {
-    "id": "kev:CVE-2026-0770",
-    "source": "kev",
-    "title": "CVE-2026-0770 — Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770",
-    "published": "2026-07-21T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "Langflow Langflow. Confirmed exploited in the wild. Federal remediation due 24 July.",
-    "cves": [
-      "CVE-2026-0770"
-    ],
-    "scored_at": "2026-07-25T16:23:52.503388Z"
   },
   "kev:CVE-2026-16232": {
     "id": "kev:CVE-2026-16232",
@@ -36686,38 +36549,6 @@
       "CVE-2026-59310"
     ],
     "scored_at": "2026-08-18T20:12:28.378151491Z"
-  },
-  "kev:CVE-2026-60137": {
-    "id": "kev:CVE-2026-60137",
-    "source": "kev",
-    "title": "CVE-2026-60137 — WordPress Core SQL Injection Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137",
-    "published": "2026-07-21T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "WordPress Core. Confirmed exploited in the wild. Federal remediation due 4 August.",
-    "cves": [
-      "CVE-2026-60137"
-    ],
-    "scored_at": "2026-07-25T16:23:52.503385Z"
-  },
-  "kev:CVE-2026-63030": {
-    "id": "kev:CVE-2026-63030",
-    "source": "kev",
-    "title": "CVE-2026-63030 — WordPress Core Interpretation Conflict Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63030",
-    "published": "2026-07-21T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "WordPress Core. Confirmed exploited in the wild. Federal remediation due 24 July.",
-    "cves": [
-      "CVE-2026-63030"
-    ],
-    "scored_at": "2026-07-25T16:23:52.503386Z"
   },
   "kev:CVE-2026-63077": {
     "id": "kev:CVE-2026-63077",
