@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T00:39:26.578234604Z",
+  "generated": "2026-08-20T04:27:40.603807005Z",
   "edition": 27,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,8 +14,7 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 8,
-      "NEW GROUND": 8,
-      "NOISE FLOOR": 1,
+      "NEW GROUND": 9,
       "STANDING ORDERS": 8
     }
   },
@@ -36,6 +35,21 @@
       "scored_at": "2026-08-19T08:24:48.363299594Z"
     },
     {
+      "id": "arxiv:2608.18876v1",
+      "source": "arxiv",
+      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
+      "url": "http://arxiv.org/abs/2608.18876v1",
+      "published": "2026-08-19T12:56:00Z",
+      "authors": "Md Akram Khan et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Causal framework exposes whether SAST design tradeoffs (speed, precision) actually deliver promised gains or rest on invalid assumptions.",
+      "unproven": "evaluation scope and tool coverage not yet specified in abstract; needs full dataset and tool set details",
+      "scored_at": "2026-08-20T04:27:18.575480198Z"
+    },
+    {
       "id": "kev:CVE-2026-64849",
       "source": "kev",
       "title": "CVE-2026-64849 — MLflow Server-Side Request Forgery Vulnerability",
@@ -50,6 +64,21 @@
         "CVE-2026-64849"
       ],
       "scored_at": "2026-08-19T20:15:54.378122026Z"
+    },
+    {
+      "id": "arxiv:2608.18351v1",
+      "source": "arxiv",
+      "title": "Task-Conditioned Least-Privilege Learning for Executable Terminal and MCP Agents",
+      "url": "http://arxiv.org/abs/2608.18351v1",
+      "published": "2026-08-18T22:07:23Z",
+      "authors": "Alexander Tu et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Post-training framework teaches 4B LLM agents task-conditioned least-privilege, reducing excess-authority errors from 35.6% to 1.5%.",
+      "unproven": "Evaluated on simulated terminal and MCP environments; no data on real SDLC agent deployments or agent-to-human behavior drift.",
+      "scored_at": "2026-08-20T04:27:31.199678053Z"
     },
     {
       "id": "arxiv:2608.17960v1",
@@ -130,6 +159,22 @@
       "scored_at": "2026-08-19T04:27:50.569527281Z"
     },
     {
+      "id": "kev:CVE-2026-65400",
+      "source": "kev",
+      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-65400"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378154967Z"
+    },
+    {
       "id": "kev:CVE-2025-62593",
       "source": "kev",
       "title": "CVE-2025-62593 — Ray-Project Ray Code Injection Vulnerability",
@@ -144,6 +189,22 @@
         "CVE-2025-62593"
       ],
       "scored_at": "2026-08-17T16:16:34.611058874Z"
+    },
+    {
+      "id": "kev:CVE-2026-55040",
+      "source": "kev",
+      "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+      "published": "2026-08-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
+      "cves": [
+        "CVE-2026-55040"
+      ],
+      "scored_at": "2026-08-18T20:12:28.378153575Z"
     },
     {
       "id": "kev:CVE-2026-59310",
@@ -178,66 +239,34 @@
       "scored_at": "2026-08-18T20:12:28.378148956Z"
     },
     {
-      "id": "kev:CVE-2026-65400",
-      "source": "kev",
-      "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
-      "published": "2026-08-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
-      "cves": [
-        "CVE-2026-65400"
-      ],
-      "scored_at": "2026-08-18T20:12:28.378154967Z"
-    },
-    {
-      "id": "kev:CVE-2026-55040",
-      "source": "kev",
-      "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
-      "published": "2026-08-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
-      "cves": [
-        "CVE-2026-55040"
-      ],
-      "scored_at": "2026-08-18T20:12:28.378153575Z"
-    },
-    {
-      "id": "arxiv:2608.16044v1",
+      "id": "arxiv:2608.19161v1",
       "source": "arxiv",
-      "title": "Coverage Is Not Containment: A Fundamental Limit of Admission-Time Defenses Against Coordinated Poisoning of Vector Retrieval",
-      "url": "http://arxiv.org/abs/2608.16044v1",
-      "published": "2026-08-17T03:18:51Z",
-      "authors": "Prashant Kumar Pathak et al.",
+      "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+      "url": "http://arxiv.org/abs/2608.19161v1",
+      "published": "2026-08-19T17:43:22Z",
+      "authors": "Ramneet Kaur et al.",
       "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Coordinated poisoning of vector stores defeats admission-time RAG defenses; 10 unremarkable injected documents seize top-k retrieval in 88% of cases.",
-      "unproven": "whether defenses at retrieval time or generation time can mitigate the attack; whether the attack succeeds across all vector databases and embedding models.",
-      "scored_at": "2026-08-18T04:26:00.81508242Z"
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Framework detects covert coordination in multi-agent LLM systems via latent-state monitoring and achieves 0.993 AUROC on homogeneous pairs.",
+      "unproven": "whether real deployed multi-agent systems exhibit such coordination; scalability beyond the auction benchmark; robustness to agent obfuscation.",
+      "scored_at": "2026-08-20T04:27:08.915430761Z"
     },
     {
-      "id": "arxiv:2608.16032v1",
+      "id": "arxiv:2608.18613v1",
       "source": "arxiv",
-      "title": "Proof-of-Execution Memory: Defending LLM Agents Against Forged-Reasoning Attacks by Verifying What Actually Happened",
-      "url": "http://arxiv.org/abs/2608.16032v1",
-      "published": "2026-08-17T02:54:04Z",
-      "authors": "Md Habibur Rahman et al.",
+      "title": "CTIFoundry: An Agent-Native Corpus Scaffold for Cyber Threat Intelligence",
+      "url": "http://arxiv.org/abs/2608.18613v1",
+      "published": "2026-08-19T07:00:29Z",
+      "authors": "Yutong Cheng et al.",
       "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Reworded memory forgeries evade SENTINEL defense on first attempt; stronger models (GPT-4o 98–100%) more vulnerable; PoEM uses HMAC-chained tamper-evident logs.",
-      "unproven": "whether PoEM prevents attacks when agents can modify or exfiltrate the ledger itself; real-world agent latency and storage overhead; whether sophisticated rewording defeats PoEM's integrity assumptions.",
-      "scored_at": "2026-08-18T04:26:00.815082576Z"
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Agent-native corpus scaffold for CTI materializes CVE/CWE/CAPEC/ATT\u0026CK ontology and report structure for agentic investigation.",
+      "unproven": "evaluation on CTIConnect benchmark only; readiness for production threat intelligence workflows and integration with reader's tools unclear",
+      "scored_at": "2026-08-20T04:27:18.57548146Z"
     },
     {
       "id": "arxiv:2608.17829v1",
@@ -374,36 +403,6 @@
       "dek": "Milgram obedience paradigm applied to 42 LLMs finds baseline full-obedience rates 0%-100% (mean 42.9%), stable within model families but inconsistently sensitive to peer pressure.",
       "unproven": "whether obedience scores correlate with real-world agent safety failures in production; whether the paradigm's authority framing generalizes to downstream misuse scenarios.",
       "scored_at": "2026-08-19T08:25:01.304956108Z"
-    },
-    {
-      "id": "arxiv:2608.17729v1",
-      "source": "arxiv",
-      "title": "BullsEye: Directed Firmware Fuzzing",
-      "url": "http://arxiv.org/abs/2608.17729v1",
-      "published": "2026-08-18T12:53:12Z",
-      "authors": "Lorenzo Ralli et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "BullsEye applies basic-block-level directed fuzzing to closed-source Linux firmware to detect known vulnerabilities in third-party components.",
-      "unproven": "whether the methodology scales to firmware in the reader's supply chain, and whether it integrates with existing SAST/SCA workflows",
-      "scored_at": "2026-08-19T04:27:14.999041035Z"
-    },
-    {
-      "id": "arxiv:2608.17538v1",
-      "source": "arxiv",
-      "title": "TENET: Telegram Mini App (in)security",
-      "url": "http://arxiv.org/abs/2608.17538v1",
-      "published": "2026-08-18T08:59:03Z",
-      "authors": "Andrea Ciccotelli et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Telegram Mini Apps store secrets in plaintext; TENET tool audits 61 apps and finds authentication tokens and wallet keys exposed.",
-      "unproven": "Whether findings generalize beyond the 61-app sample; whether the tooling would catch secrets obfuscated or encoded rather than plaintext.",
-      "scored_at": "2026-08-19T04:27:38.533230851Z"
     }
   ],
   "noise": [
