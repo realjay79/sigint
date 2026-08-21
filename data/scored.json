@@ -1,49 +1,4 @@
 {
-  "arxiv:2607.19580v1": {
-    "id": "arxiv:2607.19580v1",
-    "source": "arxiv",
-    "title": "End-to-End Differential Privacy in Training Deep Neural Network Classifiers",
-    "url": "http://arxiv.org/abs/2607.19580v1",
-    "published": "2026-07-21T21:15:55Z",
-    "authors": "Huaiyuan Rao et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NEW GROUND",
-    "dek": "Differential privacy framework privatizes training inputs while keeping labels public using Dirichlet mechanism.",
-    "unproven": "applies to image classifiers only; generalization to other domains and production ML pipelines undemonstrated",
-    "scored_at": "2026-07-25T16:24:51.674165Z"
-  },
-  "arxiv:2607.19586v1": {
-    "id": "arxiv:2607.19586v1",
-    "source": "arxiv",
-    "title": "Examining User Behavior and Cognitive Biases in Personal Password Security",
-    "url": "http://arxiv.org/abs/2607.19586v1",
-    "published": "2026-07-21T21:28:35Z",
-    "authors": "Evelyn Crowe et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Survey confirms users trade security for convenience due to hyperbolic discounting and present bias.",
-    "unproven": "does not test whether policy or UI design informed by these findings actually changes behavior at scale",
-    "scored_at": "2026-07-25T16:24:51.674164Z"
-  },
-  "arxiv:2607.19595v1": {
-    "id": "arxiv:2607.19595v1",
-    "source": "arxiv",
-    "title": "Twin Agent: Context Residual Compression for Privilege Separated Agents",
-    "url": "http://arxiv.org/abs/2607.19595v1",
-    "published": "2026-07-21T21:47:52Z",
-    "authors": "Zhanhao Hu et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "BREAK GLASS",
-    "dek": "Privilege-separated dual-agent architecture reduces context leakage to untrusted observations while preserving task utility on long-horizon tasks.",
-    "unproven": "Evaluation on SWE-bench Lite and heterogeneous tool tasks; robustness against adaptive prompt injection, resource constraints, and multi-hop reasoning in production agents unproven.",
-    "scored_at": "2026-07-25T16:24:39.902336Z"
-  },
   "arxiv:2607.19674v1": {
     "id": "arxiv:2607.19674v1",
     "source": "arxiv",
@@ -2137,35 +2092,6 @@
     "dek": "Quantum state tomography framework using neural flows for phase-space reconstruction.",
     "unproven": "outside reader's remit entirely",
     "scored_at": "2026-07-25T18:23:30.74184Z"
-  },
-  "arxiv:2607.21642v1": {
-    "id": "arxiv:2607.21642v1",
-    "source": "arxiv",
-    "title": "CARE: Pre-Execution Command Verification for Shell-Executing LLM Agents",
-    "url": "http://arxiv.org/abs/2607.21642v1",
-    "published": "2026-07-21T20:22:42Z",
-    "authors": "Wenxiao Zhang et al.",
-    "novelty": 4,
-    "actionability": 4,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "Static shell-command verifier for LLM agents reaches 85.6% F1 with 0.91% false-positive rate and 2.3 ms latency before execution.",
-    "unproven": "generalization beyond the balanced main split; real-world SDLC integration with agents already in use; coverage of shell constructs beyond those in the test set",
-    "scored_at": "2026-07-27T11:11:35.483262985Z"
-  },
-  "arxiv:2607.21643v1": {
-    "id": "arxiv:2607.21643v1",
-    "source": "arxiv",
-    "title": "StajChain: A Hyperledger Fabric-Based Multi-Party Internship Agreement System",
-    "url": "http://arxiv.org/abs/2607.21643v1",
-    "published": "2026-07-21T20:35:02Z",
-    "authors": "Rampia Perente",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Hyperledger Fabric implementation of an internship agreement workflow with role-based access control and performance testing.",
-    "scored_at": "2026-07-27T11:11:35.483262734Z"
   },
   "arxiv:2607.21673v1": {
     "id": "arxiv:2607.21673v1",
@@ -37562,22 +37488,6 @@
     ],
     "scored_at": "2026-07-27T21:03:50.800673905Z"
   },
-  "kev:CVE-2026-16232": {
-    "id": "kev:CVE-2026-16232",
-    "source": "kev",
-    "title": "CVE-2026-16232 — Check Point SmartConsole Improper Authentication Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232",
-    "published": "2026-07-22T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "Check Point SmartConsole. Confirmed exploited in the wild. Federal remediation due 25 July.",
-    "cves": [
-      "CVE-2026-16232"
-    ],
-    "scored_at": "2026-07-25T16:23:52.503378Z"
-  },
   "kev:CVE-2026-16812": {
     "id": "kev:CVE-2026-16812",
     "source": "kev",
@@ -37689,22 +37599,6 @@
       "CVE-2026-34486"
     ],
     "scored_at": "2026-08-04T21:02:05.249437303Z"
-  },
-  "kev:CVE-2026-50522": {
-    "id": "kev:CVE-2026-50522",
-    "source": "kev",
-    "title": "CVE-2026-50522 — Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50522",
-    "published": "2026-07-22T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 25 July.",
-    "cves": [
-      "CVE-2026-50522"
-    ],
-    "scored_at": "2026-07-25T16:23:52.503382Z"
   },
   "kev:CVE-2026-55040": {
     "id": "kev:CVE-2026-55040",
