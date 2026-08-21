@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T12:26:31.84077459Z",
+  "generated": "2026-08-21T16:20:38.044591403Z",
   "edition": 28,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 5,
-      "NEW GROUND": 10,
-      "NOISE FLOOR": 6,
+      "BREAK GLASS": 4,
+      "NEW GROUND": 8,
+      "NOISE FLOOR": 9,
       "STANDING ORDERS": 4
     }
   },
@@ -36,22 +36,6 @@
       "scored_at": "2026-08-21T04:29:12.522169794Z"
     },
     {
-      "id": "kev:CVE-2026-72530",
-      "source": "kev",
-      "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
-      "published": "2026-08-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 3 September.",
-      "cves": [
-        "CVE-2026-72530"
-      ],
-      "scored_at": "2026-08-20T20:17:52.099146988Z"
-    },
-    {
       "id": "kev:CVE-2026-72529",
       "source": "kev",
       "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
@@ -68,19 +52,20 @@
       "scored_at": "2026-08-20T20:17:52.099149964Z"
     },
     {
-      "id": "arxiv:2608.18876v2",
-      "source": "arxiv",
-      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
-      "url": "http://arxiv.org/abs/2608.18876v2",
-      "published": "2026-08-19T12:56:00Z",
-      "authors": "Md Akram Khan et al.",
-      "novelty": 4,
-      "actionability": 4,
+      "id": "kev:CVE-2026-72530",
+      "source": "kev",
+      "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
+      "published": "2026-08-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
       "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "CauSec causal framework tests whether SAST tool design assumptions (precision-detection tradeoffs) actually deliver claimed performance gains on real code.",
-      "unproven": "framework applied to limited set of tools; generalization to reader's specific SAST portfolio and codebase composition undemonstrated",
-      "scored_at": "2026-08-21T04:29:27.212650703Z"
+      "quadrant": "STANDING ORDERS",
+      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 3 September.",
+      "cves": [
+        "CVE-2026-72530"
+      ],
+      "scored_at": "2026-08-20T20:17:52.099146988Z"
     },
     {
       "id": "arxiv:2608.18876v1",
@@ -96,6 +81,21 @@
       "dek": "Causal framework exposes whether SAST design tradeoffs (speed, precision) actually deliver promised gains or rest on invalid assumptions.",
       "unproven": "evaluation scope and tool coverage not yet specified in abstract; needs full dataset and tool set details",
       "scored_at": "2026-08-20T04:27:18.575480198Z"
+    },
+    {
+      "id": "arxiv:2608.18876v2",
+      "source": "arxiv",
+      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
+      "url": "http://arxiv.org/abs/2608.18876v2",
+      "published": "2026-08-19T12:56:00Z",
+      "authors": "Md Akram Khan et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "CauSec causal framework tests whether SAST tool design assumptions (precision-detection tradeoffs) actually deliver claimed performance gains on real code.",
+      "unproven": "framework applied to limited set of tools; generalization to reader's specific SAST portfolio and codebase composition undemonstrated",
+      "scored_at": "2026-08-21T04:29:27.212650703Z"
     },
     {
       "id": "kev:CVE-2026-64849",
@@ -127,24 +127,6 @@
       "dek": "Post-training framework teaches 4B LLM agents task-conditioned least-privilege, reducing excess-authority errors from 35.6% to 1.5%.",
       "unproven": "Evaluated on simulated terminal and MCP environments; no data on real SDLC agent deployments or agent-to-human behavior drift.",
       "scored_at": "2026-08-20T04:27:31.199678053Z"
-    },
-    {
-      "id": "arxiv:2608.17960v1",
-      "source": "arxiv",
-      "title": "COMA: A Compositional Misleading Attack Class on Security-RAG, and a Causal Counterfactual Defense",
-      "url": "http://arxiv.org/abs/2608.17960v1",
-      "published": "2026-08-18T16:14:30Z",
-      "authors": "Chinmay Gondhalekar et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Security RAG systems can be misled into recommending incomplete fixes via factually correct but compositionally adversarial documents; tested on five models and a real CVE.",
-      "unproven": "whether adversaries can inject such documents at scale into security knowledge bases used by deployed copilots",
-      "cves": [
-        "CVE-2021-33813"
-      ],
-      "scored_at": "2026-08-19T04:27:14.99903753Z"
     },
     {
       "id": "hn:49372853",
@@ -221,21 +203,6 @@
       "dek": "Agent-native corpus scaffold for CTI materializes CVE/CWE/CAPEC/ATT\u0026CK ontology and report structure for agentic investigation.",
       "unproven": "evaluation on CTIConnect benchmark only; readiness for production threat intelligence workflows and integration with reader's tools unclear",
       "scored_at": "2026-08-20T04:27:18.57548146Z"
-    },
-    {
-      "id": "arxiv:2608.17829v1",
-      "source": "arxiv",
-      "title": "The Model's Tell: Measuring Context-Leakage Attack Signals with Behavior Gauges",
-      "url": "http://arxiv.org/abs/2608.17829v1",
-      "published": "2026-08-18T14:28:51Z",
-      "authors": "Maosen Zhang et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "LeakGauge detects context leakage in LLMs via prefill token probabilities with AUROC 0.944–0.996 across 11 models without extracting hidden states.",
-      "unproven": "whether detection at prefill time provides actionable defense before a response is committed, and whether the method generalizes to proprietary model APIs",
-      "scored_at": "2026-08-19T04:27:14.999039573Z"
     },
     {
       "id": "arxiv:2608.19901v1",
@@ -328,21 +295,6 @@
       "scored_at": "2026-08-20T04:27:18.575479857Z"
     },
     {
-      "id": "arxiv:2608.17729v1",
-      "source": "arxiv",
-      "title": "BullsEye: Directed Firmware Fuzzing",
-      "url": "http://arxiv.org/abs/2608.17729v1",
-      "published": "2026-08-18T12:53:12Z",
-      "authors": "Lorenzo Ralli et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "BullsEye applies basic-block-level directed fuzzing to closed-source Linux firmware to detect known vulnerabilities in third-party components.",
-      "unproven": "whether the methodology scales to firmware in the reader's supply chain, and whether it integrates with existing SAST/SCA workflows",
-      "scored_at": "2026-08-19T04:27:14.999041035Z"
-    },
-    {
       "id": "hn:49376332",
       "source": "hn",
       "title": "How to compromise your system with a job interview",
@@ -402,23 +354,83 @@
       "dek": "EchoCoT extracts hidden chain-of-thought traces from frontier reasoning models via API fidelity signals, achieving 66% near-verbatim extraction on open-source models.",
       "unproven": "Does not establish extraction success rates for frontier models with sufficient detail, or defense mechanisms deployed by providers; lab conditions do not confirm real-world extraction difficulty.",
       "scored_at": "2026-08-21T04:28:59.754921931Z"
+    },
+    {
+      "id": "arxiv:2608.19982v1",
+      "source": "arxiv",
+      "title": "COPA: Continual Preference Optimization for Adaptive Prompt Injection Defense",
+      "url": "http://arxiv.org/abs/2608.19982v1",
+      "published": "2026-08-20T12:52:55Z",
+      "authors": "Roshan Sood et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "COPA applies continual preference optimization to prompt injection defense, using margin-weighted replay to retain robustness against prior attacks while adapting to new ones.",
+      "unproven": "Does not establish scalability beyond synthetic attack distributions, absence of gradient inversion leakage, or deployment without retraining cost; test attacks are researcher-designed, not adversary-evolved.",
+      "scored_at": "2026-08-21T04:28:59.754922362Z"
+    },
+    {
+      "id": "arxiv:2608.19959v1",
+      "source": "arxiv",
+      "title": "Tracking the Trend in How Speech Synthesizers Deceive People",
+      "url": "http://arxiv.org/abs/2608.19959v1",
+      "published": "2026-08-20T12:27:37Z",
+      "authors": "Milan Šalko et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Human detection of synthetic speech from 2024 synthesizers (ElevenLabs) drops to 48% F1; partial spoofs achieve 9% accuracy and 77% false negatives.",
+      "unproven": "Does not establish whether listener training or segmental detection improves these metrics; sample of 82 IT professionals does not represent general population or audio forensic practitioners.",
+      "scored_at": "2026-08-21T04:28:59.754922462Z"
+    },
+    {
+      "id": "arxiv:2608.19938v1",
+      "source": "arxiv",
+      "title": "From Noise to Signal: Improving Security Log Anomaly Detection Using LLMs with Endpoint-Specific Logs",
+      "url": "http://arxiv.org/abs/2608.19938v1",
+      "published": "2026-08-20T11:54:56Z",
+      "authors": "Christopher Henshaw et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "LLM-based log anomaly detector outperforms rule-based and statistical methods on endpoint authentication data in controlled testbed.",
+      "unproven": "Performance on production logs with class imbalance, drift, and adversarial obfuscation; generalization beyond authentication behaviors; computational cost vs. Wazuh/OpenSearch at scale.",
+      "scored_at": "2026-08-21T04:29:12.522168992Z"
     }
   ],
   "noise": [
     {
-      "id": "hn:49344825",
+      "id": "hn:49385994",
       "source": "hn",
-      "title": "Using the railway network as a flatbed scanner",
-      "url": "https://philo.gay/linecam",
-      "published": "2026-08-18T12:43:54Z",
-      "authors": "otherayden",
-      "points": 327,
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "url": "https://annas-archive.pk/blog/physical-destruction.html",
+      "published": "2026-08-21T10:05:46Z",
+      "authors": "darccio",
+      "points": 581,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Railway network repurposed as a flatbed scanner in a technical novelty project.",
-      "scored_at": "2026-08-18T20:12:45.465350315Z"
+      "dek": "Advocacy for book preservation; unrelated to application security or SDLC.",
+      "scored_at": "2026-08-21T16:20:38.023974741Z"
+    },
+    {
+      "id": "hn:49383026",
+      "source": "hn",
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "published": "2026-08-21T02:37:47Z",
+      "authors": "Cider9986",
+      "points": 381,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Advocacy for book preservation; unrelated to application security or SDLC.",
+      "scored_at": "2026-08-21T16:20:38.023977827Z"
     },
     {
       "id": "hn:49349147",
@@ -434,22 +446,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Study of thermal emissions from data centers in residential areas; outside application security.",
       "scored_at": "2026-08-19T00:39:25.329905254Z"
-    },
-    {
-      "id": "hn:49362401",
-      "source": "hn",
-      "title": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
-      "url": "https://ornith.ai/ornith_1_5.html",
-      "published": "2026-08-19T14:48:39Z",
-      "authors": "CommonGuy",
-      "points": 129,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Ornith announces incremental updates to its LLM product line.",
-      "unproven": "Outside reader's remit; product roadmap item, not a security finding or methodology change.",
-      "scored_at": "2026-08-19T20:16:03.753013905Z"
     }
   ]
 }
