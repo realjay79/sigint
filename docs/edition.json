@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T04:29:32.780099334Z",
+  "generated": "2026-08-21T08:28:27.64784586Z",
   "edition": 28,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 8,
-      "NEW GROUND": 9,
-      "NOISE FLOOR": 3,
+      "BREAK GLASS": 6,
+      "NEW GROUND": 10,
+      "NOISE FLOOR": 4,
       "STANDING ORDERS": 5
     }
   },
@@ -36,22 +36,6 @@
       "scored_at": "2026-08-21T04:29:12.522169794Z"
     },
     {
-      "id": "kev:CVE-2026-72529",
-      "source": "kev",
-      "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
-      "published": "2026-08-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 23 August.",
-      "cves": [
-        "CVE-2026-72529"
-      ],
-      "scored_at": "2026-08-20T20:17:52.099149964Z"
-    },
-    {
       "id": "kev:CVE-2026-72530",
       "source": "kev",
       "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
@@ -66,6 +50,22 @@
         "CVE-2026-72530"
       ],
       "scored_at": "2026-08-20T20:17:52.099146988Z"
+    },
+    {
+      "id": "kev:CVE-2026-72529",
+      "source": "kev",
+      "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
+      "published": "2026-08-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 23 August.",
+      "cves": [
+        "CVE-2026-72529"
+      ],
+      "scored_at": "2026-08-20T20:17:52.099149964Z"
     },
     {
       "id": "arxiv:2608.18876v1",
@@ -160,36 +160,6 @@
       "dek": "Benchmark of 142 Android GUI agent attacks via environmental injection shows six agents vulnerable to indirect prompt injection in everyday mobile scenarios.",
       "unproven": "limited to six agents tested; real-world deployment impact of demonstrated attacks not measured",
       "scored_at": "2026-08-19T04:27:24.327654593Z"
-    },
-    {
-      "id": "arxiv:2608.17485v1",
-      "source": "arxiv",
-      "title": "KeyPooling: Measuring Where LLM API Relay Paths Collapse Prompt Cache Isolation",
-      "url": "http://arxiv.org/abs/2608.17485v1",
-      "published": "2026-08-18T08:12:34Z",
-      "authors": "Bowen Sun et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "LLM API relays expose cross-customer prompt cache reads; KeyPooling measurement traces five open-source gateways and finds none bind customers to upstream credentials by default.",
-      "unproven": "Weekly OpenRouter testing covered 80.5% of eligible token volume; full production behavior under all relay configurations not exhaustively characterized.",
-      "scored_at": "2026-08-19T04:27:38.533231682Z"
-    },
-    {
-      "id": "arxiv:2608.17361v1",
-      "source": "arxiv",
-      "title": "Trusted Workflow Relays:Cross-Tenant Email Abuse and Composable Red Team Initial-Access Primitives in Multi-Tenant Clouds",
-      "url": "http://arxiv.org/abs/2608.17361v1",
-      "published": "2026-08-18T04:31:34Z",
-      "authors": "Priyank Nigam",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Three cross-tenant notification workflows allow authenticated actors to reach other tenants and inject content through provider mail identities.",
-      "unproven": "Findings are from three specific workflows that were responsibly disclosed and remediated; whether pattern persists in current or other cloud providers' notification systems is unclear.",
-      "scored_at": "2026-08-19T04:27:38.533232353Z"
     },
     {
       "id": "hn:49372853",
@@ -328,21 +298,6 @@
       "scored_at": "2026-08-19T04:27:24.327655684Z"
     },
     {
-      "id": "arxiv:2608.17445v1",
-      "source": "arxiv",
-      "title": "Decomposition Attacks Across Unlinkable Identities: Limits of Stateful Defenses for LLM Services",
-      "url": "http://arxiv.org/abs/2608.17445v1",
-      "published": "2026-08-18T07:26:30Z",
-      "authors": "Bowen Sun et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Decomposition attacks succeed even with stateful defense if attackers use unlinkable identities; 1% block rate eliminates useful operating point under feedback.",
-      "unproven": "Proofs assume fixed attack strategy without retries; real attacker behavior with adaptive strategies and identity chaining tactics not modeled.",
-      "scored_at": "2026-08-19T04:27:38.533231823Z"
-    },
-    {
       "id": "arxiv:2608.19901v1",
       "source": "arxiv",
       "title": "MaliciousSkillBench: A Comprehensive Benchmark for Malicious Agent Skill Detection",
@@ -401,6 +356,51 @@
       "dek": "AUTOSIGMA automatically generates platform-independent Sigma rules from unstructured threat intelligence using knowledge-base enrichment.",
       "unproven": "accuracy of rule grounding on real APT reports; false-positive rates when deployed in production SIEMs; maintenance burden of the knowledge base.",
       "scored_at": "2026-08-20T04:27:08.915442218Z"
+    },
+    {
+      "id": "arxiv:2608.18976v1",
+      "source": "arxiv",
+      "title": "Catastrophic Learning: A New Attack Vector on Continual Learning Networks",
+      "url": "http://arxiv.org/abs/2608.18976v1",
+      "published": "2026-08-19T14:43:14Z",
+      "authors": "Benedikt Kluss et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Learning blockers attack continual-learning plasticity by poisoning data to reduce learnability in current or future iterations.",
+      "unproven": "whether continual-learning models are in production use in security-critical contexts; defense mechanisms; real-world threat model validation.",
+      "scored_at": "2026-08-20T04:27:08.915442458Z"
+    },
+    {
+      "id": "arxiv:2608.18965v1",
+      "source": "arxiv",
+      "title": "Who Can Make the Action Happen? An Authority-Decomposition Framework for High-Risk Automated Systems",
+      "url": "http://arxiv.org/abs/2608.18965v1",
+      "published": "2026-08-19T14:30:58Z",
+      "authors": "Mengting Wu et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Framework for decomposing which actor coalitions can trigger protected state transitions in distributed high-risk systems.",
+      "unproven": "tested only on protocol models and illustrative cases, not on production authorization architectures the reader maintains",
+      "scored_at": "2026-08-20T04:27:18.575479857Z"
+    },
+    {
+      "id": "arxiv:2608.17729v1",
+      "source": "arxiv",
+      "title": "BullsEye: Directed Firmware Fuzzing",
+      "url": "http://arxiv.org/abs/2608.17729v1",
+      "published": "2026-08-18T12:53:12Z",
+      "authors": "Lorenzo Ralli et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "BullsEye applies basic-block-level directed fuzzing to closed-source Linux firmware to detect known vulnerabilities in third-party components.",
+      "unproven": "whether the methodology scales to firmware in the reader's supply chain, and whether it integrates with existing SAST/SCA workflows",
+      "scored_at": "2026-08-19T04:27:14.999041035Z"
     }
   ],
   "noise": [
