@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T00:42:03.367505346Z",
+  "generated": "2026-08-21T04:29:32.780099334Z",
   "edition": 28,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,18 +8,33 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 20,
-      "hn": 2,
+      "arxiv": 21,
+      "hn": 1,
       "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 7,
+      "BREAK GLASS": 8,
       "NEW GROUND": 9,
-      "NOISE FLOOR": 4,
+      "NOISE FLOOR": 3,
       "STANDING ORDERS": 5
     }
   },
   "items": [
+    {
+      "id": "arxiv:2608.19857v1",
+      "source": "arxiv",
+      "title": "Inadvertent Context Leakage in Language Models",
+      "url": "http://arxiv.org/abs/2608.19857v1",
+      "published": "2026-08-20T10:05:29Z",
+      "authors": "Jaiden Fairoze et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "LLM context windows leak in-context secrets into benign outputs at 82–100% accuracy via adaptive black-box attacks; stronger models leak more.",
+      "unproven": "Applicability to models with context filtering, reasoning chains, or production guardrails; remediation effectiveness; real-world exfiltration risk when agents hold live credentials.",
+      "scored_at": "2026-08-21T04:29:12.522169794Z"
+    },
     {
       "id": "kev:CVE-2026-72529",
       "source": "kev",
@@ -66,6 +81,21 @@
       "dek": "Causal framework exposes whether SAST design tradeoffs (speed, precision) actually deliver promised gains or rest on invalid assumptions.",
       "unproven": "evaluation scope and tool coverage not yet specified in abstract; needs full dataset and tool set details",
       "scored_at": "2026-08-20T04:27:18.575480198Z"
+    },
+    {
+      "id": "arxiv:2608.18876v2",
+      "source": "arxiv",
+      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
+      "url": "http://arxiv.org/abs/2608.18876v2",
+      "published": "2026-08-19T12:56:00Z",
+      "authors": "Md Akram Khan et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "CauSec causal framework tests whether SAST tool design assumptions (precision-detection tradeoffs) actually deliver claimed performance gains on real code.",
+      "unproven": "framework applied to limited set of tools; generalization to reader's specific SAST portfolio and codebase composition undemonstrated",
+      "scored_at": "2026-08-21T04:29:27.212650703Z"
     },
     {
       "id": "kev:CVE-2026-64849",
@@ -162,21 +192,6 @@
       "scored_at": "2026-08-19T04:27:38.533232353Z"
     },
     {
-      "id": "arxiv:2608.17275v1",
-      "source": "arxiv",
-      "title": "When Agents Act on Web3: An Attack-Surface Survey of MCP, Skills, and Tool Calling",
-      "url": "http://arxiv.org/abs/2608.17275v1",
-      "published": "2026-08-18T02:04:58Z",
-      "authors": "Rabimba Karanjai et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "MCP agent tool use on Web3 has shifted from 27% to 65% state-modifying; irreversibility and signing authority fundamentally change agent threat models.",
-      "unproven": "measured protections and refusal rates are low (under 30% and 3%); defenses tested in limited scenarios; production deployment validation absent",
-      "scored_at": "2026-08-19T04:27:50.569527281Z"
-    },
-    {
       "id": "hn:49372853",
       "source": "hn",
       "title": "Supply Chain Attack on Arrayref",
@@ -191,6 +206,21 @@
       "dek": "Supply chain attack on Rust arrayref crate demonstrates real dependency risk; review SCA tool coverage of transitive Rust deps.",
       "unproven": "scope of affected versions and downstream impact not fully quantified from submission",
       "scored_at": "2026-08-20T16:22:30.926337736Z"
+    },
+    {
+      "id": "arxiv:2608.19387v1",
+      "source": "arxiv",
+      "title": "Aray: Deterministic-First Synthesis of Benign Artifacts for YARA Validation",
+      "url": "http://arxiv.org/abs/2608.19387v1",
+      "published": "2026-08-19T19:05:25Z",
+      "authors": "Emanuel C. A. Valente et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Aray synthesizes benign YARA test fixtures from rules without embedding malware, enabling reproducible validation of 182 of 416 public rules deterministically.",
+      "unproven": "validation limited to public YARA rules; applicability to reader's proprietary rules and CI/CD workflows not established; model-assisted path relies on LLM without error bounds",
+      "scored_at": "2026-08-21T04:29:27.212650152Z"
     },
     {
       "id": "arxiv:2608.19161v1",
@@ -313,6 +343,51 @@
       "scored_at": "2026-08-19T04:27:38.533231823Z"
     },
     {
+      "id": "arxiv:2608.19901v1",
+      "source": "arxiv",
+      "title": "MaliciousSkillBench: A Comprehensive Benchmark for Malicious Agent Skill Detection",
+      "url": "http://arxiv.org/abs/2608.19901v1",
+      "published": "2026-08-20T11:13:00Z",
+      "authors": "Yue Wang et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Consolidated dataset of 7,539 unique malicious agent skills and 2,235 benign across 4,588 families; learned detectors achieve 0.882–0.932 macro-F1.",
+      "unproven": "Generalization to skills not in the 13 source repositories; false-positive rates in production scanning; skill obfuscation resistance; maintenance lag as new skills emerge.",
+      "scored_at": "2026-08-21T04:29:12.522169624Z"
+    },
+    {
+      "id": "arxiv:2608.19534v1",
+      "source": "arxiv",
+      "title": "AEGIS: Attention-Embedding Gradient Isolation Shield - Triple-Channel Gradient Masking for Privacy-Preserving Federated LLM Fine-Tuning",
+      "url": "http://arxiv.org/abs/2608.19534v1",
+      "published": "2026-08-20T01:12:56Z",
+      "authors": "Ye Tao et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "AEGIS closes three gradient inversion attack channels in federated LLM fine-tuning via attention freezing and calibrated noise without architectural changes.",
+      "unproven": "Robustness to adaptive attacks aware of defense; model utility degradation on downstream tasks; computational overhead; comparison with differential privacy; real federated training validation.",
+      "scored_at": "2026-08-21T04:29:12.522170325Z"
+    },
+    {
+      "id": "arxiv:2608.19430v1",
+      "source": "arxiv",
+      "title": "HARP: Hierarchical Adaptive Ranking with Preference-Adaptive Fusion for Query-Based CVE Prioritization",
+      "url": "http://arxiv.org/abs/2608.19430v1",
+      "published": "2026-08-19T20:29:00Z",
+      "authors": "Haochen Liu et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "LLM-based CVE ranker learns preference scenarios from historical cases rather than explicit policy; outperforms fixed-criterion baselines.",
+      "unproven": "tested on three scenarios only; generalization to reader's organization's triage patterns and preference drift over time undemonstrated; no production deployment data",
+      "scored_at": "2026-08-21T04:29:27.212649391Z"
+    },
+    {
       "id": "arxiv:2608.19011v1",
       "source": "arxiv",
       "title": "From Threat Intelligence to Detection: Knowledge-driven Enrichment and Template-based Rule Grounding for Automated Sigma Rule Generation",
@@ -326,82 +401,6 @@
       "dek": "AUTOSIGMA automatically generates platform-independent Sigma rules from unstructured threat intelligence using knowledge-base enrichment.",
       "unproven": "accuracy of rule grounding on real APT reports; false-positive rates when deployed in production SIEMs; maintenance burden of the knowledge base.",
       "scored_at": "2026-08-20T04:27:08.915442218Z"
-    },
-    {
-      "id": "arxiv:2608.18976v1",
-      "source": "arxiv",
-      "title": "Catastrophic Learning: A New Attack Vector on Continual Learning Networks",
-      "url": "http://arxiv.org/abs/2608.18976v1",
-      "published": "2026-08-19T14:43:14Z",
-      "authors": "Benedikt Kluss et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Learning blockers attack continual-learning plasticity by poisoning data to reduce learnability in current or future iterations.",
-      "unproven": "whether continual-learning models are in production use in security-critical contexts; defense mechanisms; real-world threat model validation.",
-      "scored_at": "2026-08-20T04:27:08.915442458Z"
-    },
-    {
-      "id": "arxiv:2608.18965v1",
-      "source": "arxiv",
-      "title": "Who Can Make the Action Happen? An Authority-Decomposition Framework for High-Risk Automated Systems",
-      "url": "http://arxiv.org/abs/2608.18965v1",
-      "published": "2026-08-19T14:30:58Z",
-      "authors": "Mengting Wu et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Framework for decomposing which actor coalitions can trigger protected state transitions in distributed high-risk systems.",
-      "unproven": "tested only on protocol models and illustrative cases, not on production authorization architectures the reader maintains",
-      "scored_at": "2026-08-20T04:27:18.575479857Z"
-    },
-    {
-      "id": "arxiv:2608.17729v1",
-      "source": "arxiv",
-      "title": "BullsEye: Directed Firmware Fuzzing",
-      "url": "http://arxiv.org/abs/2608.17729v1",
-      "published": "2026-08-18T12:53:12Z",
-      "authors": "Lorenzo Ralli et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "BullsEye applies basic-block-level directed fuzzing to closed-source Linux firmware to detect known vulnerabilities in third-party components.",
-      "unproven": "whether the methodology scales to firmware in the reader's supply chain, and whether it integrates with existing SAST/SCA workflows",
-      "scored_at": "2026-08-19T04:27:14.999041035Z"
-    },
-    {
-      "id": "arxiv:2608.17538v1",
-      "source": "arxiv",
-      "title": "TENET: Telegram Mini App (in)security",
-      "url": "http://arxiv.org/abs/2608.17538v1",
-      "published": "2026-08-18T08:59:03Z",
-      "authors": "Andrea Ciccotelli et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Telegram Mini Apps store secrets in plaintext; TENET tool audits 61 apps and finds authentication tokens and wallet keys exposed.",
-      "unproven": "Whether findings generalize beyond the 61-app sample; whether the tooling would catch secrets obfuscated or encoded rather than plaintext.",
-      "scored_at": "2026-08-19T04:27:38.533230851Z"
-    },
-    {
-      "id": "hn:49376332",
-      "source": "hn",
-      "title": "How to compromise your system with a job interview",
-      "url": "https://codedge.de/posts/how-to-compromise-your-system-with-a-job-interview",
-      "published": "2026-08-20T15:50:57Z",
-      "authors": "codedge",
-      "points": 92,
-      "novelty": 2,
-      "actionability": 3,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Social engineering via job interview process used to extract credentials and deploy backdoors; techniques applicable to threat modeling.",
-      "unproven": "whether the attack method described is novel or a systematization of known social-engineering patterns",
-      "scored_at": "2026-08-20T20:18:04.509291177Z"
     }
   ],
   "noise": [
