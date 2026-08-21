@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T08:28:27.64784586Z",
+  "generated": "2026-08-21T12:26:31.84077459Z",
   "edition": 28,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 21,
-      "hn": 1,
+      "arxiv": 20,
+      "hn": 2,
       "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
+      "BREAK GLASS": 5,
       "NEW GROUND": 10,
-      "NOISE FLOOR": 4,
-      "STANDING ORDERS": 5
+      "NOISE FLOOR": 6,
+      "STANDING ORDERS": 4
     }
   },
   "items": [
@@ -68,21 +68,6 @@
       "scored_at": "2026-08-20T20:17:52.099149964Z"
     },
     {
-      "id": "arxiv:2608.18876v1",
-      "source": "arxiv",
-      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
-      "url": "http://arxiv.org/abs/2608.18876v1",
-      "published": "2026-08-19T12:56:00Z",
-      "authors": "Md Akram Khan et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Causal framework exposes whether SAST design tradeoffs (speed, precision) actually deliver promised gains or rest on invalid assumptions.",
-      "unproven": "evaluation scope and tool coverage not yet specified in abstract; needs full dataset and tool set details",
-      "scored_at": "2026-08-20T04:27:18.575480198Z"
-    },
-    {
       "id": "arxiv:2608.18876v2",
       "source": "arxiv",
       "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
@@ -96,6 +81,21 @@
       "dek": "CauSec causal framework tests whether SAST tool design assumptions (precision-detection tradeoffs) actually deliver claimed performance gains on real code.",
       "unproven": "framework applied to limited set of tools; generalization to reader's specific SAST portfolio and codebase composition undemonstrated",
       "scored_at": "2026-08-21T04:29:27.212650703Z"
+    },
+    {
+      "id": "arxiv:2608.18876v1",
+      "source": "arxiv",
+      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
+      "url": "http://arxiv.org/abs/2608.18876v1",
+      "published": "2026-08-19T12:56:00Z",
+      "authors": "Md Akram Khan et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Causal framework exposes whether SAST design tradeoffs (speed, precision) actually deliver promised gains or rest on invalid assumptions.",
+      "unproven": "evaluation scope and tool coverage not yet specified in abstract; needs full dataset and tool set details",
+      "scored_at": "2026-08-20T04:27:18.575480198Z"
     },
     {
       "id": "kev:CVE-2026-64849",
@@ -145,21 +145,6 @@
         "CVE-2021-33813"
       ],
       "scored_at": "2026-08-19T04:27:14.99903753Z"
-    },
-    {
-      "id": "arxiv:2608.17659v1",
-      "source": "arxiv",
-      "title": "MobileWorldSafety: Benchmarking GUI Agent Safety Against Environmental Injection Attacks in Android Apps",
-      "url": "http://arxiv.org/abs/2608.17659v1",
-      "published": "2026-08-18T11:33:22Z",
-      "authors": "Sujin Chen et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Benchmark of 142 Android GUI agent attacks via environmental injection shows six agents vulnerable to indirect prompt injection in everyday mobile scenarios.",
-      "unproven": "limited to six agents tested; real-world deployment impact of demonstrated attacks not measured",
-      "scored_at": "2026-08-19T04:27:24.327654593Z"
     },
     {
       "id": "hn:49372853",
@@ -251,51 +236,6 @@
       "dek": "LeakGauge detects context leakage in LLMs via prefill token probabilities with AUROC 0.944–0.996 across 11 models without extracting hidden states.",
       "unproven": "whether detection at prefill time provides actionable defense before a response is committed, and whether the method generalizes to proprietary model APIs",
       "scored_at": "2026-08-19T04:27:14.999039573Z"
-    },
-    {
-      "id": "arxiv:2608.17671v1",
-      "source": "arxiv",
-      "title": "Benchmarking Automated Security Patch Backporting: How Far Are We?",
-      "url": "http://arxiv.org/abs/2608.17671v1",
-      "published": "2026-08-18T11:43:10Z",
-      "authors": "Jincheng Yang et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Benchmark of 1,234 patch backporting cases reveals five automated tools degrade sharply on complex patches, contradicting single-repo success claims.",
-      "unproven": "results limited to evaluated tool set; generalization to newly released tools untested",
-      "scored_at": "2026-08-19T04:27:24.327654402Z"
-    },
-    {
-      "id": "arxiv:2608.17597v1",
-      "source": "arxiv",
-      "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
-      "url": "http://arxiv.org/abs/2608.17597v1",
-      "published": "2026-08-18T10:03:58Z",
-      "authors": "Yajing Bai et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Lifecycle benchmark identifies harness configuration as the most vulnerable phase, with attack success ranging 12.6% to 80.9% across three harnesses.",
-      "unproven": "limited to three harnesses and six models; transferability to other agent frameworks not established",
-      "scored_at": "2026-08-19T04:27:24.327655364Z"
-    },
-    {
-      "id": "arxiv:2608.17556v1",
-      "source": "arxiv",
-      "title": "Reflex-Guard: A Low-Latency Guardrail for LLM Prompt Safety Using Dense Semantic Embeddings",
-      "url": "http://arxiv.org/abs/2608.17556v1",
-      "published": "2026-08-18T09:19:22Z",
-      "authors": "Istiaque Ahmed et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Local guardrail using embeddings and binary classifiers achieves 95.9% harmful prompt recall at 37.6 ms, 7× faster than LLM-based alternatives.",
-      "unproven": "evaluation on curated dataset of 30k samples; robustness to adversarially optimized jailbreaks and zero-day attack patterns untested",
-      "scored_at": "2026-08-19T04:27:24.327655684Z"
     },
     {
       "id": "arxiv:2608.19901v1",
@@ -401,6 +341,67 @@
       "dek": "BullsEye applies basic-block-level directed fuzzing to closed-source Linux firmware to detect known vulnerabilities in third-party components.",
       "unproven": "whether the methodology scales to firmware in the reader's supply chain, and whether it integrates with existing SAST/SCA workflows",
       "scored_at": "2026-08-19T04:27:14.999041035Z"
+    },
+    {
+      "id": "hn:49376332",
+      "source": "hn",
+      "title": "How to compromise your system with a job interview",
+      "url": "https://codedge.de/posts/how-to-compromise-your-system-with-a-job-interview",
+      "published": "2026-08-20T15:50:57Z",
+      "authors": "codedge",
+      "points": 92,
+      "novelty": 2,
+      "actionability": 3,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Social engineering via job interview process used to extract credentials and deploy backdoors; techniques applicable to threat modeling.",
+      "unproven": "whether the attack method described is novel or a systematization of known social-engineering patterns",
+      "scored_at": "2026-08-20T20:18:04.509291177Z"
+    },
+    {
+      "id": "arxiv:2608.20113v1",
+      "source": "arxiv",
+      "title": "Counterexamples to the fractional coloring conjecture for triply efficient shadow tomography",
+      "url": "http://arxiv.org/abs/2608.20113v1",
+      "published": "2026-08-20T14:44:03Z",
+      "authors": "Jędrzej Stempin et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Counterexamples disprove fractional coloring conjecture for Pauli shadow tomography; theoretical quantum information with no security practice impact.",
+      "unproven": "applicability to deployed quantum systems; relevance to cryptographic or application security workflows",
+      "scored_at": "2026-08-21T08:28:08.214182721Z"
+    },
+    {
+      "id": "arxiv:2608.20088v1",
+      "source": "arxiv",
+      "title": "Squeezed- and coherent-state quantum key distribution over a deployed hybrid fibre-free-space channel",
+      "url": "http://arxiv.org/abs/2608.20088v1",
+      "published": "2026-08-20T14:21:14Z",
+      "authors": "Dnan A. E. Hajomer et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Continuous-variable QKD over deployed hybrid fibre-free-space links demonstrates adaptive post-processing; early-stage, no evidence of adoption in financial infrastructure.",
+      "unproven": "real-world deployment beyond testbed; integration with production key management; resistance to side-channel attacks in operational settings",
+      "scored_at": "2026-08-21T08:28:08.214182871Z"
+    },
+    {
+      "id": "arxiv:2608.20055v1",
+      "source": "arxiv",
+      "title": "EchoCoT: Extracting Hidden Chain-of-Thought from Large Reasoning Models",
+      "url": "http://arxiv.org/abs/2608.20055v1",
+      "published": "2026-08-20T13:52:07Z",
+      "authors": "Yiting Qu et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "EchoCoT extracts hidden chain-of-thought traces from frontier reasoning models via API fidelity signals, achieving 66% near-verbatim extraction on open-source models.",
+      "unproven": "Does not establish extraction success rates for frontier models with sufficient detail, or defense mechanisms deployed by providers; lab conditions do not confirm real-world extraction difficulty.",
+      "scored_at": "2026-08-21T04:28:59.754921931Z"
     }
   ],
   "noise": [
