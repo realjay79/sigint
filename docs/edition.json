@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T12:18:52.765467519Z",
+  "generated": "2026-08-22T16:12:06.062587411Z",
   "edition": 29,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,8 +13,8 @@
       "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 3,
-      "NEW GROUND": 8,
+      "BREAK GLASS": 1,
+      "NEW GROUND": 10,
       "NOISE FLOOR": 10,
       "STANDING ORDERS": 4
     }
@@ -52,22 +52,6 @@
       "scored_at": "2026-08-21T04:29:12.522169794Z"
     },
     {
-      "id": "kev:CVE-2026-72529",
-      "source": "kev",
-      "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
-      "published": "2026-08-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 23 August.",
-      "cves": [
-        "CVE-2026-72529"
-      ],
-      "scored_at": "2026-08-20T20:17:52.099149964Z"
-    },
-    {
       "id": "kev:CVE-2026-72530",
       "source": "kev",
       "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
@@ -84,34 +68,20 @@
       "scored_at": "2026-08-20T20:17:52.099146988Z"
     },
     {
-      "id": "arxiv:2608.18876v1",
-      "source": "arxiv",
-      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
-      "url": "http://arxiv.org/abs/2608.18876v1",
-      "published": "2026-08-19T12:56:00Z",
-      "authors": "Md Akram Khan et al.",
-      "novelty": 4,
-      "actionability": 4,
+      "id": "kev:CVE-2026-72529",
+      "source": "kev",
+      "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
+      "published": "2026-08-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
       "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Causal framework exposes whether SAST design tradeoffs (speed, precision) actually deliver promised gains or rest on invalid assumptions.",
-      "unproven": "evaluation scope and tool coverage not yet specified in abstract; needs full dataset and tool set details",
-      "scored_at": "2026-08-20T04:27:18.575480198Z"
-    },
-    {
-      "id": "arxiv:2608.18876v2",
-      "source": "arxiv",
-      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
-      "url": "http://arxiv.org/abs/2608.18876v2",
-      "published": "2026-08-19T12:56:00Z",
-      "authors": "Md Akram Khan et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "CauSec causal framework tests whether SAST tool design assumptions (precision-detection tradeoffs) actually deliver claimed performance gains on real code.",
-      "unproven": "framework applied to limited set of tools; generalization to reader's specific SAST portfolio and codebase composition undemonstrated",
-      "scored_at": "2026-08-21T04:29:27.212650703Z"
+      "quadrant": "STANDING ORDERS",
+      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 23 August.",
+      "cves": [
+        "CVE-2026-72529"
+      ],
+      "scored_at": "2026-08-20T20:17:52.099149964Z"
     },
     {
       "id": "hn:49372853",
@@ -203,51 +173,6 @@
       "dek": "LLM-based CVE ranker learns preference scenarios from historical cases rather than explicit policy; outperforms fixed-criterion baselines.",
       "unproven": "tested on three scenarios only; generalization to reader's organization's triage patterns and preference drift over time undemonstrated; no production deployment data",
       "scored_at": "2026-08-21T04:29:27.212649391Z"
-    },
-    {
-      "id": "arxiv:2608.19011v1",
-      "source": "arxiv",
-      "title": "From Threat Intelligence to Detection: Knowledge-driven Enrichment and Template-based Rule Grounding for Automated Sigma Rule Generation",
-      "url": "http://arxiv.org/abs/2608.19011v1",
-      "published": "2026-08-19T15:11:43Z",
-      "authors": "Sepehr Ghaffarzadegan et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "AUTOSIGMA automatically generates platform-independent Sigma rules from unstructured threat intelligence using knowledge-base enrichment.",
-      "unproven": "accuracy of rule grounding on real APT reports; false-positive rates when deployed in production SIEMs; maintenance burden of the knowledge base.",
-      "scored_at": "2026-08-20T04:27:08.915442218Z"
-    },
-    {
-      "id": "arxiv:2608.18976v1",
-      "source": "arxiv",
-      "title": "Catastrophic Learning: A New Attack Vector on Continual Learning Networks",
-      "url": "http://arxiv.org/abs/2608.18976v1",
-      "published": "2026-08-19T14:43:14Z",
-      "authors": "Benedikt Kluss et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Learning blockers attack continual-learning plasticity by poisoning data to reduce learnability in current or future iterations.",
-      "unproven": "whether continual-learning models are in production use in security-critical contexts; defense mechanisms; real-world threat model validation.",
-      "scored_at": "2026-08-20T04:27:08.915442458Z"
-    },
-    {
-      "id": "arxiv:2608.18965v1",
-      "source": "arxiv",
-      "title": "Who Can Make the Action Happen? An Authority-Decomposition Framework for High-Risk Automated Systems",
-      "url": "http://arxiv.org/abs/2608.18965v1",
-      "published": "2026-08-19T14:30:58Z",
-      "authors": "Mengting Wu et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Framework for decomposing which actor coalitions can trigger protected state transitions in distributed high-risk systems.",
-      "unproven": "tested only on protocol models and illustrative cases, not on production authorization architectures the reader maintains",
-      "scored_at": "2026-08-20T04:27:18.575479857Z"
     },
     {
       "id": "hn:49376332",
@@ -399,6 +324,81 @@
       "dek": "Polynomial gap shown between randomized and constant-round quantum communication complexity for total functions.",
       "unproven": "Practical implications for communication protocols; extension beyond constructed total functions.",
       "scored_at": "2026-08-21T08:28:27.629361646Z"
+    },
+    {
+      "id": "arxiv:2608.19779v1",
+      "source": "arxiv",
+      "title": "An Irreducible Quantum Advantage in Aligning World Models with Reality",
+      "url": "http://arxiv.org/abs/2608.19779v1",
+      "published": "2026-08-20T08:23:48Z",
+      "authors": "Josep Lumbreras et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Quantum world models with single qutrit outperform all finite classical models on constructed reward-estimation tasks.",
+      "unproven": "Applicability to realistic environments; scalability beyond single qutrit; comparison to unbounded classical memory.",
+      "scored_at": "2026-08-21T08:28:27.629362027Z"
+    },
+    {
+      "id": "arxiv:2608.19750v1",
+      "source": "arxiv",
+      "title": "TGL-APT: Temporal Graph Learning with Graph Distillation for Efficient APT Investigation",
+      "url": "http://arxiv.org/abs/2608.19750v1",
+      "published": "2026-08-20T07:54:28Z",
+      "authors": "Jing Chen et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Temporal graph learning framework reduces provenance graph size by distilling attack-relevant nodes for APT investigation.",
+      "unproven": "Recall on low-signal multi-stage attacks; false-negative rates under evasion; integration with real SIEM/graph stores; computational savings vs. full-graph baselines on production graphs.",
+      "scored_at": "2026-08-21T04:29:12.522170054Z"
+    },
+    {
+      "id": "arxiv:2608.19745v1",
+      "source": "arxiv",
+      "title": "Multiplexing of Continuous-Variable and Discrete-Variable Quantum Key Distribution Systems over Fibered and Free-Space Channels",
+      "url": "http://arxiv.org/abs/2608.19745v1",
+      "published": "2026-08-20T07:43:56Z",
+      "authors": "Mattia Sabatini et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "First experimental multiplexing of CV-QKD and DV-QKD on shared optical channel via wavelength-division filtering.",
+      "unproven": "Scaling to more than two protocols; long-term stability and key-rate sustainability; integration into production networks.",
+      "scored_at": "2026-08-21T08:28:27.629365523Z"
+    },
+    {
+      "id": "arxiv:2608.19707v1",
+      "source": "arxiv",
+      "title": "ChatGPT Solves All Tested Qiskit Homework Assignments",
+      "url": "http://arxiv.org/abs/2608.19707v1",
+      "published": "2026-08-20T07:08:08Z",
+      "authors": "Alexei Kaltchenko et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "ChatGPT passes 50 separate attempts at introductory Qiskit homework assignments without modification to grader logic.",
+      "unproven": "whether these mitigations generalize to advanced quantum curricula or persist when assessment design evolves; whether instruction can scale without heavy per-assignment customization",
+      "scored_at": "2026-08-21T12:26:05.597452269Z"
+    },
+    {
+      "id": "arxiv:2608.19668v1",
+      "source": "arxiv",
+      "title": "A charge selection rule fixes what a squeezed-light reservoir computer can compute and afford",
+      "url": "http://arxiv.org/abs/2608.19668v1",
+      "published": "2026-08-20T06:03:09Z",
+      "authors": "Daniel Soh",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Charge conservation law bounds computational cost and expressivity of squeezed-light optical reservoir computers.",
+      "unproven": "experimental validation of the hardware twin; scaling behavior on realistic problems; comparison to classical baselines on standard benchmarks",
+      "scored_at": "2026-08-21T12:26:05.597454882Z"
     }
   ],
   "noise": [
@@ -433,20 +433,19 @@
       "scored_at": "2026-08-21T16:20:38.023977827Z"
     },
     {
-      "id": "hn:49362401",
+      "id": "hn:49363665",
       "source": "hn",
-      "title": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
-      "url": "https://ornith.ai/ornith_1_5.html",
-      "published": "2026-08-19T14:48:39Z",
-      "authors": "CommonGuy",
-      "points": 129,
+      "title": "How Kubernetes Probes Work",
+      "url": "https://ngrok.com/blog/probes",
+      "published": "2026-08-19T16:25:37Z",
+      "authors": "cyndunlop",
+      "points": 76,
       "novelty": 1,
-      "actionability": 1,
-      "score": 2,
+      "actionability": 2,
+      "score": 3,
       "quadrant": "NOISE FLOOR",
-      "dek": "Ornith announces incremental updates to its LLM product line.",
-      "unproven": "Outside reader's remit; product roadmap item, not a security finding or methodology change.",
-      "scored_at": "2026-08-19T20:16:03.753013905Z"
+      "dek": "Explainer on how Kubernetes readiness, liveness, and startup probes detect container health.",
+      "scored_at": "2026-08-19T20:16:02.502150625Z"
     }
   ]
 }
