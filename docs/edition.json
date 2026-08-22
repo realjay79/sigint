@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T08:17:26.328919348Z",
+  "generated": "2026-08-22T12:18:52.765467519Z",
   "edition": 29,
   "name": "SIGINT",
   "mark": "^C",
@@ -84,21 +84,6 @@
       "scored_at": "2026-08-20T20:17:52.099146988Z"
     },
     {
-      "id": "arxiv:2608.18876v2",
-      "source": "arxiv",
-      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
-      "url": "http://arxiv.org/abs/2608.18876v2",
-      "published": "2026-08-19T12:56:00Z",
-      "authors": "Md Akram Khan et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "CauSec causal framework tests whether SAST tool design assumptions (precision-detection tradeoffs) actually deliver claimed performance gains on real code.",
-      "unproven": "framework applied to limited set of tools; generalization to reader's specific SAST portfolio and codebase composition undemonstrated",
-      "scored_at": "2026-08-21T04:29:27.212650703Z"
-    },
-    {
       "id": "arxiv:2608.18876v1",
       "source": "arxiv",
       "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
@@ -112,6 +97,21 @@
       "dek": "Causal framework exposes whether SAST design tradeoffs (speed, precision) actually deliver promised gains or rest on invalid assumptions.",
       "unproven": "evaluation scope and tool coverage not yet specified in abstract; needs full dataset and tool set details",
       "scored_at": "2026-08-20T04:27:18.575480198Z"
+    },
+    {
+      "id": "arxiv:2608.18876v2",
+      "source": "arxiv",
+      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
+      "url": "http://arxiv.org/abs/2608.18876v2",
+      "published": "2026-08-19T12:56:00Z",
+      "authors": "Md Akram Khan et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "CauSec causal framework tests whether SAST tool design assumptions (precision-detection tradeoffs) actually deliver claimed performance gains on real code.",
+      "unproven": "framework applied to limited set of tools; generalization to reader's specific SAST portfolio and codebase composition undemonstrated",
+      "scored_at": "2026-08-21T04:29:27.212650703Z"
     },
     {
       "id": "hn:49372853",
@@ -158,21 +158,6 @@
       "dek": "Framework detects covert coordination in multi-agent LLM systems via latent-state monitoring and achieves 0.993 AUROC on homogeneous pairs.",
       "unproven": "whether real deployed multi-agent systems exhibit such coordination; scalability beyond the auction benchmark; robustness to agent obfuscation.",
       "scored_at": "2026-08-20T04:27:08.915430761Z"
-    },
-    {
-      "id": "arxiv:2608.18714v1",
-      "source": "arxiv",
-      "title": "A single design choice determines whether machine learning models of materials make physically impossible predictions",
-      "url": "http://arxiv.org/abs/2608.18714v1",
-      "published": "2026-08-19T09:14:55Z",
-      "authors": "Can Polat et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Parity labeling in neural material models determines whether physically impossible piezoelectric predictions occur; six orders of magnitude effect.",
-      "unproven": "generalization beyond centrosymmetric crystals and piezoelectric constraints to other materials and properties used in cryptographic hardware",
-      "scored_at": "2026-08-20T08:25:57.702502038Z"
     },
     {
       "id": "arxiv:2608.19901v1",
@@ -399,6 +384,21 @@
       "dek": "POSIX filesystem for TEEs detects rollback and tampering via cryptographic commitments and hash chains without modifying applications.",
       "unproven": "Performance overhead on real workloads; integration with TEE attestation and recovery workflows; scalability of trusted registry; comparison with application-level alternatives.",
       "scored_at": "2026-08-21T04:29:12.522169493Z"
+    },
+    {
+      "id": "arxiv:2608.19787v1",
+      "source": "arxiv",
+      "title": "Constant-round quantum advantage in communication complexity for total functions",
+      "url": "http://arxiv.org/abs/2608.19787v1",
+      "published": "2026-08-20T08:32:27Z",
+      "authors": "Atsuya Hasegawa et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Polynomial gap shown between randomized and constant-round quantum communication complexity for total functions.",
+      "unproven": "Practical implications for communication protocols; extension beyond constructed total functions.",
+      "scored_at": "2026-08-21T08:28:27.629361646Z"
     }
   ],
   "noise": [
