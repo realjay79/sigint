@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-21T20:14:59.668603937Z",
-  "edition": 28,
+  "generated": "2026-08-22T00:39:14.889241677Z",
+  "edition": 29,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 19,
+      "arxiv": 20,
       "hn": 2,
-      "kev": 4
+      "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 4,
-      "NEW GROUND": 8,
-      "NOISE FLOOR": 8,
-      "STANDING ORDERS": 5
+      "BREAK GLASS": 3,
+      "NEW GROUND": 9,
+      "NOISE FLOOR": 9,
+      "STANDING ORDERS": 4
     }
   },
   "items": [
@@ -52,22 +52,6 @@
       "scored_at": "2026-08-21T04:29:12.522169794Z"
     },
     {
-      "id": "kev:CVE-2026-72529",
-      "source": "kev",
-      "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
-      "published": "2026-08-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 23 August.",
-      "cves": [
-        "CVE-2026-72529"
-      ],
-      "scored_at": "2026-08-20T20:17:52.099149964Z"
-    },
-    {
       "id": "kev:CVE-2026-72530",
       "source": "kev",
       "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
@@ -82,6 +66,22 @@
         "CVE-2026-72530"
       ],
       "scored_at": "2026-08-20T20:17:52.099146988Z"
+    },
+    {
+      "id": "kev:CVE-2026-72529",
+      "source": "kev",
+      "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
+      "published": "2026-08-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 23 August.",
+      "cves": [
+        "CVE-2026-72529"
+      ],
+      "scored_at": "2026-08-20T20:17:52.099149964Z"
     },
     {
       "id": "arxiv:2608.18876v1",
@@ -112,37 +112,6 @@
       "dek": "CauSec causal framework tests whether SAST tool design assumptions (precision-detection tradeoffs) actually deliver claimed performance gains on real code.",
       "unproven": "framework applied to limited set of tools; generalization to reader's specific SAST portfolio and codebase composition undemonstrated",
       "scored_at": "2026-08-21T04:29:27.212650703Z"
-    },
-    {
-      "id": "kev:CVE-2026-64849",
-      "source": "kev",
-      "title": "CVE-2026-64849 — MLflow Server-Side Request Forgery Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
-      "published": "2026-08-19T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "MLflow MLflow. Confirmed exploited in the wild. Federal remediation due 2 September.",
-      "cves": [
-        "CVE-2026-64849"
-      ],
-      "scored_at": "2026-08-19T20:15:54.378122026Z"
-    },
-    {
-      "id": "arxiv:2608.18351v1",
-      "source": "arxiv",
-      "title": "Task-Conditioned Least-Privilege Learning for Executable Terminal and MCP Agents",
-      "url": "http://arxiv.org/abs/2608.18351v1",
-      "published": "2026-08-18T22:07:23Z",
-      "authors": "Alexander Tu et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Post-training framework teaches 4B LLM agents task-conditioned least-privilege, reducing excess-authority errors from 35.6% to 1.5%.",
-      "unproven": "Evaluated on simulated terminal and MCP environments; no data on real SDLC agent deployments or agent-to-human behavior drift.",
-      "scored_at": "2026-08-20T04:27:31.199678053Z"
     },
     {
       "id": "hn:49372853",
@@ -400,6 +369,36 @@
       "dek": "Human detection of synthetic speech from 2024 synthesizers (ElevenLabs) drops to 48% F1; partial spoofs achieve 9% accuracy and 77% false negatives.",
       "unproven": "Does not establish whether listener training or segmental detection improves these metrics; sample of 82 IT professionals does not represent general population or audio forensic practitioners.",
       "scored_at": "2026-08-21T04:28:59.754922462Z"
+    },
+    {
+      "id": "arxiv:2608.19938v1",
+      "source": "arxiv",
+      "title": "From Noise to Signal: Improving Security Log Anomaly Detection Using LLMs with Endpoint-Specific Logs",
+      "url": "http://arxiv.org/abs/2608.19938v1",
+      "published": "2026-08-20T11:54:56Z",
+      "authors": "Christopher Henshaw et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "LLM-based log anomaly detector outperforms rule-based and statistical methods on endpoint authentication data in controlled testbed.",
+      "unproven": "Performance on production logs with class imbalance, drift, and adversarial obfuscation; generalization beyond authentication behaviors; computational cost vs. Wazuh/OpenSearch at scale.",
+      "scored_at": "2026-08-21T04:29:12.522168992Z"
+    },
+    {
+      "id": "arxiv:2608.19937v1",
+      "source": "arxiv",
+      "title": "ShadowPath: Lookup-Private Credential Status Verification over Authenticated State",
+      "url": "http://arxiv.org/abs/2608.19937v1",
+      "published": "2026-08-20T11:54:47Z",
+      "authors": "Patrick Herbke et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Zero-knowledge credential revocation hiding lookup metadata; first Verkle tree evaluation for this use case shows 2.11s proving time, slower than sparse Merkle.",
+      "unproven": "Production deployment feasibility; integration with deployed verifiable credential systems; real-world latency tolerance; adoption path from issuers and verifiers.",
+      "scored_at": "2026-08-21T04:29:12.522169323Z"
     }
   ],
   "noise": [
