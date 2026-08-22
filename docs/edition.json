@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T04:22:20.194353485Z",
+  "generated": "2026-08-22T08:17:26.328919348Z",
   "edition": 29,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,8 +14,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 3,
-      "NEW GROUND": 9,
-      "NOISE FLOOR": 9,
+      "NEW GROUND": 8,
+      "NOISE FLOOR": 10,
       "STANDING ORDERS": 4
     }
   },
@@ -84,21 +84,6 @@
       "scored_at": "2026-08-20T20:17:52.099146988Z"
     },
     {
-      "id": "arxiv:2608.18876v1",
-      "source": "arxiv",
-      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
-      "url": "http://arxiv.org/abs/2608.18876v1",
-      "published": "2026-08-19T12:56:00Z",
-      "authors": "Md Akram Khan et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Causal framework exposes whether SAST design tradeoffs (speed, precision) actually deliver promised gains or rest on invalid assumptions.",
-      "unproven": "evaluation scope and tool coverage not yet specified in abstract; needs full dataset and tool set details",
-      "scored_at": "2026-08-20T04:27:18.575480198Z"
-    },
-    {
       "id": "arxiv:2608.18876v2",
       "source": "arxiv",
       "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
@@ -112,6 +97,21 @@
       "dek": "CauSec causal framework tests whether SAST tool design assumptions (precision-detection tradeoffs) actually deliver claimed performance gains on real code.",
       "unproven": "framework applied to limited set of tools; generalization to reader's specific SAST portfolio and codebase composition undemonstrated",
       "scored_at": "2026-08-21T04:29:27.212650703Z"
+    },
+    {
+      "id": "arxiv:2608.18876v1",
+      "source": "arxiv",
+      "title": "CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance",
+      "url": "http://arxiv.org/abs/2608.18876v1",
+      "published": "2026-08-19T12:56:00Z",
+      "authors": "Md Akram Khan et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Causal framework exposes whether SAST design tradeoffs (speed, precision) actually deliver promised gains or rest on invalid assumptions.",
+      "unproven": "evaluation scope and tool coverage not yet specified in abstract; needs full dataset and tool set details",
+      "scored_at": "2026-08-20T04:27:18.575480198Z"
     },
     {
       "id": "hn:49372853",
@@ -173,21 +173,6 @@
       "dek": "Parity labeling in neural material models determines whether physically impossible piezoelectric predictions occur; six orders of magnitude effect.",
       "unproven": "generalization beyond centrosymmetric crystals and piezoelectric constraints to other materials and properties used in cryptographic hardware",
       "scored_at": "2026-08-20T08:25:57.702502038Z"
-    },
-    {
-      "id": "arxiv:2608.18613v1",
-      "source": "arxiv",
-      "title": "CTIFoundry: An Agent-Native Corpus Scaffold for Cyber Threat Intelligence",
-      "url": "http://arxiv.org/abs/2608.18613v1",
-      "published": "2026-08-19T07:00:29Z",
-      "authors": "Yutong Cheng et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Agent-native corpus scaffold for CTI materializes CVE/CWE/CAPEC/ATT\u0026CK ontology and report structure for agentic investigation.",
-      "unproven": "evaluation on CTIConnect benchmark only; readiness for production threat intelligence workflows and integration with reader's tools unclear",
-      "scored_at": "2026-08-20T04:27:18.57548146Z"
     },
     {
       "id": "arxiv:2608.19901v1",
@@ -399,6 +384,21 @@
       "dek": "Zero-knowledge credential revocation hiding lookup metadata; first Verkle tree evaluation for this use case shows 2.11s proving time, slower than sparse Merkle.",
       "unproven": "Production deployment feasibility; integration with deployed verifiable credential systems; real-world latency tolerance; adoption path from issuers and verifiers.",
       "scored_at": "2026-08-21T04:29:12.522169323Z"
+    },
+    {
+      "id": "arxiv:2608.19924v1",
+      "source": "arxiv",
+      "title": "Securing Filesystems for Confidential Computing",
+      "url": "http://arxiv.org/abs/2608.19924v1",
+      "published": "2026-08-20T11:41:15Z",
+      "authors": "Dimitra Giantsidi et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "POSIX filesystem for TEEs detects rollback and tampering via cryptographic commitments and hash chains without modifying applications.",
+      "unproven": "Performance overhead on real workloads; integration with TEE attestation and recovery workflows; scalability of trusted registry; comparison with application-level alternatives.",
+      "scored_at": "2026-08-21T04:29:12.522169493Z"
     }
   ],
   "noise": [
