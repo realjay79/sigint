@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T16:12:06.062587411Z",
+  "generated": "2026-08-22T20:12:17.845875305Z",
   "edition": 29,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,14 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 20,
-      "hn": 2,
+      "arxiv": 19,
+      "hn": 3,
       "kev": 3
     },
     "by_quadrant": {
       "BREAK GLASS": 1,
-      "NEW GROUND": 10,
-      "NOISE FLOOR": 10,
+      "NEW GROUND": 9,
+      "NOISE FLOOR": 11,
       "STANDING ORDERS": 4
     }
   },
@@ -52,22 +52,6 @@
       "scored_at": "2026-08-21T04:29:12.522169794Z"
     },
     {
-      "id": "kev:CVE-2026-72530",
-      "source": "kev",
-      "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
-      "published": "2026-08-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 3 September.",
-      "cves": [
-        "CVE-2026-72530"
-      ],
-      "scored_at": "2026-08-20T20:17:52.099146988Z"
-    },
-    {
       "id": "kev:CVE-2026-72529",
       "source": "kev",
       "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
@@ -84,6 +68,22 @@
       "scored_at": "2026-08-20T20:17:52.099149964Z"
     },
     {
+      "id": "kev:CVE-2026-72530",
+      "source": "kev",
+      "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
+      "published": "2026-08-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 3 September.",
+      "cves": [
+        "CVE-2026-72530"
+      ],
+      "scored_at": "2026-08-20T20:17:52.099146988Z"
+    },
+    {
       "id": "hn:49372853",
       "source": "hn",
       "title": "Supply Chain Attack on Arrayref",
@@ -98,36 +98,6 @@
       "dek": "Supply chain attack on Rust arrayref crate demonstrates real dependency risk; review SCA tool coverage of transitive Rust deps.",
       "unproven": "scope of affected versions and downstream impact not fully quantified from submission",
       "scored_at": "2026-08-20T16:22:30.926337736Z"
-    },
-    {
-      "id": "arxiv:2608.19387v1",
-      "source": "arxiv",
-      "title": "Aray: Deterministic-First Synthesis of Benign Artifacts for YARA Validation",
-      "url": "http://arxiv.org/abs/2608.19387v1",
-      "published": "2026-08-19T19:05:25Z",
-      "authors": "Emanuel C. A. Valente et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Aray synthesizes benign YARA test fixtures from rules without embedding malware, enabling reproducible validation of 182 of 416 public rules deterministically.",
-      "unproven": "validation limited to public YARA rules; applicability to reader's proprietary rules and CI/CD workflows not established; model-assisted path relies on LLM without error bounds",
-      "scored_at": "2026-08-21T04:29:27.212650152Z"
-    },
-    {
-      "id": "arxiv:2608.19161v1",
-      "source": "arxiv",
-      "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
-      "url": "http://arxiv.org/abs/2608.19161v1",
-      "published": "2026-08-19T17:43:22Z",
-      "authors": "Ramneet Kaur et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Framework detects covert coordination in multi-agent LLM systems via latent-state monitoring and achieves 0.993 AUROC on homogeneous pairs.",
-      "unproven": "whether real deployed multi-agent systems exhibit such coordination; scalability beyond the auction benchmark; robustness to agent obfuscation.",
-      "scored_at": "2026-08-20T04:27:08.915430761Z"
     },
     {
       "id": "arxiv:2608.19901v1",
@@ -399,6 +369,37 @@
       "dek": "Charge conservation law bounds computational cost and expressivity of squeezed-light optical reservoir computers.",
       "unproven": "experimental validation of the hardware twin; scaling behavior on realistic problems; comparison to classical baselines on standard benchmarks",
       "scored_at": "2026-08-21T12:26:05.597454882Z"
+    },
+    {
+      "id": "arxiv:2608.19602v1",
+      "source": "arxiv",
+      "title": "High fidelity control of superconducting qubits with optical transmitted signal",
+      "url": "http://arxiv.org/abs/2608.19602v1",
+      "published": "2026-08-20T03:40:06Z",
+      "authors": "Yu-Huai Li et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Optical transmission line achieves 99.915% single-qubit and 99.676% two-qubit gate fidelities on superconducting qubits.",
+      "unproven": "scaling to many qubits; long-term reliability; cost and footprint reduction compared to coaxial alternatives in production systems",
+      "scored_at": "2026-08-21T12:26:05.597455103Z"
+    },
+    {
+      "id": "hn:49390463",
+      "source": "hn",
+      "title": "Building an (almost) fully self-hosted, sandboxed, agentic software factory",
+      "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
+      "published": "2026-08-21T16:27:52Z",
+      "authors": "jakelsaunders94",
+      "points": 44,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Self-hosted sandboxed agent architecture for software development workflow automation.",
+      "unproven": "sandboxing effectiveness and threat model not demonstrated; no data on what \"almost\" self-hosted means or what escapes remain",
+      "scored_at": "2026-08-21T20:14:59.649587593Z"
     }
   ],
   "noise": [
@@ -433,19 +434,19 @@
       "scored_at": "2026-08-21T16:20:38.023977827Z"
     },
     {
-      "id": "hn:49363665",
+      "id": "hn:49387525",
       "source": "hn",
-      "title": "How Kubernetes Probes Work",
-      "url": "https://ngrok.com/blog/probes",
-      "published": "2026-08-19T16:25:37Z",
-      "authors": "cyndunlop",
-      "points": 76,
+      "title": "We are living in a version of the future out of J.G. Ballard or William Gibson",
+      "url": "https://precastreinforced.co.uk/2026/08/16/new-worlds",
+      "published": "2026-08-21T13:07:26Z",
+      "authors": "speckx",
+      "points": 75,
       "novelty": 1,
-      "actionability": 2,
-      "score": 3,
+      "actionability": 1,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Explainer on how Kubernetes readiness, liveness, and startup probes detect container health.",
-      "scored_at": "2026-08-19T20:16:02.502150625Z"
+      "dek": "Opinion essay on contemporary culture; no security content.",
+      "scored_at": "2026-08-21T16:20:38.023974451Z"
     }
   ]
 }
