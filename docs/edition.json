@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T00:39:14.889241677Z",
+  "generated": "2026-08-22T04:22:20.194353485Z",
   "edition": 29,
   "name": "SIGINT",
   "mark": "^C",
@@ -52,22 +52,6 @@
       "scored_at": "2026-08-21T04:29:12.522169794Z"
     },
     {
-      "id": "kev:CVE-2026-72530",
-      "source": "kev",
-      "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
-      "published": "2026-08-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 3 September.",
-      "cves": [
-        "CVE-2026-72530"
-      ],
-      "scored_at": "2026-08-20T20:17:52.099146988Z"
-    },
-    {
       "id": "kev:CVE-2026-72529",
       "source": "kev",
       "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
@@ -82,6 +66,22 @@
         "CVE-2026-72529"
       ],
       "scored_at": "2026-08-20T20:17:52.099149964Z"
+    },
+    {
+      "id": "kev:CVE-2026-72530",
+      "source": "kev",
+      "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
+      "published": "2026-08-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 3 September.",
+      "cves": [
+        "CVE-2026-72530"
+      ],
+      "scored_at": "2026-08-20T20:17:52.099146988Z"
     },
     {
       "id": "arxiv:2608.18876v1",
