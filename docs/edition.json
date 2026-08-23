@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T00:42:24.807056009Z",
+  "generated": "2026-08-23T04:27:32.38988059Z",
   "edition": 30,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,8 +14,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 1,
-      "NEW GROUND": 9,
-      "NOISE FLOOR": 13,
+      "NEW GROUND": 7,
+      "NOISE FLOOR": 15,
       "STANDING ORDERS": 2
     }
   },
@@ -81,21 +81,6 @@
       "dek": "Consolidated dataset of 7,539 unique malicious agent skills and 2,235 benign across 4,588 families; learned detectors achieve 0.882–0.932 macro-F1.",
       "unproven": "Generalization to skills not in the 13 source repositories; false-positive rates in production scanning; skill obfuscation resistance; maintenance lag as new skills emerge.",
       "scored_at": "2026-08-21T04:29:12.522169624Z"
-    },
-    {
-      "id": "arxiv:2608.19534v1",
-      "source": "arxiv",
-      "title": "AEGIS: Attention-Embedding Gradient Isolation Shield - Triple-Channel Gradient Masking for Privacy-Preserving Federated LLM Fine-Tuning",
-      "url": "http://arxiv.org/abs/2608.19534v1",
-      "published": "2026-08-20T01:12:56Z",
-      "authors": "Ye Tao et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "AEGIS closes three gradient inversion attack channels in federated LLM fine-tuning via attention freezing and calibrated noise without architectural changes.",
-      "unproven": "Robustness to adaptive attacks aware of defense; model utility degradation on downstream tasks; computational overhead; comparison with differential privacy; real federated training validation.",
-      "scored_at": "2026-08-21T04:29:12.522170325Z"
     },
     {
       "id": "hn:49376332",
@@ -324,21 +309,6 @@
       "scored_at": "2026-08-21T12:26:05.597454882Z"
     },
     {
-      "id": "arxiv:2608.19602v1",
-      "source": "arxiv",
-      "title": "High fidelity control of superconducting qubits with optical transmitted signal",
-      "url": "http://arxiv.org/abs/2608.19602v1",
-      "published": "2026-08-20T03:40:06Z",
-      "authors": "Yu-Huai Li et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Optical transmission line achieves 99.915% single-qubit and 99.676% two-qubit gate fidelities on superconducting qubits.",
-      "unproven": "scaling to many qubits; long-term reliability; cost and footprint reduction compared to coaxial alternatives in production systems",
-      "scored_at": "2026-08-21T12:26:05.597455103Z"
-    },
-    {
       "id": "hn:49390463",
       "source": "hn",
       "title": "Building an (almost) fully self-hosted, sandboxed, agentic software factory",
@@ -398,6 +368,36 @@
       "dek": "Learning shallow all-to-all quantum circuits; theoretical result on learnability transition with no implications for post-quantum crypto migration or agent security in SDLC.",
       "unproven": "tested only on random circuit ensembles; unclear relevance to actual quantum cryptographic schemes in deployment",
       "scored_at": "2026-08-21T08:28:00.652821777Z"
+    },
+    {
+      "id": "arxiv:2608.20160v1",
+      "source": "arxiv",
+      "title": "Chameleon: Robust Defense Against Tor Website Fingerprinting via Many-to-Many Traffic Morphing",
+      "url": "http://arxiv.org/abs/2608.20160v1",
+      "published": "2026-08-20T15:16:37Z",
+      "authors": "Yuwen Cui et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Traffic morphing defense against Tor website fingerprinting uses many-to-many mapping and pluggable transport synchronization to increase adversarial uncertainty.",
+      "unproven": "Does not establish defense against adversaries with fine-grained timing or traffic observation outside the PT layer, or real-world latency and throughput cost at scale.",
+      "scored_at": "2026-08-21T04:28:59.754919677Z"
+    },
+    {
+      "id": "arxiv:2608.20139v1",
+      "source": "arxiv",
+      "title": "Reinforcement LearningtoHarness Approximation Errors for Long-Time QuantumSimulation",
+      "url": "http://arxiv.org/abs/2608.20139v1",
+      "published": "2026-08-20T15:02:17Z",
+      "authors": "Yu-Bo Shi et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Reinforcement learning optimizes Trotter step sizes to correct quantum simulation errors; early-stage research without deployment evidence.",
+      "unproven": "scalability to production quantum systems; applicability beyond small test cases",
+      "scored_at": "2026-08-21T08:28:08.21418194Z"
     }
   ],
   "noise": [
