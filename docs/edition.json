@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-22T20:12:17.845875305Z",
-  "edition": 29,
+  "generated": "2026-08-23T00:42:24.807056009Z",
+  "edition": 30,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 19,
+      "arxiv": 21,
       "hn": 3,
-      "kev": 3
+      "kev": 1
     },
     "by_quadrant": {
       "BREAK GLASS": 1,
       "NEW GROUND": 9,
-      "NOISE FLOOR": 11,
-      "STANDING ORDERS": 4
+      "NOISE FLOOR": 13,
+      "STANDING ORDERS": 2
     }
   },
   "items": [
@@ -50,38 +50,6 @@
       "dek": "LLM context windows leak in-context secrets into benign outputs at 82–100% accuracy via adaptive black-box attacks; stronger models leak more.",
       "unproven": "Applicability to models with context filtering, reasoning chains, or production guardrails; remediation effectiveness; real-world exfiltration risk when agents hold live credentials.",
       "scored_at": "2026-08-21T04:29:12.522169794Z"
-    },
-    {
-      "id": "kev:CVE-2026-72529",
-      "source": "kev",
-      "title": "CVE-2026-72529 — TrueConf Server Missing Authentication for Critical Function Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
-      "published": "2026-08-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 23 August.",
-      "cves": [
-        "CVE-2026-72529"
-      ],
-      "scored_at": "2026-08-20T20:17:52.099149964Z"
-    },
-    {
-      "id": "kev:CVE-2026-72530",
-      "source": "kev",
-      "title": "CVE-2026-72530 — TrueConf Server Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
-      "published": "2026-08-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "TrueConf Server. Confirmed exploited in the wild. Federal remediation due 3 September.",
-      "cves": [
-        "CVE-2026-72530"
-      ],
-      "scored_at": "2026-08-20T20:17:52.099146988Z"
     },
     {
       "id": "hn:49372853",
@@ -128,21 +96,6 @@
       "dek": "AEGIS closes three gradient inversion attack channels in federated LLM fine-tuning via attention freezing and calibrated noise without architectural changes.",
       "unproven": "Robustness to adaptive attacks aware of defense; model utility degradation on downstream tasks; computational overhead; comparison with differential privacy; real federated training validation.",
       "scored_at": "2026-08-21T04:29:12.522170325Z"
-    },
-    {
-      "id": "arxiv:2608.19430v1",
-      "source": "arxiv",
-      "title": "HARP: Hierarchical Adaptive Ranking with Preference-Adaptive Fusion for Query-Based CVE Prioritization",
-      "url": "http://arxiv.org/abs/2608.19430v1",
-      "published": "2026-08-19T20:29:00Z",
-      "authors": "Haochen Liu et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLM-based CVE ranker learns preference scenarios from historical cases rather than explicit policy; outperforms fixed-criterion baselines.",
-      "unproven": "tested on three scenarios only; generalization to reader's organization's triage patterns and preference drift over time undemonstrated; no production deployment data",
-      "scored_at": "2026-08-21T04:29:27.212649391Z"
     },
     {
       "id": "hn:49376332",
@@ -400,6 +353,51 @@
       "dek": "Self-hosted sandboxed agent architecture for software development workflow automation.",
       "unproven": "sandboxing effectiveness and threat model not demonstrated; no data on what \"almost\" self-hosted means or what escapes remain",
       "scored_at": "2026-08-21T20:14:59.649587593Z"
+    },
+    {
+      "id": "arxiv:2608.20340v1",
+      "source": "arxiv",
+      "title": "Group-theoretic treatment of strong light-matter coupling with an arbitrary number of excitations",
+      "url": "http://arxiv.org/abs/2608.20340v1",
+      "published": "2026-08-20T17:59:59Z",
+      "authors": "Antti Peltola et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Tavis-Cummings model extended to arbitrary excitations using group theory; new many-excitation polariton behavior derived.",
+      "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
+      "scored_at": "2026-08-21T04:29:27.212651515Z"
+    },
+    {
+      "id": "arxiv:2608.20332v1",
+      "source": "arxiv",
+      "title": "A Protocol for Shielding-Enhanced Loading of Single Polar Molecules into Optical Tweezers",
+      "url": "http://arxiv.org/abs/2608.20332v1",
+      "published": "2026-08-20T17:59:49Z",
+      "authors": "Reuben R. W. Wang et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Shielding scheme isolates single polar molecules in optical tweezers with 99% fidelity using electric and microwave fields.",
+      "unproven": "quantum physics research; no security relevance; entirely outside reader's remit",
+      "scored_at": "2026-08-21T04:29:27.212651665Z"
+    },
+    {
+      "id": "arxiv:2608.20162v1",
+      "source": "arxiv",
+      "title": "Proper Learning of Shallow All-to-All Quantum Circuits",
+      "url": "http://arxiv.org/abs/2608.20162v1",
+      "published": "2026-08-20T15:19:51Z",
+      "authors": "Steven Kordonowy et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Learning shallow all-to-all quantum circuits; theoretical result on learnability transition with no implications for post-quantum crypto migration or agent security in SDLC.",
+      "unproven": "tested only on random circuit ensembles; unclear relevance to actual quantum cryptographic schemes in deployment",
+      "scored_at": "2026-08-21T08:28:00.652821777Z"
     }
   ],
   "noise": [
