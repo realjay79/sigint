@@ -1,38 +1,20 @@
 {
-  "generated": "2026-08-23T20:11:54.399389685Z",
-  "edition": 30,
+  "generated": "2026-08-24T00:40:56.470605117Z",
+  "edition": 31,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 7,
+    "total": 5,
     "by_source": {
-      "hn": 6,
-      "kev": 1
+      "hn": 5
     },
     "by_quadrant": {
-      "NOISE FLOOR": 6,
-      "STANDING ORDERS": 1
+      "NOISE FLOOR": 5
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-73570",
-      "source": "kev",
-      "title": "CVE-2026-73570 — Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570",
-      "published": "2026-08-21T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Synacor Zimbra Collaboration Suite (ZCS). Confirmed exploited in the wild. Federal remediation due 24 August.",
-      "cves": [
-        "CVE-2026-73570"
-      ],
-      "scored_at": "2026-08-21T20:14:57.424322662Z"
-    },
     {
       "id": "hn:49390463",
       "source": "hn",
@@ -109,21 +91,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Advocacy for book preservation; unrelated to application security or SDLC.",
       "scored_at": "2026-08-21T16:20:38.023977827Z"
-    },
-    {
-      "id": "hn:49380303",
-      "source": "hn",
-      "title": "Early-life stress leaves a 'scar' inside brain cells",
-      "url": "https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells",
-      "published": "2026-08-20T21:08:36Z",
-      "authors": "gmays",
-      "points": 45,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Neuroscience research on early-life stress; outside application security entirely.",
-      "scored_at": "2026-08-21T16:20:38.023977977Z"
     }
   ],
   "noise": null
