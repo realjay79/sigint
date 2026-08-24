@@ -1,34 +1,4 @@
 {
-  "arxiv:2607.23007v1": {
-    "id": "arxiv:2607.23007v1",
-    "source": "arxiv",
-    "title": "Practical Post-Quantum Cryptography for Bandwidth Constrained or Non-Terrestrial Networks, and Power Constrained Devices",
-    "url": "http://arxiv.org/abs/2607.23007v1",
-    "published": "2026-07-25T02:51:15Z",
-    "authors": "Elliot Eichen et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Shared secret keys replace post-quantum certificates to reduce bandwidth, memory, and energy costs for constrained networks and low-power devices.",
-    "unproven": "key distribution and rotation mechanisms for adversarial environments; security proof against known attacks on pre-shared key schemes; scalability to device populations above thousands",
-    "scored_at": "2026-07-28T01:42:20.171026004Z"
-  },
-  "arxiv:2607.23015v1": {
-    "id": "arxiv:2607.23015v1",
-    "source": "arxiv",
-    "title": "Mask2Shield: Strengthening LLM Safety against Neuron-Pruning Attacks",
-    "url": "http://arxiv.org/abs/2607.23015v1",
-    "published": "2026-07-25T03:16:07Z",
-    "authors": "Ying JinCheng et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Mask2Shield reduces successful neuron-pruning attacks on LLM safety from 80–279 to 1–44 out of 313 prompts by training under masked-forward alignment.",
-    "unproven": "whether defense generalizes to pruning methods not evaluated; capability preservation on safety-critical benchmark tasks; adaptive attacker with knowledge of defense",
-    "scored_at": "2026-07-28T01:42:20.171025884Z"
-  },
   "arxiv:2607.23059v1": {
     "id": "arxiv:2607.23059v1",
     "source": "arxiv",

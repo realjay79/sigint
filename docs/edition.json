@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-24T00:40:56.470605117Z",
+  "generated": "2026-08-24T04:35:24.942975571Z",
   "edition": 31,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 5,
+    "total": 4,
     "by_source": {
-      "hn": 5
+      "hn": 4
     },
     "by_quadrant": {
-      "NOISE FLOOR": 5
+      "NOISE FLOOR": 4
     }
   },
   "items": [
@@ -76,21 +76,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Advocacy for book preservation; unrelated to application security or SDLC.",
       "scored_at": "2026-08-21T16:20:38.023974741Z"
-    },
-    {
-      "id": "hn:49383026",
-      "source": "hn",
-      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
-      "url": "https://annas-archive.gl/blog/physical-destruction.html",
-      "published": "2026-08-21T02:37:47Z",
-      "authors": "Cider9986",
-      "points": 381,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Advocacy for book preservation; unrelated to application security or SDLC.",
-      "scored_at": "2026-08-21T16:20:38.023977827Z"
     }
   ],
   "noise": null
