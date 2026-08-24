@@ -1,19 +1,4 @@
 {
-  "arxiv:2607.23147v1": {
-    "id": "arxiv:2607.23147v1",
-    "source": "arxiv",
-    "title": "False Prophets: On the Security of World Models in Agentic Systems",
-    "url": "http://arxiv.org/abs/2607.23147v1",
-    "published": "2026-07-25T10:55:14Z",
-    "authors": "Erik Imgrund et al.",
-    "novelty": 3,
-    "actionability": 4,
-    "score": 7,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Agents using world models can be manipulated to execute malicious code with 95% success rate via misprediction attacks on environment simulators.",
-    "unproven": "whether defenses proposed hold against adaptive attackers; effectiveness in production agent deployment; cost of proposed mitigations",
-    "scored_at": "2026-07-28T01:42:20.171025373Z"
-  },
   "arxiv:2607.23207v1": {
     "id": "arxiv:2607.23207v1",
     "source": "arxiv",
