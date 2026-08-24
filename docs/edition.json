@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-24T12:27:12.68196274Z",
+  "generated": "2026-08-24T16:24:05.056969915Z",
   "edition": 31,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 3,
+    "total": 2,
     "by_source": {
-      "hn": 3
+      "hn": 2
     },
     "by_quadrant": {
-      "NOISE FLOOR": 3
+      "NOISE FLOOR": 2
     }
   },
   "items": [
@@ -46,21 +46,6 @@
       "dek": "Open-source IDE aggregates multiple AI coding agents into a single interface.",
       "unproven": "no evidence of security properties, agent isolation, or supply-chain controls relevant to SDLC integration",
       "scored_at": "2026-08-21T20:14:59.649587062Z"
-    },
-    {
-      "id": "hn:49387525",
-      "source": "hn",
-      "title": "We are living in a version of the future out of J.G. Ballard or William Gibson",
-      "url": "https://precastreinforced.co.uk/2026/08/16/new-worlds",
-      "published": "2026-08-21T13:07:26Z",
-      "authors": "speckx",
-      "points": 75,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Opinion essay on contemporary culture; no security content.",
-      "scored_at": "2026-08-21T16:20:38.023974451Z"
     }
   ],
   "noise": null
