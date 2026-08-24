@@ -1,77 +1,4 @@
 {
-  "arxiv:2607.23292v1": {
-    "id": "arxiv:2607.23292v1",
-    "source": "arxiv",
-    "title": "Hiding in Plain Sight: An Effective Physical Adversarial Patch Attack against Visual-Infrared Fused Face Detection",
-    "url": "http://arxiv.org/abs/2607.23292v1",
-    "published": "2026-07-25T17:03:33Z",
-    "authors": "Qiucheng Yu et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Physical adversarial patches evade visual-infrared face detection with over 90% success rate using gradient-color masks and stickers.",
-    "unproven": "effectiveness against deployed fusion models in operationally realistic lighting and angle conditions; patch persistence under weathering",
-    "scored_at": "2026-07-28T01:42:20.171024622Z"
-  },
-  "arxiv:2607.23312v1": {
-    "id": "arxiv:2607.23312v1",
-    "source": "arxiv",
-    "title": "A Structured Cyber Threat Intelligence Dataset Using STIX 2.1 Entities and MITRE ATT\u0026CK Mappings",
-    "url": "http://arxiv.org/abs/2607.23312v1",
-    "published": "2026-07-25T17:59:35Z",
-    "authors": "Dipshikha Das et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "150 CTI reports curated as STIX 2.1 graphs with 269 MITRE ATT\u0026CK mappings and inter-rater validation.",
-    "unproven": "Static dataset without evaluation of downstream task performance (detection, hunting, architecture review) or coverage of financial-sector threat patterns.",
-    "scored_at": "2026-07-28T01:42:08.7690163Z"
-  },
-  "arxiv:2607.23324v1": {
-    "id": "arxiv:2607.23324v1",
-    "source": "arxiv",
-    "title": "Gravitational acceleration encoded in Jaynes Cummings exchange frequencies: Quantum Fisher information, readout, and validity conditions",
-    "url": "http://arxiv.org/abs/2607.23324v1",
-    "published": "2026-07-25T18:33:28Z",
-    "authors": "Salman Sajad Wani et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Atom-cavity quantum Fisher information for gravitational sensing; fundamental physics disconnected from security engineering.",
-    "scored_at": "2026-07-28T13:31:43.213632164Z"
-  },
-  "arxiv:2607.23331v1": {
-    "id": "arxiv:2607.23331v1",
-    "source": "arxiv",
-    "title": "Effects of Curvature-Scalar Coupling on Vacuum Energy in Flat (3+1)-Dimensional Space-Time",
-    "url": "http://arxiv.org/abs/2607.23331v1",
-    "published": "2026-07-25T19:04:18Z",
-    "authors": "Volodymyr Gorkavenko et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Vacuum polarization in flat spacetime under boundary conditions; pure physics with zero relevance to application security.",
-    "scored_at": "2026-07-28T13:31:43.213632024Z"
-  },
-  "arxiv:2607.23342v1": {
-    "id": "arxiv:2607.23342v1",
-    "source": "arxiv",
-    "title": "Exploring the OODA Loop as a Systematic Way of Thinking in Coping with Conflicts",
-    "url": "http://arxiv.org/abs/2607.23342v1",
-    "published": "2026-07-25T19:38:05Z",
-    "authors": "Ethan Anderson et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Boyd's OODA loop applied to cyber and cognitive conflict; emphasizes situational awareness and orientation.",
-    "unproven": "Conceptual framework with no empirical evaluation; application security tooling decisions do not hinge on air-warfare doctrine.",
-    "scored_at": "2026-07-28T01:42:08.769014577Z"
-  },
   "arxiv:2607.23365v1": {
     "id": "arxiv:2607.23365v1",
     "source": "arxiv",
@@ -33046,37 +32973,6 @@
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
   },
-  "hn:49050058": {
-    "id": "hn:49050058",
-    "source": "hn",
-    "title": "Memory Safety Absolutists",
-    "url": "https://itsallaboutthebit.com/memory-safety-absolutists",
-    "published": "2026-07-25T18:08:52Z",
-    "authors": "drogus",
-    "points": 81,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Opinion piece on memory safety philosophy; no new finding or actionable guidance for tooling decisions.",
-    "scored_at": "2026-07-26T06:30:00.114406743Z"
-  },
-  "hn:49050152": {
-    "id": "hn:49050152",
-    "source": "hn",
-    "title": "Tile's security is so bad it's a feature for stalkers",
-    "url": "https://blog.adafruit.com/2026/03/05/tiles-security-is-so-bad-its-a-feature-for-stalkers",
-    "published": "2026-07-25T18:18:42Z",
-    "authors": "sambellll",
-    "points": 154,
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Tile tracking device security weaknesses documented; hardware outside reader's SDLC scope.",
-    "unproven": "scope limited to one product line; no implications for financial services software architecture",
-    "scored_at": "2026-07-26T06:30:00.114406482Z"
-  },
   "hn:49052912": {
     "id": "hn:49052912",
     "source": "hn",
@@ -35708,6 +35604,22 @@
       "CVE-2026-20349"
     ],
     "scored_at": "2026-08-11T20:35:04.205602593Z"
+  },
+  "kev:CVE-2026-21962": {
+    "id": "kev:CVE-2026-21962",
+    "source": "kev",
+    "title": "CVE-2026-21962 — Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
+    "published": "2026-08-24T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in. Confirmed exploited in the wild. Federal remediation due 27 August.",
+    "cves": [
+      "CVE-2026-21962"
+    ],
+    "scored_at": "2026-08-24T20:18:48.161721402Z"
   },
   "kev:CVE-2026-33824": {
     "id": "kev:CVE-2026-33824",

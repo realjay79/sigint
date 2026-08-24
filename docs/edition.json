@@ -1,51 +1,35 @@
 {
-  "generated": "2026-08-24T16:24:05.056969915Z",
+  "generated": "2026-08-24T20:18:48.46448006Z",
   "edition": 31,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 2,
+    "total": 1,
     "by_source": {
-      "hn": 2
+      "kev": 1
     },
     "by_quadrant": {
-      "NOISE FLOOR": 2
+      "STANDING ORDERS": 1
     }
   },
   "items": [
     {
-      "id": "hn:49390463",
-      "source": "hn",
-      "title": "Building an (almost) fully self-hosted, sandboxed, agentic software factory",
-      "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
-      "published": "2026-08-21T16:27:52Z",
-      "authors": "jakelsaunders94",
-      "points": 44,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Self-hosted sandboxed agent architecture for software development workflow automation.",
-      "unproven": "sandboxing effectiveness and threat model not demonstrated; no data on what \"almost\" self-hosted means or what escapes remain",
-      "scored_at": "2026-08-21T20:14:59.649587593Z"
-    },
-    {
-      "id": "hn:49390739",
-      "source": "hn",
-      "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
-      "url": "https://github.com/proliferate-ai/proliferate",
-      "published": "2026-08-21T16:47:15Z",
-      "authors": "pablo24602",
-      "points": 31,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Open-source IDE aggregates multiple AI coding agents into a single interface.",
-      "unproven": "no evidence of security properties, agent isolation, or supply-chain controls relevant to SDLC integration",
-      "scored_at": "2026-08-21T20:14:59.649587062Z"
+      "id": "kev:CVE-2026-21962",
+      "source": "kev",
+      "title": "CVE-2026-21962 — Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
+      "published": "2026-08-24T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in. Confirmed exploited in the wild. Federal remediation due 27 August.",
+      "cves": [
+        "CVE-2026-21962"
+      ],
+      "scored_at": "2026-08-24T20:18:48.161721402Z"
     }
   ],
   "noise": null
