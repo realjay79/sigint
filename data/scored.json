@@ -1,108 +1,4 @@
 {
-  "arxiv:2607.23745v1": {
-    "id": "arxiv:2607.23745v1",
-    "source": "arxiv",
-    "title": "The Physics of Unresolved Uncertainty: Quantum Mechanics as a Theory of Potentiality",
-    "url": "http://arxiv.org/abs/2607.23745v1",
-    "published": "2026-07-26T16:41:28Z",
-    "authors": "Lionel Martellini",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Reformulation of quantum mechanics as unresolved uncertainty in complex-valued measure theory; empirically equivalent to standard formalism.",
-    "unproven": "Entirely outside reader's domain; no relevance to application security, governance, or cryptographic migration.",
-    "scored_at": "2026-07-28T01:42:32.266041818Z"
-  },
-  "arxiv:2607.23747v1": {
-    "id": "arxiv:2607.23747v1",
-    "source": "arxiv",
-    "title": "Freezing Swampland: A Krylov Complexity Criterion for the Weak Gravity Conjecture",
-    "url": "http://arxiv.org/abs/2607.23747v1",
-    "published": "2026-07-26T16:48:06Z",
-    "authors": "Amin Faraji Astaneh et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Krylov complexity interpretation of Weak Gravity Conjecture via near-extremal black-hole thermodynamics and Schwinger pair production.",
-    "unproven": "Entirely outside reader's domain; pure theoretical physics with no bearing on SDLC, agent governance, or post-quantum migration.",
-    "scored_at": "2026-07-28T01:42:32.266041638Z"
-  },
-  "arxiv:2607.23752v1": {
-    "id": "arxiv:2607.23752v1",
-    "source": "arxiv",
-    "title": "ZKP Security Tools and Verification: Coverage, Effectiveness, Adoption, and Challenges",
-    "url": "http://arxiv.org/abs/2607.23752v1",
-    "published": "2026-07-26T16:54:31Z",
-    "authors": "Arman Kolozyan et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Survey of ZKP bug-detection tools finds 45.7% detection on isolated code, 19.6% on full codebases, with Circom dominance and newer DSLs underserved.",
-    "unproven": "effectiveness across production ZKP codebases and whether tool improvements would close the gap or hit fundamental limits",
-    "scored_at": "2026-07-28T01:41:57.729330093Z"
-  },
-  "arxiv:2607.23773v1": {
-    "id": "arxiv:2607.23773v1",
-    "source": "arxiv",
-    "title": "Quantum Separability in Polynomial Time",
-    "url": "http://arxiv.org/abs/2607.23773v1",
-    "published": "2026-07-26T17:48:29Z",
-    "authors": "Giulio Malavolta",
-    "novelty": 5,
-    "actionability": 1,
-    "score": 6,
-    "quadrant": "NEW GROUND",
-    "dek": "Polynomial-time randomized algorithm solves quantum separability problem with constant gap in Euclidean norm.",
-    "scored_at": "2026-07-28T13:31:27.615742652Z"
-  },
-  "arxiv:2607.23787v1": {
-    "id": "arxiv:2607.23787v1",
-    "source": "arxiv",
-    "title": "Bitcoin Mempool Linearization",
-    "url": "http://arxiv.org/abs/2607.23787v1",
-    "published": "2026-07-26T18:04:28Z",
-    "authors": "Arman Mollakhani et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Spanning forest linearization algorithm optimizes Bitcoin mempool transaction ordering for fee-rate efficiency.",
-    "unproven": "Theoretical formulation and algorithmic contribution; no empirical comparison to current mining-pool implementations or demonstration of miner adoption.",
-    "scored_at": "2026-07-28T06:19:20.184710672Z"
-  },
-  "arxiv:2607.23816v1": {
-    "id": "arxiv:2607.23816v1",
-    "source": "arxiv",
-    "title": "Environment-assisted squeezing in a coherently driven non-Hermitian degenerate parametric oscillator",
-    "url": "http://arxiv.org/abs/2607.23816v1",
-    "published": "2026-07-26T19:33:00Z",
-    "authors": "Muhdin Abdo Wodedo et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Non-Hermitian parametric oscillator coupled to squeezed reservoir produces output squeezing below quantum limit.",
-    "unproven": "experimental realization; whether operating windows remain robust to real decoherence mechanisms beyond the modeled channels",
-    "scored_at": "2026-07-28T13:31:27.615742472Z"
-  },
-  "arxiv:2607.23820v1": {
-    "id": "arxiv:2607.23820v1",
-    "source": "arxiv",
-    "title": "Unified Framework for Bidirectional and Cyclic Teleportation under Noise",
-    "url": "http://arxiv.org/abs/2607.23820v1",
-    "published": "2026-07-26T19:58:57Z",
-    "authors": "Soubhik De et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Twelve-qubit entangled channel enables bidirectional and cyclic multi-qubit teleportation under multiple noise types.",
-    "unproven": "whether twelve-qubit entanglement can be reliably prepared and maintained on current hardware; scalability beyond the demonstrated configurations",
-    "scored_at": "2026-07-28T13:31:27.615742352Z"
-  },
   "arxiv:2607.23825v1": {
     "id": "arxiv:2607.23825v1",
     "source": "arxiv",
@@ -1467,21 +1363,6 @@
     "dek": "Framework for quantum simulacra via non-standard metrics redefines observables and measurement arrangements.",
     "unproven": "Mathematical framework only; does not establish practical utility, experimental validation on standard hardware, or advantages over conventional quantum approaches.",
     "scored_at": "2026-07-28T06:19:20.184711577Z"
-  },
-  "arxiv:2607.24866v1": {
-    "id": "arxiv:2607.24866v1",
-    "source": "arxiv",
-    "title": "The Missing Layer: Specification Infrastructure for AI Oversight",
-    "url": "http://arxiv.org/abs/2607.24866v1",
-    "published": "2026-07-26T18:12:41Z",
-    "authors": "Satyam Kumar et al.",
-    "novelty": 2,
-    "actionability": 2,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Five-layer taxonomy (Legibility, Specification, Mediation, Evaluation, Escalation) maps AI oversight coordination gap across six concerns.",
-    "unproven": "Framework is a classification exercise; does not specify design principles, standards, or composability rules actionable for the reader's audit schema.",
-    "scored_at": "2026-07-29T10:31:16.343702391Z"
   },
   "arxiv:2607.24888v1": {
     "id": "arxiv:2607.24888v1",
@@ -32332,21 +32213,6 @@
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
   },
-  "hn:49061769": {
-    "id": "hn:49061769",
-    "source": "hn",
-    "title": "What does GitHub's security team even do?",
-    "url": "https://orchidfiles.com/github-security-team",
-    "published": "2026-07-26T19:51:05Z",
-    "authors": "theorchid",
-    "points": 46,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Opinion piece on GitHub's security org structure and priorities.",
-    "scored_at": "2026-07-26T20:46:06.113896941Z"
-  },
   "hn:49063175": {
     "id": "hn:49063175",
     "source": "hn",
@@ -34966,6 +34832,22 @@
       "CVE-2026-59310"
     ],
     "scored_at": "2026-08-18T20:12:28.378151491Z"
+  },
+  "kev:CVE-2026-60004": {
+    "id": "kev:CVE-2026-60004",
+    "source": "kev",
+    "title": "CVE-2026-60004 — Gitea Code Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
+    "published": "2026-08-25T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Gitea Gitea. Confirmed exploited in the wild. Federal remediation due 28 August.",
+    "cves": [
+      "CVE-2026-60004"
+    ],
+    "scored_at": "2026-08-25T20:17:42.967910916Z"
   },
   "kev:CVE-2026-63077": {
     "id": "kev:CVE-2026-63077",
