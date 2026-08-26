@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T20:17:43.430102636Z",
-  "edition": 32,
+  "generated": "2026-08-26T00:41:27.285178474Z",
+  "edition": 33,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",

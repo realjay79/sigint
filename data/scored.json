@@ -1,109 +1,4 @@
 {
-  "arxiv:2607.23825v1": {
-    "id": "arxiv:2607.23825v1",
-    "source": "arxiv",
-    "title": "Bridging the Epistemic Gap in the Invisible Internet: Extended Mathematical Modeling and Empirical Characterization of I2P Topology",
-    "url": "http://arxiv.org/abs/2607.23825v1",
-    "published": "2026-07-26T20:18:02Z",
-    "authors": "Siddique Abubakr Muntaka et al.",
-    "novelty": 4,
-    "actionability": 1,
-    "score": 5,
-    "quadrant": "NEW GROUND",
-    "dek": "Extended mathematical model of I2P topology derived from production code reveals hub-dominance and visibility limits.",
-    "unproven": "Validated only on a six-router testbed over 30 days; does not establish whether model predictions hold across the live global network or under active adversarial topology manipulation.",
-    "scored_at": "2026-07-28T06:19:20.184710566Z"
-  },
-  "arxiv:2607.23833v1": {
-    "id": "arxiv:2607.23833v1",
-    "source": "arxiv",
-    "title": "Position measurement of a levitated particle with vectorial light",
-    "url": "http://arxiv.org/abs/2607.23833v1",
-    "published": "2026-07-26T20:40:13Z",
-    "authors": "Daniel Tandeitnik et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Vectorial scattering formalism for optically levitated particles with open-source simulation toolkit.",
-    "unproven": "whether radial polarization reductions translate to sub-Heisenberg-limited performance in deployed systems",
-    "scored_at": "2026-07-28T13:31:27.615742091Z"
-  },
-  "arxiv:2607.23838v1": {
-    "id": "arxiv:2607.23838v1",
-    "source": "arxiv",
-    "title": "TriShieldRAG: A Three-Ring Defense-in-Depth Framework Against Knowledge Corruption in Retrieval-Augmented Generation",
-    "url": "http://arxiv.org/abs/2607.23838v1",
-    "published": "2026-07-26T20:52:23Z",
-    "authors": "Susil Kumar Mohanty et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Three-stage defense (ingest filtering, retrieval re-ranking, consensus) reduces RAG poisoning success from 90% to under 10%.",
-    "unproven": "Tested on limited attack scenarios; does not cover adaptive adversaries or measure latency and availability cost at scale.",
-    "scored_at": "2026-07-28T06:19:20.184710445Z"
-  },
-  "arxiv:2607.23843v1": {
-    "id": "arxiv:2607.23843v1",
-    "source": "arxiv",
-    "title": "On a necessary condition for the matching cryptosystem stability",
-    "url": "http://arxiv.org/abs/2607.23843v1",
-    "published": "2026-07-26T21:14:12Z",
-    "authors": "Aleksey Bolotnikov et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Necessary condition for matching cryptosystem stability expressed in terms of weight-vector span dimensions.",
-    "unproven": "No implementation, no benchmarking against actual attacks, no comparison to existing defenses or key-generation practices.",
-    "scored_at": "2026-07-28T06:19:20.184710007Z"
-  },
-  "arxiv:2607.23847v1": {
-    "id": "arxiv:2607.23847v1",
-    "source": "arxiv",
-    "title": "A Slice-Rank Drift Bound for Random Quantum \\(k\\)-SAT",
-    "url": "http://arxiv.org/abs/2607.23847v1",
-    "published": "2026-07-26T21:18:02Z",
-    "authors": "Jean Bernoulli Ravelomanana",
-    "novelty": 4,
-    "actionability": 1,
-    "score": 5,
-    "quadrant": "NEW GROUND",
-    "dek": "Improved upper bound on random quantum 3-SAT threshold by factor of k using tensor-product dimension analysis.",
-    "unproven": "applicability to classical constraint satisfaction or cryptographic systems; whether the bound is tight",
-    "scored_at": "2026-07-28T13:31:27.615741681Z"
-  },
-  "arxiv:2607.23871v1": {
-    "id": "arxiv:2607.23871v1",
-    "source": "arxiv",
-    "title": "Entanglement transitions and multifractality in monitored free-fermions with random long-range hopping",
-    "url": "http://arxiv.org/abs/2607.23871v1",
-    "published": "2026-07-26T22:24:36Z",
-    "authors": "Bo Fan et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Monitored long-range-hopping fermions show measurement-induced entanglement transitions with multifractal correlations at critical points.",
-    "unproven": "analytical and numerical study of one-dimensional free fermions; does not address whether results hold in higher dimensions or with interactions relevant to quantum systems of interest.",
-    "scored_at": "2026-07-28T13:31:18.074989435Z"
-  },
-  "arxiv:2607.23882v1": {
-    "id": "arxiv:2607.23882v1",
-    "source": "arxiv",
-    "title": "ADVERSARIAL: And-Inverter Graph-Assisted Hardware Trojan Detection At Scale",
-    "url": "http://arxiv.org/abs/2607.23882v1",
-    "published": "2026-07-26T23:00:09Z",
-    "authors": "Yaroslav Popryho et al.",
-    "novelty": 4,
-    "actionability": 1,
-    "score": 5,
-    "quadrant": "NEW GROUND",
-    "dek": "Knowledge graph embeddings on And-Inverter Graphs scale hardware trojan detection to modern SoC gate counts.",
-    "unproven": "Evaluated only on benchmarks; does not demonstrate detection on real production SoCs or unknown trojans designed to evade this method.",
-    "scored_at": "2026-07-28T06:19:20.18470981Z"
-  },
   "arxiv:2607.23952v1": {
     "id": "arxiv:2607.23952v1",
     "source": "arxiv",
@@ -32213,22 +32108,6 @@
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
   },
-  "hn:49063175": {
-    "id": "hn:49063175",
-    "source": "hn",
-    "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
-    "url": "https://github.com/vercel-labs/scriptc",
-    "published": "2026-07-26T22:46:10Z",
-    "authors": "maxloh",
-    "points": 118,
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Vercel's TypeScript-to-native compiler removes JavaScript engine from binary; ahead-of-time compilation is established practice.",
-    "unproven": "Whether compiled binaries match interpreted performance and security properties across representative application workloads; applicability to the reader's SDLC tooling and agent deployment scenarios.",
-    "scored_at": "2026-07-27T06:55:34.969550817Z"
-  },
   "hn:49065779": {
     "id": "hn:49065779",
     "source": "hn",
@@ -34656,38 +34535,6 @@
       "CVE-2025-62593"
     ],
     "scored_at": "2026-08-17T16:16:34.611058874Z"
-  },
-  "kev:CVE-2025-68686": {
-    "id": "kev:CVE-2025-68686",
-    "source": "kev",
-    "title": "CVE-2025-68686 — Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686",
-    "published": "2026-07-27T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Fortinet FortiOS. Confirmed exploited in the wild. Federal remediation due 10 August.",
-    "cves": [
-      "CVE-2025-68686"
-    ],
-    "scored_at": "2026-07-27T21:03:50.800673905Z"
-  },
-  "kev:CVE-2026-16812": {
-    "id": "kev:CVE-2026-16812",
-    "source": "kev",
-    "title": "CVE-2026-16812 — Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
-    "published": "2026-07-27T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 30 July.",
-    "cves": [
-      "CVE-2026-16812"
-    ],
-    "scored_at": "2026-07-27T21:03:50.800676989Z"
   },
   "kev:CVE-2026-18556": {
     "id": "kev:CVE-2026-18556",
