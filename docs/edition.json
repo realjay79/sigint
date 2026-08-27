@@ -1,36 +1,20 @@
 {
-  "generated": "2026-08-26T22:35:31.457740484Z",
-  "edition": 33,
+  "generated": "2026-08-27T05:46:11.159416689Z",
+  "edition": 34,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 8,
+    "total": 7,
     "by_source": {
-      "kev": 8
+      "kev": 7
     },
     "by_quadrant": {
-      "STANDING ORDERS": 8
+      "STANDING ORDERS": 7
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2019-1068",
-      "source": "kev",
-      "title": "CVE-2019-1068 — Microsoft SQL Server Remote Code Execution Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
-      "published": "2026-08-26T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft SQL Server. Confirmed exploited in the wild. Federal remediation due 29 August.",
-      "cves": [
-        "CVE-2019-1068"
-      ],
-      "scored_at": "2026-08-26T22:35:31.190526855Z"
-    },
     {
       "id": "kev:CVE-2022-0995",
       "source": "kev",
@@ -46,54 +30,6 @@
         "CVE-2022-0995"
       ],
       "scored_at": "2026-08-26T22:35:31.190522298Z"
-    },
-    {
-      "id": "kev:CVE-2015-5287",
-      "source": "kev",
-      "title": "CVE-2015-5287 — Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
-      "published": "2026-08-26T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Red Hat Automatic Bug Reporting Tool. Confirmed exploited in the wild. Federal remediation due 9 September.",
-      "cves": [
-        "CVE-2015-5287"
-      ],
-      "scored_at": "2026-08-26T22:35:31.190520686Z"
-    },
-    {
-      "id": "kev:CVE-2021-23758",
-      "source": "kev",
-      "title": "CVE-2021-23758 — Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
-      "published": "2026-08-26T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ajax.NET Professional Ajax.NET Professional. Confirmed exploited in the wild. Federal remediation due 9 September.",
-      "cves": [
-        "CVE-2021-23758"
-      ],
-      "scored_at": "2026-08-26T22:35:31.190515808Z"
-    },
-    {
-      "id": "kev:CVE-2026-8452",
-      "source": "kev",
-      "title": "CVE-2026-8452 — Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
-      "published": "2026-08-26T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Citrix NetScaler ADC and NetScaler Gateway. Confirmed exploited in the wild. Federal remediation due 29 August.",
-      "cves": [
-        "CVE-2026-8452"
-      ],
-      "scored_at": "2026-08-26T22:35:31.190524672Z"
     },
     {
       "id": "kev:CVE-2015-3246",
@@ -112,6 +48,70 @@
       "scored_at": "2026-08-26T22:35:31.190518733Z"
     },
     {
+      "id": "kev:CVE-2021-23758",
+      "source": "kev",
+      "title": "CVE-2021-23758 — Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
+      "published": "2026-08-26T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ajax.NET Professional Ajax.NET Professional. Confirmed exploited in the wild. Federal remediation due 9 September.",
+      "cves": [
+        "CVE-2021-23758"
+      ],
+      "scored_at": "2026-08-26T22:35:31.190515808Z"
+    },
+    {
+      "id": "kev:CVE-2015-5287",
+      "source": "kev",
+      "title": "CVE-2015-5287 — Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
+      "published": "2026-08-26T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Red Hat Automatic Bug Reporting Tool. Confirmed exploited in the wild. Federal remediation due 9 September.",
+      "cves": [
+        "CVE-2015-5287"
+      ],
+      "scored_at": "2026-08-26T22:35:31.190520686Z"
+    },
+    {
+      "id": "kev:CVE-2019-1068",
+      "source": "kev",
+      "title": "CVE-2019-1068 — Microsoft SQL Server Remote Code Execution Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
+      "published": "2026-08-26T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft SQL Server. Confirmed exploited in the wild. Federal remediation due 29 August.",
+      "cves": [
+        "CVE-2019-1068"
+      ],
+      "scored_at": "2026-08-26T22:35:31.190526855Z"
+    },
+    {
+      "id": "kev:CVE-2026-8452",
+      "source": "kev",
+      "title": "CVE-2026-8452 — Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
+      "published": "2026-08-26T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Citrix NetScaler ADC and NetScaler Gateway. Confirmed exploited in the wild. Federal remediation due 29 August.",
+      "cves": [
+        "CVE-2026-8452"
+      ],
+      "scored_at": "2026-08-26T22:35:31.190524672Z"
+    },
+    {
       "id": "kev:CVE-2026-60004",
       "source": "kev",
       "title": "CVE-2026-60004 — Gitea Code Injection Vulnerability",
@@ -126,22 +126,6 @@
         "CVE-2026-60004"
       ],
       "scored_at": "2026-08-25T20:17:42.967910916Z"
-    },
-    {
-      "id": "kev:CVE-2026-21962",
-      "source": "kev",
-      "title": "CVE-2026-21962 — Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
-      "published": "2026-08-24T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in. Confirmed exploited in the wild. Federal remediation due 27 August.",
-      "cves": [
-        "CVE-2026-21962"
-      ],
-      "scored_at": "2026-08-24T20:18:48.161721402Z"
     }
   ],
   "noise": null
