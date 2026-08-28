@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T03:55:20.396270152Z",
+  "generated": "2026-08-28T15:47:24.149178091Z",
   "edition": 35,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,20 +16,20 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-53362",
+      "id": "kev:CVE-2026-66384",
       "source": "kev",
-      "title": "CVE-2026-53362 — Linux Kernel Unspecified Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
+      "title": "CVE-2026-66384 — JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
       "published": "2026-08-27T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Linux Kernel. Confirmed exploited in the wild. Federal remediation due 30 August.",
+      "dek": "JFrog Artifactory. Confirmed exploited in the wild. Federal remediation due 10 September.",
       "cves": [
-        "CVE-2026-53362"
+        "CVE-2026-66384"
       ],
-      "scored_at": "2026-08-27T18:37:42.868040689Z"
+      "scored_at": "2026-08-27T18:37:42.868043713Z"
     },
     {
       "id": "kev:CVE-2023-49105",
@@ -48,52 +48,36 @@
       "scored_at": "2026-08-27T18:37:42.868037995Z"
     },
     {
-      "id": "kev:CVE-2026-66384",
+      "id": "kev:CVE-2026-53362",
       "source": "kev",
-      "title": "CVE-2026-66384 — JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
+      "title": "CVE-2026-53362 — Linux Kernel Unspecified Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
       "published": "2026-08-27T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "JFrog Artifactory. Confirmed exploited in the wild. Federal remediation due 10 September.",
+      "dek": "Linux Kernel. Confirmed exploited in the wild. Federal remediation due 30 August.",
       "cves": [
-        "CVE-2026-66384"
+        "CVE-2026-53362"
       ],
-      "scored_at": "2026-08-27T18:37:42.868043713Z"
+      "scored_at": "2026-08-27T18:37:42.868040689Z"
     },
     {
-      "id": "kev:CVE-2021-23758",
+      "id": "kev:CVE-2026-8452",
       "source": "kev",
-      "title": "CVE-2021-23758 — Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
+      "title": "CVE-2026-8452 — Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
       "published": "2026-08-26T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Ajax.NET Professional Ajax.NET Professional. Confirmed exploited in the wild. Federal remediation due 9 September.",
+      "dek": "Citrix NetScaler ADC and NetScaler Gateway. Confirmed exploited in the wild. Federal remediation due 29 August.",
       "cves": [
-        "CVE-2021-23758"
+        "CVE-2026-8452"
       ],
-      "scored_at": "2026-08-26T22:35:31.190515808Z"
-    },
-    {
-      "id": "kev:CVE-2019-1068",
-      "source": "kev",
-      "title": "CVE-2019-1068 — Microsoft SQL Server Remote Code Execution Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
-      "published": "2026-08-26T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft SQL Server. Confirmed exploited in the wild. Federal remediation due 29 August.",
-      "cves": [
-        "CVE-2019-1068"
-      ],
-      "scored_at": "2026-08-26T22:35:31.190526855Z"
+      "scored_at": "2026-08-26T22:35:31.190524672Z"
     },
     {
       "id": "kev:CVE-2022-0995",
@@ -112,22 +96,6 @@
       "scored_at": "2026-08-26T22:35:31.190522298Z"
     },
     {
-      "id": "kev:CVE-2015-3246",
-      "source": "kev",
-      "title": "CVE-2015-3246 — Red Hat Libuser Race Condition Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
-      "published": "2026-08-26T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Red Hat Libuser. Confirmed exploited in the wild. Federal remediation due 9 September.",
-      "cves": [
-        "CVE-2015-3246"
-      ],
-      "scored_at": "2026-08-26T22:35:31.190518733Z"
-    },
-    {
       "id": "kev:CVE-2015-5287",
       "source": "kev",
       "title": "CVE-2015-5287 — Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
@@ -144,20 +112,52 @@
       "scored_at": "2026-08-26T22:35:31.190520686Z"
     },
     {
-      "id": "kev:CVE-2026-8452",
+      "id": "kev:CVE-2015-3246",
       "source": "kev",
-      "title": "CVE-2026-8452 — Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
+      "title": "CVE-2015-3246 — Red Hat Libuser Race Condition Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
       "published": "2026-08-26T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Citrix NetScaler ADC and NetScaler Gateway. Confirmed exploited in the wild. Federal remediation due 29 August.",
+      "dek": "Red Hat Libuser. Confirmed exploited in the wild. Federal remediation due 9 September.",
       "cves": [
-        "CVE-2026-8452"
+        "CVE-2015-3246"
       ],
-      "scored_at": "2026-08-26T22:35:31.190524672Z"
+      "scored_at": "2026-08-26T22:35:31.190518733Z"
+    },
+    {
+      "id": "kev:CVE-2019-1068",
+      "source": "kev",
+      "title": "CVE-2019-1068 — Microsoft SQL Server Remote Code Execution Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
+      "published": "2026-08-26T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft SQL Server. Confirmed exploited in the wild. Federal remediation due 29 August.",
+      "cves": [
+        "CVE-2019-1068"
+      ],
+      "scored_at": "2026-08-26T22:35:31.190526855Z"
+    },
+    {
+      "id": "kev:CVE-2021-23758",
+      "source": "kev",
+      "title": "CVE-2021-23758 — Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
+      "published": "2026-08-26T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ajax.NET Professional Ajax.NET Professional. Confirmed exploited in the wild. Federal remediation due 9 September.",
+      "cves": [
+        "CVE-2021-23758"
+      ],
+      "scored_at": "2026-08-26T22:35:31.190515808Z"
     }
   ],
   "noise": null
