@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T10:35:02.565036618Z",
+  "generated": "2026-08-29T15:56:23.440848728Z",
   "edition": 36,
   "name": "SIGINT",
   "mark": "^C",
@@ -15,6 +15,22 @@
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-53362",
+      "source": "kev",
+      "title": "CVE-2026-53362 — Linux Kernel Unspecified Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
+      "published": "2026-08-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Linux Kernel. Confirmed exploited in the wild. Federal remediation due 30 August.",
+      "cves": [
+        "CVE-2026-53362"
+      ],
+      "scored_at": "2026-08-27T18:37:42.868040689Z"
+    },
     {
       "id": "kev:CVE-2026-66384",
       "source": "kev",
@@ -46,22 +62,6 @@
         "CVE-2023-49105"
       ],
       "scored_at": "2026-08-27T18:37:42.868037995Z"
-    },
-    {
-      "id": "kev:CVE-2026-53362",
-      "source": "kev",
-      "title": "CVE-2026-53362 — Linux Kernel Unspecified Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
-      "published": "2026-08-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Linux Kernel. Confirmed exploited in the wild. Federal remediation due 30 August.",
-      "cves": [
-        "CVE-2026-53362"
-      ],
-      "scored_at": "2026-08-27T18:37:42.868040689Z"
     }
   ],
   "noise": null
