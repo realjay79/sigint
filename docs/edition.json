@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T15:56:23.440848728Z",
+  "generated": "2026-08-29T19:03:33.007924051Z",
   "edition": 36,
   "name": "SIGINT",
   "mark": "^C",
@@ -15,6 +15,22 @@
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2023-49105",
+      "source": "kev",
+      "title": "CVE-2023-49105 — ownCloud Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
+      "published": "2026-08-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "ownCloud ownCloud. Confirmed exploited in the wild. Federal remediation due 30 August.",
+      "cves": [
+        "CVE-2023-49105"
+      ],
+      "scored_at": "2026-08-27T18:37:42.868037995Z"
+    },
     {
       "id": "kev:CVE-2026-53362",
       "source": "kev",
@@ -46,22 +62,6 @@
         "CVE-2026-66384"
       ],
       "scored_at": "2026-08-27T18:37:42.868043713Z"
-    },
-    {
-      "id": "kev:CVE-2023-49105",
-      "source": "kev",
-      "title": "CVE-2023-49105 — ownCloud Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
-      "published": "2026-08-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "ownCloud ownCloud. Confirmed exploited in the wild. Federal remediation due 30 August.",
-      "cves": [
-        "CVE-2023-49105"
-      ],
-      "scored_at": "2026-08-27T18:37:42.868037995Z"
     }
   ],
   "noise": null
