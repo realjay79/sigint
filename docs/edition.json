@@ -1,68 +1,15 @@
 {
-  "generated": "2026-08-29T22:07:09.616253075Z",
-  "edition": 36,
+  "generated": "2026-08-30T02:26:08.179967871Z",
+  "edition": 37,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 3,
-    "by_source": {
-      "kev": 3
-    },
-    "by_quadrant": {
-      "STANDING ORDERS": 3
-    }
+    "total": 0,
+    "by_source": {},
+    "by_quadrant": {}
   },
-  "items": [
-    {
-      "id": "kev:CVE-2023-49105",
-      "source": "kev",
-      "title": "CVE-2023-49105 — ownCloud Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
-      "published": "2026-08-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "ownCloud ownCloud. Confirmed exploited in the wild. Federal remediation due 30 August.",
-      "cves": [
-        "CVE-2023-49105"
-      ],
-      "scored_at": "2026-08-27T18:37:42.868037995Z"
-    },
-    {
-      "id": "kev:CVE-2026-53362",
-      "source": "kev",
-      "title": "CVE-2026-53362 — Linux Kernel Unspecified Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
-      "published": "2026-08-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Linux Kernel. Confirmed exploited in the wild. Federal remediation due 30 August.",
-      "cves": [
-        "CVE-2026-53362"
-      ],
-      "scored_at": "2026-08-27T18:37:42.868040689Z"
-    },
-    {
-      "id": "kev:CVE-2026-66384",
-      "source": "kev",
-      "title": "CVE-2026-66384 — JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
-      "published": "2026-08-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "JFrog Artifactory. Confirmed exploited in the wild. Federal remediation due 10 September.",
-      "cves": [
-        "CVE-2026-66384"
-      ],
-      "scored_at": "2026-08-27T18:37:42.868043713Z"
-    }
-  ],
+  "items": null,
   "noise": null
 }
