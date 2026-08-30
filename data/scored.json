@@ -1,19 +1,4 @@
 {
-  "arxiv:2608.00282v1": {
-    "id": "arxiv:2608.00282v1",
-    "source": "arxiv",
-    "title": "Reflection, Education, Consistency: Towards Best Ethics Practices At Security And Privacy Conferences",
-    "url": "http://arxiv.org/abs/2608.00282v1",
-    "published": "2026-07-31T20:41:15Z",
-    "authors": "Florian Hantke et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Survey of ethics procedures at four top security conferences finds limited empirical validation of interventions.",
-    "unproven": "generalizability beyond four conferences; causal effect of ethics procedures on outcomes",
-    "scored_at": "2026-08-04T01:28:25.893610365Z"
-  },
   "arxiv:2608.00341v1": {
     "id": "arxiv:2608.00341v1",
     "source": "arxiv",
@@ -24112,22 +24097,6 @@
     "dek": "Tavis-Cummings model extended to arbitrary excitations using group theory; new many-excitation polariton behavior derived.",
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
-  },
-  "hn:49127306": {
-    "id": "hn:49127306",
-    "source": "hn",
-    "title": "Tailscale didn't stop the Hugging Face intrusion",
-    "url": "https://tailscale.com/blog/hugging-face-intrusion",
-    "published": "2026-07-31T19:03:45Z",
-    "authors": "bluehatbrit",
-    "points": 157,
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Hugging Face intrusion proceeded despite Tailscale deployment, indicating VPN alone insufficient for supply-chain protection.",
-    "unproven": "whether Tailscale was misconfigured, what the actual attack vector was, or how this generalizes beyond this incident",
-    "scored_at": "2026-07-31T20:54:09.952989116Z"
   },
   "hn:49133647": {
     "id": "hn:49133647",
