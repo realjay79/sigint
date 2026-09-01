@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-31T23:29:57.73956861Z",
-  "edition": 38,
+  "generated": "2026-09-01T02:38:08.998320373Z",
+  "edition": 39,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -16,22 +16,6 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-81578",
-      "source": "kev",
-      "title": "CVE-2026-81578 — PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578",
-      "published": "2026-08-31T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "PaperCut NG/MF. Confirmed exploited in the wild. Federal remediation due 14 September.",
-      "cves": [
-        "CVE-2026-81578"
-      ],
-      "scored_at": "2026-08-31T18:26:23.438724033Z"
-    },
-    {
       "id": "kev:CVE-2026-82078",
       "source": "kev",
       "title": "CVE-2026-82078 — PaperCut NG/MF Unsafe Reflection Vulnerability",
@@ -46,6 +30,22 @@
         "CVE-2026-82078"
       ],
       "scored_at": "2026-08-31T18:26:23.438721295Z"
+    },
+    {
+      "id": "kev:CVE-2026-81578",
+      "source": "kev",
+      "title": "CVE-2026-81578 — PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578",
+      "published": "2026-08-31T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "PaperCut NG/MF. Confirmed exploited in the wild. Federal remediation due 14 September.",
+      "cves": [
+        "CVE-2026-81578"
+      ],
+      "scored_at": "2026-08-31T18:26:23.438724033Z"
     }
   ],
   "noise": null
