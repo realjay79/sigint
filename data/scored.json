@@ -1,64 +1,4 @@
 {
-  "arxiv:2608.01454v1": {
-    "id": "arxiv:2608.01454v1",
-    "source": "arxiv",
-    "title": "How Benchmarks and Evaluation Protocols Shape Conclusions in Provenance-Based Intrusion Detection",
-    "url": "http://arxiv.org/abs/2608.01454v1",
-    "published": "2026-08-02T19:27:49Z",
-    "authors": "Lorenzo Guerra et al.",
-    "novelty": 4,
-    "actionability": 2,
-    "score": 6,
-    "quadrant": "NEW GROUND",
-    "dek": "Re-evaluation of provenance-based intrusion detection on DARPA TC E3 shows simple allowlist matches learned baselines; lexical novelty dominates measured performance.",
-    "unproven": "Findings limited to audited DARPA datasets; applicability to production enterprise SOC telemetry and alert workflows unclear.",
-    "scored_at": "2026-08-04T06:21:10.872455467Z"
-  },
-  "arxiv:2608.01478v1": {
-    "id": "arxiv:2608.01478v1",
-    "source": "arxiv",
-    "title": "Surface adsorbates suppress low-frequency noise for shallow nitrogen-vacancy centers",
-    "url": "http://arxiv.org/abs/2608.01478v1",
-    "published": "2026-08-02T20:18:14Z",
-    "authors": "Zhiyang Yuan et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Quantum sensor coherence under ultrahigh vacuum conditions.",
-    "unproven": "entirely outside application security scope",
-    "scored_at": "2026-08-04T13:48:08.906672668Z"
-  },
-  "arxiv:2608.01483v1": {
-    "id": "arxiv:2608.01483v1",
-    "source": "arxiv",
-    "title": "Spatial-Order Hierarchy of Time-Dependent Exchange-Correlation Potential",
-    "url": "http://arxiv.org/abs/2608.01483v1",
-    "published": "2026-08-02T20:33:09Z",
-    "authors": "Naoki Negishi",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Density-functional theory exchange-correlation potential hierarchy.",
-    "unproven": "entirely outside application security scope",
-    "scored_at": "2026-08-04T13:48:08.906672468Z"
-  },
-  "arxiv:2608.01484v1": {
-    "id": "arxiv:2608.01484v1",
-    "source": "arxiv",
-    "title": "Non-Hermitian photon number filtering using N00N state Bloch oscillations",
-    "url": "http://arxiv.org/abs/2608.01484v1",
-    "published": "2026-08-02T20:33:19Z",
-    "authors": "Sean Crowe et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Photonic circuit state preparation using N00N states.",
-    "unproven": "entirely outside application security scope",
-    "scored_at": "2026-08-04T13:48:08.906672298Z"
-  },
   "arxiv:2608.01539v1": {
     "id": "arxiv:2608.01539v1",
     "source": "arxiv",
@@ -1197,21 +1137,6 @@
     "dek": "Lower bounds for estimating quantum functionals match known upper bounds at Õ(N²) samples for Uhlmann fidelity and trace distance.",
     "unproven": "Quantum information theory; entirely outside application security engineering remit.",
     "scored_at": "2026-08-04T06:21:20.801449515Z"
-  },
-  "arxiv:2608.02678v1": {
-    "id": "arxiv:2608.02678v1",
-    "source": "arxiv",
-    "title": "DenialRAG: Single-Document RAG Poisoning via Embedded Parametric Denial",
-    "url": "http://arxiv.org/abs/2608.02678v1",
-    "published": "2026-08-02T20:33:05Z",
-    "authors": "Abay Zhurekbay et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Single-document RAG poisoning attack explicitly names correct answer, denies it, achieving high success rates on Mistral-7B.",
-    "unproven": "attack success is strongly model-dependent; transferability across vendor LLMs and effectiveness against production RAG deployments with multiple retrieval documents unclear",
-    "scored_at": "2026-08-05T06:20:19.348555246Z"
   },
   "arxiv:2608.02681v1": {
     "id": "arxiv:2608.02681v1",
@@ -22751,21 +22676,6 @@
     "dek": "Tavis-Cummings model extended to arbitrary excitations using group theory; new many-excitation polariton behavior derived.",
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
-  },
-  "hn:49147606": {
-    "id": "hn:49147606",
-    "source": "hn",
-    "title": "EU rules on AI models become enforceable. What's going to change?",
-    "url": "https://euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
-    "published": "2026-08-02T19:40:19Z",
-    "authors": "devonnull",
-    "points": 47,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "EU AI Act enforcement timeline and regulatory scope summary.",
-    "scored_at": "2026-08-03T01:54:17.066646059Z"
   },
   "hn:49148987": {
     "id": "hn:49148987",
