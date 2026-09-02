@@ -1,49 +1,4 @@
 {
-  "arxiv:2608.01539v1": {
-    "id": "arxiv:2608.01539v1",
-    "source": "arxiv",
-    "title": "SP2UBI: Secure and Privacy-Preserving Usage-Based Insurance",
-    "url": "http://arxiv.org/abs/2608.01539v1",
-    "published": "2026-08-02T23:20:15Z",
-    "authors": "Mobin Aghamirkarimi et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Privacy-preserving usage-based insurance protocol using homomorphic encryption and coarse-grained telematics aggregation.",
-    "unproven": "Purely theoretical; no implementation, deployment, or performance benchmarks against real-world telematics volumes or sensor attacks.",
-    "scored_at": "2026-08-04T06:21:10.872455177Z"
-  },
-  "arxiv:2608.01549v1": {
-    "id": "arxiv:2608.01549v1",
-    "source": "arxiv",
-    "title": "Limits of heralded photonic Bell-state generation in the presence of loss",
-    "url": "http://arxiv.org/abs/2608.01549v1",
-    "published": "2026-08-03T00:12:50Z",
-    "authors": "Kevin J. Randles et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Photonic Bell-state generation for quantum computing infrastructure.",
-    "unproven": "entirely outside application security scope",
-    "scored_at": "2026-08-04T13:48:08.906672118Z"
-  },
-  "arxiv:2608.01558v1": {
-    "id": "arxiv:2608.01558v1",
-    "source": "arxiv",
-    "title": "Securing Agentic AI: From Per-Action Checks to Trajectory Assurance",
-    "url": "http://arxiv.org/abs/2608.01558v1",
-    "published": "2026-08-03T00:28:49Z",
-    "authors": "Alireza Lotfi et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Framework mapping threat surface across single and multi-agent LLM deployments: prompt injection, memory, tool interfaces, delegation, model routing.",
-    "unproven": "No concrete detection or mitigation techniques; scope is taxonomy and threat modeling rather than validated controls or measurement.",
-    "scored_at": "2026-08-04T06:21:10.872454906Z"
-  },
   "arxiv:2608.01609v1": {
     "id": "arxiv:2608.01609v1",
     "source": "arxiv",
@@ -1137,21 +1092,6 @@
     "dek": "Lower bounds for estimating quantum functionals match known upper bounds at Õ(N²) samples for Uhlmann fidelity and trace distance.",
     "unproven": "Quantum information theory; entirely outside application security engineering remit.",
     "scored_at": "2026-08-04T06:21:20.801449515Z"
-  },
-  "arxiv:2608.02681v1": {
-    "id": "arxiv:2608.02681v1",
-    "source": "arxiv",
-    "title": "Safety in Batches? Understanding and Mitigating Safety Failures in Batch Prompting",
-    "url": "http://arxiv.org/abs/2608.02681v1",
-    "published": "2026-08-03T01:07:56Z",
-    "authors": "Kihyun Kim et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Multi-stage defense framework orchestrates reusable safety skills across agent memory, planning, and tool-execution stages.",
-    "unproven": "framework and MSRB benchmark introduced; evaluation on limited set of representative risks; integration into existing SDLC tooling not demonstrated",
-    "scored_at": "2026-08-05T06:20:19.348555106Z"
   },
   "arxiv:2608.02683v1": {
     "id": "arxiv:2608.02683v1",
@@ -22677,36 +22617,6 @@
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
   },
-  "hn:49148987": {
-    "id": "hn:49148987",
-    "source": "hn",
-    "title": "Californians' data deletion requests, DROP, become enforceable Aug. 1",
-    "url": "https://nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771",
-    "published": "2026-08-02T22:16:34Z",
-    "authors": "MilnerRoute",
-    "points": 85,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "California data deletion law becomes enforceable August 1.",
-    "scored_at": "2026-08-03T01:54:17.066645508Z"
-  },
-  "hn:49150181": {
-    "id": "hn:49150181",
-    "source": "hn",
-    "title": "RFC 9851: TLS 1.2 is in Feature Freeze",
-    "url": "https://rfc-editor.org/rfc/rfc9851.html",
-    "published": "2026-08-03T01:23:26Z",
-    "authors": "Jimmc414",
-    "points": 41,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "TLS 1.2 enters feature freeze; no new capabilities will be added.",
-    "scored_at": "2026-08-03T14:16:15.548274257Z"
-  },
   "hn:49153481": {
     "id": "hn:49153481",
     "source": "hn",
@@ -24461,22 +24371,6 @@
       "CVE-2026-18556"
     ],
     "scored_at": "2026-08-04T21:02:05.249434504Z"
-  },
-  "kev:CVE-2026-18577": {
-    "id": "kev:CVE-2026-18577",
-    "source": "kev",
-    "title": "CVE-2026-18577 — N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577",
-    "published": "2026-08-03T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 6 August.",
-    "cves": [
-      "CVE-2026-18577"
-    ],
-    "scored_at": "2026-08-03T20:55:13.458772734Z"
   },
   "kev:CVE-2026-20349": {
     "id": "kev:CVE-2026-20349",
