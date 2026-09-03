@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03T08:23:21.843377197Z",
+  "generated": "2026-09-03T15:28:36.487263261Z",
   "edition": 41,
   "name": "SIGINT",
   "mark": "^C",
@@ -15,38 +15,6 @@
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-9586",
-      "source": "kev",
-      "title": "CVE-2026-9586 — Sangoma Switchvox SQL Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9586",
-      "published": "2026-09-02T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Sangoma Switchvox. Confirmed exploited in the wild. Federal remediation due 5 September.",
-      "cves": [
-        "CVE-2026-9586"
-      ],
-      "scored_at": "2026-09-02T19:05:40.150402522Z"
-    },
-    {
-      "id": "kev:CVE-2026-83549",
-      "source": "kev",
-      "title": "CVE-2026-83549 — SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83549",
-      "published": "2026-09-02T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "SonicWall SMA1000 Appliances. Confirmed exploited in the wild. Federal remediation due 5 September.",
-      "cves": [
-        "CVE-2026-83549"
-      ],
-      "scored_at": "2026-09-02T19:05:40.150405558Z"
-    },
     {
       "id": "kev:CVE-2026-82329",
       "source": "kev",
@@ -64,36 +32,20 @@
       "scored_at": "2026-09-02T19:05:40.150401219Z"
     },
     {
-      "id": "kev:CVE-2026-49869",
+      "id": "kev:CVE-2026-9586",
       "source": "kev",
-      "title": "CVE-2026-49869 — Kestra OSS OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49869",
+      "title": "CVE-2026-9586 — Sangoma Switchvox SQL Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9586",
       "published": "2026-09-02T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Kestra Kestra OSS. Confirmed exploited in the wild. Federal remediation due 5 September.",
+      "dek": "Sangoma Switchvox. Confirmed exploited in the wild. Federal remediation due 5 September.",
       "cves": [
-        "CVE-2026-49869"
+        "CVE-2026-9586"
       ],
-      "scored_at": "2026-09-02T19:05:40.150399707Z"
-    },
-    {
-      "id": "kev:CVE-2026-48710",
-      "source": "kev",
-      "title": "CVE-2026-48710 — Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710",
-      "published": "2026-09-02T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Kludex Starlette. Confirmed exploited in the wild. Federal remediation due 16 September.",
-      "cves": [
-        "CVE-2026-48710"
-      ],
-      "scored_at": "2026-09-02T19:05:40.150397583Z"
+      "scored_at": "2026-09-02T19:05:40.150402522Z"
     },
     {
       "id": "kev:CVE-2026-83548",
@@ -112,6 +64,38 @@
       "scored_at": "2026-09-02T19:05:40.150404125Z"
     },
     {
+      "id": "kev:CVE-2026-83549",
+      "source": "kev",
+      "title": "CVE-2026-83549 — SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83549",
+      "published": "2026-09-02T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "SonicWall SMA1000 Appliances. Confirmed exploited in the wild. Federal remediation due 5 September.",
+      "cves": [
+        "CVE-2026-83549"
+      ],
+      "scored_at": "2026-09-02T19:05:40.150405558Z"
+    },
+    {
+      "id": "kev:CVE-2026-49869",
+      "source": "kev",
+      "title": "CVE-2026-49869 — Kestra OSS OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49869",
+      "published": "2026-09-02T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Kestra Kestra OSS. Confirmed exploited in the wild. Federal remediation due 5 September.",
+      "cves": [
+        "CVE-2026-49869"
+      ],
+      "scored_at": "2026-09-02T19:05:40.150399707Z"
+    },
+    {
       "id": "kev:CVE-2026-59822",
       "source": "kev",
       "title": "CVE-2026-59822 — BerriAI LiteLLM Improper Authentication Vulnerability",
@@ -126,6 +110,22 @@
         "CVE-2026-59822"
       ],
       "scored_at": "2026-09-02T19:05:40.150394507Z"
+    },
+    {
+      "id": "kev:CVE-2026-48710",
+      "source": "kev",
+      "title": "CVE-2026-48710 — Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710",
+      "published": "2026-09-02T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Kludex Starlette. Confirmed exploited in the wild. Federal remediation due 16 September.",
+      "cves": [
+        "CVE-2026-48710"
+      ],
+      "scored_at": "2026-09-02T19:05:40.150397583Z"
     }
   ],
   "noise": null
