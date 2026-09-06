@@ -1,94 +1,4 @@
 {
-  "arxiv:2608.06636v1": {
-    "id": "arxiv:2608.06636v1",
-    "source": "arxiv",
-    "title": "Approaching the Fundamental Limit of Single-Shot Qubit Frequency Tracking with an Adiabatic Tangentially-Modulated Pulse",
-    "url": "http://arxiv.org/abs/2608.06636v1",
-    "published": "2026-08-06T23:05:36Z",
-    "authors": "Itamar Oren et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Adiabatic tangentially-modulated pulse achieves single-shot qubit frequency tracking with improved robustness.",
-    "unproven": "entirely outside the reader's remit; quantum control and metrology research with no application to software security or SDLC processes",
-    "scored_at": "2026-08-10T09:08:14.833948798Z"
-  },
-  "arxiv:2608.06641v1": {
-    "id": "arxiv:2608.06641v1",
-    "source": "arxiv",
-    "title": "From Documentation to Zero-day Vulnerabilities: LLM-Driven Fuzzing of JavaScript Engines in PDF Readers",
-    "url": "http://arxiv.org/abs/2608.06641v1",
-    "published": "2026-08-06T23:15:56Z",
-    "authors": "Suyue Guo et al.",
-    "novelty": 4,
-    "actionability": 3,
-    "score": 7,
-    "quadrant": "NEW GROUND",
-    "dek": "LLM-inferred API grammars and constraint solving generate complex call sequences; PDFuzzer finds 31 zero-days in Adobe, Foxit, and PDF-XChange.",
-    "unproven": "whether Adobe and Foxit have patched disclosed vulnerabilities; reproducibility on updated reader versions; applicability to other document formats.",
-    "scored_at": "2026-08-10T05:16:45.943961807Z"
-  },
-  "arxiv:2608.06651v1": {
-    "id": "arxiv:2608.06651v1",
-    "source": "arxiv",
-    "title": "CyberLLM: A Multi-Agent LLM Framework for Autonomous Detection and Guarded Response in Automotive Cybersecurity",
-    "url": "http://arxiv.org/abs/2608.06651v1",
-    "published": "2026-08-06T23:39:13Z",
-    "authors": "Nenad Petrovic et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Multi-agent LLM framework with deterministic and LLM layers detects automotive vulnerabilities under formal safety guards.",
-    "unproven": "evaluation on closed-source production ECU firmware; false positive and false negative rates on deployed vehicles; whether safety guard prevents all unsafe actions.",
-    "scored_at": "2026-08-10T05:16:45.943961646Z"
-  },
-  "arxiv:2608.06655v1": {
-    "id": "arxiv:2608.06655v1",
-    "source": "arxiv",
-    "title": "Resource-Aware Intrusion Detection in Infrastructure Networks: A Game-Theoretic Approach",
-    "url": "http://arxiv.org/abs/2608.06655v1",
-    "published": "2026-08-07T00:00:37Z",
-    "authors": "Xuanli Lin et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Game-theoretic analysis of defender resource allocation against adaptive attackers in infrastructure networks.",
-    "unproven": "application to real network topologies; computational tractability of equilibrium finding at production scale; empirical validation.",
-    "scored_at": "2026-08-10T05:16:45.943961366Z"
-  },
-  "arxiv:2608.06683v1": {
-    "id": "arxiv:2608.06683v1",
-    "source": "arxiv",
-    "title": "High-Performance Quantum Transduction with Correlated Noise",
-    "url": "http://arxiv.org/abs/2608.06683v1",
-    "published": "2026-08-07T01:07:25Z",
-    "authors": "Yu-Bo Hou et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Quantum transduction protocol exploits correlated noise to improve microwave-optical conversion fidelity.",
-    "unproven": "entirely outside the reader's remit; quantum hardware engineering unrelated to SDLC, secure architecture, or threat modeling",
-    "scored_at": "2026-08-10T09:08:14.833948698Z"
-  },
-  "arxiv:2608.06690v1": {
-    "id": "arxiv:2608.06690v1",
-    "source": "arxiv",
-    "title": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
-    "url": "http://arxiv.org/abs/2608.06690v1",
-    "published": "2026-08-07T01:39:36Z",
-    "authors": "Zhuoheng Huang et al.",
-    "novelty": 4,
-    "actionability": 2,
-    "score": 6,
-    "quadrant": "NEW GROUND",
-    "dek": "Sparse MoE routing can enforce parameter-level access control with zero unauthorized expert execution across adversarial scenarios.",
-    "unproven": "whether the TCB assumption holds under real deployment, side-channel attacks, or parameter extraction; scaling beyond two tested models.",
-    "scored_at": "2026-08-10T05:16:45.943960965Z"
-  },
   "arxiv:2608.06703v1": {
     "id": "arxiv:2608.06703v1",
     "source": "arxiv",
@@ -15920,21 +15830,6 @@
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
   },
-  "hn:49203184": {
-    "id": "hn:49203184",
-    "source": "hn",
-    "title": "GitHub Actions suffers second-longest major outage in its history",
-    "url": "https://githubstatus.com/uptime/br0l2tvcx85d",
-    "published": "2026-08-06T21:59:01Z",
-    "authors": "KernelPryanic",
-    "points": 41,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "GitHub Actions experienced a major outage; status page confirms incident resolved.",
-    "scored_at": "2026-08-07T00:50:30.572204718Z"
-  },
   "hn:49205461": {
     "id": "hn:49205461",
     "source": "hn",
@@ -17503,22 +17398,6 @@
       "CVE-2026-73570"
     ],
     "scored_at": "2026-08-21T20:14:57.424322662Z"
-  },
-  "kev:CVE-2026-8037": {
-    "id": "kev:CVE-2026-8037",
-    "source": "kev",
-    "title": "CVE-2026-8037 — Progress LoadMaster Command Injection Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8037",
-    "published": "2026-08-07T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Progress LoadMaster. Confirmed exploited in the wild. Federal remediation due 10 August.",
-    "cves": [
-      "CVE-2026-8037"
-    ],
-    "scored_at": "2026-08-07T20:30:03.598381744Z"
   },
   "kev:CVE-2026-81578": {
     "id": "kev:CVE-2026-81578",
