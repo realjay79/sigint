@@ -1,37 +1,4 @@
 {
-  "arxiv:2608.07808v1": {
-    "id": "arxiv:2608.07808v1",
-    "source": "arxiv",
-    "title": "The Anatomy of a Prompt Injection: A Component Model for Structured Analysis",
-    "url": "http://arxiv.org/abs/2608.07808v1",
-    "published": "2026-08-07T23:16:35Z",
-    "authors": "Jeremy McHugh",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Seven-component taxonomy structures prompt-injection attacks by attacker intent rather than surface wording, unifying prior frameworks.",
-    "unproven": "no evidence the taxonomy catches attacks prior systems missed; no field deployment data",
-    "cves": [
-      "CVE-2025-32711"
-    ],
-    "scored_at": "2026-08-11T08:44:14.853150209Z"
-  },
-  "arxiv:2608.07846v1": {
-    "id": "arxiv:2608.07846v1",
-    "source": "arxiv",
-    "title": "China RealDID: Verifiable Credentials Anchored in Legal Identity",
-    "url": "http://arxiv.org/abs/2608.07846v1",
-    "published": "2026-08-08T01:20:28Z",
-    "authors": "Yifan He",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Three-layer architecture couples state identity with decentralized credentials via content-blind relay; evaluated on five adversary classes.",
-    "unproven": "no deployment outside simulation; metadata leakage and presentation linkability remain unmitigated",
-    "scored_at": "2026-08-11T08:44:14.853149949Z"
-  },
   "arxiv:2608.07892v1": {
     "id": "arxiv:2608.07892v1",
     "source": "arxiv",

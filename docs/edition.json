@@ -1,36 +1,15 @@
 {
-  "generated": "2026-09-06T21:50:31.801214212Z",
-  "edition": 44,
+  "generated": "2026-09-07T01:53:19.878200391Z",
+  "edition": 45,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 1,
-    "by_source": {
-      "kev": 1
-    },
-    "by_quadrant": {
-      "STANDING ORDERS": 1
-    }
+    "total": 0,
+    "by_source": {},
+    "by_quadrant": {}
   },
-  "items": [
-    {
-      "id": "kev:CVE-2026-85046",
-      "source": "kev",
-      "title": "CVE-2026-85046 — Google Chromium V8 Type Confusion Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
-      "published": "2026-09-04T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Google Chromium V8. Confirmed exploited in the wild. Federal remediation due 18 September.",
-      "cves": [
-        "CVE-2026-85046"
-      ],
-      "scored_at": "2026-09-04T18:42:33.766530986Z"
-    }
-  ],
+  "items": null,
   "noise": null
 }
