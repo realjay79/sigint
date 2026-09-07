@@ -1,34 +1,4 @@
 {
-  "arxiv:2608.08245v1": {
-    "id": "arxiv:2608.08245v1",
-    "source": "arxiv",
-    "title": "Privacy-Preserving Data Drift Detection and Recovery for Large-Scale LLM Applications via Proxy Representations",
-    "url": "http://arxiv.org/abs/2608.08245v1",
-    "published": "2026-08-08T17:15:18Z",
-    "authors": "Michael Levit et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "ProxyDrift detects and measures data drift in production LLM applications using non-PII proxy representations without raw user data access.",
-    "unproven": "framework design and redundancy-aware alignment score not validated on production LLM services; no comparison to competing drift-detection approaches",
-    "scored_at": "2026-08-11T08:43:54.383137792Z"
-  },
-  "arxiv:2608.08341v1": {
-    "id": "arxiv:2608.08341v1",
-    "source": "arxiv",
-    "title": "Differential Privacy for Markov Chain State Trajectories",
-    "url": "http://arxiv.org/abs/2608.08341v1",
-    "published": "2026-08-08T21:34:26Z",
-    "authors": "Alexander Benvenuti et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Differential privacy framework for Markov chain state trajectories using shortest-path distance minimization.",
-    "unproven": "theoretical framework with no empirical evaluation; no application to credit risk, location tracking, or browsing behavior in production systems",
-    "scored_at": "2026-08-11T08:43:54.383137672Z"
-  },
   "arxiv:2608.08453v1": {
     "id": "arxiv:2608.08453v1",
     "source": "arxiv",
@@ -14558,37 +14528,6 @@
     "dek": "Tavis-Cummings model extended to arbitrary excitations using group theory; new many-excitation polariton behavior derived.",
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
-  },
-  "hn:49223845": {
-    "id": "hn:49223845",
-    "source": "hn",
-    "title": "Amazon Is Creating the Biggest Pollution Source in the Country",
-    "url": "https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country",
-    "published": "2026-08-08T17:27:52Z",
-    "authors": "geox",
-    "points": 88,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Environmental policy piece on Amazon's data center footprint; outside application security.",
-    "unproven": "entire item outside reader's remit",
-    "scored_at": "2026-08-08T20:17:37.94072338Z"
-  },
-  "hn:49225139": {
-    "id": "hn:49225139",
-    "source": "hn",
-    "title": "Open-source interactive map for the Aug 12 total solar eclipse",
-    "url": "https://eclipsefan.org/?lat=43.4623\u0026layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm\u0026lon=-3.8099\u0026opacity=besselian%3A0.2%2Cumbra-live%3A0.2\u0026palier=minute\u0026t=max\u0026v=2\u0026zoom=6",
-    "published": "2026-08-08T19:38:08Z",
-    "authors": "MarcoDewey",
-    "points": 83,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Interactive eclipse map for August 12 total solar eclipse.",
-    "scored_at": "2026-08-09T00:56:30.881080459Z"
   },
   "hn:49226536": {
     "id": "hn:49226536",
