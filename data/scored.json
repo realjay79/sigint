@@ -1,19 +1,4 @@
 {
-  "arxiv:2608.08924v1": {
-    "id": "arxiv:2608.08924v1",
-    "source": "arxiv",
-    "title": "From Noise to Meaning: Meaningful Secret Sharing with Tamper Detection for Facial Recognition",
-    "url": "http://arxiv.org/abs/2608.08924v1",
-    "published": "2026-08-09T21:36:17Z",
-    "authors": "Ajnas Muhammed et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Visual secret sharing of facial images uses steganography and watermarking to embed shares in cover images while detecting tampering.",
-    "unproven": "whether steganographic embedding survives real-world compression and transmission; practical security against known steganalysis",
-    "scored_at": "2026-08-11T04:59:09.218013367Z"
-  },
   "arxiv:2608.08993v1": {
     "id": "arxiv:2608.08993v1",
     "source": "arxiv",
@@ -14348,22 +14333,6 @@
     "dek": "Tavis-Cummings model extended to arbitrary excitations using group theory; new many-excitation polariton behavior derived.",
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
-  },
-  "hn:49234724": {
-    "id": "hn:49234724",
-    "source": "hn",
-    "title": "Ransomware gangs skip the CEO, head straight for the 40-something IT manager",
-    "url": "https://theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
-    "published": "2026-08-09T19:20:40Z",
-    "authors": "joebuckwilliams",
-    "points": 69,
-    "novelty": 2,
-    "actionability": 2,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Ransomware operators target mid-level IT staff over executives; social engineering tactic, not technical discovery.",
-    "unproven": "Whether this represents a shift in attacker behavior or reporting bias; no empirical prevalence data across threat intel sources.",
-    "scored_at": "2026-08-10T00:58:48.733603245Z"
   },
   "hn:49239751": {
     "id": "hn:49239751",
