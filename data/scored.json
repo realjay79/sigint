@@ -1,49 +1,4 @@
 {
-  "arxiv:2608.08795v1": {
-    "id": "arxiv:2608.08795v1",
-    "source": "arxiv",
-    "title": "Toward Metacognitive One-Shot Indirect Prompt Injection: Strategy Abstraction Via Outcome-Conditioned Reflection",
-    "url": "http://arxiv.org/abs/2608.08795v1",
-    "published": "2026-08-09T16:19:05Z",
-    "authors": "Sihan Hou et al.",
-    "novelty": 4,
-    "actionability": 3,
-    "score": 7,
-    "quadrant": "NEW GROUND",
-    "dek": "SAVOR performs one-shot indirect prompt injection against LLM agents by distilling adversarial strategies offline into frozen memory.",
-    "unproven": "transferability to production guardrails and mitigations; whether strategy memory generalizes across agent architectures and deployment settings",
-    "scored_at": "2026-08-11T04:59:09.218013687Z"
-  },
-  "arxiv:2608.08831v1": {
-    "id": "arxiv:2608.08831v1",
-    "source": "arxiv",
-    "title": "Treating Statewide CORS Networks as Spatially Distributed Sensors for GNSS Integrity Monitoring under Unintentional and Deliberate Threats",
-    "url": "http://arxiv.org/abs/2608.08831v1",
-    "published": "2026-08-09T17:30:28Z",
-    "authors": "Minhaj Uddin Ahmad et al.",
-    "novelty": 2,
-    "actionability": 3,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Network Consistency Index detects GNSS interference in statewide CORS networks using spatial gradient and graph-smoothness metrics.",
-    "unproven": "false-positive rates under benign atmospheric variation; whether framework generalizes to networks outside Alabama; real-time detection feasibility",
-    "scored_at": "2026-08-11T04:59:09.218013577Z"
-  },
-  "arxiv:2608.08865v1": {
-    "id": "arxiv:2608.08865v1",
-    "source": "arxiv",
-    "title": "Beyond Best Response: Quantal Stackelberg Deception as Insurance Against Attacker Misspecification",
-    "url": "http://arxiv.org/abs/2608.08865v1",
-    "published": "2026-08-09T19:03:18Z",
-    "authors": "Asif Rahman et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Quantal Stackelberg equilibrium models attacker decision noise in security games and insures against model misspecification via logit choice.",
-    "unproven": "whether rationality parameter λ is estimable from real attacker behavior; generalization beyond the two-network CVE case study",
-    "scored_at": "2026-08-11T04:59:09.218013467Z"
-  },
   "arxiv:2608.08924v1": {
     "id": "arxiv:2608.08924v1",
     "source": "arxiv",
@@ -15804,6 +15759,22 @@
     ],
     "scored_at": "2026-08-21T20:14:57.424322662Z"
   },
+  "kev:CVE-2026-75650": {
+    "id": "kev:CVE-2026-75650",
+    "source": "kev",
+    "title": "CVE-2026-75650 — Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650",
+    "published": "2026-09-08T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Adobe Commerce and Magento. Confirmed exploited in the wild. Federal remediation due 11 September.",
+    "cves": [
+      "CVE-2026-75650"
+    ],
+    "scored_at": "2026-09-08T19:08:23.988116821Z"
+  },
   "kev:CVE-2026-81578": {
     "id": "kev:CVE-2026-81578",
     "source": "kev",
@@ -15819,6 +15790,22 @@
       "CVE-2026-81578"
     ],
     "scored_at": "2026-08-31T18:26:23.438724033Z"
+  },
+  "kev:CVE-2026-81963": {
+    "id": "kev:CVE-2026-81963",
+    "source": "kev",
+    "title": "CVE-2026-81963 — Microsoft Windows Link Following Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
+    "published": "2026-09-08T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Microsoft Windows. Confirmed exploited in the wild. Federal remediation due 22 September.",
+    "cves": [
+      "CVE-2026-81963"
+    ],
+    "scored_at": "2026-09-08T19:08:23.988120157Z"
   },
   "kev:CVE-2026-82078": {
     "id": "kev:CVE-2026-82078",
@@ -15915,6 +15902,38 @@
       "CVE-2026-85046"
     ],
     "scored_at": "2026-09-04T18:42:33.766530986Z"
+  },
+  "kev:CVE-2026-85880": {
+    "id": "kev:CVE-2026-85880",
+    "source": "kev",
+    "title": "CVE-2026-85880 — Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
+    "published": "2026-09-08T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Microsoft Windows. Confirmed exploited in the wild. Federal remediation due 22 September.",
+    "cves": [
+      "CVE-2026-85880"
+    ],
+    "scored_at": "2026-09-08T19:08:23.988123433Z"
+  },
+  "kev:CVE-2026-86218": {
+    "id": "kev:CVE-2026-86218",
+    "source": "kev",
+    "title": "CVE-2026-86218 — N-able N-central Static Code Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
+    "published": "2026-09-08T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 11 September.",
+    "cves": [
+      "CVE-2026-86218"
+    ],
+    "scored_at": "2026-09-08T19:08:23.988122Z"
   },
   "kev:CVE-2026-9586": {
     "id": "kev:CVE-2026-9586",
