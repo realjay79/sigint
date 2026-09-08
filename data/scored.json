@@ -14529,22 +14529,6 @@
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
   },
-  "hn:49226536": {
-    "id": "hn:49226536",
-    "source": "hn",
-    "title": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
-    "url": "https://shopify.engineering/scaling-inventory-reservations",
-    "published": "2026-08-08T22:32:50Z",
-    "authors": "adletbalzhanov",
-    "points": 104,
-    "novelty": 2,
-    "actionability": 2,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Shopify migrated inventory reservation logic from Redis to MySQL; architectural choice specific to their scale and schema.",
-    "unproven": "whether the tradeoffs generalize beyond Shopify's specific workload, schema, and operational maturity.",
-    "scored_at": "2026-08-09T04:55:24.439005683Z"
-  },
   "hn:49234724": {
     "id": "hn:49234724",
     "source": "hn",
