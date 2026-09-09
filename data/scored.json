@@ -1,34 +1,4 @@
 {
-  "arxiv:2608.08993v1": {
-    "id": "arxiv:2608.08993v1",
-    "source": "arxiv",
-    "title": "A Complexity-Theoretic Approach to Proofs of Space",
-    "url": "http://arxiv.org/abs/2608.08993v1",
-    "published": "2026-08-10T01:28:01Z",
-    "authors": "Marshall Ball et al.",
-    "novelty": 4,
-    "actionability": 1,
-    "score": 5,
-    "quadrant": "NEW GROUND",
-    "dek": "Proofs of space can be constructed from derandomization and collision-resistant hashing rather than random-oracle assumptions alone.",
-    "unproven": "concrete instantiation parameters; practical efficiency relative to existing protocols; whether assumptions hold in adversarial settings",
-    "scored_at": "2026-08-11T04:59:09.218013227Z"
-  },
-  "arxiv:2608.09001v1": {
-    "id": "arxiv:2608.09001v1",
-    "source": "arxiv",
-    "title": "Mind the Hook: Source-Level Auditing of Privacy Defenses in Retrieval-Augmented Generation",
-    "url": "http://arxiv.org/abs/2608.09001v1",
-    "published": "2026-08-10T01:40:25Z",
-    "authors": "Yanhang Li et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Active-path audit exposes that DP-style RAG defenses modify retrieval only, leaving generation hooks unimplemented and named-entity leakage unguarded.",
-    "unproven": "whether findings generalize beyond the authors' reimplementations; scope limited to their testing stack and methodology",
-    "scored_at": "2026-08-11T04:59:09.218013106Z"
-  },
   "arxiv:2608.09025v1": {
     "id": "arxiv:2608.09025v1",
     "source": "arxiv",
