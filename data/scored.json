@@ -1,109 +1,4 @@
 {
-  "arxiv:2608.10147v1": {
-    "id": "arxiv:2608.10147v1",
-    "source": "arxiv",
-    "title": "A Simple Algorithm for Best Separable State",
-    "url": "http://arxiv.org/abs/2608.10147v1",
-    "published": "2026-08-10T19:04:15Z",
-    "authors": "Prashanti Anderson et al.",
-    "novelty": 4,
-    "actionability": 1,
-    "score": 5,
-    "quadrant": "NEW GROUND",
-    "dek": "Simpler algorithm for best separable state problem with improved guarantees.",
-    "unproven": "practical relevance to post-quantum or agent security in SDLC",
-    "scored_at": "2026-08-12T12:45:15.371860994Z"
-  },
-  "arxiv:2608.10152v1": {
-    "id": "arxiv:2608.10152v1",
-    "source": "arxiv",
-    "title": "World-First SEM-based Recovery of Crash EDR Data from the EEPROM of a Severely Damaged SRS Module Using CrashScan",
-    "url": "http://arxiv.org/abs/2608.10152v1",
-    "published": "2026-08-10T19:09:41Z",
-    "authors": "Sergei Skorobogatov et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Scanning-electron-microscopy data recovery from thermally destroyed automotive SRS module EEPROM succeeds despite adjacent chip failure.",
-    "unproven": "scalability beyond single case study; cost-effectiveness relative to other forensics; relevance to application security engineering practice.",
-    "scored_at": "2026-08-12T05:25:02.130708272Z"
-  },
-  "arxiv:2608.10160v1": {
-    "id": "arxiv:2608.10160v1",
-    "source": "arxiv",
-    "title": "Was Schrödinger ever a determinist?",
-    "url": "http://arxiv.org/abs/2608.10160v1",
-    "published": "2026-08-10T19:30:17Z",
-    "authors": "Flavio Del Santo et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Historical analysis of Schrödinger's determinism views.",
-    "unproven": "entirely outside application security and software engineering",
-    "scored_at": "2026-08-12T12:45:15.371860614Z"
-  },
-  "arxiv:2608.10166v1": {
-    "id": "arxiv:2608.10166v1",
-    "source": "arxiv",
-    "title": "MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation",
-    "url": "http://arxiv.org/abs/2608.10166v1",
-    "published": "2026-08-10T19:33:15Z",
-    "authors": "Jie Cao et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "MarkNull removes AI-generated image watermarks via latent-space manipulation across post-hoc, fine-tuning, and noise-based schemes; 53% bit accuracy achieved.",
-    "unproven": "whether commercial watermarking implementations employ defenses not tested; real-world deployment resilience; applicability to non-generative watermarks.",
-    "scored_at": "2026-08-12T05:25:02.130708132Z"
-  },
-  "arxiv:2608.10171v1": {
-    "id": "arxiv:2608.10171v1",
-    "source": "arxiv",
-    "title": "Generating Attacks for LLMs with GFlowNets",
-    "url": "http://arxiv.org/abs/2608.10171v1",
-    "published": "2026-08-10T19:39:10Z",
-    "authors": "Berkay Ozcam et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "GFlowNet-based red teaming trains one LLM to attack another, generating adaptive adversarial inputs beyond fixed datasets.",
-    "unproven": "whether generated attacks are novel or simply recombine known jailbreaks; transferability to models outside training; comparison to manual red-team findings.",
-    "scored_at": "2026-08-12T05:25:02.130708002Z"
-  },
-  "arxiv:2608.10202v1": {
-    "id": "arxiv:2608.10202v1",
-    "source": "arxiv",
-    "title": "Unextendible stabiliser bases",
-    "url": "http://arxiv.org/abs/2608.10202v1",
-    "published": "2026-08-10T20:17:51Z",
-    "authors": "Markus Frembs",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Unextendible stabiliser bases exist for four qubits and three odd-prime qudits.",
-    "unproven": "entirely outside application security and financial services engineering",
-    "scored_at": "2026-08-12T12:45:08.480111628Z"
-  },
-  "arxiv:2608.10230v1": {
-    "id": "arxiv:2608.10230v1",
-    "source": "arxiv",
-    "title": "Bayesian approach to simultaneous quantum multiparameter estimation with finite data",
-    "url": "http://arxiv.org/abs/2608.10230v1",
-    "published": "2026-08-10T21:07:13Z",
-    "authors": "Chun Kit Dennis Law et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Bayesian framework resolves incompatible measurements in quantum multiparameter estimation.",
-    "unproven": "entirely outside application security and financial services engineering",
-    "scored_at": "2026-08-12T12:45:08.480111517Z"
-  },
   "arxiv:2608.10279v1": {
     "id": "arxiv:2608.10279v1",
     "source": "arxiv",
@@ -12858,38 +12753,6 @@
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
   },
-  "hn:49249111": {
-    "id": "hn:49249111",
-    "source": "hn",
-    "title": "How to Increase OpenBSDs Resilience to Power Outages",
-    "url": "https://zlhgo.com/posts/how_to_increase_openbsds_resilience_to_power_outages",
-    "published": "2026-08-10T20:16:40Z",
-    "authors": "currysausage",
-    "points": 31,
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "OpenBSD hardening practices for power resilience; ops domain, not application security.",
-    "unproven": "applies only to a single OS and deployment model",
-    "scored_at": "2026-08-12T09:01:49.531037479Z"
-  },
-  "hn:49249971": {
-    "id": "hn:49249971",
-    "source": "hn",
-    "title": "Amazon backs power plant that may become top source of US climate pollution",
-    "url": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge",
-    "published": "2026-08-10T21:26:16Z",
-    "authors": "pjmlp",
-    "points": 156,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Amazon's power plant investment reported; outside application security and SDLC scope.",
-    "unproven": "entirely outside reader's remit",
-    "scored_at": "2026-08-11T00:58:13.523288794Z"
-  },
   "hn:49253250": {
     "id": "hn:49253250",
     "source": "hn",
@@ -13900,6 +13763,22 @@
     ],
     "scored_at": "2026-08-27T18:37:42.868037995Z"
   },
+  "kev:CVE-2025-25249": {
+    "id": "kev:CVE-2025-25249",
+    "source": "kev",
+    "title": "CVE-2025-25249 — Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
+    "published": "2026-09-09T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Fortinet Multiple Products. Confirmed exploited in the wild. Federal remediation due 12 September.",
+    "cves": [
+      "CVE-2025-25249"
+    ],
+    "scored_at": "2026-09-09T22:07:04.376103411Z"
+  },
   "kev:CVE-2025-62593": {
     "id": "kev:CVE-2025-62593",
     "source": "kev",
@@ -13915,6 +13794,38 @@
       "CVE-2025-62593"
     ],
     "scored_at": "2026-08-17T16:16:34.611058874Z"
+  },
+  "kev:CVE-2026-19490": {
+    "id": "kev:CVE-2026-19490",
+    "source": "kev",
+    "title": "CVE-2026-19490 — Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
+    "published": "2026-09-09T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Citrix NetScaler. Confirmed exploited in the wild. Federal remediation due 12 September.",
+    "cves": [
+      "CVE-2026-19490"
+    ],
+    "scored_at": "2026-09-09T22:07:04.376100526Z"
+  },
+  "kev:CVE-2026-20079": {
+    "id": "kev:CVE-2026-20079",
+    "source": "kev",
+    "title": "CVE-2026-20079 — Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
+    "published": "2026-09-09T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management. Confirmed exploited in the wild. Federal remediation due 12 September.",
+    "cves": [
+      "CVE-2026-20079"
+    ],
+    "scored_at": "2026-09-09T22:07:04.376107709Z"
   },
   "kev:CVE-2026-20349": {
     "id": "kev:CVE-2026-20349",
@@ -14379,6 +14290,22 @@
       "CVE-2026-86218"
     ],
     "scored_at": "2026-09-08T19:08:23.988122Z"
+  },
+  "kev:CVE-2026-87491": {
+    "id": "kev:CVE-2026-87491",
+    "source": "kev",
+    "title": "CVE-2026-87491 — Google Chromium V8 Out of Bounds Write Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491",
+    "published": "2026-09-09T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Google Chromium V8. Confirmed exploited in the wild. Federal remediation due 23 September.",
+    "cves": [
+      "CVE-2026-87491"
+    ],
+    "scored_at": "2026-09-09T22:07:04.376105535Z"
   },
   "kev:CVE-2026-9586": {
     "id": "kev:CVE-2026-9586",
