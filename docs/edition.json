@@ -1,20 +1,52 @@
 {
-  "generated": "2026-09-10T18:49:13.000453963Z",
+  "generated": "2026-09-10T22:05:10.725580971Z",
   "edition": 48,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 8,
+    "total": 10,
     "by_source": {
-      "kev": 8
+      "kev": 10
     },
     "by_quadrant": {
-      "STANDING ORDERS": 8
+      "STANDING ORDERS": 10
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-86060",
+      "source": "kev",
+      "title": "CVE-2026-86060 — MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
+      "published": "2026-09-10T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "MikroTik RouterOS. Confirmed exploited in the wild. Federal remediation due 13 September.",
+      "cves": [
+        "CVE-2026-86060"
+      ],
+      "scored_at": "2026-09-10T22:05:10.428940389Z"
+    },
+    {
+      "id": "kev:CVE-2026-67277",
+      "source": "kev",
+      "title": "CVE-2026-67277 — MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
+      "published": "2026-09-10T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "MikroTik RouterOS. Confirmed exploited in the wild. Federal remediation due 13 September.",
+      "cves": [
+        "CVE-2026-67277"
+      ],
+      "scored_at": "2026-09-10T22:05:10.428944675Z"
+    },
     {
       "id": "kev:CVE-2026-87491",
       "source": "kev",
@@ -96,22 +128,6 @@
       "scored_at": "2026-09-08T19:08:23.988123433Z"
     },
     {
-      "id": "kev:CVE-2026-75650",
-      "source": "kev",
-      "title": "CVE-2026-75650 — Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650",
-      "published": "2026-09-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Adobe Commerce and Magento. Confirmed exploited in the wild. Federal remediation due 11 September.",
-      "cves": [
-        "CVE-2026-75650"
-      ],
-      "scored_at": "2026-09-08T19:08:23.988116821Z"
-    },
-    {
       "id": "kev:CVE-2026-86218",
       "source": "kev",
       "title": "CVE-2026-86218 — N-able N-central Static Code Injection Vulnerability",
@@ -126,6 +142,22 @@
         "CVE-2026-86218"
       ],
       "scored_at": "2026-09-08T19:08:23.988122Z"
+    },
+    {
+      "id": "kev:CVE-2026-75650",
+      "source": "kev",
+      "title": "CVE-2026-75650 — Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650",
+      "published": "2026-09-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Adobe Commerce and Magento. Confirmed exploited in the wild. Federal remediation due 11 September.",
+      "cves": [
+        "CVE-2026-75650"
+      ],
+      "scored_at": "2026-09-08T19:08:23.988116821Z"
     },
     {
       "id": "kev:CVE-2026-81963",
