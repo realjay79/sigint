@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10T02:06:29.59603145Z",
+  "generated": "2026-09-10T08:30:19.035001616Z",
   "edition": 48,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,20 +16,20 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-20079",
+      "id": "kev:CVE-2026-19490",
       "source": "kev",
-      "title": "CVE-2026-20079 — Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
+      "title": "CVE-2026-19490 — Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
       "published": "2026-09-09T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management. Confirmed exploited in the wild. Federal remediation due 12 September.",
+      "dek": "Citrix NetScaler. Confirmed exploited in the wild. Federal remediation due 12 September.",
       "cves": [
-        "CVE-2026-20079"
+        "CVE-2026-19490"
       ],
-      "scored_at": "2026-09-09T22:07:04.376107709Z"
+      "scored_at": "2026-09-09T22:07:04.376100526Z"
     },
     {
       "id": "kev:CVE-2026-87491",
@@ -48,22 +48,6 @@
       "scored_at": "2026-09-09T22:07:04.376105535Z"
     },
     {
-      "id": "kev:CVE-2026-19490",
-      "source": "kev",
-      "title": "CVE-2026-19490 — Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
-      "published": "2026-09-09T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Citrix NetScaler. Confirmed exploited in the wild. Federal remediation due 12 September.",
-      "cves": [
-        "CVE-2026-19490"
-      ],
-      "scored_at": "2026-09-09T22:07:04.376100526Z"
-    },
-    {
       "id": "kev:CVE-2025-25249",
       "source": "kev",
       "title": "CVE-2025-25249 — Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
@@ -78,6 +62,22 @@
         "CVE-2025-25249"
       ],
       "scored_at": "2026-09-09T22:07:04.376103411Z"
+    },
+    {
+      "id": "kev:CVE-2026-20079",
+      "source": "kev",
+      "title": "CVE-2026-20079 — Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
+      "published": "2026-09-09T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management. Confirmed exploited in the wild. Federal remediation due 12 September.",
+      "cves": [
+        "CVE-2026-20079"
+      ],
+      "scored_at": "2026-09-09T22:07:04.376107709Z"
     },
     {
       "id": "kev:CVE-2026-75650",
@@ -96,22 +96,6 @@
       "scored_at": "2026-09-08T19:08:23.988116821Z"
     },
     {
-      "id": "kev:CVE-2026-86218",
-      "source": "kev",
-      "title": "CVE-2026-86218 — N-able N-central Static Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
-      "published": "2026-09-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 11 September.",
-      "cves": [
-        "CVE-2026-86218"
-      ],
-      "scored_at": "2026-09-08T19:08:23.988122Z"
-    },
-    {
       "id": "kev:CVE-2026-85880",
       "source": "kev",
       "title": "CVE-2026-85880 — Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
@@ -126,6 +110,22 @@
         "CVE-2026-85880"
       ],
       "scored_at": "2026-09-08T19:08:23.988123433Z"
+    },
+    {
+      "id": "kev:CVE-2026-86218",
+      "source": "kev",
+      "title": "CVE-2026-86218 — N-able N-central Static Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
+      "published": "2026-09-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "N-able N-central. Confirmed exploited in the wild. Federal remediation due 11 September.",
+      "cves": [
+        "CVE-2026-86218"
+      ],
+      "scored_at": "2026-09-08T19:08:23.988122Z"
     },
     {
       "id": "kev:CVE-2026-81963",
