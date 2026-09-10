@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10T08:30:19.035001616Z",
+  "generated": "2026-09-10T15:29:23.33944839Z",
   "edition": 48,
   "name": "SIGINT",
   "mark": "^C",
@@ -15,22 +15,6 @@
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-19490",
-      "source": "kev",
-      "title": "CVE-2026-19490 — Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
-      "published": "2026-09-09T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Citrix NetScaler. Confirmed exploited in the wild. Federal remediation due 12 September.",
-      "cves": [
-        "CVE-2026-19490"
-      ],
-      "scored_at": "2026-09-09T22:07:04.376100526Z"
-    },
     {
       "id": "kev:CVE-2026-87491",
       "source": "kev",
@@ -80,6 +64,38 @@
       "scored_at": "2026-09-09T22:07:04.376107709Z"
     },
     {
+      "id": "kev:CVE-2026-19490",
+      "source": "kev",
+      "title": "CVE-2026-19490 — Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
+      "published": "2026-09-09T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Citrix NetScaler. Confirmed exploited in the wild. Federal remediation due 12 September.",
+      "cves": [
+        "CVE-2026-19490"
+      ],
+      "scored_at": "2026-09-09T22:07:04.376100526Z"
+    },
+    {
+      "id": "kev:CVE-2026-81963",
+      "source": "kev",
+      "title": "CVE-2026-81963 — Microsoft Windows Link Following Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
+      "published": "2026-09-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft Windows. Confirmed exploited in the wild. Federal remediation due 22 September.",
+      "cves": [
+        "CVE-2026-81963"
+      ],
+      "scored_at": "2026-09-08T19:08:23.988120157Z"
+    },
+    {
       "id": "kev:CVE-2026-75650",
       "source": "kev",
       "title": "CVE-2026-75650 — Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
@@ -94,22 +110,6 @@
         "CVE-2026-75650"
       ],
       "scored_at": "2026-09-08T19:08:23.988116821Z"
-    },
-    {
-      "id": "kev:CVE-2026-85880",
-      "source": "kev",
-      "title": "CVE-2026-85880 — Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
-      "published": "2026-09-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft Windows. Confirmed exploited in the wild. Federal remediation due 22 September.",
-      "cves": [
-        "CVE-2026-85880"
-      ],
-      "scored_at": "2026-09-08T19:08:23.988123433Z"
     },
     {
       "id": "kev:CVE-2026-86218",
@@ -128,10 +128,10 @@
       "scored_at": "2026-09-08T19:08:23.988122Z"
     },
     {
-      "id": "kev:CVE-2026-81963",
+      "id": "kev:CVE-2026-85880",
       "source": "kev",
-      "title": "CVE-2026-81963 — Microsoft Windows Link Following Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
+      "title": "CVE-2026-85880 — Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
       "published": "2026-09-08T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
@@ -139,9 +139,9 @@
       "quadrant": "STANDING ORDERS",
       "dek": "Microsoft Windows. Confirmed exploited in the wild. Federal remediation due 22 September.",
       "cves": [
-        "CVE-2026-81963"
+        "CVE-2026-85880"
       ],
-      "scored_at": "2026-09-08T19:08:23.988120157Z"
+      "scored_at": "2026-09-08T19:08:23.988123433Z"
     }
   ],
   "noise": null
