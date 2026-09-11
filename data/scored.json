@@ -1,49 +1,4 @@
 {
-  "arxiv:2608.12544v1": {
-    "id": "arxiv:2608.12544v1",
-    "source": "arxiv",
-    "title": "Coherent temporal filtering of multimode parametric down-conversion using a quantum pulse gate",
-    "url": "http://arxiv.org/abs/2608.12544v1",
-    "published": "2026-08-12T19:28:56Z",
-    "authors": "Abhinandan Bhattacharjee et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Quantum pulse gate filters multimode photon sources to improve spectral purity above 0.90.",
-    "unproven": "no relevance to application security, development tooling, or code review workflows",
-    "scored_at": "2026-08-14T12:41:44.238092164Z"
-  },
-  "arxiv:2608.12545v1": {
-    "id": "arxiv:2608.12545v1",
-    "source": "arxiv",
-    "title": "Ising-machine-like Driving Condition Restrictions in SSBM and Additional Pseudo-annealing- Driving Method for SSBM that Achieves Best Cut Value Search -",
-    "url": "http://arxiv.org/abs/2608.12545v1",
-    "published": "2026-08-12T19:34:32Z",
-    "authors": "Toshiya Sato",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Combinatorial optimization via spontaneous symmetry breaking machine achieves 99.7% of known best cut on one benchmark.",
-    "unproven": "no connection to application security, SDLC tooling, or software engineering practice",
-    "scored_at": "2026-08-14T12:41:44.238091873Z"
-  },
-  "arxiv:2608.12559v1": {
-    "id": "arxiv:2608.12559v1",
-    "source": "arxiv",
-    "title": "Pulse Engineering of Quantum Many-Body Dynamics: Emergent Scar States, Entanglement, and Nonstabilizerness",
-    "url": "http://arxiv.org/abs/2608.12559v1",
-    "published": "2026-08-12T19:51:24Z",
-    "authors": "Prasant Mallik et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Pulse engineering creates scar states and entanglement plateaus in many-body quantum systems.",
-    "unproven": "not in application security, threat detection, SDLC, or secure development tooling",
-    "scored_at": "2026-08-14T12:41:36.474139358Z"
-  },
   "arxiv:2608.12625v1": {
     "id": "arxiv:2608.12625v1",
     "source": "arxiv",
@@ -10148,22 +10103,6 @@
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
   },
-  "hn:49279013": {
-    "id": "hn:49279013",
-    "source": "hn",
-    "title": "Thanks to social media, canned sardines are a scarcity on the supermarket shelf",
-    "url": "https://corneroffifth.studio/why-cant-you-find-canned-sardines-right-now",
-    "published": "2026-08-12T21:45:29Z",
-    "authors": "carabiner",
-    "points": 41,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Social media drives demand for canned sardines, creating retail scarcity.",
-    "unproven": "entirely outside the reader's remit",
-    "scored_at": "2026-08-13T01:07:01.935162385Z"
-  },
   "hn:49286357": {
     "id": "hn:49286357",
     "source": "hn",
@@ -11498,6 +11437,22 @@
       "CVE-2026-85046"
     ],
     "scored_at": "2026-09-04T18:42:33.766530986Z"
+  },
+  "kev:CVE-2026-85706": {
+    "id": "kev:CVE-2026-85706",
+    "source": "kev",
+    "title": "CVE-2026-85706 — GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
+    "published": "2026-09-11T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "GitLab Community Edition and Enterprise Edition. Confirmed exploited in the wild. Federal remediation due 14 September.",
+    "cves": [
+      "CVE-2026-85706"
+    ],
+    "scored_at": "2026-09-11T22:06:11.679434235Z"
   },
   "kev:CVE-2026-85880": {
     "id": "kev:CVE-2026-85880",
