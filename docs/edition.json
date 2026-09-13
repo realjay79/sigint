@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13T08:38:14.66373969Z",
+  "generated": "2026-09-13T15:18:53.167456363Z",
   "edition": 51,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,22 +16,6 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-42018",
-      "source": "kev",
-      "title": "CVE-2026-42018 — JFrog Artifactory Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
-      "published": "2026-09-11T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "JFrog Artifactory. Confirmed exploited in the wild. Federal remediation due 25 September.",
-      "cves": [
-        "CVE-2026-42018"
-      ],
-      "scored_at": "2026-09-11T18:52:09.294514447Z"
-    },
-    {
       "id": "kev:CVE-2026-84869",
       "source": "kev",
       "title": "CVE-2026-84869 — ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
@@ -46,6 +30,22 @@
         "CVE-2026-84869"
       ],
       "scored_at": "2026-09-11T18:52:09.294509857Z"
+    },
+    {
+      "id": "kev:CVE-2026-42018",
+      "source": "kev",
+      "title": "CVE-2026-42018 — JFrog Artifactory Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
+      "published": "2026-09-11T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "JFrog Artifactory. Confirmed exploited in the wild. Federal remediation due 25 September.",
+      "cves": [
+        "CVE-2026-42018"
+      ],
+      "scored_at": "2026-09-11T18:52:09.294514447Z"
     },
     {
       "id": "kev:CVE-2026-42016",
