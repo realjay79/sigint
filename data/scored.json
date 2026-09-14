@@ -1,34 +1,4 @@
 {
-  "arxiv:2608.14979v1": {
-    "id": "arxiv:2608.14979v1",
-    "source": "arxiv",
-    "title": "Quantum Boltzmann Equation Self-Consistent-Field for the Entropic Regularization of Mean-Field Singularities",
-    "url": "http://arxiv.org/abs/2608.14979v1",
-    "published": "2026-08-15T02:17:33Z",
-    "authors": "Romit Chakraborty",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Quantum Boltzmann equation formulation with entropic regularization resolves mean-field singularities in electronic structure calculations.",
-    "unproven": "Method presented theoretically with limited molecular test cases; no benchmarking against established quantum chemistry solvers or hardware implementation.",
-    "scored_at": "2026-08-18T20:12:45.465349824Z"
-  },
-  "arxiv:2608.14981v1": {
-    "id": "arxiv:2608.14981v1",
-    "source": "arxiv",
-    "title": "Qudit-ADAPT-VQE: an adaptive variational algorithm with counterdiabatic-inspired improvements for qudits",
-    "url": "http://arxiv.org/abs/2608.14981v1",
-    "published": "2026-08-15T02:19:32Z",
-    "authors": "Joaquín Molina et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "ADAPT-VQE adapted for qudits using counterdiabatic operators to reduce barren plateau effects in variational quantum algorithms.",
-    "unproven": "Demonstrated on Max 3-Cut only; no comparison to classical solvers, no hardware validation, no evidence of practical advantage over qubit-based methods.",
-    "scored_at": "2026-08-18T20:12:45.465349684Z"
-  },
   "arxiv:2608.14995v1": {
     "id": "arxiv:2608.14995v1",
     "source": "arxiv",
