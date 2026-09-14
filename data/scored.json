@@ -1,94 +1,4 @@
 {
-  "arxiv:2608.15329v1": {
-    "id": "arxiv:2608.15329v1",
-    "source": "arxiv",
-    "title": "Transitions to super-radiance in ensembles of incoherently pumped emitters",
-    "url": "http://arxiv.org/abs/2608.15329v1",
-    "published": "2026-08-15T17:23:36Z",
-    "authors": "Laszlo Rassaert et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Super-radiance transitions in incoherently pumped emitter ensembles under dephasing.",
-    "unproven": "entirely outside the reader's remit in application security and SDLC",
-    "scored_at": "2026-08-18T16:19:58.929276563Z"
-  },
-  "arxiv:2608.15347v1": {
-    "id": "arxiv:2608.15347v1",
-    "source": "arxiv",
-    "title": "General Lindblad equation for quarkonium evolution in a quark-gluon plasma",
-    "url": "http://arxiv.org/abs/2608.15347v1",
-    "published": "2026-08-15T18:02:07Z",
-    "authors": "Aoumeur Daddi Hammou et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Lindblad master equation for quarkonium evolution in quark-gluon plasma.",
-    "unproven": "entirely outside the reader's remit in application security and SDLC",
-    "scored_at": "2026-08-18T16:19:58.929276395Z"
-  },
-  "arxiv:2608.15369v1": {
-    "id": "arxiv:2608.15369v1",
-    "source": "arxiv",
-    "title": "AudioTQ: A Data-Oblivious 6-Bit CPU Audio Codec via Randomized Hadamard Rotation and Lloyd-Max Quantization",
-    "url": "http://arxiv.org/abs/2608.15369v1",
-    "published": "2026-08-15T18:44:27Z",
-    "authors": "Sahil Gangurde",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Time-domain audio codec using Hadamard rotation and Lloyd-Max quantization achieves 6-bit compression without psychoacoustic modeling.",
-    "unproven": "No comparison to production codecs (MP3, Opus, AAC) on perceptual quality or computational cost; single compression ratio reported.",
-    "scored_at": "2026-08-18T08:24:16.629947907Z"
-  },
-  "arxiv:2608.15391v1": {
-    "id": "arxiv:2608.15391v1",
-    "source": "arxiv",
-    "title": "TwinGridShield: Consequence-Aware Runtime Authorization for LLM Grid-Agent Actions",
-    "url": "http://arxiv.org/abs/2608.15391v1",
-    "published": "2026-08-15T19:44:59Z",
-    "authors": "Md Fazley Rafy",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Runtime authorization layer validates LLM-proposed grid actions against a deterministic network twin before execution; stops 84.2% configured unsafe proposals.",
-    "unproven": "whether DC power flow model fidelity suffices for AC grid transients and whether the attack model reflects real LLM prompt-injection vulnerability in deployed systems.",
-    "scored_at": "2026-08-18T04:26:13.05652267Z"
-  },
-  "arxiv:2608.15407v1": {
-    "id": "arxiv:2608.15407v1",
-    "source": "arxiv",
-    "title": "Chameleon: An Adaptive AI-Driven Honeypot Architecture Using Threat-Calibrated Particle Swarm Optimization and Semantic Deception Rapidly-Exploring Random Trees",
-    "url": "http://arxiv.org/abs/2608.15407v1",
-    "published": "2026-08-15T20:30:14Z",
-    "authors": "Rohit Swami et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Adaptive honeypot with BiLSTM threat classifier and particle-swarm-optimized delays claims 99.61% accuracy and 2 ms latency; no baseline or adversarial validation provided.",
-    "unproven": "whether the claimed threat detection rate holds against skilled adversaries or differs meaningfully from unadapted honeypots; no code, data, or reproducibility details given.",
-    "scored_at": "2026-08-18T04:26:13.056522579Z"
-  },
-  "arxiv:2608.15413v1": {
-    "id": "arxiv:2608.15413v1",
-    "source": "arxiv",
-    "title": "Quantum Information Analysis in a q-Deformed Deng-Fan Model",
-    "url": "http://arxiv.org/abs/2608.15413v1",
-    "published": "2026-08-15T21:05:32Z",
-    "authors": "P. O. Amadi et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Q-deformed Deng-Fan potential with Shannon entropy and Fisher information analysis.",
-    "unproven": "entirely outside the reader's remit in application security and SDLC",
-    "scored_at": "2026-08-18T16:19:58.929276232Z"
-  },
   "arxiv:2608.15464v1": {
     "id": "arxiv:2608.15464v1",
     "source": "arxiv",
@@ -7043,21 +6953,6 @@
     "unproven": "purely theoretical; no experimental validation; entirely outside reader's remit",
     "scored_at": "2026-08-21T04:29:27.212651515Z"
   },
-  "hn:49312413": {
-    "id": "hn:49312413",
-    "source": "hn",
-    "title": "Europe's scorched landscapes seen from space after summer heatwaves",
-    "url": "https://bbc.com/news/articles/c4gxy0wqqd9o",
-    "published": "2026-08-15T17:21:26Z",
-    "authors": "blondie9x",
-    "points": 83,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Satellite imagery of European heat damage; climate reporting outside security scope.",
-    "scored_at": "2026-08-15T20:11:37.948669137Z"
-  },
   "hn:49317546": {
     "id": "hn:49317546",
     "source": "hn",
@@ -7984,6 +7879,22 @@
       "CVE-2026-75650"
     ],
     "scored_at": "2026-09-08T19:08:23.988116821Z"
+  },
+  "kev:CVE-2026-76461": {
+    "id": "kev:CVE-2026-76461",
+    "source": "kev",
+    "title": "CVE-2026-76461 — Cisco Secure Email Gateway SQL Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461",
+    "published": "2026-09-14T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Cisco Secure Email Gateway. Confirmed exploited in the wild. Federal remediation due 17 September.",
+    "cves": [
+      "CVE-2026-76461"
+    ],
+    "scored_at": "2026-09-14T22:51:41.575437198Z"
   },
   "kev:CVE-2026-81578": {
     "id": "kev:CVE-2026-81578",
