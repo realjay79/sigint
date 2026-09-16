@@ -1,20 +1,36 @@
 {
-  "generated": "2026-09-16T08:56:09.52821856Z",
+  "generated": "2026-09-16T15:46:16.835041306Z",
   "edition": 54,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 1,
+    "total": 2,
     "by_source": {
-      "kev": 1
+      "kev": 2
     },
     "by_quadrant": {
-      "STANDING ORDERS": 1
+      "STANDING ORDERS": 2
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-58704",
+      "source": "kev",
+      "title": "CVE-2026-58704 — Google Pixel Improper Authorization Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58704",
+      "published": "2026-09-16T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Google Pixel. Confirmed exploited in the wild. Federal remediation due 19 September.",
+      "cves": [
+        "CVE-2026-58704"
+      ],
+      "scored_at": "2026-09-16T15:46:16.504168381Z"
+    },
     {
       "id": "kev:CVE-2026-76461",
       "source": "kev",
