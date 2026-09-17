@@ -1,244 +1,4 @@
 {
-  "arxiv:2608.17176v1": {
-    "id": "arxiv:2608.17176v1",
-    "source": "arxiv",
-    "title": "The Acknowledgment Point Is the System: Durable Policy-Decision Receipts for AI Audit Evidence",
-    "url": "http://arxiv.org/abs/2608.17176v1",
-    "published": "2026-08-17T22:35:07Z",
-    "authors": "Neeraj Kumar Singh Beshane",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "RuntimeGuard-AI prototype commits signed audit receipts at caller-selected sync boundaries; 27K req/s buffered, 242 req/s fully synchronous.",
-    "unproven": "prototype only; no field deployment; crash-recovery and Byzantine adversary scenarios not modeled; integration with existing audit systems untested",
-    "scored_at": "2026-08-19T04:27:50.569528193Z"
-  },
-  "arxiv:2608.17183v1": {
-    "id": "arxiv:2608.17183v1",
-    "source": "arxiv",
-    "title": "Benchmarking the Benchmarks: Evaluating Automated Safety Benchmarks for Small Language Models",
-    "url": "http://arxiv.org/abs/2608.17183v1",
-    "published": "2026-08-17T22:47:14Z",
-    "authors": "Nyamtulla Shaik et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "LLM-centric safety benchmarks show 52% ambiguous judgments when applied to small language models; effectiveness degrades with model size.",
-    "unproven": "evaluation limited to 26 open-source SLMs; proprietary SLM behavior unknown; no measurement of which benchmark gaps matter in production",
-    "scored_at": "2026-08-19T04:27:50.569528062Z"
-  },
-  "arxiv:2608.17189v1": {
-    "id": "arxiv:2608.17189v1",
-    "source": "arxiv",
-    "title": "Fast Nondestructive Readout for High-Clock-Rate Atom Array Quantum Processor",
-    "url": "http://arxiv.org/abs/2608.17189v1",
-    "published": "2026-08-17T22:58:16Z",
-    "authors": "Xu-Zhao-Qiu Zeng et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Fast nondestructive readout for neutral-atom quantum processors using real-time adaptive protection.",
-    "unproven": "entirely outside the reader's remit; quantum processor hardware engineering is not an application security concern.",
-    "scored_at": "2026-08-19T16:20:06.471835312Z"
-  },
-  "arxiv:2608.17201v1": {
-    "id": "arxiv:2608.17201v1",
-    "source": "arxiv",
-    "title": "One-at-a-Time Quantum Guessing: Multipartite Entanglement Beyond MoE Games",
-    "url": "http://arxiv.org/abs/2608.17201v1",
-    "published": "2026-08-17T23:23:50Z",
-    "authors": "Michael Schleppy et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "One-at-a-time quantum guessing games probe multipartite entanglement beyond monogamy constraints.",
-    "unproven": "entirely outside the reader's remit; multipartite entanglement games bear no relation to secure SDLC or agent security.",
-    "scored_at": "2026-08-19T16:20:06.471835192Z"
-  },
-  "arxiv:2608.17202v1": {
-    "id": "arxiv:2608.17202v1",
-    "source": "arxiv",
-    "title": "Fool's Gold: Defensive Deception Against Safety-Removal Attacks on Open-Weight Models",
-    "url": "http://arxiv.org/abs/2608.17202v1",
-    "published": "2026-08-17T23:26:32Z",
-    "authors": "Mark Russinovich",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Decoy hardening poisons stripped refusals with confident false answers; 0.51–0.90 decoy rate on six model families.",
-    "unproven": "no independent ground truth for decoy detection; adversary can iterate on detection signals; long-horizon behavior drift under attack untested",
-    "scored_at": "2026-08-19T04:27:50.569527932Z"
-  },
-  "arxiv:2608.17217v1": {
-    "id": "arxiv:2608.17217v1",
-    "source": "arxiv",
-    "title": "Dynamical protection of quantum steering and fidelity dynamics in double Jaynes-Cummings model",
-    "url": "http://arxiv.org/abs/2608.17217v1",
-    "published": "2026-08-18T00:07:03Z",
-    "authors": "Koushik Mandal et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "EPR steering dynamics in double Jaynes-Cummings cavity QED systems under noise.",
-    "unproven": "entirely outside the reader's remit; quantum optical correlations in cavity systems do not apply to application security engineering.",
-    "scored_at": "2026-08-19T16:20:06.471835051Z"
-  },
-  "arxiv:2608.17220v1": {
-    "id": "arxiv:2608.17220v1",
-    "source": "arxiv",
-    "title": "PACE: Policy-Attested Contract Execution for Safe AI Agents in Decentralized Finance",
-    "url": "http://arxiv.org/abs/2608.17220v1",
-    "published": "2026-08-18T00:22:46Z",
-    "authors": "Rabimba Karanjai et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "PACE binds LLM transaction intents to on-chain execution via signed policy decision records with 29K–31K gas overhead.",
-    "unproven": "tested in deterministic sandbox with 40 synthetic tasks; real DeFi market conditions and novel prompt injections untested; replay attack vectors not fully enumerated",
-    "scored_at": "2026-08-19T04:27:50.569527822Z"
-  },
-  "arxiv:2608.17230v1": {
-    "id": "arxiv:2608.17230v1",
-    "source": "arxiv",
-    "title": "Zero Point Density Fluctuations and Electron Brownian Motion",
-    "url": "http://arxiv.org/abs/2608.17230v1",
-    "published": "2026-08-18T00:35:43Z",
-    "authors": "L. H. Ford et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Zero-point density fluctuations induce Brownian motion in electrons near material boundaries.",
-    "unproven": "entirely outside the reader's remit; quantum noise in condensed matter has no bearing on secure software development or architecture review.",
-    "scored_at": "2026-08-19T16:20:06.471834921Z"
-  },
-  "arxiv:2608.17234v1": {
-    "id": "arxiv:2608.17234v1",
-    "source": "arxiv",
-    "title": "COMIC: Reference-Aware Safety Gating for Multimodal Large Language Models",
-    "url": "http://arxiv.org/abs/2608.17234v1",
-    "published": "2026-08-18T00:45:29Z",
-    "authors": "Md Abdullahil Oaphy et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Multimodal LLM jailbreaks exploit grounded operation-target pairs; COMIC gates unsafe reference resolution before generation.",
-    "unproven": "evaluation on proprietary MLLMs limited; zero-day attacks and adaptive adversaries not modeled; deployment overhead unmeasured",
-    "scored_at": "2026-08-19T04:27:50.569527692Z"
-  },
-  "arxiv:2608.17239v1": {
-    "id": "arxiv:2608.17239v1",
-    "source": "arxiv",
-    "title": "Gaussian Optimality of Energy-Constrained One-Shot Communication through Single-Mode Bosonic Gaussian Channels",
-    "url": "http://arxiv.org/abs/2608.17239v1",
-    "published": "2026-08-18T00:55:31Z",
-    "authors": "Se-Wan Ji",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Gaussian optimality proof for energy-constrained one-shot Holevo capacity of bosonic channels.",
-    "unproven": "entirely outside the reader's remit; quantum information theory of bosonic channels has no application to application security.",
-    "scored_at": "2026-08-19T16:20:06.471834791Z"
-  },
-  "arxiv:2608.17249v1": {
-    "id": "arxiv:2608.17249v1",
-    "source": "arxiv",
-    "title": "Low-Depth and Noise-Resilient Quantum State Preparation for Partial Differential Equations via Virtual Rz",
-    "url": "http://arxiv.org/abs/2608.17249v1",
-    "published": "2026-08-18T01:11:10Z",
-    "authors": "Toru Fujii",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Low-depth quantum state preparation for partial differential equation solvers on NISQ hardware.",
-    "unproven": "entirely outside the reader's remit; quantum algorithm design for PDEs does not intersect with secure SDLC or agent security.",
-    "scored_at": "2026-08-19T16:20:06.47183455Z"
-  },
-  "arxiv:2608.17251v1": {
-    "id": "arxiv:2608.17251v1",
-    "source": "arxiv",
-    "title": "ADAPTD: Adaptive Detection and Proactive Threat Defense for Autonomous APT attacks",
-    "url": "http://arxiv.org/abs/2608.17251v1",
-    "published": "2026-08-18T01:12:17Z",
-    "authors": "Yeongwoo Kim et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Decentralized belief update and adaptive blocking reduce APT lateral movement costs with decision-theoretic framework.",
-    "unproven": "experiments limited to simulation; no comparison with fielded enterprise detection systems; cross-subnetwork deployment not tested",
-    "scored_at": "2026-08-19T04:27:50.569527572Z"
-  },
-  "arxiv:2608.17261v1": {
-    "id": "arxiv:2608.17261v1",
-    "source": "arxiv",
-    "title": "Implementation Possibility of Quantum Simulation for Quantum Molecular Dynamics",
-    "url": "http://arxiv.org/abs/2608.17261v1",
-    "published": "2026-08-18T01:35:27Z",
-    "authors": "Xingyu Zhang et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Quantum simulation feasibility for molecular dynamics reaction dynamics.",
-    "unproven": "entirely outside the reader's remit; quantum chemistry simulation is not an application security concern.",
-    "scored_at": "2026-08-19T16:20:06.4718344Z"
-  },
-  "arxiv:2608.17274v1": {
-    "id": "arxiv:2608.17274v1",
-    "source": "arxiv",
-    "title": "Weak Typicality of von Neumann Entanglement Entropy in Gaussian Boson Sampling",
-    "url": "http://arxiv.org/abs/2608.17274v1",
-    "published": "2026-08-18T02:04:28Z",
-    "authors": "Hongru Zhao",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Entanglement entropy typicality proof for Gaussian boson sampling.",
-    "unproven": "entirely outside the reader's remit; theoretical quantum information has no bearing on secure SDLC, agent security, or post-quantum migration.",
-    "scored_at": "2026-08-19T16:20:06.471834119Z"
-  },
-  "arxiv:2608.17275v1": {
-    "id": "arxiv:2608.17275v1",
-    "source": "arxiv",
-    "title": "When Agents Act on Web3: An Attack-Surface Survey of MCP, Skills, and Tool Calling",
-    "url": "http://arxiv.org/abs/2608.17275v1",
-    "published": "2026-08-18T02:04:58Z",
-    "authors": "Rabimba Karanjai et al.",
-    "novelty": 4,
-    "actionability": 4,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "MCP agent tool use on Web3 has shifted from 27% to 65% state-modifying; irreversibility and signing authority fundamentally change agent threat models.",
-    "unproven": "measured protections and refusal rates are low (under 30% and 3%); defenses tested in limited scenarios; production deployment validation absent",
-    "scored_at": "2026-08-19T04:27:50.569527281Z"
-  },
-  "arxiv:2608.17280v1": {
-    "id": "arxiv:2608.17280v1",
-    "source": "arxiv",
-    "title": "A Connectivity-Order Law and Conditional Minimal-Mechanism Identification in Many-Body Geometric Phases",
-    "url": "http://arxiv.org/abs/2608.17280v1",
-    "published": "2026-08-18T02:19:38Z",
-    "authors": "Kuo Hai et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Quantum many-body physics paper on geometric phases and minimal-mechanism identification.",
-    "unproven": "entirely outside the reader's remit; application security has no connection to geometric phase theory or quantum many-body systems.",
-    "scored_at": "2026-08-19T16:20:06.471833709Z"
-  },
   "arxiv:2608.17313v1": {
     "id": "arxiv:2608.17313v1",
     "source": "arxiv",
@@ -5110,22 +4870,6 @@
     ],
     "scored_at": "2026-09-09T22:07:04.376103411Z"
   },
-  "kev:CVE-2025-62593": {
-    "id": "kev:CVE-2025-62593",
-    "source": "kev",
-    "title": "CVE-2025-62593 — Ray-Project Ray Code Injection Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
-    "published": "2026-08-18T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Ray-Project Ray. Confirmed exploited in the wild. Federal remediation due 21 August.",
-    "cves": [
-      "CVE-2025-62593"
-    ],
-    "scored_at": "2026-08-17T16:16:34.611058874Z"
-  },
   "kev:CVE-2026-19490": {
     "id": "kev:CVE-2026-19490",
     "source": "kev",
@@ -5173,22 +4917,6 @@
       "CVE-2026-21962"
     ],
     "scored_at": "2026-08-24T20:18:48.161721402Z"
-  },
-  "kev:CVE-2026-33824": {
-    "id": "kev:CVE-2026-33824",
-    "source": "kev",
-    "title": "CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
-    "published": "2026-08-18T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Microsoft Internet Key Exchange (IKE) Service Extensions. Confirmed exploited in the wild. Federal remediation due 21 August.",
-    "cves": [
-      "CVE-2026-33824"
-    ],
-    "scored_at": "2026-08-18T20:12:28.378148956Z"
   },
   "kev:CVE-2026-42016": {
     "id": "kev:CVE-2026-42016",
@@ -5270,22 +4998,6 @@
     ],
     "scored_at": "2026-08-27T18:37:42.868040689Z"
   },
-  "kev:CVE-2026-55040": {
-    "id": "kev:CVE-2026-55040",
-    "source": "kev",
-    "title": "CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
-    "published": "2026-08-18T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 21 August.",
-    "cves": [
-      "CVE-2026-55040"
-    ],
-    "scored_at": "2026-08-18T20:12:28.378153575Z"
-  },
   "kev:CVE-2026-58704": {
     "id": "kev:CVE-2026-58704",
     "source": "kev",
@@ -5301,22 +5013,6 @@
       "CVE-2026-58704"
     ],
     "scored_at": "2026-09-16T15:46:16.504168381Z"
-  },
-  "kev:CVE-2026-59310": {
-    "id": "kev:CVE-2026-59310",
-    "source": "kev",
-    "title": "CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
-    "published": "2026-08-18T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 21 August.",
-    "cves": [
-      "CVE-2026-59310"
-    ],
-    "scored_at": "2026-08-18T20:12:28.378151491Z"
   },
   "kev:CVE-2026-59822": {
     "id": "kev:CVE-2026-59822",
@@ -5365,22 +5061,6 @@
       "CVE-2026-64849"
     ],
     "scored_at": "2026-08-19T20:15:54.378122026Z"
-  },
-  "kev:CVE-2026-65400": {
-    "id": "kev:CVE-2026-65400",
-    "source": "kev",
-    "title": "CVE-2026-65400 — Apple macOS Improper Authentication Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
-    "published": "2026-08-18T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Apple macOS. Confirmed exploited in the wild. Federal remediation due 21 August.",
-    "cves": [
-      "CVE-2026-65400"
-    ],
-    "scored_at": "2026-08-18T20:12:28.378154967Z"
   },
   "kev:CVE-2026-66384": {
     "id": "kev:CVE-2026-66384",
