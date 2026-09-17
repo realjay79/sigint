@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T02:26:12.059261256Z",
+  "generated": "2026-09-17T09:00:37.688060956Z",
   "edition": 55,
   "name": "SIGINT",
   "mark": "^C",
@@ -15,6 +15,22 @@
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-76460",
+      "source": "kev",
+      "title": "CVE-2026-76460 — Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
+      "published": "2026-09-16T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Identity Services Engine. Confirmed exploited in the wild. Federal remediation due 19 September.",
+      "cves": [
+        "CVE-2026-76460"
+      ],
+      "scored_at": "2026-09-16T19:12:37.314316437Z"
+    },
     {
       "id": "kev:CVE-2026-58704",
       "source": "kev",
@@ -46,22 +62,6 @@
         "CVE-2026-87886"
       ],
       "scored_at": "2026-09-16T22:29:03.761902153Z"
-    },
-    {
-      "id": "kev:CVE-2026-76460",
-      "source": "kev",
-      "title": "CVE-2026-76460 — Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
-      "published": "2026-09-16T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Identity Services Engine. Confirmed exploited in the wild. Federal remediation due 19 September.",
-      "cves": [
-        "CVE-2026-76460"
-      ],
-      "scored_at": "2026-09-16T19:12:37.314316437Z"
     }
   ],
   "noise": null
