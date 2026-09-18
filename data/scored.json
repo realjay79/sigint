@@ -1,49 +1,4 @@
 {
-  "arxiv:2608.18403v1": {
-    "id": "arxiv:2608.18403v1",
-    "source": "arxiv",
-    "title": "AoNT Trap: Borromean-Entangled Mutable Chameleon Trapdoor Hash All-or-Nothing Stream Cipher",
-    "url": "http://arxiv.org/abs/2608.18403v1",
-    "published": "2026-08-19T00:18:19Z",
-    "authors": "Victor Kebande",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Stream cipher combining Borromean key interdependence with chameleon trapdoor hashing for rekeying without resynchronization.",
-    "unproven": "No cryptanalysis against known attacks, no performance comparison to standard ciphers, no implementation code provided.",
-    "scored_at": "2026-08-20T04:27:31.199677772Z"
-  },
-  "arxiv:2608.18420v1": {
-    "id": "arxiv:2608.18420v1",
-    "source": "arxiv",
-    "title": "Entropic Rigidity in Quantum Memories: How Geometry and Algebra Control the Onset of Degeneracy Corrections",
-    "url": "http://arxiv.org/abs/2608.18420v1",
-    "published": "2026-08-19T01:17:59Z",
-    "authors": "Yixin Zhao et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Entropic rigidity framework quantifies when degenerate maximum-likelihood decoding diverges from maximum-probability decoding in quantum codes.",
-    "unproven": "applies only to idealized code-capacity noise models; unclear whether framework informs practical quantum error correction deployment choices",
-    "scored_at": "2026-08-20T12:26:36.378582633Z"
-  },
-  "arxiv:2608.18421v1": {
-    "id": "arxiv:2608.18421v1",
-    "source": "arxiv",
-    "title": "Multiqubit orthogonal product bases",
-    "url": "http://arxiv.org/abs/2608.18421v1",
-    "published": "2026-08-19T01:27:51Z",
-    "authors": "Yvkai Zhao et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Classification of multiqubit orthogonal product bases via graph isomorphism and formal-matrix methods.",
-    "unproven": "entirely outside the reader's domain; abstract quantum mathematics with no bearing on security engineering",
-    "scored_at": "2026-08-20T12:26:36.378582462Z"
-  },
   "arxiv:2608.18440v1": {
     "id": "arxiv:2608.18440v1",
     "source": "arxiv",
@@ -3522,22 +3477,6 @@
       "CVE-2026-60004"
     ],
     "scored_at": "2026-08-25T20:17:42.967910916Z"
-  },
-  "kev:CVE-2026-64849": {
-    "id": "kev:CVE-2026-64849",
-    "source": "kev",
-    "title": "CVE-2026-64849 — MLflow Server-Side Request Forgery Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
-    "published": "2026-08-19T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "MLflow MLflow. Confirmed exploited in the wild. Federal remediation due 2 September.",
-    "cves": [
-      "CVE-2026-64849"
-    ],
-    "scored_at": "2026-08-19T20:15:54.378122026Z"
   },
   "kev:CVE-2026-66384": {
     "id": "kev:CVE-2026-66384",
