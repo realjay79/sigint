@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19T15:01:58.795683579Z",
+  "generated": "2026-09-19T18:17:28.993218767Z",
   "edition": 57,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,10 +16,10 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-53266",
+      "id": "kev:CVE-2025-39682",
       "source": "kev",
-      "title": "CVE-2026-53266 — Linux Kernel Out-of-Bounds Write Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
+      "title": "CVE-2025-39682 — Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
       "published": "2026-09-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
@@ -27,9 +27,9 @@
       "quadrant": "STANDING ORDERS",
       "dek": "Linux Kernel. Confirmed exploited in the wild. Federal remediation due 21 September.",
       "cves": [
-        "CVE-2026-53266"
+        "CVE-2025-39682"
       ],
-      "scored_at": "2026-09-18T15:27:14.047136181Z"
+      "scored_at": "2026-09-18T22:04:05.440543669Z"
     },
     {
       "id": "kev:CVE-2025-39964",
@@ -48,10 +48,10 @@
       "scored_at": "2026-09-18T15:27:14.047131182Z"
     },
     {
-      "id": "kev:CVE-2025-39682",
+      "id": "kev:CVE-2026-53266",
       "source": "kev",
-      "title": "CVE-2025-39682 — Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
+      "title": "CVE-2026-53266 — Linux Kernel Out-of-Bounds Write Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
       "published": "2026-09-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
@@ -59,9 +59,9 @@
       "quadrant": "STANDING ORDERS",
       "dek": "Linux Kernel. Confirmed exploited in the wild. Federal remediation due 21 September.",
       "cves": [
-        "CVE-2025-39682"
+        "CVE-2026-53266"
       ],
-      "scored_at": "2026-09-18T22:04:05.440543669Z"
+      "scored_at": "2026-09-18T15:27:14.047136181Z"
     }
   ],
   "noise": null
