@@ -1,34 +1,4 @@
 {
-  "hn:49378957": {
-    "id": "hn:49378957",
-    "source": "hn",
-    "title": "The August 17 outage, and the work ahead",
-    "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead",
-    "published": "2026-08-20T19:22:24Z",
-    "authors": "0xedb",
-    "points": 41,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "GitHub publishes postmortem of August 17 outage; personnel and process changes.",
-    "scored_at": "2026-08-20T20:18:04.509290516Z"
-  },
-  "hn:49380303": {
-    "id": "hn:49380303",
-    "source": "hn",
-    "title": "Early-life stress leaves a 'scar' inside brain cells",
-    "url": "https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells",
-    "published": "2026-08-20T21:08:36Z",
-    "authors": "gmays",
-    "points": 45,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Neuroscience research on early-life stress; outside application security entirely.",
-    "scored_at": "2026-08-21T16:20:38.023977977Z"
-  },
   "hn:49383026": {
     "id": "hn:49383026",
     "source": "hn",
