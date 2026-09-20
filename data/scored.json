@@ -1,36 +1,4 @@
 {
-  "hn:49390463": {
-    "id": "hn:49390463",
-    "source": "hn",
-    "title": "Building an (almost) fully self-hosted, sandboxed, agentic software factory",
-    "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
-    "published": "2026-08-21T16:27:52Z",
-    "authors": "jakelsaunders94",
-    "points": 44,
-    "novelty": 2,
-    "actionability": 2,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Self-hosted sandboxed agent architecture for software development workflow automation.",
-    "unproven": "sandboxing effectiveness and threat model not demonstrated; no data on what \"almost\" self-hosted means or what escapes remain",
-    "scored_at": "2026-08-21T20:14:59.649587593Z"
-  },
-  "hn:49390739": {
-    "id": "hn:49390739",
-    "source": "hn",
-    "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
-    "url": "https://github.com/proliferate-ai/proliferate",
-    "published": "2026-08-21T16:47:15Z",
-    "authors": "pablo24602",
-    "points": 31,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Open-source IDE aggregates multiple AI coding agents into a single interface.",
-    "unproven": "no evidence of security properties, agent isolation, or supply-chain controls relevant to SDLC integration",
-    "scored_at": "2026-08-21T20:14:59.649587062Z"
-  },
   "kev:CVE-2015-3246": {
     "id": "kev:CVE-2015-3246",
     "source": "kev",
