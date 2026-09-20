@@ -1,34 +1,4 @@
 {
-  "hn:49385994": {
-    "id": "hn:49385994",
-    "source": "hn",
-    "title": "AI companies destroy physical books – let's scan rare books before it's too late",
-    "url": "https://annas-archive.pk/blog/physical-destruction.html",
-    "published": "2026-08-21T10:05:46Z",
-    "authors": "darccio",
-    "points": 581,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Advocacy for book preservation; unrelated to application security or SDLC.",
-    "scored_at": "2026-08-21T16:20:38.023974741Z"
-  },
-  "hn:49387525": {
-    "id": "hn:49387525",
-    "source": "hn",
-    "title": "We are living in a version of the future out of J.G. Ballard or William Gibson",
-    "url": "https://precastreinforced.co.uk/2026/08/16/new-worlds",
-    "published": "2026-08-21T13:07:26Z",
-    "authors": "speckx",
-    "points": 75,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Opinion essay on contemporary culture; no security content.",
-    "scored_at": "2026-08-21T16:20:38.023974451Z"
-  },
   "hn:49390463": {
     "id": "hn:49390463",
     "source": "hn",
