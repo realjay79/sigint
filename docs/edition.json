@@ -1,68 +1,15 @@
 {
-  "generated": "2026-09-20T22:02:35.276146334Z",
-  "edition": 58,
+  "generated": "2026-09-21T02:21:50.883667828Z",
+  "edition": 59,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 3,
-    "by_source": {
-      "kev": 3
-    },
-    "by_quadrant": {
-      "STANDING ORDERS": 3
-    }
+    "total": 0,
+    "by_source": {},
+    "by_quadrant": {}
   },
-  "items": [
-    {
-      "id": "kev:CVE-2026-53266",
-      "source": "kev",
-      "title": "CVE-2026-53266 — Linux Kernel Out-of-Bounds Write Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
-      "published": "2026-09-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Linux Kernel. Confirmed exploited in the wild. Federal remediation due 21 September.",
-      "cves": [
-        "CVE-2026-53266"
-      ],
-      "scored_at": "2026-09-18T15:27:14.047136181Z"
-    },
-    {
-      "id": "kev:CVE-2025-39682",
-      "source": "kev",
-      "title": "CVE-2025-39682 — Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
-      "published": "2026-09-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Linux Kernel. Confirmed exploited in the wild. Federal remediation due 21 September.",
-      "cves": [
-        "CVE-2025-39682"
-      ],
-      "scored_at": "2026-09-18T22:04:05.440543669Z"
-    },
-    {
-      "id": "kev:CVE-2025-39964",
-      "source": "kev",
-      "title": "CVE-2025-39964 — Linux Kernel Race Condition Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39964",
-      "published": "2026-09-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Linux Kernel. Confirmed exploited in the wild. Federal remediation due 21 September.",
-      "cves": [
-        "CVE-2025-39964"
-      ],
-      "scored_at": "2026-09-18T15:27:14.047131182Z"
-    }
-  ],
+  "items": null,
   "noise": null
 }
