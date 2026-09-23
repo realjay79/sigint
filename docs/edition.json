@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23T02:25:32.73124318Z",
+  "generated": "2026-09-23T08:55:58.858382916Z",
   "edition": 61,
   "name": "SIGINT",
   "mark": "^C",
@@ -15,22 +15,6 @@
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-94127",
-      "source": "kev",
-      "title": "CVE-2026-94127 — F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94127",
-      "published": "2026-09-22T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "F5 BIG-IP APM. Confirmed exploited in the wild. Federal remediation due 25 September.",
-      "cves": [
-        "CVE-2026-94127"
-      ],
-      "scored_at": "2026-09-22T22:31:44.130622718Z"
-    },
     {
       "id": "kev:CVE-2026-93616",
       "source": "kev",
@@ -62,6 +46,22 @@
         "CVE-2026-85102"
       ],
       "scored_at": "2026-09-22T22:31:44.130625924Z"
+    },
+    {
+      "id": "kev:CVE-2026-94127",
+      "source": "kev",
+      "title": "CVE-2026-94127 — F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94127",
+      "published": "2026-09-22T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "F5 BIG-IP APM. Confirmed exploited in the wild. Federal remediation due 25 September.",
+      "cves": [
+        "CVE-2026-94127"
+      ],
+      "scored_at": "2026-09-22T22:31:44.130622718Z"
     },
     {
       "id": "kev:CVE-2026-93952",
