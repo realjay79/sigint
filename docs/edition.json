@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T22:31:44.401566381Z",
-  "edition": 60,
+  "generated": "2026-09-23T02:25:32.73124318Z",
+  "edition": 61,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -15,22 +15,6 @@
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-93952",
-      "source": "kev",
-      "title": "CVE-2026-93952 — Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
-      "published": "2026-09-22T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 25 September.",
-      "cves": [
-        "CVE-2026-93952"
-      ],
-      "scored_at": "2026-09-22T22:31:44.130619993Z"
-    },
     {
       "id": "kev:CVE-2026-94127",
       "source": "kev",
@@ -78,6 +62,22 @@
         "CVE-2026-85102"
       ],
       "scored_at": "2026-09-22T22:31:44.130625924Z"
+    },
+    {
+      "id": "kev:CVE-2026-93952",
+      "source": "kev",
+      "title": "CVE-2026-93952 — Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
+      "published": "2026-09-22T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 25 September.",
+      "cves": [
+        "CVE-2026-93952"
+      ],
+      "scored_at": "2026-09-22T22:31:44.130619993Z"
     },
     {
       "id": "kev:CVE-2026-7273",

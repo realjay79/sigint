@@ -175,22 +175,6 @@
     ],
     "scored_at": "2026-09-09T22:07:04.376107709Z"
   },
-  "kev:CVE-2026-21962": {
-    "id": "kev:CVE-2026-21962",
-    "source": "kev",
-    "title": "CVE-2026-21962 — Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
-    "published": "2026-08-24T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in. Confirmed exploited in the wild. Federal remediation due 27 August.",
-    "cves": [
-      "CVE-2026-21962"
-    ],
-    "scored_at": "2026-08-24T20:18:48.161721402Z"
-  },
   "kev:CVE-2026-42016": {
     "id": "kev:CVE-2026-42016",
     "source": "kev",
