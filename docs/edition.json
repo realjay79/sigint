@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23T08:55:58.858382916Z",
+  "generated": "2026-09-23T15:46:40.912018987Z",
   "edition": 61,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,20 +16,20 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-93616",
+      "id": "kev:CVE-2026-93952",
       "source": "kev",
-      "title": "CVE-2026-93616 — Check Point Multiple Products Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93616",
+      "title": "CVE-2026-93952 — Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
       "published": "2026-09-22T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Check Point Multiple Products. Confirmed exploited in the wild. Federal remediation due 25 September.",
+      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 25 September.",
       "cves": [
-        "CVE-2026-93616"
+        "CVE-2026-93952"
       ],
-      "scored_at": "2026-09-22T22:31:44.130624361Z"
+      "scored_at": "2026-09-22T22:31:44.130619993Z"
     },
     {
       "id": "kev:CVE-2026-85102",
@@ -48,6 +48,22 @@
       "scored_at": "2026-09-22T22:31:44.130625924Z"
     },
     {
+      "id": "kev:CVE-2026-93616",
+      "source": "kev",
+      "title": "CVE-2026-93616 — Check Point Multiple Products Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93616",
+      "published": "2026-09-22T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Check Point Multiple Products. Confirmed exploited in the wild. Federal remediation due 25 September.",
+      "cves": [
+        "CVE-2026-93616"
+      ],
+      "scored_at": "2026-09-22T22:31:44.130624361Z"
+    },
+    {
       "id": "kev:CVE-2026-94127",
       "source": "kev",
       "title": "CVE-2026-94127 — F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
@@ -62,22 +78,6 @@
         "CVE-2026-94127"
       ],
       "scored_at": "2026-09-22T22:31:44.130622718Z"
-    },
-    {
-      "id": "kev:CVE-2026-93952",
-      "source": "kev",
-      "title": "CVE-2026-93952 — Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
-      "published": "2026-09-22T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 25 September.",
-      "cves": [
-        "CVE-2026-93952"
-      ],
-      "scored_at": "2026-09-22T22:31:44.130619993Z"
     },
     {
       "id": "kev:CVE-2026-7273",
