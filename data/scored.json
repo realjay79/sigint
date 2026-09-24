@@ -303,22 +303,6 @@
     ],
     "scored_at": "2026-09-02T19:05:40.150394507Z"
   },
-  "kev:CVE-2026-60004": {
-    "id": "kev:CVE-2026-60004",
-    "source": "kev",
-    "title": "CVE-2026-60004 — Gitea Code Injection Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
-    "published": "2026-08-25T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Gitea Gitea. Confirmed exploited in the wild. Federal remediation due 28 August.",
-    "cves": [
-      "CVE-2026-60004"
-    ],
-    "scored_at": "2026-08-25T20:17:42.967910916Z"
-  },
   "kev:CVE-2026-66384": {
     "id": "kev:CVE-2026-66384",
     "source": "kev",
