@@ -1,35 +1,67 @@
 {
-  "generated": "2026-09-24T16:08:16.370773703Z",
+  "generated": "2026-09-24T22:49:41.497016386Z",
   "edition": 62,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 4,
+    "total": 6,
     "by_source": {
-      "kev": 4
+      "kev": 6
     },
     "by_quadrant": {
-      "STANDING ORDERS": 4
+      "STANDING ORDERS": 6
     }
   },
   "items": [
     {
-      "id": "kev:CVE-2026-85102",
+      "id": "kev:CVE-2026-5430",
       "source": "kev",
-      "title": "CVE-2026-85102 — Check Point Multiple Products Improper Certificate Validation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85102",
+      "title": "CVE-2026-5430 — WSO2 Multiple Products Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430",
+      "published": "2026-09-24T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "WSO2 Multiple Products. Confirmed exploited in the wild. Federal remediation due 27 September.",
+      "cves": [
+        "CVE-2026-5430"
+      ],
+      "scored_at": "2026-09-24T22:49:41.075193926Z"
+    },
+    {
+      "id": "kev:CVE-2026-71362",
+      "source": "kev",
+      "title": "CVE-2026-71362 — Adobe Commerce and Magento Incorrect Authorization Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362",
+      "published": "2026-09-24T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Adobe Commerce and Magento. Confirmed exploited in the wild. Federal remediation due 27 September.",
+      "cves": [
+        "CVE-2026-71362"
+      ],
+      "scored_at": "2026-09-24T22:49:41.07519696Z"
+    },
+    {
+      "id": "kev:CVE-2026-93952",
+      "source": "kev",
+      "title": "CVE-2026-93952 — Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
       "published": "2026-09-22T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Check Point Multiple Products. Confirmed exploited in the wild. Federal remediation due 25 September.",
+      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 25 September.",
       "cves": [
-        "CVE-2026-85102"
+        "CVE-2026-93952"
       ],
-      "scored_at": "2026-09-22T22:31:44.130625924Z"
+      "scored_at": "2026-09-22T22:31:44.130619993Z"
     },
     {
       "id": "kev:CVE-2026-94127",
@@ -64,20 +96,20 @@
       "scored_at": "2026-09-22T22:31:44.130624361Z"
     },
     {
-      "id": "kev:CVE-2026-93952",
+      "id": "kev:CVE-2026-85102",
       "source": "kev",
-      "title": "CVE-2026-93952 — Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
+      "title": "CVE-2026-85102 — Check Point Multiple Products Improper Certificate Validation Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85102",
       "published": "2026-09-22T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 25 September.",
+      "dek": "Check Point Multiple Products. Confirmed exploited in the wild. Federal remediation due 25 September.",
       "cves": [
-        "CVE-2026-93952"
+        "CVE-2026-85102"
       ],
-      "scored_at": "2026-09-22T22:31:44.130619993Z"
+      "scored_at": "2026-09-22T22:31:44.130625924Z"
     }
   ],
   "noise": null
