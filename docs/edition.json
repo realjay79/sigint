@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T02:30:37.609021554Z",
+  "generated": "2026-09-25T09:12:15.095825274Z",
   "edition": 63,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,22 +16,6 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-5430",
-      "source": "kev",
-      "title": "CVE-2026-5430 — WSO2 Multiple Products Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430",
-      "published": "2026-09-24T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "WSO2 Multiple Products. Confirmed exploited in the wild. Federal remediation due 27 September.",
-      "cves": [
-        "CVE-2026-5430"
-      ],
-      "scored_at": "2026-09-24T22:49:41.075193926Z"
-    },
-    {
       "id": "kev:CVE-2026-71362",
       "source": "kev",
       "title": "CVE-2026-71362 — Adobe Commerce and Magento Incorrect Authorization Vulnerability",
@@ -46,6 +30,22 @@
         "CVE-2026-71362"
       ],
       "scored_at": "2026-09-24T22:49:41.07519696Z"
+    },
+    {
+      "id": "kev:CVE-2026-5430",
+      "source": "kev",
+      "title": "CVE-2026-5430 — WSO2 Multiple Products Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430",
+      "published": "2026-09-24T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "WSO2 Multiple Products. Confirmed exploited in the wild. Federal remediation due 27 September.",
+      "cves": [
+        "CVE-2026-5430"
+      ],
+      "scored_at": "2026-09-24T22:49:41.075193926Z"
     }
   ],
   "noise": null
