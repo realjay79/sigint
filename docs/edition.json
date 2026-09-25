@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-24T22:49:41.497016386Z",
-  "edition": 62,
+  "generated": "2026-09-25T02:30:37.609021554Z",
+  "edition": 63,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 6,
+    "total": 2,
     "by_source": {
-      "kev": 6
+      "kev": 2
     },
     "by_quadrant": {
-      "STANDING ORDERS": 6
+      "STANDING ORDERS": 2
     }
   },
   "items": [
@@ -46,70 +46,6 @@
         "CVE-2026-71362"
       ],
       "scored_at": "2026-09-24T22:49:41.07519696Z"
-    },
-    {
-      "id": "kev:CVE-2026-93952",
-      "source": "kev",
-      "title": "CVE-2026-93952 — Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
-      "published": "2026-09-22T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 25 September.",
-      "cves": [
-        "CVE-2026-93952"
-      ],
-      "scored_at": "2026-09-22T22:31:44.130619993Z"
-    },
-    {
-      "id": "kev:CVE-2026-94127",
-      "source": "kev",
-      "title": "CVE-2026-94127 — F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94127",
-      "published": "2026-09-22T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "F5 BIG-IP APM. Confirmed exploited in the wild. Federal remediation due 25 September.",
-      "cves": [
-        "CVE-2026-94127"
-      ],
-      "scored_at": "2026-09-22T22:31:44.130622718Z"
-    },
-    {
-      "id": "kev:CVE-2026-93616",
-      "source": "kev",
-      "title": "CVE-2026-93616 — Check Point Multiple Products Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93616",
-      "published": "2026-09-22T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Check Point Multiple Products. Confirmed exploited in the wild. Federal remediation due 25 September.",
-      "cves": [
-        "CVE-2026-93616"
-      ],
-      "scored_at": "2026-09-22T22:31:44.130624361Z"
-    },
-    {
-      "id": "kev:CVE-2026-85102",
-      "source": "kev",
-      "title": "CVE-2026-85102 — Check Point Multiple Products Improper Certificate Validation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85102",
-      "published": "2026-09-22T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Check Point Multiple Products. Confirmed exploited in the wild. Federal remediation due 25 September.",
-      "cves": [
-        "CVE-2026-85102"
-      ],
-      "scored_at": "2026-09-22T22:31:44.130625924Z"
     }
   ],
   "noise": null
