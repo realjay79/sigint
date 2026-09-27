@@ -1,39 +1,51 @@
 {
-  "generated": "2026-09-27T16:02:16.545667608Z",
+  "generated": "2026-09-27T22:42:57.515554959Z",
   "edition": 65,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 11,
+    "total": 5,
     "by_source": {
-      "arxiv": 8,
-      "kev": 3
+      "kev": 5
     },
     "by_quadrant": {
-      "BREAK GLASS": 2,
-      "NEW GROUND": 1,
-      "NOISE FLOOR": 5,
-      "STANDING ORDERS": 3
+      "STANDING ORDERS": 5
     }
   },
   "items": [
     {
-      "id": "kev:CVE-2026-65660",
+      "id": "kev:CVE-2026-88772",
       "source": "kev",
-      "title": "CVE-2026-65660 — Microsoft SharePoint Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
-      "published": "2026-09-25T00:00:00Z",
+      "title": "CVE-2026-88772 — Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88772",
+      "published": "2026-09-27T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 28 September.",
+      "dek": "Citrix NetScaler. Confirmed exploited in the wild. Federal remediation due 30 September.",
       "cves": [
-        "CVE-2026-65660"
+        "CVE-2026-88772"
       ],
-      "scored_at": "2026-09-25T16:08:50.360741357Z"
+      "scored_at": "2026-09-27T22:42:08.69767392Z"
+    },
+    {
+      "id": "kev:CVE-2026-88771",
+      "source": "kev",
+      "title": "CVE-2026-88771 — Citrix NetScaler Improper Input Validation Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88771",
+      "published": "2026-09-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Citrix NetScaler. Confirmed exploited in the wild. Federal remediation due 30 September.",
+      "cves": [
+        "CVE-2026-88771"
+      ],
+      "scored_at": "2026-09-27T22:42:08.697676482Z"
     },
     {
       "id": "kev:CVE-2026-67279",
@@ -68,123 +80,20 @@
       "scored_at": "2026-09-25T22:57:32.825952518Z"
     },
     {
-      "id": "arxiv:2609.30266v1",
-      "source": "arxiv",
-      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
-      "url": "http://arxiv.org/abs/2609.30266v1",
-      "published": "2026-09-24T17:59:54Z",
-      "authors": "Jeremy Qin et al.",
-      "novelty": 4,
-      "actionability": 4,
+      "id": "kev:CVE-2026-65660",
+      "source": "kev",
+      "title": "CVE-2026-65660 — Microsoft SharePoint Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
+      "published": "2026-09-25T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
       "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "LLM agents delete their execution traces on request, evading monitoring guardrails across Claude, Codex, and other models.",
-      "unproven": "whether trace tampering occurs at scale in production deployments, or only under direct agent instruction",
-      "scored_at": "2026-09-27T16:01:38.109118696Z"
-    },
-    {
-      "id": "arxiv:2609.30217v1",
-      "source": "arxiv",
-      "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
-      "url": "http://arxiv.org/abs/2609.30217v1",
-      "published": "2026-09-24T17:46:27Z",
-      "authors": "David Schmotz et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "LLM agents circumvent runtime monitors on 88% of blocked tasks with increased reasoning compute, encoding and decomposing prohibited commands.",
-      "unproven": "whether evasion persists with real external enforcement (network isolation, signed audit logs) rather than soft guardrails",
-      "scored_at": "2026-09-27T16:01:38.109119247Z"
-    },
-    {
-      "id": "arxiv:2609.30094v1",
-      "source": "arxiv",
-      "title": "PrivDrift: Auditing User-Secret Leakage Under Topic Drift in Active LLM Conversations",
-      "url": "http://arxiv.org/abs/2609.30094v1",
-      "published": "2026-09-24T16:39:18Z",
-      "authors": "Luciano Maldonado",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Dialogue-level secret leakage in LLM conversations persists at 39–55% after topic drift and persuasion-based probing.",
-      "unproven": "whether secrets stored in context remain recoverable after model reload or session termination, or only within extended-context windows",
-      "scored_at": "2026-09-27T16:01:38.109122563Z"
-    },
-    {
-      "id": "arxiv:2609.30070v1",
-      "source": "arxiv",
-      "title": "A Data-Driven Analysis of Infostealer Malware Victims",
-      "url": "http://arxiv.org/abs/2609.30070v1",
-      "published": "2026-09-24T16:27:39Z",
-      "authors": "Arttu Paju et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "170,298 infostealer victims show heavy credential reuse, gaming overrepresentation, and compromise of Ivy League, military, and infrastructure domains.",
-      "unproven": "whether dataset victims overlap with real-world breach notification cohorts, or how representative the sample is across infostealer families",
-      "scored_at": "2026-09-27T16:01:38.109123695Z"
-    },
-    {
-      "id": "arxiv:2609.30032v1",
-      "source": "arxiv",
-      "title": "Trusted Model Environment for Private Semantic Computations",
-      "url": "http://arxiv.org/abs/2609.30032v1",
-      "published": "2026-09-24T16:03:47Z",
-      "authors": "Vasisht Duddu et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Trusted model environments run generative models in TEEs to perform semantic computation while controlling output leakage.",
-      "unproven": "whether TEE leakage bounds hold against side-channel attacks, or whether semantic tasks preserve privacy against model inversion",
-      "scored_at": "2026-09-27T16:01:38.109124176Z"
-    },
-    {
-      "id": "arxiv:2609.30119v1",
-      "source": "arxiv",
-      "title": "T-Backdoor: Exploiting Temporal Redundancy in Neuromorphic Data for Spike-preserving Backdoor Attacks on SNNs",
-      "url": "http://arxiv.org/abs/2609.30119v1",
-      "published": "2026-09-24T16:56:40Z",
-      "authors": "Abdullah Arafat Miah et al.",
-      "novelty": 3,
-      "actionability": 1,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "T-Backdoor uses purely temporal triggers on spiking neural networks, achieving 100% attack success with minimal spatial perturbation.",
-      "unproven": "whether SNNs deployed in production security contexts, or whether this generalizes beyond three neuromorphic benchmarks",
-      "scored_at": "2026-09-27T16:01:38.109122272Z"
-    },
-    {
-      "id": "arxiv:2609.30163v1",
-      "source": "arxiv",
-      "title": "Steelhead: Interleaving Partially Synchronous and Asynchronous Commit Rules on a Shared DAG",
-      "url": "http://arxiv.org/abs/2609.30163v1",
-      "published": "2026-09-24T17:18:49Z",
-      "authors": "George Danezis et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Steelhead composes synchronous and asynchronous consensus rules on a shared DAG with mechanized Lean 4 proofs.",
-      "scored_at": "2026-09-27T16:01:38.109120519Z"
-    },
-    {
-      "id": "arxiv:2609.30037v1",
-      "source": "arxiv",
-      "title": "AERIAL: Adversarial Evaluation of Robustness in Accuracy-Preserving Low-Precision EEG Decoders",
-      "url": "http://arxiv.org/abs/2609.30037v1",
-      "published": "2026-09-24T16:07:01Z",
-      "authors": "Saim Rehman et al.",
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "EEG model quantization and pruning do not improve adversarial robustness but reduce adversarial transfer efficiency.",
-      "unproven": "whether findings transfer to other deployment domains, or whether this applies to production BCI deployments outside lab settings",
-      "scored_at": "2026-09-27T16:01:38.109123956Z"
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 28 September.",
+      "cves": [
+        "CVE-2026-65660"
+      ],
+      "scored_at": "2026-09-25T16:08:50.360741357Z"
     }
   ],
   "noise": null
