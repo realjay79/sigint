@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T17:16:54.404235533Z",
+  "generated": "2026-09-29T23:17:14.541379203Z",
   "edition": 67,
   "name": "SIGINT",
   "mark": "^C",
@@ -14,8 +14,7 @@
     "by_quadrant": {
       "BREAK GLASS": 9,
       "NEW GROUND": 12,
-      "NOISE FLOOR": 1,
-      "STANDING ORDERS": 3
+      "STANDING ORDERS": 4
     }
   },
   "items": [
@@ -367,34 +366,34 @@
       "scored_at": "2026-09-29T17:16:54.401578371Z"
     },
     {
-      "id": "arxiv:2609.35557v1",
+      "id": "arxiv:2609.33136v1",
       "source": "arxiv",
-      "title": "The Compiler May Read It, the Agent May Not: Keeping Part of a Research Code Away from a Coding Agent",
-      "url": "http://arxiv.org/abs/2609.35557v1",
-      "published": "2026-09-28T16:27:41Z",
-      "authors": "Shobhan Roy",
-      "novelty": 3,
+      "title": "Leaky Students: Membership Inference against On-Policy Distillation",
+      "url": "http://arxiv.org/abs/2609.33136v1",
+      "published": "2026-09-27T03:06:54Z",
+      "authors": "Zhexi Lu et al.",
+      "novelty": 4,
       "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Read-level access controls cannot distinguish compiler from agent; problem remains unsolved in container, permission, and sandbox approaches.",
-      "unproven": "scalability of proposed solution; interaction with standard SDLC tool integration workflows.",
-      "scored_at": "2026-09-29T10:14:35.576102378Z"
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Membership inference attacks on distilled language models extract sensitive training data via token log-probability gaps on fresh trajectories.",
+      "unproven": "Scaling to production model sizes; transferability to defenses like differential privacy; practical threshold selection for deployment.",
+      "scored_at": "2026-09-29T23:16:47.44043718Z"
     },
     {
-      "id": "arxiv:2609.35552v1",
+      "id": "arxiv:2609.33102v1",
       "source": "arxiv",
-      "title": "INTCC: A Framework for Interactive Confidential Computing",
-      "url": "http://arxiv.org/abs/2609.35552v1",
-      "published": "2026-09-28T16:25:38Z",
-      "authors": "Qingzhe Bing et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "INTCC framework partitions TEE to support human-in-the-loop without weakening remote attestation guarantees.",
-      "unproven": "performance overhead on real hardware; attestation properties under dynamic code injection; adoption by TEE platforms.",
-      "scored_at": "2026-09-29T10:14:35.576102688Z"
+      "title": "ORBIT: A Framework for Multi-Agent Safety and Security Evaluations",
+      "url": "http://arxiv.org/abs/2609.33102v1",
+      "published": "2026-09-27T02:20:08Z",
+      "authors": "Ben Hagag et al.",
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "ORBIT framework enables systematic evaluation of multi-agent LLM systems across attack types, defenses, and topologies.",
+      "unproven": "Completeness of threat model coverage; alignment of benchmark scenarios with production deployment patterns.",
+      "scored_at": "2026-09-29T23:16:47.440437673Z"
     }
   ],
   "noise": [
