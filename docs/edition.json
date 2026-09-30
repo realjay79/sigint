@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T17:15:24.281240352Z",
+  "generated": "2026-09-30T23:20:21.218959854Z",
   "edition": 68,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,17 +8,33 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 24,
-      "kev": 1
+      "arxiv": 23,
+      "kev": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
+      "BREAK GLASS": 5,
       "NEW GROUND": 15,
       "NOISE FLOOR": 1,
-      "STANDING ORDERS": 3
+      "STANDING ORDERS": 4
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-76504",
+      "source": "kev",
+      "title": "CVE-2026-76504 — Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
+      "published": "2026-09-30T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Catalyst SD-WAN Manager. Confirmed exploited in the wild. Federal remediation due 3 October.",
+      "cves": [
+        "CVE-2026-76504"
+      ],
+      "scored_at": "2026-09-30T23:19:43.380120924Z"
+    },
     {
       "id": "arxiv:2609.37608v1",
       "source": "arxiv",
@@ -109,21 +125,6 @@
       "dek": "Large-scale evaluation of nine evasion attacks on eight Windows malware detectors shows raw-byte models vulnerable to problem-space manipulation; no detector uniformly robust.",
       "unproven": "Study is Windows-focused; applicability to Linux/macOS malware detectors and detector tuning recommendations for the reader's environment not provided.",
       "scored_at": "2026-09-29T17:16:17.321601453Z"
-    },
-    {
-      "id": "arxiv:2609.33985v1",
-      "source": "arxiv",
-      "title": "The Privacy Fallacy of Crowdsourced Fine-Tuning: Extracting Proprietary Data via Topic-Based Poisoning",
-      "url": "http://arxiv.org/abs/2609.33985v1",
-      "published": "2026-09-27T22:36:22Z",
-      "authors": "Sae Furukawa et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Malicious crowdsourced fine-tuning data poisons LLM SFT pipelines to extract 3–4× more training data; directly applicable to model governance in SDLC.",
-      "unproven": "attack demonstrated on public models and datasets; generalization to proprietary training pipelines with other filtering or isolation controls unclear",
-      "scored_at": "2026-09-29T17:16:28.189733498Z"
     },
     {
       "id": "arxiv:2609.37217v1",
@@ -351,21 +352,6 @@
       "scored_at": "2026-09-29T17:16:28.189733107Z"
     },
     {
-      "id": "arxiv:2609.33909v1",
-      "source": "arxiv",
-      "title": "Near-Duplicate Families Break Exact-Record Membership Inference",
-      "url": "http://arxiv.org/abs/2609.33909v1",
-      "published": "2026-09-27T20:43:05Z",
-      "authors": "Yiyong Liu et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Near-duplicate families cause membership inference auditors to mislabel 99.7% of non-members as members; four-world audit separates exact inclusion from family presence.",
-      "unproven": "whether downstream model owners or auditors will adopt the four-world methodology; cost and scale of applying it to production datasets.",
-      "scored_at": "2026-09-29T17:16:41.731633406Z"
-    },
-    {
       "id": "arxiv:2609.38012v1",
       "source": "arxiv",
       "title": "A Function-level Dataset of Vulnerable and Fixed Source Code in JavaScript and TypeScript",
@@ -394,6 +380,21 @@
       "dek": "FLASH pulsed-light attack exploits temporal HDR fusion to darken or overexpose images across eight camera platforms without physical access.",
       "unproven": "Mitigation or detection mechanisms not explored; applicability to autonomous systems in field conditions; reproducibility on newer hardware.",
       "scored_at": "2026-09-30T10:06:11.690729574Z"
+    },
+    {
+      "id": "arxiv:2609.37737v1",
+      "source": "arxiv",
+      "title": "Where Do LLMs Decide to Break the Rules? Mechanistic Localization of Prompt Injection Compliance",
+      "url": "http://arxiv.org/abs/2609.37737v1",
+      "published": "2026-09-29T14:54:21Z",
+      "authors": "Rui Wen et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Mechanistic analysis localizes prompt-injection compliance to a rank-8 to rank-64 bottleneck in the final third of LLM layers.",
+      "unproven": "Findings limited to five models (4B–32B); transferability to larger models and instruction-tuned variants; use for robust defenses undemonstrated.",
+      "scored_at": "2026-09-30T10:06:11.690729695Z"
     }
   ],
   "noise": [
