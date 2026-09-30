@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-29T23:17:14.541379203Z",
-  "edition": 67,
+  "generated": "2026-09-30T03:00:57.80607769Z",
+  "edition": 68,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,13 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 22,
-      "kev": 3
+      "arxiv": 24,
+      "kev": 1
     },
     "by_quadrant": {
       "BREAK GLASS": 9,
-      "NEW GROUND": 12,
-      "STANDING ORDERS": 4
+      "NEW GROUND": 14,
+      "STANDING ORDERS": 2
     }
   },
   "items": [
@@ -169,36 +169,49 @@
       "scored_at": "2026-09-29T17:16:54.401581296Z"
     },
     {
-      "id": "kev:CVE-2026-88772",
-      "source": "kev",
-      "title": "CVE-2026-88772 — Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88772",
-      "published": "2026-09-27T00:00:00Z",
+      "id": "arxiv:2609.37217v1",
+      "source": "arxiv",
+      "title": "When Cyber Scoring Systems Diverge: An Empirical Comparison",
+      "url": "http://arxiv.org/abs/2609.37217v1",
+      "published": "2026-09-29T10:31:22Z",
+      "authors": "Kirsi Hellsten et al.",
       "novelty": 3,
-      "actionability": 5,
-      "score": 8,
+      "actionability": 4,
+      "score": 7,
       "quadrant": "STANDING ORDERS",
-      "dek": "Citrix NetScaler. Confirmed exploited in the wild. Federal remediation due 30 September.",
-      "cves": [
-        "CVE-2026-88772"
-      ],
-      "scored_at": "2026-09-27T22:42:08.69767392Z"
+      "dek": "CVSS, EPSS, SSVC, and IronMiner diverge significantly on Ukraine 2015 power grid topology; scoring choice drives mitigation strategy.",
+      "unproven": "single historical incident; does not establish which scorer is more reliable for current vulnerability triage",
+      "scored_at": "2026-09-30T03:00:32.972293396Z"
     },
     {
-      "id": "kev:CVE-2026-88771",
-      "source": "kev",
-      "title": "CVE-2026-88771 — Citrix NetScaler Improper Input Validation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88771",
-      "published": "2026-09-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Citrix NetScaler. Confirmed exploited in the wild. Federal remediation due 30 September.",
-      "cves": [
-        "CVE-2026-88771"
-      ],
-      "scored_at": "2026-09-27T22:42:08.697676482Z"
+      "id": "arxiv:2609.36941v1",
+      "source": "arxiv",
+      "title": "Practical Secrets Extraction against Black-box LLMs",
+      "url": "http://arxiv.org/abs/2609.36941v1",
+      "published": "2026-09-29T07:52:12Z",
+      "authors": "Shiqian Zhao et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Black-box extraction of secrets from LLMs via distillation and top-p sampling without weight access.",
+      "unproven": "Controlled API-key benchmarks only; real-world evaluation explicitly stated as limited; no systematic measurement of data retention in major coding agents.",
+      "scored_at": "2026-09-30T03:00:45.243894569Z"
+    },
+    {
+      "id": "arxiv:2609.36573v1",
+      "source": "arxiv",
+      "title": "CyberPersistBench: Evaluating LLM-Based Cyber Attackers on Installation and Persistence",
+      "url": "http://arxiv.org/abs/2609.36573v1",
+      "published": "2026-09-29T02:52:18Z",
+      "authors": "Sujin Chen et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "First benchmark for LLM persistence post-compromise shows frontier agents maintain footholds only 27–44% of the time across system disruptions.",
+      "unproven": "Measures agent behavior in lab environments with sandbox host mechanisms; does not establish whether results transfer to defended enterprise infrastructure or inform defensive posture for agents in SDLC.",
+      "scored_at": "2026-09-30T03:00:57.802317008Z"
     },
     {
       "id": "arxiv:2609.35596v1",
@@ -379,21 +392,6 @@
       "dek": "Membership inference attacks on distilled language models extract sensitive training data via token log-probability gaps on fresh trajectories.",
       "unproven": "Scaling to production model sizes; transferability to defenses like differential privacy; practical threshold selection for deployment.",
       "scored_at": "2026-09-29T23:16:47.44043718Z"
-    },
-    {
-      "id": "arxiv:2609.33102v1",
-      "source": "arxiv",
-      "title": "ORBIT: A Framework for Multi-Agent Safety and Security Evaluations",
-      "url": "http://arxiv.org/abs/2609.33102v1",
-      "published": "2026-09-27T02:20:08Z",
-      "authors": "Ben Hagag et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "ORBIT framework enables systematic evaluation of multi-agent LLM systems across attack types, defenses, and topologies.",
-      "unproven": "Completeness of threat model coverage; alignment of benchmark scenarios with production deployment patterns.",
-      "scored_at": "2026-09-29T23:16:47.440437673Z"
     }
   ],
   "noise": [
@@ -414,22 +412,6 @@
       "scored_at": "2026-09-29T00:03:48.949768437Z"
     },
     {
-      "id": "hn:49862299",
-      "source": "hn",
-      "title": "OpenAI agents tried to bruteforce a UN website's API fields",
-      "url": "https://swarmcha.se/posts/openai-unctad",
-      "published": "2026-09-27T01:08:07Z",
-      "authors": "intunderflow",
-      "points": 85,
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "OpenAI agents attempted API brute-force against UN website, raising agent control questions.",
-      "unproven": "whether incident reflects agent design flaw or training data artifact; scope limited to one deployment; no systematic measurement of agent threat surface in SDLC contexts",
-      "scored_at": "2026-09-29T00:03:48.949769108Z"
-    },
-    {
       "id": "hn:49881692",
       "source": "hn",
       "title": "Who wrote Elizabeth I's most scathing letters?",
@@ -444,6 +426,22 @@
       "dek": "Historical analysis of Elizabeth I's letter authorship using linguistic methods.",
       "unproven": "entirely outside application security remit",
       "scored_at": "2026-09-29T00:03:48.949767996Z"
+    },
+    {
+      "id": "hn:49883159",
+      "source": "hn",
+      "title": "First Steps of the PLC Organization – Independent Public Ledger of Credentials",
+      "url": "https://blog.plcred.org/3mwlphq42d227",
+      "published": "2026-09-28T19:27:45Z",
+      "authors": "embedding-shape",
+      "points": 35,
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "PLC Organization proposes a public ledger for credential management and verification.",
+      "unproven": "production adoption, interoperability with existing identity systems, resistance to credential harvesting at scale",
+      "scored_at": "2026-09-29T00:03:48.949767455Z"
     }
   ]
 }
