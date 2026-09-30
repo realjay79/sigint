@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T10:06:38.976186344Z",
+  "generated": "2026-09-30T17:15:24.281240352Z",
   "edition": 68,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,8 +12,9 @@
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 8,
-      "NEW GROUND": 14,
+      "BREAK GLASS": 6,
+      "NEW GROUND": 15,
+      "NOISE FLOOR": 1,
       "STANDING ORDERS": 3
     }
   },
@@ -123,36 +124,6 @@
       "dek": "Malicious crowdsourced fine-tuning data poisons LLM SFT pipelines to extract 3–4× more training data; directly applicable to model governance in SDLC.",
       "unproven": "attack demonstrated on public models and datasets; generalization to proprietary training pipelines with other filtering or isolation controls unclear",
       "scored_at": "2026-09-29T17:16:28.189733498Z"
-    },
-    {
-      "id": "arxiv:2609.33597v1",
-      "source": "arxiv",
-      "title": "The Price of Peeking: Anytime-Valid Leakage Detection on ML-KEM EM Traces",
-      "url": "http://arxiv.org/abs/2609.33597v1",
-      "published": "2026-09-27T14:14:10Z",
-      "authors": "Georgios Feretzakis et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Anytime-valid leakage detection via betting on ML-KEM EM traces; reduces required sample count 2–8% of fixed budget while controlling false-alarm rate uniformly over time.",
-      "unproven": "Generalization to post-quantum algorithms other than ML-KEM; cost-benefit analysis of repeated monitoring versus fixed-horizon testing in production labs.",
-      "scored_at": "2026-09-29T17:16:54.401577931Z"
-    },
-    {
-      "id": "arxiv:2609.33446v1",
-      "source": "arxiv",
-      "title": "HESP: Separating What to Probe from When to Stop in Local LLM Alert-Triage Agents",
-      "url": "http://arxiv.org/abs/2609.33446v1",
-      "published": "2026-09-27T10:54:05Z",
-      "authors": "Zhuowen Liu et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "HESP controller separates investigation procedure from small local LLM agents using ledger, expected-information-gain probe selection, and evidence-backed verdicts; lifts completion from 0.125 to 1.0 on 7B model.",
-      "unproven": "Generalization beyond controlled lab environment; performance with real multi-stage alert chains; scaling to enterprise alert volumes.",
-      "scored_at": "2026-09-29T17:16:54.401578772Z"
     },
     {
       "id": "arxiv:2609.37217v1",
@@ -393,56 +364,84 @@
       "dek": "Near-duplicate families cause membership inference auditors to mislabel 99.7% of non-members as members; four-world audit separates exact inclusion from family presence.",
       "unproven": "whether downstream model owners or auditors will adopt the four-world methodology; cost and scale of applying it to production datasets.",
       "scored_at": "2026-09-29T17:16:41.731633406Z"
+    },
+    {
+      "id": "arxiv:2609.38012v1",
+      "source": "arxiv",
+      "title": "A Function-level Dataset of Vulnerable and Fixed Source Code in JavaScript and TypeScript",
+      "url": "http://arxiv.org/abs/2609.38012v1",
+      "published": "2026-09-29T16:59:45Z",
+      "authors": "Tamás Viszkok et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "JsVul dataset of 10K+ vulnerable and fixed JavaScript/TypeScript functions with language-specific preprocessing and time ordering.",
+      "unproven": "Performance of models trained on JsVul; generalization beyond the seven source repositories; comparison to existing JS/TS datasets.",
+      "scored_at": "2026-09-30T10:06:11.69072706Z"
+    },
+    {
+      "id": "arxiv:2609.37742v1",
+      "source": "arxiv",
+      "title": "Lights, Camera, Attack: Exploiting Temporal HDR Fusion with Pulsed Light",
+      "url": "http://arxiv.org/abs/2609.37742v1",
+      "published": "2026-09-29T14:56:45Z",
+      "authors": "Alkim Domeke et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "FLASH pulsed-light attack exploits temporal HDR fusion to darken or overexpose images across eight camera platforms without physical access.",
+      "unproven": "Mitigation or detection mechanisms not explored; applicability to autonomous systems in field conditions; reproducibility on newer hardware.",
+      "scored_at": "2026-09-30T10:06:11.690729574Z"
     }
   ],
   "noise": [
     {
-      "id": "hn:49873048",
+      "id": "hn:49892245",
       "source": "hn",
-      "title": "Armada: Encrypted, Open-Source, Discord Alternative (Built on Nostr)",
-      "url": "https://soapbox.pub/armada",
-      "published": "2026-09-28T02:55:27Z",
-      "authors": "long____cat",
-      "points": 123,
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Armada offers encrypted messaging on Nostr protocol as Discord alternative.",
-      "unproven": "not relevant to reader's SDLC, tooling, or architecture governance; commercial product",
-      "scored_at": "2026-09-29T00:03:48.949768437Z"
-    },
-    {
-      "id": "hn:49881692",
-      "source": "hn",
-      "title": "Who wrote Elizabeth I's most scathing letters?",
-      "url": "https://smithsonianmag.com/history/who-wrote-elizabeth-is-most-scathing-letters-new-research-suggests-the-tudor-queens-male-secretaries-revised-her-correspondence-to-emphasize-her-temper-180989565",
-      "published": "2026-09-28T17:47:08Z",
-      "authors": "benbreen",
-      "points": 37,
+      "title": "How Delhi cut electricity loss from 50 to 5 percent",
+      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "published": "2026-09-29T12:43:29Z",
+      "authors": "rbanffy",
+      "points": 566,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Historical analysis of Elizabeth I's letter authorship using linguistic methods.",
-      "unproven": "entirely outside application security remit",
-      "scored_at": "2026-09-29T00:03:48.949767996Z"
+      "dek": "Case study in electrical grid efficiency; outside information security and application engineering.",
+      "scored_at": "2026-09-30T17:15:22.058372806Z"
     },
     {
-      "id": "hn:49883159",
+      "id": "hn:49891480",
       "source": "hn",
-      "title": "First Steps of the PLC Organization – Independent Public Ledger of Credentials",
-      "url": "https://blog.plcred.org/3mwlphq42d227",
-      "published": "2026-09-28T19:27:45Z",
-      "authors": "embedding-shape",
-      "points": 35,
-      "novelty": 2,
+      "title": "500k facial scans at UK stations yield no arrests, 1 false positive",
+      "url": "https://theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive",
+      "published": "2026-09-29T11:35:18Z",
+      "authors": "ilamont",
+      "points": 501,
+      "novelty": 3,
       "actionability": 1,
-      "score": 3,
+      "score": 4,
       "quadrant": "NOISE FLOOR",
-      "dek": "PLC Organization proposes a public ledger for credential management and verification.",
-      "unproven": "production adoption, interoperability with existing identity systems, resistance to credential harvesting at scale",
-      "scored_at": "2026-09-29T00:03:48.949767455Z"
+      "dek": "UK facial recognition deployment yielded negligible arrests and one false positive; policy outcome, not actionable to application security engineer.",
+      "scored_at": "2026-09-30T17:15:22.058373868Z"
+    },
+    {
+      "id": "hn:49891550",
+      "source": "hn",
+      "title": "US sanctions force The Netherlands off Microsoft and toward alternative NixOS",
+      "url": "https://tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027",
+      "published": "2026-09-29T11:44:25Z",
+      "authors": "mywacaday",
+      "points": 381,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Netherlands government explores NixOS as Microsoft alternative due to export controls; vocabulary and vendor shift, no immediate application-layer change.",
+      "unproven": "adoption timeline; whether decision affects reader's infrastructure or tooling decisions",
+      "scored_at": "2026-09-30T17:15:22.058373727Z"
     }
   ]
 }
