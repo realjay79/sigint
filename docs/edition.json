@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T03:00:57.80607769Z",
+  "generated": "2026-09-30T10:06:38.976186344Z",
   "edition": 68,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,25 +12,26 @@
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 9,
+      "BREAK GLASS": 8,
       "NEW GROUND": 14,
-      "STANDING ORDERS": 2
+      "STANDING ORDERS": 3
     }
   },
   "items": [
     {
-      "id": "arxiv:2609.33413v1",
+      "id": "arxiv:2609.37608v1",
       "source": "arxiv",
-      "title": "Weird Machine Compositors: Exploiting AI Orchestration at the Expression Layer",
-      "url": "http://arxiv.org/abs/2609.33413v1",
-      "published": "2026-09-27T09:49:02Z",
-      "authors": "Eilon Cohen et al.",
-      "novelty": 5,
-      "actionability": 5,
-      "score": 10,
+      "title": "Harvest Season for SLUB: From io_uring vulnerability to Novel Sheaf-Based Exploitation Techniques",
+      "url": "http://arxiv.org/abs/2609.37608v1",
+      "published": "2026-09-29T13:54:33Z",
+      "authors": "Hao-Yu Yang et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
       "quadrant": "BREAK GLASS",
-      "dek": "Expression-layer sandbox escapes in n8n orchestration platform via weird machine exploitation; three CVEs (CVSS 9.4), AST coverage tool released, pattern generalizes across category.",
-      "scored_at": "2026-09-29T17:16:54.401579152Z"
+      "dek": "Two io_uring vulns and three sheaf-based SLUB exploitation techniques enable LPE under hardened kernels; changes cross-cache attack assumptions.",
+      "unproven": "Vendor patch status at submission; applicability to kernels \u003c6.18 or with pending mitigations; reproducibility on all hardening combinations.",
+      "scored_at": "2026-09-30T10:06:11.690729935Z"
     },
     {
       "id": "kev:CVE-2026-86950",
@@ -154,21 +155,6 @@
       "scored_at": "2026-09-29T17:16:54.401578772Z"
     },
     {
-      "id": "arxiv:2609.33371v1",
-      "source": "arxiv",
-      "title": "API Secrets Should Never Become Tokens in the LLM's Vocabulary: A Threat Analysis of API Credential Handling in LLM Agent Systems and an Empirical Evaluation of a Vault-Mediated Execution Boundary",
-      "url": "http://arxiv.org/abs/2609.33371v1",
-      "published": "2026-09-27T08:55:16Z",
-      "authors": "Patrick Kenney et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Vault-mediated execution boundary prevents LLM agent credential exposure across conversation history, logs, and error payloads; Corvic evaluation shows authenticated API calls succeed without plaintext secrets in environment.",
-      "unproven": "Applicability to non-GitHub APIs and custom tool connectors; usability overhead in production agent workflows; side-channel leakage in logs or monitoring.",
-      "scored_at": "2026-09-29T17:16:54.401581296Z"
-    },
-    {
       "id": "arxiv:2609.37217v1",
       "source": "arxiv",
       "title": "When Cyber Scoring Systems Diverge: An Empirical Comparison",
@@ -214,6 +200,21 @@
       "scored_at": "2026-09-30T03:00:57.802317008Z"
     },
     {
+      "id": "arxiv:2609.36121v1",
+      "source": "arxiv",
+      "title": "Render Before Reading: Visual Rendering as a Prompt Injection Defense",
+      "url": "http://arxiv.org/abs/2609.36121v1",
+      "published": "2026-09-28T18:54:50Z",
+      "authors": "Jie Zhang et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Rendering untrusted payloads as images before LLM ingestion reduces prompt injection success rates across ten models and two benchmarks.",
+      "unproven": "Whether defense survives vision-capable attacks or models retrained on rendered-image instructions; integration with production agent frameworks in SDLC.",
+      "scored_at": "2026-09-30T10:06:22.155972822Z"
+    },
+    {
       "id": "arxiv:2609.35596v1",
       "source": "arxiv",
       "title": "SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents",
@@ -244,6 +245,21 @@
       "scored_at": "2026-09-29T10:14:35.576091421Z"
     },
     {
+      "id": "arxiv:2609.35932v1",
+      "source": "arxiv",
+      "title": "Same Bytes, Different Authority: Reserved-Token Representations in Chat-Template Prompt Injection",
+      "url": "http://arxiv.org/abs/2609.35932v1",
+      "published": "2026-09-28T14:51:21Z",
+      "authors": "Yan Zhan et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Reserved-token representations grant injected chat-template markers 39–66 percentage-point higher authority than subword encodings on three model families.",
+      "unproven": "Measurement on four open-weight families; tokenization defense applicability depends on deployment control of model weights and inference.",
+      "scored_at": "2026-09-30T10:06:33.670439803Z"
+    },
+    {
       "id": "arxiv:2609.35088v1",
       "source": "arxiv",
       "title": "When Valid Tool Calls Change Meaning: Formation-Consistent Dispatch for LLM Agents",
@@ -272,6 +288,21 @@
       "dek": "Cyber-physical invariants mined from clean water-system telemetry reject all fabricated federated-learning updates and 12–20 of 35 real attacks on SWaT and WADI testbeds.",
       "unproven": "Evaluation limited to two water-system testbeds; no evidence invariant mining scales to other OT domains or that honest-shard rejection rate remains zero under adaptive poisoning by attackers with knowledge of the invariants.",
       "scored_at": "2026-09-29T10:15:13.751262774Z"
+    },
+    {
+      "id": "arxiv:2609.34790v2",
+      "source": "arxiv",
+      "title": "CoSec: Benchmarking Agent Security in Communities",
+      "url": "http://arxiv.org/abs/2609.34790v2",
+      "published": "2026-09-28T10:00:05Z",
+      "authors": "Hao Chen et al.",
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Benchmark of 208 community-boundary scenarios shows agents frequently violate privacy and authorization despite completing legitimate tasks.",
+      "unproven": "Evaluated on lab harnesses; whether findings generalize to production agent deployments with real memory systems, custom tools, and organizational policies unclear.",
+      "scored_at": "2026-09-30T10:06:33.670440504Z"
     },
     {
       "id": "arxiv:2609.34518v1",
@@ -362,36 +393,6 @@
       "dek": "Near-duplicate families cause membership inference auditors to mislabel 99.7% of non-members as members; four-world audit separates exact inclusion from family presence.",
       "unproven": "whether downstream model owners or auditors will adopt the four-world methodology; cost and scale of applying it to production datasets.",
       "scored_at": "2026-09-29T17:16:41.731633406Z"
-    },
-    {
-      "id": "arxiv:2609.33532v1",
-      "source": "arxiv",
-      "title": "Where the Numbers Come From: Auditing Evaluation in Provenance-Based Intrusion Detection",
-      "url": "http://arxiv.org/abs/2609.33532v1",
-      "published": "2026-09-27T13:01:02Z",
-      "authors": "Jihwan Moon et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Audit of nine provenance-based intrusion detectors isolates three measurement artifacts that inflate reported precision by 0.16–0.33 without changing detector rank.",
-      "unproven": "Prevalence of these defects in detectors not examined; whether corrected implementations change architectural decisions.",
-      "scored_at": "2026-09-29T17:16:54.401578371Z"
-    },
-    {
-      "id": "arxiv:2609.33136v1",
-      "source": "arxiv",
-      "title": "Leaky Students: Membership Inference against On-Policy Distillation",
-      "url": "http://arxiv.org/abs/2609.33136v1",
-      "published": "2026-09-27T03:06:54Z",
-      "authors": "Zhexi Lu et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Membership inference attacks on distilled language models extract sensitive training data via token log-probability gaps on fresh trajectories.",
-      "unproven": "Scaling to production model sizes; transferability to defenses like differential privacy; practical threshold selection for deployment.",
-      "scored_at": "2026-09-29T23:16:47.44043718Z"
     }
   ],
   "noise": [
