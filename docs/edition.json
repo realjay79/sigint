@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T10:35:07.471923231Z",
+  "generated": "2026-10-01T17:43:50.393278934Z",
   "edition": 69,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,8 +12,8 @@
       "kev": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 12,
-      "NEW GROUND": 9,
+      "BREAK GLASS": 9,
+      "NEW GROUND": 12,
       "STANDING ORDERS": 4
     }
   },
@@ -186,51 +186,6 @@
       "scored_at": "2026-09-29T17:16:04.431255919Z"
     },
     {
-      "id": "arxiv:2609.35659v1",
-      "source": "arxiv",
-      "title": "Tracekit: Tamper-Evident Intent-Reasoning-Action Auditing for Autonomous Coding Agents",
-      "url": "http://arxiv.org/abs/2609.35659v1",
-      "published": "2026-09-28T17:22:04Z",
-      "authors": "Bravish Ghosh",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Hash-chained ledger system for coding agents detects all mutations; detects tampering under concurrent writes and long retention.",
-      "unproven": "whether agents will actually accept pre-execution policy gates in production; adoption by major platforms untested.",
-      "scored_at": "2026-09-29T10:14:35.576065662Z"
-    },
-    {
-      "id": "arxiv:2609.35408v1",
-      "source": "arxiv",
-      "title": "\"Nothing to See Here'': Unintended Disclosure through Revision Traces of LLM Deliverables",
-      "url": "http://arxiv.org/abs/2609.35408v1",
-      "published": "2026-09-28T15:28:03Z",
-      "authors": "Yage Zhang et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "LLM edit comments leak 8.8% of deleted secrets; affects drafting workflows in regulated environments.",
-      "unproven": "limited to three public corpora; real-world leak rates in production agents unknown",
-      "scored_at": "2026-09-29T10:14:44.926896638Z"
-    },
-    {
-      "id": "arxiv:2609.35199v1",
-      "source": "arxiv",
-      "title": "Trajectory-Level Security Debt in LLM Coding Agents",
-      "url": "http://arxiv.org/abs/2609.35199v1",
-      "published": "2026-09-28T13:57:29Z",
-      "authors": "Prateek Kumar Rajput et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Security Debt Line Integral metric shows SAST tool agreement in agent code trajectories is 3.9% to 6.2%, not final-state artifacts alone.",
-      "unproven": "evaluation uses four SAST tools and three code-generation benchmarks; unclear how scanner agreement translates to validated vulnerabilities in production agents",
-      "scored_at": "2026-09-29T10:14:58.972152565Z"
-    },
-    {
       "id": "arxiv:2609.39607v1",
       "source": "arxiv",
       "title": "Pretext: Defeating Malicious Skill Detection Frameworks for AI Agents",
@@ -394,6 +349,51 @@
       "dek": "eBPF provenance monitor tracks process and file operations by LLM agents with 0.2-3.5% overhead, recovering cross-process causal chains missed by application tracing.",
       "unproven": "tested on controlled file-mediated workloads; real-world multi-agent SDLC scenarios and graph reconstruction completeness not validated.",
       "scored_at": "2026-10-01T10:35:07.467831296Z"
+    },
+    {
+      "id": "arxiv:2609.36573v1",
+      "source": "arxiv",
+      "title": "CyberPersistBench: Evaluating LLM-Based Cyber Attackers on Installation and Persistence",
+      "url": "http://arxiv.org/abs/2609.36573v1",
+      "published": "2026-09-29T02:52:18Z",
+      "authors": "Sujin Chen et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "First benchmark for LLM persistence post-compromise shows frontier agents maintain footholds only 27–44% of the time across system disruptions.",
+      "unproven": "Measures agent behavior in lab environments with sandbox host mechanisms; does not establish whether results transfer to defended enterprise infrastructure or inform defensive posture for agents in SDLC.",
+      "scored_at": "2026-09-30T03:00:57.802317008Z"
+    },
+    {
+      "id": "arxiv:2609.36121v1",
+      "source": "arxiv",
+      "title": "Render Before Reading: Visual Rendering as a Prompt Injection Defense",
+      "url": "http://arxiv.org/abs/2609.36121v1",
+      "published": "2026-09-28T18:54:50Z",
+      "authors": "Jie Zhang et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Rendering untrusted payloads as images before LLM ingestion reduces prompt injection success rates across ten models and two benchmarks.",
+      "unproven": "Whether defense survives vision-capable attacks or models retrained on rendered-image instructions; integration with production agent frameworks in SDLC.",
+      "scored_at": "2026-09-30T10:06:22.155972822Z"
+    },
+    {
+      "id": "arxiv:2609.40283v1",
+      "source": "arxiv",
+      "title": "Distinguishing Coherent Crosstalk from Calibration Drift via Pauli-Transfer Signatures and Quantum Edge Detection",
+      "url": "http://arxiv.org/abs/2609.40283v1",
+      "published": "2026-09-30T17:48:06Z",
+      "authors": "Syed Emad Uddin Shubha et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Pauli-transfer matrix signatures distinguish coherent crosstalk attacks from calibration drift in multi-tenant quantum processors.",
+      "unproven": "detection efficacy under realistic noise and miscalibration; scalability to large processor arrays",
+      "scored_at": "2026-10-01T17:43:32.715512234Z"
     }
   ],
   "noise": [
