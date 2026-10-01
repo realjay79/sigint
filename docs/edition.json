@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T17:43:50.393278934Z",
+  "generated": "2026-10-01T23:34:39.630776391Z",
   "edition": 69,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,13 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 23,
-      "kev": 2
+      "arxiv": 22,
+      "kev": 3
     },
     "by_quadrant": {
       "BREAK GLASS": 9,
-      "NEW GROUND": 12,
-      "STANDING ORDERS": 4
+      "NEW GROUND": 11,
+      "STANDING ORDERS": 5
     }
   },
   "items": [
@@ -32,6 +32,22 @@
       "dek": "Approval Laundering taxonomy reveals six failure modes in Claude Code, Codex CLI, Cursor where approved actions silently substitute unapproved ones post-approval, with 19–20 reproducible cases per class.",
       "unproven": "whether all six laundering classes affect all tested harnesses equally; prevalence of each class in real user sessions; whether Approval Token prototype eliminates all substitution paths in production.",
       "scored_at": "2026-10-01T03:08:04.419866002Z"
+    },
+    {
+      "id": "kev:CVE-2026-104286",
+      "source": "kev",
+      "title": "CVE-2026-104286 — Fortinet FortiMail Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
+      "published": "2026-10-01T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Fortinet FortiMail. Confirmed exploited in the wild. Federal remediation due 4 October.",
+      "cves": [
+        "CVE-2026-104286"
+      ],
+      "scored_at": "2026-10-01T23:34:04.657447431Z"
     },
     {
       "id": "arxiv:2609.39844v1",
@@ -364,21 +380,6 @@
       "dek": "First benchmark for LLM persistence post-compromise shows frontier agents maintain footholds only 27–44% of the time across system disruptions.",
       "unproven": "Measures agent behavior in lab environments with sandbox host mechanisms; does not establish whether results transfer to defended enterprise infrastructure or inform defensive posture for agents in SDLC.",
       "scored_at": "2026-09-30T03:00:57.802317008Z"
-    },
-    {
-      "id": "arxiv:2609.36121v1",
-      "source": "arxiv",
-      "title": "Render Before Reading: Visual Rendering as a Prompt Injection Defense",
-      "url": "http://arxiv.org/abs/2609.36121v1",
-      "published": "2026-09-28T18:54:50Z",
-      "authors": "Jie Zhang et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Rendering untrusted payloads as images before LLM ingestion reduces prompt injection success rates across ten models and two benchmarks.",
-      "unproven": "Whether defense survives vision-capable attacks or models retrained on rendered-image instructions; integration with production agent frameworks in SDLC.",
-      "scored_at": "2026-09-30T10:06:22.155972822Z"
     },
     {
       "id": "arxiv:2609.40283v1",
