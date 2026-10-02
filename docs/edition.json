@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-01T23:34:39.630776391Z",
-  "edition": 69,
+  "generated": "2026-10-02T03:09:24.658975327Z",
+  "edition": 70,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,12 +8,12 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 22,
-      "kev": 3
+      "arxiv": 23,
+      "kev": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 9,
-      "NEW GROUND": 11,
+      "BREAK GLASS": 11,
+      "NEW GROUND": 9,
       "STANDING ORDERS": 5
     }
   },
@@ -32,6 +32,36 @@
       "dek": "Approval Laundering taxonomy reveals six failure modes in Claude Code, Codex CLI, Cursor where approved actions silently substitute unapproved ones post-approval, with 19–20 reproducible cases per class.",
       "unproven": "whether all six laundering classes affect all tested harnesses equally; prevalence of each class in real user sessions; whether Approval Token prototype eliminates all substitution paths in production.",
       "scored_at": "2026-10-01T03:08:04.419866002Z"
+    },
+    {
+      "id": "arxiv:2610.01564v1",
+      "source": "arxiv",
+      "title": "Chaining Skills to Hijack LLM Agents",
+      "url": "http://arxiv.org/abs/2610.01564v1",
+      "published": "2026-10-01T12:28:49Z",
+      "authors": "Tian Dong et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "APEX constructs adversarial skill chains that hijack LLM agents 74.2% of the time by forging task-progress records across tool handoffs.",
+      "unproven": "Tested on SkillsBench and six models; no evidence this applies to agents with read-only skills, mandatory inter-skill verification, or restricted tool repositories.",
+      "scored_at": "2026-10-02T03:09:13.420857678Z"
+    },
+    {
+      "id": "arxiv:2610.01508v1",
+      "source": "arxiv",
+      "title": "OverAct: Measuring and Mitigating Proactive Over-Authorization in LLM Tool-Calling Agents",
+      "url": "http://arxiv.org/abs/2610.01508v1",
+      "published": "2026-10-01T11:44:45Z",
+      "authors": "Taolin Zhang et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "LLM tool-calling agents routinely over-authorize data access; SelfAudit defense lowers success by 25 percentage points on GPT with zero-shot filtering.",
+      "unproven": "Tested on seven models and eight privacy-sensitive domains; no evidence that over-authorization persists after fine-tuning, multi-step reasoning, or explicit access-control constraints in the agent framework.",
+      "scored_at": "2026-10-02T03:09:13.420857989Z"
     },
     {
       "id": "kev:CVE-2026-104286",
@@ -186,20 +216,49 @@
       "scored_at": "2026-10-01T10:35:07.467830844Z"
     },
     {
-      "id": "kev:CVE-2026-86950",
-      "source": "kev",
-      "title": "CVE-2026-86950 — Apple Multiple Products Out-of-Bounds Write Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950",
-      "published": "2026-09-29T00:00:00Z",
+      "id": "arxiv:2610.01768v1",
+      "source": "arxiv",
+      "title": "The Innocent Courier: Covert Exfiltration Through Legitimate LLM Web Fetching",
+      "url": "http://arxiv.org/abs/2610.01768v1",
+      "published": "2026-10-01T14:25:55Z",
+      "authors": "Alessandro Pegoraro et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "LLMLeak exfiltrates data from local malware by embedding secrets in URLs fetched by LLM web tools, bypassing network restrictions.",
+      "unproven": "Evaluation on unspecified LLM systems; real-world applicability depends on URL-fetching tool availability and web filter behavior; detection and mitigation strategies not addressed.",
+      "scored_at": "2026-10-02T03:08:59.729769194Z"
+    },
+    {
+      "id": "arxiv:2610.01349v1",
+      "source": "arxiv",
+      "title": "PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents",
+      "url": "http://arxiv.org/abs/2610.01349v1",
+      "published": "2026-10-01T09:18:05Z",
+      "authors": "Fengpeng Li et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "PACE mediates tool calls in LLM agents by verifying execution contracts and confining influence paths before action, blocking 62 of 79 attack configurations.",
+      "unproven": "generalization to production agent architectures outside benchmarks untested; overhead and false-positive rates in live systems unknown",
+      "scored_at": "2026-10-02T03:09:24.652397346Z"
+    },
+    {
+      "id": "arxiv:2610.01263v1",
+      "source": "arxiv",
+      "title": "Autonomous OSS Threat Detection via Taxonomy-Aligned LLMs",
+      "url": "http://arxiv.org/abs/2610.01263v1",
+      "published": "2026-10-01T07:54:44Z",
+      "authors": "Md. Robiul Islam Niloy",
       "novelty": 3,
-      "actionability": 5,
-      "score": 8,
+      "actionability": 4,
+      "score": 7,
       "quadrant": "STANDING ORDERS",
-      "dek": "Apple Multiple Products. Confirmed exploited in the wild. Federal remediation due 2 October.",
-      "cves": [
-        "CVE-2026-86950"
-      ],
-      "scored_at": "2026-09-29T17:16:04.431255919Z"
+      "dek": "GPT-4 with taxonomy-aligned prompts detects OSS supply chain threats at 97% accuracy across typosquatting, dependency confusion, and CI/CD poisoning.",
+      "unproven": "evaluation uses curated advisory data, not blind real-world scanning; false-positive rates and deployment feasibility in existing SCA tooling pipelines not measured",
+      "scored_at": "2026-10-02T03:09:24.652397777Z"
     },
     {
       "id": "arxiv:2609.39607v1",
@@ -335,66 +394,6 @@
       "dek": "CVSS, EPSS, SSVC, and IronMiner diverge significantly on Ukraine 2015 power grid topology; scoring choice drives mitigation strategy.",
       "unproven": "single historical incident; does not establish which scorer is more reliable for current vulnerability triage",
       "scored_at": "2026-09-30T03:00:32.972293396Z"
-    },
-    {
-      "id": "arxiv:2609.36941v1",
-      "source": "arxiv",
-      "title": "Practical Secrets Extraction against Black-box LLMs",
-      "url": "http://arxiv.org/abs/2609.36941v1",
-      "published": "2026-09-29T07:52:12Z",
-      "authors": "Shiqian Zhao et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Black-box extraction of secrets from LLMs via distillation and top-p sampling without weight access.",
-      "unproven": "Controlled API-key benchmarks only; real-world evaluation explicitly stated as limited; no systematic measurement of data retention in major coding agents.",
-      "scored_at": "2026-09-30T03:00:45.243894569Z"
-    },
-    {
-      "id": "arxiv:2609.38245v1",
-      "source": "arxiv",
-      "title": "Agent-Warden: eBPF-Based Kernel-Native Process-File Provenance Tracking for LLM Agents",
-      "url": "http://arxiv.org/abs/2609.38245v1",
-      "published": "2026-09-29T06:48:01Z",
-      "authors": "Dongxu Cui et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "eBPF provenance monitor tracks process and file operations by LLM agents with 0.2-3.5% overhead, recovering cross-process causal chains missed by application tracing.",
-      "unproven": "tested on controlled file-mediated workloads; real-world multi-agent SDLC scenarios and graph reconstruction completeness not validated.",
-      "scored_at": "2026-10-01T10:35:07.467831296Z"
-    },
-    {
-      "id": "arxiv:2609.36573v1",
-      "source": "arxiv",
-      "title": "CyberPersistBench: Evaluating LLM-Based Cyber Attackers on Installation and Persistence",
-      "url": "http://arxiv.org/abs/2609.36573v1",
-      "published": "2026-09-29T02:52:18Z",
-      "authors": "Sujin Chen et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "First benchmark for LLM persistence post-compromise shows frontier agents maintain footholds only 27–44% of the time across system disruptions.",
-      "unproven": "Measures agent behavior in lab environments with sandbox host mechanisms; does not establish whether results transfer to defended enterprise infrastructure or inform defensive posture for agents in SDLC.",
-      "scored_at": "2026-09-30T03:00:57.802317008Z"
-    },
-    {
-      "id": "arxiv:2609.40283v1",
-      "source": "arxiv",
-      "title": "Distinguishing Coherent Crosstalk from Calibration Drift via Pauli-Transfer Signatures and Quantum Edge Detection",
-      "url": "http://arxiv.org/abs/2609.40283v1",
-      "published": "2026-09-30T17:48:06Z",
-      "authors": "Syed Emad Uddin Shubha et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Pauli-transfer matrix signatures distinguish coherent crosstalk attacks from calibration drift in multi-tenant quantum processors.",
-      "unproven": "detection efficacy under realistic noise and miscalibration; scalability to large processor arrays",
-      "scored_at": "2026-10-01T17:43:32.715512234Z"
     }
   ],
   "noise": [
