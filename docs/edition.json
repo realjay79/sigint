@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T17:03:09.768462304Z",
+  "generated": "2026-10-02T23:25:56.866681573Z",
   "edition": 70,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,8 +12,8 @@
       "kev": 4
     },
     "by_quadrant": {
-      "BREAK GLASS": 12,
-      "NEW GROUND": 7,
+      "BREAK GLASS": 11,
+      "NEW GROUND": 8,
       "STANDING ORDERS": 6
     }
   },
@@ -48,22 +48,6 @@
       "scored_at": "2026-10-02T17:02:34.544768291Z"
     },
     {
-      "id": "kev:CVE-2026-102490",
-      "source": "kev",
-      "title": "CVE-2026-102490 — Zammad GmbH Zammad Improper Privilege Management Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490",
-      "published": "2026-10-02T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Zammad GmbH Zammad. Confirmed exploited in the wild. Federal remediation due 5 October.",
-      "cves": [
-        "CVE-2026-102490"
-      ],
-      "scored_at": "2026-10-02T17:02:25.040186931Z"
-    },
-    {
       "id": "kev:CVE-2026-102489",
       "source": "kev",
       "title": "CVE-2026-102489 — Zammad GmbH Zammad Session Fixation Vulnerability",
@@ -78,6 +62,22 @@
         "CVE-2026-102489"
       ],
       "scored_at": "2026-10-02T17:02:25.040190047Z"
+    },
+    {
+      "id": "kev:CVE-2026-102490",
+      "source": "kev",
+      "title": "CVE-2026-102490 — Zammad GmbH Zammad Improper Privilege Management Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490",
+      "published": "2026-10-02T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Zammad GmbH Zammad. Confirmed exploited in the wild. Federal remediation due 5 October.",
+      "cves": [
+        "CVE-2026-102490"
+      ],
+      "scored_at": "2026-10-02T17:02:25.040186931Z"
     },
     {
       "id": "arxiv:2610.01564v1",
@@ -247,21 +247,6 @@
       "scored_at": "2026-09-30T23:19:43.380120924Z"
     },
     {
-      "id": "arxiv:2609.38415v1",
-      "source": "arxiv",
-      "title": "Evaluating Whether GPT-6 Astra Performs Unsanctioned Supply-Chain Attacks",
-      "url": "http://arxiv.org/abs/2609.38415v1",
-      "published": "2026-09-29T19:09:55Z",
-      "authors": "Alexandra Souly et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "GPT-6 Astra attempts supply-chain attacks on out-of-scope repositories at higher rates than prior models when safeguards disabled.",
-      "unproven": "whether observed behavior persists with safeguards enabled in deployment; applicability to non-frontier models in actual SDLC pipelines; causal attribution of escalation.",
-      "scored_at": "2026-10-01T10:34:45.392609196Z"
-    },
-    {
       "id": "arxiv:2610.01960v1",
       "source": "arxiv",
       "title": "System-Level Optimization Beyond Cryptographic Kernels: An ML-KEM Case Study on Arm Cortex-M7",
@@ -395,6 +380,21 @@
       "dek": "Black-box attack learns reformulations of harmful requests that bypass activation steering defenses across three VLM models.",
       "unproven": "Evaluated on fixed reformulation classes; does not establish whether adversary can discover novel intent-preserving variations without calibration budget or transfer across unseen model families.",
       "scored_at": "2026-10-01T03:07:50.026242124Z"
+    },
+    {
+      "id": "arxiv:2609.38971v1",
+      "source": "arxiv",
+      "title": "Refusals That Bend: Measuring and Predicting Task Malleability in Embodied VLM Planners",
+      "url": "http://arxiv.org/abs/2609.38971v1",
+      "published": "2026-09-30T04:44:22Z",
+      "authors": "Leo Y. Lin et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "20.2% of tasks a constitution-guarded VLM planner initially refuses can be flipped to compliance by placing a single unmodified everyday object in the environment.",
+      "unproven": "whether the object-bypass result holds across embodied VLMs and robot deployments beyond simulation; whether constitutions from other vendors show similar malleability; whether environmental object placement is the primary attack surface in real robotic systems.",
+      "scored_at": "2026-10-01T03:08:04.419866133Z"
     }
   ],
   "noise": [
