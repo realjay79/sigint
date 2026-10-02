@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T10:09:57.960797872Z",
+  "generated": "2026-10-02T17:03:09.768462304Z",
   "edition": 70,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,13 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 23,
-      "kev": 2
+      "arxiv": 21,
+      "kev": 4
     },
     "by_quadrant": {
-      "BREAK GLASS": 10,
-      "NEW GROUND": 10,
-      "STANDING ORDERS": 5
+      "BREAK GLASS": 12,
+      "NEW GROUND": 7,
+      "STANDING ORDERS": 6
     }
   },
   "items": [
@@ -32,6 +32,52 @@
       "dek": "Approval Laundering taxonomy reveals six failure modes in Claude Code, Codex CLI, Cursor where approved actions silently substitute unapproved ones post-approval, with 19–20 reproducible cases per class.",
       "unproven": "whether all six laundering classes affect all tested harnesses equally; prevalence of each class in real user sessions; whether Approval Token prototype eliminates all substitution paths in production.",
       "scored_at": "2026-10-01T03:08:04.419866002Z"
+    },
+    {
+      "id": "arxiv:2610.01907v1",
+      "source": "arxiv",
+      "title": "Detection and Resolution of Periodic Artifacts in OpenDP's Discrete Laplace Sampler",
+      "url": "http://arxiv.org/abs/2610.01907v1",
+      "published": "2026-10-01T15:51:08Z",
+      "authors": "Cesare Gerolimetto Fabrello et al.",
+      "novelty": 4,
+      "actionability": 5,
+      "score": 9,
+      "quadrant": "BREAK GLASS",
+      "dek": "OpenDP discrete Laplace sampler contains periodic artifacts from faulty bernoulli_exp1 in rational arithmetic library; exact arithmetic fixes it.",
+      "scored_at": "2026-10-02T17:02:34.544768291Z"
+    },
+    {
+      "id": "kev:CVE-2026-102490",
+      "source": "kev",
+      "title": "CVE-2026-102490 — Zammad GmbH Zammad Improper Privilege Management Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490",
+      "published": "2026-10-02T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Zammad GmbH Zammad. Confirmed exploited in the wild. Federal remediation due 5 October.",
+      "cves": [
+        "CVE-2026-102490"
+      ],
+      "scored_at": "2026-10-02T17:02:25.040186931Z"
+    },
+    {
+      "id": "kev:CVE-2026-102489",
+      "source": "kev",
+      "title": "CVE-2026-102489 — Zammad GmbH Zammad Session Fixation Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489",
+      "published": "2026-10-02T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Zammad GmbH Zammad. Confirmed exploited in the wild. Federal remediation due 5 October.",
+      "cves": [
+        "CVE-2026-102489"
+      ],
+      "scored_at": "2026-10-02T17:02:25.040190047Z"
     },
     {
       "id": "arxiv:2610.01564v1",
@@ -64,6 +110,36 @@
       "scored_at": "2026-10-02T03:09:13.420857989Z"
     },
     {
+      "id": "arxiv:2610.00977v1",
+      "source": "arxiv",
+      "title": "ABSENTIA: Detecting Broken Access Control Vulnerabilities in Web Applications",
+      "url": "http://arxiv.org/abs/2610.00977v1",
+      "published": "2026-10-01T03:11:45Z",
+      "authors": "André V. Duarte et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "ABSENTIA scaffolds LLM agents to systematically detect broken access control by mapping routes to code and applying invariant falsification across a testable graph.",
+      "unproven": "BAC-Bench limited to 30 advisories across 25 repositories; false-positive rate and coverage completeness on real applications not quantified; language scope narrow.",
+      "scored_at": "2026-10-02T17:02:47.505750425Z"
+    },
+    {
+      "id": "arxiv:2610.00850v1",
+      "source": "arxiv",
+      "title": "AuraForge: Scaling Security Supervision for Training Coding Agents",
+      "url": "http://arxiv.org/abs/2610.00850v1",
+      "published": "2026-10-01T00:07:01Z",
+      "authors": "Danqing Wang et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "AuraForge synthesizes executable security tests from real repositories to train coding agents; AuraGym provides 679 tasks across Python, JavaScript, TypeScript covering 177 CWEs.",
+      "unproven": "agent security improvement measured only on AuraGym tasks; transfer to code in the wild not demonstrated; task synthesis coverage and false-test rates not quantified.",
+      "scored_at": "2026-10-02T17:02:47.505750756Z"
+    },
+    {
       "id": "kev:CVE-2026-104286",
       "source": "kev",
       "title": "CVE-2026-104286 — Fortinet FortiMail Path Traversal Vulnerability",
@@ -78,6 +154,21 @@
         "CVE-2026-104286"
       ],
       "scored_at": "2026-10-01T23:34:04.657447431Z"
+    },
+    {
+      "id": "arxiv:2610.00797v1",
+      "source": "arxiv",
+      "title": "Sapien: A Stateful Policy Engine for Autonomous AI Agents",
+      "url": "http://arxiv.org/abs/2610.00797v1",
+      "published": "2026-09-30T22:40:00Z",
+      "authors": "Corinn Tiffany et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Sapien enforces stateful policies on agent tool calls using regex with predicates and deferred generation, blocking 93–95% of attacks on AgentDojo while preserving utility.",
+      "unproven": "evaluation limited to two benchmarks; real-world task environments not tested; computational overhead of policy synthesis and verification not measured.",
+      "scored_at": "2026-10-02T17:02:47.505751347Z"
     },
     {
       "id": "arxiv:2609.39844v1",
@@ -171,34 +262,19 @@
       "scored_at": "2026-10-01T10:34:45.392609196Z"
     },
     {
-      "id": "arxiv:2609.38266v1",
+      "id": "arxiv:2610.01960v1",
       "source": "arxiv",
-      "title": "Janus: Evidence-Before-Effect Sagas and Offline-Verifiable Provenance for Agentic LLMs",
-      "url": "http://arxiv.org/abs/2609.38266v1",
-      "published": "2026-09-29T13:57:51Z",
-      "authors": "Mustafa Arslan",
-      "novelty": 4,
+      "title": "System-Level Optimization Beyond Cryptographic Kernels: An ML-KEM Case Study on Arm Cortex-M7",
+      "url": "http://arxiv.org/abs/2610.01960v1",
+      "published": "2026-10-01T16:16:01Z",
+      "authors": "Mahmoud Abdelhafeez Sayed et al.",
+      "novelty": 3,
       "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Janus enforces offline-verifiable provenance for agentic LLM tool calls through durable, signed, hash-chained logs before effect execution.",
-      "unproven": "Single lending workflow evaluation; performance at scale with complex agent action sequences; compatibility with existing MCP deployments and SAST/DAST tooling.",
-      "scored_at": "2026-10-01T10:34:56.416220921Z"
-    },
-    {
-      "id": "arxiv:2609.37608v1",
-      "source": "arxiv",
-      "title": "Harvest Season for SLUB: From io_uring vulnerability to Novel Sheaf-Based Exploitation Techniques",
-      "url": "http://arxiv.org/abs/2609.37608v1",
-      "published": "2026-09-29T13:54:33Z",
-      "authors": "Hao-Yu Yang et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Two io_uring vulns and three sheaf-based SLUB exploitation techniques enable LPE under hardened kernels; changes cross-cache attack assumptions.",
-      "unproven": "Vendor patch status at submission; applicability to kernels \u003c6.18 or with pending mitigations; reproducibility on all hardening combinations.",
-      "scored_at": "2026-09-30T10:06:11.690729935Z"
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "ML-KEM on Arm Cortex-M7 gains up to 74.6% faster encapsulation through memory hierarchy and public-data reuse, beyond arithmetic optimization.",
+      "unproven": "generalization to other microcontrollers or PQC schemes; whether gains hold with compiler-generated code at optimization levels",
+      "scored_at": "2026-10-02T17:02:34.54476775Z"
     },
     {
       "id": "arxiv:2610.01768v1",
@@ -246,6 +322,36 @@
       "scored_at": "2026-10-02T03:09:24.652397777Z"
     },
     {
+      "id": "arxiv:2610.00450v1",
+      "source": "arxiv",
+      "title": "ZoneClaw: Mitigating Persistent Memory Attacks by Establishing Memory-Zoning in OpenClaw-Style Computer-Use Agents",
+      "url": "http://arxiv.org/abs/2610.00450v1",
+      "published": "2026-09-30T17:59:02Z",
+      "authors": "Haokai Ma et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "ZoneClaw mitigates persistent-memory attacks on computer-use agents by separating low-trust external claims from high-trust authority zones via hierarchical memory.",
+      "unproven": "whether attackers can escalate privilege within zones; applicability to agents deployed in SDLC vs. standalone assistants; integration costs for existing agents",
+      "scored_at": "2026-10-02T17:02:58.913183189Z"
+    },
+    {
+      "id": "arxiv:2610.00400v1",
+      "source": "arxiv",
+      "title": "Representation Transitions Reveal Emerging Safety Risks in Multi-Turn LLM Agents",
+      "url": "http://arxiv.org/abs/2610.00400v1",
+      "published": "2026-09-30T12:30:56Z",
+      "authors": "Haoyu Wang et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Internal representation shifts in LLM agents signal multi-turn attacks; DART detects and mitigates them at 12% false-alarm rate.",
+      "unproven": "evaluation limited to two benchmarks and six models; unclear how defenses generalize to custom agents or production deployment.",
+      "scored_at": "2026-10-02T17:03:09.761608752Z"
+    },
+    {
       "id": "arxiv:2609.39607v1",
       "source": "arxiv",
       "title": "Pretext: Defeating Malicious Skill Detection Frameworks for AI Agents",
@@ -289,159 +395,53 @@
       "dek": "Black-box attack learns reformulations of harmful requests that bypass activation steering defenses across three VLM models.",
       "unproven": "Evaluated on fixed reformulation classes; does not establish whether adversary can discover novel intent-preserving variations without calibration budget or transfer across unseen model families.",
       "scored_at": "2026-10-01T03:07:50.026242124Z"
-    },
-    {
-      "id": "arxiv:2609.38971v1",
-      "source": "arxiv",
-      "title": "Refusals That Bend: Measuring and Predicting Task Malleability in Embodied VLM Planners",
-      "url": "http://arxiv.org/abs/2609.38971v1",
-      "published": "2026-09-30T04:44:22Z",
-      "authors": "Leo Y. Lin et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "20.2% of tasks a constitution-guarded VLM planner initially refuses can be flipped to compliance by placing a single unmodified everyday object in the environment.",
-      "unproven": "whether the object-bypass result holds across embodied VLMs and robot deployments beyond simulation; whether constitutions from other vendors show similar malleability; whether environmental object placement is the primary attack surface in real robotic systems.",
-      "scored_at": "2026-10-01T03:08:04.419866133Z"
-    },
-    {
-      "id": "arxiv:2609.38899v1",
-      "source": "arxiv",
-      "title": "SceneJail: Exploiting Video Scenario Context to Jailbreak Multimodal LLMs",
-      "url": "http://arxiv.org/abs/2609.38899v1",
-      "published": "2026-09-30T03:47:17Z",
-      "authors": "Wenyu Chen et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Video-MLLM jailbreaks succeed by embedding harmful queries in compatible video scenarios, bypassing safety controls across eight models including GPT-4V and Gemini.",
-      "unproven": "limited to eight model families, does not establish whether current alignment training can close this vector, no patch or mitigation tested",
-      "scored_at": "2026-10-01T10:34:34.057628799Z"
-    },
-    {
-      "id": "arxiv:2609.38830v1",
-      "source": "arxiv",
-      "title": "SparLeak: Privacy Leakage from Sparse Attention in LLM Inference on Shared GPUs",
-      "url": "http://arxiv.org/abs/2609.38830v1",
-      "published": "2026-09-30T02:52:28Z",
-      "authors": "Fahao Chen et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "GPU side-channel attack extracts LLM query attributes and response tokens from sparse-attention key-value cache access patterns with 87–91% success.",
-      "unproven": "evaluated on shared-GPU lab setting only, does not measure attack feasibility on production isolation (cgroup, SEV, TEE), no defense tested",
-      "scored_at": "2026-10-01T10:34:34.057630746Z"
-    },
-    {
-      "id": "arxiv:2609.38411v1",
-      "source": "arxiv",
-      "title": "A Competing-Hazards Systematization of Loss of Control in Autonomous Agents",
-      "url": "http://arxiv.org/abs/2609.38411v1",
-      "published": "2026-09-29T19:04:21Z",
-      "authors": "Mohamed Aly Bouke",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Competing-hazards framework systematizes loss of control in agents; audit of 124 reports and evaluations reveals 47:1 incidence ratio for out-of-scope coordination.",
-      "unproven": "whether framework predicts failure rates in new agent deployments; applicability to agents beyond the evaluated cohort; causal mechanisms driving the observed ratios.",
-      "scored_at": "2026-10-01T10:34:45.392609422Z"
-    },
-    {
-      "id": "arxiv:2609.38270v1",
-      "source": "arxiv",
-      "title": "VirusCascade: Hijacking Collaborative Reflection in LLM-Powered Recommender Agents",
-      "url": "http://arxiv.org/abs/2609.38270v1",
-      "published": "2026-09-29T14:13:35Z",
-      "authors": "Yurong Hao et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "LLM-powered recommender agents vulnerable to reflection laundering: injected adversarial evidence rationalized into persistent memory and propagated across agents.",
-      "unproven": "Attack tested on controlled systems only; real-world recommender agent deployment patterns unknown; feasibility against production safety mechanisms undemonstrated.",
-      "scored_at": "2026-10-01T10:34:56.416220785Z"
-    },
-    {
-      "id": "arxiv:2609.37217v1",
-      "source": "arxiv",
-      "title": "When Cyber Scoring Systems Diverge: An Empirical Comparison",
-      "url": "http://arxiv.org/abs/2609.37217v1",
-      "published": "2026-09-29T10:31:22Z",
-      "authors": "Kirsi Hellsten et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "CVSS, EPSS, SSVC, and IronMiner diverge significantly on Ukraine 2015 power grid topology; scoring choice drives mitigation strategy.",
-      "unproven": "single historical incident; does not establish which scorer is more reliable for current vulnerability triage",
-      "scored_at": "2026-09-30T03:00:32.972293396Z"
-    },
-    {
-      "id": "arxiv:2610.01871v1",
-      "source": "arxiv",
-      "title": "Walking the Embedding Space: Datastore Extraction from Multimodal RAG",
-      "url": "http://arxiv.org/abs/2610.01871v1",
-      "published": "2026-10-01T15:30:06Z",
-      "authors": "Maria Carmen Jica et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "ImRAG extracts training data from multimodal RAG systems by embedding attack payloads in images rather than text prompts.",
-      "unproven": "Evaluation on three unspecified real-world systems; generalization to production defenses and detection mechanisms not established.",
-      "scored_at": "2026-10-02T03:08:59.729765677Z"
     }
   ],
   "noise": [
     {
-      "id": "hn:49892245",
+      "id": "hn:49928121",
       "source": "hn",
-      "title": "How Delhi cut electricity loss from 50 to 5 percent",
-      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
-      "published": "2026-09-29T12:43:29Z",
-      "authors": "rbanffy",
-      "points": 566,
+      "title": "Several vulnerabilities have been discovered in the Linux kernel",
+      "url": "https://lwn.net/Articles/1097401",
+      "published": "2026-10-01T23:10:44Z",
+      "authors": "luispa",
+      "points": 308,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Case study in electrical grid efficiency; outside information security and application engineering.",
-      "scored_at": "2026-09-30T17:15:22.058372806Z"
+      "dek": "LWN summary of Linux kernel vulnerabilities; standard security reporting without technical depth or CVE details.",
+      "scored_at": "2026-10-02T10:09:57.956103966Z"
     },
     {
-      "id": "hn:49891480",
+      "id": "hn:49927212",
       "source": "hn",
-      "title": "500k facial scans at UK stations yield no arrests, 1 false positive",
-      "url": "https://theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive",
-      "published": "2026-09-29T11:35:18Z",
-      "authors": "ilamont",
-      "points": 501,
-      "novelty": 3,
+      "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
+      "url": "https://cssbed.com",
+      "published": "2026-10-01T21:21:32Z",
+      "authors": "sea-gold",
+      "points": 110,
+      "novelty": 1,
       "actionability": 1,
-      "score": 4,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "UK facial recognition deployment yielded negligible arrests and one false positive; policy outcome, not actionable to application security engineer.",
-      "scored_at": "2026-09-30T17:15:22.058373868Z"
+      "dek": "CSS framework for web development starting points; outside application security engineering scope.",
+      "scored_at": "2026-10-02T10:09:57.956104317Z"
     },
     {
-      "id": "hn:49891550",
+      "id": "hn:49912048",
       "source": "hn",
-      "title": "US sanctions force The Netherlands off Microsoft and toward alternative NixOS",
-      "url": "https://tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027",
-      "published": "2026-09-29T11:44:25Z",
-      "authors": "mywacaday",
-      "points": 381,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
+      "title": "CHOMPI portable sampler instrument is now open-source (hardware and software)",
+      "url": "https://chompiclub.com/opensource",
+      "published": "2026-09-30T17:42:13Z",
+      "authors": "lashkari",
+      "points": 104,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Netherlands government explores NixOS as Microsoft alternative due to export controls; vocabulary and vendor shift, no immediate application-layer change.",
-      "unproven": "adoption timeline; whether decision affects reader's infrastructure or tooling decisions",
-      "scored_at": "2026-09-30T17:15:22.058373727Z"
+      "dek": "Open-source hardware sampler instrument; outside information security remit.",
+      "scored_at": "2026-10-02T10:09:57.956106199Z"
     }
   ]
 }
