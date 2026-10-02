@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T03:09:24.658975327Z",
+  "generated": "2026-10-02T10:09:57.960797872Z",
   "edition": 70,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,8 +12,8 @@
       "kev": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 11,
-      "NEW GROUND": 9,
+      "BREAK GLASS": 10,
+      "NEW GROUND": 10,
       "STANDING ORDERS": 5
     }
   },
@@ -201,21 +201,6 @@
       "scored_at": "2026-09-30T10:06:11.690729935Z"
     },
     {
-      "id": "arxiv:2609.38248v1",
-      "source": "arxiv",
-      "title": "ContractWarden: Kernel-Enforced Damage Boundaries for AI Agents via Human-Authorized Contracts",
-      "url": "http://arxiv.org/abs/2609.38248v1",
-      "published": "2026-09-29T07:13:14Z",
-      "authors": "Dongxu Cui et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "eBPF-based kernel reference monitor enforces damage boundaries on LLM agent file and network operations with 12-62% overhead depending on platform.",
-      "unproven": "tested only on Linux 6.15 with synthetic workloads and 19 curated security tests; deployment impact on production SDLC integration unknown.",
-      "scored_at": "2026-10-01T10:35:07.467830844Z"
-    },
-    {
       "id": "arxiv:2610.01768v1",
       "source": "arxiv",
       "title": "The Innocent Courier: Covert Exfiltration Through Legitimate LLM Web Fetching",
@@ -394,6 +379,21 @@
       "dek": "CVSS, EPSS, SSVC, and IronMiner diverge significantly on Ukraine 2015 power grid topology; scoring choice drives mitigation strategy.",
       "unproven": "single historical incident; does not establish which scorer is more reliable for current vulnerability triage",
       "scored_at": "2026-09-30T03:00:32.972293396Z"
+    },
+    {
+      "id": "arxiv:2610.01871v1",
+      "source": "arxiv",
+      "title": "Walking the Embedding Space: Datastore Extraction from Multimodal RAG",
+      "url": "http://arxiv.org/abs/2610.01871v1",
+      "published": "2026-10-01T15:30:06Z",
+      "authors": "Maria Carmen Jica et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "ImRAG extracts training data from multimodal RAG systems by embedding attack payloads in images rather than text prompts.",
+      "unproven": "Evaluation on three unspecified real-world systems; generalization to production defenses and detection mechanisms not established.",
+      "scored_at": "2026-10-02T03:08:59.729765677Z"
     }
   ],
   "noise": [
