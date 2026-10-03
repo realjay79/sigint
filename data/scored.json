@@ -11519,6 +11519,22 @@
     "dek": "LWN summary of Linux kernel vulnerabilities; standard security reporting without technical depth or CVE details.",
     "scored_at": "2026-10-02T10:09:57.956103966Z"
   },
+  "hn:49928361": {
+    "id": "hn:49928361",
+    "source": "hn",
+    "title": "C++ Insights – See your source code with the eyes of a Compiler",
+    "url": "https://github.com/andreasfertig/cppinsights",
+    "published": "2026-10-01T23:53:36Z",
+    "authors": "rramadass",
+    "points": 57,
+    "novelty": 2,
+    "actionability": 2,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "C++ metaprogramming tool shows compiler transformation of source; useful for code review literacy, not a change to SAST/DAST/SCA practice.",
+    "unproven": "whether this catches classes of defects SAST misses, or changes rule development workflow",
+    "scored_at": "2026-10-03T15:24:56.319854844Z"
+  },
   "hn:49929391": {
     "id": "hn:49929391",
     "source": "hn",
@@ -11627,6 +11643,21 @@
     "dek": "Python toolset enables LLM agents to generate LEGO CAD models by producing LDraw assembly-language source code.",
     "unproven": "Toy application; no evaluation of model correctness, buildability, or constraint satisfaction; not relevant to application security engineering.",
     "scored_at": "2026-10-03T09:31:45.699506805Z"
+  },
+  "hn:49943451": {
+    "id": "hn:49943451",
+    "source": "hn",
+    "title": "The Escalation of War in Ethiopia",
+    "url": "https://africanistperspective.com/p/on-the-escalation-of-war-in-ethiopia",
+    "published": "2026-10-03T11:54:24Z",
+    "authors": "mooreds",
+    "points": 100,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Political conflict in Ethiopia; not security-related.",
+    "scored_at": "2026-10-03T15:24:56.319854384Z"
   },
   "kev:CVE-2025-25249": {
     "id": "kev:CVE-2025-25249",

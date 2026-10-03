@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T09:31:49.090784343Z",
+  "generated": "2026-10-03T15:24:56.326527618Z",
   "edition": 71,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,13 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 22,
+      "arxiv": 21,
+      "hn": 1,
       "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 8,
+      "BREAK GLASS": 6,
       "NEW GROUND": 10,
-      "NOISE FLOOR": 2,
+      "NOISE FLOOR": 4,
       "STANDING ORDERS": 5
     }
   },
@@ -157,36 +158,6 @@
       "scored_at": "2026-10-02T17:02:47.505751347Z"
     },
     {
-      "id": "arxiv:2609.39844v1",
-      "source": "arxiv",
-      "title": "Natural Barriers to Quantum Extraction: On the Post-Quantum (In)security of (O)EKE and Masny-Rindal OT",
-      "url": "http://arxiv.org/abs/2609.39844v1",
-      "published": "2026-09-30T14:37:38Z",
-      "authors": "James Bartusek et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "EKE and Masny-Rindal OT lose UC-security against quantum adversaries despite post-quantum KEM instantiation.",
-      "unproven": "Whether alternative PAKE and OT compilers avoid this barrier; concrete quantum advantage needed to exploit vulnerability in practice.",
-      "scored_at": "2026-10-01T03:07:26.784233704Z"
-    },
-    {
-      "id": "arxiv:2609.39678v1",
-      "source": "arxiv",
-      "title": "Aletheia: Permission-Minimality Testing for Coding-Agent Rules",
-      "url": "http://arxiv.org/abs/2609.39678v1",
-      "published": "2026-09-30T13:09:24Z",
-      "authors": "Jieke Shi et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Aletheia detects malicious permissions in agent repository rules via sandbox restriction testing; 100% detection of AIShellJack payloads, 3.75% false positives on benign rules.",
-      "unproven": "tested on one task class and one attack family; generalization to other agent frameworks and rule types undemonstrated",
-      "scored_at": "2026-10-01T03:07:38.710924282Z"
-    },
-    {
       "id": "arxiv:2610.01960v1",
       "source": "arxiv",
       "title": "System-Level Optimization Beyond Cryptographic Kernels: An ML-KEM Case Study on Arm Cortex-M7",
@@ -260,36 +231,6 @@
       "dek": "ZoneClaw mitigates persistent-memory attacks on computer-use agents by separating low-trust external claims from high-trust authority zones via hierarchical memory.",
       "unproven": "whether attackers can escalate privilege within zones; applicability to agents deployed in SDLC vs. standalone assistants; integration costs for existing agents",
       "scored_at": "2026-10-02T17:02:58.913183189Z"
-    },
-    {
-      "id": "arxiv:2610.00400v1",
-      "source": "arxiv",
-      "title": "Representation Transitions Reveal Emerging Safety Risks in Multi-Turn LLM Agents",
-      "url": "http://arxiv.org/abs/2610.00400v1",
-      "published": "2026-09-30T12:30:56Z",
-      "authors": "Haoyu Wang et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Internal representation shifts in LLM agents signal multi-turn attacks; DART detects and mitigates them at 12% false-alarm rate.",
-      "unproven": "evaluation limited to two benchmarks and six models; unclear how defenses generalize to custom agents or production deployment.",
-      "scored_at": "2026-10-02T17:03:09.761608752Z"
-    },
-    {
-      "id": "arxiv:2609.39607v1",
-      "source": "arxiv",
-      "title": "Pretext: Defeating Malicious Skill Detection Frameworks for AI Agents",
-      "url": "http://arxiv.org/abs/2609.39607v1",
-      "published": "2026-09-30T12:26:33Z",
-      "authors": "Tobias Kaisar et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Pretext evades LLM-based skill scanners up to 97% by splitting payloads across natural language and code.",
-      "unproven": "limited to three open-source models; efficacy against production detectors and co-adaptive defenses not established; no evidence skills are in active use at reader's institution",
-      "scored_at": "2026-10-01T03:07:38.710924522Z"
     },
     {
       "id": "arxiv:2610.02206v1",
@@ -395,6 +336,67 @@
       "dek": "TLS Client Hello packet reordering exploits anti-ossification and privacy features to tunnel data through NGFWs, evading detection by preserving parameter validity.",
       "unproven": "tested against unspecified NGFW models; no measurement of detection by modern inspection engines; real-world deployment feasibility unclear.",
       "scored_at": "2026-10-02T17:02:47.505750285Z"
+    },
+    {
+      "id": "hn:49917378",
+      "source": "hn",
+      "title": "Is sandboxing sufficient to contain rogue agents?",
+      "url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents",
+      "published": "2026-10-01T03:27:41Z",
+      "authors": "zdw",
+      "points": 48,
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Analysis of whether sandboxing adequately constrains autonomous agent behavior; informs agent governance policy this quarter.",
+      "unproven": "Specific to theoretical sandbox models; no tested agent deployment data or SDLC integration guidance.",
+      "scored_at": "2026-10-02T10:09:57.956105579Z"
+    },
+    {
+      "id": "arxiv:2610.00839v1",
+      "source": "arxiv",
+      "title": "Do Defenses Against LLM Extraction Work Across Attacks? A Lifecycle Benchmark of Black-Box Model Extraction",
+      "url": "http://arxiv.org/abs/2610.00839v1",
+      "published": "2026-09-30T23:51:54Z",
+      "authors": "Shuze Liu et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Unified benchmark evaluates six extraction attacks, ten defenses, and two adaptive attacks against LLM APIs, showing defenses do not generalize across attack variants.",
+      "unproven": "limited to text-only API threat model; query budgets and model sizes not representative of production deployments; long-term extraction risks over weeks or months unaddressed.",
+      "scored_at": "2026-10-02T17:02:47.505750906Z"
+    },
+    {
+      "id": "arxiv:2609.40283v1",
+      "source": "arxiv",
+      "title": "Distinguishing Coherent Crosstalk from Calibration Drift via Pauli-Transfer Signatures and Quantum Edge Detection",
+      "url": "http://arxiv.org/abs/2609.40283v1",
+      "published": "2026-09-30T17:48:06Z",
+      "authors": "Syed Emad Uddin Shubha et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Pauli-transfer matrix signatures distinguish coherent crosstalk attacks from calibration drift in multi-tenant quantum processors.",
+      "unproven": "detection efficacy under realistic noise and miscalibration; scalability to large processor arrays",
+      "scored_at": "2026-10-01T17:43:32.715512234Z"
+    },
+    {
+      "id": "arxiv:2610.02125v1",
+      "source": "arxiv",
+      "title": "Local random quantum circuits converge to the Porter-Thomas distribution in polynomial depth",
+      "url": "http://arxiv.org/abs/2610.02125v1",
+      "published": "2026-10-01T17:38:45Z",
+      "authors": "Aniruddha Sen et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Proof that polynomial-depth random quantum circuits converge to Porter-Thomas distribution, settling a longstanding question in random circuit sampling.",
+      "unproven": "Practical impact on quantum advantage demonstrations; whether tighter bounds are achievable; relevance to near-term noisy devices.",
+      "scored_at": "2026-10-02T23:25:38.109149833Z"
     }
   ],
   "noise": [
