@@ -11628,6 +11628,22 @@
     "unproven": "Incomplete submission; entirely outside application security and SDLC domain.",
     "scored_at": "2026-10-03T09:31:45.699506966Z"
   },
+  "hn:49937304": {
+    "id": "hn:49937304",
+    "source": "hn",
+    "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+    "url": "https://pipod.dev/",
+    "published": "2026-10-02T19:10:38Z",
+    "authors": "edverma2",
+    "points": 63,
+    "novelty": 2,
+    "actionability": 3,
+    "score": 5,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Sandboxed execution harness for Pi coding agent on self-hosted infrastructure, avoiding per-token vendor lock-in.",
+    "unproven": "Security properties of the sandbox isolation, scalability beyond the submitter's team, integration with existing SDLC tooling and policy enforcement.",
+    "scored_at": "2026-10-03T22:32:33.400686131Z"
+  },
   "hn:49937916": {
     "id": "hn:49937916",
     "source": "hn",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T18:53:29.839116516Z",
+  "generated": "2026-10-03T22:32:33.404811815Z",
   "edition": 71,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,14 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 21,
-      "hn": 1,
+      "arxiv": 20,
+      "hn": 2,
       "kev": 3
     },
     "by_quadrant": {
       "BREAK GLASS": 6,
-      "NEW GROUND": 10,
-      "NOISE FLOOR": 4,
+      "NEW GROUND": 9,
+      "NOISE FLOOR": 5,
       "STANDING ORDERS": 5
     }
   },
@@ -354,6 +354,22 @@
       "scored_at": "2026-10-02T17:02:47.505750906Z"
     },
     {
+      "id": "hn:49937304",
+      "source": "hn",
+      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+      "url": "https://pipod.dev/",
+      "published": "2026-10-02T19:10:38Z",
+      "authors": "edverma2",
+      "points": 63,
+      "novelty": 2,
+      "actionability": 3,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Sandboxed execution harness for Pi coding agent on self-hosted infrastructure, avoiding per-token vendor lock-in.",
+      "unproven": "Security properties of the sandbox isolation, scalability beyond the submitter's team, integration with existing SDLC tooling and policy enforcement.",
+      "scored_at": "2026-10-03T22:32:33.400686131Z"
+    },
+    {
       "id": "arxiv:2610.02125v1",
       "source": "arxiv",
       "title": "Local random quantum circuits converge to the Porter-Thomas distribution in polynomial depth",
@@ -382,21 +398,6 @@
       "dek": "Quantum protocols for two-party differential privacy achieve constant error, separating quantum from classical information theory.",
       "unproven": "practical implementation feasibility; scaling to real message lengths; quantum hardware constraints",
       "scored_at": "2026-10-02T17:02:34.544753323Z"
-    },
-    {
-      "id": "arxiv:2610.02103v1",
-      "source": "arxiv",
-      "title": "Unitary Schur Sampling of Qudits via Random SWAP Tests: Hunt for Antisymmetry",
-      "url": "http://arxiv.org/abs/2610.02103v1",
-      "published": "2026-10-01T17:27:01Z",
-      "authors": "Shrigyan Brahmachari et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Schur sampling of qudits implemented via pairwise SWAP tests rather than representation-theoretic circuits.",
-      "unproven": "Experimental implementation; performance on realistic qubit fidelities; advantage over existing Schur sampling implementations on current hardware.",
-      "scored_at": "2026-10-02T23:25:38.109150092Z"
     }
   ],
   "noise": [
