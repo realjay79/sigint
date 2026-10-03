@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-02T23:25:56.866681573Z",
-  "edition": 70,
+  "generated": "2026-10-03T02:55:15.295595128Z",
+  "edition": 71,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,8 +8,8 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 21,
-      "kev": 4
+      "arxiv": 22,
+      "kev": 3
     },
     "by_quadrant": {
       "BREAK GLASS": 11,
@@ -231,22 +231,6 @@
       "scored_at": "2026-10-01T03:08:04.419865712Z"
     },
     {
-      "id": "kev:CVE-2026-76504",
-      "source": "kev",
-      "title": "CVE-2026-76504 — Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
-      "published": "2026-09-30T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Catalyst SD-WAN Manager. Confirmed exploited in the wild. Federal remediation due 3 October.",
-      "cves": [
-        "CVE-2026-76504"
-      ],
-      "scored_at": "2026-09-30T23:19:43.380120924Z"
-    },
-    {
       "id": "arxiv:2610.01960v1",
       "source": "arxiv",
       "title": "System-Level Optimization Beyond Cryptographic Kernels: An ML-KEM Case Study on Arm Cortex-M7",
@@ -395,6 +379,21 @@
       "dek": "20.2% of tasks a constitution-guarded VLM planner initially refuses can be flipped to compliance by placing a single unmodified everyday object in the environment.",
       "unproven": "whether the object-bypass result holds across embodied VLMs and robot deployments beyond simulation; whether constitutions from other vendors show similar malleability; whether environmental object placement is the primary attack surface in real robotic systems.",
       "scored_at": "2026-10-01T03:08:04.419866133Z"
+    },
+    {
+      "id": "arxiv:2609.38899v1",
+      "source": "arxiv",
+      "title": "SceneJail: Exploiting Video Scenario Context to Jailbreak Multimodal LLMs",
+      "url": "http://arxiv.org/abs/2609.38899v1",
+      "published": "2026-09-30T03:47:17Z",
+      "authors": "Wenyu Chen et al.",
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Video-MLLM jailbreaks succeed by embedding harmful queries in compatible video scenarios, bypassing safety controls across eight models including GPT-4V and Gemini.",
+      "unproven": "limited to eight model families, does not establish whether current alignment training can close this vector, no patch or mitigation tested",
+      "scored_at": "2026-10-01T10:34:34.057628799Z"
     }
   ],
   "noise": [
