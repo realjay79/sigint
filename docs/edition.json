@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T15:24:56.326527618Z",
+  "generated": "2026-10-03T18:53:29.839116516Z",
   "edition": 71,
   "name": "SIGINT",
   "mark": "^C",
@@ -218,21 +218,6 @@
       "scored_at": "2026-10-02T03:09:24.652397777Z"
     },
     {
-      "id": "arxiv:2610.00450v1",
-      "source": "arxiv",
-      "title": "ZoneClaw: Mitigating Persistent Memory Attacks by Establishing Memory-Zoning in OpenClaw-Style Computer-Use Agents",
-      "url": "http://arxiv.org/abs/2610.00450v1",
-      "published": "2026-09-30T17:59:02Z",
-      "authors": "Haokai Ma et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "ZoneClaw mitigates persistent-memory attacks on computer-use agents by separating low-trust external claims from high-trust authority zones via hierarchical memory.",
-      "unproven": "whether attackers can escalate privilege within zones; applicability to agents deployed in SDLC vs. standalone assistants; integration costs for existing agents",
-      "scored_at": "2026-10-02T17:02:58.913183189Z"
-    },
-    {
       "id": "arxiv:2610.02206v1",
       "source": "arxiv",
       "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
@@ -369,21 +354,6 @@
       "scored_at": "2026-10-02T17:02:47.505750906Z"
     },
     {
-      "id": "arxiv:2609.40283v1",
-      "source": "arxiv",
-      "title": "Distinguishing Coherent Crosstalk from Calibration Drift via Pauli-Transfer Signatures and Quantum Edge Detection",
-      "url": "http://arxiv.org/abs/2609.40283v1",
-      "published": "2026-09-30T17:48:06Z",
-      "authors": "Syed Emad Uddin Shubha et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Pauli-transfer matrix signatures distinguish coherent crosstalk attacks from calibration drift in multi-tenant quantum processors.",
-      "unproven": "detection efficacy under realistic noise and miscalibration; scalability to large processor arrays",
-      "scored_at": "2026-10-01T17:43:32.715512234Z"
-    },
-    {
       "id": "arxiv:2610.02125v1",
       "source": "arxiv",
       "title": "Local random quantum circuits converge to the Porter-Thomas distribution in polynomial depth",
@@ -397,6 +367,36 @@
       "dek": "Proof that polynomial-depth random quantum circuits converge to Porter-Thomas distribution, settling a longstanding question in random circuit sampling.",
       "unproven": "Practical impact on quantum advantage demonstrations; whether tighter bounds are achievable; relevance to near-term noisy devices.",
       "scored_at": "2026-10-02T23:25:38.109149833Z"
+    },
+    {
+      "id": "arxiv:2610.02113v1",
+      "source": "arxiv",
+      "title": "Quantum Advantage for Two-Party Differential Privacy",
+      "url": "http://arxiv.org/abs/2610.02113v1",
+      "published": "2026-10-01T17:32:30Z",
+      "authors": "Daniel Alabi et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Quantum protocols for two-party differential privacy achieve constant error, separating quantum from classical information theory.",
+      "unproven": "practical implementation feasibility; scaling to real message lengths; quantum hardware constraints",
+      "scored_at": "2026-10-02T17:02:34.544753323Z"
+    },
+    {
+      "id": "arxiv:2610.02103v1",
+      "source": "arxiv",
+      "title": "Unitary Schur Sampling of Qudits via Random SWAP Tests: Hunt for Antisymmetry",
+      "url": "http://arxiv.org/abs/2610.02103v1",
+      "published": "2026-10-01T17:27:01Z",
+      "authors": "Shrigyan Brahmachari et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Schur sampling of qudits implemented via pairwise SWAP tests rather than representation-theoretic circuits.",
+      "unproven": "Experimental implementation; performance on realistic qubit fidelities; advantage over existing Schur sampling implementations on current hardware.",
+      "scored_at": "2026-10-02T23:25:38.109150092Z"
     }
   ],
   "noise": [
