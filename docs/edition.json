@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-03T22:32:33.404811815Z",
-  "edition": 71,
+  "generated": "2026-10-04T03:25:12.779121259Z",
+  "edition": 72,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 20,
+      "arxiv": 21,
       "hn": 2,
-      "kev": 3
+      "kev": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
-      "NEW GROUND": 9,
-      "NOISE FLOOR": 5,
-      "STANDING ORDERS": 5
+      "BREAK GLASS": 3,
+      "NEW GROUND": 14,
+      "NOISE FLOOR": 4,
+      "STANDING ORDERS": 4
     }
   },
   "items": [
@@ -95,67 +95,6 @@
       "dek": "LLM tool-calling agents routinely over-authorize data access; SelfAudit defense lowers success by 25 percentage points on GPT with zero-shot filtering.",
       "unproven": "Tested on seven models and eight privacy-sensitive domains; no evidence that over-authorization persists after fine-tuning, multi-step reasoning, or explicit access-control constraints in the agent framework.",
       "scored_at": "2026-10-02T03:09:13.420857989Z"
-    },
-    {
-      "id": "arxiv:2610.00977v1",
-      "source": "arxiv",
-      "title": "ABSENTIA: Detecting Broken Access Control Vulnerabilities in Web Applications",
-      "url": "http://arxiv.org/abs/2610.00977v1",
-      "published": "2026-10-01T03:11:45Z",
-      "authors": "André V. Duarte et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "ABSENTIA scaffolds LLM agents to systematically detect broken access control by mapping routes to code and applying invariant falsification across a testable graph.",
-      "unproven": "BAC-Bench limited to 30 advisories across 25 repositories; false-positive rate and coverage completeness on real applications not quantified; language scope narrow.",
-      "scored_at": "2026-10-02T17:02:47.505750425Z"
-    },
-    {
-      "id": "arxiv:2610.00850v1",
-      "source": "arxiv",
-      "title": "AuraForge: Scaling Security Supervision for Training Coding Agents",
-      "url": "http://arxiv.org/abs/2610.00850v1",
-      "published": "2026-10-01T00:07:01Z",
-      "authors": "Danqing Wang et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "AuraForge synthesizes executable security tests from real repositories to train coding agents; AuraGym provides 679 tasks across Python, JavaScript, TypeScript covering 177 CWEs.",
-      "unproven": "agent security improvement measured only on AuraGym tasks; transfer to code in the wild not demonstrated; task synthesis coverage and false-test rates not quantified.",
-      "scored_at": "2026-10-02T17:02:47.505750756Z"
-    },
-    {
-      "id": "kev:CVE-2026-104286",
-      "source": "kev",
-      "title": "CVE-2026-104286 — Fortinet FortiMail Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
-      "published": "2026-10-01T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Fortinet FortiMail. Confirmed exploited in the wild. Federal remediation due 4 October.",
-      "cves": [
-        "CVE-2026-104286"
-      ],
-      "scored_at": "2026-10-01T23:34:04.657447431Z"
-    },
-    {
-      "id": "arxiv:2610.00797v1",
-      "source": "arxiv",
-      "title": "Sapien: A Stateful Policy Engine for Autonomous AI Agents",
-      "url": "http://arxiv.org/abs/2610.00797v1",
-      "published": "2026-09-30T22:40:00Z",
-      "authors": "Corinn Tiffany et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Sapien enforces stateful policies on agent tool calls using regex with predicates and deferred generation, blocking 93–95% of attacks on AgentDojo while preserving utility.",
-      "unproven": "evaluation limited to two benchmarks; real-world task environments not tested; computational overhead of policy synthesis and verification not measured.",
-      "scored_at": "2026-10-02T17:02:47.505751347Z"
     },
     {
       "id": "arxiv:2610.01960v1",
@@ -339,21 +278,6 @@
       "scored_at": "2026-10-02T10:09:57.956105579Z"
     },
     {
-      "id": "arxiv:2610.00839v1",
-      "source": "arxiv",
-      "title": "Do Defenses Against LLM Extraction Work Across Attacks? A Lifecycle Benchmark of Black-Box Model Extraction",
-      "url": "http://arxiv.org/abs/2610.00839v1",
-      "published": "2026-09-30T23:51:54Z",
-      "authors": "Shuze Liu et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Unified benchmark evaluates six extraction attacks, ten defenses, and two adaptive attacks against LLM APIs, showing defenses do not generalize across attack variants.",
-      "unproven": "limited to text-only API threat model; query budgets and model sizes not representative of production deployments; long-term extraction risks over weeks or months unaddressed.",
-      "scored_at": "2026-10-02T17:02:47.505750906Z"
-    },
-    {
       "id": "hn:49937304",
       "source": "hn",
       "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
@@ -398,6 +322,81 @@
       "dek": "Quantum protocols for two-party differential privacy achieve constant error, separating quantum from classical information theory.",
       "unproven": "practical implementation feasibility; scaling to real message lengths; quantum hardware constraints",
       "scored_at": "2026-10-02T17:02:34.544753323Z"
+    },
+    {
+      "id": "arxiv:2610.02103v1",
+      "source": "arxiv",
+      "title": "Unitary Schur Sampling of Qudits via Random SWAP Tests: Hunt for Antisymmetry",
+      "url": "http://arxiv.org/abs/2610.02103v1",
+      "published": "2026-10-01T17:27:01Z",
+      "authors": "Shrigyan Brahmachari et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Schur sampling of qudits implemented via pairwise SWAP tests rather than representation-theoretic circuits.",
+      "unproven": "Experimental implementation; performance on realistic qubit fidelities; advantage over existing Schur sampling implementations on current hardware.",
+      "scored_at": "2026-10-02T23:25:38.109150092Z"
+    },
+    {
+      "id": "arxiv:2610.02101v1",
+      "source": "arxiv",
+      "title": "Time-space lower bounds for breaking quantum cryptography",
+      "url": "http://arxiv.org/abs/2610.02101v1",
+      "published": "2026-10-01T17:26:36Z",
+      "authors": "Fangqi Dong et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Time-space lower bounds prove quantum cryptography resists preprocessing attacks better than post-quantum alternatives.",
+      "unproven": "applicability to currently deployed quantum-resistant standards; assumes random oracle model",
+      "scored_at": "2026-10-02T17:02:34.544753854Z"
+    },
+    {
+      "id": "arxiv:2610.02100v1",
+      "source": "arxiv",
+      "title": "On the pseudorandomness of simple quantum processes",
+      "url": "http://arxiv.org/abs/2610.02100v1",
+      "published": "2026-10-01T17:26:18Z",
+      "authors": "Jesko Dujmovic et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Simple quantum processes fail to achieve pseudorandomness despite matching unitary design moments, refuting Hoory-Magen conjecture.",
+      "unproven": "implications for actual quantum cryptographic constructions; practical relevance to deployed systems",
+      "scored_at": "2026-10-02T17:02:34.544754736Z"
+    },
+    {
+      "id": "arxiv:2610.02097v1",
+      "source": "arxiv",
+      "title": "A No-Go Theorem for Order-Two Clifford Electric-Magnetic Duality",
+      "url": "http://arxiv.org/abs/2610.02097v1",
+      "published": "2026-10-01T17:25:21Z",
+      "authors": "Shunta Takahashi et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "No-go theorem proves order-two Clifford realization of electric-magnetic duality impossible in Z₂ toric code.",
+      "unproven": "Implications for practical error correction codes; whether restrictions apply to other topological codes.",
+      "scored_at": "2026-10-02T23:25:38.109150721Z"
+    },
+    {
+      "id": "arxiv:2610.01995v1",
+      "source": "arxiv",
+      "title": "Can AI Oversight Be Zero Knowledge?",
+      "url": "http://arxiv.org/abs/2610.01995v1",
+      "published": "2026-10-01T16:30:16Z",
+      "authors": "Alessandro Chiesa et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Zero-knowledge proofs for AI oversight of confidential data are impossible for general oracle-aided computation.",
+      "unproven": "applicability to restricted classes of AI outputs; practical implications for verification schemes in use",
+      "scored_at": "2026-10-02T17:02:34.54476757Z"
     }
   ],
   "noise": [
@@ -433,19 +432,19 @@
       "scored_at": "2026-10-03T09:31:49.082837268Z"
     },
     {
-      "id": "hn:49931031",
+      "id": "hn:49948332",
       "source": "hn",
-      "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
-      "url": "https://github.com/kvoltmer/Audionaut",
-      "published": "2026-10-02T08:05:48Z",
-      "authors": "vltmrkls",
-      "points": 138,
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "published": "2026-10-03T22:18:13Z",
+      "authors": "jethronethro",
+      "points": 209,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Open-source audio editor project launched.",
-      "scored_at": "2026-10-03T09:31:49.082836787Z"
+      "dek": "Personnel departure and organizational culture claim at AI vendor; does not affect SDLC tooling or process.",
+      "scored_at": "2026-10-04T03:25:12.770448869Z"
     }
   ]
 }

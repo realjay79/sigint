@@ -11675,6 +11675,51 @@
     "dek": "Political conflict in Ethiopia; not security-related.",
     "scored_at": "2026-10-03T15:24:56.319854384Z"
   },
+  "hn:49946228": {
+    "id": "hn:49946228",
+    "source": "hn",
+    "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+    "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+    "published": "2026-10-03T17:44:29Z",
+    "authors": "Anon84",
+    "points": 85,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Researcher opinion on AI existential risk; no technical finding, tooling change, or process impact.",
+    "scored_at": "2026-10-04T03:25:12.770452476Z"
+  },
+  "hn:49946355": {
+    "id": "hn:49946355",
+    "source": "hn",
+    "title": "Treachery in the Rodin Museum 3D scan verdict",
+    "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+    "published": "2026-10-03T18:01:27Z",
+    "authors": "CosmoWenman",
+    "points": 104,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Museum 3D scan metadata dispute; outside application security engineering scope entirely.",
+    "scored_at": "2026-10-04T03:25:12.77044938Z"
+  },
+  "hn:49948332": {
+    "id": "hn:49948332",
+    "source": "hn",
+    "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+    "url": "https://theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+    "published": "2026-10-03T22:18:13Z",
+    "authors": "jethronethro",
+    "points": 209,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Personnel departure and organizational culture claim at AI vendor; does not affect SDLC tooling or process.",
+    "scored_at": "2026-10-04T03:25:12.770448869Z"
+  },
   "kev:CVE-2025-25249": {
     "id": "kev:CVE-2025-25249",
     "source": "kev",
@@ -12058,22 +12103,6 @@
       "CVE-2026-84869"
     ],
     "scored_at": "2026-09-11T18:52:09.294509857Z"
-  },
-  "kev:CVE-2026-85046": {
-    "id": "kev:CVE-2026-85046",
-    "source": "kev",
-    "title": "CVE-2026-85046 — Google Chromium V8 Type Confusion Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
-    "published": "2026-09-04T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Google Chromium V8. Confirmed exploited in the wild. Federal remediation due 18 September.",
-    "cves": [
-      "CVE-2026-85046"
-    ],
-    "scored_at": "2026-09-04T18:42:33.766530986Z"
   },
   "kev:CVE-2026-85102": {
     "id": "kev:CVE-2026-85102",
