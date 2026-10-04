@@ -11691,6 +11691,22 @@
     "dek": "Political conflict in Ethiopia; not security-related.",
     "scored_at": "2026-10-03T15:24:56.319854384Z"
   },
+  "hn:49946148": {
+    "id": "hn:49946148",
+    "source": "hn",
+    "title": "Automating my 35mm film scanning pipeline",
+    "url": "https://shannadige.com/blog/darkroom",
+    "published": "2026-10-03T17:35:42Z",
+    "authors": "shannadige",
+    "points": 55,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Personal project automating 35mm film scanning.",
+    "unproven": "outside reader's remit; not application security or SDLC-related",
+    "scored_at": "2026-10-04T22:36:58.421376741Z"
+  },
   "hn:49946228": {
     "id": "hn:49946228",
     "source": "hn",
@@ -11750,6 +11766,22 @@
     "quadrant": "NOISE FLOOR",
     "dek": "RuneScape studio announces new MMO project.",
     "scored_at": "2026-10-04T10:20:41.343861334Z"
+  },
+  "hn:49951891": {
+    "id": "hn:49951891",
+    "source": "hn",
+    "title": "How to scale intent, quality, and artistry with AI [video]",
+    "url": "https://youtube.com/watch?v=GLvFTMtw4Jk",
+    "published": "2026-10-04T08:41:58Z",
+    "authors": "simonjgreen",
+    "points": 35,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Video on using AI for creative work scaling.",
+    "unproven": "outside reader's remit; not SDLC, agent security, or post-quantum work",
+    "scored_at": "2026-10-04T22:36:58.42137637Z"
   },
   "kev:CVE-2025-25249": {
     "id": "kev:CVE-2025-25249",
@@ -12310,6 +12342,22 @@
       "CVE-2026-88772"
     ],
     "scored_at": "2026-09-27T22:42:08.69767392Z"
+  },
+  "kev:CVE-2026-88779": {
+    "id": "kev:CVE-2026-88779",
+    "source": "kev",
+    "title": "CVE-2026-88779 — Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779",
+    "published": "2026-10-04T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Citrix NetScaler. Confirmed exploited in the wild. Federal remediation due 7 October.",
+    "cves": [
+      "CVE-2026-88779"
+    ],
+    "scored_at": "2026-10-04T22:36:56.371224142Z"
   },
   "kev:CVE-2026-93616": {
     "id": "kev:CVE-2026-93616",
