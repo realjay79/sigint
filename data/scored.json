@@ -11612,6 +11612,22 @@
     "dek": "Financial institutions form consortium to compete with US payment networks.",
     "scored_at": "2026-10-03T09:31:49.082834493Z"
   },
+  "hn:49936017": {
+    "id": "hn:49936017",
+    "source": "hn",
+    "title": "Dirty Optimization Secrets (C for Playdate)",
+    "url": "https://devforum.play.date/t/dirty-optimization-secrets-c-for-playdate/23011",
+    "published": "2026-10-02T17:16:28Z",
+    "authors": "ibobev",
+    "points": 41,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Optimization techniques for embedded C on a handheld gaming device.",
+    "unproven": "entirely outside the reader's remit; applies only to Playdate platform development",
+    "scored_at": "2026-10-04T16:09:42.830671218Z"
+  },
   "hn:49936725": {
     "id": "hn:49936725",
     "source": "hn",
