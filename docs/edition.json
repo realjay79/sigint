@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T03:25:12.779121259Z",
+  "generated": "2026-10-04T10:20:41.349515838Z",
   "edition": 72,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 21,
-      "hn": 2,
+      "arxiv": 22,
+      "hn": 1,
       "kev": 2
     },
     "by_quadrant": {
       "BREAK GLASS": 3,
-      "NEW GROUND": 14,
-      "NOISE FLOOR": 4,
-      "STANDING ORDERS": 4
+      "NEW GROUND": 16,
+      "NOISE FLOOR": 3,
+      "STANDING ORDERS": 3
     }
   },
   "items": [
@@ -35,22 +35,6 @@
       "scored_at": "2026-10-02T17:02:34.544768291Z"
     },
     {
-      "id": "kev:CVE-2026-102489",
-      "source": "kev",
-      "title": "CVE-2026-102489 — Zammad GmbH Zammad Session Fixation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489",
-      "published": "2026-10-02T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Zammad GmbH Zammad. Confirmed exploited in the wild. Federal remediation due 5 October.",
-      "cves": [
-        "CVE-2026-102489"
-      ],
-      "scored_at": "2026-10-02T17:02:25.040190047Z"
-    },
-    {
       "id": "kev:CVE-2026-102490",
       "source": "kev",
       "title": "CVE-2026-102490 — Zammad GmbH Zammad Improper Privilege Management Vulnerability",
@@ -65,6 +49,22 @@
         "CVE-2026-102490"
       ],
       "scored_at": "2026-10-02T17:02:25.040186931Z"
+    },
+    {
+      "id": "kev:CVE-2026-102489",
+      "source": "kev",
+      "title": "CVE-2026-102489 — Zammad GmbH Zammad Session Fixation Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489",
+      "published": "2026-10-02T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Zammad GmbH Zammad. Confirmed exploited in the wild. Federal remediation due 5 October.",
+      "cves": [
+        "CVE-2026-102489"
+      ],
+      "scored_at": "2026-10-02T17:02:25.040190047Z"
     },
     {
       "id": "arxiv:2610.01564v1",
@@ -125,36 +125,6 @@
       "dek": "LLMLeak exfiltrates data from local malware by embedding secrets in URLs fetched by LLM web tools, bypassing network restrictions.",
       "unproven": "Evaluation on unspecified LLM systems; real-world applicability depends on URL-fetching tool availability and web filter behavior; detection and mitigation strategies not addressed.",
       "scored_at": "2026-10-02T03:08:59.729769194Z"
-    },
-    {
-      "id": "arxiv:2610.01349v1",
-      "source": "arxiv",
-      "title": "PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents",
-      "url": "http://arxiv.org/abs/2610.01349v1",
-      "published": "2026-10-01T09:18:05Z",
-      "authors": "Fengpeng Li et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "PACE mediates tool calls in LLM agents by verifying execution contracts and confining influence paths before action, blocking 62 of 79 attack configurations.",
-      "unproven": "generalization to production agent architectures outside benchmarks untested; overhead and false-positive rates in live systems unknown",
-      "scored_at": "2026-10-02T03:09:24.652397346Z"
-    },
-    {
-      "id": "arxiv:2610.01263v1",
-      "source": "arxiv",
-      "title": "Autonomous OSS Threat Detection via Taxonomy-Aligned LLMs",
-      "url": "http://arxiv.org/abs/2610.01263v1",
-      "published": "2026-10-01T07:54:44Z",
-      "authors": "Md. Robiul Islam Niloy",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "GPT-4 with taxonomy-aligned prompts detects OSS supply chain threats at 97% accuracy across typosquatting, dependency confusion, and CI/CD poisoning.",
-      "unproven": "evaluation uses curated advisory data, not blind real-world scanning; false-positive rates and deployment feasibility in existing SCA tooling pipelines not measured",
-      "scored_at": "2026-10-02T03:09:24.652397777Z"
     },
     {
       "id": "arxiv:2610.02206v1",
@@ -245,37 +215,6 @@
       "dek": "Safety router benchmarks show inflated performance due to selection bias; honest scoring under distribution shift reveals routing buys little improvement.",
       "unproven": "Analysis applies to published benchmarks (HELM, AgentDojo); no evidence whether production routers with domain-specific tuning or retraining regimes suffer the same collapse.",
       "scored_at": "2026-10-02T03:09:13.420857798Z"
-    },
-    {
-      "id": "arxiv:2610.01009v1",
-      "source": "arxiv",
-      "title": "Helol Tunnel: Covert Channel Exploitation of TLS Extensibility \u0026 Privacy Features",
-      "url": "http://arxiv.org/abs/2610.01009v1",
-      "published": "2026-10-01T03:55:42Z",
-      "authors": "Reza Soosahabi et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "TLS Client Hello packet reordering exploits anti-ossification and privacy features to tunnel data through NGFWs, evading detection by preserving parameter validity.",
-      "unproven": "tested against unspecified NGFW models; no measurement of detection by modern inspection engines; real-world deployment feasibility unclear.",
-      "scored_at": "2026-10-02T17:02:47.505750285Z"
-    },
-    {
-      "id": "hn:49917378",
-      "source": "hn",
-      "title": "Is sandboxing sufficient to contain rogue agents?",
-      "url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents",
-      "published": "2026-10-01T03:27:41Z",
-      "authors": "zdw",
-      "points": 48,
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Analysis of whether sandboxing adequately constrains autonomous agent behavior; informs agent governance policy this quarter.",
-      "unproven": "Specific to theoretical sandbox models; no tested agent deployment data or SDLC integration guidance.",
-      "scored_at": "2026-10-02T10:09:57.956105579Z"
     },
     {
       "id": "hn:49937304",
@@ -397,6 +336,65 @@
       "dek": "Zero-knowledge proofs for AI oversight of confidential data are impossible for general oracle-aided computation.",
       "unproven": "applicability to restricted classes of AI outputs; practical implications for verification schemes in use",
       "scored_at": "2026-10-02T17:02:34.54476757Z"
+    },
+    {
+      "id": "arxiv:2610.01954v1",
+      "source": "arxiv",
+      "title": "Hardware-Efficient Ground-State Preparation using Variational Imaginary-Time Majorana Evolution",
+      "url": "http://arxiv.org/abs/2610.01954v1",
+      "published": "2026-10-01T16:12:45Z",
+      "authors": "Federico Santona et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "VIME algorithm reduces quantum chemistry circuit depth by 26× to 167× on 52–60 qubit problems versus ADAPT-VMPE.",
+      "unproven": "single algorithm family on proprietary test systems; no evidence this changes production cryptanalysis timelines or migration planning",
+      "scored_at": "2026-10-02T23:25:56.85908069Z"
+    },
+    {
+      "id": "arxiv:2610.01940v1",
+      "source": "arxiv",
+      "title": "Optimal query complexity for fractional quantum evolution",
+      "url": "http://arxiv.org/abs/2610.01940v1",
+      "published": "2026-10-01T16:08:16Z",
+      "authors": "Anthony Yuezhang Liu et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Matching upper and lower bounds prove QSVT achieves optimal query complexity for fractional quantum evolution.",
+      "unproven": "tight bounds on abstract query model; does not address concrete lattice cryptanalysis or practical migration timelines",
+      "scored_at": "2026-10-02T23:25:56.859080951Z"
+    },
+    {
+      "id": "arxiv:2610.01924v1",
+      "source": "arxiv",
+      "title": "Supersingularity and Superspeciality Verification of Abelian Surfaces",
+      "url": "http://arxiv.org/abs/2610.01924v1",
+      "published": "2026-10-01T15:57:58Z",
+      "authors": "Maria Corte-Real Santos et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Monte Carlo algorithm verifies supersingularity of abelian surfaces in O(log p) time for isogeny-based cryptography.",
+      "unproven": "practical performance against alternative verification methods; relevance to currently standardized or deployed isogeny schemes",
+      "scored_at": "2026-10-02T17:02:34.544768091Z"
+    },
+    {
+      "id": "arxiv:2610.01848v1",
+      "source": "arxiv",
+      "title": "Trapdoored Clifford Operators and Applications",
+      "url": "http://arxiv.org/abs/2610.01848v1",
+      "published": "2026-10-01T15:15:18Z",
+      "authors": "Minki Hhan et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Trapdoored Clifford operators enable fast sampling and implementation of random quantum operators; quantum primitives, not application security.",
+      "scored_at": "2026-10-02T03:08:59.729766579Z"
     }
   ],
   "noise": [

@@ -11720,6 +11720,21 @@
     "dek": "Personnel departure and organizational culture claim at AI vendor; does not affect SDLC tooling or process.",
     "scored_at": "2026-10-04T03:25:12.770448869Z"
   },
+  "hn:49949588": {
+    "id": "hn:49949588",
+    "source": "hn",
+    "title": "We're working on a new RuneScape MMO",
+    "url": "https://play.runescape.com/4",
+    "published": "2026-10-04T01:12:22Z",
+    "authors": "droidjj",
+    "points": 68,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "RuneScape studio announces new MMO project.",
+    "scored_at": "2026-10-04T10:20:41.343861334Z"
+  },
   "kev:CVE-2025-25249": {
     "id": "kev:CVE-2025-25249",
     "source": "kev",
