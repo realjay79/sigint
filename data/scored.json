@@ -11783,6 +11783,37 @@
     "unproven": "outside reader's remit; not SDLC, agent security, or post-quantum work",
     "scored_at": "2026-10-04T22:36:58.42137637Z"
   },
+  "hn:49956003": {
+    "id": "hn:49956003",
+    "source": "hn",
+    "title": "Xray-core concealed a certificate verification bypass vulnerability",
+    "url": "https://github.com/net4people/bbs/issues/672",
+    "published": "2026-10-04T17:38:54Z",
+    "authors": "timbill",
+    "points": 61,
+    "novelty": 3,
+    "actionability": 2,
+    "score": 5,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Xray-core had a certificate verification bypass; no exploitation details or patch status provided.",
+    "unproven": "whether the vulnerability is exploitable in reader's deployment, patch availability, or prevalence in financial services networks",
+    "scored_at": "2026-10-05T03:02:19.206730566Z"
+  },
+  "hn:49958850": {
+    "id": "hn:49958850",
+    "source": "hn",
+    "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
+    "url": "https://getartcraft.com/apps",
+    "published": "2026-10-04T23:02:43Z",
+    "authors": "aghuang",
+    "points": 54,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Open-source Adobe-compatible suite in Rust launches; no security angle identified.",
+    "scored_at": "2026-10-05T03:02:19.206730225Z"
+  },
   "kev:CVE-2025-25249": {
     "id": "kev:CVE-2025-25249",
     "source": "kev",

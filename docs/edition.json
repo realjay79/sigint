@@ -1,19 +1,19 @@
 {
-  "generated": "2026-10-04T22:36:58.425493385Z",
-  "edition": 72,
+  "generated": "2026-10-05T03:02:19.210484482Z",
+  "edition": 73,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 21,
+    "total": 18,
     "by_source": {
-      "hn": 18,
-      "kev": 3
+      "hn": 17,
+      "kev": 1
     },
     "by_quadrant": {
-      "NOISE FLOOR": 18,
-      "STANDING ORDERS": 3
+      "NOISE FLOOR": 17,
+      "STANDING ORDERS": 1
     }
   },
   "items": [
@@ -34,36 +34,20 @@
       "scored_at": "2026-10-04T22:36:56.371224142Z"
     },
     {
-      "id": "kev:CVE-2026-102489",
-      "source": "kev",
-      "title": "CVE-2026-102489 — Zammad GmbH Zammad Session Fixation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489",
-      "published": "2026-10-02T00:00:00Z",
+      "id": "hn:49956003",
+      "source": "hn",
+      "title": "Xray-core concealed a certificate verification bypass vulnerability",
+      "url": "https://github.com/net4people/bbs/issues/672",
+      "published": "2026-10-04T17:38:54Z",
+      "authors": "timbill",
+      "points": 61,
       "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Zammad GmbH Zammad. Confirmed exploited in the wild. Federal remediation due 5 October.",
-      "cves": [
-        "CVE-2026-102489"
-      ],
-      "scored_at": "2026-10-02T17:02:25.040190047Z"
-    },
-    {
-      "id": "kev:CVE-2026-102490",
-      "source": "kev",
-      "title": "CVE-2026-102490 — Zammad GmbH Zammad Improper Privilege Management Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490",
-      "published": "2026-10-02T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Zammad GmbH Zammad. Confirmed exploited in the wild. Federal remediation due 5 October.",
-      "cves": [
-        "CVE-2026-102490"
-      ],
-      "scored_at": "2026-10-02T17:02:25.040186931Z"
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Xray-core had a certificate verification bypass; no exploitation details or patch status provided.",
+      "unproven": "whether the vulnerability is exploitable in reader's deployment, patch availability, or prevalence in financial services networks",
+      "scored_at": "2026-10-05T03:02:19.206730566Z"
     },
     {
       "id": "hn:49937304",
@@ -98,38 +82,6 @@
       "scored_at": "2026-10-03T09:31:49.082836617Z"
     },
     {
-      "id": "hn:49929391",
-      "source": "hn",
-      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-      "url": "https://youtube.com/watch?v=NnV_cWeoo5Q",
-      "published": "2026-10-02T02:51:27Z",
-      "authors": "usernomdeguerre",
-      "points": 238,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Kernel maintainer discusses LLM security considerations in talk format.",
-      "unproven": "specific findings and recommendations cannot be evaluated from video metadata alone",
-      "scored_at": "2026-10-03T09:31:49.082837268Z"
-    },
-    {
-      "id": "hn:49928361",
-      "source": "hn",
-      "title": "C++ Insights – See your source code with the eyes of a Compiler",
-      "url": "https://github.com/andreasfertig/cppinsights",
-      "published": "2026-10-01T23:53:36Z",
-      "authors": "rramadass",
-      "points": 57,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "C++ metaprogramming tool shows compiler transformation of source; useful for code review literacy, not a change to SAST/DAST/SCA practice.",
-      "unproven": "whether this catches classes of defects SAST misses, or changes rule development workflow",
-      "scored_at": "2026-10-03T15:24:56.319854844Z"
-    },
-    {
       "id": "hn:49937916",
       "source": "hn",
       "title": "Show HN: Made an open-source Lego AI generator",
@@ -160,6 +112,21 @@
       "dek": "Optimization techniques for embedded C on a handheld gaming device.",
       "unproven": "entirely outside the reader's remit; applies only to Playdate platform development",
       "scored_at": "2026-10-04T16:09:42.830671218Z"
+    },
+    {
+      "id": "hn:49958850",
+      "source": "hn",
+      "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
+      "url": "https://getartcraft.com/apps",
+      "published": "2026-10-04T23:02:43Z",
+      "authors": "aghuang",
+      "points": 54,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Open-source Adobe-compatible suite in Rust launches; no security angle identified.",
+      "scored_at": "2026-10-05T03:02:19.206730225Z"
     },
     {
       "id": "hn:49951891",
@@ -328,21 +295,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Open-source audio editor project launched.",
       "scored_at": "2026-10-03T09:31:49.082836787Z"
-    },
-    {
-      "id": "hn:49928121",
-      "source": "hn",
-      "title": "Several vulnerabilities have been discovered in the Linux kernel",
-      "url": "https://lwn.net/Articles/1097401",
-      "published": "2026-10-01T23:10:44Z",
-      "authors": "luispa",
-      "points": 308,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LWN summary of Linux kernel vulnerabilities; standard security reporting without technical depth or CVE details.",
-      "scored_at": "2026-10-02T10:09:57.956103966Z"
     }
   ],
   "noise": null
