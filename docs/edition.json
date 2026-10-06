@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06T17:37:29.91668188Z",
+  "generated": "2026-10-06T23:27:37.262971233Z",
   "edition": 74,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,9 +12,9 @@
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 9,
-      "NEW GROUND": 11,
-      "NOISE FLOOR": 4,
+      "BREAK GLASS": 7,
+      "NEW GROUND": 12,
+      "NOISE FLOOR": 5,
       "STANDING ORDERS": 1
     }
   },
@@ -139,36 +139,6 @@
         "CVE-2026-88779"
       ],
       "scored_at": "2026-10-04T22:36:56.371224142Z"
-    },
-    {
-      "id": "arxiv:2610.04699v1",
-      "source": "arxiv",
-      "title": "Not Self-Decidable: LLMs Cannot Draw the Boundary of What an Agent Verifier Can Check",
-      "url": "http://arxiv.org/abs/2610.04699v1",
-      "published": "2026-10-03T18:25:12Z",
-      "authors": "Anthony Rhodes",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "LLMs cannot reliably classify whether a runtime rule requires human judgment or automated check; models disagree on regulatory text and over-claim automation capability.",
-      "unproven": "tested only on four model families; whether CoVer's two-evaluator committee generalizes beyond the three specific rule sets examined",
-      "scored_at": "2026-10-06T01:03:25.551099949Z"
-    },
-    {
-      "id": "arxiv:2610.04693v1",
-      "source": "arxiv",
-      "title": "Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations",
-      "url": "http://arxiv.org/abs/2610.04693v1",
-      "published": "2026-10-03T18:11:23Z",
-      "authors": "Anthony Rhodes",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Adaptive adversarial search finds regulatory compliance boundaries with 1.43x the defeat modes of naive enumeration at matched budget, demonstrated on 60 financial advisory rules.",
-      "unproven": "tested on one financial institution's ruleset; whether defeat modes discovered transfer to other domains or regulatory regimes",
-      "scored_at": "2026-10-06T01:03:25.55110031Z"
     },
     {
       "id": "arxiv:2610.06584v1",
@@ -394,53 +364,84 @@
       "dek": "OSS vulnerabilities in agent tool dependencies propagate security effects through tool outputs, agent state, and model exposure; runtime provenance can trace effect boundaries.",
       "unproven": "taxonomy derived from qualitative investigation; no quantification of how often effects propagate to consequential model outputs or how frequently agents exercise vulnerable paths",
       "scored_at": "2026-10-06T17:36:57.812993182Z"
+    },
+    {
+      "id": "arxiv:2610.04985v1",
+      "source": "arxiv",
+      "title": "Hidden Risks of Jev: An Empirical Study of Security, Privacy, and Dual Use",
+      "url": "http://arxiv.org/abs/2610.04985v1",
+      "published": "2026-10-04T06:09:34Z",
+      "authors": "Shang Wang et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Prompt injection, training-data poisoning, and information leakage attacks on LLM decision layers; defenses untested in production.",
+      "unproven": "whether attacks scale beyond the controlled test setup or whether proposed mitigations work at deployment scale",
+      "scored_at": "2026-10-06T17:37:09.950415623Z"
+    },
+    {
+      "id": "arxiv:2610.04975v1",
+      "source": "arxiv",
+      "title": "Runtime Authorization of Self-Generated Subgoals in Long-Horizon Tool-Using AI Agents",
+      "url": "http://arxiv.org/abs/2610.04975v1",
+      "published": "2026-10-04T05:43:47Z",
+      "authors": "Genliang Zhu et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Authorization mechanism for AI agents that replan dynamically; prevents goal-graph drift outside approved scope via witness-based contracts.",
+      "unproven": "applicability beyond the finite structured domain tested; scalability to real-world agent deployments with free-form objectives",
+      "scored_at": "2026-10-06T17:37:09.950415984Z"
     }
   ],
   "noise": [
     {
-      "id": "hn:49948332",
+      "id": "hn:49949588",
       "source": "hn",
-      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
-      "url": "https://theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-      "published": "2026-10-03T22:18:13Z",
-      "authors": "jethronethro",
-      "points": 209,
+      "title": "We're working on a new RuneScape MMO",
+      "url": "https://play.runescape.com/4",
+      "published": "2026-10-04T01:12:22Z",
+      "authors": "droidjj",
+      "points": 68,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Personnel departure and organizational culture claim at AI vendor; does not affect SDLC tooling or process.",
-      "scored_at": "2026-10-04T03:25:12.770448869Z"
+      "dek": "RuneScape studio announces new MMO project.",
+      "scored_at": "2026-10-04T10:20:41.343861334Z"
     },
     {
-      "id": "hn:49946355",
+      "id": "hn:49956003",
       "source": "hn",
-      "title": "Treachery in the Rodin Museum 3D scan verdict",
-      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
-      "published": "2026-10-03T18:01:27Z",
-      "authors": "CosmoWenman",
-      "points": 104,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
+      "title": "Xray-core concealed a certificate verification bypass vulnerability",
+      "url": "https://github.com/net4people/bbs/issues/672",
+      "published": "2026-10-04T17:38:54Z",
+      "authors": "timbill",
+      "points": 61,
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
       "quadrant": "NOISE FLOOR",
-      "dek": "Museum 3D scan metadata dispute; outside application security engineering scope entirely.",
-      "scored_at": "2026-10-04T03:25:12.77044938Z"
+      "dek": "Xray-core had a certificate verification bypass; no exploitation details or patch status provided.",
+      "unproven": "whether the vulnerability is exploitable in reader's deployment, patch availability, or prevalence in financial services networks",
+      "scored_at": "2026-10-05T03:02:19.206730566Z"
     },
     {
-      "id": "hn:49946228",
+      "id": "hn:49958850",
       "source": "hn",
-      "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
-      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
-      "published": "2026-10-03T17:44:29Z",
-      "authors": "Anon84",
-      "points": 85,
+      "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
+      "url": "https://getartcraft.com/apps",
+      "published": "2026-10-04T23:02:43Z",
+      "authors": "aghuang",
+      "points": 54,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Researcher opinion on AI existential risk; no technical finding, tooling change, or process impact.",
-      "scored_at": "2026-10-04T03:25:12.770452476Z"
+      "dek": "Open-source Adobe-compatible suite in Rust launches; no security angle identified.",
+      "scored_at": "2026-10-05T03:02:19.206730225Z"
     }
   ]
 }
