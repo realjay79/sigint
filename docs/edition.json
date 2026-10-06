@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06T10:54:52.037712854Z",
+  "generated": "2026-10-06T17:37:29.91668188Z",
   "edition": 74,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,13 +12,28 @@
       "kev": 1
     },
     "by_quadrant": {
-      "BREAK GLASS": 7,
+      "BREAK GLASS": 9,
       "NEW GROUND": 11,
-      "NOISE FLOOR": 6,
+      "NOISE FLOOR": 4,
       "STANDING ORDERS": 1
     }
   },
   "items": [
+    {
+      "id": "arxiv:2610.05089v1",
+      "source": "arxiv",
+      "title": "Cooldown Landmines: Cross-Tenant Interference Attacks on LLM Gateways",
+      "url": "http://arxiv.org/abs/2610.05089v1",
+      "published": "2026-10-04T09:46:59Z",
+      "authors": "Yudong Gao et al.",
+      "novelty": 4,
+      "actionability": 5,
+      "score": 9,
+      "quadrant": "BREAK GLASS",
+      "dek": "LiteLLM gateways sharing cooldown records allow cross-tenant attacks forcing fallback or denial; tenant-scoped cooldown with origin checks mitigates the gap.",
+      "unproven": "attacks demonstrated on LiteLLM; effectiveness against other LLM gateway implementations and with hardened authentication policies not tested",
+      "scored_at": "2026-10-06T17:36:57.812992791Z"
+    },
     {
       "id": "arxiv:2610.06366v1",
       "source": "arxiv",
@@ -65,6 +80,51 @@
       "scored_at": "2026-10-06T10:54:41.050503155Z"
     },
     {
+      "id": "arxiv:2610.05163v1",
+      "source": "arxiv",
+      "title": "Blocking at the Boundary: Auditing Long-Horizon Agents against Staged Prompt Injection",
+      "url": "http://arxiv.org/abs/2610.05163v1",
+      "published": "2026-10-04T12:14:19Z",
+      "authors": "Jingkai Liu et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Claude Code and Codex are vulnerable to staged prompt injection across long workflows; blocking requires boundary action auditing before each consequential action, not pre- or post-execution screening.",
+      "unproven": "evaluated on two model families in native runtimes; effectiveness against fine-tuned or system-prompted variants not established",
+      "scored_at": "2026-10-06T17:36:57.812990978Z"
+    },
+    {
+      "id": "arxiv:2610.05103v1",
+      "source": "arxiv",
+      "title": "VulValidate: Auditing Function-Level Vulnerability Labels with Executable Evidence",
+      "url": "http://arxiv.org/abs/2610.05103v1",
+      "published": "2026-10-04T10:21:53Z",
+      "authors": "Leizhen Zhang et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Auditing 35,849 labeled vulnerable functions in BigVul, PrimeVul, and DiverseVul confirms 57.2%, corrects 19.0%, and reclassifies 22.3%; expert review supports 90–99% of decisions.",
+      "unproven": "corrected dataset contains 15,890 distinct functions; representativeness of expert panel and generalization to future vulnerability datasets not established",
+      "scored_at": "2026-10-06T17:36:57.812991729Z"
+    },
+    {
+      "id": "arxiv:2610.04897v1",
+      "source": "arxiv",
+      "title": "WLPA: A Network Management Framework for Allocating Scarce Quantum-Safe Link Postures under Weakest-Link Exposure",
+      "url": "http://arxiv.org/abs/2610.04897v1",
+      "published": "2026-10-04T03:19:10Z",
+      "authors": "Bhanwar Gupta et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Algorithm for allocating scarce QKD and quantum-safe link upgrades under weakest-link exposure; identifies when per-link heuristics fail.",
+      "unproven": "application to networks larger than 20,000 links; integration with real-world migration planning tools and compliance frameworks",
+      "scored_at": "2026-10-06T17:37:09.950416425Z"
+    },
+    {
       "id": "kev:CVE-2026-88779",
       "source": "kev",
       "title": "CVE-2026-88779 — Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
@@ -109,36 +169,6 @@
       "dek": "Adaptive adversarial search finds regulatory compliance boundaries with 1.43x the defeat modes of naive enumeration at matched budget, demonstrated on 60 financial advisory rules.",
       "unproven": "tested on one financial institution's ruleset; whether defeat modes discovered transfer to other domains or regulatory regimes",
       "scored_at": "2026-10-06T01:03:25.55110031Z"
-    },
-    {
-      "id": "arxiv:2610.04589v1",
-      "source": "arxiv",
-      "title": "StegoMemory: Agentic Memory Acts as Covert Steganographic Channel",
-      "url": "http://arxiv.org/abs/2610.04589v1",
-      "published": "2026-10-03T15:23:18Z",
-      "authors": "Snehasis Mukhopadhyay et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "20.1% of steganographic encoding attacks persist through agent memory write and retrieval undetected, including synthetic API keys and cryptographic material.",
-      "unproven": "tested on 13 models but oversights may not reflect deployed safety systems; whether more sophisticated detection mechanisms would catch these channels",
-      "scored_at": "2026-10-06T01:03:25.551102443Z"
-    },
-    {
-      "id": "arxiv:2610.04504v1",
-      "source": "arxiv",
-      "title": "The Same Zero: Why Identical ASR Can Imply Different Guarantees in LLM-Agent Security",
-      "url": "http://arxiv.org/abs/2610.04504v1",
-      "published": "2026-10-03T13:09:22Z",
-      "authors": "YaJie Yin",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Schema sandbox plus confirmation gate achieves 0% attack success with full benign utility; VAL framework reveals intuition-based stacks trade off to security-by-luck.",
-      "unproven": "tested on AgentDojo and JADE; whether VAL stack generalizes to agents outside banking or with different permission models",
-      "scored_at": "2026-10-06T01:03:25.551102644Z"
     },
     {
       "id": "arxiv:2610.06584v1",
@@ -216,19 +246,34 @@
       "scored_at": "2026-10-06T10:54:52.030890846Z"
     },
     {
-      "id": "arxiv:2610.04639v1",
+      "id": "arxiv:2610.05266v1",
       "source": "arxiv",
-      "title": "When Talk Isn't Code: Comparing LLM Agents That Simulate and Develop Software",
-      "url": "http://arxiv.org/abs/2610.04639v1",
-      "published": "2026-10-03T16:29:42Z",
-      "authors": "Xiang Li et al.",
+      "title": "Who Is Your Agent Serving? Provider-Side Indirect Prompt Injection in Proactive Agents",
+      "url": "http://arxiv.org/abs/2610.05266v1",
+      "published": "2026-10-04T14:36:27Z",
+      "authors": "Rui Wang et al.",
       "novelty": 4,
       "actionability": 3,
       "score": 7,
       "quadrant": "NEW GROUND",
-      "dek": "LLMs disclaim security checks in conversation mode they fail to implement in code; median DNS implementation reached 13-15% attack success despite full specification.",
-      "unproven": "limited to four protocol implementations and one attack suite; whether findings extend to generation-time defenses or fine-tuned models",
-      "scored_at": "2026-10-06T01:03:25.551101682Z"
+      "dek": "External providers can redirect proactive agents toward their targets by controlling only their own content, gaining up to 77.4 percentage-point increases in target authorization.",
+      "unproven": "tested only on simulated user models in three controlled environments; unclear how real users would respond to such attacks in production deployment",
+      "scored_at": "2026-10-06T17:36:57.812989635Z"
+    },
+    {
+      "id": "arxiv:2610.04860v1",
+      "source": "arxiv",
+      "title": "Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate",
+      "url": "http://arxiv.org/abs/2610.04860v1",
+      "published": "2026-10-04T02:02:08Z",
+      "authors": "Haocheng Ye et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Six text-watermarking methods induce hallucination via token perturbations and attention drift; two plug-in mitigations proposed but not evaluated.",
+      "unproven": "effectiveness of proposed interventions; interaction with watermarking deployments already in production systems",
+      "scored_at": "2026-10-06T17:37:09.950416715Z"
     },
     {
       "id": "arxiv:2610.06848v1",
@@ -321,79 +366,34 @@
       "scored_at": "2026-10-06T10:54:52.030896253Z"
     },
     {
-      "id": "arxiv:2610.04480v1",
+      "id": "arxiv:2610.05246v1",
       "source": "arxiv",
-      "title": "Attestable Audit: Property-Based Attestation for Proprietary Workloads without Artifact Disclosure",
-      "url": "http://arxiv.org/abs/2610.04480v1",
-      "published": "2026-10-03T12:29:47Z",
-      "authors": "Takuma Imamura",
+      "title": "What a Policy Gate Can and Cannot Know: Measured Boundaries of Cross-Platform Command Adjudication",
+      "url": "http://arxiv.org/abs/2610.05246v1",
+      "published": "2026-10-04T14:23:35Z",
+      "authors": "Qishuai Jing",
       "novelty": 3,
       "actionability": 3,
       "score": 6,
       "quadrant": "NOISE FLOOR",
-      "dek": "TEE-based audit binding connects source code digest to fuzzing, static analysis and formal-method verdicts without disclosing proprietary binaries.",
-      "unproven": "concept paper; no implementation, performance measurement, or evidence TEE audits match depth of human code review",
-      "scored_at": "2026-10-06T01:03:25.551102754Z"
+      "dek": "Policy gates adjudicating agent actions without parsing syntax remain vulnerable to carrier and mapping differences; a Linux audit found 43 re-expressions and four unmapped escapes.",
+      "unproven": "limited to one gateway design and Linux twin environment; generalizability to other policy frameworks and operating systems unclear",
+      "scored_at": "2026-10-06T17:36:57.812990066Z"
     },
     {
-      "id": "arxiv:2610.06636v1",
+      "id": "arxiv:2610.05036v1",
       "source": "arxiv",
-      "title": "Differentially Private Mixing of Public Datasets Improves Private Learning",
-      "url": "http://arxiv.org/abs/2610.06636v1",
-      "published": "2026-10-05T16:25:40Z",
-      "authors": "Yufei Chen et al.",
+      "title": "Characterizing Security Effects of OSS Vulnerabilities in Agent Systems",
+      "url": "http://arxiv.org/abs/2610.05036v1",
+      "published": "2026-10-04T08:06:34Z",
+      "authors": "Yu Ji et al.",
       "novelty": 3,
-      "actionability": 2,
-      "score": 5,
+      "actionability": 3,
+      "score": 6,
       "quadrant": "NOISE FLOOR",
-      "dek": "Privately learning mixtures of public datasets for pre-training improves downstream utility under differential privacy constraints.",
-      "unproven": "Generalization beyond the two tested domains (X-ray classification, email modeling) and scalability to production SDLC workflows.",
-      "scored_at": "2026-10-06T10:54:17.717347379Z"
-    },
-    {
-      "id": "arxiv:2610.06507v1",
-      "source": "arxiv",
-      "title": "An Evaluation of the Semantic Understanding Capabilities of Large Language Models for Web Attack Payloads",
-      "url": "http://arxiv.org/abs/2610.06507v1",
-      "published": "2026-10-05T15:25:41Z",
-      "authors": "Hao Sun et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLMs show strong type and intent understanding of web attack payloads but weak severity assessment; benchmark introduced (PayloadSemBench).",
-      "unproven": "Whether semantic understanding depth predicts detection performance in production WAF or API security tooling.",
-      "scored_at": "2026-10-06T10:54:17.717348733Z"
-    },
-    {
-      "id": "arxiv:2610.06420v1",
-      "source": "arxiv",
-      "title": "Efficient Secure Federated Learning via Information-Theoretically Secure Key Distribution: A Medical Imaging Case Study",
-      "url": "http://arxiv.org/abs/2610.06420v1",
-      "published": "2026-10-05T14:34:49Z",
-      "authors": "Ivan Donà et al.",
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Information-theoretically secure key distribution for federated learning reduces key consumption 35× via frozen backbones and quantization on a testbed.",
-      "unproven": "Scalability to production federated learning deployments and whether information-theoretic security constraints are practical in financial services workflows.",
-      "scored_at": "2026-10-06T10:54:17.717348924Z"
-    },
-    {
-      "id": "arxiv:2610.06362v1",
-      "source": "arxiv",
-      "title": "Explicit Nonlinear Functions beyond the Fourier bound",
-      "url": "http://arxiv.org/abs/2610.06362v1",
-      "published": "2026-10-05T14:00:30Z",
-      "authors": "Swastik Kopparty et al.",
-      "novelty": 4,
-      "actionability": 1,
-      "score": 5,
-      "quadrant": "NEW GROUND",
-      "dek": "Construction of nonlinear functions exceeding Fourier bounds in Boolean cryptography; breaks classical method floor.",
-      "unproven": "application to post-quantum cryptographic systems the reader would deploy; practical implementation performance; replacement of existing cipher designs.",
-      "scored_at": "2026-10-06T10:54:30.267100255Z"
+      "dek": "OSS vulnerabilities in agent tool dependencies propagate security effects through tool outputs, agent state, and model exposure; runtime provenance can trace effect boundaries.",
+      "unproven": "taxonomy derived from qualitative investigation; no quantification of how often effects propagate to consequential model outputs or how frequently agents exercise vulnerable paths",
+      "scored_at": "2026-10-06T17:36:57.812993182Z"
     }
   ],
   "noise": [
@@ -428,19 +428,19 @@
       "scored_at": "2026-10-04T03:25:12.77044938Z"
     },
     {
-      "id": "hn:49943451",
+      "id": "hn:49946228",
       "source": "hn",
-      "title": "The Escalation of War in Ethiopia",
-      "url": "https://africanistperspective.com/p/on-the-escalation-of-war-in-ethiopia",
-      "published": "2026-10-03T11:54:24Z",
-      "authors": "mooreds",
-      "points": 100,
+      "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+      "published": "2026-10-03T17:44:29Z",
+      "authors": "Anon84",
+      "points": 85,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Political conflict in Ethiopia; not security-related.",
-      "scored_at": "2026-10-03T15:24:56.319854384Z"
+      "dek": "Researcher opinion on AI existential risk; no technical finding, tooling change, or process impact.",
+      "scored_at": "2026-10-04T03:25:12.770452476Z"
     }
   ]
 }
