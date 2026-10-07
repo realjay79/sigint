@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T18:08:17.365023766Z",
+  "generated": "2026-10-07T23:56:43.179515692Z",
   "edition": 75,
   "name": "SIGINT",
   "mark": "^C",
@@ -12,8 +12,8 @@
     },
     "by_quadrant": {
       "BREAK GLASS": 4,
-      "NEW GROUND": 16,
-      "NOISE FLOOR": 2,
+      "NEW GROUND": 15,
+      "NOISE FLOOR": 3,
       "STANDING ORDERS": 3
     }
   },
@@ -334,21 +334,6 @@
       "scored_at": "2026-10-06T10:54:52.030890229Z"
     },
     {
-      "id": "arxiv:2610.05453v1",
-      "source": "arxiv",
-      "title": "The Poisoned Conversation: Privacy-Leaking Watermarks in Unified Multimodal Models",
-      "url": "http://arxiv.org/abs/2610.05453v1",
-      "published": "2026-10-04T18:53:31Z",
-      "authors": "Tobias Braun et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Malicious multimodal models can embed hidden watermarks in later-generated images keyed to earlier sensitive text in the same conversation, leaking privacy from local deployments.",
-      "unproven": "whether detection remains feasible under adversarial watermark design and whether practical deployment scenarios encounter this threat model.",
-      "scored_at": "2026-10-06T10:54:52.030890846Z"
-    },
-    {
       "id": "arxiv:2610.08668v1",
       "source": "arxiv",
       "title": "Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents",
@@ -392,23 +377,71 @@
       "dek": "Longitudinal study of 32 LLMs across five open-weight families shows newer models reduce security gaps in generated code, but no family closes the gap entirely.",
       "unproven": "CWEval coverage (119 tasks, 31 CWEs) may not reflect OWASP Top 25 or domain-specific vulnerabilities in financial code; generative security risk depends on downstream scanning integration.",
       "scored_at": "2026-10-07T03:20:02.347499892Z"
+    },
+    {
+      "id": "arxiv:2610.08097v1",
+      "source": "arxiv",
+      "title": "When Tools Lie: Reliability of Mathematical Agents Under Corrupted Tool Feedback",
+      "url": "http://arxiv.org/abs/2610.08097v1",
+      "published": "2026-10-06T10:28:19Z",
+      "authors": "Kavienan Jegatheesan et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "LLM agents lose 28% accuracy when tool outputs are silently corrupted; mandatory reflection recovers full performance, optional verification does not.",
+      "unproven": "study uses synthetic corruption framework and 31 problems; applicability to real silent tool failures and agent codebases in production SDLC undefined.",
+      "scored_at": "2026-10-07T03:20:16.879578029Z"
     }
   ],
   "noise": [
     {
-      "id": "hn:49958850",
+      "id": "hn:49977588",
       "source": "hn",
-      "title": "ArtCraft Apps – open-source Adobe compatible suite written in Rust",
-      "url": "https://getartcraft.com/apps",
-      "published": "2026-10-04T23:02:43Z",
-      "authors": "aghuang",
-      "points": 54,
+      "title": "Meta’s Muse is an adorable privacy and security dumpster fire",
+      "url": "https://techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire",
+      "published": "2026-10-06T12:45:49Z",
+      "authors": "beardyw",
+      "points": 386,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Meta's Muse platform exhibits privacy and security gaps in design; opinion piece without concrete findings or architectural guidance.",
+      "unproven": "specific vulnerabilities, exploitability, scope of impact beyond initial reporting",
+      "scored_at": "2026-10-07T23:56:43.172149766Z"
+    },
+    {
+      "id": "hn:49980715",
+      "source": "hn",
+      "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "url": "https://github.com/FeSens/openTPU",
+      "published": "2026-10-06T16:23:25Z",
+      "authors": "fsbonetto",
+      "points": 334,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Open-source Adobe-compatible suite in Rust launches; no security angle identified.",
-      "scored_at": "2026-10-05T03:02:19.206730225Z"
+      "dek": "Open-source hardware accelerator design; infrastructure tooling with no bearing on application security engineering or SDLC.",
+      "unproven": "outside reader's remit entirely",
+      "scored_at": "2026-10-07T23:56:43.172149646Z"
+    },
+    {
+      "id": "hn:49975619",
+      "source": "hn",
+      "title": "Gleam doesn't compile to Erlang source anymore",
+      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore",
+      "published": "2026-10-06T08:08:20Z",
+      "authors": "ingve",
+      "points": 313,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Gleam language compiler no longer targets Erlang source; development note unrelated to application security or SDLC process.",
+      "unproven": "outside reader's remit entirely",
+      "scored_at": "2026-10-07T23:56:43.172149856Z"
     }
   ]
 }
