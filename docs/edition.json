@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T03:20:29.201783306Z",
+  "generated": "2026-10-07T10:42:35.024931494Z",
   "edition": 75,
   "name": "SIGINT",
   "mark": "^C",
@@ -11,27 +11,26 @@
       "arxiv": 25
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
-      "NEW GROUND": 14,
-      "NOISE FLOOR": 3,
-      "STANDING ORDERS": 2
+      "BREAK GLASS": 5,
+      "NEW GROUND": 17,
+      "STANDING ORDERS": 3
     }
   },
   "items": [
     {
-      "id": "arxiv:2610.05089v1",
+      "id": "arxiv:2610.07639v1",
       "source": "arxiv",
-      "title": "Cooldown Landmines: Cross-Tenant Interference Attacks on LLM Gateways",
-      "url": "http://arxiv.org/abs/2610.05089v1",
-      "published": "2026-10-04T09:46:59Z",
-      "authors": "Yudong Gao et al.",
+      "title": "HarnessSecurity-Bench: Do Security Mechanisms Really Protect Coding Agent Harnesses?",
+      "url": "http://arxiv.org/abs/2610.07639v1",
+      "published": "2026-10-06T02:34:53Z",
+      "authors": "Zhengyang Zhu et al.",
       "novelty": 4,
-      "actionability": 5,
-      "score": 9,
+      "actionability": 4,
+      "score": 8,
       "quadrant": "BREAK GLASS",
-      "dek": "LiteLLM gateways sharing cooldown records allow cross-tenant attacks forcing fallback or denial; tenant-scoped cooldown with origin checks mitigates the gap.",
-      "unproven": "attacks demonstrated on LiteLLM; effectiveness against other LLM gateway implementations and with hardened authentication policies not tested",
-      "scored_at": "2026-10-06T17:36:57.812992791Z"
+      "dek": "Half of coding agent harness security mechanisms are opt-in; enabling auto-approve raises attack success from 29.2% to 95.6% across six platforms.",
+      "unproven": "whether findings generalize to harnesses released after benchmark design or to agents not in the six tested systems",
+      "scored_at": "2026-10-07T10:42:03.046425147Z"
     },
     {
       "id": "arxiv:2610.06366v1",
@@ -92,21 +91,6 @@
       "dek": "Claude Code and Codex are vulnerable to staged prompt injection across long workflows; blocking requires boundary action auditing before each consequential action, not pre- or post-execution screening.",
       "unproven": "evaluated on two model families in native runtimes; effectiveness against fine-tuned or system-prompted variants not established",
       "scored_at": "2026-10-06T17:36:57.812990978Z"
-    },
-    {
-      "id": "arxiv:2610.05103v1",
-      "source": "arxiv",
-      "title": "VulValidate: Auditing Function-Level Vulnerability Labels with Executable Evidence",
-      "url": "http://arxiv.org/abs/2610.05103v1",
-      "published": "2026-10-04T10:21:53Z",
-      "authors": "Leizhen Zhang et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Auditing 35,849 labeled vulnerable functions in BigVul, PrimeVul, and DiverseVul confirms 57.2%, corrects 19.0%, and reclassifies 22.3%; expert review supports 90–99% of decisions.",
-      "unproven": "corrected dataset contains 15,890 distinct functions; representativeness of expert panel and generalization to future vulnerability datasets not established",
-      "scored_at": "2026-10-06T17:36:57.812991729Z"
     },
     {
       "id": "arxiv:2610.08678v1",
@@ -229,6 +213,81 @@
       "scored_at": "2026-10-07T03:20:29.19258387Z"
     },
     {
+      "id": "arxiv:2610.07645v1",
+      "source": "arxiv",
+      "title": "SkillPoison: Progressive Skill Poisoning via Successful Experiences",
+      "url": "http://arxiv.org/abs/2610.07645v1",
+      "published": "2026-10-06T02:38:36Z",
+      "authors": "Lizhi Zhang et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "LLM agents can be poisoned through verified successful experiences that cause harmful skill generalization at 95.71% success rate.",
+      "unproven": "whether the attack persists across model retraining, different skill extraction methods, or production agent architectures beyond the tested benchmarks",
+      "scored_at": "2026-10-07T10:42:03.04642458Z"
+    },
+    {
+      "id": "arxiv:2610.07557v1",
+      "source": "arxiv",
+      "title": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
+      "url": "http://arxiv.org/abs/2610.07557v1",
+      "published": "2026-10-06T00:42:45Z",
+      "authors": "Hang He et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Coding agents synthesize static-analysis checkers at 32.30% mean Pass@1 across 300 tasks; best configuration reaches 45.33%.",
+      "unproven": "whether agents trained after benchmark creation perform better or whether checker quality meets production deployment standards",
+      "scored_at": "2026-10-07T10:42:03.046426095Z"
+    },
+    {
+      "id": "arxiv:2610.07510v1",
+      "source": "arxiv",
+      "title": "Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training",
+      "url": "http://arxiv.org/abs/2610.07510v1",
+      "published": "2026-10-05T23:23:08Z",
+      "authors": "Qiusi Zhan et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Backdoors in LLM agents persist through benign SFT and RL; PersistBD raises attack success from 20% to 76% on Qwen2.5-Coder-7B.",
+      "unproven": "whether persistence generalizes to detection-aware fine-tuning, public model releases, or real developer workflows",
+      "scored_at": "2026-10-07T10:42:03.046428103Z"
+    },
+    {
+      "id": "arxiv:2610.07345v1",
+      "source": "arxiv",
+      "title": "Evaluating Behavioral Context for Interpretable IAM Policy Risk Scoring in Cloud Environments",
+      "url": "http://arxiv.org/abs/2610.07345v1",
+      "published": "2026-10-05T20:17:19Z",
+      "authors": "Yassin Elsharkawy",
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Behavioral context from CloudTrail reduces IAM policy risk-prioritization error substantially over policy-only baselines in AWS environments.",
+      "unproven": "benchmark limited to 534 AWS observations; generalization to on-premises or multi-cloud IAM systems not tested.",
+      "scored_at": "2026-10-07T10:42:14.030670213Z"
+    },
+    {
+      "id": "arxiv:2610.07125v1",
+      "source": "arxiv",
+      "title": "Jailbreaking Open-Weight LLMs via Random Embedding Perturbations",
+      "url": "http://arxiv.org/abs/2610.07125v1",
+      "published": "2026-10-05T17:50:10Z",
+      "authors": "Abhinav Sudhakar Dubey et al.",
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Perturbed Embedding Vector jailbreak defeats six open-weight LLMs by adding Gaussian noise to embeddings; first successful attack within one minute, order of magnitude cheaper than prior methods.",
+      "unproven": "Whether defenses using input sanitization or embedding normalization block PEV; effectiveness against models with post-embedding safety layers; generalization across training procedures and quantization schemes.",
+      "scored_at": "2026-10-07T10:42:27.256512617Z"
+    },
+    {
       "id": "arxiv:2610.06584v1",
       "source": "arxiv",
       "title": "Does AI Help Cyber Attackers or Defenders? Evidence from Nonpublic Vulnerabilities and Subsequent Attacks",
@@ -332,66 +391,6 @@
       "dek": "Semantic behavioral watermarking for LLM agents resists paraphrasing and forgery better than prior schemes.",
       "unproven": "tested on five models and three encoders; no evidence watermark survives deliberate agent redesign or tool replacement in production",
       "scored_at": "2026-10-07T03:19:49.168244797Z"
-    },
-    {
-      "id": "arxiv:2610.08571v1",
-      "source": "arxiv",
-      "title": "RAG-PIBench: A Leakage-Aware Benchmark for Prompt-Injection Detection in Trustworthy RAG Systems",
-      "url": "http://arxiv.org/abs/2610.08571v1",
-      "published": "2026-10-06T15:47:47Z",
-      "authors": "Niveen O. Jaffal et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "RAG-PIBench dataset with 4,876 examples shows DistilBERT achieves 0.896 F1 on prompt-injection detection in retrieval systems.",
-      "unproven": "benchmark is static; does not measure generalization to injection patterns not in training distribution or to new attack techniques",
-      "scored_at": "2026-10-07T03:19:49.168245799Z"
-    },
-    {
-      "id": "arxiv:2610.08240v1",
-      "source": "arxiv",
-      "title": "Newer and Bigger, but Safer? A Longitudinal Study of the Functionality-Security Gap in LLM-Generated Code",
-      "url": "http://arxiv.org/abs/2610.08240v1",
-      "published": "2026-10-06T12:25:30Z",
-      "authors": "Thiago Santos de Moura et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Longitudinal study of 32 LLMs across five open-weight families shows newer models reduce security gaps in generated code, but no family closes the gap entirely.",
-      "unproven": "CWEval coverage (119 tasks, 31 CWEs) may not reflect OWASP Top 25 or domain-specific vulnerabilities in financial code; generative security risk depends on downstream scanning integration.",
-      "scored_at": "2026-10-07T03:20:02.347499892Z"
-    },
-    {
-      "id": "arxiv:2610.08097v1",
-      "source": "arxiv",
-      "title": "When Tools Lie: Reliability of Mathematical Agents Under Corrupted Tool Feedback",
-      "url": "http://arxiv.org/abs/2610.08097v1",
-      "published": "2026-10-06T10:28:19Z",
-      "authors": "Kavienan Jegatheesan et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLM agents lose 28% accuracy when tool outputs are silently corrupted; mandatory reflection recovers full performance, optional verification does not.",
-      "unproven": "study uses synthetic corruption framework and 31 problems; applicability to real silent tool failures and agent codebases in production SDLC undefined.",
-      "scored_at": "2026-10-07T03:20:16.879578029Z"
-    },
-    {
-      "id": "arxiv:2610.07873v1",
-      "source": "arxiv",
-      "title": "Preparing an AI-Augmented SIEM for the EU Cyber Resilience Act: A Practitioner Case Study",
-      "url": "http://arxiv.org/abs/2610.07873v1",
-      "published": "2026-10-06T07:24:07Z",
-      "authors": "Georgios Koutidis et al.",
-      "novelty": 2,
-      "actionability": 4,
-      "score": 6,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Six-step CRA preparedness recipe (Scope, Asset, Evidence, Map, Gap, Audit) with traceability threads applied to AI-augmented SEUXDR SIEM on CYBERFORT platform.",
-      "unproven": "single product case study; recipe applicability to non-AI security products and to firms without existing CYBERFORT deployment unclear; no third-party audit validation.",
-      "scored_at": "2026-10-07T03:20:16.879579231Z"
     }
   ],
   "noise": [
@@ -425,22 +424,6 @@
       "quadrant": "NOISE FLOOR",
       "dek": "Open-source Adobe-compatible suite in Rust launches; no security angle identified.",
       "scored_at": "2026-10-05T03:02:19.206730225Z"
-    },
-    {
-      "id": "hn:49951891",
-      "source": "hn",
-      "title": "How to scale intent, quality, and artistry with AI [video]",
-      "url": "https://youtube.com/watch?v=GLvFTMtw4Jk",
-      "published": "2026-10-04T08:41:58Z",
-      "authors": "simonjgreen",
-      "points": 35,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Video on using AI for creative work scaling.",
-      "unproven": "outside reader's remit; not SDLC, agent security, or post-quantum work",
-      "scored_at": "2026-10-04T22:36:58.42137637Z"
     }
   ]
 }
