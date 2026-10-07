@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T10:42:35.024931494Z",
+  "generated": "2026-10-07T18:08:17.365023766Z",
   "edition": 75,
   "name": "SIGINT",
   "mark": "^C",
@@ -11,8 +11,9 @@
       "arxiv": 25
     },
     "by_quadrant": {
-      "BREAK GLASS": 5,
-      "NEW GROUND": 17,
+      "BREAK GLASS": 4,
+      "NEW GROUND": 16,
+      "NOISE FLOOR": 2,
       "STANDING ORDERS": 3
     }
   },
@@ -76,21 +77,6 @@
       "dek": "Composing benign agent skills can create malicious behaviors not present in any individual skill, even after vetting.",
       "unproven": "Evaluation limited to skill repositories tested; generalization to closed or proprietary skill ecosystems not demonstrated.",
       "scored_at": "2026-10-06T10:54:41.050503155Z"
-    },
-    {
-      "id": "arxiv:2610.05163v1",
-      "source": "arxiv",
-      "title": "Blocking at the Boundary: Auditing Long-Horizon Agents against Staged Prompt Injection",
-      "url": "http://arxiv.org/abs/2610.05163v1",
-      "published": "2026-10-04T12:14:19Z",
-      "authors": "Jingkai Liu et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Claude Code and Codex are vulnerable to staged prompt injection across long workflows; blocking requires boundary action auditing before each consequential action, not pre- or post-execution screening.",
-      "unproven": "evaluated on two model families in native runtimes; effectiveness against fine-tuned or system-prompted variants not established",
-      "scored_at": "2026-10-06T17:36:57.812990978Z"
     },
     {
       "id": "arxiv:2610.08678v1",
@@ -363,21 +349,6 @@
       "scored_at": "2026-10-06T10:54:52.030890846Z"
     },
     {
-      "id": "arxiv:2610.05266v1",
-      "source": "arxiv",
-      "title": "Who Is Your Agent Serving? Provider-Side Indirect Prompt Injection in Proactive Agents",
-      "url": "http://arxiv.org/abs/2610.05266v1",
-      "published": "2026-10-04T14:36:27Z",
-      "authors": "Rui Wang et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "External providers can redirect proactive agents toward their targets by controlling only their own content, gaining up to 77.4 percentage-point increases in target authorization.",
-      "unproven": "tested only on simulated user models in three controlled environments; unclear how real users would respond to such attacks in production deployment",
-      "scored_at": "2026-10-06T17:36:57.812989635Z"
-    },
-    {
       "id": "arxiv:2610.08668v1",
       "source": "arxiv",
       "title": "Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents",
@@ -391,25 +362,39 @@
       "dek": "Semantic behavioral watermarking for LLM agents resists paraphrasing and forgery better than prior schemes.",
       "unproven": "tested on five models and three encoders; no evidence watermark survives deliberate agent redesign or tool replacement in production",
       "scored_at": "2026-10-07T03:19:49.168244797Z"
+    },
+    {
+      "id": "arxiv:2610.08571v1",
+      "source": "arxiv",
+      "title": "RAG-PIBench: A Leakage-Aware Benchmark for Prompt-Injection Detection in Trustworthy RAG Systems",
+      "url": "http://arxiv.org/abs/2610.08571v1",
+      "published": "2026-10-06T15:47:47Z",
+      "authors": "Niveen O. Jaffal et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "RAG-PIBench dataset with 4,876 examples shows DistilBERT achieves 0.896 F1 on prompt-injection detection in retrieval systems.",
+      "unproven": "benchmark is static; does not measure generalization to injection patterns not in training distribution or to new attack techniques",
+      "scored_at": "2026-10-07T03:19:49.168245799Z"
+    },
+    {
+      "id": "arxiv:2610.08240v1",
+      "source": "arxiv",
+      "title": "Newer and Bigger, but Safer? A Longitudinal Study of the Functionality-Security Gap in LLM-Generated Code",
+      "url": "http://arxiv.org/abs/2610.08240v1",
+      "published": "2026-10-06T12:25:30Z",
+      "authors": "Thiago Santos de Moura et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Longitudinal study of 32 LLMs across five open-weight families shows newer models reduce security gaps in generated code, but no family closes the gap entirely.",
+      "unproven": "CWEval coverage (119 tasks, 31 CWEs) may not reflect OWASP Top 25 or domain-specific vulnerabilities in financial code; generative security risk depends on downstream scanning integration.",
+      "scored_at": "2026-10-07T03:20:02.347499892Z"
     }
   ],
   "noise": [
-    {
-      "id": "hn:49956003",
-      "source": "hn",
-      "title": "Xray-core concealed a certificate verification bypass vulnerability",
-      "url": "https://github.com/net4people/bbs/issues/672",
-      "published": "2026-10-04T17:38:54Z",
-      "authors": "timbill",
-      "points": 61,
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Xray-core had a certificate verification bypass; no exploitation details or patch status provided.",
-      "unproven": "whether the vulnerability is exploitable in reader's deployment, patch availability, or prevalence in financial services networks",
-      "scored_at": "2026-10-05T03:02:19.206730566Z"
-    },
     {
       "id": "hn:49958850",
       "source": "hn",
