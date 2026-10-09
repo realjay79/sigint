@@ -18963,6 +18963,128 @@
     "dek": "Media industry merger and debt announcement; personnel moves and corporate finance unrelated to security practice.",
     "scored_at": "2026-10-07T23:56:37.223207465Z"
   },
+  "hn:49996639": {
+    "id": "hn:49996639",
+    "source": "hn",
+    "title": "A 5.3M-year-old deep-sea whale necropolis in the Diamantina Zone",
+    "url": "https://nature.com/articles/s41586-026-10546-z",
+    "published": "2026-10-07T18:14:41Z",
+    "authors": "bryanrasmussen",
+    "points": 68,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Marine biology discovery; entirely outside security domain.",
+    "scored_at": "2026-10-09T00:03:21.647403084Z"
+  },
+  "hn:50002249": {
+    "id": "hn:50002249",
+    "source": "hn",
+    "title": "Let's Encrypt: 64-Day Certificate Lifetimes Coming Feb 2027",
+    "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
+    "published": "2026-10-08T06:01:21Z",
+    "authors": "allddd",
+    "points": 42,
+    "novelty": 2,
+    "actionability": 3,
+    "score": 5,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Let's Encrypt reducing certificate lifetime from 90 to 64 days; requires automation review during renewal cycle.",
+    "unproven": "no data on prevalence of automated renewal failure in production environments",
+    "scored_at": "2026-10-09T00:03:21.647402953Z"
+  },
+  "hn:50004284": {
+    "id": "hn:50004284",
+    "source": "hn",
+    "title": "Open-Source Rust Alternatives to Adobe Apps",
+    "url": "https://getartcraft.com/",
+    "published": "2026-10-08T10:55:10Z",
+    "authors": "SweetSoftPillow",
+    "points": 31,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Curated list of Rust alternatives to Adobe software; software catalog without security content.",
+    "scored_at": "2026-10-09T00:03:21.647402833Z"
+  },
+  "hn:50009904": {
+    "id": "hn:50009904",
+    "source": "hn",
+    "title": "Show HN: K10s – A Clickable Kubernetes TUI (Go, Bubble Tea)",
+    "url": "https://github.com/p10node/k10s",
+    "published": "2026-10-08T18:29:06Z",
+    "authors": "pierreneter",
+    "points": 61,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Kubernetes CLI tool release; infrastructure tooling, not relevant to SDLC security work.",
+    "scored_at": "2026-10-09T00:03:21.647401842Z"
+  },
+  "hn:50009965": {
+    "id": "hn:50009965",
+    "source": "hn",
+    "title": "Cloudflare Keeps 1.1.1.1 Out of Piracy Blocking, Escapes Penalties in France",
+    "url": "https://torrentfreak.com/cloudflare-keeps-1-1-1-1-out-of-piracy-blocking-escapes-penalties-in-france",
+    "published": "2026-10-08T18:32:52Z",
+    "authors": "HotGarbage",
+    "points": 44,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "DNS provider regulatory compliance decision; outside application security engineering scope.",
+    "scored_at": "2026-10-09T00:03:21.647401691Z"
+  },
+  "hn:50010656": {
+    "id": "hn:50010656",
+    "source": "hn",
+    "title": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
+    "url": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months",
+    "published": "2026-10-08T19:17:51Z",
+    "authors": "firstcomm",
+    "points": 56,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Cryptocurrency figure discusses AI-driven cryptanalysis risk; opinion piece, not technical evidence.",
+    "scored_at": "2026-10-09T00:03:21.64740074Z"
+  },
+  "hn:50012043": {
+    "id": "hn:50012043",
+    "source": "hn",
+    "title": "I think we might lose public key cryptography",
+    "url": "https://twitter.com/matthew_d_green/status/2108278850555674975",
+    "published": "2026-10-08T20:48:37Z",
+    "authors": "meken",
+    "points": 54,
+    "novelty": 3,
+    "actionability": 3,
+    "score": 6,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Post-quantum cryptography timeline concerns; informs migration planning but offers no new technical findings.",
+    "unproven": "no quantified threat calendar or migration path beyond speculation",
+    "scored_at": "2026-10-09T00:03:21.647400049Z"
+  },
+  "hn:50012199": {
+    "id": "hn:50012199",
+    "source": "hn",
+    "title": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
+    "url": "https://github.com/thesnarkitecht/rembrandt",
+    "published": "2026-10-08T21:00:55Z",
+    "authors": "thesnarkitecht",
+    "points": 39,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Open-source photo editor with local AI processing; tool announcement with no security angle.",
+    "scored_at": "2026-10-09T00:03:21.647399518Z"
+  },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",
     "source": "kev",
@@ -19043,22 +19165,6 @@
     ],
     "scored_at": "2026-10-08T18:09:54.536847733Z"
   },
-  "kev:CVE-2025-25249": {
-    "id": "kev:CVE-2025-25249",
-    "source": "kev",
-    "title": "CVE-2025-25249 — Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
-    "published": "2026-09-09T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Fortinet Multiple Products. Confirmed exploited in the wild. Federal remediation due 12 September.",
-    "cves": [
-      "CVE-2025-25249"
-    ],
-    "scored_at": "2026-09-09T22:07:04.376103411Z"
-  },
   "kev:CVE-2025-39682": {
     "id": "kev:CVE-2025-39682",
     "source": "kev",
@@ -19138,38 +19244,6 @@
       "CVE-2026-104286"
     ],
     "scored_at": "2026-10-01T23:34:04.657447431Z"
-  },
-  "kev:CVE-2026-19490": {
-    "id": "kev:CVE-2026-19490",
-    "source": "kev",
-    "title": "CVE-2026-19490 — Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
-    "published": "2026-09-09T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Citrix NetScaler. Confirmed exploited in the wild. Federal remediation due 12 September.",
-    "cves": [
-      "CVE-2026-19490"
-    ],
-    "scored_at": "2026-09-09T22:07:04.376100526Z"
-  },
-  "kev:CVE-2026-20079": {
-    "id": "kev:CVE-2026-20079",
-    "source": "kev",
-    "title": "CVE-2026-20079 — Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
-    "published": "2026-09-09T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management. Confirmed exploited in the wild. Federal remediation due 12 September.",
-    "cves": [
-      "CVE-2026-20079"
-    ],
-    "scored_at": "2026-09-09T22:07:04.376107709Z"
   },
   "kev:CVE-2026-42016": {
     "id": "kev:CVE-2026-42016",
@@ -19458,22 +19532,6 @@
       "CVE-2026-86950"
     ],
     "scored_at": "2026-09-29T17:16:04.431255919Z"
-  },
-  "kev:CVE-2026-87491": {
-    "id": "kev:CVE-2026-87491",
-    "source": "kev",
-    "title": "CVE-2026-87491 — Google Chromium V8 Out of Bounds Write Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491",
-    "published": "2026-09-09T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Google Chromium V8. Confirmed exploited in the wild. Federal remediation due 23 September.",
-    "cves": [
-      "CVE-2026-87491"
-    ],
-    "scored_at": "2026-09-09T22:07:04.376105535Z"
   },
   "kev:CVE-2026-87886": {
     "id": "kev:CVE-2026-87886",
