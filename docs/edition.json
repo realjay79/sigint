@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T11:01:21.355849265Z",
+  "generated": "2026-10-09T17:44:21.600067486Z",
   "edition": 77,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,28 +13,57 @@
       "kev": 5
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
-      "NEW GROUND": 12,
+      "BREAK GLASS": 8,
+      "NEW GROUND": 10,
       "NOISE FLOOR": 2,
       "STANDING ORDERS": 5
     }
   },
   "items": [
     {
-      "id": "kev:CVE-2015-5477",
-      "source": "kev",
-      "title": "CVE-2015-5477 — ISC BIND Data Processing Errors Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
+      "id": "arxiv:2610.12463v1",
+      "source": "arxiv",
+      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "url": "http://arxiv.org/abs/2610.12463v1",
+      "published": "2026-10-08T17:59:49Z",
+      "authors": "Abbas Raftari",
+      "novelty": 4,
+      "actionability": 4,
       "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "ISC BIND. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2015-5477"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536844879Z"
+      "quadrant": "BREAK GLASS",
+      "dek": "Agent eval escapes (OpenAI, Anthropic, Google) show boundaries fail under test; proposes Boundary Assurance Stack for runtime verification.",
+      "unproven": "Framework not yet deployed in live agent systems; cases are post-hoc analysis, not prospective validation of the PASAC model.",
+      "scored_at": "2026-10-09T17:43:44.4190268Z"
+    },
+    {
+      "id": "arxiv:2610.11254v1",
+      "source": "arxiv",
+      "title": "Provable Subexponential Algorithms for NIST Third-Round Lattice Families",
+      "url": "http://arxiv.org/abs/2610.11254v1",
+      "published": "2026-10-08T05:01:41Z",
+      "authors": "Yiming Gao et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Subexponential lattice algorithms break Kyber, FrodoKEM, SABER, NTRU, and Dilithium with polylogarithmic coefficient scales; initiate migration planning immediately.",
+      "unproven": "whether NIST parameter choices fall within vulnerable regime; classical-only, no quantum speedup analysis; migration timeline and cryptanalytic feasibility against deployed hardened implementations unclear.",
+      "scored_at": "2026-10-09T17:44:21.592485674Z"
+    },
+    {
+      "id": "arxiv:2610.11169v1",
+      "source": "arxiv",
+      "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+      "url": "http://arxiv.org/abs/2610.11169v1",
+      "published": "2026-10-08T03:25:22Z",
+      "authors": "Fahd Seddik",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "14.9% of high-risk agent skill adoptions prevented by auditing top-100 source repositories ranked by copy network, versus 0.5% for most-starred.",
+      "unproven": "whether ranking generalizes as new skills enter ecosystem; limited to GitSkills dataset; assumes reader has visibility into SKILL.md supply chain in current SDLC.",
+      "scored_at": "2026-10-09T17:44:21.592486085Z"
     },
     {
       "id": "kev:CVE-2016-3081",
@@ -53,22 +82,6 @@
       "scored_at": "2026-10-08T18:09:54.536846522Z"
     },
     {
-      "id": "kev:CVE-2021-3199",
-      "source": "kev",
-      "title": "CVE-2021-3199 — ONLYOFFICE Docs Server Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "ONLYOFFICE Docs. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2021-3199"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536848735Z"
-    },
-    {
       "id": "kev:CVE-2023-22894",
       "source": "kev",
       "title": "CVE-2023-22894 — Strapi Cleartext Storage of Sensitive Information Vulnerability",
@@ -85,6 +98,22 @@
       "scored_at": "2026-10-08T18:09:54.536847733Z"
     },
     {
+      "id": "kev:CVE-2021-3199",
+      "source": "kev",
+      "title": "CVE-2021-3199 — ONLYOFFICE Docs Server Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
+      "published": "2026-10-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "ONLYOFFICE Docs. Confirmed exploited in the wild. Federal remediation due 11 October.",
+      "cves": [
+        "CVE-2021-3199"
+      ],
+      "scored_at": "2026-10-08T18:09:54.536848735Z"
+    },
+    {
       "id": "kev:CVE-2015-3306",
       "source": "kev",
       "title": "CVE-2015-3306 — ProFTPD Improper Access Control Vulnerability",
@@ -99,6 +128,22 @@
         "CVE-2015-3306"
       ],
       "scored_at": "2026-10-08T18:09:54.536849526Z"
+    },
+    {
+      "id": "kev:CVE-2015-5477",
+      "source": "kev",
+      "title": "CVE-2015-5477 — ISC BIND Data Processing Errors Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
+      "published": "2026-10-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "ISC BIND. Confirmed exploited in the wild. Federal remediation due 11 October.",
+      "cves": [
+        "CVE-2015-5477"
+      ],
+      "scored_at": "2026-10-08T18:09:54.536844879Z"
     },
     {
       "id": "arxiv:2610.10427v1",
@@ -176,19 +221,19 @@
       "scored_at": "2026-10-08T18:10:09.690916125Z"
     },
     {
-      "id": "arxiv:2610.08895v1",
+      "id": "arxiv:2610.11112v1",
       "source": "arxiv",
-      "title": "Contextualization of Third-Party Cloud Security Findings",
-      "url": "http://arxiv.org/abs/2610.08895v1",
-      "published": "2026-10-06T16:39:16Z",
-      "authors": "Leon Goldberg et al.",
+      "title": "False Claims, Credible Images: A Red-Teaming Benchmark for Commercial Image Generators",
+      "url": "http://arxiv.org/abs/2610.11112v1",
+      "published": "2026-10-08T02:35:39Z",
+      "authors": "Zeyu Ye et al.",
       "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Re-scoring 9,967 vendor HIGH findings from cloud tools using live environment context reduced median severity by 30%, showing static scoring conflates risk-in-general with risk-in-place.",
-      "unproven": "whether the evidence traces are always available in less mature cloud environments; scalability of the deep research agent to larger inventories; whether results hold for findings below HIGH severity.",
-      "scored_at": "2026-10-08T18:10:09.690916676Z"
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Commercial image generators produce credible-looking visual misinformation despite recognizing claims as false; 10k-prompt benchmark exposes misalignment in safeguards.",
+      "unproven": "whether defenses scale beyond benchmark; limited to open-ended prompts; no evidence of widespread exploitation in supply chains or SDLC contexts.",
+      "scored_at": "2026-10-09T17:44:21.592486275Z"
     },
     {
       "id": "arxiv:2610.10490v1",
@@ -311,36 +356,6 @@
       "scored_at": "2026-10-08T18:10:09.690915224Z"
     },
     {
-      "id": "arxiv:2610.08678v1",
-      "source": "arxiv",
-      "title": "Secure Speculative Decoding for Large Language Models",
-      "url": "http://arxiv.org/abs/2610.08678v1",
-      "published": "2026-10-06T16:59:37Z",
-      "authors": "Yichi Zhang et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Speculative decoding in LLMs degrades security faster than utility improves; SecureSD method proposed to recover safety.",
-      "unproven": "theory-guided approach not yet independently validated; security implications measured on jailbreak and prompt-injection but not other threat models",
-      "scored_at": "2026-10-07T03:19:49.168244006Z"
-    },
-    {
-      "id": "arxiv:2610.08406v1",
-      "source": "arxiv",
-      "title": "Case-Level Verification in Scanner-LLM Cascades: Overcoming the Alert Aggregation Bottleneck to Expand the FRR-TPR Trade-off Space",
-      "url": "http://arxiv.org/abs/2610.08406v1",
-      "published": "2026-10-06T14:15:45Z",
-      "authors": "Hao Sun et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Case-level verification in DAST-LLM cascades breaks the false-positive-true-positive trade-off by deciding per finding instead of per alert group.",
-      "unproven": "Evaluation limited to unspecified scanner and LLM pairing; generalization to production DAST tools and enterprise alert volumes unknown.",
-      "scored_at": "2026-10-07T03:20:02.347498499Z"
-    },
-    {
       "id": "hn:50012043",
       "source": "hn",
       "title": "I think we might lose public key cryptography",
@@ -357,84 +372,37 @@
       "scored_at": "2026-10-09T00:03:21.647400049Z"
     },
     {
-      "id": "arxiv:2610.10149v1",
+      "id": "arxiv:2610.12024v1",
       "source": "arxiv",
-      "title": "Pump-and-Dump meets Honeypot Tokens: Detection and Analysis of Telegram Bait-and-Trap Schemes",
-      "url": "http://arxiv.org/abs/2610.10149v1",
-      "published": "2026-10-07T14:26:43Z",
-      "authors": "Federico Cernera et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Bait-and-Trap schemes on DEXs using honeypot tokens generate 99.3% success rate and $7M profit by blocking token resale; detection via transaction simulation proposed.",
-      "unproven": "observed on two chains; scalability of detection across token variants and robustness against contract obfuscation not established",
-      "scored_at": "2026-10-08T11:02:12.109342508Z"
-    },
-    {
-      "id": "arxiv:2610.09793v1",
-      "source": "arxiv",
-      "title": "Formal Runtime Verification for Tool-Using LLM Agents: An Offline Same-Benchmark Study on AgentDojo and STAC",
-      "url": "http://arxiv.org/abs/2610.09793v1",
-      "published": "2026-10-07T10:08:46Z",
-      "authors": "Nikolaos Kekatos et al.",
+      "title": "HPQ-AKE: A Provably Secure Sign-Less Hybrid Authenticated Key Exchange Protocol for Bandwidth-Constrained IoT and Edge Networks",
+      "url": "http://arxiv.org/abs/2610.12024v1",
+      "published": "2026-10-08T14:21:41Z",
+      "authors": "Khiem Pham-Tuan et al.",
       "novelty": 3,
       "actionability": 3,
       "score": 6,
       "quadrant": "NOISE FLOOR",
-      "dek": "Metric first-order temporal logic flags 71% of LLM agent attacks offline; provenance binding closes 94-99% evasion.",
-      "unproven": "Offline replay on recorded trajectories only; online monitoring cost, false-positive rate on unseen agent patterns, and provenance integrity at runtime not established.",
-      "scored_at": "2026-10-08T11:02:23.810629078Z"
+      "dek": "HPQ-AKE replaces post-quantum signatures with dual KEMs for IoT handshakes; reduces bandwidth 57%, proven secure in extended BR model.",
+      "unproven": "Analytical model and simulation only; no hardware or firmware deployment data; RSA infrastructure assumption may not hold for all IoT gateways; reader's org likely preparing PQC migration planning, but implementation is GRC-level, not SDLC-integrated.",
+      "scored_at": "2026-10-09T17:43:44.419033891Z"
     },
     {
-      "id": "arxiv:2610.09027v1",
+      "id": "arxiv:2610.11932v1",
       "source": "arxiv",
-      "title": "Visual Memory Attacks Can Persist Through The KV Cache",
-      "url": "http://arxiv.org/abs/2610.09027v1",
-      "published": "2026-10-06T19:25:08Z",
-      "authors": "David Dobre et al.",
+      "title": "From Public Posts to AI-Search Citations: Measuring the Fragility of AI Search",
+      "url": "http://arxiv.org/abs/2610.11932v1",
+      "published": "2026-10-08T13:26:12Z",
+      "authors": "Qi Liu et al.",
       "novelty": 4,
       "actionability": 2,
       "score": 6,
       "quadrant": "NEW GROUND",
-      "dek": "Adversarial images persist through KV cache masking to trigger backdoors in vision-language models across multi-turn conversations.",
-      "unproven": "Demonstrated on two VLM variants; does not test against cache-aware defenses or quantized/compressed deployment scenarios.",
-      "scored_at": "2026-10-08T11:02:48.340458422Z"
+      "dek": "Measurement framework reveals low-barrier publication domains can become indirect citation paths into AI-search answers across 10 platforms.",
+      "unproven": "attack feasibility and real-world exploitation likelihood; whether platforms adjust citation selection post-disclosure.",
+      "scored_at": "2026-10-09T17:43:56.607738882Z"
     }
   ],
   "noise": [
-    {
-      "id": "hn:49977588",
-      "source": "hn",
-      "title": "Meta’s Muse is an adorable privacy and security dumpster fire",
-      "url": "https://techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire",
-      "published": "2026-10-06T12:45:49Z",
-      "authors": "beardyw",
-      "points": 386,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Meta's Muse platform exhibits privacy and security gaps in design; opinion piece without concrete findings or architectural guidance.",
-      "unproven": "specific vulnerabilities, exploitability, scope of impact beyond initial reporting",
-      "scored_at": "2026-10-07T23:56:43.172149766Z"
-    },
-    {
-      "id": "hn:49980715",
-      "source": "hn",
-      "title": "OpenTPU – An open-source AI accelerator, developed by AI",
-      "url": "https://github.com/FeSens/openTPU",
-      "published": "2026-10-06T16:23:25Z",
-      "authors": "fsbonetto",
-      "points": 334,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Open-source hardware accelerator design; infrastructure tooling with no bearing on application security engineering or SDLC.",
-      "unproven": "outside reader's remit entirely",
-      "scored_at": "2026-10-07T23:56:43.172149646Z"
-    },
     {
       "id": "hn:49987076",
       "source": "hn",
@@ -450,6 +418,37 @@
       "dek": "Small decision-making model released open-source; relevant as agents enter SDLC but requires testing in reader's own environment.",
       "unproven": "suitability for financial services workloads, behavior under adversarial input, governance implications in production SDLC",
       "scored_at": "2026-10-07T23:56:43.172149315Z"
+    },
+    {
+      "id": "hn:49984716",
+      "source": "hn",
+      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "url": "https://penguin-mail.com/",
+      "published": "2026-10-06T21:59:43Z",
+      "authors": "kavourias",
+      "points": 230,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Linux email client written in Rust with AI features; product launch with no security or process implications for AppSec teams.",
+      "unproven": "outside reader's remit entirely",
+      "scored_at": "2026-10-07T23:56:43.172149546Z"
+    },
+    {
+      "id": "hn:49994027",
+      "source": "hn",
+      "title": "Incident with Git Operations, Pull Requests and Actions – Resolved",
+      "url": "https://githubstatus.com/incidents/djlmxz2zd0j7",
+      "published": "2026-10-07T15:17:23Z",
+      "authors": "gagan2020",
+      "points": 223,
+      "novelty": 1,
+      "actionability": 2,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "GitHub platform incident affecting Git operations and Actions resolved; status report only, no new vulnerability or configuration change required.",
+      "scored_at": "2026-10-07T23:56:37.223207665Z"
     }
   ]
 }
