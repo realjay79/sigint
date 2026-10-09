@@ -19009,6 +19009,22 @@
     "dek": "Curated list of Rust alternatives to Adobe software; software catalog without security content.",
     "scored_at": "2026-10-09T00:03:21.647402833Z"
   },
+  "hn:50009066": {
+    "id": "hn:50009066",
+    "source": "hn",
+    "title": "Scaling and benchmarking a critical message bus using a new indexing strategy",
+    "url": "https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus",
+    "published": "2026-10-08T17:39:26Z",
+    "authors": "eatonphil",
+    "points": 46,
+    "novelty": 3,
+    "actionability": 1,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Jane Street optimized a message bus indexing strategy; relevant to infrastructure teams, not to secure SDLC or application architecture review.",
+    "unproven": "applicability beyond Jane Street's specific workload and infrastructure; not a technique the reader's team controls or integrates",
+    "scored_at": "2026-10-09T11:01:21.348223696Z"
+  },
   "hn:50009904": {
     "id": "hn:50009904",
     "source": "hn",
@@ -19084,6 +19100,22 @@
     "quadrant": "NOISE FLOOR",
     "dek": "Open-source photo editor with local AI processing; tool announcement with no security angle.",
     "scored_at": "2026-10-09T00:03:21.647399518Z"
+  },
+  "hn:50016489": {
+    "id": "hn:50016489",
+    "source": "hn",
+    "title": "MXC - a sandboxed code execution system",
+    "url": "https://github.com/microsoft/mxc",
+    "published": "2026-10-09T05:51:29Z",
+    "authors": "nreece",
+    "points": 52,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Sandboxed code execution system; implementation detail for tooling builders, not for application security engineers.",
+    "unproven": "whether isolation properties hold under the reader's deployment constraints; not a measurement of real-world adoption or escape risk",
+    "scored_at": "2026-10-09T11:01:21.348223265Z"
   },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",
