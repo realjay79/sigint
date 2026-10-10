@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T16:36:02.579303533Z",
+  "generated": "2026-10-10T23:06:09.882568834Z",
   "edition": 78,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 5
     },
     "by_quadrant": {
-      "BREAK GLASS": 7,
+      "BREAK GLASS": 4,
       "NEW GROUND": 8,
-      "NOISE FLOOR": 5,
+      "NOISE FLOOR": 8,
       "STANDING ORDERS": 5
     }
   },
@@ -97,22 +97,6 @@
       "scored_at": "2026-10-08T18:09:54.536849526Z"
     },
     {
-      "id": "kev:CVE-2023-22894",
-      "source": "kev",
-      "title": "CVE-2023-22894 — Strapi Cleartext Storage of Sensitive Information Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Strapi Strapi. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2023-22894"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536847733Z"
-    },
-    {
       "id": "kev:CVE-2021-3199",
       "source": "kev",
       "title": "CVE-2021-3199 — ONLYOFFICE Docs Server Path Traversal Vulnerability",
@@ -127,22 +111,6 @@
         "CVE-2021-3199"
       ],
       "scored_at": "2026-10-08T18:09:54.536848735Z"
-    },
-    {
-      "id": "kev:CVE-2015-5477",
-      "source": "kev",
-      "title": "CVE-2015-5477 — ISC BIND Data Processing Errors Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "ISC BIND. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2015-5477"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536844879Z"
     },
     {
       "id": "kev:CVE-2016-3081",
@@ -161,49 +129,36 @@
       "scored_at": "2026-10-08T18:09:54.536846522Z"
     },
     {
-      "id": "arxiv:2610.10735v1",
-      "source": "arxiv",
-      "title": "DITTO: A Context-aware Pickle-based Pre-Trained Model Scanner for Effective Security Audits",
-      "url": "http://arxiv.org/abs/2610.10735v1",
-      "published": "2026-10-07T18:07:15Z",
-      "authors": "Qiaolin Qin et al.",
-      "novelty": 4,
-      "actionability": 4,
+      "id": "kev:CVE-2023-22894",
+      "source": "kev",
+      "title": "CVE-2023-22894 — Strapi Cleartext Storage of Sensitive Information Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
+      "published": "2026-10-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
       "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "DITTO stack-based scanner for Pickle pre-trained models achieves 0% false negatives and 0.7% false positives; 9.3% of HuggingFace repos still use unsafe Pickle.",
-      "unproven": "PickleBench contains 92 malicious models; contamination by generated or synthetic payloads not disclosed; cross-repository generalization not measured; performance on models with obfuscation or non-standard Pickle extensions not evaluated.",
-      "scored_at": "2026-10-09T23:42:31.164435822Z"
+      "quadrant": "STANDING ORDERS",
+      "dek": "Strapi Strapi. Confirmed exploited in the wild. Federal remediation due 11 October.",
+      "cves": [
+        "CVE-2023-22894"
+      ],
+      "scored_at": "2026-10-08T18:09:54.536847733Z"
     },
     {
-      "id": "arxiv:2610.10427v1",
-      "source": "arxiv",
-      "title": "Design-Time Conformance Checking for Pulse-Level Quantum Control",
-      "url": "http://arxiv.org/abs/2610.10427v1",
-      "published": "2026-10-07T17:07:35Z",
-      "authors": "Rylan Malarchick",
-      "novelty": 4,
-      "actionability": 4,
+      "id": "kev:CVE-2015-5477",
+      "source": "kev",
+      "title": "CVE-2015-5477 — ISC BIND Data Processing Errors Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
+      "published": "2026-10-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
       "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Design-time pulse conformance checker validates quantum control programs against versioned device capability descriptors before execution.",
-      "unproven": "Evaluated against two vendor toolchains; generalization to emerging vendors and heterogeneous device clusters not established.",
-      "scored_at": "2026-10-08T18:10:21.697109675Z"
-    },
-    {
-      "id": "arxiv:2610.10659v1",
-      "source": "arxiv",
-      "title": "Applying Security by Design at the Point of Execution: How Governed Security Requirements Affect the Security of AI-Generated Code",
-      "url": "http://arxiv.org/abs/2610.10659v1",
-      "published": "2026-10-07T17:02:09Z",
-      "authors": "Pedro Farinha",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Security-by-design requirements delivered via MCP at code-generation time raise DualGauge security-test pass rate from 44.1% to 78.0% and BaxBench exploit resistance from 65% to 86%.",
-      "unproven": "Study uses two different benchmarks with different scoring methods (LLM judge vs. real exploits); pre-specified joint metric did not improve significantly; generalization to agents, languages, and requirement formats outside study scope not shown; Oracle upper bound claim not independently validated.",
-      "scored_at": "2026-10-09T23:42:31.164436052Z"
+      "quadrant": "STANDING ORDERS",
+      "dek": "ISC BIND. Confirmed exploited in the wild. Federal remediation due 11 October.",
+      "cves": [
+        "CVE-2015-5477"
+      ],
+      "scored_at": "2026-10-08T18:09:54.536844879Z"
     },
     {
       "id": "arxiv:2610.11112v1",
@@ -219,21 +174,6 @@
       "dek": "Commercial image generators produce credible-looking visual misinformation despite recognizing claims as false; 10k-prompt benchmark exposes misalignment in safeguards.",
       "unproven": "whether defenses scale beyond benchmark; limited to open-ended prompts; no evidence of widespread exploitation in supply chains or SDLC contexts.",
       "scored_at": "2026-10-09T17:44:21.592486275Z"
-    },
-    {
-      "id": "arxiv:2610.10490v1",
-      "source": "arxiv",
-      "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation",
-      "url": "http://arxiv.org/abs/2610.10490v1",
-      "published": "2026-10-07T17:45:18Z",
-      "authors": "Furqan Nasir et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Propagating actual measured error rates through five cost models widens RSA-2048 qubit estimates 40× and raises median 4.6× above conventional point estimates.",
-      "unproven": "Post-quantum migration timeline assumes surface-code surface-code architecture; applicability across competing qubit modalities and competing error-correction codes not evaluated.",
-      "scored_at": "2026-10-08T18:10:21.697109295Z"
     },
     {
       "id": "hn:50012043",
@@ -342,21 +282,6 @@
       "scored_at": "2026-10-09T23:42:31.164432716Z"
     },
     {
-      "id": "arxiv:2610.10929v1",
-      "source": "arxiv",
-      "title": "Speedbumps: Rejection Attacks on Speculative Decoding",
-      "url": "http://arxiv.org/abs/2610.10929v1",
-      "published": "2026-10-07T21:35:01Z",
-      "authors": "Adam Y. J. Jones et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Adversarial suffix attacks degrade speculative decoding by forcing disagreement between draft and target models, increasing inference cost and latency.",
-      "unproven": "Attacks require attacker-controlled content in victim's prompt; real-world deployment scenarios and attacker capability constraints not specified; mitigation strategies not evaluated.",
-      "scored_at": "2026-10-09T23:42:31.164433547Z"
-    },
-    {
       "id": "hn:50029123",
       "source": "hn",
       "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
@@ -401,6 +326,81 @@
       "dek": "Virtual error cancellation mitigates logical quantum errors from syndrome records alone, bypassing noise characterization.",
       "unproven": "demonstration on hardware beyond simulation; fault-tolerant regime scalability; practical decoder latency requirements",
       "scored_at": "2026-10-09T23:42:55.195409676Z"
+    },
+    {
+      "id": "arxiv:2610.12357v1",
+      "source": "arxiv",
+      "title": "Improved Local Leakage Resilience of Shamir Secret Sharing and Worst-Case Optimal Polynomial Intersection",
+      "url": "http://arxiv.org/abs/2610.12357v1",
+      "published": "2026-10-08T17:23:04Z",
+      "authors": "Yihang Sun et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Breaks one-half barrier for Shamir secret-sharing local leakage resilience; advances polynomial intersection bounds.",
+      "unproven": "Pure cryptography theory; no systems deployment or migration path to real-world secret-sharing infrastructure.",
+      "scored_at": "2026-10-09T17:43:44.419027581Z"
+    },
+    {
+      "id": "arxiv:2610.12334v1",
+      "source": "arxiv",
+      "title": "Quantum Co-Design of Inhomogeneous Many-Body Neutrino Fast Flavor Transformation",
+      "url": "http://arxiv.org/abs/2610.12334v1",
+      "published": "2026-10-08T17:12:10Z",
+      "authors": "Zoha Laraib et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Quantum co-design simulates inhomogeneous neutrino flavor evolution with TEBD circuits and resource estimates through N=50.",
+      "unproven": "entirely outside application security engineer's remit",
+      "scored_at": "2026-10-09T23:42:55.195410277Z"
+    },
+    {
+      "id": "arxiv:2610.12233v1",
+      "source": "arxiv",
+      "title": "ReSI: Recursive Safety Improvement toward Resistant and Resilient AI",
+      "url": "http://arxiv.org/abs/2610.12233v1",
+      "published": "2026-10-08T16:17:21Z",
+      "authors": "Jingnan Zheng et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "ReSI framework automates recursive safety improvement through red-teaming and Pareto-gated updates; terminology of resistance and resilience.",
+      "unproven": "No deployment data; unclear whether recursive self-improvement via automated research is safer than supervised human review; agent safety is entering SDLC but this is still research-stage.",
+      "scored_at": "2026-10-09T17:43:44.419028482Z"
+    },
+    {
+      "id": "arxiv:2610.12187v1",
+      "source": "arxiv",
+      "title": "Autonomous Code Migration for Quantum Programming Languages: A Case Study with QED-C Benchmarks",
+      "url": "http://arxiv.org/abs/2610.12187v1",
+      "published": "2026-10-08T15:50:27Z",
+      "authors": "W. Michael Brown et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "LLM agents successfully port 13 quantum benchmarks from Qiskit to CUDA-Q with minimal human intervention.",
+      "unproven": "single domain (quantum frameworks); no evidence this generalizes to mixed classical-quantum SDLC; agents used shortcuts and required re-prompting",
+      "scored_at": "2026-10-09T23:43:05.670030286Z"
+    },
+    {
+      "id": "arxiv:2610.12137v1",
+      "source": "arxiv",
+      "title": "Poster: A Preliminary Study of LLM Distillation Inference",
+      "url": "http://arxiv.org/abs/2610.12137v1",
+      "published": "2026-10-08T15:24:29Z",
+      "authors": "Edward Chen et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Hypothesis test using shadow models detects LLM distillation attacks; TPR 1.0 at significance 0.02 on Qwen-to-Llama pair.",
+      "unproven": "Single teacher-student pair tested; no evidence method generalizes across model families, sizes, or training regimes; detection only, no prevention or integration into SDLC.",
+      "scored_at": "2026-10-09T17:43:44.4190336Z"
     }
   ],
   "noise": [
