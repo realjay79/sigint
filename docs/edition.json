@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-09T23:43:05.68162143Z",
-  "edition": 77,
+  "generated": "2026-10-10T03:22:07.219134538Z",
+  "edition": 78,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -13,9 +13,9 @@
       "kev": 5
     },
     "by_quadrant": {
-      "BREAK GLASS": 10,
+      "BREAK GLASS": 9,
       "NEW GROUND": 8,
-      "NOISE FLOOR": 1,
+      "NOISE FLOOR": 2,
       "STANDING ORDERS": 6
     }
   },
@@ -81,22 +81,6 @@
       "scored_at": "2026-10-09T23:42:31.164432245Z"
     },
     {
-      "id": "kev:CVE-2023-22894",
-      "source": "kev",
-      "title": "CVE-2023-22894 — Strapi Cleartext Storage of Sensitive Information Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Strapi Strapi. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2023-22894"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536847733Z"
-    },
-    {
       "id": "kev:CVE-2021-3199",
       "source": "kev",
       "title": "CVE-2021-3199 — ONLYOFFICE Docs Server Path Traversal Vulnerability",
@@ -111,22 +95,6 @@
         "CVE-2021-3199"
       ],
       "scored_at": "2026-10-08T18:09:54.536848735Z"
-    },
-    {
-      "id": "kev:CVE-2016-3081",
-      "source": "kev",
-      "title": "CVE-2016-3081 — Apache Struts Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3081",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Apache Struts. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2016-3081"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536846522Z"
     },
     {
       "id": "kev:CVE-2015-3306",
@@ -159,6 +127,38 @@
         "CVE-2015-5477"
       ],
       "scored_at": "2026-10-08T18:09:54.536844879Z"
+    },
+    {
+      "id": "kev:CVE-2016-3081",
+      "source": "kev",
+      "title": "CVE-2016-3081 — Apache Struts Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3081",
+      "published": "2026-10-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Apache Struts. Confirmed exploited in the wild. Federal remediation due 11 October.",
+      "cves": [
+        "CVE-2016-3081"
+      ],
+      "scored_at": "2026-10-08T18:09:54.536846522Z"
+    },
+    {
+      "id": "kev:CVE-2023-22894",
+      "source": "kev",
+      "title": "CVE-2023-22894 — Strapi Cleartext Storage of Sensitive Information Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
+      "published": "2026-10-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Strapi Strapi. Confirmed exploited in the wild. Federal remediation due 11 October.",
+      "cves": [
+        "CVE-2023-22894"
+      ],
+      "scored_at": "2026-10-08T18:09:54.536847733Z"
     },
     {
       "id": "arxiv:2610.10735v1",
@@ -234,21 +234,6 @@
       "dek": "Python bytecode cache substitution bypasses agent skill scanners 94–100% of the time; execution-aware validation reaches 92.8% recall.",
       "unproven": "Proposed EAV defense not deployed or tested against zero-day cache evasions; 200-skill evaluation is lab-scale; integration with production agent runtimes not evaluated.",
       "scored_at": "2026-10-09T23:42:45.495687886Z"
-    },
-    {
-      "id": "arxiv:2610.09264v1",
-      "source": "arxiv",
-      "title": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
-      "url": "http://arxiv.org/abs/2610.09264v1",
-      "published": "2026-10-07T00:59:19Z",
-      "authors": "Yupu Wang et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Coding agents can be tricked via malicious .cursorrules prompts to swap legitimate dependencies for attacker packages at high success rates.",
-      "unproven": "Attack success measured on benchmarks and sandbox environments; requires attacker write access to rule files before agent execution.",
-      "scored_at": "2026-10-08T11:02:48.340457561Z"
     },
     {
       "id": "arxiv:2610.11112v1",
@@ -371,21 +356,6 @@
       "scored_at": "2026-10-08T11:02:48.34045703Z"
     },
     {
-      "id": "arxiv:2610.09240v1",
-      "source": "arxiv",
-      "title": "Adversarial Images Hijack Web Agents from Visual Grounding to Browser Execution",
-      "url": "http://arxiv.org/abs/2610.09240v1",
-      "published": "2026-10-07T00:05:53Z",
-      "authors": "Wanjing Han et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Adversarial images crafted to persist through vision-language grounding cause web agents to select and execute attacker-controlled actions on real websites.",
-      "unproven": "Tested on public websites with static renderings; real-world adaptive defenses and image compression in transit not evaluated.",
-      "scored_at": "2026-10-08T11:02:48.340457811Z"
-    },
-    {
       "id": "hn:50012043",
       "source": "hn",
       "title": "I think we might lose public key cryptography",
@@ -400,25 +370,39 @@
       "dek": "Post-quantum cryptography timeline concerns; informs migration planning but offers no new technical findings.",
       "unproven": "no quantified threat calendar or migration path beyond speculation",
       "scored_at": "2026-10-09T00:03:21.647400049Z"
+    },
+    {
+      "id": "arxiv:2610.12024v1",
+      "source": "arxiv",
+      "title": "HPQ-AKE: A Provably Secure Sign-Less Hybrid Authenticated Key Exchange Protocol for Bandwidth-Constrained IoT and Edge Networks",
+      "url": "http://arxiv.org/abs/2610.12024v1",
+      "published": "2026-10-08T14:21:41Z",
+      "authors": "Khiem Pham-Tuan et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "HPQ-AKE replaces post-quantum signatures with dual KEMs for IoT handshakes; reduces bandwidth 57%, proven secure in extended BR model.",
+      "unproven": "Analytical model and simulation only; no hardware or firmware deployment data; RSA infrastructure assumption may not hold for all IoT gateways; reader's org likely preparing PQC migration planning, but implementation is GRC-level, not SDLC-integrated.",
+      "scored_at": "2026-10-09T17:43:44.419033891Z"
+    },
+    {
+      "id": "arxiv:2610.11932v1",
+      "source": "arxiv",
+      "title": "From Public Posts to AI-Search Citations: Measuring the Fragility of AI Search",
+      "url": "http://arxiv.org/abs/2610.11932v1",
+      "published": "2026-10-08T13:26:12Z",
+      "authors": "Qi Liu et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Measurement framework reveals low-barrier publication domains can become indirect citation paths into AI-search answers across 10 platforms.",
+      "unproven": "attack feasibility and real-world exploitation likelihood; whether platforms adjust citation selection post-disclosure.",
+      "scored_at": "2026-10-09T17:43:56.607738882Z"
     }
   ],
   "noise": [
-    {
-      "id": "hn:49987076",
-      "source": "hn",
-      "title": "Strands Decider 2B: a small, open-source, decision model",
-      "url": "https://strandsagents.com/blog/introducing-strands-decider",
-      "published": "2026-10-07T02:02:11Z",
-      "authors": "gmays",
-      "points": 274,
-      "novelty": 2,
-      "actionability": 3,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Small decision-making model released open-source; relevant as agents enter SDLC but requires testing in reader's own environment.",
-      "unproven": "suitability for financial services workloads, behavior under adversarial input, governance implications in production SDLC",
-      "scored_at": "2026-10-07T23:56:43.172149315Z"
-    },
     {
       "id": "hn:49994027",
       "source": "hn",
@@ -449,6 +433,21 @@
       "dek": "Attackers obtained valid TLS certificates for Google and other major services through certificate authority compromise or misconfiguration.",
       "unproven": "whether certificates were used in active attacks, or remain theoretical risk only",
       "scored_at": "2026-10-07T23:56:43.172148925Z"
+    },
+    {
+      "id": "hn:49990763",
+      "source": "hn",
+      "title": "PS5 Jailbreaks Are Escalating at an Unprecedented Pace",
+      "url": "https://pushsquare.com/news/2026/10/ps5-jailbreaks-are-escalating-at-an-unprecedented-pace-and-sony-must-be-sweating",
+      "published": "2026-10-07T10:24:19Z",
+      "authors": "password54321",
+      "points": 101,
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "PlayStation 5 jailbreaks advancing in frequency; gaming console security outside application security engineering remit.",
+      "scored_at": "2026-10-07T23:56:37.223207905Z"
     }
   ]
 }
