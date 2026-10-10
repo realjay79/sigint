@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T10:15:32.037526444Z",
+  "generated": "2026-10-10T16:36:02.579303533Z",
   "edition": 78,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 19,
-      "hn": 1,
+      "arxiv": 18,
+      "hn": 2,
       "kev": 5
     },
     "by_quadrant": {
-      "BREAK GLASS": 8,
-      "NEW GROUND": 7,
-      "NOISE FLOOR": 4,
-      "STANDING ORDERS": 6
+      "BREAK GLASS": 7,
+      "NEW GROUND": 8,
+      "NOISE FLOOR": 5,
+      "STANDING ORDERS": 5
     }
   },
   "items": [
@@ -81,36 +81,20 @@
       "scored_at": "2026-10-09T23:42:31.164432245Z"
     },
     {
-      "id": "kev:CVE-2015-5477",
+      "id": "kev:CVE-2015-3306",
       "source": "kev",
-      "title": "CVE-2015-5477 — ISC BIND Data Processing Errors Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
+      "title": "CVE-2015-3306 — ProFTPD Improper Access Control Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3306",
       "published": "2026-10-08T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "ISC BIND. Confirmed exploited in the wild. Federal remediation due 11 October.",
+      "dek": "ProFTPD ProFTPD. Confirmed exploited in the wild. Federal remediation due 11 October.",
       "cves": [
-        "CVE-2015-5477"
+        "CVE-2015-3306"
       ],
-      "scored_at": "2026-10-08T18:09:54.536844879Z"
-    },
-    {
-      "id": "kev:CVE-2021-3199",
-      "source": "kev",
-      "title": "CVE-2021-3199 — ONLYOFFICE Docs Server Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "ONLYOFFICE Docs. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2021-3199"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536848735Z"
+      "scored_at": "2026-10-08T18:09:54.536849526Z"
     },
     {
       "id": "kev:CVE-2023-22894",
@@ -129,20 +113,36 @@
       "scored_at": "2026-10-08T18:09:54.536847733Z"
     },
     {
-      "id": "kev:CVE-2015-3306",
+      "id": "kev:CVE-2021-3199",
       "source": "kev",
-      "title": "CVE-2015-3306 — ProFTPD Improper Access Control Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3306",
+      "title": "CVE-2021-3199 — ONLYOFFICE Docs Server Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
       "published": "2026-10-08T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "ProFTPD ProFTPD. Confirmed exploited in the wild. Federal remediation due 11 October.",
+      "dek": "ONLYOFFICE Docs. Confirmed exploited in the wild. Federal remediation due 11 October.",
       "cves": [
-        "CVE-2015-3306"
+        "CVE-2021-3199"
       ],
-      "scored_at": "2026-10-08T18:09:54.536849526Z"
+      "scored_at": "2026-10-08T18:09:54.536848735Z"
+    },
+    {
+      "id": "kev:CVE-2015-5477",
+      "source": "kev",
+      "title": "CVE-2015-5477 — ISC BIND Data Processing Errors Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
+      "published": "2026-10-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "ISC BIND. Confirmed exploited in the wild. Federal remediation due 11 October.",
+      "cves": [
+        "CVE-2015-5477"
+      ],
+      "scored_at": "2026-10-08T18:09:54.536844879Z"
     },
     {
       "id": "kev:CVE-2016-3081",
@@ -206,21 +206,6 @@
       "scored_at": "2026-10-09T23:42:31.164436052Z"
     },
     {
-      "id": "arxiv:2610.09906v1",
-      "source": "arxiv",
-      "title": "Constrained-Action AI Remediation for SIEM/XDR via a NeMo-Guardrails Proxy",
-      "url": "http://arxiv.org/abs/2610.09906v1",
-      "published": "2026-10-07T12:00:51Z",
-      "authors": "Georgios Koutidis et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Constrained-action LLM architecture for SOC/XDR remediation with NeMo-Guardrails proxy lifts injection detection from 25% to 94.5%.",
-      "unproven": "Evaluation on synthetic corpus and limited red-team exercise; production SOC deployment and long-term robustness not demonstrated.",
-      "scored_at": "2026-10-08T11:02:23.810628557Z"
-    },
-    {
       "id": "arxiv:2610.11112v1",
       "source": "arxiv",
       "title": "False Claims, Credible Images: A Red-Teaming Benchmark for Commercial Image Generators",
@@ -249,66 +234,6 @@
       "dek": "Propagating actual measured error rates through five cost models widens RSA-2048 qubit estimates 40× and raises median 4.6× above conventional point estimates.",
       "unproven": "Post-quantum migration timeline assumes surface-code surface-code architecture; applicability across competing qubit modalities and competing error-correction codes not evaluated.",
       "scored_at": "2026-10-08T18:10:21.697109295Z"
-    },
-    {
-      "id": "arxiv:2610.10644v1",
-      "source": "arxiv",
-      "title": "SoK: Failure Modes in Common Criteria Product Evaluation - A Taxonomy and Design-for-Evaluability Guidance",
-      "url": "http://arxiv.org/abs/2610.10644v1",
-      "published": "2026-10-07T15:09:07Z",
-      "authors": "Punit Suketu Patel",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Taxonomy of Common Criteria evaluation failures across scoping, evidence, and testing reveals systematic gaps in certification rigor.",
-      "unproven": "Proposed design-for-evaluability guidance effectiveness unvalidated; sample of failed evaluations may not span all vendor practices; impact on procurement criteria not measured.",
-      "scored_at": "2026-10-09T23:42:45.495686413Z"
-    },
-    {
-      "id": "arxiv:2610.10150v1",
-      "source": "arxiv",
-      "title": "On the Reliability of LLM-Based Vulnerability Patching Benchmarks",
-      "url": "http://arxiv.org/abs/2610.10150v1",
-      "published": "2026-10-07T14:26:57Z",
-      "authors": "Dang K Le et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "LLM patch benchmarks systematically overstate performance through prompting, infrastructure, and dataset artifacts; 112-bug benchmark with regression tests corrects this.",
-      "unproven": "limited to C/C++, Go, Rust; applicability to high-level languages and non-memory-safety domains not demonstrated",
-      "scored_at": "2026-10-08T11:02:12.109342358Z"
-    },
-    {
-      "id": "arxiv:2610.09981v1",
-      "source": "arxiv",
-      "title": "Sensitive-Topic Leakage Through LLM Routing Metadata: Measurement and Mitigation",
-      "url": "http://arxiv.org/abs/2610.09981v1",
-      "published": "2026-10-07T12:47:37Z",
-      "authors": "Teng-Ruei Chen",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "LLM router choice metadata leaks sensitive request topics; real-world measurement on 1.7M requests with tested mitigations.",
-      "unproven": "Limited to two routers and one dataset; generalization to other routing architectures and model families not established.",
-      "scored_at": "2026-10-08T11:02:23.810628266Z"
-    },
-    {
-      "id": "arxiv:2610.09825v1",
-      "source": "arxiv",
-      "title": "Hybrid Hierarchical Runtime Verification for Edge-IoT Security: Combining MonPoly and RTLola",
-      "url": "http://arxiv.org/abs/2610.09825v1",
-      "published": "2026-10-07T10:49:57Z",
-      "authors": "Nikolaos Kekatos et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Three-layer runtime verification combining MonPoly and RTLola detects coordinated edge-IoT attacks and silent-node persistence.",
-      "unproven": "Evaluation limited to 15-node Docker testbed; scalability to production edge-IoT fleets and protocol-independent attacks unclear.",
-      "scored_at": "2026-10-08T11:02:23.810628827Z"
     },
     {
       "id": "hn:50012043",
@@ -400,53 +325,129 @@
       "dek": "First motion-aware deepfake benchmark and detector exploiting synthesis artifacts at motion boundaries; 94.8% in-distribution accuracy.",
       "unproven": "Cross-dataset accuracy drops to 89.1%; does not address adaptive adversary or video compression beyond tested codecs; six generators only.",
       "scored_at": "2026-10-09T17:44:08.716298872Z"
+    },
+    {
+      "id": "arxiv:2610.10992v1",
+      "source": "arxiv",
+      "title": "The Hint Weight of ML-DSA Signatures Is Key-Dependent: An Empirical Study across the Three FIPS 204 Parameter Sets",
+      "url": "http://arxiv.org/abs/2610.10992v1",
+      "published": "2026-10-07T23:26:48Z",
+      "authors": "Dominik Blain",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "ML-DSA signature hint weight correlates with signing key norm; leakage is weak (0.5–1.5% variance) and does not compromise key recovery.",
+      "unproven": "Study covers one reference C implementation and 200 keys; applicability to other ML-DSA implementations, constant-time variants, or larger key populations not tested; timing and cache side-channel interactions not explored.",
+      "scored_at": "2026-10-09T23:42:31.164432716Z"
+    },
+    {
+      "id": "arxiv:2610.10929v1",
+      "source": "arxiv",
+      "title": "Speedbumps: Rejection Attacks on Speculative Decoding",
+      "url": "http://arxiv.org/abs/2610.10929v1",
+      "published": "2026-10-07T21:35:01Z",
+      "authors": "Adam Y. J. Jones et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Adversarial suffix attacks degrade speculative decoding by forcing disagreement between draft and target models, increasing inference cost and latency.",
+      "unproven": "Attacks require attacker-controlled content in victim's prompt; real-world deployment scenarios and attacker capability constraints not specified; mitigation strategies not evaluated.",
+      "scored_at": "2026-10-09T23:42:31.164433547Z"
+    },
+    {
+      "id": "hn:50029123",
+      "source": "hn",
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover",
+      "published": "2026-10-10T03:02:47Z",
+      "authors": "g-b-r",
+      "points": 313,
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Telegram Desktop path traversal allowed file theft; vulnerability now patched.",
+      "unproven": "whether the flaw affected production deployments at scale or only under specific user conditions",
+      "scored_at": "2026-10-10T16:36:02.568108748Z"
+    },
+    {
+      "id": "arxiv:2610.12447v1",
+      "source": "arxiv",
+      "title": "Entanglement entropy and magic of ZX-diagrams",
+      "url": "http://arxiv.org/abs/2610.12447v1",
+      "published": "2026-10-08T17:58:32Z",
+      "authors": "Marcin Szyniszewski et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "ZX-diagram graphical rewriting enables efficient estimation of entanglement and magic without tensor contraction.",
+      "unproven": "scalability beyond benchmarked circuit families; practical utility for quantum circuit design workflows",
+      "scored_at": "2026-10-09T23:42:55.195409035Z"
+    },
+    {
+      "id": "arxiv:2610.12400v1",
+      "source": "arxiv",
+      "title": "Measure Now, Mitigate Later: Virtual Error Cancellation for Logical Quantum Circuits",
+      "url": "http://arxiv.org/abs/2610.12400v1",
+      "published": "2026-10-08T17:43:02Z",
+      "authors": "Oles Shtanko et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Virtual error cancellation mitigates logical quantum errors from syndrome records alone, bypassing noise characterization.",
+      "unproven": "demonstration on hardware beyond simulation; fault-tolerant regime scalability; practical decoder latency requirements",
+      "scored_at": "2026-10-09T23:42:55.195409676Z"
     }
   ],
   "noise": [
     {
-      "id": "hn:49994027",
+      "id": "hn:50031269",
       "source": "hn",
-      "title": "Incident with Git Operations, Pull Requests and Actions – Resolved",
-      "url": "https://githubstatus.com/incidents/djlmxz2zd0j7",
-      "published": "2026-10-07T15:17:23Z",
-      "authors": "gagan2020",
-      "points": 223,
-      "novelty": 1,
-      "actionability": 2,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "GitHub platform incident affecting Git operations and Actions resolved; status report only, no new vulnerability or configuration change required.",
-      "scored_at": "2026-10-07T23:56:37.223207665Z"
-    },
-    {
-      "id": "hn:49990763",
-      "source": "hn",
-      "title": "PS5 Jailbreaks Are Escalating at an Unprecedented Pace",
-      "url": "https://pushsquare.com/news/2026/10/ps5-jailbreaks-are-escalating-at-an-unprecedented-pace-and-sony-must-be-sweating",
-      "published": "2026-10-07T10:24:19Z",
-      "authors": "password54321",
-      "points": 101,
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "PlayStation 5 jailbreaks advancing in frequency; gaming console security outside application security engineering remit.",
-      "scored_at": "2026-10-07T23:56:37.223207905Z"
-    },
-    {
-      "id": "hn:49996639",
-      "source": "hn",
-      "title": "A 5.3M-year-old deep-sea whale necropolis in the Diamantina Zone",
-      "url": "https://nature.com/articles/s41586-026-10546-z",
-      "published": "2026-10-07T18:14:41Z",
-      "authors": "bryanrasmussen",
-      "points": 68,
+      "title": "`123456' password used in Danish CPR data breach",
+      "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach",
+      "published": "2026-10-10T09:51:49Z",
+      "authors": "baal80spam",
+      "points": 306,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Marine biology discovery; entirely outside security domain.",
-      "scored_at": "2026-10-09T00:03:21.647403084Z"
+      "dek": "Danish breach exposed millions; attackers used trivial password on admin account.",
+      "scored_at": "2026-10-10T16:36:02.568108287Z"
+    },
+    {
+      "id": "hn:50021540",
+      "source": "hn",
+      "title": "Germany transforms former coal mines into Europe's largest lake landscape",
+      "url": "https://euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
+      "published": "2026-10-09T15:05:24Z",
+      "authors": "ohjeez",
+      "points": 206,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Germany converts mines to lakes; environmental infrastructure project unrelated to security.",
+      "scored_at": "2026-10-10T16:36:02.568111824Z"
+    },
+    {
+      "id": "hn:50023995",
+      "source": "hn",
+      "title": "Scam American companies are using to manipulate ingredient lists",
+      "url": "https://twitter.com/WallStreetApes/status/2108594998656807078",
+      "published": "2026-10-09T17:35:40Z",
+      "authors": "bilsbie",
+      "points": 177,
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Social media thread on ingredient list manipulation; consumer fraud, not software security.",
+      "scored_at": "2026-10-10T16:36:02.568110691Z"
     }
   ]
 }
