@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T03:22:07.219134538Z",
+  "generated": "2026-10-10T10:15:32.037526444Z",
   "edition": 78,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 5
     },
     "by_quadrant": {
-      "BREAK GLASS": 9,
-      "NEW GROUND": 8,
-      "NOISE FLOOR": 2,
+      "BREAK GLASS": 8,
+      "NEW GROUND": 7,
+      "NOISE FLOOR": 4,
       "STANDING ORDERS": 6
     }
   },
@@ -81,6 +81,22 @@
       "scored_at": "2026-10-09T23:42:31.164432245Z"
     },
     {
+      "id": "kev:CVE-2015-5477",
+      "source": "kev",
+      "title": "CVE-2015-5477 — ISC BIND Data Processing Errors Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
+      "published": "2026-10-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "ISC BIND. Confirmed exploited in the wild. Federal remediation due 11 October.",
+      "cves": [
+        "CVE-2015-5477"
+      ],
+      "scored_at": "2026-10-08T18:09:54.536844879Z"
+    },
+    {
       "id": "kev:CVE-2021-3199",
       "source": "kev",
       "title": "CVE-2021-3199 — ONLYOFFICE Docs Server Path Traversal Vulnerability",
@@ -95,6 +111,22 @@
         "CVE-2021-3199"
       ],
       "scored_at": "2026-10-08T18:09:54.536848735Z"
+    },
+    {
+      "id": "kev:CVE-2023-22894",
+      "source": "kev",
+      "title": "CVE-2023-22894 — Strapi Cleartext Storage of Sensitive Information Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
+      "published": "2026-10-08T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Strapi Strapi. Confirmed exploited in the wild. Federal remediation due 11 October.",
+      "cves": [
+        "CVE-2023-22894"
+      ],
+      "scored_at": "2026-10-08T18:09:54.536847733Z"
     },
     {
       "id": "kev:CVE-2015-3306",
@@ -113,22 +145,6 @@
       "scored_at": "2026-10-08T18:09:54.536849526Z"
     },
     {
-      "id": "kev:CVE-2015-5477",
-      "source": "kev",
-      "title": "CVE-2015-5477 — ISC BIND Data Processing Errors Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "ISC BIND. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2015-5477"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536844879Z"
-    },
-    {
       "id": "kev:CVE-2016-3081",
       "source": "kev",
       "title": "CVE-2016-3081 — Apache Struts Command Injection Vulnerability",
@@ -143,22 +159,6 @@
         "CVE-2016-3081"
       ],
       "scored_at": "2026-10-08T18:09:54.536846522Z"
-    },
-    {
-      "id": "kev:CVE-2023-22894",
-      "source": "kev",
-      "title": "CVE-2023-22894 — Strapi Cleartext Storage of Sensitive Information Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Strapi Strapi. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2023-22894"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536847733Z"
     },
     {
       "id": "arxiv:2610.10735v1",
@@ -219,21 +219,6 @@
       "dek": "Constrained-action LLM architecture for SOC/XDR remediation with NeMo-Guardrails proxy lifts injection detection from 25% to 94.5%.",
       "unproven": "Evaluation on synthetic corpus and limited red-team exercise; production SOC deployment and long-term robustness not demonstrated.",
       "scored_at": "2026-10-08T11:02:23.810628557Z"
-    },
-    {
-      "id": "arxiv:2610.10612v1",
-      "source": "arxiv",
-      "title": "PyCache Trap: The Inspection-Execution Gap in Agent Skill Scanners",
-      "url": "http://arxiv.org/abs/2610.10612v1",
-      "published": "2026-10-07T07:10:11Z",
-      "authors": "Jie Liao et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Python bytecode cache substitution bypasses agent skill scanners 94–100% of the time; execution-aware validation reaches 92.8% recall.",
-      "unproven": "Proposed EAV defense not deployed or tested against zero-day cache evasions; 200-skill evaluation is lab-scale; integration with production agent runtimes not evaluated.",
-      "scored_at": "2026-10-09T23:42:45.495687886Z"
     },
     {
       "id": "arxiv:2610.11112v1",
@@ -326,36 +311,6 @@
       "scored_at": "2026-10-08T11:02:23.810628827Z"
     },
     {
-      "id": "arxiv:2610.09697v1",
-      "source": "arxiv",
-      "title": "Automotive Hardware Attacks: An Architect's Guide to TARA",
-      "url": "http://arxiv.org/abs/2610.09697v1",
-      "published": "2026-10-07T08:56:31Z",
-      "authors": "Jakub Breier et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Extended TARA framework for automotive hardware attacks adds evidence gates and attack-potential dominance to ISO/SAE 21434.",
-      "unproven": "adoption by automotive architects or whether the three-level gate proves workable in practice across supplier chains",
-      "scored_at": "2026-10-08T11:02:35.006871815Z"
-    },
-    {
-      "id": "arxiv:2610.09469v1",
-      "source": "arxiv",
-      "title": "Secure-CUA: Controlling Untrusted Influence in Computer-Use Agents",
-      "url": "http://arxiv.org/abs/2610.09469v1",
-      "published": "2026-10-07T05:24:40Z",
-      "authors": "Sarthak Choudhary et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Formalized security model for computer-use agents that commits to action programs before accessing untrusted GUI content.",
-      "unproven": "No evaluation on agents deployed in production SDLC pipelines; threat model does not address side-channel leaks through timing or resource observation.",
-      "scored_at": "2026-10-08T11:02:48.34045703Z"
-    },
-    {
       "id": "hn:50012043",
       "source": "hn",
       "title": "I think we might lose public key cryptography",
@@ -400,6 +355,51 @@
       "dek": "Measurement framework reveals low-barrier publication domains can become indirect citation paths into AI-search answers across 10 platforms.",
       "unproven": "attack feasibility and real-world exploitation likelihood; whether platforms adjust citation selection post-disclosure.",
       "scored_at": "2026-10-09T17:43:56.607738882Z"
+    },
+    {
+      "id": "arxiv:2610.11893v1",
+      "source": "arxiv",
+      "title": "A Security Meta-Model for Retrieval-Augmented Generation Systems",
+      "url": "http://arxiv.org/abs/2610.11893v1",
+      "published": "2026-10-08T13:03:42Z",
+      "authors": "Steve Nouyep et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Security meta-model maps attack surfaces, weaknesses, and CIA impacts for RAG systems with interactive risk profiling by deployment type.",
+      "unproven": "whether the 43-paper taxonomy achieves sufficient coverage for novel RAG architectures entering production; validation against real deployments.",
+      "scored_at": "2026-10-09T17:43:56.607739132Z"
+    },
+    {
+      "id": "arxiv:2610.11602v1",
+      "source": "arxiv",
+      "title": "Where Do the Tokens Go? Understanding and Reducing Costs in LLM Agents for Vulnerability Discovery",
+      "url": "http://arxiv.org/abs/2610.11602v1",
+      "published": "2026-10-08T09:47:18Z",
+      "authors": "Li Lu et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Study of 200 LLM agent runs reveals code localization and vulnerability reasoning consume 60.4% of tokens in failed vulnerability discovery.",
+      "unproven": "whether AVRI improvements generalize beyond CyberGym or to agents with different architectures; reproducibility across different LLM models and versions.",
+      "scored_at": "2026-10-09T17:43:56.607740875Z"
+    },
+    {
+      "id": "arxiv:2610.11496v1",
+      "source": "arxiv",
+      "title": "Stop My Dancing! Understanding, Detecting and Attributing Motion-Aware Deepfake Videos",
+      "url": "http://arxiv.org/abs/2610.11496v1",
+      "published": "2026-10-08T08:35:40Z",
+      "authors": "Fazhong Liu et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "First motion-aware deepfake benchmark and detector exploiting synthesis artifacts at motion boundaries; 94.8% in-distribution accuracy.",
+      "unproven": "Cross-dataset accuracy drops to 89.1%; does not address adaptive adversary or video compression beyond tested codecs; six generators only.",
+      "scored_at": "2026-10-09T17:44:08.716298872Z"
     }
   ],
   "noise": [
@@ -419,22 +419,6 @@
       "scored_at": "2026-10-07T23:56:37.223207665Z"
     },
     {
-      "id": "hn:49988230",
-      "source": "hn",
-      "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
-      "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services",
-      "published": "2026-10-07T04:37:05Z",
-      "authors": "colinprince",
-      "points": 137,
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Attackers obtained valid TLS certificates for Google and other major services through certificate authority compromise or misconfiguration.",
-      "unproven": "whether certificates were used in active attacks, or remain theoretical risk only",
-      "scored_at": "2026-10-07T23:56:43.172148925Z"
-    },
-    {
       "id": "hn:49990763",
       "source": "hn",
       "title": "PS5 Jailbreaks Are Escalating at an Unprecedented Pace",
@@ -448,6 +432,21 @@
       "quadrant": "NOISE FLOOR",
       "dek": "PlayStation 5 jailbreaks advancing in frequency; gaming console security outside application security engineering remit.",
       "scored_at": "2026-10-07T23:56:37.223207905Z"
+    },
+    {
+      "id": "hn:49996639",
+      "source": "hn",
+      "title": "A 5.3M-year-old deep-sea whale necropolis in the Diamantina Zone",
+      "url": "https://nature.com/articles/s41586-026-10546-z",
+      "published": "2026-10-07T18:14:41Z",
+      "authors": "bryanrasmussen",
+      "points": 68,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Marine biology discovery; entirely outside security domain.",
+      "scored_at": "2026-10-09T00:03:21.647403084Z"
     }
   ]
 }
