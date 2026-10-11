@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-10T23:06:09.882568834Z",
-  "edition": 78,
+  "generated": "2026-10-11T02:56:06.752671912Z",
+  "edition": 79,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 18,
-      "hn": 2,
-      "kev": 5
+      "arxiv": 23,
+      "hn": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 4,
-      "NEW GROUND": 8,
-      "NOISE FLOOR": 8,
-      "STANDING ORDERS": 5
+      "BREAK GLASS": 3,
+      "NEW GROUND": 7,
+      "NOISE FLOOR": 15
     }
   },
   "items": [
@@ -64,116 +62,6 @@
       "dek": "14.9% of high-risk agent skill adoptions prevented by auditing top-100 source repositories ranked by copy network, versus 0.5% for most-starred.",
       "unproven": "whether ranking generalizes as new skills enter ecosystem; limited to GitSkills dataset; assumes reader has visibility into SKILL.md supply chain in current SDLC.",
       "scored_at": "2026-10-09T17:44:21.592486085Z"
-    },
-    {
-      "id": "arxiv:2610.11030v1",
-      "source": "arxiv",
-      "title": "NOMOS: Compiling Written Policies into Statically Verified Tool-Call Gates for LLM Agents",
-      "url": "http://arxiv.org/abs/2610.11030v1",
-      "published": "2026-10-08T00:23:22Z",
-      "authors": "Min-Young Yu et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Compiler turns natural-language LLM agent policies into deterministic tool-call gates; static verification catches 13–37% of inoperable rules without solver or prover.",
-      "unproven": "Evaluation limited to two domain datasets (airline, retail); generalization to other policy types and agent architectures not established; real-world deployment impact on task success margins outside tested parameter ranges unknown.",
-      "scored_at": "2026-10-09T23:42:31.164432245Z"
-    },
-    {
-      "id": "kev:CVE-2015-3306",
-      "source": "kev",
-      "title": "CVE-2015-3306 — ProFTPD Improper Access Control Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3306",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "ProFTPD ProFTPD. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2015-3306"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536849526Z"
-    },
-    {
-      "id": "kev:CVE-2021-3199",
-      "source": "kev",
-      "title": "CVE-2021-3199 — ONLYOFFICE Docs Server Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "ONLYOFFICE Docs. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2021-3199"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536848735Z"
-    },
-    {
-      "id": "kev:CVE-2016-3081",
-      "source": "kev",
-      "title": "CVE-2016-3081 — Apache Struts Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3081",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Apache Struts. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2016-3081"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536846522Z"
-    },
-    {
-      "id": "kev:CVE-2023-22894",
-      "source": "kev",
-      "title": "CVE-2023-22894 — Strapi Cleartext Storage of Sensitive Information Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Strapi Strapi. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2023-22894"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536847733Z"
-    },
-    {
-      "id": "kev:CVE-2015-5477",
-      "source": "kev",
-      "title": "CVE-2015-5477 — ISC BIND Data Processing Errors Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
-      "published": "2026-10-08T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "ISC BIND. Confirmed exploited in the wild. Federal remediation due 11 October.",
-      "cves": [
-        "CVE-2015-5477"
-      ],
-      "scored_at": "2026-10-08T18:09:54.536844879Z"
-    },
-    {
-      "id": "arxiv:2610.11112v1",
-      "source": "arxiv",
-      "title": "False Claims, Credible Images: A Red-Teaming Benchmark for Commercial Image Generators",
-      "url": "http://arxiv.org/abs/2610.11112v1",
-      "published": "2026-10-08T02:35:39Z",
-      "authors": "Zeyu Ye et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Commercial image generators produce credible-looking visual misinformation despite recognizing claims as false; 10k-prompt benchmark exposes misalignment in safeguards.",
-      "unproven": "whether defenses scale beyond benchmark; limited to open-ended prompts; no evidence of widespread exploitation in supply chains or SDLC contexts.",
-      "scored_at": "2026-10-09T17:44:21.592486275Z"
     },
     {
       "id": "hn:50012043",
@@ -265,21 +153,6 @@
       "dek": "First motion-aware deepfake benchmark and detector exploiting synthesis artifacts at motion boundaries; 94.8% in-distribution accuracy.",
       "unproven": "Cross-dataset accuracy drops to 89.1%; does not address adaptive adversary or video compression beyond tested codecs; six generators only.",
       "scored_at": "2026-10-09T17:44:08.716298872Z"
-    },
-    {
-      "id": "arxiv:2610.10992v1",
-      "source": "arxiv",
-      "title": "The Hint Weight of ML-DSA Signatures Is Key-Dependent: An Empirical Study across the Three FIPS 204 Parameter Sets",
-      "url": "http://arxiv.org/abs/2610.10992v1",
-      "published": "2026-10-07T23:26:48Z",
-      "authors": "Dominik Blain",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "ML-DSA signature hint weight correlates with signing key norm; leakage is weak (0.5–1.5% variance) and does not compromise key recovery.",
-      "unproven": "Study covers one reference C implementation and 200 keys; applicability to other ML-DSA implementations, constant-time variants, or larger key populations not tested; timing and cache side-channel interactions not explored.",
-      "scored_at": "2026-10-09T23:42:31.164432716Z"
     },
     {
       "id": "hn:50029123",
@@ -401,6 +274,126 @@
       "dek": "Hypothesis test using shadow models detects LLM distillation attacks; TPR 1.0 at significance 0.02 on Qwen-to-Llama pair.",
       "unproven": "Single teacher-student pair tested; no evidence method generalizes across model families, sizes, or training regimes; detection only, no prevention or integration into SDLC.",
       "scored_at": "2026-10-09T17:43:44.4190336Z"
+    },
+    {
+      "id": "arxiv:2610.12106v1",
+      "source": "arxiv",
+      "title": "Could LLM Watermark Detection be Public?",
+      "url": "http://arxiv.org/abs/2610.12106v1",
+      "published": "2026-10-08T15:05:58Z",
+      "authors": "Georgios Milis et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Public LLM watermark detection poses limited new risk; proposes split-key method to enable detection while preserving forensics.",
+      "unproven": "Watermarking is a post-deployment trace mechanism; reader does not own chatbot or agent watermarking; no evidence of integration with SAST/DAST/SCA or SDLC controls.",
+      "scored_at": "2026-10-09T17:43:44.419033701Z"
+    },
+    {
+      "id": "arxiv:2610.12050v1",
+      "source": "arxiv",
+      "title": "Protecting CPU AI On Edge TEEs: WebAssembly's Promise and Practical Challenges",
+      "url": "http://arxiv.org/abs/2610.12050v1",
+      "published": "2026-10-08T14:35:27Z",
+      "authors": "Friedrich Vandenberghe et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "WebAssembly in OP-TEE protects edge AI model IP from root; 22% overhead vs hand-ported TEE code, 6% inference latency.",
+      "unproven": "Edge deployment pattern; reader focuses on SDLC and architecture for mid-size financial services, not edge hardware deployment; no evidence integration into model supply chain or build pipeline.",
+      "scored_at": "2026-10-09T17:43:44.419033791Z"
+    },
+    {
+      "id": "arxiv:2610.11843v1",
+      "source": "arxiv",
+      "title": "Anytime-valid detection of LLM weight exfiltration",
+      "url": "http://arxiv.org/abs/2610.11843v1",
+      "published": "2026-10-08T12:31:41Z",
+      "authors": "Ines Ortega-Fernandez et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Sequential e-process detects weight exfiltration via token encoding by combining weak evidence across prompts with anytime false-alarm control.",
+      "unproven": "detection latency acceptable for operational response; calibration transfer assumption holds across model families and inference serving deployments; adversary cannot evade by encoding fewer bits.",
+      "scored_at": "2026-10-09T17:43:56.607739523Z"
+    },
+    {
+      "id": "arxiv:2610.11759v1",
+      "source": "arxiv",
+      "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization",
+      "url": "http://arxiv.org/abs/2610.11759v1",
+      "published": "2026-10-08T11:44:46Z",
+      "authors": "Hoong Chuin LAU",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Survey of 119 papers on AI-assisted quantum optimization finds stronger evidence for AI improving quantum than reverse.",
+      "unproven": "limited to simulation; no deployed quantum systems measured; evidence for quantum-to-AI direction remains small-scale",
+      "scored_at": "2026-10-10T03:21:47.871147157Z"
+    },
+    {
+      "id": "arxiv:2610.11710v1",
+      "source": "arxiv",
+      "title": "Parameter-Dependent Noise Resilience in the Quantum Approximate Optimization Algorithm",
+      "url": "http://arxiv.org/abs/2610.11710v1",
+      "published": "2026-10-08T11:15:49Z",
+      "authors": "Jorja Kirk et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "QAOA stability under Pauli noise depends on variational parameters; derives bounds and mitigation strategies.",
+      "unproven": "theoretical bounds and simulated noise; no deployed hardware validation; applicability to production quantum processors unclear",
+      "scored_at": "2026-10-10T03:21:47.871147298Z"
+    },
+    {
+      "id": "arxiv:2610.11658v1",
+      "source": "arxiv",
+      "title": "Error-Corrected Memory and Logic on a Heavy-Hex Superconducting-Qubit Processor",
+      "url": "http://arxiv.org/abs/2610.11658v1",
+      "published": "2026-10-08T10:35:25Z",
+      "authors": "Campbell K. McLauchlan et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Error-corrected quantum memory on 156-qubit superconducting processor improves logical error rates 35–56% with noise-aware decoding.",
+      "unproven": "single hardware implementation on one processor architecture; scalability to larger codes and different fabrication runs undemonstrated; no production deployment",
+      "scored_at": "2026-10-10T03:21:47.871147568Z"
+    },
+    {
+      "id": "arxiv:2610.11634v1",
+      "source": "arxiv",
+      "title": "LTBD: Learnable Trust-Boundary Delimiters for Prompt Injection Defense",
+      "url": "http://arxiv.org/abs/2610.11634v1",
+      "published": "2026-10-08T10:13:24Z",
+      "authors": "Luman Zhao et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Learnable delimiters encode trust boundaries in prompts without model fine-tuning, achieving near-zero attack success on benchmarks.",
+      "unproven": "robustness against adaptive attacks specifically targeting delimiter tokens; generalization beyond AlpacaFarm and TaskTracker; deployment cost and compatibility with production LLM inference pipelines.",
+      "scored_at": "2026-10-09T17:43:56.607739713Z"
+    },
+    {
+      "id": "arxiv:2610.11490v1",
+      "source": "arxiv",
+      "title": "A Zero-Knowledge Signature Framework for Efficient Post-Quantum Message Authentication in Cooperative Automated Driving",
+      "url": "http://arxiv.org/abs/2610.11490v1",
+      "published": "2026-10-08T08:31:51Z",
+      "authors": "Takahito Yoshizawa et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Zero-knowledge signature framework compresses post-quantum V2X authentication overhead; backward compatible with ECDSA.",
+      "unproven": "Simulation only on liboqs and Bulletproofs libraries; no vehicle hardware testing, no actual CAM latency or throughput validation against IEEE 1609.2 requirements.",
+      "scored_at": "2026-10-09T17:44:08.716298983Z"
     }
   ],
   "noise": [

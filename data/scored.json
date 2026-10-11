@@ -21754,38 +21754,6 @@
     ],
     "scored_at": "2026-10-01T23:34:04.657447431Z"
   },
-  "kev:CVE-2026-42016": {
-    "id": "kev:CVE-2026-42016",
-    "source": "kev",
-    "title": "CVE-2026-42016 — JFrog Artifactory Incorrect Authorization Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42016",
-    "published": "2026-09-11T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "JFrog Artifactory. Confirmed exploited in the wild. Federal remediation due 25 September.",
-    "cves": [
-      "CVE-2026-42016"
-    ],
-    "scored_at": "2026-09-11T18:52:09.294512823Z"
-  },
-  "kev:CVE-2026-42018": {
-    "id": "kev:CVE-2026-42018",
-    "source": "kev",
-    "title": "CVE-2026-42018 — JFrog Artifactory Improper Authentication Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
-    "published": "2026-09-11T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "JFrog Artifactory. Confirmed exploited in the wild. Federal remediation due 25 September.",
-    "cves": [
-      "CVE-2026-42018"
-    ],
-    "scored_at": "2026-09-11T18:52:09.294514447Z"
-  },
   "kev:CVE-2026-53266": {
     "id": "kev:CVE-2026-53266",
     "source": "kev",
@@ -21946,22 +21914,6 @@
     ],
     "scored_at": "2026-09-30T23:19:43.380120924Z"
   },
-  "kev:CVE-2026-84869": {
-    "id": "kev:CVE-2026-84869",
-    "source": "kev",
-    "title": "CVE-2026-84869 — ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84869",
-    "published": "2026-09-11T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "ConnectWise ScreenConnect. Confirmed exploited in the wild. Federal remediation due 14 September.",
-    "cves": [
-      "CVE-2026-84869"
-    ],
-    "scored_at": "2026-09-11T18:52:09.294509857Z"
-  },
   "kev:CVE-2026-85102": {
     "id": "kev:CVE-2026-85102",
     "source": "kev",
@@ -21977,22 +21929,6 @@
       "CVE-2026-85102"
     ],
     "scored_at": "2026-09-22T22:31:44.130625924Z"
-  },
-  "kev:CVE-2026-85706": {
-    "id": "kev:CVE-2026-85706",
-    "source": "kev",
-    "title": "CVE-2026-85706 — GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
-    "published": "2026-09-11T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "GitLab Community Edition and Enterprise Edition. Confirmed exploited in the wild. Federal remediation due 14 September.",
-    "cves": [
-      "CVE-2026-85706"
-    ],
-    "scored_at": "2026-09-11T22:06:11.679434235Z"
   },
   "kev:CVE-2026-86950": {
     "id": "kev:CVE-2026-86950",
