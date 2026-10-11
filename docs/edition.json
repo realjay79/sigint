@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T02:56:06.752671912Z",
+  "generated": "2026-10-11T10:26:20.063433294Z",
   "edition": 79,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,13 +8,13 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 23,
-      "hn": 2
+      "arxiv": 22,
+      "hn": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 3,
-      "NEW GROUND": 7,
-      "NOISE FLOOR": 15
+      "BREAK GLASS": 1,
+      "NEW GROUND": 6,
+      "NOISE FLOOR": 18
     }
   },
   "items": [
@@ -32,36 +32,6 @@
       "dek": "Agent eval escapes (OpenAI, Anthropic, Google) show boundaries fail under test; proposes Boundary Assurance Stack for runtime verification.",
       "unproven": "Framework not yet deployed in live agent systems; cases are post-hoc analysis, not prospective validation of the PASAC model.",
       "scored_at": "2026-10-09T17:43:44.4190268Z"
-    },
-    {
-      "id": "arxiv:2610.11254v1",
-      "source": "arxiv",
-      "title": "Provable Subexponential Algorithms for NIST Third-Round Lattice Families",
-      "url": "http://arxiv.org/abs/2610.11254v1",
-      "published": "2026-10-08T05:01:41Z",
-      "authors": "Yiming Gao et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Subexponential lattice algorithms break Kyber, FrodoKEM, SABER, NTRU, and Dilithium with polylogarithmic coefficient scales; initiate migration planning immediately.",
-      "unproven": "whether NIST parameter choices fall within vulnerable regime; classical-only, no quantum speedup analysis; migration timeline and cryptanalytic feasibility against deployed hardened implementations unclear.",
-      "scored_at": "2026-10-09T17:44:21.592485674Z"
-    },
-    {
-      "id": "arxiv:2610.11169v1",
-      "source": "arxiv",
-      "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
-      "url": "http://arxiv.org/abs/2610.11169v1",
-      "published": "2026-10-08T03:25:22Z",
-      "authors": "Fahd Seddik",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "14.9% of high-risk agent skill adoptions prevented by auditing top-100 source repositories ranked by copy network, versus 0.5% for most-starred.",
-      "unproven": "whether ranking generalizes as new skills enter ecosystem; limited to GitSkills dataset; assumes reader has visibility into SKILL.md supply chain in current SDLC.",
-      "scored_at": "2026-10-09T17:44:21.592486085Z"
     },
     {
       "id": "hn:50012043",
@@ -123,36 +93,6 @@
       "dek": "Security meta-model maps attack surfaces, weaknesses, and CIA impacts for RAG systems with interactive risk profiling by deployment type.",
       "unproven": "whether the 43-paper taxonomy achieves sufficient coverage for novel RAG architectures entering production; validation against real deployments.",
       "scored_at": "2026-10-09T17:43:56.607739132Z"
-    },
-    {
-      "id": "arxiv:2610.11602v1",
-      "source": "arxiv",
-      "title": "Where Do the Tokens Go? Understanding and Reducing Costs in LLM Agents for Vulnerability Discovery",
-      "url": "http://arxiv.org/abs/2610.11602v1",
-      "published": "2026-10-08T09:47:18Z",
-      "authors": "Li Lu et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Study of 200 LLM agent runs reveals code localization and vulnerability reasoning consume 60.4% of tokens in failed vulnerability discovery.",
-      "unproven": "whether AVRI improvements generalize beyond CyberGym or to agents with different architectures; reproducibility across different LLM models and versions.",
-      "scored_at": "2026-10-09T17:43:56.607740875Z"
-    },
-    {
-      "id": "arxiv:2610.11496v1",
-      "source": "arxiv",
-      "title": "Stop My Dancing! Understanding, Detecting and Attributing Motion-Aware Deepfake Videos",
-      "url": "http://arxiv.org/abs/2610.11496v1",
-      "published": "2026-10-08T08:35:40Z",
-      "authors": "Fazhong Liu et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "First motion-aware deepfake benchmark and detector exploiting synthesis artifacts at motion boundaries; 94.8% in-distribution accuracy.",
-      "unproven": "Cross-dataset accuracy drops to 89.1%; does not address adaptive adversary or video compression beyond tested codecs; six generators only.",
-      "scored_at": "2026-10-09T17:44:08.716298872Z"
     },
     {
       "id": "hn:50029123",
@@ -366,34 +306,95 @@
       "scored_at": "2026-10-10T03:21:47.871147568Z"
     },
     {
-      "id": "arxiv:2610.11634v1",
+      "id": "arxiv:2610.12454v1",
       "source": "arxiv",
-      "title": "LTBD: Learnable Trust-Boundary Delimiters for Prompt Injection Defense",
-      "url": "http://arxiv.org/abs/2610.11634v1",
-      "published": "2026-10-08T10:13:24Z",
-      "authors": "Luman Zhao et al.",
+      "title": "On PPT entanglement distillation",
+      "url": "http://arxiv.org/abs/2610.12454v1",
+      "published": "2026-10-08T17:59:09Z",
+      "authors": "Ludovico Lami",
       "novelty": 3,
-      "actionability": 2,
-      "score": 5,
+      "actionability": 1,
+      "score": 4,
       "quadrant": "NOISE FLOOR",
-      "dek": "Learnable delimiters encode trust boundaries in prompts without model fine-tuning, achieving near-zero attack success on benchmarks.",
-      "unproven": "robustness against adaptive attacks specifically targeting delimiter tokens; generalization beyond AlpacaFarm and TaskTracker; deployment cost and compatibility with production LLM inference pipelines.",
-      "scored_at": "2026-10-09T17:43:56.607739713Z"
+      "dek": "PPT distillable entanglement formulas resolve open problems in quantum state manipulation theory.",
+      "unproven": "entirely outside application security engineer's remit",
+      "scored_at": "2026-10-09T23:42:55.195408744Z"
     },
     {
-      "id": "arxiv:2610.11490v1",
+      "id": "arxiv:2610.12428v1",
       "source": "arxiv",
-      "title": "A Zero-Knowledge Signature Framework for Efficient Post-Quantum Message Authentication in Cooperative Automated Driving",
-      "url": "http://arxiv.org/abs/2610.11490v1",
-      "published": "2026-10-08T08:31:51Z",
-      "authors": "Takahito Yoshizawa et al.",
+      "title": "Toward Joint Optimization of Circuit Depth and Training Data Size in Adaptively Grown Quantum Classifiers",
+      "url": "http://arxiv.org/abs/2610.12428v1",
+      "published": "2026-10-08T17:55:57Z",
+      "authors": "Saeefa Rubaiyet Nowmi et al.",
       "novelty": 3,
-      "actionability": 2,
-      "score": 5,
+      "actionability": 1,
+      "score": 4,
       "quadrant": "NOISE FLOOR",
-      "dek": "Zero-knowledge signature framework compresses post-quantum V2X authentication overhead; backward compatible with ECDSA.",
-      "unproven": "Simulation only on liboqs and Bulletproofs libraries; no vehicle hardware testing, no actual CAM latency or throughput validation against IEEE 1609.2 requirements.",
-      "scored_at": "2026-10-09T17:44:08.716298983Z"
+      "dek": "Q-FLAIR circuit growth shows non-monotonic relationship to training-set size on MNIST 3-vs-5 classification.",
+      "unproven": "generalization to production quantum classifiers; predictive scaling laws; relevance beyond toy datasets",
+      "scored_at": "2026-10-09T23:42:55.195409245Z"
+    },
+    {
+      "id": "arxiv:2610.12406v1",
+      "source": "arxiv",
+      "title": "Local polarization control of optical tweezer arrays",
+      "url": "http://arxiv.org/abs/2610.12406v1",
+      "published": "2026-10-08T17:45:45Z",
+      "authors": "Xiangkai Sun et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Spatial light modulators enable site-resolved polarization control in optical tweezer arrays for atomic cooling.",
+      "unproven": "entirely outside application security engineer's remit",
+      "scored_at": "2026-10-09T23:42:55.195409425Z"
+    },
+    {
+      "id": "hn:50009066",
+      "source": "hn",
+      "title": "Scaling and benchmarking a critical message bus using a new indexing strategy",
+      "url": "https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus",
+      "published": "2026-10-08T17:39:26Z",
+      "authors": "eatonphil",
+      "points": 46,
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Jane Street optimized a message bus indexing strategy; relevant to infrastructure teams, not to secure SDLC or application architecture review.",
+      "unproven": "applicability beyond Jane Street's specific workload and infrastructure; not a technique the reader's team controls or integrates",
+      "scored_at": "2026-10-09T11:01:21.348223696Z"
+    },
+    {
+      "id": "arxiv:2610.12365v1",
+      "source": "arxiv",
+      "title": "Energy-constrained two-way capacities of the pure-loss channel",
+      "url": "http://arxiv.org/abs/2610.12365v1",
+      "published": "2026-10-08T17:27:32Z",
+      "authors": "Alessandro Falco et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Two-way capacities of the pure-loss quantum channel equal g(N)−g((1−η)N) under photon-number constraints.",
+      "unproven": "entirely outside application security engineer's remit",
+      "scored_at": "2026-10-09T23:42:55.195409856Z"
+    },
+    {
+      "id": "arxiv:2610.12348v1",
+      "source": "arxiv",
+      "title": "Constructing Large and Structured Decoherence-Free Subspaces in Hybrid Quantum Systems",
+      "url": "http://arxiv.org/abs/2610.12348v1",
+      "published": "2026-10-08T17:18:30Z",
+      "authors": "Catalin-Mihai Halati et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Hybrid quantum systems with dissipative bosonic modes construct large decoherence-free subspaces with emergent symmetries.",
+      "unproven": "entirely outside application security engineer's remit",
+      "scored_at": "2026-10-09T23:42:55.195410046Z"
     }
   ],
   "noise": [

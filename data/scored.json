@@ -21594,6 +21594,38 @@
     "unproven": "technical root cause; applicability to agent risk models in controlled SDLC environments",
     "scored_at": "2026-10-10T23:06:09.867004957Z"
   },
+  "hn:50038640": {
+    "id": "hn:50038640",
+    "source": "hn",
+    "title": "Generative AI scandal has come to one of Nikon's competitions",
+    "url": "https://dpreview.com/news/generative-ai-scandal-has-come-to-one-of-nikons-competitions",
+    "published": "2026-10-11T00:47:37Z",
+    "authors": "DASD",
+    "points": 33,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Photography competition reports generative AI entries; outside application security engineering scope.",
+    "unproven": "not relevant to reader's remit in SAST, DAST, SCA, or secure SDLC",
+    "scored_at": "2026-10-11T10:26:20.052608615Z"
+  },
+  "hn:50039627": {
+    "id": "hn:50039627",
+    "source": "hn",
+    "title": "Satya Nadella says we should assume all AI models are 'compromised'",
+    "url": "https://theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+    "published": "2026-10-11T03:41:53Z",
+    "authors": "jonbaer",
+    "points": 36,
+    "novelty": 1,
+    "actionability": 2,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Microsoft executive urges assuming AI models are compromised; offers no mechanism or detection method.",
+    "unproven": "no technical definition of 'compromised' or guidance applicable to SDLC model vetting",
+    "scored_at": "2026-10-11T10:26:20.052606912Z"
+  },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",
     "source": "kev",
