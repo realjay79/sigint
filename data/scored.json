@@ -21690,6 +21690,22 @@
     "unproven": "entirely outside the reader's remit; relevant only if evaluating supply-chain risk for document-processing libraries",
     "scored_at": "2026-10-11T17:01:01.477754574Z"
   },
+  "hn:50048312": {
+    "id": "hn:50048312",
+    "source": "hn",
+    "title": "Passkeys are a trap. Do not use them",
+    "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+    "published": "2026-10-11T21:59:48Z",
+    "authors": "laurex",
+    "points": 105,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Opinion piece argues against passkey adoption; no new evidence or measurement.",
+    "unproven": "does not test passkey implementations or deployment risk at scale",
+    "scored_at": "2026-10-11T23:18:45.968105653Z"
+  },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",
     "source": "kev",
