@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-12T20:36:05.913615862Z",
-  "edition": 80,
+  "generated": "2026-10-13T04:34:06.349358748Z",
+  "edition": 81,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 21,
+    "total": 20,
     "by_source": {
-      "hn": 21
+      "hn": 20
     },
     "by_quadrant": {
-      "NOISE FLOOR": 20,
+      "NOISE FLOOR": 19,
       "STANDING ORDERS": 1
     }
   },
@@ -63,22 +63,6 @@
       "dek": "$90k Google RCE writeup; single finding disclosed post-remediation, not actionable threat.",
       "unproven": "vulnerability already patched; demonstrates no ongoing exposure to reader's environment",
       "scored_at": "2026-10-12T20:36:05.906241801Z"
-    },
-    {
-      "id": "hn:50029123",
-      "source": "hn",
-      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover",
-      "published": "2026-10-10T03:02:47Z",
-      "authors": "g-b-r",
-      "points": 313,
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Telegram Desktop path traversal allowed file theft; vulnerability now patched.",
-      "unproven": "whether the flaw affected production deployments at scale or only under specific user conditions",
-      "scored_at": "2026-10-10T16:36:02.568108748Z"
     },
     {
       "id": "hn:50042370",
@@ -161,20 +145,19 @@
       "scored_at": "2026-10-10T23:06:09.867004957Z"
     },
     {
-      "id": "hn:50028059",
+      "id": "hn:50061290",
       "source": "hn",
-      "title": "11 of 23 Core Open Source Projects Run on 1 or 2 People",
-      "url": "https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people",
-      "published": "2026-10-09T23:56:55Z",
-      "authors": "dxs",
-      "points": 88,
-      "novelty": 2,
+      "title": "Ricky Mondello responds to \"Passkeys are a trap. Do not use them.\"",
+      "url": "https://hachyderm.io/@rmondello/117428258722253709",
+      "published": "2026-10-12T19:09:01Z",
+      "authors": "latexr",
+      "points": 31,
+      "novelty": 1,
       "actionability": 1,
-      "score": 3,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Survey finds 11 of 23 critical open source projects maintained by one or two people.",
-      "unproven": "which projects, how maintenance load was measured, and whether staffing correlates with security outcomes",
-      "scored_at": "2026-10-10T16:36:02.56810965Z"
+      "dek": "Apple engineer defends passkeys against criticism in a forum discussion.",
+      "scored_at": "2026-10-13T04:34:06.336690022Z"
     },
     {
       "id": "hn:50055375",
