@@ -23518,6 +23518,54 @@
     "dek": "Apple engineer defends passkeys against criticism in a forum discussion.",
     "scored_at": "2026-10-13T04:34:06.336690022Z"
   },
+  "hn:50064840": {
+    "id": "hn:50064840",
+    "source": "hn",
+    "title": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+    "url": "https://github.com/bherbruck/solidcraft",
+    "published": "2026-10-13T00:11:04Z",
+    "authors": "bherbruck",
+    "points": 111,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "New CAD tool in Rust with MCP protocol support; not relevant to application security engineering.",
+    "unproven": "tool announcement, not a security finding or methodology",
+    "scored_at": "2026-10-13T15:25:04.842450087Z"
+  },
+  "hn:50067570": {
+    "id": "hn:50067570",
+    "source": "hn",
+    "title": "Denmark set to allow return of 'physical force' in school",
+    "url": "https://lemonde.fr/en/international/article/2026/10/10/denmark-set-to-allow-the-return-of-physical-force-to-maintain-order-in-schools_6758443_4.html",
+    "published": "2026-10-13T06:27:03Z",
+    "authors": "janisz",
+    "points": 73,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Danish education policy change; no relevance to application security.",
+    "unproven": "entirely outside the reader's domain",
+    "scored_at": "2026-10-13T15:25:04.842449305Z"
+  },
+  "hn:50068508": {
+    "id": "hn:50068508",
+    "source": "hn",
+    "title": "Crypto thieves sell hardware wallets with secret eSIM",
+    "url": "https://heise.de/en/news/Crypto-thieves-sell-hardware-wallets-with-secret-eSIM-11485188.html",
+    "published": "2026-10-13T08:34:12Z",
+    "authors": "qwertox",
+    "points": 102,
+    "novelty": 3,
+    "actionability": 1,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Supply-chain attack on hardware wallets via compromised eSIM; threat to end users, not developers.",
+    "unproven": "this is a supply compromise, not a software vulnerability; outside the reader's remit",
+    "scored_at": "2026-10-13T15:25:04.842448714Z"
+  },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",
     "source": "kev",
@@ -23677,6 +23725,22 @@
       "CVE-2026-104286"
     ],
     "scored_at": "2026-10-01T23:34:04.657447431Z"
+  },
+  "kev:CVE-2026-104935": {
+    "id": "kev:CVE-2026-104935",
+    "source": "kev",
+    "title": "CVE-2026-104935 — Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+    "published": "2026-10-13T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Ivanti Connect Secure. Confirmed exploited in the wild. Federal remediation due 16 October.",
+    "cves": [
+      "CVE-2026-104935"
+    ],
+    "scored_at": "2026-10-13T15:25:01.757860512Z"
   },
   "kev:CVE-2026-53266": {
     "id": "kev:CVE-2026-53266",

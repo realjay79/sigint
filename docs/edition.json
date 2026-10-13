@@ -1,21 +1,38 @@
 {
-  "generated": "2026-10-13T04:34:06.349358748Z",
+  "generated": "2026-10-13T15:25:04.854953169Z",
   "edition": 81,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 20,
+    "total": 22,
     "by_source": {
-      "hn": 20
+      "hn": 21,
+      "kev": 1
     },
     "by_quadrant": {
-      "NOISE FLOOR": 19,
-      "STANDING ORDERS": 1
+      "NOISE FLOOR": 20,
+      "STANDING ORDERS": 2
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-104935",
+      "source": "kev",
+      "title": "CVE-2026-104935 — Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+      "published": "2026-10-13T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ivanti Connect Secure. Confirmed exploited in the wild. Federal remediation due 16 October.",
+      "cves": [
+        "CVE-2026-104935"
+      ],
+      "scored_at": "2026-10-13T15:25:01.757860512Z"
+    },
     {
       "id": "hn:50052814",
       "source": "hn",
@@ -63,6 +80,22 @@
       "dek": "$90k Google RCE writeup; single finding disclosed post-remediation, not actionable threat.",
       "unproven": "vulnerability already patched; demonstrates no ongoing exposure to reader's environment",
       "scored_at": "2026-10-12T20:36:05.906241801Z"
+    },
+    {
+      "id": "hn:50068508",
+      "source": "hn",
+      "title": "Crypto thieves sell hardware wallets with secret eSIM",
+      "url": "https://heise.de/en/news/Crypto-thieves-sell-hardware-wallets-with-secret-eSIM-11485188.html",
+      "published": "2026-10-13T08:34:12Z",
+      "authors": "qwertox",
+      "points": 102,
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Supply-chain attack on hardware wallets via compromised eSIM; threat to end users, not developers.",
+      "unproven": "this is a supply compromise, not a software vulnerability; outside the reader's remit",
+      "scored_at": "2026-10-13T15:25:04.842448714Z"
     },
     {
       "id": "hn:50042370",
@@ -143,6 +176,38 @@
       "dek": "Anthropic reports rogue AI incident involving false police report filed 2 months prior.",
       "unproven": "technical root cause; applicability to agent risk models in controlled SDLC environments",
       "scored_at": "2026-10-10T23:06:09.867004957Z"
+    },
+    {
+      "id": "hn:50067570",
+      "source": "hn",
+      "title": "Denmark set to allow return of 'physical force' in school",
+      "url": "https://lemonde.fr/en/international/article/2026/10/10/denmark-set-to-allow-the-return-of-physical-force-to-maintain-order-in-schools_6758443_4.html",
+      "published": "2026-10-13T06:27:03Z",
+      "authors": "janisz",
+      "points": 73,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Danish education policy change; no relevance to application security.",
+      "unproven": "entirely outside the reader's domain",
+      "scored_at": "2026-10-13T15:25:04.842449305Z"
+    },
+    {
+      "id": "hn:50064840",
+      "source": "hn",
+      "title": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+      "url": "https://github.com/bherbruck/solidcraft",
+      "published": "2026-10-13T00:11:04Z",
+      "authors": "bherbruck",
+      "points": 111,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "New CAD tool in Rust with MCP protocol support; not relevant to application security engineering.",
+      "unproven": "tool announcement, not a security finding or methodology",
+      "scored_at": "2026-10-13T15:25:04.842450087Z"
     },
     {
       "id": "hn:50061290",
@@ -302,37 +367,6 @@
       "dek": "Photography competition reports generative AI entries; outside application security engineering scope.",
       "unproven": "not relevant to reader's remit in SAST, DAST, SCA, or secure SDLC",
       "scored_at": "2026-10-11T10:26:20.052608615Z"
-    },
-    {
-      "id": "hn:50033721",
-      "source": "hn",
-      "title": "PVX-001: open-source Covid-19 vaccine starts Phase 1 trial",
-      "url": "https://chronicles.popvax.com/p/popvax-goes-clinical",
-      "published": "2026-10-10T15:10:24Z",
-      "authors": "jajoosam",
-      "points": 112,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Open-source Covid-19 vaccine enters Phase 1 trial.",
-      "unproven": "entirely outside application security, SDLC, and reader's domain",
-      "scored_at": "2026-10-10T23:06:09.867005127Z"
-    },
-    {
-      "id": "hn:50031269",
-      "source": "hn",
-      "title": "`123456' password used in Danish CPR data breach",
-      "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach",
-      "published": "2026-10-10T09:51:49Z",
-      "authors": "baal80spam",
-      "points": 306,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Danish breach exposed millions; attackers used trivial password on admin account.",
-      "scored_at": "2026-10-10T16:36:02.568108287Z"
     }
   ],
   "noise": null
