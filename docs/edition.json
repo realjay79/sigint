@@ -1,22 +1,38 @@
 {
-  "generated": "2026-10-13T15:25:04.854953169Z",
+  "generated": "2026-10-13T20:53:56.19850533Z",
   "edition": 81,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 22,
+    "total": 23,
     "by_source": {
       "hn": 21,
-      "kev": 1
+      "kev": 2
     },
     "by_quadrant": {
       "NOISE FLOOR": 20,
-      "STANDING ORDERS": 2
+      "STANDING ORDERS": 3
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-96951",
+      "source": "kev",
+      "title": "CVE-2026-96951 — Microsoft Windows Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
+      "published": "2026-10-13T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft Windows. Confirmed exploited in the wild. Federal remediation due 16 October.",
+      "cves": [
+        "CVE-2026-96951"
+      ],
+      "scored_at": "2026-10-13T20:53:54.289479405Z"
+    },
     {
       "id": "kev:CVE-2026-104935",
       "source": "kev",
@@ -80,6 +96,22 @@
       "dek": "$90k Google RCE writeup; single finding disclosed post-remediation, not actionable threat.",
       "unproven": "vulnerability already patched; demonstrates no ongoing exposure to reader's environment",
       "scored_at": "2026-10-12T20:36:05.906241801Z"
+    },
+    {
+      "id": "hn:50073633",
+      "source": "hn",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://anthropic.com/engineering/redesigning-source-control",
+      "published": "2026-10-13T15:49:56Z",
+      "authors": "Philpax",
+      "points": 330,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Anthropic describes its internal source control architecture; applicable insights are organizational and tooling patterns, not technique.",
+      "unproven": "generalization beyond Anthropic's scale and deployment model; transferability to financial services SDLC unclear.",
+      "scored_at": "2026-10-13T20:53:56.189660453Z"
     },
     {
       "id": "hn:50068508",
@@ -160,22 +192,6 @@
       "dek": "Microsoft executive urges assuming AI models are compromised; offers no mechanism or detection method.",
       "unproven": "no technical definition of 'compromised' or guidance applicable to SDLC model vetting",
       "scored_at": "2026-10-11T10:26:20.052606912Z"
-    },
-    {
-      "id": "hn:50035550",
-      "source": "hn",
-      "title": "Anthropic discloses 2 months old fake tip to police among new rogue AI incidents",
-      "url": "https://reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09",
-      "published": "2026-10-10T18:10:54Z",
-      "authors": "guessmyname",
-      "points": 40,
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Anthropic reports rogue AI incident involving false police report filed 2 months prior.",
-      "unproven": "technical root cause; applicability to agent risk models in controlled SDLC environments",
-      "scored_at": "2026-10-10T23:06:09.867004957Z"
     },
     {
       "id": "hn:50067570",

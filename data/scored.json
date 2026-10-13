@@ -23566,6 +23566,22 @@
     "unproven": "this is a supply compromise, not a software vulnerability; outside the reader's remit",
     "scored_at": "2026-10-13T15:25:04.842448714Z"
   },
+  "hn:50073633": {
+    "id": "hn:50073633",
+    "source": "hn",
+    "title": "Redesigning source control at Anthropic",
+    "url": "https://anthropic.com/engineering/redesigning-source-control",
+    "published": "2026-10-13T15:49:56Z",
+    "authors": "Philpax",
+    "points": 330,
+    "novelty": 2,
+    "actionability": 2,
+    "score": 4,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Anthropic describes its internal source control architecture; applicable insights are organizational and tooling patterns, not technique.",
+    "unproven": "generalization beyond Anthropic's scale and deployment model; transferability to financial services SDLC unclear.",
+    "scored_at": "2026-10-13T20:53:56.189660453Z"
+  },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",
     "source": "kev",
@@ -24061,5 +24077,21 @@
       "CVE-2026-94127"
     ],
     "scored_at": "2026-09-22T22:31:44.130622718Z"
+  },
+  "kev:CVE-2026-96951": {
+    "id": "kev:CVE-2026-96951",
+    "source": "kev",
+    "title": "CVE-2026-96951 — Microsoft Windows Command Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
+    "published": "2026-10-13T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Microsoft Windows. Confirmed exploited in the wild. Federal remediation due 16 October.",
+    "cves": [
+      "CVE-2026-96951"
+    ],
+    "scored_at": "2026-10-13T20:53:54.289479405Z"
   }
 }
