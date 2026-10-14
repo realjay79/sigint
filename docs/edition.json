@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-13T20:53:56.19850533Z",
-  "edition": 81,
+  "generated": "2026-10-14T02:43:40.167158984Z",
+  "edition": 82,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 23,
+    "total": 25,
     "by_source": {
-      "hn": 21,
+      "hn": 23,
       "kev": 2
     },
     "by_quadrant": {
-      "NOISE FLOOR": 20,
+      "NOISE FLOOR": 22,
       "STANDING ORDERS": 3
     }
   },
@@ -64,6 +64,22 @@
       "dek": "Zod npm package 4.6.6 hit by supply-chain malware; evidence of active compromise in transit dependency.",
       "unproven": "scope and exploit chain of malware payload not detailed; no confirmation of how many installs received infected version",
       "scored_at": "2026-10-12T20:36:05.906241671Z"
+    },
+    {
+      "id": "hn:50077619",
+      "source": "hn",
+      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+      "url": "https://parsimony.lasu.dev/",
+      "published": "2026-10-13T19:50:31Z",
+      "authors": "lasu",
+      "points": 54,
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Parsimony benchmark measures coding units added by AI models across existing SWE-bench patches; informs model selection when integrating code generation into SDLC.",
+      "unproven": "whether metric predicts long-term maintenance burden in production codebases or correlates with security debt",
+      "scored_at": "2026-10-14T02:43:40.158953357Z"
     },
     {
       "id": "hn:50055409",
@@ -194,6 +210,21 @@
       "scored_at": "2026-10-11T10:26:20.052606912Z"
     },
     {
+      "id": "hn:50078691",
+      "source": "hn",
+      "title": "Dutch tax authorities cancel Microsoft 365 cloud rollout and turn to open source",
+      "url": "https://zdnet.com/business/dutch-tax-authorities-cancel-microsoft-365-cloud-rollout",
+      "published": "2026-10-13T21:01:37Z",
+      "authors": "CrankyBear",
+      "points": 58,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Dutch tax authorities cancel Microsoft 365 rollout for open-source alternative; procurement decision outside reader's SDLC tooling and process remit.",
+      "scored_at": "2026-10-14T02:43:40.158953237Z"
+    },
+    {
       "id": "hn:50067570",
       "source": "hn",
       "title": "Denmark set to allow return of 'physical force' in school",
@@ -271,6 +302,36 @@
       "dek": "Ledger hardware wallet allegation; outside application security engineer's remit, unrelated to SDLC.",
       "unproven": "outside reader's scope; hardware wallet security is not in application security engineering",
       "scored_at": "2026-10-12T20:36:05.906241491Z"
+    },
+    {
+      "id": "hn:50053487",
+      "source": "hn",
+      "title": "900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)",
+      "url": "https://openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html",
+      "published": "2026-10-12T09:05:02Z",
+      "authors": "mdp2021",
+      "points": 60,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Historical color guide scanned and published; unrelated to application security.",
+      "scored_at": "2026-10-14T02:43:40.158953557Z"
+    },
+    {
+      "id": "hn:50051097",
+      "source": "hn",
+      "title": "Crest – an Arc-inspired open-source browser for Mac",
+      "url": "https://crestbrowser.com/",
+      "published": "2026-10-12T03:37:09Z",
+      "authors": "cobychapple",
+      "points": 34,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Arc-inspired open-source browser released for macOS; not relevant to SAST/DAST tooling or secure SDLC.",
+      "scored_at": "2026-10-14T02:43:40.158953757Z"
     },
     {
       "id": "hn:50050370",
@@ -351,7 +412,9 @@
       "dek": "Open-source reimplementations of Microsoft Office applications exist and are available.",
       "unproven": "entirely outside the reader's remit; relevant only if evaluating supply-chain risk for document-processing libraries",
       "scored_at": "2026-10-11T17:01:01.477754574Z"
-    },
+    }
+  ],
+  "noise": [
     {
       "id": "hn:50042333",
       "source": "hn",
@@ -367,23 +430,6 @@
       "dek": "Open-source dictation tool for macOS launched.",
       "unproven": "entirely outside the reader's remit; product announcement with no security or SDLC implication",
       "scored_at": "2026-10-11T17:01:01.477755956Z"
-    },
-    {
-      "id": "hn:50038640",
-      "source": "hn",
-      "title": "Generative AI scandal has come to one of Nikon's competitions",
-      "url": "https://dpreview.com/news/generative-ai-scandal-has-come-to-one-of-nikons-competitions",
-      "published": "2026-10-11T00:47:37Z",
-      "authors": "DASD",
-      "points": 33,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Photography competition reports generative AI entries; outside application security engineering scope.",
-      "unproven": "not relevant to reader's remit in SAST, DAST, SCA, or secure SDLC",
-      "scored_at": "2026-10-11T10:26:20.052608615Z"
     }
-  ],
-  "noise": null
+  ]
 }
