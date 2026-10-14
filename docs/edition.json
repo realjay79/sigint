@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T16:11:11.994728766Z",
+  "generated": "2026-10-14T22:51:31.05443888Z",
   "edition": 82,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,18 +8,82 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 21,
+      "arxiv": 17,
       "hn": 2,
-      "kev": 2
+      "kev": 6
     },
     "by_quadrant": {
       "BREAK GLASS": 9,
-      "NEW GROUND": 9,
-      "NOISE FLOOR": 4,
-      "STANDING ORDERS": 3
+      "NEW GROUND": 7,
+      "NOISE FLOOR": 2,
+      "STANDING ORDERS": 7
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-76519",
+      "source": "kev",
+      "title": "CVE-2026-76519 — Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Secure Email Gateway. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-76519"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088419119Z"
+    },
+    {
+      "id": "kev:CVE-2026-105133",
+      "source": "kev",
+      "title": "CVE-2026-105133 — Ahsay AhsayCBS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-105133"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088420762Z"
+    },
+    {
+      "id": "kev:CVE-2026-105134",
+      "source": "kev",
+      "title": "CVE-2026-105134 — Ahsay AhsayCBS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-105134"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088416043Z"
+    },
+    {
+      "id": "kev:CVE-2026-0322",
+      "source": "kev",
+      "title": "CVE-2026-0322 — Palo Alto Networks PAN-OS Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Palo Alto Networks PAN-OS. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-0322"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088422445Z"
+    },
     {
       "id": "arxiv:2610.18612v1",
       "source": "arxiv",
@@ -81,22 +145,6 @@
       "scored_at": "2026-10-14T09:09:08.705898937Z"
     },
     {
-      "id": "kev:CVE-2026-104935",
-      "source": "kev",
-      "title": "CVE-2026-104935 — Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
-      "published": "2026-10-13T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ivanti Connect Secure. Confirmed exploited in the wild. Federal remediation due 16 October.",
-      "cves": [
-        "CVE-2026-104935"
-      ],
-      "scored_at": "2026-10-13T15:25:01.757860512Z"
-    },
-    {
       "id": "kev:CVE-2026-96951",
       "source": "kev",
       "title": "CVE-2026-96951 — Microsoft Windows Command Injection Vulnerability",
@@ -111,6 +159,22 @@
         "CVE-2026-96951"
       ],
       "scored_at": "2026-10-13T20:53:54.289479405Z"
+    },
+    {
+      "id": "kev:CVE-2026-104935",
+      "source": "kev",
+      "title": "CVE-2026-104935 — Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+      "published": "2026-10-13T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ivanti Connect Secure. Confirmed exploited in the wild. Federal remediation due 16 October.",
+      "cves": [
+        "CVE-2026-104935"
+      ],
+      "scored_at": "2026-10-13T15:25:01.757860512Z"
     },
     {
       "id": "arxiv:2610.17374v1",
@@ -338,65 +402,6 @@
       "dek": "Clean preference poisoning attack on vision-language model DPO training uses imperceptible image perturbations; achieves 98% attack success.",
       "unproven": "Limited to DPO alignment; does not establish whether attack persists post-deployment or applies to agents in SDLC pipeline the reader oversees.",
       "scored_at": "2026-10-14T09:08:57.373688626Z"
-    },
-    {
-      "id": "arxiv:2610.18262v1",
-      "source": "arxiv",
-      "title": "Encrypted Skills Can Become New Security Exploits If AI Agents Know How to Decipher",
-      "url": "http://arxiv.org/abs/2610.18262v1",
-      "published": "2026-10-13T12:25:46Z",
-      "authors": "Yan-Lun Chen et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Ciphered skill injection embeds encoded malicious instructions in third-party agent skills; scanners rarely detect them.",
-      "unproven": "limited to eight models and 139 test pairs; does not measure detection rates of production skill scanners or describe realistic skill repositories",
-      "scored_at": "2026-10-14T09:09:08.705902123Z"
-    },
-    {
-      "id": "arxiv:2610.17952v1",
-      "source": "arxiv",
-      "title": "Standing, Not Truth: Who May Say What About Whom in Agentic Selection",
-      "url": "http://arxiv.org/abs/2610.17952v1",
-      "published": "2026-10-13T08:35:44Z",
-      "authors": "Yedidel Louck et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Standing—whether a publisher is entitled to assert about a competitor—is missing from twelve agent selection defenses.",
-      "unproven": "theoretical framework only; no empirical implementation; no measurement of standing-aware filtering on real agents; applicability to SDLC tooling unclear.",
-      "scored_at": "2026-10-14T09:09:21.076901772Z"
-    },
-    {
-      "id": "arxiv:2610.17897v1",
-      "source": "arxiv",
-      "title": "The Maximum Nonlinearity of 8-variable Balanced Boolean Functions is 116",
-      "url": "http://arxiv.org/abs/2610.17897v1",
-      "published": "2026-10-13T07:52:44Z",
-      "authors": "Yueying Lou et al.",
-      "novelty": 5,
-      "actionability": 1,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Maximum nonlinearity of 8-variable balanced Boolean functions proven to be 116, resolving Dobbertin's conjecture.",
-      "scored_at": "2026-10-14T09:09:21.076902123Z"
-    },
-    {
-      "id": "arxiv:2610.17820v1",
-      "source": "arxiv",
-      "title": "Same Attack, Different Judge: A First Controlled Adversarial Comparison of Jev, LLM Judges, and Purpose-Built Safety Classifiers",
-      "url": "http://arxiv.org/abs/2610.17820v1",
-      "published": "2026-10-13T06:43:29Z",
-      "authors": "Xiang Li et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Jev structured-query safety judge outperforms LLM judges on input moderation but underperforms on phishing at 62% vs 77-81%.",
-      "unproven": "narrow task scope (four tasks); commercial product; vendor makes the system being evaluated; generalization to reader's own SAST/DAST rule-tuning workflows unclear.",
-      "scored_at": "2026-10-14T09:09:21.076902494Z"
     }
   ],
   "noise": [
