@@ -28040,6 +28040,21 @@
     "unproven": "second-hand news without new technical disclosure",
     "scored_at": "2026-10-15T19:41:05.735366057Z"
   },
+  "hn:50106054": {
+    "id": "hn:50106054",
+    "source": "hn",
+    "title": "Show HN: Sygal – Convert PDFs, scans and web pages to Markdown, locally",
+    "url": "https://sygal.app",
+    "published": "2026-10-15T16:26:16Z",
+    "authors": "cyrillsemah",
+    "points": 31,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Local PDF-to-Markdown converter; document processing tooling outside application security scope.",
+    "scored_at": "2026-10-15T22:46:34.836652724Z"
+  },
   "hn:50106676": {
     "id": "hn:50106676",
     "source": "hn",
