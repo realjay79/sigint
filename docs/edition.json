@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T02:23:57.598914204Z",
+  "generated": "2026-10-15T08:42:22.564215757Z",
   "edition": 83,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,49 +8,45 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 17,
-      "hn": 2,
+      "arxiv": 19,
       "kev": 6
     },
     "by_quadrant": {
-      "BREAK GLASS": 7,
+      "BREAK GLASS": 11,
       "NEW GROUND": 8,
-      "NOISE FLOOR": 3,
-      "STANDING ORDERS": 7
+      "STANDING ORDERS": 6
     }
   },
   "items": [
     {
-      "id": "kev:CVE-2026-76519",
-      "source": "kev",
-      "title": "CVE-2026-76519 — Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
+      "id": "arxiv:2610.20049v1",
+      "source": "arxiv",
+      "title": "CoRedSkill: Stealthy Skill Composition Attacks via AST-Guided Injection",
+      "url": "http://arxiv.org/abs/2610.20049v1",
+      "published": "2026-10-14T11:52:03Z",
+      "authors": "Qichen Zhao et al.",
+      "novelty": 4,
+      "actionability": 4,
       "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Secure Email Gateway. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-76519"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088419119Z"
+      "quadrant": "BREAK GLASS",
+      "dek": "AST-guided injection embeds undetectable attacks across agent skills while preserving individual utility; 98% success, 3.3% detection rate.",
+      "unproven": "evaluated only on constructed 150-case benchmark; generalization to production agent architectures and real skill repositories undemonstrated.",
+      "scored_at": "2026-10-15T08:41:56.834338517Z"
     },
     {
-      "id": "kev:CVE-2026-105133",
-      "source": "kev",
-      "title": "CVE-2026-105133 — Ahsay AhsayCBS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
+      "id": "arxiv:2610.19498v1",
+      "source": "arxiv",
+      "title": "What You Sign Is Not What You Run: The Verifiability Gap in Quantized LLM Supply Chains",
+      "url": "http://arxiv.org/abs/2610.19498v1",
+      "published": "2026-10-14T03:16:29Z",
+      "authors": "Wei-Liang Liu et al.",
+      "novelty": 4,
+      "actionability": 4,
       "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-105133"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088420762Z"
+      "quadrant": "BREAK GLASS",
+      "dek": "Independent Verifiability Rate of quantized GGUF models is 0/198 on Hugging Face; floating-point contraction and quantization recipe must be disclosed to reproduce.",
+      "unproven": "whether disclosure becomes standard practice; adoption by model providers; impact on supply chain trust workflows.",
+      "scored_at": "2026-10-15T08:42:09.248819361Z"
     },
     {
       "id": "kev:CVE-2026-0322",
@@ -69,6 +65,38 @@
       "scored_at": "2026-10-14T22:50:43.088422445Z"
     },
     {
+      "id": "kev:CVE-2026-105133",
+      "source": "kev",
+      "title": "CVE-2026-105133 — Ahsay AhsayCBS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-105133"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088420762Z"
+    },
+    {
+      "id": "kev:CVE-2026-76519",
+      "source": "kev",
+      "title": "CVE-2026-76519 — Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Secure Email Gateway. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-76519"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088419119Z"
+    },
+    {
       "id": "kev:CVE-2026-105134",
       "source": "kev",
       "title": "CVE-2026-105134 — Ahsay AhsayCBS Command Injection Vulnerability",
@@ -83,6 +111,21 @@
         "CVE-2026-105134"
       ],
       "scored_at": "2026-10-14T22:50:43.088416043Z"
+    },
+    {
+      "id": "arxiv:2610.19264v1",
+      "source": "arxiv",
+      "title": "Beyond Maliciousness: Static and Runtime Attack-Surface Profiling of Agent Skills",
+      "url": "http://arxiv.org/abs/2610.19264v1",
+      "published": "2026-10-13T22:34:07Z",
+      "authors": "Ratnesh Pandey et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "70% of agent skills in two marketplaces expose shell execution or elevated capabilities with no user-visible permission model.",
+      "unproven": "methodology applies to skills as static artifacts; does not model capability drift across agent model versions or prompt-injection attacks that bypass skill design",
+      "scored_at": "2026-10-15T08:42:22.553527168Z"
     },
     {
       "id": "arxiv:2610.18612v1",
@@ -113,6 +156,21 @@
       "dek": "X.js: live benchmark of 1,159 validated Node.js taint-style exploits across code injection, prototype pollution, and path traversal.",
       "unproven": "Coverage is JavaScript/npm only; does not cover polyglot dependency chains or transitive supply-chain risk in the reader's financial services environment.",
       "scored_at": "2026-10-14T09:08:57.373688916Z"
+    },
+    {
+      "id": "arxiv:2610.18585v2",
+      "source": "arxiv",
+      "title": "X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities",
+      "url": "http://arxiv.org/abs/2610.18585v2",
+      "published": "2026-10-13T15:47:08Z",
+      "authors": "José Afonso et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Live benchmark of 1,159 validated Node.js exploits across injection, prototype pollution, and path traversal from 1,738 advisories through 2026.",
+      "unproven": "current taxonomy limited to taint-style vulnerabilities; does not extend to supply-chain attacks, logic bugs, or async-related flaws in npm ecosystem",
+      "scored_at": "2026-10-15T08:42:22.553527899Z"
     },
     {
       "id": "arxiv:2610.18508v1",
@@ -237,6 +295,66 @@
       "scored_at": "2026-10-15T02:23:30.767224761Z"
     },
     {
+      "id": "arxiv:2610.19947v1",
+      "source": "arxiv",
+      "title": "Quiet Triggers, Loud Footprints: A Tri-Space Measurement Study of Backdoor Stealthiness",
+      "url": "http://arxiv.org/abs/2610.19947v1",
+      "published": "2026-10-14T10:29:26Z",
+      "authors": "Behrad Tajalli et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Tri-space measurement framework reveals backdoor attacks quiet in one space are loud in others; no attack achieves consistent stealthiness.",
+      "unproven": "evaluation limited to image classification; applicability to other domains and defenses beyond those tested undemonstrated.",
+      "scored_at": "2026-10-15T08:41:56.834339008Z"
+    },
+    {
+      "id": "arxiv:2610.19766v1",
+      "source": "arxiv",
+      "title": "Analyzing and Mitigating Poisoning Attacks on Flow-Based Intrusion Detection",
+      "url": "http://arxiv.org/abs/2610.19766v1",
+      "published": "2026-10-14T08:17:58Z",
+      "authors": "Florian Spelter et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "0.001% training-data poisoning implants undetectable backdoors in flow-based IDS; diagnostic methodology localizes triggers and enables mitigation.",
+      "unproven": "evaluated on single dataset and model family; applicability to production IDS deployments and diverse network architectures undemonstrated.",
+      "scored_at": "2026-10-15T08:41:56.834340871Z"
+    },
+    {
+      "id": "arxiv:2610.19607v1",
+      "source": "arxiv",
+      "title": "A Graph-Based Analysis of Comparability, Scale, and Attribution in Private Transformer Inference",
+      "url": "http://arxiv.org/abs/2610.19607v1",
+      "published": "2026-10-14T05:30:25Z",
+      "authors": "Souvik Das et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Graph analysis of 62 private Transformer inference systems shows only 1 of 1,891 pairs is directly comparable; scaling frontier plateaus at 13B parameters.",
+      "unproven": "whether findings change vendor selection criteria in practice; applicability to post-2024 PTI systems not in the graph.",
+      "scored_at": "2026-10-15T08:42:09.24881875Z"
+    },
+    {
+      "id": "arxiv:2610.19384v1",
+      "source": "arxiv",
+      "title": "MMA-SafetyBench: A Benchmark for Multimodal Agent Safety Evaluation",
+      "url": "http://arxiv.org/abs/2610.19384v1",
+      "published": "2026-10-14T01:30:03Z",
+      "authors": "Yuke Wang et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Visual Semantic Hijacking attacks multimodal agents via forged UI elements; MMA-SafetyBench dataset shows 87.96% attack success rate across nine models.",
+      "unproven": "whether defense strategies scale to production agent deployments; generalization beyond tested domains; robustness against detection-aware attacks.",
+      "scored_at": "2026-10-15T08:42:09.248819592Z"
+    },
+    {
       "id": "arxiv:2610.18831v1",
       "source": "arxiv",
       "title": "AegisAsync: Symbolic Async-Event Simulation for Risks in Python Asynchronous Programs",
@@ -280,128 +398,6 @@
       "dek": "AnonVul benchmark of 132 business-logic vulnerabilities across nine languages tests whether agents discover real flaws or memorize training data.",
       "unproven": "whether current frontier models saturate the benchmark within one release cycle; generalization beyond the 43 languages and vulnerability patterns included",
       "scored_at": "2026-10-14T09:09:32.950364464Z"
-    },
-    {
-      "id": "arxiv:2610.16470v1",
-      "source": "arxiv",
-      "title": "CircuitBreak: Pruning a Sparse Safety Circuit of Neurons",
-      "url": "http://arxiv.org/abs/2610.16470v1",
-      "published": "2026-10-12T09:24:48Z",
-      "authors": "Jincheng Ying et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "CircuitBreak prunes 29–150 neurons (0.007–0.04% of parameters) to flip safety circuits, raising refusal bypass rate from 2–8% to 88% on four instruction-tuned models.",
-      "unproven": "evaluated on white-box access to ten models; does not test against models with finetuned safety redundancy, against adaptive refusal training, or with black-box constraints",
-      "scored_at": "2026-10-14T16:10:45.186590688Z"
-    },
-    {
-      "id": "arxiv:2610.16414v1",
-      "source": "arxiv",
-      "title": "Purpose IR: Compiling User Purpose for Privacy-Preserving Agent Workflow State",
-      "url": "http://arxiv.org/abs/2610.16414v1",
-      "published": "2026-10-12T08:48:23Z",
-      "authors": "Dongsheng Chen et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Purpose IR compiles natural-language purpose into typed dataflow graphs enforcing purpose-noninterference for agent workflow state.",
-      "unproven": "Practicality of expressing real organizational policies in Purpose IR syntax; overhead in production agent systems.",
-      "scored_at": "2026-10-14T16:10:56.990293832Z"
-    },
-    {
-      "id": "hn:50052814",
-      "source": "hn",
-      "title": "Zod 4.6.6 compromised by malware?",
-      "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
-      "published": "2026-10-12T07:47:29Z",
-      "authors": "luggage_bazooka",
-      "points": 176,
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Zod npm package 4.6.6 hit by supply-chain malware; evidence of active compromise in transit dependency.",
-      "unproven": "scope and exploit chain of malware payload not detailed; no confirmation of how many installs received infected version",
-      "scored_at": "2026-10-12T20:36:05.906241671Z"
-    },
-    {
-      "id": "hn:50077619",
-      "source": "hn",
-      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
-      "url": "https://parsimony.lasu.dev/",
-      "published": "2026-10-13T19:50:31Z",
-      "authors": "lasu",
-      "points": 54,
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Parsimony benchmark measures coding units added by AI models across existing SWE-bench patches; informs model selection when integrating code generation into SDLC.",
-      "unproven": "whether metric predicts long-term maintenance burden in production codebases or correlates with security debt",
-      "scored_at": "2026-10-14T02:43:40.158953357Z"
-    },
-    {
-      "id": "arxiv:2610.18660v1",
-      "source": "arxiv",
-      "title": "ARACDE: Retrofitting Databases with ABAC using External Authorization Engines",
-      "url": "http://arxiv.org/abs/2610.18660v1",
-      "published": "2026-10-13T16:23:43Z",
-      "authors": "Karthikeya S M Yelisetty et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "ARCADE externalizes database access control to Cedar policy engine for MySQL and PostgreSQL with minimal code changes.",
-      "unproven": "Demonstrated on two databases; does not establish whether policy composition methodology scales to large multi-tenant deployments or covers all SDLC threat models the reader defends against.",
-      "scored_at": "2026-10-14T09:08:57.373687443Z"
-    },
-    {
-      "id": "arxiv:2610.18609v1",
-      "source": "arxiv",
-      "title": "DPOison-VL: Clean Preference Poisoning in Vision-Language Direct Preference Optimization",
-      "url": "http://arxiv.org/abs/2610.18609v1",
-      "published": "2026-10-13T15:58:58Z",
-      "authors": "Chengtao Jian et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Clean preference poisoning attack on vision-language model DPO training uses imperceptible image perturbations; achieves 98% attack success.",
-      "unproven": "Limited to DPO alignment; does not establish whether attack persists post-deployment or applies to agents in SDLC pipeline the reader oversees.",
-      "scored_at": "2026-10-14T09:08:57.373688626Z"
-    },
-    {
-      "id": "arxiv:2610.18262v1",
-      "source": "arxiv",
-      "title": "Encrypted Skills Can Become New Security Exploits If AI Agents Know How to Decipher",
-      "url": "http://arxiv.org/abs/2610.18262v1",
-      "published": "2026-10-13T12:25:46Z",
-      "authors": "Yan-Lun Chen et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Ciphered skill injection embeds encoded malicious instructions in third-party agent skills; scanners rarely detect them.",
-      "unproven": "limited to eight models and 139 test pairs; does not measure detection rates of production skill scanners or describe realistic skill repositories",
-      "scored_at": "2026-10-14T09:09:08.705902123Z"
-    },
-    {
-      "id": "arxiv:2610.17952v1",
-      "source": "arxiv",
-      "title": "Standing, Not Truth: Who May Say What About Whom in Agentic Selection",
-      "url": "http://arxiv.org/abs/2610.17952v1",
-      "published": "2026-10-13T08:35:44Z",
-      "authors": "Yedidel Louck et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Standing—whether a publisher is entitled to assert about a competitor—is missing from twelve agent selection defenses.",
-      "unproven": "theoretical framework only; no empirical implementation; no measurement of standing-aware filtering on real agents; applicability to SDLC tooling unclear.",
-      "scored_at": "2026-10-14T09:09:21.076901772Z"
     }
   ],
   "noise": [
@@ -422,22 +418,6 @@
       "scored_at": "2026-10-13T20:53:56.189660453Z"
     },
     {
-      "id": "hn:50052638",
-      "source": "hn",
-      "title": "I Found a $90k Remote Code Execution Vulnerability in Google",
-      "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
-      "published": "2026-10-12T07:28:53Z",
-      "authors": "soeckly",
-      "points": 148,
-      "novelty": 3,
-      "actionability": 2,
-      "score": 5,
-      "quadrant": "NOISE FLOOR",
-      "dek": "$90k Google RCE writeup; single finding disclosed post-remediation, not actionable threat.",
-      "unproven": "vulnerability already patched; demonstrates no ongoing exposure to reader's environment",
-      "scored_at": "2026-10-12T20:36:05.906241801Z"
-    },
-    {
       "id": "hn:50055375",
       "source": "hn",
       "title": "Incident with Actions, Pull Requests and Issues",
@@ -452,6 +432,22 @@
       "dek": "GitHub Actions incident report; routine infrastructure incident, not a security finding.",
       "unproven": "not a security issue",
       "scored_at": "2026-10-12T20:36:05.906241401Z"
+    },
+    {
+      "id": "hn:50064840",
+      "source": "hn",
+      "title": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+      "url": "https://github.com/bherbruck/solidcraft",
+      "published": "2026-10-13T00:11:04Z",
+      "authors": "bherbruck",
+      "points": 111,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "New CAD tool in Rust with MCP protocol support; not relevant to application security engineering.",
+      "unproven": "tool announcement, not a security finding or methodology",
+      "scored_at": "2026-10-13T15:25:04.842450087Z"
     }
   ]
 }
