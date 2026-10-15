@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T15:58:42.303020687Z",
+  "generated": "2026-10-15T19:41:13.559463182Z",
   "edition": 83,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,16 +8,34 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 19,
-      "kev": 6
+      "arxiv": 17,
+      "hn": 1,
+      "kev": 7
     },
     "by_quadrant": {
-      "BREAK GLASS": 10,
-      "NEW GROUND": 9,
-      "STANDING ORDERS": 6
+      "BREAK GLASS": 9,
+      "NEW GROUND": 8,
+      "NOISE FLOOR": 1,
+      "STANDING ORDERS": 7
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-21589",
+      "source": "kev",
+      "title": "CVE-2026-21589 — Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
+      "published": "2026-10-15T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Atlassian Multiple Products. Confirmed exploited in the wild. Federal remediation due 18 October.",
+      "cves": [
+        "CVE-2026-21589"
+      ],
+      "scored_at": "2026-10-15T19:40:56.908494645Z"
+    },
     {
       "id": "arxiv:2610.20049v1",
       "source": "arxiv",
@@ -47,22 +65,6 @@
       "dek": "Independent Verifiability Rate of quantized GGUF models is 0/198 on Hugging Face; floating-point contraction and quantization recipe must be disclosed to reproduce.",
       "unproven": "whether disclosure becomes standard practice; adoption by model providers; impact on supply chain trust workflows.",
       "scored_at": "2026-10-15T08:42:09.248819361Z"
-    },
-    {
-      "id": "kev:CVE-2026-76519",
-      "source": "kev",
-      "title": "CVE-2026-76519 — Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Secure Email Gateway. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-76519"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088419119Z"
     },
     {
       "id": "kev:CVE-2026-105133",
@@ -95,6 +97,22 @@
         "CVE-2026-105134"
       ],
       "scored_at": "2026-10-14T22:50:43.088416043Z"
+    },
+    {
+      "id": "kev:CVE-2026-76519",
+      "source": "kev",
+      "title": "CVE-2026-76519 — Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Secure Email Gateway. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-76519"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088419119Z"
     },
     {
       "id": "kev:CVE-2026-0322",
@@ -143,21 +161,6 @@
       "scored_at": "2026-10-14T09:08:57.373688465Z"
     },
     {
-      "id": "arxiv:2610.18585v2",
-      "source": "arxiv",
-      "title": "X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities",
-      "url": "http://arxiv.org/abs/2610.18585v2",
-      "published": "2026-10-13T15:47:08Z",
-      "authors": "José Afonso et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Live benchmark of 1,159 validated Node.js exploits across injection, prototype pollution, and path traversal from 1,738 advisories through 2026.",
-      "unproven": "current taxonomy limited to taint-style vulnerabilities; does not extend to supply-chain attacks, logic bugs, or async-related flaws in npm ecosystem",
-      "scored_at": "2026-10-15T08:42:22.553527899Z"
-    },
-    {
       "id": "arxiv:2610.18585v1",
       "source": "arxiv",
       "title": "X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities",
@@ -171,6 +174,21 @@
       "dek": "X.js: live benchmark of 1,159 validated Node.js taint-style exploits across code injection, prototype pollution, and path traversal.",
       "unproven": "Coverage is JavaScript/npm only; does not cover polyglot dependency chains or transitive supply-chain risk in the reader's financial services environment.",
       "scored_at": "2026-10-14T09:08:57.373688916Z"
+    },
+    {
+      "id": "arxiv:2610.18585v2",
+      "source": "arxiv",
+      "title": "X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities",
+      "url": "http://arxiv.org/abs/2610.18585v2",
+      "published": "2026-10-13T15:47:08Z",
+      "authors": "José Afonso et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Live benchmark of 1,159 validated Node.js exploits across injection, prototype pollution, and path traversal from 1,738 advisories through 2026.",
+      "unproven": "current taxonomy limited to taint-style vulnerabilities; does not extend to supply-chain attacks, logic bugs, or async-related flaws in npm ecosystem",
+      "scored_at": "2026-10-15T08:42:22.553527899Z"
     },
     {
       "id": "arxiv:2610.18508v1",
@@ -248,21 +266,6 @@
       "dek": "VulnBump benchmark: 307 real-world dependency upgrades show Snyk's Evo Remediation Agent passes 90.2% vs. baseline 46.9%, Claude Code 59.6%.",
       "unproven": "whether agent performance holds on unreleased vulnerabilities or zero-days; applicability to private package registries or proprietary build systems",
       "scored_at": "2026-10-14T09:09:32.950369263Z"
-    },
-    {
-      "id": "arxiv:2610.17020v1",
-      "source": "arxiv",
-      "title": "CWE-bench: Refocusing Agentic Security from Exploitation to Defense",
-      "url": "http://arxiv.org/abs/2610.17020v1",
-      "published": "2026-10-12T16:00:55Z",
-      "authors": "Gonzalo Gonzalez-Pumariega et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "CWE-bench evaluates agents on audit-and-repair across 120 repositories, 73 CWE types, and eight languages; best agents reach 68% pass@1.",
-      "unproven": "Benchmark is private and held-out; external researchers cannot reproduce results or validate verifier correctness independently.",
-      "scored_at": "2026-10-14T16:10:30.586082396Z"
     },
     {
       "id": "arxiv:2610.20537v1",
@@ -385,69 +388,69 @@
       "scored_at": "2026-10-14T09:09:32.950364464Z"
     },
     {
-      "id": "arxiv:2610.20245v1",
-      "source": "arxiv",
-      "title": "P2Patch: Exploit-Guided Vulnerability Repair",
-      "url": "http://arxiv.org/abs/2610.20245v1",
-      "published": "2026-10-14T14:19:21Z",
-      "authors": "Mohsen Iranmanesh et al.",
-      "novelty": 4,
-      "actionability": 2,
+      "id": "hn:50104310",
+      "source": "hn",
+      "title": "Prompt injection in HTTP headers: what 217M web responses show",
+      "url": "https://signalscorps.com/blog/prompt-injection-in-http-headers",
+      "published": "2026-10-15T14:36:22Z",
+      "authors": "panoramas4good",
+      "points": 71,
+      "novelty": 3,
+      "actionability": 3,
       "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Adversarial repair loop forces patching agents to block multiple proof-of-vulnerability variants on 101 CVEs.",
-      "unproven": "Evaluation on fixed CVE corpus; generalization to novel vulnerability classes and production patch deployment unclear.",
-      "scored_at": "2026-10-15T08:41:44.500140644Z"
+      "quadrant": "NOISE FLOOR",
+      "dek": "Study of 217M web responses shows prompt injection patterns in HTTP headers; corpus-based measurement of known attack class.",
+      "unproven": "HTTP header injection prevalence does not establish exploitation risk in the reader's SDLC context; survey-scale finding",
+      "scored_at": "2026-10-15T19:41:05.73536681Z"
     }
   ],
   "noise": [
     {
-      "id": "hn:50073633",
+      "id": "hn:50084240",
       "source": "hn",
-      "title": "Redesigning source control at Anthropic",
-      "url": "https://anthropic.com/engineering/redesigning-source-control",
-      "published": "2026-10-13T15:49:56Z",
-      "authors": "Philpax",
-      "points": 330,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Anthropic describes its internal source control architecture; applicable insights are organizational and tooling patterns, not technique.",
-      "unproven": "generalization beyond Anthropic's scale and deployment model; transferability to financial services SDLC unclear.",
-      "scored_at": "2026-10-13T20:53:56.189660453Z"
-    },
-    {
-      "id": "hn:50064840",
-      "source": "hn",
-      "title": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
-      "url": "https://github.com/bherbruck/solidcraft",
-      "published": "2026-10-13T00:11:04Z",
-      "authors": "bherbruck",
-      "points": 111,
+      "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
+      "url": "https://typeof.net/Iosevka",
+      "published": "2026-10-14T08:27:59Z",
+      "authors": "otobrglez",
+      "points": 734,
       "novelty": 1,
       "actionability": 1,
       "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "New CAD tool in Rust with MCP protocol support; not relevant to application security engineering.",
-      "unproven": "tool announcement, not a security finding or methodology",
-      "scored_at": "2026-10-13T15:25:04.842450087Z"
+      "dek": "Iosevka monospace font released open-source; general typography project.",
+      "scored_at": "2026-10-15T19:41:12.294522185Z"
     },
     {
-      "id": "hn:50068508",
+      "id": "hn:50088935",
       "source": "hn",
-      "title": "Crypto thieves sell hardware wallets with secret eSIM",
-      "url": "https://heise.de/en/news/Crypto-thieves-sell-hardware-wallets-with-secret-eSIM-11485188.html",
-      "published": "2026-10-13T08:34:12Z",
-      "authors": "qwertox",
-      "points": 102,
-      "novelty": 3,
-      "actionability": 1,
+      "title": "Passkeys are not a trap",
+      "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap",
+      "published": "2026-10-14T15:15:45Z",
+      "authors": "speckx",
+      "points": 635,
+      "novelty": 2,
+      "actionability": 2,
       "score": 4,
       "quadrant": "NOISE FLOOR",
-      "dek": "Supply-chain attack on hardware wallets via compromised eSIM; threat to end users, not developers.",
-      "unproven": "this is a supply compromise, not a software vulnerability; outside the reader's remit",
-      "scored_at": "2026-10-13T15:25:04.842448714Z"
+      "dek": "Opinion piece argues passkey adoption addresses common authentication misconceptions.",
+      "unproven": "no new measurement or threat analysis",
+      "scored_at": "2026-10-15T19:41:12.29452118Z"
+    },
+    {
+      "id": "hn:50083130",
+      "source": "hn",
+      "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "url": "https://github.com/android/ndk/issues/2260",
+      "published": "2026-10-14T06:18:01Z",
+      "authors": "tharen",
+      "points": 497,
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Android developers disassemble AOSP libraries to report bugs due to delayed source releases.",
+      "unproven": "limited to Android ecosystem, no quantification of impact on security review",
+      "scored_at": "2026-10-15T19:41:12.294522279Z"
     }
   ]
 }
