@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-14T22:51:31.05443888Z",
-  "edition": 82,
+  "generated": "2026-10-15T02:23:57.598914204Z",
+  "edition": 83,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -13,9 +13,9 @@
       "kev": 6
     },
     "by_quadrant": {
-      "BREAK GLASS": 9,
-      "NEW GROUND": 7,
-      "NOISE FLOOR": 2,
+      "BREAK GLASS": 7,
+      "NEW GROUND": 8,
+      "NOISE FLOOR": 3,
       "STANDING ORDERS": 7
     }
   },
@@ -53,22 +53,6 @@
       "scored_at": "2026-10-14T22:50:43.088420762Z"
     },
     {
-      "id": "kev:CVE-2026-105134",
-      "source": "kev",
-      "title": "CVE-2026-105134 — Ahsay AhsayCBS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-105134"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088416043Z"
-    },
-    {
       "id": "kev:CVE-2026-0322",
       "source": "kev",
       "title": "CVE-2026-0322 — Palo Alto Networks PAN-OS Code Injection Vulnerability",
@@ -83,6 +67,22 @@
         "CVE-2026-0322"
       ],
       "scored_at": "2026-10-14T22:50:43.088422445Z"
+    },
+    {
+      "id": "kev:CVE-2026-105134",
+      "source": "kev",
+      "title": "CVE-2026-105134 — Ahsay AhsayCBS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-105134"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088416043Z"
     },
     {
       "id": "arxiv:2610.18612v1",
@@ -145,22 +145,6 @@
       "scored_at": "2026-10-14T09:09:08.705898937Z"
     },
     {
-      "id": "kev:CVE-2026-96951",
-      "source": "kev",
-      "title": "CVE-2026-96951 — Microsoft Windows Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
-      "published": "2026-10-13T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft Windows. Confirmed exploited in the wild. Federal remediation due 16 October.",
-      "cves": [
-        "CVE-2026-96951"
-      ],
-      "scored_at": "2026-10-13T20:53:54.289479405Z"
-    },
-    {
       "id": "kev:CVE-2026-104935",
       "source": "kev",
       "title": "CVE-2026-104935 — Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
@@ -175,6 +159,22 @@
         "CVE-2026-104935"
       ],
       "scored_at": "2026-10-13T15:25:01.757860512Z"
+    },
+    {
+      "id": "kev:CVE-2026-96951",
+      "source": "kev",
+      "title": "CVE-2026-96951 — Microsoft Windows Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
+      "published": "2026-10-13T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft Windows. Confirmed exploited in the wild. Federal remediation due 16 October.",
+      "cves": [
+        "CVE-2026-96951"
+      ],
+      "scored_at": "2026-10-13T20:53:54.289479405Z"
     },
     {
       "id": "arxiv:2610.17374v1",
@@ -222,34 +222,19 @@
       "scored_at": "2026-10-14T16:10:45.186588845Z"
     },
     {
-      "id": "arxiv:2610.16039v1",
+      "id": "arxiv:2610.20537v1",
       "source": "arxiv",
-      "title": "When Agents Talk, Secrets Travel: Topology-Driven Leakage and Recipient-Conditioned Sanitization in Multi-Agent LLM Systems",
-      "url": "http://arxiv.org/abs/2610.16039v1",
-      "published": "2026-10-12T01:23:51Z",
-      "authors": "Sunday Oyinlola Ogundoyin et al.",
+      "title": "Quantum-Aware Key Rank for Side-Channel Attacks evaluation",
+      "url": "http://arxiv.org/abs/2610.20537v1",
+      "published": "2026-10-14T17:31:48Z",
+      "authors": "Yevgen Kotukh",
       "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Multi-agent LLM systems leak secrets to unauthorized agents through routine coordination; RECONS sanitizer blocks propagation by recipient context rather than sensitivity alone.",
-      "unproven": "Scalability to real-world agent graphs larger than the tested topologies; whether RECONS overhead remains acceptable at production scale; effectiveness against adversarially-designed agent sequences.",
-      "scored_at": "2026-10-14T16:11:11.980791544Z"
-    },
-    {
-      "id": "arxiv:2610.16005v1",
-      "source": "arxiv",
-      "title": "DelegateGuard: Purpose-Bound Capabilities for Delegated LLM Agent Workflows",
-      "url": "http://arxiv.org/abs/2610.16005v1",
-      "published": "2026-10-12T00:12:11Z",
-      "authors": "Phat T. Tran-Truong et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Reference monitor enforces purpose-bound capabilities in delegated LLM agent workflows, preventing confused-deputy exfiltration and authority amplification across 517k email traces.",
-      "unproven": "Overhead in production agents with sub-second latency requirements; bypass resistance against agents trained to circumvent capability predicates; adoption path when agents do not control their own authorization layer.",
-      "scored_at": "2026-10-14T16:11:11.980791985Z"
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Quantum-aware key rank metric models post-quantum cryptanalysis of block ciphers with quadratic advantage collapsing beyond rank 2^58.6 under NIST depth.",
+      "unproven": "Practical exploitation path; applicability to ciphers outside AES-128; confirmation that actual quantum hardware will achieve the theoretical speedup.",
+      "scored_at": "2026-10-15T02:23:30.767224761Z"
     },
     {
       "id": "arxiv:2610.18831v1",
@@ -343,21 +328,6 @@
       "scored_at": "2026-10-12T20:36:05.906241671Z"
     },
     {
-      "id": "arxiv:2610.15988v1",
-      "source": "arxiv",
-      "title": "CreepScope: Measuring Post-Use Authorization Exposure in Tool-Using Agents",
-      "url": "http://arxiv.org/abs/2610.15988v1",
-      "published": "2026-10-11T23:39:44Z",
-      "authors": "Haoran Yu et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "CreepScope measures privilege creep lifecycle in agent workflows; Step Lease achieves zero residual debt, while monotonic grant retains mean 13-step exposure.",
-      "unproven": "Whether Step Lease generalizes to real agents that reuse capabilities; overhead of tracking per-step authority on live workloads; applicability when agents cannot be restructured around lease windows.",
-      "scored_at": "2026-10-14T16:11:11.980792435Z"
-    },
-    {
       "id": "hn:50077619",
       "source": "hn",
       "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
@@ -402,6 +372,36 @@
       "dek": "Clean preference poisoning attack on vision-language model DPO training uses imperceptible image perturbations; achieves 98% attack success.",
       "unproven": "Limited to DPO alignment; does not establish whether attack persists post-deployment or applies to agents in SDLC pipeline the reader oversees.",
       "scored_at": "2026-10-14T09:08:57.373688626Z"
+    },
+    {
+      "id": "arxiv:2610.18262v1",
+      "source": "arxiv",
+      "title": "Encrypted Skills Can Become New Security Exploits If AI Agents Know How to Decipher",
+      "url": "http://arxiv.org/abs/2610.18262v1",
+      "published": "2026-10-13T12:25:46Z",
+      "authors": "Yan-Lun Chen et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Ciphered skill injection embeds encoded malicious instructions in third-party agent skills; scanners rarely detect them.",
+      "unproven": "limited to eight models and 139 test pairs; does not measure detection rates of production skill scanners or describe realistic skill repositories",
+      "scored_at": "2026-10-14T09:09:08.705902123Z"
+    },
+    {
+      "id": "arxiv:2610.17952v1",
+      "source": "arxiv",
+      "title": "Standing, Not Truth: Who May Say What About Whom in Agentic Selection",
+      "url": "http://arxiv.org/abs/2610.17952v1",
+      "published": "2026-10-13T08:35:44Z",
+      "authors": "Yedidel Louck et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Standing—whether a publisher is entitled to assert about a competitor—is missing from twelve agent selection defenses.",
+      "unproven": "theoretical framework only; no empirical implementation; no measurement of standing-aware filtering on real agents; applicability to SDLC tooling unclear.",
+      "scored_at": "2026-10-14T09:09:21.076901772Z"
     }
   ],
   "noise": [
@@ -422,22 +422,6 @@
       "scored_at": "2026-10-13T20:53:56.189660453Z"
     },
     {
-      "id": "hn:50049872",
-      "source": "hn",
-      "title": "Doory – Open-Source Canva",
-      "url": "https://github.com/shaongitbd/doory",
-      "published": "2026-10-12T00:48:27Z",
-      "authors": "acley",
-      "points": 194,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Open-source Canva clone; general software engineering project unrelated to security or SDLC.",
-      "unproven": "outside application security scope",
-      "scored_at": "2026-10-12T20:36:05.906243754Z"
-    },
-    {
       "id": "hn:50052638",
       "source": "hn",
       "title": "I Found a $90k Remote Code Execution Vulnerability in Google",
@@ -452,6 +436,22 @@
       "dek": "$90k Google RCE writeup; single finding disclosed post-remediation, not actionable threat.",
       "unproven": "vulnerability already patched; demonstrates no ongoing exposure to reader's environment",
       "scored_at": "2026-10-12T20:36:05.906241801Z"
+    },
+    {
+      "id": "hn:50055375",
+      "source": "hn",
+      "title": "Incident with Actions, Pull Requests and Issues",
+      "url": "https://githubstatus.com/incidents/93njd414rpbx",
+      "published": "2026-10-12T12:23:51Z",
+      "authors": "dkpk",
+      "points": 147,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "GitHub Actions incident report; routine infrastructure incident, not a security finding.",
+      "unproven": "not a security issue",
+      "scored_at": "2026-10-12T20:36:05.906241401Z"
     }
   ]
 }
