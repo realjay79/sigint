@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T15:47:03.104589255Z",
+  "generated": "2026-10-16T19:09:05.297233206Z",
   "edition": 84,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,16 +8,48 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 20,
-      "kev": 5
+      "arxiv": 18,
+      "kev": 7
     },
     "by_quadrant": {
-      "BREAK GLASS": 13,
-      "NEW GROUND": 5,
-      "STANDING ORDERS": 7
+      "BREAK GLASS": 10,
+      "NEW GROUND": 6,
+      "STANDING ORDERS": 9
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2025-61624",
+      "source": "kev",
+      "title": "CVE-2025-61624 — Fortinet Multiple Products Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+      "published": "2026-10-16T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Fortinet Multiple Products. Confirmed exploited in the wild. Federal remediation due 19 October.",
+      "cves": [
+        "CVE-2025-61624"
+      ],
+      "scored_at": "2026-10-16T19:09:01.48813763Z"
+    },
+    {
+      "id": "kev:CVE-2026-102764",
+      "source": "kev",
+      "title": "CVE-2026-102764 — BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+      "published": "2026-10-16T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "BeyondTrust Remote Support. Confirmed exploited in the wild. Federal remediation due 19 October.",
+      "cves": [
+        "CVE-2026-102764"
+      ],
+      "scored_at": "2026-10-16T19:09:01.488135025Z"
+    },
     {
       "id": "arxiv:2610.22301v1",
       "source": "arxiv",
@@ -186,22 +218,6 @@
       "scored_at": "2026-10-14T22:50:43.088419119Z"
     },
     {
-      "id": "kev:CVE-2026-105133",
-      "source": "kev",
-      "title": "CVE-2026-105133 — Ahsay AhsayCBS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-105133"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088420762Z"
-    },
-    {
       "id": "kev:CVE-2026-0322",
       "source": "kev",
       "title": "CVE-2026-0322 — Palo Alto Networks PAN-OS Code Injection Vulnerability",
@@ -216,6 +232,22 @@
         "CVE-2026-0322"
       ],
       "scored_at": "2026-10-14T22:50:43.088422445Z"
+    },
+    {
+      "id": "kev:CVE-2026-105133",
+      "source": "kev",
+      "title": "CVE-2026-105133 — Ahsay AhsayCBS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-105133"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088420762Z"
     },
     {
       "id": "kev:CVE-2026-105134",
@@ -247,51 +279,6 @@
       "dek": "70% of agent skills in two marketplaces expose shell execution or elevated capabilities with no user-visible permission model.",
       "unproven": "methodology applies to skills as static artifacts; does not model capability drift across agent model versions or prompt-injection attacks that bypass skill design",
       "scored_at": "2026-10-15T08:42:22.553527168Z"
-    },
-    {
-      "id": "arxiv:2610.18612v1",
-      "source": "arxiv",
-      "title": "Nudge the Judge: Uncovering Program Decision Hijacking in Real-World Jev Applications",
-      "url": "http://arxiv.org/abs/2610.18612v1",
-      "published": "2026-10-13T15:59:31Z",
-      "authors": "Yang Luo et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "JevProbe detects program decision hijacking in LLM-as-judge applications: 81.5% of 228 apps exhibit exploitable decision flips.",
-      "unproven": "Evaluated on public GitHub applications; does not establish exploitation feasibility under production guardrails or demonstrate impact on enterprise agent deployments entering the reader's SDLC.",
-      "scored_at": "2026-10-14T09:08:57.373688465Z"
-    },
-    {
-      "id": "arxiv:2610.18585v1",
-      "source": "arxiv",
-      "title": "X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities",
-      "url": "http://arxiv.org/abs/2610.18585v1",
-      "published": "2026-10-13T15:47:08Z",
-      "authors": "José Afonso et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "X.js: live benchmark of 1,159 validated Node.js taint-style exploits across code injection, prototype pollution, and path traversal.",
-      "unproven": "Coverage is JavaScript/npm only; does not cover polyglot dependency chains or transitive supply-chain risk in the reader's financial services environment.",
-      "scored_at": "2026-10-14T09:08:57.373688916Z"
-    },
-    {
-      "id": "arxiv:2610.18585v2",
-      "source": "arxiv",
-      "title": "X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities",
-      "url": "http://arxiv.org/abs/2610.18585v2",
-      "published": "2026-10-13T15:47:08Z",
-      "authors": "José Afonso et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Live benchmark of 1,159 validated Node.js exploits across injection, prototype pollution, and path traversal from 1,738 advisories through 2026.",
-      "unproven": "current taxonomy limited to taint-style vulnerabilities; does not extend to supply-chain attacks, logic bugs, or async-related flaws in npm ecosystem",
-      "scored_at": "2026-10-15T08:42:22.553527899Z"
     },
     {
       "id": "arxiv:2610.22243v1",
@@ -397,6 +384,21 @@
       "dek": "Tri-space measurement framework reveals backdoor attacks quiet in one space are loud in others; no attack achieves consistent stealthiness.",
       "unproven": "evaluation limited to image classification; applicability to other domains and defenses beyond those tested undemonstrated.",
       "scored_at": "2026-10-15T08:41:56.834339008Z"
+    },
+    {
+      "id": "arxiv:2610.19766v1",
+      "source": "arxiv",
+      "title": "Analyzing and Mitigating Poisoning Attacks on Flow-Based Intrusion Detection",
+      "url": "http://arxiv.org/abs/2610.19766v1",
+      "published": "2026-10-14T08:17:58Z",
+      "authors": "Florian Spelter et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "0.001% training-data poisoning implants undetectable backdoors in flow-based IDS; diagnostic methodology localizes triggers and enables mitigation.",
+      "unproven": "evaluated on single dataset and model family; applicability to production IDS deployments and diverse network architectures undemonstrated.",
+      "scored_at": "2026-10-15T08:41:56.834340871Z"
     }
   ],
   "noise": [

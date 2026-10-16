@@ -29271,6 +29271,54 @@
     "unproven": "no new exploitation method; endpoint defense already targets this vector",
     "scored_at": "2026-10-15T19:41:05.735365395Z"
   },
+  "hn:50109642": {
+    "id": "hn:50109642",
+    "source": "hn",
+    "title": "BBC licence fee to be extended with 'YouTube tax' to force more to pay",
+    "url": "https://independent.co.uk/news/uk/politics/bbc-licence-fee-charter-youtube-tax-netflix-disney-b3067500.html",
+    "published": "2026-10-15T20:17:16Z",
+    "authors": "beejiu",
+    "points": 37,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "UK government policy proposal for BBC funding; no relevance to application security engineering or secure development.",
+    "unproven": "Policy discussion has no connection to reader's domain or decisions.",
+    "scored_at": "2026-10-16T19:09:05.282716886Z"
+  },
+  "hn:50117451": {
+    "id": "hn:50117451",
+    "source": "hn",
+    "title": "Qualcomm Legally Proves Arm Breached Its License, Wins $2",
+    "url": "https://techpowerup.com/353776/qualcomm-legally-proves-arm-breached-its-license-wins-usd-2",
+    "published": "2026-10-16T12:16:42Z",
+    "authors": "LorenDB",
+    "points": 37,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Qualcomm wins licensing dispute against Arm; legal settlement with no bearing on application security practice or SDLC.",
+    "unproven": "Entirely outside application security remit; corporate litigation is not an engineering concern.",
+    "scored_at": "2026-10-16T19:09:05.282709042Z"
+  },
+  "hn:50118977": {
+    "id": "hn:50118977",
+    "source": "hn",
+    "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+    "url": "https://calif.io/research/big-fish",
+    "published": "2026-10-16T14:44:02Z",
+    "authors": "rs_rs_rs_rs_rs",
+    "points": 127,
+    "novelty": 4,
+    "actionability": 2,
+    "score": 6,
+    "quadrant": "NEW GROUND",
+    "dek": "37-year-old OpenBSD kernel bug exploited; demonstrates longevity of undetected memory safety issues in privileged code.",
+    "unproven": "Scope limited to OpenBSD; does not establish prevalence in other kernels or whether similar patterns persist in reader's deployment targets.",
+    "scored_at": "2026-10-16T19:09:05.282708521Z"
+  },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",
     "source": "kev",
@@ -29383,6 +29431,22 @@
     ],
     "scored_at": "2026-09-18T15:27:14.047131182Z"
   },
+  "kev:CVE-2025-61624": {
+    "id": "kev:CVE-2025-61624",
+    "source": "kev",
+    "title": "CVE-2025-61624 — Fortinet Multiple Products Path Traversal Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+    "published": "2026-10-16T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Fortinet Multiple Products. Confirmed exploited in the wild. Federal remediation due 19 October.",
+    "cves": [
+      "CVE-2025-61624"
+    ],
+    "scored_at": "2026-10-16T19:09:01.48813763Z"
+  },
   "kev:CVE-2026-0322": {
     "id": "kev:CVE-2026-0322",
     "source": "kev",
@@ -29430,6 +29494,22 @@
       "CVE-2026-102490"
     ],
     "scored_at": "2026-10-02T17:02:25.040186931Z"
+  },
+  "kev:CVE-2026-102764": {
+    "id": "kev:CVE-2026-102764",
+    "source": "kev",
+    "title": "CVE-2026-102764 — BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+    "published": "2026-10-16T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "BeyondTrust Remote Support. Confirmed exploited in the wild. Federal remediation due 19 October.",
+    "cves": [
+      "CVE-2026-102764"
+    ],
+    "scored_at": "2026-10-16T19:09:01.488135025Z"
   },
   "kev:CVE-2026-104286": {
     "id": "kev:CVE-2026-104286",
