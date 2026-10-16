@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T08:36:53.235100511Z",
+  "generated": "2026-10-16T15:47:03.104589255Z",
   "edition": 84,
   "name": "SIGINT",
   "mark": "^C",
@@ -110,6 +110,36 @@
       "scored_at": "2026-10-15T19:40:56.908494645Z"
     },
     {
+      "id": "arxiv:2610.20941v1",
+      "source": "arxiv",
+      "title": "Screwtape: Adversarial Transcript Editing for Monitor Red-Teaming",
+      "url": "http://arxiv.org/abs/2610.20941v1",
+      "published": "2026-10-14T21:08:21Z",
+      "authors": "Gosha Kozhevnikov et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Red-teaming pipeline synthesizes edited agent transcripts to evade action-only monitors; six attacks bypassed a frontier developer's monitor.",
+      "unproven": "whether attacks generalize to other developers' monitoring; scale and payload sophistication relative to real adversaries",
+      "scored_at": "2026-10-16T15:46:34.786555705Z"
+    },
+    {
+      "id": "arxiv:2610.20902v1",
+      "source": "arxiv",
+      "title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents",
+      "url": "http://arxiv.org/abs/2610.20902v1",
+      "published": "2026-10-14T20:33:18Z",
+      "authors": "Joas Antonio dos Santos Barbosa",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "ChainGraph externalizes multi-step attack reasoning into Neo4j, enabling agents to rank exploit chains by combined severity and identify chokepoints.",
+      "unproven": "performance on real penetration tests; generalization beyond Active Directory scenarios; whether chain-severity scoring correlates with business risk",
+      "scored_at": "2026-10-16T15:46:34.786557117Z"
+    },
+    {
       "id": "arxiv:2610.20049v1",
       "source": "arxiv",
       "title": "CoRedSkill: Stealthy Skill Composition Attacks via AST-Guided Injection",
@@ -140,22 +170,6 @@
       "scored_at": "2026-10-15T08:42:09.248819361Z"
     },
     {
-      "id": "kev:CVE-2026-105134",
-      "source": "kev",
-      "title": "CVE-2026-105134 — Ahsay AhsayCBS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-105134"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088416043Z"
-    },
-    {
       "id": "kev:CVE-2026-76519",
       "source": "kev",
       "title": "CVE-2026-76519 — Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
@@ -170,6 +184,22 @@
         "CVE-2026-76519"
       ],
       "scored_at": "2026-10-14T22:50:43.088419119Z"
+    },
+    {
+      "id": "kev:CVE-2026-105133",
+      "source": "kev",
+      "title": "CVE-2026-105133 — Ahsay AhsayCBS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-105133"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088420762Z"
     },
     {
       "id": "kev:CVE-2026-0322",
@@ -188,10 +218,10 @@
       "scored_at": "2026-10-14T22:50:43.088422445Z"
     },
     {
-      "id": "kev:CVE-2026-105133",
+      "id": "kev:CVE-2026-105134",
       "source": "kev",
-      "title": "CVE-2026-105133 — Ahsay AhsayCBS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+      "title": "CVE-2026-105134 — Ahsay AhsayCBS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
       "published": "2026-10-14T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
@@ -199,9 +229,9 @@
       "quadrant": "STANDING ORDERS",
       "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
       "cves": [
-        "CVE-2026-105133"
+        "CVE-2026-105134"
       ],
-      "scored_at": "2026-10-14T22:50:43.088420762Z"
+      "scored_at": "2026-10-14T22:50:43.088416043Z"
     },
     {
       "id": "arxiv:2610.19264v1",
@@ -234,21 +264,6 @@
       "scored_at": "2026-10-14T09:08:57.373688465Z"
     },
     {
-      "id": "arxiv:2610.18585v2",
-      "source": "arxiv",
-      "title": "X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities",
-      "url": "http://arxiv.org/abs/2610.18585v2",
-      "published": "2026-10-13T15:47:08Z",
-      "authors": "José Afonso et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Live benchmark of 1,159 validated Node.js exploits across injection, prototype pollution, and path traversal from 1,738 advisories through 2026.",
-      "unproven": "current taxonomy limited to taint-style vulnerabilities; does not extend to supply-chain attacks, logic bugs, or async-related flaws in npm ecosystem",
-      "scored_at": "2026-10-15T08:42:22.553527899Z"
-    },
-    {
       "id": "arxiv:2610.18585v1",
       "source": "arxiv",
       "title": "X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities",
@@ -264,34 +279,19 @@
       "scored_at": "2026-10-14T09:08:57.373688916Z"
     },
     {
-      "id": "arxiv:2610.18508v1",
+      "id": "arxiv:2610.18585v2",
       "source": "arxiv",
-      "title": "Towards Safe Autonomy for Computer Use",
-      "url": "http://arxiv.org/abs/2610.18508v1",
-      "published": "2026-10-13T15:03:33Z",
-      "authors": "Dominik Seip et al.",
+      "title": "X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities",
+      "url": "http://arxiv.org/abs/2610.18585v2",
+      "published": "2026-10-13T15:47:08Z",
+      "authors": "José Afonso et al.",
       "novelty": 4,
       "actionability": 4,
       "score": 8,
       "quadrant": "BREAK GLASS",
-      "dek": "Dual-LLM framework derives deterministic trust boundaries for computer-use agents, separating trusted and untrusted screen regions without confirmation fatigue.",
-      "unproven": "tested on limited agent implementations; does not address agents with custom tool integration outside accessibility tree coverage",
-      "scored_at": "2026-10-14T09:09:08.705898676Z"
-    },
-    {
-      "id": "arxiv:2610.18457v1",
-      "source": "arxiv",
-      "title": "Kairos: Transactional Security Enforcement at the System Boundary for LLM Agents",
-      "url": "http://arxiv.org/abs/2610.18457v1",
-      "published": "2026-10-13T14:24:26Z",
-      "authors": "Kristoffer Hempel et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Reference monitor at agent isolation boundary enforces transactional rollback of tool calls, shell commands, and writes based on source trust.",
-      "unproven": "prototype implementation; does not measure overhead or test against agents with side-channel access or exfiltration via timing",
-      "scored_at": "2026-10-14T09:09:08.705898937Z"
+      "dek": "Live benchmark of 1,159 validated Node.js exploits across injection, prototype pollution, and path traversal from 1,738 advisories through 2026.",
+      "unproven": "current taxonomy limited to taint-style vulnerabilities; does not extend to supply-chain attacks, logic bugs, or async-related flaws in npm ecosystem",
+      "scored_at": "2026-10-15T08:42:22.553527899Z"
     },
     {
       "id": "arxiv:2610.22243v1",
