@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T02:16:12.781129192Z",
+  "generated": "2026-10-16T08:36:53.235100511Z",
   "edition": 84,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,18 +8,91 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 18,
-      "hn": 2,
+      "arxiv": 20,
       "kev": 5
     },
     "by_quadrant": {
-      "BREAK GLASS": 8,
-      "NEW GROUND": 9,
-      "NOISE FLOOR": 3,
-      "STANDING ORDERS": 5
+      "BREAK GLASS": 13,
+      "NEW GROUND": 5,
+      "STANDING ORDERS": 7
     }
   },
   "items": [
+    {
+      "id": "arxiv:2610.22301v1",
+      "source": "arxiv",
+      "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+      "url": "http://arxiv.org/abs/2610.22301v1",
+      "published": "2026-10-15T17:48:10Z",
+      "authors": "Zeqian Huang et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "16.4% of MCP servers expose filesystem capabilities beyond their declared contract; dynamic evaluation confirms 150 exploitable instances across registries.",
+      "unproven": "whether the vulnerability manifests in production deployments where agents run with restricted filesystem permissions by policy or container isolation",
+      "scored_at": "2026-10-16T08:36:12.420389349Z"
+    },
+    {
+      "id": "arxiv:2610.22244v1",
+      "source": "arxiv",
+      "title": "Language Is a Security Surface for Agent Guards",
+      "url": "http://arxiv.org/abs/2610.22244v1",
+      "published": "2026-10-15T17:19:40Z",
+      "authors": "Hasan Demirkiran et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Agent safety guards shift verdicts on translated requests; smaller and purpose-built models flip decisions beyond noise floor, with flips rising to +4.4pp on rare languages.",
+      "unproven": "whether the effect propagates to code-switching or hybrid requests, or whether guard vendors have since addressed language-dependent brittleness",
+      "scored_at": "2026-10-16T08:36:12.420395485Z"
+    },
+    {
+      "id": "arxiv:2610.21309v1",
+      "source": "arxiv",
+      "title": "Combining LLM and Dynamic Analysis for Universal Testing of Static Application Security Testing Tools",
+      "url": "http://arxiv.org/abs/2610.21309v1",
+      "published": "2026-10-15T05:57:29Z",
+      "authors": "Huaien Zhang et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "LLM4SAST detected 66 unique faults in SAST tools by generating code variants and comparing tool reports using metamorphic relations.",
+      "unproven": "Evaluated on unspecified SAST tools and programming languages; unclear whether faults are representative of production tooling the reader uses.",
+      "scored_at": "2026-10-16T08:36:37.194369572Z"
+    },
+    {
+      "id": "arxiv:2610.21146v1",
+      "source": "arxiv",
+      "title": "ExecWeave: Cross-Layer Execution Provenance for Observable Agentic Software",
+      "url": "http://arxiv.org/abs/2610.21146v1",
+      "published": "2026-10-15T03:02:00Z",
+      "authors": "Guo-Wei Wong et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "System to correlate agent actions across application traces and OS telemetry with explicit uncertainty tracking; directly applicable to securing agentic SDLC audit.",
+      "unproven": "proof-of-concept implementation; no measurement of false-positive or false-negative rates on real agent codebases; bounded search for command-to-process correlation admits unprovable associations.",
+      "scored_at": "2026-10-16T08:36:53.220434695Z"
+    },
+    {
+      "id": "arxiv:2610.21063v1",
+      "source": "arxiv",
+      "title": "Approve What, Exactly? Effect Binding and Trusted Rendering for Agent Step-Up Authorization",
+      "url": "http://arxiv.org/abs/2610.21063v1",
+      "published": "2026-10-15T01:11:23Z",
+      "authors": "Sai Varun Kodathala et al.",
+      "novelty": 4,
+      "actionability": 4,
+      "score": 8,
+      "quadrant": "BREAK GLASS",
+      "dek": "Twelve attacks on agent step-up authorization; audit of ten runtimes finds no third-party approval record and post-approval argument changes in four of eight; reference defense (ASU) with Tamarin proofs.",
+      "unproven": "reference design not yet deployed; 27,108 scripted trials and 609 AgentDojo tests do not cover all agent platforms or approval workflows; fixes require runtime or protocol changes the reader may not control.",
+      "scored_at": "2026-10-16T08:36:53.220435327Z"
+    },
     {
       "id": "kev:CVE-2026-21589",
       "source": "kev",
@@ -67,20 +140,20 @@
       "scored_at": "2026-10-15T08:42:09.248819361Z"
     },
     {
-      "id": "kev:CVE-2026-0322",
+      "id": "kev:CVE-2026-105134",
       "source": "kev",
-      "title": "CVE-2026-0322 — Palo Alto Networks PAN-OS Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
+      "title": "CVE-2026-105134 — Ahsay AhsayCBS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
       "published": "2026-10-14T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Palo Alto Networks PAN-OS. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
       "cves": [
-        "CVE-2026-0322"
+        "CVE-2026-105134"
       ],
-      "scored_at": "2026-10-14T22:50:43.088422445Z"
+      "scored_at": "2026-10-14T22:50:43.088416043Z"
     },
     {
       "id": "kev:CVE-2026-76519",
@@ -99,6 +172,22 @@
       "scored_at": "2026-10-14T22:50:43.088419119Z"
     },
     {
+      "id": "kev:CVE-2026-0322",
+      "source": "kev",
+      "title": "CVE-2026-0322 — Palo Alto Networks PAN-OS Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Palo Alto Networks PAN-OS. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-0322"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088422445Z"
+    },
+    {
       "id": "kev:CVE-2026-105133",
       "source": "kev",
       "title": "CVE-2026-105133 — Ahsay AhsayCBS Improper Authentication Vulnerability",
@@ -113,22 +202,6 @@
         "CVE-2026-105133"
       ],
       "scored_at": "2026-10-14T22:50:43.088420762Z"
-    },
-    {
-      "id": "kev:CVE-2026-105134",
-      "source": "kev",
-      "title": "CVE-2026-105134 — Ahsay AhsayCBS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-105134"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088416043Z"
     },
     {
       "id": "arxiv:2610.19264v1",
@@ -221,6 +294,81 @@
       "scored_at": "2026-10-14T09:09:08.705898937Z"
     },
     {
+      "id": "arxiv:2610.22243v1",
+      "source": "arxiv",
+      "title": "Shortcut Sensitivity in Agent-Safety Evaluations",
+      "url": "http://arxiv.org/abs/2610.22243v1",
+      "published": "2026-10-15T17:18:05Z",
+      "authors": "Hasan Demirkiran et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Evaluation datasets for agent safety guards contain dataset shortcuts predicting labels; guard performance degrades sharply under domain holdout or balanced weighting.",
+      "unproven": "whether the audit framework detects shortcuts in newly released benchmarks, or whether disclosed findings have prompted benchmark redesign",
+      "scored_at": "2026-10-16T08:36:12.420395635Z"
+    },
+    {
+      "id": "arxiv:2610.21458v1",
+      "source": "arxiv",
+      "title": "What Survives Self-Evolution: Provenance Marks in Copied Agent Harnesses",
+      "url": "http://arxiv.org/abs/2610.21458v1",
+      "published": "2026-10-15T08:03:10Z",
+      "authors": "Jieyu Li et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Published provenance marks in agent harnesses survive LLM self-evolution attacks at low rates (0–42%); order-based marks detected in 82% of rewritten copies.",
+      "unproven": "whether the proposed order-based mark survives attacks at scale beyond held-out test games; robustness against adversaries targeting the mark specifically",
+      "scored_at": "2026-10-16T08:36:26.046109283Z"
+    },
+    {
+      "id": "arxiv:2610.21457v1",
+      "source": "arxiv",
+      "title": "Benchmarking Post-Quantum Key Encapsulation in S3-Compatible Object Storage under Client Concurrency",
+      "url": "http://arxiv.org/abs/2610.21457v1",
+      "published": "2026-10-15T08:00:47Z",
+      "authors": "Revanth Reddy Lingala et al.",
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "ML-KEM encryption of S3 objects incurs 4.0–4.9% throughput loss only under client CPU saturation; software calling patterns account for most overhead.",
+      "unproven": "generalizability beyond tested S3-compatible stores and processor types; cost under realistic financial services workload profiles and concurrency patterns",
+      "scored_at": "2026-10-16T08:36:26.046109741Z"
+    },
+    {
+      "id": "arxiv:2610.21373v1",
+      "source": "arxiv",
+      "title": "Evaluating and Improving Static Application Security Testing Tools for Rust",
+      "url": "http://arxiv.org/abs/2610.21373v1",
+      "published": "2026-10-15T06:54:04Z",
+      "authors": "Huaien Zhang et al.",
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Rust SAST tools show systematic weaknesses on real-world vulnerabilities; LLM-assisted mutation testing framework (TRUST) automatically generates test cases.",
+      "unproven": "whether TRUST detects gaps the reader's current SAST configuration misses; applicability to unsafe code patterns in their codebase",
+      "scored_at": "2026-10-16T08:36:26.046110033Z"
+    },
+    {
+      "id": "arxiv:2610.21135v1",
+      "source": "arxiv",
+      "title": "Stronger Judges Do Not See More: Deployment-Integrity Blindness in LLM Evaluation",
+      "url": "http://arxiv.org/abs/2610.21135v1",
+      "published": "2026-10-15T02:44:08Z",
+      "authors": "Jianchang Su et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "LLM-based agent evaluators cannot detect deployment tampering or runtime substitution; benchmark shows 88–94% acceptance of tampered outputs.",
+      "unproven": "laboratory setting with synthetic tampers; no evidence this applies to production evaluation pipelines or what fraction of evaluations this reader's firm actually runs; manifest-hash proposal untested.",
+      "scored_at": "2026-10-16T08:36:53.220435039Z"
+    },
+    {
       "id": "arxiv:2610.20537v1",
       "source": "arxiv",
       "title": "Quantum-Aware Key Rank for Side-Channel Attacks evaluation",
@@ -249,158 +397,6 @@
       "dek": "Tri-space measurement framework reveals backdoor attacks quiet in one space are loud in others; no attack achieves consistent stealthiness.",
       "unproven": "evaluation limited to image classification; applicability to other domains and defenses beyond those tested undemonstrated.",
       "scored_at": "2026-10-15T08:41:56.834339008Z"
-    },
-    {
-      "id": "arxiv:2610.19766v1",
-      "source": "arxiv",
-      "title": "Analyzing and Mitigating Poisoning Attacks on Flow-Based Intrusion Detection",
-      "url": "http://arxiv.org/abs/2610.19766v1",
-      "published": "2026-10-14T08:17:58Z",
-      "authors": "Florian Spelter et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "0.001% training-data poisoning implants undetectable backdoors in flow-based IDS; diagnostic methodology localizes triggers and enables mitigation.",
-      "unproven": "evaluated on single dataset and model family; applicability to production IDS deployments and diverse network architectures undemonstrated.",
-      "scored_at": "2026-10-15T08:41:56.834340871Z"
-    },
-    {
-      "id": "arxiv:2610.19607v1",
-      "source": "arxiv",
-      "title": "A Graph-Based Analysis of Comparability, Scale, and Attribution in Private Transformer Inference",
-      "url": "http://arxiv.org/abs/2610.19607v1",
-      "published": "2026-10-14T05:30:25Z",
-      "authors": "Souvik Das et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Graph analysis of 62 private Transformer inference systems shows only 1 of 1,891 pairs is directly comparable; scaling frontier plateaus at 13B parameters.",
-      "unproven": "whether findings change vendor selection criteria in practice; applicability to post-2024 PTI systems not in the graph.",
-      "scored_at": "2026-10-15T08:42:09.24881875Z"
-    },
-    {
-      "id": "arxiv:2610.19384v1",
-      "source": "arxiv",
-      "title": "MMA-SafetyBench: A Benchmark for Multimodal Agent Safety Evaluation",
-      "url": "http://arxiv.org/abs/2610.19384v1",
-      "published": "2026-10-14T01:30:03Z",
-      "authors": "Yuke Wang et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Visual Semantic Hijacking attacks multimodal agents via forged UI elements; MMA-SafetyBench dataset shows 87.96% attack success rate across nine models.",
-      "unproven": "whether defense strategies scale to production agent deployments; generalization beyond tested domains; robustness against detection-aware attacks.",
-      "scored_at": "2026-10-15T08:42:09.248819592Z"
-    },
-    {
-      "id": "arxiv:2610.18831v1",
-      "source": "arxiv",
-      "title": "AegisAsync: Symbolic Async-Event Simulation for Risks in Python Asynchronous Programs",
-      "url": "http://arxiv.org/abs/2610.18831v1",
-      "published": "2026-10-13T17:54:57Z",
-      "authors": "Baihong Chen et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Bytecode-based detector for Python async event-ordering bugs finds 457 confirmed bugs in 2,500 PyPI packages with 50% precision.",
-      "unproven": "Does not establish whether detected bugs represent exploitable security flaws or denial-of-service risks; detection precision drops to 3.2% on a sample of real flake8-async findings.",
-      "scored_at": "2026-10-14T09:08:57.373684688Z"
-    },
-    {
-      "id": "arxiv:2610.18359v1",
-      "source": "arxiv",
-      "title": "Pin It on Anyone: Certified Targeted Displacement of Multi-Bit LLM Watermarks Without the Key",
-      "url": "http://arxiv.org/abs/2610.18359v1",
-      "published": "2026-10-13T13:24:34Z",
-      "authors": "Paweł Batorski et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Attack on multi-bit LLM watermarks allows framing of output to arbitrary accounts without the secret key.",
-      "unproven": "tested on five watermarking methods and four models; does not establish whether watermarks are deployment standard or whether the reader's agents use them",
-      "scored_at": "2026-10-14T09:09:08.705899648Z"
-    },
-    {
-      "id": "hn:50104310",
-      "source": "hn",
-      "title": "Prompt injection in HTTP headers: what 217M web responses show",
-      "url": "https://signalscorps.com/blog/prompt-injection-in-http-headers",
-      "published": "2026-10-15T14:36:22Z",
-      "authors": "panoramas4good",
-      "points": 71,
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Study of 217M web responses shows prompt injection patterns in HTTP headers; corpus-based measurement of known attack class.",
-      "unproven": "HTTP header injection prevalence does not establish exploitation risk in the reader's SDLC context; survey-scale finding",
-      "scored_at": "2026-10-15T19:41:05.73536681Z"
-    },
-    {
-      "id": "arxiv:2610.20245v1",
-      "source": "arxiv",
-      "title": "P2Patch: Exploit-Guided Vulnerability Repair",
-      "url": "http://arxiv.org/abs/2610.20245v1",
-      "published": "2026-10-14T14:19:21Z",
-      "authors": "Mohsen Iranmanesh et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Adversarial repair loop forces patching agents to block multiple proof-of-vulnerability variants on 101 CVEs.",
-      "unproven": "Evaluation on fixed CVE corpus; generalization to novel vulnerability classes and production patch deployment unclear.",
-      "scored_at": "2026-10-15T08:41:44.500140644Z"
-    },
-    {
-      "id": "arxiv:2610.19856v1",
-      "source": "arxiv",
-      "title": "Lost in the Fallback: How Reliably Do Typed Decision Models Use Fallback Options?",
-      "url": "http://arxiv.org/abs/2610.19856v1",
-      "published": "2026-10-14T09:21:25Z",
-      "authors": "Yuanbo Xie et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Typed decision models fail to reliably use fallback options; correct category recognition does not transfer to correct fallback routing.",
-      "unproven": "tested on open-source models only; production decision-model behavior and impact on real request-routing systems undemonstrated.",
-      "scored_at": "2026-10-15T08:41:56.834339218Z"
-    },
-    {
-      "id": "hn:50077619",
-      "source": "hn",
-      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
-      "url": "https://parsimony.lasu.dev/",
-      "published": "2026-10-13T19:50:31Z",
-      "authors": "lasu",
-      "points": 54,
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Parsimony benchmark measures coding units added by AI models across existing SWE-bench patches; informs model selection when integrating code generation into SDLC.",
-      "unproven": "whether metric predicts long-term maintenance burden in production codebases or correlates with security debt",
-      "scored_at": "2026-10-14T02:43:40.158953357Z"
-    },
-    {
-      "id": "arxiv:2610.19039v1",
-      "source": "arxiv",
-      "title": "Combining Post-Quantum Cryptography and Quantum Key Distribution: Taxonomy, Constructions, Proofs, Standards, Deployments and Open Problems",
-      "url": "http://arxiv.org/abs/2610.19039v1",
-      "published": "2026-10-13T18:28:12Z",
-      "authors": "Mona Alotaibi et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Taxonomy of eight dimensions for hybrid PQC-QKD designs maps published protocols including IETF RFC 8784, 9370, 9867.",
-      "unproven": "no new hybrid construction or security proof; survey and categorization of existing work, useful for migration planning but not for immediate deployment decisions",
-      "scored_at": "2026-10-15T08:42:22.553527398Z"
     }
   ],
   "noise": [
