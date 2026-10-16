@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-15T22:46:34.852543559Z",
-  "edition": 83,
+  "generated": "2026-10-16T02:16:12.781129192Z",
+  "edition": 84,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 17,
-      "hn": 1,
-      "kev": 7
+      "arxiv": 18,
+      "hn": 2,
+      "kev": 5
     },
     "by_quadrant": {
       "BREAK GLASS": 8,
       "NEW GROUND": 9,
-      "NOISE FLOOR": 1,
-      "STANDING ORDERS": 7
+      "NOISE FLOOR": 3,
+      "STANDING ORDERS": 5
     }
   },
   "items": [
@@ -67,38 +67,6 @@
       "scored_at": "2026-10-15T08:42:09.248819361Z"
     },
     {
-      "id": "kev:CVE-2026-105133",
-      "source": "kev",
-      "title": "CVE-2026-105133 — Ahsay AhsayCBS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-105133"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088420762Z"
-    },
-    {
-      "id": "kev:CVE-2026-105134",
-      "source": "kev",
-      "title": "CVE-2026-105134 — Ahsay AhsayCBS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-105134"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088416043Z"
-    },
-    {
       "id": "kev:CVE-2026-0322",
       "source": "kev",
       "title": "CVE-2026-0322 — Palo Alto Networks PAN-OS Code Injection Vulnerability",
@@ -129,6 +97,38 @@
         "CVE-2026-76519"
       ],
       "scored_at": "2026-10-14T22:50:43.088419119Z"
+    },
+    {
+      "id": "kev:CVE-2026-105133",
+      "source": "kev",
+      "title": "CVE-2026-105133 — Ahsay AhsayCBS Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-105133"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088420762Z"
+    },
+    {
+      "id": "kev:CVE-2026-105134",
+      "source": "kev",
+      "title": "CVE-2026-105134 — Ahsay AhsayCBS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
+      "published": "2026-10-14T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
+      "cves": [
+        "CVE-2026-105134"
+      ],
+      "scored_at": "2026-10-14T22:50:43.088416043Z"
     },
     {
       "id": "arxiv:2610.19264v1",
@@ -219,38 +219,6 @@
       "dek": "Reference monitor at agent isolation boundary enforces transactional rollback of tool calls, shell commands, and writes based on source trust.",
       "unproven": "prototype implementation; does not measure overhead or test against agents with side-channel access or exfiltration via timing",
       "scored_at": "2026-10-14T09:09:08.705898937Z"
-    },
-    {
-      "id": "kev:CVE-2026-104935",
-      "source": "kev",
-      "title": "CVE-2026-104935 — Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
-      "published": "2026-10-13T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ivanti Connect Secure. Confirmed exploited in the wild. Federal remediation due 16 October.",
-      "cves": [
-        "CVE-2026-104935"
-      ],
-      "scored_at": "2026-10-13T15:25:01.757860512Z"
-    },
-    {
-      "id": "kev:CVE-2026-96951",
-      "source": "kev",
-      "title": "CVE-2026-96951 — Microsoft Windows Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
-      "published": "2026-10-13T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft Windows. Confirmed exploited in the wild. Federal remediation due 16 October.",
-      "cves": [
-        "CVE-2026-96951"
-      ],
-      "scored_at": "2026-10-13T20:53:54.289479405Z"
     },
     {
       "id": "arxiv:2610.20537v1",
@@ -358,21 +326,6 @@
       "scored_at": "2026-10-14T09:09:08.705899648Z"
     },
     {
-      "id": "arxiv:2610.17542v1",
-      "source": "arxiv",
-      "title": "Discovery or Memorization? A Faithful Benchmark for Real-World Business-Logic Vulnerability Discovery",
-      "url": "http://arxiv.org/abs/2610.17542v1",
-      "published": "2026-10-13T01:10:42Z",
-      "authors": "Rui Yang et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "AnonVul benchmark of 132 business-logic vulnerabilities across nine languages tests whether agents discover real flaws or memorize training data.",
-      "unproven": "whether current frontier models saturate the benchmark within one release cycle; generalization beyond the 43 languages and vulnerability patterns included",
-      "scored_at": "2026-10-14T09:09:32.950364464Z"
-    },
-    {
       "id": "hn:50104310",
       "source": "hn",
       "title": "Prompt injection in HTTP headers: what 217M web responses show",
@@ -402,6 +355,52 @@
       "dek": "Adversarial repair loop forces patching agents to block multiple proof-of-vulnerability variants on 101 CVEs.",
       "unproven": "Evaluation on fixed CVE corpus; generalization to novel vulnerability classes and production patch deployment unclear.",
       "scored_at": "2026-10-15T08:41:44.500140644Z"
+    },
+    {
+      "id": "arxiv:2610.19856v1",
+      "source": "arxiv",
+      "title": "Lost in the Fallback: How Reliably Do Typed Decision Models Use Fallback Options?",
+      "url": "http://arxiv.org/abs/2610.19856v1",
+      "published": "2026-10-14T09:21:25Z",
+      "authors": "Yuanbo Xie et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Typed decision models fail to reliably use fallback options; correct category recognition does not transfer to correct fallback routing.",
+      "unproven": "tested on open-source models only; production decision-model behavior and impact on real request-routing systems undemonstrated.",
+      "scored_at": "2026-10-15T08:41:56.834339218Z"
+    },
+    {
+      "id": "hn:50077619",
+      "source": "hn",
+      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+      "url": "https://parsimony.lasu.dev/",
+      "published": "2026-10-13T19:50:31Z",
+      "authors": "lasu",
+      "points": 54,
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Parsimony benchmark measures coding units added by AI models across existing SWE-bench patches; informs model selection when integrating code generation into SDLC.",
+      "unproven": "whether metric predicts long-term maintenance burden in production codebases or correlates with security debt",
+      "scored_at": "2026-10-14T02:43:40.158953357Z"
+    },
+    {
+      "id": "arxiv:2610.19039v1",
+      "source": "arxiv",
+      "title": "Combining Post-Quantum Cryptography and Quantum Key Distribution: Taxonomy, Constructions, Proofs, Standards, Deployments and Open Problems",
+      "url": "http://arxiv.org/abs/2610.19039v1",
+      "published": "2026-10-13T18:28:12Z",
+      "authors": "Mona Alotaibi et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Taxonomy of eight dimensions for hybrid PQC-QKD designs maps published protocols including IETF RFC 8784, 9370, 9867.",
+      "unproven": "no new hybrid construction or security proof; survey and categorization of existing work, useful for migration planning but not for immediate deployment decisions",
+      "scored_at": "2026-10-15T08:42:22.553527398Z"
     }
   ],
   "noise": [
