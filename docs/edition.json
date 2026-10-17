@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T14:39:09.331126972Z",
+  "generated": "2026-10-17T18:02:47.752143443Z",
   "edition": 85,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,14 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 20,
-      "hn": 2,
+      "arxiv": 19,
+      "hn": 3,
       "kev": 3
     },
     "by_quadrant": {
       "BREAK GLASS": 7,
-      "NEW GROUND": 10,
-      "NOISE FLOOR": 3,
+      "NEW GROUND": 9,
+      "NOISE FLOOR": 4,
       "STANDING ORDERS": 5
     }
   },
@@ -249,21 +249,6 @@
       "scored_at": "2026-10-16T08:36:53.220435039Z"
     },
     {
-      "id": "arxiv:2610.20537v1",
-      "source": "arxiv",
-      "title": "Quantum-Aware Key Rank for Side-Channel Attacks evaluation",
-      "url": "http://arxiv.org/abs/2610.20537v1",
-      "published": "2026-10-14T17:31:48Z",
-      "authors": "Yevgen Kotukh",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Quantum-aware key rank metric models post-quantum cryptanalysis of block ciphers with quadratic advantage collapsing beyond rank 2^58.6 under NIST depth.",
-      "unproven": "Practical exploitation path; applicability to ciphers outside AES-128; confirmation that actual quantum hardware will achieve the theoretical speedup.",
-      "scored_at": "2026-10-15T02:23:30.767224761Z"
-    },
-    {
       "id": "hn:50118977",
       "source": "hn",
       "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
@@ -399,25 +384,25 @@
       "dek": "INFUSE benchmark measures indirect prompt injection across 19 LLM families on 40 tasks; mean attack success 19.6% without defenses.",
       "unproven": "whether attack-success rates predict real-world risk; generalization beyond the 56 scenarios defined; correlation with downstream harm",
       "scored_at": "2026-10-16T15:46:34.786557928Z"
+    },
+    {
+      "id": "hn:50124251",
+      "source": "hn",
+      "title": "I never authorized an integration that scans my secrets",
+      "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+      "published": "2026-10-16T20:33:41Z",
+      "authors": "trvrprkr",
+      "points": 195,
+      "novelty": 2,
+      "actionability": 3,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "GitHub's secret-scanning integration enrolls repositories without explicit user consent, raising audit and compliance questions.",
+      "unproven": "whether the reader's own org has been affected; scope of exposure across customer base",
+      "scored_at": "2026-10-17T02:08:13.588908065Z"
     }
   ],
   "noise": [
-    {
-      "id": "hn:50088935",
-      "source": "hn",
-      "title": "Passkeys are not a trap",
-      "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap",
-      "published": "2026-10-14T15:15:45Z",
-      "authors": "speckx",
-      "points": 635,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Opinion piece argues passkey adoption addresses common authentication misconceptions.",
-      "unproven": "no new measurement or threat analysis",
-      "scored_at": "2026-10-15T19:41:12.29452118Z"
-    },
     {
       "id": "hn:50103000",
       "source": "hn",
@@ -449,6 +434,22 @@
       "dek": "Cloudflare data shows botnet traffic redirection during Yandex outage; infrastructure observation outside SDLC and secure development.",
       "unproven": "threat landscape reporting, not actionable for application security engineering",
       "scored_at": "2026-10-15T19:41:05.735367248Z"
+    },
+    {
+      "id": "hn:50101813",
+      "source": "hn",
+      "title": "Zero-Click Spyware Delivered via Targeted Ads: AdFection",
+      "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware",
+      "published": "2026-10-15T10:43:36Z",
+      "authors": "jcomp",
+      "points": 249,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Citizen Lab documents AdFection zero-click spyware delivery through targeted ads; known threat group with established technique.",
+      "unproven": "incident report; no new SDLC-level defense or detection method emerges from documentation",
+      "scored_at": "2026-10-15T19:41:05.73536708Z"
     }
   ]
 }

@@ -30448,6 +30448,38 @@
     "unproven": "whether the reader's own org has been affected; scope of exposure across customer base",
     "scored_at": "2026-10-17T02:08:13.588908065Z"
   },
+  "hn:50131881": {
+    "id": "hn:50131881",
+    "source": "hn",
+    "title": "Ad-tech company was a delivery system for \"mercenary spyware\"",
+    "url": "https://pluralistic.net/2026/10/17/mercenary-spyware",
+    "published": "2026-10-17T15:17:32Z",
+    "authors": "samizdis",
+    "points": 52,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Ad-tech firm used as spyware distribution vector; narrative reporting without architectural or detection guidance.",
+    "unproven": "no indication of supply-chain attack vectors affecting the reader's dependencies or deployment environments",
+    "scored_at": "2026-10-17T18:02:47.742102324Z"
+  },
+  "hn:50132502": {
+    "id": "hn:50132502",
+    "source": "hn",
+    "title": "OpenAI discloses four more rogue incidents",
+    "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
+    "published": "2026-10-17T16:31:12Z",
+    "authors": "DASD",
+    "points": 55,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "OpenAI reports additional insider incidents; no methodology or technical detail provided.",
+    "unproven": "outside the reader's remit; does not involve application security, SDLC, or tooling decisions",
+    "scored_at": "2026-10-17T18:02:47.742101933Z"
+  },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",
     "source": "kev",
