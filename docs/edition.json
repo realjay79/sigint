@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T02:08:13.639774929Z",
+  "generated": "2026-10-17T08:08:37.652722804Z",
   "edition": 85,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,29 +13,13 @@
       "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 9,
-      "NEW GROUND": 10,
+      "BREAK GLASS": 8,
+      "NEW GROUND": 11,
       "NOISE FLOOR": 1,
       "STANDING ORDERS": 5
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2025-61624",
-      "source": "kev",
-      "title": "CVE-2025-61624 — Fortinet Multiple Products Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
-      "published": "2026-10-16T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Fortinet Multiple Products. Confirmed exploited in the wild. Federal remediation due 19 October.",
-      "cves": [
-        "CVE-2025-61624"
-      ],
-      "scored_at": "2026-10-16T19:09:01.48813763Z"
-    },
     {
       "id": "kev:CVE-2026-102764",
       "source": "kev",
@@ -51,6 +35,22 @@
         "CVE-2026-102764"
       ],
       "scored_at": "2026-10-16T19:09:01.488135025Z"
+    },
+    {
+      "id": "kev:CVE-2025-61624",
+      "source": "kev",
+      "title": "CVE-2025-61624 — Fortinet Multiple Products Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+      "published": "2026-10-16T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Fortinet Multiple Products. Confirmed exploited in the wild. Federal remediation due 19 October.",
+      "cves": [
+        "CVE-2025-61624"
+      ],
+      "scored_at": "2026-10-16T19:09:01.48813763Z"
     },
     {
       "id": "arxiv:2610.22301v1",
@@ -189,21 +189,6 @@
       "scored_at": "2026-10-15T08:41:56.834338517Z"
     },
     {
-      "id": "arxiv:2610.19498v1",
-      "source": "arxiv",
-      "title": "What You Sign Is Not What You Run: The Verifiability Gap in Quantized LLM Supply Chains",
-      "url": "http://arxiv.org/abs/2610.19498v1",
-      "published": "2026-10-14T03:16:29Z",
-      "authors": "Wei-Liang Liu et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Independent Verifiability Rate of quantized GGUF models is 0/198 on Hugging Face; floating-point contraction and quantization recipe must be disclosed to reproduce.",
-      "unproven": "whether disclosure becomes standard practice; adoption by model providers; impact on supply chain trust workflows.",
-      "scored_at": "2026-10-15T08:42:09.248819361Z"
-    },
-    {
       "id": "arxiv:2610.22243v1",
       "source": "arxiv",
       "title": "Shortcut Sensitivity in Agent-Safety Evaluations",
@@ -324,21 +309,6 @@
       "scored_at": "2026-10-15T08:41:56.834340871Z"
     },
     {
-      "id": "arxiv:2610.19607v1",
-      "source": "arxiv",
-      "title": "A Graph-Based Analysis of Comparability, Scale, and Attribution in Private Transformer Inference",
-      "url": "http://arxiv.org/abs/2610.19607v1",
-      "published": "2026-10-14T05:30:25Z",
-      "authors": "Souvik Das et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Graph analysis of 62 private Transformer inference systems shows only 1 of 1,891 pairs is directly comparable; scaling frontier plateaus at 13B parameters.",
-      "unproven": "whether findings change vendor selection criteria in practice; applicability to post-2024 PTI systems not in the graph.",
-      "scored_at": "2026-10-15T08:42:09.24881875Z"
-    },
-    {
       "id": "hn:50118977",
       "source": "hn",
       "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
@@ -399,6 +369,36 @@
       "dek": "Unilateral weight obfuscation in TEE-shielded on-device LLM inference is broken by Solution Determinacy Property; bilateral obfuscation proposed as fix.",
       "unproven": "whether bilateral obfuscation withstands cryptographic attack or is itself vulnerable; evaluation is limited to GroupCover and ArrowCloak without real-world deployment testing",
       "scored_at": "2026-10-16T08:36:12.420398392Z"
+    },
+    {
+      "id": "arxiv:2610.21208v1",
+      "source": "arxiv",
+      "title": "Clean Data Can Still Carry Backdoors: Support-Persistent Backdoors for Model Reuse",
+      "url": "http://arxiv.org/abs/2610.21208v1",
+      "published": "2026-10-15T04:04:19Z",
+      "authors": "Junhoo Lee et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Support-persistent backdoors survive knowledge distillation by leveraging naturally abundant feature subspace patterns instead of artificial triggers.",
+      "unproven": "Evaluated on ImageNet and CLIP; unclear applicability to malware classifiers or code-based model reuse in financial services workflows.",
+      "scored_at": "2026-10-16T08:36:37.194370622Z"
+    },
+    {
+      "id": "arxiv:2610.21127v1",
+      "source": "arxiv",
+      "title": "Reaction Attack on CKKS Deployments with Asymptotically Optimal Query Complexity",
+      "url": "http://arxiv.org/abs/2610.21127v1",
+      "published": "2026-10-15T02:33:11Z",
+      "authors": "Song Bian et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Reaction attack recovers CKKS homomorphic encryption secret keys using O(H) queries if client returns 1-bit validity responses; end-to-end proof in Lattigo.",
+      "unproven": "attack requires public C2S evaluation keys and client-side validity oracles; unclear how many production CKKS deployments expose both; no guidance on which parameter sets remain safe or mitigation for deployed systems.",
+      "scored_at": "2026-10-16T08:36:53.220435125Z"
     }
   ],
   "noise": [
@@ -434,20 +434,20 @@
       "scored_at": "2026-10-15T19:41:12.29452118Z"
     },
     {
-      "id": "hn:50083130",
+      "id": "hn:50103000",
       "source": "hn",
-      "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
-      "url": "https://github.com/android/ndk/issues/2260",
-      "published": "2026-10-14T06:18:01Z",
-      "authors": "tharen",
-      "points": 497,
-      "novelty": 3,
+      "title": "Israeli firm's digital ads enabling installation of 'zero-click' spyware",
+      "url": "https://theguardian.com/technology/2026/oct/15/israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say",
+      "published": "2026-10-15T12:58:32Z",
+      "authors": "chunkyslink",
+      "points": 470,
+      "novelty": 1,
       "actionability": 2,
-      "score": 5,
+      "score": 3,
       "quadrant": "NOISE FLOOR",
-      "dek": "Android developers disassemble AOSP libraries to report bugs due to delayed source releases.",
-      "unproven": "limited to Android ecosystem, no quantification of impact on security review",
-      "scored_at": "2026-10-15T19:41:12.294522279Z"
+      "dek": "Zero-click spyware via ads attributed to Israeli firm; news coverage of known threat with no new technical detail.",
+      "unproven": "high HN engagement does not indicate new method or exploitation vector",
+      "scored_at": "2026-10-15T19:41:05.735366995Z"
     }
   ]
 }
