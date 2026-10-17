@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T08:08:37.652722804Z",
+  "generated": "2026-10-17T14:39:09.331126972Z",
   "edition": 85,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,9 @@
       "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 8,
-      "NEW GROUND": 11,
-      "NOISE FLOOR": 1,
+      "BREAK GLASS": 7,
+      "NEW GROUND": 10,
+      "NOISE FLOOR": 3,
       "STANDING ORDERS": 5
     }
   },
@@ -174,21 +174,6 @@
       "scored_at": "2026-10-16T15:46:34.786557117Z"
     },
     {
-      "id": "arxiv:2610.20049v1",
-      "source": "arxiv",
-      "title": "CoRedSkill: Stealthy Skill Composition Attacks via AST-Guided Injection",
-      "url": "http://arxiv.org/abs/2610.20049v1",
-      "published": "2026-10-14T11:52:03Z",
-      "authors": "Qichen Zhao et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "AST-guided injection embeds undetectable attacks across agent skills while preserving individual utility; 98% success, 3.3% detection rate.",
-      "unproven": "evaluated only on constructed 150-case benchmark; generalization to production agent architectures and real skill repositories undemonstrated.",
-      "scored_at": "2026-10-15T08:41:56.834338517Z"
-    },
-    {
       "id": "arxiv:2610.22243v1",
       "source": "arxiv",
       "title": "Shortcut Sensitivity in Agent-Safety Evaluations",
@@ -277,36 +262,6 @@
       "dek": "Quantum-aware key rank metric models post-quantum cryptanalysis of block ciphers with quadratic advantage collapsing beyond rank 2^58.6 under NIST depth.",
       "unproven": "Practical exploitation path; applicability to ciphers outside AES-128; confirmation that actual quantum hardware will achieve the theoretical speedup.",
       "scored_at": "2026-10-15T02:23:30.767224761Z"
-    },
-    {
-      "id": "arxiv:2610.19947v1",
-      "source": "arxiv",
-      "title": "Quiet Triggers, Loud Footprints: A Tri-Space Measurement Study of Backdoor Stealthiness",
-      "url": "http://arxiv.org/abs/2610.19947v1",
-      "published": "2026-10-14T10:29:26Z",
-      "authors": "Behrad Tajalli et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Tri-space measurement framework reveals backdoor attacks quiet in one space are loud in others; no attack achieves consistent stealthiness.",
-      "unproven": "evaluation limited to image classification; applicability to other domains and defenses beyond those tested undemonstrated.",
-      "scored_at": "2026-10-15T08:41:56.834339008Z"
-    },
-    {
-      "id": "arxiv:2610.19766v1",
-      "source": "arxiv",
-      "title": "Analyzing and Mitigating Poisoning Attacks on Flow-Based Intrusion Detection",
-      "url": "http://arxiv.org/abs/2610.19766v1",
-      "published": "2026-10-14T08:17:58Z",
-      "authors": "Florian Spelter et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "0.001% training-data poisoning implants undetectable backdoors in flow-based IDS; diagnostic methodology localizes triggers and enables mitigation.",
-      "unproven": "evaluated on single dataset and model family; applicability to production IDS deployments and diverse network architectures undemonstrated.",
-      "scored_at": "2026-10-15T08:41:56.834340871Z"
     },
     {
       "id": "hn:50118977",
@@ -399,24 +354,54 @@
       "dek": "Reaction attack recovers CKKS homomorphic encryption secret keys using O(H) queries if client returns 1-bit validity responses; end-to-end proof in Lattigo.",
       "unproven": "attack requires public C2S evaluation keys and client-side validity oracles; unclear how many production CKKS deployments expose both; no guidance on which parameter sets remain safe or mitigation for deployed systems.",
       "scored_at": "2026-10-16T08:36:53.220435125Z"
+    },
+    {
+      "id": "arxiv:2610.20962v1",
+      "source": "arxiv",
+      "title": "PAGE404: Breaking GPU Isolation Through Hardware-assisted Page Migration",
+      "url": "http://arxiv.org/abs/2610.20962v1",
+      "published": "2026-10-14T21:34:01Z",
+      "authors": "Ravan Nazaraliyev et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Page-migration side-channels in NVIDIA Grace Hopper leak information across GPU partitions without direct memory access.",
+      "unproven": "exploitation on production systems; whether patches deployed before publication; applicability to non-Grace Hopper architectures",
+      "scored_at": "2026-10-16T15:46:34.786553742Z"
+    },
+    {
+      "id": "arxiv:2610.20907v1",
+      "source": "arxiv",
+      "title": "From Detection to Decision: Calibration and Deferral for Prompt-Injection Detection",
+      "url": "http://arxiv.org/abs/2610.20907v1",
+      "published": "2026-10-14T20:34:51Z",
+      "authors": "Qianlong Lan et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "LLM-based judge outperforms classifiers at prompt-injection detection (AUROC 0.897) but calibration under distribution shift remains unreliable.",
+      "unproven": "calibration stability on production distributions; whether allow-block-defer thresholds transfer across deployment contexts",
+      "scored_at": "2026-10-16T15:46:34.786556005Z"
+    },
+    {
+      "id": "arxiv:2610.20776v1",
+      "source": "arxiv",
+      "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
+      "url": "http://arxiv.org/abs/2610.20776v1",
+      "published": "2026-10-14T18:26:15Z",
+      "authors": "Thuy Dung Nguyen et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "INFUSE benchmark measures indirect prompt injection across 19 LLM families on 40 tasks; mean attack success 19.6% without defenses.",
+      "unproven": "whether attack-success rates predict real-world risk; generalization beyond the 56 scenarios defined; correlation with downstream harm",
+      "scored_at": "2026-10-16T15:46:34.786557928Z"
     }
   ],
   "noise": [
-    {
-      "id": "hn:50084240",
-      "source": "hn",
-      "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-      "url": "https://typeof.net/Iosevka",
-      "published": "2026-10-14T08:27:59Z",
-      "authors": "otobrglez",
-      "points": 734,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Iosevka monospace font released open-source; general typography project.",
-      "scored_at": "2026-10-15T19:41:12.294522185Z"
-    },
     {
       "id": "hn:50088935",
       "source": "hn",
@@ -448,6 +433,22 @@
       "dek": "Zero-click spyware via ads attributed to Israeli firm; news coverage of known threat with no new technical detail.",
       "unproven": "high HN engagement does not indicate new method or exploitation vector",
       "scored_at": "2026-10-15T19:41:05.735366995Z"
+    },
+    {
+      "id": "hn:50094673",
+      "source": "hn",
+      "title": "Yandex outage: data shows that instead of going dark, malicious bots moved",
+      "url": "https://blog.cloudflare.com/yandex-outage",
+      "published": "2026-10-14T20:29:13Z",
+      "authors": "coloneltcb",
+      "points": 275,
+      "novelty": 2,
+      "actionability": 1,
+      "score": 3,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Cloudflare data shows botnet traffic redirection during Yandex outage; infrastructure observation outside SDLC and secure development.",
+      "unproven": "threat landscape reporting, not actionable for application security engineering",
+      "scored_at": "2026-10-15T19:41:05.735367248Z"
     }
   ]
 }

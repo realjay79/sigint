@@ -30385,6 +30385,21 @@
     "unproven": "Scope limited to OpenBSD; does not establish prevalence in other kernels or whether similar patterns persist in reader's deployment targets.",
     "scored_at": "2026-10-16T19:09:05.282708521Z"
   },
+  "hn:50119328": {
+    "id": "hn:50119328",
+    "source": "hn",
+    "title": "Why I Still Shun Passkeys",
+    "url": "https://lapcatsoftware.com/articles/2026/10/6.html",
+    "published": "2026-10-16T15:07:31Z",
+    "authors": "HotGarbage",
+    "points": 32,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Opinion piece on passkey adoption concerns; no new evidence or measurement.",
+    "scored_at": "2026-10-17T14:39:09.314842652Z"
+  },
   "hn:50119751": {
     "id": "hn:50119751",
     "source": "hn",
