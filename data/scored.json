@@ -30448,6 +30448,37 @@
     "unproven": "whether the reader's own org has been affected; scope of exposure across customer base",
     "scored_at": "2026-10-17T02:08:13.588908065Z"
   },
+  "hn:50127572": {
+    "id": "hn:50127572",
+    "source": "hn",
+    "title": "A skeptic's first contact with Kubernetes (2024)",
+    "url": "https://blog.davidv.dev/posts/first-contact-with-k8s",
+    "published": "2026-10-17T03:16:25Z",
+    "authors": "pmoriarty",
+    "points": 58,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Opinion piece on Kubernetes adoption friction; no measurement, no security finding, no bearing on secure SDLC tooling decisions.",
+    "scored_at": "2026-10-17T21:52:18.62704033Z"
+  },
+  "hn:50127586": {
+    "id": "hn:50127586",
+    "source": "hn",
+    "title": "Source code of the Estonian online voting system",
+    "url": "https://github.com/valimised/ivxv",
+    "published": "2026-10-17T03:18:39Z",
+    "authors": "theanonymousone",
+    "points": 112,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Estonian e-voting system source code made public; outside reader's SDLC scope and governance domain.",
+    "unproven": "applicability to financial services application security; reader does not audit voting infrastructure",
+    "scored_at": "2026-10-17T21:52:18.627039439Z"
+  },
   "hn:50131881": {
     "id": "hn:50131881",
     "source": "hn",
@@ -30479,6 +30510,22 @@
     "dek": "OpenAI reports additional insider incidents; no methodology or technical detail provided.",
     "unproven": "outside the reader's remit; does not involve application security, SDLC, or tooling decisions",
     "scored_at": "2026-10-17T18:02:47.742101933Z"
+  },
+  "hn:50133401": {
+    "id": "hn:50133401",
+    "source": "hn",
+    "title": "OpenCode Hacked: User credentials leaked",
+    "url": "https://twitter.com/opencode/status/2111516673953935833",
+    "published": "2026-10-17T18:01:41Z",
+    "authors": "pranshuchittora",
+    "points": 527,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Credential breach at OpenCode reported via social media; no technical detail, scope, or remediation path given.",
+    "unproven": "identity of affected users, nature of credentials, whether the reader's org uses OpenCode, timeline, or mitigation steps",
+    "scored_at": "2026-10-17T21:52:18.627038857Z"
   },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",

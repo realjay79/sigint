@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T18:02:47.752143443Z",
+  "generated": "2026-10-17T21:52:18.647710931Z",
   "edition": 85,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,29 +13,13 @@
       "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 7,
-      "NEW GROUND": 9,
-      "NOISE FLOOR": 4,
+      "BREAK GLASS": 5,
+      "NEW GROUND": 10,
+      "NOISE FLOOR": 5,
       "STANDING ORDERS": 5
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-102764",
-      "source": "kev",
-      "title": "CVE-2026-102764 — BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
-      "published": "2026-10-16T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "BeyondTrust Remote Support. Confirmed exploited in the wild. Federal remediation due 19 October.",
-      "cves": [
-        "CVE-2026-102764"
-      ],
-      "scored_at": "2026-10-16T19:09:01.488135025Z"
-    },
     {
       "id": "kev:CVE-2025-61624",
       "source": "kev",
@@ -51,6 +35,22 @@
         "CVE-2025-61624"
       ],
       "scored_at": "2026-10-16T19:09:01.48813763Z"
+    },
+    {
+      "id": "kev:CVE-2026-102764",
+      "source": "kev",
+      "title": "CVE-2026-102764 — BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+      "published": "2026-10-16T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "BeyondTrust Remote Support. Confirmed exploited in the wild. Federal remediation due 19 October.",
+      "cves": [
+        "CVE-2026-102764"
+      ],
+      "scored_at": "2026-10-16T19:09:01.488135025Z"
     },
     {
       "id": "arxiv:2610.22301v1",
@@ -142,36 +142,6 @@
         "CVE-2026-21589"
       ],
       "scored_at": "2026-10-15T19:40:56.908494645Z"
-    },
-    {
-      "id": "arxiv:2610.20941v1",
-      "source": "arxiv",
-      "title": "Screwtape: Adversarial Transcript Editing for Monitor Red-Teaming",
-      "url": "http://arxiv.org/abs/2610.20941v1",
-      "published": "2026-10-14T21:08:21Z",
-      "authors": "Gosha Kozhevnikov et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Red-teaming pipeline synthesizes edited agent transcripts to evade action-only monitors; six attacks bypassed a frontier developer's monitor.",
-      "unproven": "whether attacks generalize to other developers' monitoring; scale and payload sophistication relative to real adversaries",
-      "scored_at": "2026-10-16T15:46:34.786555705Z"
-    },
-    {
-      "id": "arxiv:2610.20902v1",
-      "source": "arxiv",
-      "title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents",
-      "url": "http://arxiv.org/abs/2610.20902v1",
-      "published": "2026-10-14T20:33:18Z",
-      "authors": "Joas Antonio dos Santos Barbosa",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "ChainGraph externalizes multi-step attack reasoning into Neo4j, enabling agents to rank exploit chains by combined severity and identify chokepoints.",
-      "unproven": "performance on real penetration tests; generalization beyond Active Directory scenarios; whether chain-severity scoring correlates with business risk",
-      "scored_at": "2026-10-16T15:46:34.786557117Z"
     },
     {
       "id": "arxiv:2610.22243v1",
@@ -341,51 +311,6 @@
       "scored_at": "2026-10-16T08:36:53.220435125Z"
     },
     {
-      "id": "arxiv:2610.20962v1",
-      "source": "arxiv",
-      "title": "PAGE404: Breaking GPU Isolation Through Hardware-assisted Page Migration",
-      "url": "http://arxiv.org/abs/2610.20962v1",
-      "published": "2026-10-14T21:34:01Z",
-      "authors": "Ravan Nazaraliyev et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Page-migration side-channels in NVIDIA Grace Hopper leak information across GPU partitions without direct memory access.",
-      "unproven": "exploitation on production systems; whether patches deployed before publication; applicability to non-Grace Hopper architectures",
-      "scored_at": "2026-10-16T15:46:34.786553742Z"
-    },
-    {
-      "id": "arxiv:2610.20907v1",
-      "source": "arxiv",
-      "title": "From Detection to Decision: Calibration and Deferral for Prompt-Injection Detection",
-      "url": "http://arxiv.org/abs/2610.20907v1",
-      "published": "2026-10-14T20:34:51Z",
-      "authors": "Qianlong Lan et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "LLM-based judge outperforms classifiers at prompt-injection detection (AUROC 0.897) but calibration under distribution shift remains unreliable.",
-      "unproven": "calibration stability on production distributions; whether allow-block-defer thresholds transfer across deployment contexts",
-      "scored_at": "2026-10-16T15:46:34.786556005Z"
-    },
-    {
-      "id": "arxiv:2610.20776v1",
-      "source": "arxiv",
-      "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
-      "url": "http://arxiv.org/abs/2610.20776v1",
-      "published": "2026-10-14T18:26:15Z",
-      "authors": "Thuy Dung Nguyen et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "INFUSE benchmark measures indirect prompt injection across 19 LLM families on 40 tasks; mean attack success 19.6% without defenses.",
-      "unproven": "whether attack-success rates predict real-world risk; generalization beyond the 56 scenarios defined; correlation with downstream harm",
-      "scored_at": "2026-10-16T15:46:34.786557928Z"
-    },
-    {
       "id": "hn:50124251",
       "source": "hn",
       "title": "I never authorized an integration that scans my secrets",
@@ -400,9 +325,100 @@
       "dek": "GitHub's secret-scanning integration enrolls repositories without explicit user consent, raising audit and compliance questions.",
       "unproven": "whether the reader's own org has been affected; scope of exposure across customer base",
       "scored_at": "2026-10-17T02:08:13.588908065Z"
+    },
+    {
+      "id": "arxiv:2610.22367v1",
+      "source": "arxiv",
+      "title": "Discovering state-of-the-art quantum circuits with large language models",
+      "url": "http://arxiv.org/abs/2610.22367v1",
+      "published": "2026-10-15T17:59:20Z",
+      "authors": "Andi Gu et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "LLM-guided evolutionary search discovers quantum circuits reducing Toffoli and qubit counts in seven of eight tasks, including a new reversible modular-inversion architecture.",
+      "unproven": "quantum-algorithm optimization; entirely outside application security engineering remit",
+      "scored_at": "2026-10-16T15:46:46.987849215Z"
+    },
+    {
+      "id": "arxiv:2610.22315v1",
+      "source": "arxiv",
+      "title": "Magna: simulating magic state factories as cheaply as Clifford circuits",
+      "url": "http://arxiv.org/abs/2610.22315v1",
+      "published": "2026-10-15T17:51:13Z",
+      "authors": "Yifei Wang et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Magna simulator classically evaluates magic-state factories and distillation protocols by expressing them as tensor networks without exponential cost growth.",
+      "unproven": "quantum-circuit simulation tool; entirely outside application security engineering remit",
+      "scored_at": "2026-10-16T15:46:46.987851378Z"
+    },
+    {
+      "id": "arxiv:2610.22297v1",
+      "source": "arxiv",
+      "title": "Private Retrieval Augmented Generation via Random Projection",
+      "url": "http://arxiv.org/abs/2610.22297v1",
+      "published": "2026-10-15T17:45:51Z",
+      "authors": "Dixi Yao et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Random projection preserves RAG retrieval quality while mitigating data extraction attacks, outperforming formal differential privacy baselines empirically.",
+      "unproven": "whether the privacy gains hold against adaptive attackers with knowledge of the projection scheme, or scale beyond the tested datasets and architectures",
+      "scored_at": "2026-10-16T08:36:12.420389741Z"
+    },
+    {
+      "id": "arxiv:2610.21714v1",
+      "source": "arxiv",
+      "title": "Realization Divergence in Multi-Provider Quantum Computing: A Pre-Registered Study of What Survives Measurement",
+      "url": "http://arxiv.org/abs/2610.21714v1",
+      "published": "2026-10-15T11:33:01Z",
+      "authors": "Jouni Peltonen et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Realization divergence across three quantum vendors shows placement policies affect two-qubit overhead and execution ordering; pre-registered study.",
+      "unproven": "eight- and twelve-qubit circuits on current NISQ devices; no evidence that this measurement framework or divergence metrics inform secure design choices",
+      "scored_at": "2026-10-16T22:19:49.328633696Z"
+    },
+    {
+      "id": "arxiv:2610.21713v1",
+      "source": "arxiv",
+      "title": "Encoded but Exposed: Language Embeddings can Reveal More Than They Should in Recommender Systems",
+      "url": "http://arxiv.org/abs/2610.21713v1",
+      "published": "2026-10-15T11:32:41Z",
+      "authors": "Linda Beková et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Item embeddings in recommender systems leak identities via cosine similarity when adversaries hold auxiliary item text; leakage persists through semantic alignment.",
+      "unproven": "whether obfuscation mitigations are practical under production performance constraints, or whether the attack applies to proprietary commercial embedding models",
+      "scored_at": "2026-10-16T08:36:12.420398231Z"
     }
   ],
   "noise": [
+    {
+      "id": "hn:50133401",
+      "source": "hn",
+      "title": "OpenCode Hacked: User credentials leaked",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "published": "2026-10-17T18:01:41Z",
+      "authors": "pranshuchittora",
+      "points": 527,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Credential breach at OpenCode reported via social media; no technical detail, scope, or remediation path given.",
+      "unproven": "identity of affected users, nature of credentials, whether the reader's org uses OpenCode, timeline, or mitigation steps",
+      "scored_at": "2026-10-17T21:52:18.627038857Z"
+    },
     {
       "id": "hn:50103000",
       "source": "hn",
@@ -418,22 +434,6 @@
       "dek": "Zero-click spyware via ads attributed to Israeli firm; news coverage of known threat with no new technical detail.",
       "unproven": "high HN engagement does not indicate new method or exploitation vector",
       "scored_at": "2026-10-15T19:41:05.735366995Z"
-    },
-    {
-      "id": "hn:50094673",
-      "source": "hn",
-      "title": "Yandex outage: data shows that instead of going dark, malicious bots moved",
-      "url": "https://blog.cloudflare.com/yandex-outage",
-      "published": "2026-10-14T20:29:13Z",
-      "authors": "coloneltcb",
-      "points": 275,
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Cloudflare data shows botnet traffic redirection during Yandex outage; infrastructure observation outside SDLC and secure development.",
-      "unproven": "threat landscape reporting, not actionable for application security engineering",
-      "scored_at": "2026-10-15T19:41:05.735367248Z"
     },
     {
       "id": "hn:50101813",
