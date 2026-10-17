@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16T22:20:08.996396146Z",
-  "edition": 84,
+  "generated": "2026-10-17T02:08:13.639774929Z",
+  "edition": 85,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,32 +8,18 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 18,
-      "kev": 7
+      "arxiv": 20,
+      "hn": 2,
+      "kev": 3
     },
     "by_quadrant": {
-      "BREAK GLASS": 10,
-      "NEW GROUND": 6,
-      "STANDING ORDERS": 9
+      "BREAK GLASS": 9,
+      "NEW GROUND": 10,
+      "NOISE FLOOR": 1,
+      "STANDING ORDERS": 5
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-102764",
-      "source": "kev",
-      "title": "CVE-2026-102764 — BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
-      "published": "2026-10-16T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "BeyondTrust Remote Support. Confirmed exploited in the wild. Federal remediation due 19 October.",
-      "cves": [
-        "CVE-2026-102764"
-      ],
-      "scored_at": "2026-10-16T19:09:01.488135025Z"
-    },
     {
       "id": "kev:CVE-2025-61624",
       "source": "kev",
@@ -49,6 +35,22 @@
         "CVE-2025-61624"
       ],
       "scored_at": "2026-10-16T19:09:01.48813763Z"
+    },
+    {
+      "id": "kev:CVE-2026-102764",
+      "source": "kev",
+      "title": "CVE-2026-102764 — BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+      "published": "2026-10-16T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "BeyondTrust Remote Support. Confirmed exploited in the wild. Federal remediation due 19 October.",
+      "cves": [
+        "CVE-2026-102764"
+      ],
+      "scored_at": "2026-10-16T19:09:01.488135025Z"
     },
     {
       "id": "arxiv:2610.22301v1",
@@ -202,85 +204,6 @@
       "scored_at": "2026-10-15T08:42:09.248819361Z"
     },
     {
-      "id": "kev:CVE-2026-0322",
-      "source": "kev",
-      "title": "CVE-2026-0322 — Palo Alto Networks PAN-OS Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Palo Alto Networks PAN-OS. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-0322"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088422445Z"
-    },
-    {
-      "id": "kev:CVE-2026-105133",
-      "source": "kev",
-      "title": "CVE-2026-105133 — Ahsay AhsayCBS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-105133"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088420762Z"
-    },
-    {
-      "id": "kev:CVE-2026-105134",
-      "source": "kev",
-      "title": "CVE-2026-105134 — Ahsay AhsayCBS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ahsay AhsayCBS. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-105134"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088416043Z"
-    },
-    {
-      "id": "kev:CVE-2026-76519",
-      "source": "kev",
-      "title": "CVE-2026-76519 — Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
-      "published": "2026-10-14T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Secure Email Gateway. Confirmed exploited in the wild. Federal remediation due 17 October.",
-      "cves": [
-        "CVE-2026-76519"
-      ],
-      "scored_at": "2026-10-14T22:50:43.088419119Z"
-    },
-    {
-      "id": "arxiv:2610.19264v1",
-      "source": "arxiv",
-      "title": "Beyond Maliciousness: Static and Runtime Attack-Surface Profiling of Agent Skills",
-      "url": "http://arxiv.org/abs/2610.19264v1",
-      "published": "2026-10-13T22:34:07Z",
-      "authors": "Ratnesh Pandey et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "70% of agent skills in two marketplaces expose shell execution or elevated capabilities with no user-visible permission model.",
-      "unproven": "methodology applies to skills as static artifacts; does not model capability drift across agent model versions or prompt-injection attacks that bypass skill design",
-      "scored_at": "2026-10-15T08:42:22.553527168Z"
-    },
-    {
       "id": "arxiv:2610.22243v1",
       "source": "arxiv",
       "title": "Shortcut Sensitivity in Agent-Safety Evaluations",
@@ -399,6 +322,83 @@
       "dek": "0.001% training-data poisoning implants undetectable backdoors in flow-based IDS; diagnostic methodology localizes triggers and enables mitigation.",
       "unproven": "evaluated on single dataset and model family; applicability to production IDS deployments and diverse network architectures undemonstrated.",
       "scored_at": "2026-10-15T08:41:56.834340871Z"
+    },
+    {
+      "id": "arxiv:2610.19607v1",
+      "source": "arxiv",
+      "title": "A Graph-Based Analysis of Comparability, Scale, and Attribution in Private Transformer Inference",
+      "url": "http://arxiv.org/abs/2610.19607v1",
+      "published": "2026-10-14T05:30:25Z",
+      "authors": "Souvik Das et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Graph analysis of 62 private Transformer inference systems shows only 1 of 1,891 pairs is directly comparable; scaling frontier plateaus at 13B parameters.",
+      "unproven": "whether findings change vendor selection criteria in practice; applicability to post-2024 PTI systems not in the graph.",
+      "scored_at": "2026-10-15T08:42:09.24881875Z"
+    },
+    {
+      "id": "hn:50118977",
+      "source": "hn",
+      "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+      "url": "https://calif.io/research/big-fish",
+      "published": "2026-10-16T14:44:02Z",
+      "authors": "rs_rs_rs_rs_rs",
+      "points": 127,
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "37-year-old OpenBSD kernel bug exploited; demonstrates longevity of undetected memory safety issues in privileged code.",
+      "unproven": "Scope limited to OpenBSD; does not establish prevalence in other kernels or whether similar patterns persist in reader's deployment targets.",
+      "scored_at": "2026-10-16T19:09:05.282708521Z"
+    },
+    {
+      "id": "hn:50104310",
+      "source": "hn",
+      "title": "Prompt injection in HTTP headers: what 217M web responses show",
+      "url": "https://signalscorps.com/blog/prompt-injection-in-http-headers",
+      "published": "2026-10-15T14:36:22Z",
+      "authors": "panoramas4good",
+      "points": 71,
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Study of 217M web responses shows prompt injection patterns in HTTP headers; corpus-based measurement of known attack class.",
+      "unproven": "HTTP header injection prevalence does not establish exploitation risk in the reader's SDLC context; survey-scale finding",
+      "scored_at": "2026-10-15T19:41:05.73536681Z"
+    },
+    {
+      "id": "arxiv:2610.21853v1",
+      "source": "arxiv",
+      "title": "Superconducting circuits host two-level systems with lifetimes exceeding one second",
+      "url": "http://arxiv.org/abs/2610.21853v1",
+      "published": "2026-10-15T13:31:00Z",
+      "authors": "Mathieu Féchant et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Two-level systems in superconducting circuits exhibit lifetimes exceeding one second, orders of magnitude longer than host qubits.",
+      "unproven": "characterization on one qubit type; unclear whether these TLSs are controllable or can be harnessed rather than merely understood.",
+      "scored_at": "2026-10-16T22:19:38.706951252Z"
+    },
+    {
+      "id": "arxiv:2610.21565v1",
+      "source": "arxiv",
+      "title": "BiShield-TEE: On the (In-)Security of Unilateral Weight Obfuscation in On-Device TEE-Shielded LLM Partition",
+      "url": "http://arxiv.org/abs/2610.21565v1",
+      "published": "2026-10-15T09:22:45Z",
+      "authors": "Zhiyuan Wang et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Unilateral weight obfuscation in TEE-shielded on-device LLM inference is broken by Solution Determinacy Property; bilateral obfuscation proposed as fix.",
+      "unproven": "whether bilateral obfuscation withstands cryptographic attack or is itself vulnerable; evaluation is limited to GroupCover and ArrowCloak without real-world deployment testing",
+      "scored_at": "2026-10-16T08:36:12.420398392Z"
     }
   ],
   "noise": [

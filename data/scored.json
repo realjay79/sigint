@@ -29903,6 +29903,22 @@
     "unproven": "Entirely outside application security remit; corporate litigation is not an engineering concern.",
     "scored_at": "2026-10-16T19:09:05.282709042Z"
   },
+  "hn:50118863": {
+    "id": "hn:50118863",
+    "source": "hn",
+    "title": "Redesigning Source Control at Anthropic",
+    "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+    "published": "2026-10-16T14:34:47Z",
+    "authors": "hn9zmdcaou",
+    "points": 31,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Anthropic describes internal source-control redesign; no systematic findings applicable to other organizations.",
+    "unproven": "generalizability beyond Anthropic's specific scale and constraints; relevance to mid-size financial services tooling",
+    "scored_at": "2026-10-17T02:08:13.588909502Z"
+  },
   "hn:50118977": {
     "id": "hn:50118977",
     "source": "hn",
@@ -29918,6 +29934,38 @@
     "dek": "37-year-old OpenBSD kernel bug exploited; demonstrates longevity of undetected memory safety issues in privileged code.",
     "unproven": "Scope limited to OpenBSD; does not establish prevalence in other kernels or whether similar patterns persist in reader's deployment targets.",
     "scored_at": "2026-10-16T19:09:05.282708521Z"
+  },
+  "hn:50121939": {
+    "id": "hn:50121939",
+    "source": "hn",
+    "title": "Designing more efficient quantum circuits with Claude",
+    "url": "https://anthropic.com/research/designing-efficient-quantum-circuits",
+    "published": "2026-10-16T18:00:18Z",
+    "authors": "pretext",
+    "points": 104,
+    "novelty": 2,
+    "actionability": 1,
+    "score": 3,
+    "quadrant": "NOISE FLOOR",
+    "dek": "LLM assists in quantum circuit optimization; application to production quantum systems remains unclear.",
+    "unproven": "whether optimization gains transfer to real quantum hardware; relevance to the reader's SDLC and security posture",
+    "scored_at": "2026-10-17T02:08:13.588908481Z"
+  },
+  "hn:50124251": {
+    "id": "hn:50124251",
+    "source": "hn",
+    "title": "I never authorized an integration that scans my secrets",
+    "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+    "published": "2026-10-16T20:33:41Z",
+    "authors": "trvrprkr",
+    "points": 195,
+    "novelty": 2,
+    "actionability": 3,
+    "score": 5,
+    "quadrant": "NOISE FLOOR",
+    "dek": "GitHub's secret-scanning integration enrolls repositories without explicit user consent, raising audit and compliance questions.",
+    "unproven": "whether the reader's own org has been affected; scope of exposure across customer base",
+    "scored_at": "2026-10-17T02:08:13.588908065Z"
   },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",
