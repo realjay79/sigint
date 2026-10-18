@@ -30527,6 +30527,22 @@
     "unproven": "identity of affected users, nature of credentials, whether the reader's org uses OpenCode, timeline, or mitigation steps",
     "scored_at": "2026-10-17T21:52:18.627038857Z"
   },
+  "hn:50139083": {
+    "id": "hn:50139083",
+    "source": "hn",
+    "title": "OpenCode has a security breach last that impacted 1.4% of console users",
+    "url": "https://twitter.com/opencode/status/2111519637049319818",
+    "published": "2026-10-18T08:22:11Z",
+    "authors": "notmine1337",
+    "points": 40,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Third-party gaming platform breach; outside financial services infrastructure and SDLC scope.",
+    "unproven": "whether any financial services systems rely on OpenCode; whether breach details are relevant to SAST/DAST/SCA decisions",
+    "scored_at": "2026-10-18T22:03:09.730185213Z"
+  },
   "hn:50141429": {
     "id": "hn:50141429",
     "source": "hn",
@@ -30542,6 +30558,21 @@
     "dek": "Policy proposal from Anthropic sets liability thresholds for AI systems; outside application security engineer's scope.",
     "unproven": "outside the reader's remit; does not affect SDLC process, tooling, or architecture review",
     "scored_at": "2026-10-18T18:22:00.718157864Z"
+  },
+  "hn:50144066": {
+    "id": "hn:50144066",
+    "source": "hn",
+    "title": "Free Pascal compiler now supports dynamic packages",
+    "url": "https://getlazarus.org/dynamic",
+    "published": "2026-10-18T18:48:04Z",
+    "authors": "sysrpl",
+    "points": 75,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Free Pascal compiler feature release; no security implications for application security tooling.",
+    "scored_at": "2026-10-18T22:03:09.730184812Z"
   },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",

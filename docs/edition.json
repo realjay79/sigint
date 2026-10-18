@@ -1,39 +1,23 @@
 {
-  "generated": "2026-10-18T18:22:00.726952096Z",
+  "generated": "2026-10-18T22:03:09.738805304Z",
   "edition": 86,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 16,
+    "total": 17,
     "by_source": {
-      "hn": 14,
+      "hn": 15,
       "kev": 2
     },
     "by_quadrant": {
       "NEW GROUND": 1,
-      "NOISE FLOOR": 13,
+      "NOISE FLOOR": 14,
       "STANDING ORDERS": 2
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-102764",
-      "source": "kev",
-      "title": "CVE-2026-102764 — BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
-      "published": "2026-10-16T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "BeyondTrust Remote Support. Confirmed exploited in the wild. Federal remediation due 19 October.",
-      "cves": [
-        "CVE-2026-102764"
-      ],
-      "scored_at": "2026-10-16T19:09:01.488135025Z"
-    },
     {
       "id": "kev:CVE-2025-61624",
       "source": "kev",
@@ -49,6 +33,22 @@
         "CVE-2025-61624"
       ],
       "scored_at": "2026-10-16T19:09:01.48813763Z"
+    },
+    {
+      "id": "kev:CVE-2026-102764",
+      "source": "kev",
+      "title": "CVE-2026-102764 — BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+      "published": "2026-10-16T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "BeyondTrust Remote Support. Confirmed exploited in the wild. Federal remediation due 19 October.",
+      "cves": [
+        "CVE-2026-102764"
+      ],
+      "scored_at": "2026-10-16T19:09:01.488135025Z"
     },
     {
       "id": "hn:50118977",
@@ -147,6 +147,21 @@
       "scored_at": "2026-10-17T08:08:37.635182307Z"
     },
     {
+      "id": "hn:50144066",
+      "source": "hn",
+      "title": "Free Pascal compiler now supports dynamic packages",
+      "url": "https://getlazarus.org/dynamic",
+      "published": "2026-10-18T18:48:04Z",
+      "authors": "sysrpl",
+      "points": 75,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Free Pascal compiler feature release; no security implications for application security tooling.",
+      "scored_at": "2026-10-18T22:03:09.730184812Z"
+    },
+    {
       "id": "hn:50141429",
       "source": "hn",
       "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
@@ -161,6 +176,22 @@
       "dek": "Policy proposal from Anthropic sets liability thresholds for AI systems; outside application security engineer's scope.",
       "unproven": "outside the reader's remit; does not affect SDLC process, tooling, or architecture review",
       "scored_at": "2026-10-18T18:22:00.718157864Z"
+    },
+    {
+      "id": "hn:50139083",
+      "source": "hn",
+      "title": "OpenCode has a security breach last that impacted 1.4% of console users",
+      "url": "https://twitter.com/opencode/status/2111519637049319818",
+      "published": "2026-10-18T08:22:11Z",
+      "authors": "notmine1337",
+      "points": 40,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Third-party gaming platform breach; outside financial services infrastructure and SDLC scope.",
+      "unproven": "whether any financial services systems rely on OpenCode; whether breach details are relevant to SAST/DAST/SCA decisions",
+      "scored_at": "2026-10-18T22:03:09.730185213Z"
     },
     {
       "id": "hn:50133401",
@@ -255,22 +286,6 @@
       "dek": "Qualcomm wins licensing dispute against Arm; legal settlement with no bearing on application security practice or SDLC.",
       "unproven": "Entirely outside application security remit; corporate litigation is not an engineering concern.",
       "scored_at": "2026-10-16T19:09:05.282709042Z"
-    },
-    {
-      "id": "hn:50109642",
-      "source": "hn",
-      "title": "BBC licence fee to be extended with 'YouTube tax' to force more to pay",
-      "url": "https://independent.co.uk/news/uk/politics/bbc-licence-fee-charter-youtube-tax-netflix-disney-b3067500.html",
-      "published": "2026-10-15T20:17:16Z",
-      "authors": "beejiu",
-      "points": 37,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "UK government policy proposal for BBC funding; no relevance to application security engineering or secure development.",
-      "unproven": "Policy discussion has no connection to reader's domain or decisions.",
-      "scored_at": "2026-10-16T19:09:05.282716886Z"
     }
   ],
   "noise": null
