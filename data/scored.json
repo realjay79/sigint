@@ -30527,6 +30527,22 @@
     "unproven": "identity of affected users, nature of credentials, whether the reader's org uses OpenCode, timeline, or mitigation steps",
     "scored_at": "2026-10-17T21:52:18.627038857Z"
   },
+  "hn:50141429": {
+    "id": "hn:50141429",
+    "source": "hn",
+    "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+    "url": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+    "published": "2026-10-18T14:30:27Z",
+    "authors": "f-serif",
+    "points": 129,
+    "novelty": 1,
+    "actionability": 1,
+    "score": 2,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Policy proposal from Anthropic sets liability thresholds for AI systems; outside application security engineer's scope.",
+    "unproven": "outside the reader's remit; does not affect SDLC process, tooling, or architecture review",
+    "scored_at": "2026-10-18T18:22:00.718157864Z"
+  },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",
     "source": "kev",
