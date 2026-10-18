@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-17T21:52:18.647710931Z",
-  "edition": 85,
+  "generated": "2026-10-18T02:07:58.843944723Z",
+  "edition": 86,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,34 +8,18 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 19,
+      "arxiv": 20,
       "hn": 3,
-      "kev": 3
+      "kev": 2
     },
     "by_quadrant": {
-      "BREAK GLASS": 5,
-      "NEW GROUND": 10,
+      "BREAK GLASS": 4,
+      "NEW GROUND": 12,
       "NOISE FLOOR": 5,
-      "STANDING ORDERS": 5
+      "STANDING ORDERS": 4
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2025-61624",
-      "source": "kev",
-      "title": "CVE-2025-61624 — Fortinet Multiple Products Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
-      "published": "2026-10-16T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Fortinet Multiple Products. Confirmed exploited in the wild. Federal remediation due 19 October.",
-      "cves": [
-        "CVE-2025-61624"
-      ],
-      "scored_at": "2026-10-16T19:09:01.48813763Z"
-    },
     {
       "id": "kev:CVE-2026-102764",
       "source": "kev",
@@ -51,6 +35,22 @@
         "CVE-2026-102764"
       ],
       "scored_at": "2026-10-16T19:09:01.488135025Z"
+    },
+    {
+      "id": "kev:CVE-2025-61624",
+      "source": "kev",
+      "title": "CVE-2025-61624 — Fortinet Multiple Products Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+      "published": "2026-10-16T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Fortinet Multiple Products. Confirmed exploited in the wild. Federal remediation due 19 October.",
+      "cves": [
+        "CVE-2025-61624"
+      ],
+      "scored_at": "2026-10-16T19:09:01.48813763Z"
     },
     {
       "id": "arxiv:2610.22301v1",
@@ -111,37 +111,6 @@
       "dek": "System to correlate agent actions across application traces and OS telemetry with explicit uncertainty tracking; directly applicable to securing agentic SDLC audit.",
       "unproven": "proof-of-concept implementation; no measurement of false-positive or false-negative rates on real agent codebases; bounded search for command-to-process correlation admits unprovable associations.",
       "scored_at": "2026-10-16T08:36:53.220434695Z"
-    },
-    {
-      "id": "arxiv:2610.21063v1",
-      "source": "arxiv",
-      "title": "Approve What, Exactly? Effect Binding and Trusted Rendering for Agent Step-Up Authorization",
-      "url": "http://arxiv.org/abs/2610.21063v1",
-      "published": "2026-10-15T01:11:23Z",
-      "authors": "Sai Varun Kodathala et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Twelve attacks on agent step-up authorization; audit of ten runtimes finds no third-party approval record and post-approval argument changes in four of eight; reference defense (ASU) with Tamarin proofs.",
-      "unproven": "reference design not yet deployed; 27,108 scripted trials and 609 AgentDojo tests do not cover all agent platforms or approval workflows; fixes require runtime or protocol changes the reader may not control.",
-      "scored_at": "2026-10-16T08:36:53.220435327Z"
-    },
-    {
-      "id": "kev:CVE-2026-21589",
-      "source": "kev",
-      "title": "CVE-2026-21589 — Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
-      "published": "2026-10-15T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Atlassian Multiple Products. Confirmed exploited in the wild. Federal remediation due 18 October.",
-      "cves": [
-        "CVE-2026-21589"
-      ],
-      "scored_at": "2026-10-15T19:40:56.908494645Z"
     },
     {
       "id": "arxiv:2610.22243v1",
@@ -400,6 +369,36 @@
       "dek": "Item embeddings in recommender systems leak identities via cosine similarity when adversaries hold auxiliary item text; leakage persists through semantic alignment.",
       "unproven": "whether obfuscation mitigations are practical under production performance constraints, or whether the attack applies to proprietary commercial embedding models",
       "scored_at": "2026-10-16T08:36:12.420398231Z"
+    },
+    {
+      "id": "arxiv:2610.21488v1",
+      "source": "arxiv",
+      "title": "Smoothness of Shortest Isogenies to Frobenius Conjugates",
+      "url": "http://arxiv.org/abs/2610.21488v1",
+      "published": "2026-10-15T08:25:39Z",
+      "authors": "Yi Ouyang et al.",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Smoothness of shortest isogenies to Frobenius conjugates validates p^(1/3+o(1)) unconditional attack on supersingular endomorphism ring problem.",
+      "unproven": "post-quantum cryptography adoption timeline; whether this affects ML-KEM or other NIST-approved KEM implementations the reader will deploy",
+      "scored_at": "2026-10-16T08:36:26.046108929Z"
+    },
+    {
+      "id": "arxiv:2610.21469v1",
+      "source": "arxiv",
+      "title": "Limits of adaptive linear postprocessing in six-state quantum key distribution",
+      "url": "http://arxiv.org/abs/2610.21469v1",
+      "published": "2026-10-15T08:13:21Z",
+      "authors": "Toyohiro Tsurumaru",
+      "novelty": 4,
+      "actionability": 1,
+      "score": 5,
+      "quadrant": "NEW GROUND",
+      "dek": "Collective attack defeats linear postprocessing in six-state QKD above 27.6% error rate, closing a theoretical gap.",
+      "unproven": "No deployed QKD system tested; theoretical result does not establish practical threat to fielded implementations.",
+      "scored_at": "2026-10-16T22:20:08.986975715Z"
     }
   ],
   "noise": [
