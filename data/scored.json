@@ -32214,6 +32214,22 @@
     "dek": "Political party documents leaked; unrelated to software security or SDLC.",
     "scored_at": "2026-10-19T23:12:47.233613579Z"
   },
+  "hn:50160877": {
+    "id": "hn:50160877",
+    "source": "hn",
+    "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+    "url": "https://github.com/golang/go/issues/82345",
+    "published": "2026-10-20T03:05:07Z",
+    "authors": "mendym",
+    "points": 86,
+    "novelty": 2,
+    "actionability": 3,
+    "score": 5,
+    "quadrant": "NOISE FLOOR",
+    "dek": "Go runtime will reject eight specific compromised certificate authorities, requiring review of internal PKI and service certificates.",
+    "unproven": "whether the eight SPKIs cover all relevant internal CAs in financial services deployments; timing of Go version rollout across the reader's estate.",
+    "scored_at": "2026-10-20T08:59:59.512818775Z"
+  },
   "kev:CVE-2015-3306": {
     "id": "kev:CVE-2015-3306",
     "source": "kev",

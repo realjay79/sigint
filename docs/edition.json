@@ -1,20 +1,36 @@
 {
-  "generated": "2026-10-20T02:37:36.084430374Z",
+  "generated": "2026-10-20T08:59:59.532215379Z",
   "edition": 88,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 16,
+    "total": 15,
     "by_source": {
-      "hn": 16
+      "hn": 15
     },
     "by_quadrant": {
-      "NOISE FLOOR": 16
+      "NOISE FLOOR": 15
     }
   },
   "items": [
+    {
+      "id": "hn:50160877",
+      "source": "hn",
+      "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+      "url": "https://github.com/golang/go/issues/82345",
+      "published": "2026-10-20T03:05:07Z",
+      "authors": "mendym",
+      "points": 86,
+      "novelty": 2,
+      "actionability": 3,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Go runtime will reject eight specific compromised certificate authorities, requiring review of internal PKI and service certificates.",
+      "unproven": "whether the eight SPKIs cover all relevant internal CAs in financial services deployments; timing of Go version rollout across the reader's estate.",
+      "scored_at": "2026-10-20T08:59:59.512818775Z"
+    },
     {
       "id": "hn:50152321",
       "source": "hn",
@@ -94,22 +110,6 @@
       "dek": "Ad-tech firm used as spyware distribution vector; narrative reporting without architectural or detection guidance.",
       "unproven": "no indication of supply-chain attack vectors affecting the reader's dependencies or deployment environments",
       "scored_at": "2026-10-17T18:02:47.742102324Z"
-    },
-    {
-      "id": "hn:50127586",
-      "source": "hn",
-      "title": "Source code of the Estonian online voting system",
-      "url": "https://github.com/valimised/ivxv",
-      "published": "2026-10-17T03:18:39Z",
-      "authors": "theanonymousone",
-      "points": 112,
-      "novelty": 2,
-      "actionability": 1,
-      "score": 3,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Estonian e-voting system source code made public; outside reader's SDLC scope and governance domain.",
-      "unproven": "applicability to financial services application security; reader does not audit voting infrastructure",
-      "scored_at": "2026-10-17T21:52:18.627039439Z"
     },
     {
       "id": "hn:50157664",
@@ -252,21 +252,6 @@
       "dek": "OpenAI reports additional insider incidents; no methodology or technical detail provided.",
       "unproven": "outside the reader's remit; does not involve application security, SDLC, or tooling decisions",
       "scored_at": "2026-10-17T18:02:47.742101933Z"
-    },
-    {
-      "id": "hn:50127572",
-      "source": "hn",
-      "title": "A skeptic's first contact with Kubernetes (2024)",
-      "url": "https://blog.davidv.dev/posts/first-contact-with-k8s",
-      "published": "2026-10-17T03:16:25Z",
-      "authors": "pmoriarty",
-      "points": 58,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Opinion piece on Kubernetes adoption friction; no measurement, no security finding, no bearing on secure SDLC tooling decisions.",
-      "scored_at": "2026-10-17T21:52:18.62704033Z"
     }
   ],
   "noise": null
