@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T22:50:14.900155693Z",
-  "edition": 88,
+  "generated": "2026-10-21T02:32:36.845813152Z",
+  "edition": 89,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,14 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 19,
+      "arxiv": 17,
+      "hn": 2,
       "kev": 6
     },
     "by_quadrant": {
       "BREAK GLASS": 3,
-      "NEW GROUND": 10,
+      "NEW GROUND": 8,
       "NOISE FLOOR": 4,
-      "STANDING ORDERS": 8
+      "STANDING ORDERS": 10
     }
   },
   "items": [
@@ -36,20 +37,20 @@
       "scored_at": "2026-10-20T22:49:23.991175217Z"
     },
     {
-      "id": "kev:CVE-2026-96652",
+      "id": "kev:CVE-2026-96654",
       "source": "kev",
-      "title": "CVE-2026-96652 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+      "title": "CVE-2026-96654 — Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
       "published": "2026-10-20T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
       "cves": [
-        "CVE-2026-96652"
+        "CVE-2026-96654"
       ],
-      "scored_at": "2026-10-20T22:49:23.991183282Z"
+      "scored_at": "2026-10-20T22:49:23.99118202Z"
     },
     {
       "id": "kev:CVE-2026-96655",
@@ -68,20 +69,20 @@
       "scored_at": "2026-10-20T22:49:23.991180086Z"
     },
     {
-      "id": "kev:CVE-2026-96654",
+      "id": "kev:CVE-2026-96652",
       "source": "kev",
-      "title": "CVE-2026-96654 — Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
+      "title": "CVE-2026-96652 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
       "published": "2026-10-20T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
       "cves": [
-        "CVE-2026-96654"
+        "CVE-2026-96652"
       ],
-      "scored_at": "2026-10-20T22:49:23.99118202Z"
+      "scored_at": "2026-10-20T22:49:23.991183282Z"
     },
     {
       "id": "kev:CVE-2026-96656",
@@ -176,6 +177,22 @@
       "scored_at": "2026-10-20T22:49:36.364233476Z"
     },
     {
+      "id": "hn:50166579",
+      "source": "hn",
+      "title": "EMudhra Intermediate CA Compromise",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "published": "2026-10-20T13:58:33Z",
+      "authors": "galadran",
+      "points": 671,
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "EMudhra intermediate CA certificate compromised; audit trust store, revocation status, and re-issuance for dependent systems.",
+      "unproven": "scope of compromised certificate lineage, which end-entity certificates are affected, whether private key was extracted",
+      "scored_at": "2026-10-21T02:32:35.308113383Z"
+    },
+    {
       "id": "arxiv:2610.25937v1",
       "source": "arxiv",
       "title": "RAGLeak: Supply-Chain Privacy Backdoors in Retrieval-Augmented Generation",
@@ -264,6 +281,22 @@
       "dek": "PIAtlas taxonomy organizes 20+ prompt-injection datasets by LLM subversion mechanism; PICorpus maps thousands of records consistently.",
       "unproven": "whether this taxonomy changes how the reader evaluates or remediates prompt-injection risks in deployed agents; applicability to proprietary agent architectures.",
       "scored_at": "2026-10-20T22:49:36.364233797Z"
+    },
+    {
+      "id": "hn:50171986",
+      "source": "hn",
+      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+      "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs",
+      "published": "2026-10-20T20:11:25Z",
+      "authors": "hackdna",
+      "points": 35,
+      "novelty": 2,
+      "actionability": 4,
+      "score": 6,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Eight TLS certificates compromised; audit certificate pinning and CA trust policies, verify issuer controls.",
+      "unproven": "scope of compromise, whether certificates were issued legitimately or through key extraction, remediation timeline",
+      "scored_at": "2026-10-21T02:32:35.308109397Z"
     },
     {
       "id": "arxiv:2610.26799v1",
@@ -369,39 +402,40 @@
       "dek": "Architectural-level knowledge relocation in mixture-of-experts concentrates hazardous knowledge in removable experts via selective routing.",
       "unproven": "Whether relocated knowledge is irretrievable after expert removal; tested on specific hazard categories and model families, not demonstrated at scale.",
       "scored_at": "2026-10-20T16:02:09.409288358Z"
-    },
-    {
-      "id": "arxiv:2610.25071v1",
-      "source": "arxiv",
-      "title": "Locate, Then Reason: End-to-End Patch Presence Testing in Stripped Binaries",
-      "url": "http://arxiv.org/abs/2610.25071v1",
-      "published": "2026-10-18T07:27:48Z",
-      "authors": "Huaijin Wang et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "PatchAlign localizes patch-relevant code in stripped binaries using retrieval and LLM reasoning, improving patch presence testing recall.",
-      "unproven": "whether LLM reasoning is reliable enough for binary-level patch verification in production; generalization to proprietary binaries outside test datasets.",
-      "scored_at": "2026-10-20T22:49:36.364233276Z"
-    },
-    {
-      "id": "arxiv:2610.25032v1",
-      "source": "arxiv",
-      "title": "Don't Judge an Agent by Its Messages: Private-State Leakage under Passive Monitoring of Agent Communication",
-      "url": "http://arxiv.org/abs/2610.25032v1",
-      "published": "2026-10-18T05:43:30Z",
-      "authors": "Daksh Pandey et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "AI agents leak private state through message selection even when task outcomes and authorized message law are observable.",
-      "unproven": "whether this applies to agents currently entering the reader's SDLC; real-world attack feasibility against production LLM applications.",
-      "scored_at": "2026-10-20T22:49:36.364233646Z"
     }
   ],
   "noise": [
+    {
+      "id": "hn:50163961",
+      "source": "hn",
+      "title": "Google Cloud outage affects almost all banking and other operations in Europe",
+      "url": "https://neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more",
+      "published": "2026-10-20T10:26:02Z",
+      "authors": "paweladamczuk",
+      "points": 346,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Google Cloud infrastructure failure across Europe; incident response and status tracking in real time.",
+      "unproven": "outside the reader's remit—this is operational incident response and infrastructure management, not application security engineering or SDLC governance.",
+      "scored_at": "2026-10-21T02:32:36.834592696Z"
+    },
+    {
+      "id": "hn:50169053",
+      "source": "hn",
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "published": "2026-10-20T16:40:24Z",
+      "authors": "ilreb",
+      "points": 271,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Google releases TorchTPU backend; infrastructure tooling, not application security or SDLC process.",
+      "scored_at": "2026-10-21T02:32:35.308112782Z"
+    },
     {
       "id": "hn:50146625",
       "source": "hn",
@@ -417,38 +451,6 @@
       "dek": "Historical piece on William Gibson's cyberspace trademark and cultural impact.",
       "unproven": "entirely outside application security remit",
       "scored_at": "2026-10-19T17:58:01.612605073Z"
-    },
-    {
-      "id": "hn:50155245",
-      "source": "hn",
-      "title": "Mercury 3: Diffusion at scale",
-      "url": "https://inceptionlabs.ai/blog/introducing-mercury-3",
-      "published": "2026-10-19T17:27:11Z",
-      "authors": "cmrdporcupine",
-      "points": 206,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Mercury 3 diffusion model from commercial vendor; marketing for a product.",
-      "unproven": "whether claims hold outside vendor benchmarks or differ meaningfully from prior releases",
-      "scored_at": "2026-10-19T23:12:47.233613939Z"
-    },
-    {
-      "id": "hn:50153630",
-      "source": "hn",
-      "title": "CERN and Mistral join forces to accelerate AI for science",
-      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science",
-      "published": "2026-10-19T15:28:24Z",
-      "authors": "kensai",
-      "points": 193,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
-      "quadrant": "NOISE FLOOR",
-      "dek": "CERN and Mistral announced a partnership to apply AI to scientific research.",
-      "unproven": "entirely outside application security and SDLC tooling domain",
-      "scored_at": "2026-10-19T17:58:01.612604422Z"
     }
   ]
 }
