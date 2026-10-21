@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T02:32:36.845813152Z",
+  "generated": "2026-10-21T09:00:10.467875089Z",
   "edition": 89,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,28 +13,27 @@
       "kev": 6
     },
     "by_quadrant": {
-      "BREAK GLASS": 3,
-      "NEW GROUND": 8,
-      "NOISE FLOOR": 4,
-      "STANDING ORDERS": 10
+      "BREAK GLASS": 4,
+      "NEW GROUND": 9,
+      "NOISE FLOOR": 1,
+      "STANDING ORDERS": 11
     }
   },
   "items": [
     {
-      "id": "kev:CVE-2026-106931",
-      "source": "kev",
-      "title": "CVE-2026-106931 — EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
+      "id": "arxiv:2610.28425v1",
+      "source": "arxiv",
+      "title": "After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents",
+      "url": "http://arxiv.org/abs/2610.28425v1",
+      "published": "2026-10-20T15:55:05Z",
+      "authors": "Zhiyue Xu et al.",
+      "novelty": 4,
+      "actionability": 4,
       "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "EG Secure Solutions SiteGuard Server Edition. Confirmed exploited in the wild. Federal remediation due 23 October.",
-      "cves": [
-        "CVE-2026-106931"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991175217Z"
+      "quadrant": "BREAK GLASS",
+      "dek": "Benchmark shows prompt-injected payloads persist across agent sessions without decay; 101 attack tasks across five frontier models.",
+      "unproven": "Tested on simulated scenarios; transfer to production agent workloads and real memory/task architectures unconfirmed.",
+      "scored_at": "2026-10-21T08:59:31.026941903Z"
     },
     {
       "id": "kev:CVE-2026-96654",
@@ -67,6 +66,22 @@
         "CVE-2026-96655"
       ],
       "scored_at": "2026-10-20T22:49:23.991180086Z"
+    },
+    {
+      "id": "kev:CVE-2026-106931",
+      "source": "kev",
+      "title": "CVE-2026-106931 — EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+      "published": "2026-10-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "EG Secure Solutions SiteGuard Server Edition. Confirmed exploited in the wild. Federal remediation due 23 October.",
+      "cves": [
+        "CVE-2026-106931"
+      ],
+      "scored_at": "2026-10-20T22:49:23.991175217Z"
     },
     {
       "id": "kev:CVE-2026-96652",
@@ -162,19 +177,34 @@
       "scored_at": "2026-10-20T16:02:20.559402211Z"
     },
     {
-      "id": "arxiv:2610.25060v1",
+      "id": "arxiv:2610.28484v1",
       "source": "arxiv",
-      "title": "Policy Is Not Capability: Some Safety Benchmarks Measure Which Definition of \"Unsafe\" You Trained On",
-      "url": "http://arxiv.org/abs/2610.25060v1",
-      "published": "2026-10-18T07:02:22Z",
-      "authors": "Vahid Jebraeeli et al.",
-      "novelty": 5,
+      "title": "Proof-Carrying Contracts: Commitments AI Agents Cannot Break",
+      "url": "http://arxiv.org/abs/2610.28484v1",
+      "published": "2026-10-20T16:30:34Z",
+      "authors": "Carlo Ciliberto et al.",
+      "novelty": 4,
       "actionability": 3,
-      "score": 8,
+      "score": 7,
       "quadrant": "NEW GROUND",
-      "dek": "Safety benchmarks for LLM guardrails measure label definitions, not model safety; 88% of JailbreakBench was in training data.",
-      "unproven": "whether findings apply to commercial guardrail systems the reader might evaluate; generalization beyond the single 53k-prompt industrial deployment studied.",
-      "scored_at": "2026-10-20T22:49:36.364233476Z"
+      "dek": "Framework enforces agent compliance to contract terms via machine-checkable proofs before execution, eliminating need to trust agent internals.",
+      "unproven": "No deployed implementation; unclear how proof generation scales with agent complexity or real policy sets.",
+      "scored_at": "2026-10-21T08:59:31.026940771Z"
+    },
+    {
+      "id": "arxiv:2610.28315v1",
+      "source": "arxiv",
+      "title": "Disclosure Begets Disclosure: A Self-Reinforcing Privacy Loop in LLM Agents with Persistent Memory",
+      "url": "http://arxiv.org/abs/2610.28315v1",
+      "published": "2026-10-20T14:52:57Z",
+      "authors": "Masahiro Kaneko et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Multi-session simulation shows persistent LLM agent memory causes self-reinforcing privacy leakage loop; attribute inference margin widens over time.",
+      "unproven": "Simulated users and four support models; transfer to real user behavior and production agent memory architectures not established.",
+      "scored_at": "2026-10-21T08:59:31.026944828Z"
     },
     {
       "id": "hn:50166579",
@@ -191,6 +221,66 @@
       "dek": "EMudhra intermediate CA certificate compromised; audit trust store, revocation status, and re-issuance for dependent systems.",
       "unproven": "scope of compromised certificate lineage, which end-entity certificates are affected, whether private key was extracted",
       "scored_at": "2026-10-21T02:32:35.308113383Z"
+    },
+    {
+      "id": "arxiv:2610.28093v1",
+      "source": "arxiv",
+      "title": "ClawMMU: Protection-Coherent Virtual Memory for Stateful LLM Agents",
+      "url": "http://arxiv.org/abs/2610.28093v1",
+      "published": "2026-10-20T12:09:53Z",
+      "authors": "Jinhao Hu et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Protection layer tracks memory origin and authority to block indirect prompt injection; authority never self-elevates.",
+      "unproven": "Conceptual design; no implementation, performance benchmarks, or integration path with existing agent frameworks provided.",
+      "scored_at": "2026-10-21T08:59:31.026948255Z"
+    },
+    {
+      "id": "arxiv:2610.27766v1",
+      "source": "arxiv",
+      "title": "Testing TLS 1.3 PQC on constrained devices and microcontrollers",
+      "url": "http://arxiv.org/abs/2610.27766v1",
+      "published": "2026-10-20T07:29:29Z",
+      "authors": "Olivier Gillot et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Post-quantum TLS 1.3 on microcontrollers: ML-KEM-512 + ML-DSA-44 handshakes 41% faster than X25519 + RSA-PSS on Pico W, contradicting assumption that lattice key exchange costs more.",
+      "unproven": "Single-implementation benchmark (wolfSSL); no variation across TLS stacks, compilers, or optimization levels; interoperability and real-world deployment readiness unaddressed.",
+      "scored_at": "2026-10-21T08:59:46.120596381Z"
+    },
+    {
+      "id": "arxiv:2610.27620v1",
+      "source": "arxiv",
+      "title": "Local Allow, Global Deny: Why Per-Action Authorization Does Not Compose in LLM Agents",
+      "url": "http://arxiv.org/abs/2610.27620v1",
+      "published": "2026-10-20T04:35:39Z",
+      "authors": "Anmol Pandey et al.",
+      "novelty": 4,
+      "actionability": 3,
+      "score": 7,
+      "quadrant": "NEW GROUND",
+      "dek": "Per-action authorization in LLM agents cannot enforce relational policies; compositional failures occur in 19.2% of test trajectories without cross-execution monitoring.",
+      "unproven": "whether the theoretical impossibility result generalizes beyond the nine judges tested or translates to guardrail design constraints applicable to production agents.",
+      "scored_at": "2026-10-21T08:59:58.948998142Z"
+    },
+    {
+      "id": "arxiv:2610.27548v1",
+      "source": "arxiv",
+      "title": "Act on Your Behalf, Beyond Your Authorization: Benchmarking LLM Agent Authorization Alignment",
+      "url": "http://arxiv.org/abs/2610.27548v1",
+      "published": "2026-10-20T03:01:39Z",
+      "authors": "Zhiping Zhang et al.",
+      "novelty": 3,
+      "actionability": 4,
+      "score": 7,
+      "quadrant": "STANDING ORDERS",
+      "dek": "AuthorizationBench finds 19.2% of agent actions violate granted authorization across 6,864 trajectories; reasoning effort does not reduce violations.",
+      "unproven": "whether results hold for agents with explicit authorization APIs or guardrails beyond the three harnesses tested; generalization to production delegation patterns.",
+      "scored_at": "2026-10-21T08:59:58.948998923Z"
     },
     {
       "id": "arxiv:2610.25937v1",
@@ -268,21 +358,6 @@
       "scored_at": "2026-10-20T22:49:36.364230741Z"
     },
     {
-      "id": "arxiv:2610.24999v1",
-      "source": "arxiv",
-      "title": "SoK: PIAtlas: Decomposing the Unbounded Prompt Injection Attack Space",
-      "url": "http://arxiv.org/abs/2610.24999v1",
-      "published": "2026-10-18T04:07:48Z",
-      "authors": "Stavros Damianakis et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "PIAtlas taxonomy organizes 20+ prompt-injection datasets by LLM subversion mechanism; PICorpus maps thousands of records consistently.",
-      "unproven": "whether this taxonomy changes how the reader evaluates or remediates prompt-injection risks in deployed agents; applicability to proprietary agent architectures.",
-      "scored_at": "2026-10-20T22:49:36.364233797Z"
-    },
-    {
       "id": "hn:50171986",
       "source": "hn",
       "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
@@ -299,109 +374,34 @@
       "scored_at": "2026-10-21T02:32:35.308109397Z"
     },
     {
-      "id": "arxiv:2610.26799v1",
+      "id": "arxiv:2610.28401v1",
       "source": "arxiv",
-      "title": "Accountable partial understanding: securing the epistemic attack surface of agentic systems",
-      "url": "http://arxiv.org/abs/2610.26799v1",
-      "published": "2026-10-19T17:44:48Z",
-      "authors": "Josiah Dykstra",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Taxonomy of four epistemic attack categories on agentic systems, defining accountable partial understanding with six necessary conditions.",
-      "unproven": "does not demonstrate that the six conditions are jointly sufficient or that they hold under real agent deployment; does not test the taxonomy against incident data",
-      "scored_at": "2026-10-20T16:01:44.254849812Z"
-    },
-    {
-      "id": "arxiv:2610.26682v1",
-      "source": "arxiv",
-      "title": "BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting",
-      "url": "http://arxiv.org/abs/2610.26682v1",
-      "published": "2026-10-19T16:28:52Z",
-      "authors": "Hao Chen et al.",
+      "title": "SPECTER: Covert Data Exfiltration from Air-Gapped Systems via USB Power Modulation",
+      "url": "http://arxiv.org/abs/2610.28401v1",
+      "published": "2026-10-20T15:47:02Z",
+      "authors": "Hyeongjun Choi et al.",
       "novelty": 4,
       "actionability": 2,
       "score": 6,
       "quadrant": "NEW GROUND",
-      "dek": "BrushOff stroke-based repainting removes VINE watermark detection from 97.8% to 1.8% without training or generative models.",
-      "unproven": "limited to painting domain; does not establish whether this generalizes to other media or watermarking schemes; no user-facing watermark product tested",
-      "scored_at": "2026-10-20T16:01:44.254851675Z"
+      "dek": "Covert channel exfiltrates data from air-gapped systems by modulating USB power signals at 0.2–1.0 bit/sec; requires admin privileges.",
+      "unproven": "Laboratory demonstration on two OS versions; applicability to hardened production environments and realistic secret sizes not established.",
+      "scored_at": "2026-10-21T08:59:31.026943386Z"
     },
     {
-      "id": "arxiv:2610.26327v1",
+      "id": "arxiv:2610.28397v1",
       "source": "arxiv",
-      "title": "Fortress: Fork Resistant Transparency logs Relying on Social graph Structure",
-      "url": "http://arxiv.org/abs/2610.26327v1",
-      "published": "2026-10-19T13:01:37Z",
-      "authors": "Anastasiia Kucherenko et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Fortress protocol replaces external bulletin boards in transparency systems with social-graph-based fork detection, eliminating dependency on trusted infrastructure.",
-      "unproven": "protocol described theoretically; no implementation, no deployment data, no comparison against practical bulletin-board systems at scale.",
-      "scored_at": "2026-10-20T16:01:57.229007719Z"
-    },
-    {
-      "id": "arxiv:2610.26088v1",
-      "source": "arxiv",
-      "title": "LeakBench: Auditing Reward Hacking through Prediction-Time Leakage in Clinical Modeling Agents",
-      "url": "http://arxiv.org/abs/2610.26088v1",
-      "published": "2026-10-19T09:50:57Z",
-      "authors": "Xiaoyuan Bao et al.",
+      "title": "MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems",
+      "url": "http://arxiv.org/abs/2610.28397v1",
+      "published": "2026-10-20T15:44:37Z",
+      "authors": "Mohammad Kachuee et al.",
       "novelty": 3,
       "actionability": 3,
       "score": 6,
       "quadrant": "NOISE FLOOR",
-      "dek": "LeakBench audit suite catches clinical agents leaking prediction-time features; LLM agents (DeepSeek, GPT-6-astra) leak in 10/10 unconstrained runs, zero with explicit constraints.",
-      "unproven": "agents and datasets are future-dated (September 2026) and appear synthetic or simulated; real-world adoption of constraint-based controls in medical LLM workflows not established.",
-      "scored_at": "2026-10-20T16:01:57.2290083Z"
-    },
-    {
-      "id": "arxiv:2610.26001v1",
-      "source": "arxiv",
-      "title": "SPLASH: Contrastive Audit Pressure for Detecting and Localizing Security Hallucinations in Generated Code",
-      "url": "http://arxiv.org/abs/2610.26001v1",
-      "published": "2026-10-19T08:24:50Z",
-      "authors": "Mirza Masfiqur Rahman et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "SPLASH detects and locates security hallucinations in LLM-generated code using audit pressure (contrast between security and style review log-probabilities), selecting secure code in 74% of cases.",
-      "unproven": "evaluated on 899 tasks across 12 models; generalization to production codebases and integration into developer workflow not demonstrated.",
-      "scored_at": "2026-10-20T16:01:57.229009802Z"
-    },
-    {
-      "id": "arxiv:2610.25916v1",
-      "source": "arxiv",
-      "title": "Secure Agentic Coding through Counterexample-Grounded Feedback",
-      "url": "http://arxiv.org/abs/2610.25916v1",
-      "published": "2026-10-19T07:18:34Z",
-      "authors": "Tue Le et al.",
-      "novelty": 3,
-      "actionability": 3,
-      "score": 6,
-      "quadrant": "NOISE FLOOR",
-      "dek": "Counterexample-grounded feedback loop improves secure code generation by grounding security signals in program execution traces.",
-      "unproven": "Whether gains hold on production codebases and deployment patterns outside the benchmark; tested on held-out splits of controlled datasets only.",
-      "scored_at": "2026-10-20T16:02:09.409288047Z"
-    },
-    {
-      "id": "arxiv:2610.25791v1",
-      "source": "arxiv",
-      "title": "Towards Architectural-Level Safety Control: Relocating Hazardous Knowledge into Removable Experts in Mixture-of-Experts Models",
-      "url": "http://arxiv.org/abs/2610.25791v1",
-      "published": "2026-10-19T04:55:27Z",
-      "authors": "Cheng Jin et al.",
-      "novelty": 4,
-      "actionability": 2,
-      "score": 6,
-      "quadrant": "NEW GROUND",
-      "dek": "Architectural-level knowledge relocation in mixture-of-experts concentrates hazardous knowledge in removable experts via selective routing.",
-      "unproven": "Whether relocated knowledge is irretrievable after expert removal; tested on specific hazard categories and model families, not demonstrated at scale.",
-      "scored_at": "2026-10-20T16:02:09.409288358Z"
+      "dek": "Unified guardrail framework for single and multi-agent LLM systems combines local task experts, semantic checks, and deterministic structural controls.",
+      "unproven": "Prototype framework; no field deployment data or head-to-head comparison with production agent safeguarding tooling.",
+      "scored_at": "2026-10-21T08:59:31.026943626Z"
     }
   ],
   "noise": [
