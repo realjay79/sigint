@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T16:19:04.088529769Z",
+  "generated": "2026-10-21T22:53:41.256025471Z",
   "edition": 89,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,14 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 18,
-      "hn": 1,
+      "arxiv": 17,
+      "hn": 2,
       "kev": 6
     },
     "by_quadrant": {
-      "BREAK GLASS": 6,
+      "BREAK GLASS": 5,
       "NEW GROUND": 8,
-      "STANDING ORDERS": 11
+      "STANDING ORDERS": 12
     }
   },
   "items": [
@@ -33,6 +33,54 @@
       "dek": "Benchmark shows prompt-injected payloads persist across agent sessions without decay; 101 attack tasks across five frontier models.",
       "unproven": "Tested on simulated scenarios; transfer to production agent workloads and real memory/task architectures unconfirmed.",
       "scored_at": "2026-10-21T08:59:31.026941903Z"
+    },
+    {
+      "id": "kev:CVE-2026-96652",
+      "source": "kev",
+      "title": "CVE-2026-96652 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+      "published": "2026-10-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
+      "cves": [
+        "CVE-2026-96652"
+      ],
+      "scored_at": "2026-10-20T22:49:23.991183282Z"
+    },
+    {
+      "id": "kev:CVE-2026-96654",
+      "source": "kev",
+      "title": "CVE-2026-96654 — Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
+      "published": "2026-10-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
+      "cves": [
+        "CVE-2026-96654"
+      ],
+      "scored_at": "2026-10-20T22:49:23.99118202Z"
+    },
+    {
+      "id": "kev:CVE-2026-96655",
+      "source": "kev",
+      "title": "CVE-2026-96655 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+      "published": "2026-10-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
+      "cves": [
+        "CVE-2026-96655"
+      ],
+      "scored_at": "2026-10-20T22:49:23.991180086Z"
     },
     {
       "id": "kev:CVE-2026-106931",
@@ -67,38 +115,6 @@
       "scored_at": "2026-10-20T22:49:23.991177942Z"
     },
     {
-      "id": "kev:CVE-2026-96652",
-      "source": "kev",
-      "title": "CVE-2026-96652 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
-      "cves": [
-        "CVE-2026-96652"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991183282Z"
-    },
-    {
-      "id": "kev:CVE-2026-96655",
-      "source": "kev",
-      "title": "CVE-2026-96655 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
-      "cves": [
-        "CVE-2026-96655"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991180086Z"
-    },
-    {
       "id": "kev:CVE-2026-110936",
       "source": "kev",
       "title": "CVE-2026-110936 — Siemens Software Center Uncontrolled Search Path Element Vulnerability",
@@ -113,22 +129,6 @@
         "CVE-2026-110936"
       ],
       "scored_at": "2026-10-20T22:49:23.991184725Z"
-    },
-    {
-      "id": "kev:CVE-2026-96654",
-      "source": "kev",
-      "title": "CVE-2026-96654 — Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
-      "cves": [
-        "CVE-2026-96654"
-      ],
-      "scored_at": "2026-10-20T22:49:23.99118202Z"
     },
     {
       "id": "arxiv:2610.27244v1",
@@ -189,21 +189,6 @@
       "dek": "Counterexample-grounded verification using execution traces outperforms static analysis and learned rewards for secure code generation in agents.",
       "unproven": "Evaluation on benchmarks only; effectiveness on production codebases and diverse vulnerability classes beyond benchmark scope not shown.",
       "scored_at": "2026-10-21T16:18:47.147679591Z"
-    },
-    {
-      "id": "arxiv:2610.25372v1",
-      "source": "arxiv",
-      "title": "SEAL: Towards Persistent Tool Poisoning Attack against LLM Agents via Prefix-Eliciting Trigger",
-      "url": "http://arxiv.org/abs/2610.25372v1",
-      "published": "2026-10-18T16:23:17Z",
-      "authors": "Nanjun Zhou et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "SEAL achieves persistent tool-poisoning attacks on LLM agents across multi-round interactions using prefix-eliciting triggers.",
-      "unproven": "whether defense mechanisms can reliably detect or mitigate the attack; tested on limited agent types",
-      "scored_at": "2026-10-20T16:02:20.559402211Z"
     },
     {
       "id": "arxiv:2610.28484v1",
@@ -400,6 +385,22 @@
       "dek": "LLM agents locate correct vulnerability functions in 24% of attempts on Linux kernel bugs; failure modes suggest reasoning and evidence-acquisition gaps.",
       "unproven": "whether SKILL-SIF self-improvement generalizes beyond Claude Code or kernel code; single model family and domain",
       "scored_at": "2026-10-20T16:02:20.559401439Z"
+    },
+    {
+      "id": "hn:50171986",
+      "source": "hn",
+      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+      "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs",
+      "published": "2026-10-20T20:11:25Z",
+      "authors": "hackdna",
+      "points": 35,
+      "novelty": 2,
+      "actionability": 4,
+      "score": 6,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Eight TLS certificates compromised; audit certificate pinning and CA trust policies, verify issuer controls.",
+      "unproven": "scope of compromise, whether certificates were issued legitimately or through key extraction, remediation timeline",
+      "scored_at": "2026-10-21T02:32:35.308109397Z"
     }
   ],
   "noise": [
