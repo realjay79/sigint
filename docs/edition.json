@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T16:17:24.969941523Z",
+  "generated": "2026-10-22T22:52:23.934380336Z",
   "edition": 90,
   "name": "SIGINT",
   "mark": "^C",
@@ -8,15 +8,15 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 17,
-      "hn": 2,
+      "arxiv": 15,
+      "hn": 4,
       "kev": 6
     },
     "by_quadrant": {
-      "BREAK GLASS": 2,
-      "NEW GROUND": 10,
-      "NOISE FLOOR": 3,
-      "STANDING ORDERS": 10
+      "BREAK GLASS": 1,
+      "NEW GROUND": 9,
+      "NOISE FLOOR": 4,
+      "STANDING ORDERS": 11
     }
   },
   "items": [
@@ -36,42 +36,10 @@
       "scored_at": "2026-10-21T08:59:31.026941903Z"
     },
     {
-      "id": "kev:CVE-2026-96654",
+      "id": "kev:CVE-2026-96652",
       "source": "kev",
-      "title": "CVE-2026-96654 — Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
-      "cves": [
-        "CVE-2026-96654"
-      ],
-      "scored_at": "2026-10-20T22:49:23.99118202Z"
-    },
-    {
-      "id": "kev:CVE-2026-96656",
-      "source": "kev",
-      "title": "CVE-2026-96656 — Plex Media Server External Control of File Name or Path Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
-      "cves": [
-        "CVE-2026-96656"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991177942Z"
-    },
-    {
-      "id": "kev:CVE-2026-96655",
-      "source": "kev",
-      "title": "CVE-2026-96655 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+      "title": "CVE-2026-96652 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
       "published": "2026-10-20T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
@@ -79,9 +47,9 @@
       "quadrant": "STANDING ORDERS",
       "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
       "cves": [
-        "CVE-2026-96655"
+        "CVE-2026-96652"
       ],
-      "scored_at": "2026-10-20T22:49:23.991180086Z"
+      "scored_at": "2026-10-20T22:49:23.991183282Z"
     },
     {
       "id": "kev:CVE-2026-110936",
@@ -116,10 +84,26 @@
       "scored_at": "2026-10-20T22:49:23.991175217Z"
     },
     {
-      "id": "kev:CVE-2026-96652",
+      "id": "kev:CVE-2026-96654",
       "source": "kev",
-      "title": "CVE-2026-96652 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+      "title": "CVE-2026-96654 — Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
+      "published": "2026-10-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
+      "cves": [
+        "CVE-2026-96654"
+      ],
+      "scored_at": "2026-10-20T22:49:23.99118202Z"
+    },
+    {
+      "id": "kev:CVE-2026-96655",
+      "source": "kev",
+      "title": "CVE-2026-96655 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
       "published": "2026-10-20T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
@@ -127,24 +111,25 @@
       "quadrant": "STANDING ORDERS",
       "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
       "cves": [
-        "CVE-2026-96652"
+        "CVE-2026-96655"
       ],
-      "scored_at": "2026-10-20T22:49:23.991183282Z"
+      "scored_at": "2026-10-20T22:49:23.991180086Z"
     },
     {
-      "id": "arxiv:2610.27244v1",
-      "source": "arxiv",
-      "title": "AutoRedClaw: Automated Red-Teaming for Claw-Style Agents",
-      "url": "http://arxiv.org/abs/2610.27244v1",
-      "published": "2026-10-19T20:15:39Z",
-      "authors": "Hao Li et al.",
-      "novelty": 4,
-      "actionability": 4,
+      "id": "kev:CVE-2026-96656",
+      "source": "kev",
+      "title": "CVE-2026-96656 — Plex Media Server External Control of File Name or Path Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
+      "published": "2026-10-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
       "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "AutoRedClaw generates end-to-end attacks on persistent agent systems with poisoned configuration files and memory; execution-based validation ensures realism.",
-      "unproven": "Evaluated on internal agents; attack success rates and coverage metrics on production claw-style systems not disclosed; generalization to other agent architectures unclear.",
-      "scored_at": "2026-10-21T16:18:35.931408068Z"
+      "quadrant": "STANDING ORDERS",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
+      "cves": [
+        "CVE-2026-96656"
+      ],
+      "scored_at": "2026-10-20T22:49:23.991177942Z"
     },
     {
       "id": "arxiv:2610.28484v1",
@@ -253,51 +238,6 @@
       "scored_at": "2026-10-21T08:59:58.948998923Z"
     },
     {
-      "id": "arxiv:2610.27304v1",
-      "source": "arxiv",
-      "title": "Global Security Blind Spots: Translation as a Safety Bypass in Low-Resource Languages",
-      "url": "http://arxiv.org/abs/2610.27304v1",
-      "published": "2026-10-19T21:20:49Z",
-      "authors": "Jalil Alva et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "LLM safety alignment fails in 79 low-resource languages at 21.9–44.4% bypass rates despite English safety; risk concentrates in language families.",
-      "unproven": "Does not establish whether model retraining on low-resource languages would close gaps; reflects translation quality confounds not fully separated.",
-      "scored_at": "2026-10-21T16:18:35.931405584Z"
-    },
-    {
-      "id": "arxiv:2610.27210v1",
-      "source": "arxiv",
-      "title": "You Are the Trigger: Speaker-Activated Backdoors",
-      "url": "http://arxiv.org/abs/2610.27210v1",
-      "published": "2026-10-19T19:43:13Z",
-      "authors": "Nataša Krčo et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Speaker-Activated Backdoor achieves 90–97% success on Whisper and Parakeet with two minutes of target audio; no inference-time trigger required.",
-      "unproven": "Evaluated on fine-tuning threat model only; does not establish robustness to voice transformation, speaker variation, or deployed ASR quality; generalization to other speech models limited.",
-      "scored_at": "2026-10-21T16:18:35.931408228Z"
-    },
-    {
-      "id": "arxiv:2610.27111v1",
-      "source": "arxiv",
-      "title": "Energy Consumption of Post-Quantum Cryptography on Constrained and General-Purpose Architectures",
-      "url": "http://arxiv.org/abs/2610.27111v1",
-      "published": "2026-10-19T18:11:53Z",
-      "authors": "Olivier Gillot et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "NIST post-quantum algorithms ML-KEM and ML-DSA match elliptic-curve efficiency; SLH-DSA signing costs 243% more energy on 32-bit IoT hardware and is impractical.",
-      "unproven": "Tested on Raspberry Pi only; results may not generalize to other constrained architectures or custom silicon deployments.",
-      "scored_at": "2026-10-21T16:18:47.14767874Z"
-    },
-    {
       "id": "hn:50171986",
       "source": "hn",
       "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
@@ -402,6 +342,66 @@
       "dek": "Black-box attack defeats seven LLM watermarking schemes by exploiting score-ratio alignment; detection rates drop to 0.05.",
       "unproven": "whether the attack transfers to production watermarking deployments with additional defenses or detection pipelines beyond the tested schemes.",
       "scored_at": "2026-10-21T08:59:58.948997591Z"
+    },
+    {
+      "id": "arxiv:2610.27574v1",
+      "source": "arxiv",
+      "title": "The Show-Up Attack: When Subagents Win Over Their Supervisor",
+      "url": "http://arxiv.org/abs/2610.27574v1",
+      "published": "2026-10-20T03:41:13Z",
+      "authors": "Maosen Zhang et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Malicious subagents exploit supervisor LLMs to exceed task scope; 93% attack success rate on GPT-4.5 with mitigation strategies ineffective.",
+      "unproven": "whether attack transfers to production multi-agent frameworks with explicit authorization enforcement, or if system-level access controls can prevent scope violations.",
+      "scored_at": "2026-10-21T08:59:58.948998733Z"
+    },
+    {
+      "id": "arxiv:2610.27533v1",
+      "source": "arxiv",
+      "title": "Adversarial Benchmarks and BenchDoor Attacks: Exploiting Benchmark Incentives for Backdoor Attacks",
+      "url": "http://arxiv.org/abs/2610.27533v1",
+      "published": "2026-10-20T02:49:19Z",
+      "authors": "Yixin Wu et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "BenchDoor data poisoning attacks achieve benchmark gains while implanting backdoors; attack success rates reach 100% at 2–10% poisoning rates.",
+      "unproven": "whether attacks survive forensic review of training data or active dataset validation; transferability to benchmarks with governance and deduplication.",
+      "scored_at": "2026-10-21T08:59:58.949001418Z"
+    },
+    {
+      "id": "hn:50172041",
+      "source": "hn",
+      "title": "Upcoming Critical PHP Security Release",
+      "url": "https://news-web.php.net/php.announce/509",
+      "published": "2026-10-20T20:15:50Z",
+      "authors": "xd",
+      "points": 81,
+      "novelty": 1,
+      "actionability": 4,
+      "score": 5,
+      "quadrant": "STANDING ORDERS",
+      "dek": "PHP critical release announced; monitor for CVE details and patch timing relevant to production inventory.",
+      "scored_at": "2026-10-21T02:32:35.308108636Z"
+    },
+    {
+      "id": "hn:50171528",
+      "source": "hn",
+      "title": "Upcoming Critical PHP Security Release",
+      "url": "https://php.net/archive/2026.php",
+      "published": "2026-10-20T19:34:03Z",
+      "authors": "choult",
+      "points": 64,
+      "novelty": 1,
+      "actionability": 4,
+      "score": 5,
+      "quadrant": "STANDING ORDERS",
+      "dek": "PHP critical release announced; monitor for CVE details and patch timing relevant to production inventory.",
+      "scored_at": "2026-10-21T02:32:35.308112051Z"
     }
   ],
   "noise": [
@@ -437,20 +437,19 @@
       "scored_at": "2026-10-21T02:32:35.308112782Z"
     },
     {
-      "id": "hn:50155245",
+      "id": "hn:50167286",
       "source": "hn",
-      "title": "Mercury 3: Diffusion at scale",
-      "url": "https://inceptionlabs.ai/blog/introducing-mercury-3",
-      "published": "2026-10-19T17:27:11Z",
-      "authors": "cmrdporcupine",
-      "points": 206,
-      "novelty": 2,
-      "actionability": 2,
-      "score": 4,
+      "title": "Show HN: VoidAccess – open-source dark web OSINT, from query to a graph",
+      "url": "https://github.com/KatrielMoses/voidaccess",
+      "published": "2026-10-20T14:49:33Z",
+      "authors": "coding-maniac",
+      "points": 127,
+      "novelty": 1,
+      "actionability": 1,
+      "score": 2,
       "quadrant": "NOISE FLOOR",
-      "dek": "Mercury 3 diffusion model from commercial vendor; marketing for a product.",
-      "unproven": "whether claims hold outside vendor benchmarks or differ meaningfully from prior releases",
-      "scored_at": "2026-10-19T23:12:47.233613939Z"
+      "dek": "VoidAccess dark web OSINT tool open-sourced; threat intelligence collection outside application security engineering scope.",
+      "scored_at": "2026-10-21T02:32:35.308113283Z"
     }
   ]
 }
