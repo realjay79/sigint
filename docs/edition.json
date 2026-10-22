@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T02:28:10.490926397Z",
+  "generated": "2026-10-22T09:01:17.868211314Z",
   "edition": 90,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,9 +13,10 @@
       "kev": 6
     },
     "by_quadrant": {
-      "BREAK GLASS": 5,
+      "BREAK GLASS": 4,
       "NEW GROUND": 8,
-      "STANDING ORDERS": 12
+      "NOISE FLOOR": 3,
+      "STANDING ORDERS": 10
     }
   },
   "items": [
@@ -35,52 +36,20 @@
       "scored_at": "2026-10-21T08:59:31.026941903Z"
     },
     {
-      "id": "kev:CVE-2026-110936",
+      "id": "kev:CVE-2026-96656",
       "source": "kev",
-      "title": "CVE-2026-110936 — Siemens Software Center Uncontrolled Search Path Element Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
+      "title": "CVE-2026-96656 — Plex Media Server External Control of File Name or Path Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
       "published": "2026-10-20T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Siemens Software Center. Confirmed exploited in the wild. Federal remediation due 3 November.",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
       "cves": [
-        "CVE-2026-110936"
+        "CVE-2026-96656"
       ],
-      "scored_at": "2026-10-20T22:49:23.991184725Z"
-    },
-    {
-      "id": "kev:CVE-2026-106931",
-      "source": "kev",
-      "title": "CVE-2026-106931 — EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "EG Secure Solutions SiteGuard Server Edition. Confirmed exploited in the wild. Federal remediation due 23 October.",
-      "cves": [
-        "CVE-2026-106931"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991175217Z"
-    },
-    {
-      "id": "kev:CVE-2026-96655",
-      "source": "kev",
-      "title": "CVE-2026-96655 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
-      "cves": [
-        "CVE-2026-96655"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991180086Z"
+      "scored_at": "2026-10-20T22:49:23.991177942Z"
     },
     {
       "id": "kev:CVE-2026-96654",
@@ -99,20 +68,52 @@
       "scored_at": "2026-10-20T22:49:23.99118202Z"
     },
     {
-      "id": "kev:CVE-2026-96656",
+      "id": "kev:CVE-2026-106931",
       "source": "kev",
-      "title": "CVE-2026-96656 — Plex Media Server External Control of File Name or Path Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
+      "title": "CVE-2026-106931 — EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
       "published": "2026-10-20T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
+      "dek": "EG Secure Solutions SiteGuard Server Edition. Confirmed exploited in the wild. Federal remediation due 23 October.",
       "cves": [
-        "CVE-2026-96656"
+        "CVE-2026-106931"
       ],
-      "scored_at": "2026-10-20T22:49:23.991177942Z"
+      "scored_at": "2026-10-20T22:49:23.991175217Z"
+    },
+    {
+      "id": "kev:CVE-2026-110936",
+      "source": "kev",
+      "title": "CVE-2026-110936 — Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
+      "published": "2026-10-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Siemens Software Center. Confirmed exploited in the wild. Federal remediation due 3 November.",
+      "cves": [
+        "CVE-2026-110936"
+      ],
+      "scored_at": "2026-10-20T22:49:23.991184725Z"
+    },
+    {
+      "id": "kev:CVE-2026-96655",
+      "source": "kev",
+      "title": "CVE-2026-96655 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+      "published": "2026-10-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
+      "cves": [
+        "CVE-2026-96655"
+      ],
+      "scored_at": "2026-10-20T22:49:23.991180086Z"
     },
     {
       "id": "kev:CVE-2026-96652",
@@ -174,21 +175,6 @@
       "dek": "LLM trading agents fail on information injection (62% attack success) far worse than prompt injection (14%), with surface-form cues mattering more than content.",
       "unproven": "tested only on 15 U.S. stocks and five injection vectors; generalization to other asset classes and agent architectures not established.",
       "scored_at": "2026-10-20T16:01:57.229007459Z"
-    },
-    {
-      "id": "arxiv:2610.25916v2",
-      "source": "arxiv",
-      "title": "Secure Agentic Coding through Counterexample-Grounded Feedback",
-      "url": "http://arxiv.org/abs/2610.25916v2",
-      "published": "2026-10-19T07:18:34Z",
-      "authors": "Tue Le et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Counterexample-grounded verification using execution traces outperforms static analysis and learned rewards for secure code generation in agents.",
-      "unproven": "Evaluation on benchmarks only; effectiveness on production codebases and diverse vulnerability classes beyond benchmark scope not shown.",
-      "scored_at": "2026-10-21T16:18:47.147679591Z"
     },
     {
       "id": "arxiv:2610.28484v1",
@@ -342,51 +328,6 @@
       "scored_at": "2026-10-21T16:18:47.14767874Z"
     },
     {
-      "id": "arxiv:2610.25937v1",
-      "source": "arxiv",
-      "title": "RAGLeak: Supply-Chain Privacy Backdoors in Retrieval-Augmented Generation",
-      "url": "http://arxiv.org/abs/2610.25937v1",
-      "published": "2026-10-19T07:32:11Z",
-      "authors": "Yuchen Chen et al.",
-      "novelty": 4,
-      "actionability": 3,
-      "score": 7,
-      "quadrant": "NEW GROUND",
-      "dek": "Supply-chain backdoor attack on RAG systems uses reversible obfuscation to leak private documents at 100% success rate across defenses.",
-      "unproven": "Whether the attack succeeds against systems not in the three tested model families or domains; backdoor persistence under full retraining with sanitized data remains untested.",
-      "scored_at": "2026-10-20T16:02:09.409287947Z"
-    },
-    {
-      "id": "arxiv:2610.25799v1",
-      "source": "arxiv",
-      "title": "PQC Migration of IPsec: Reliable Composite Key Sharing Mechanisms in IKEv2",
-      "url": "http://arxiv.org/abs/2610.25799v1",
-      "published": "2026-10-19T05:10:20Z",
-      "authors": "Rahul et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Composite key-sharing handshake for post-quantum IKEv2 migration uses TCP concatenation to avoid IP fragmentation failures.",
-      "unproven": "Whether composite approach integrates cleanly with existing IKEv2 implementations and RFC compliance; tested in controlled network conditions only.",
-      "scored_at": "2026-10-20T16:02:09.409288247Z"
-    },
-    {
-      "id": "arxiv:2610.25705v1",
-      "source": "arxiv",
-      "title": "How Effectively Do Security Skills Guide Coding Agents in Vulnerability Detection in Linux Kernel?",
-      "url": "http://arxiv.org/abs/2610.25705v1",
-      "published": "2026-10-19T02:50:45Z",
-      "authors": "Haoran Xue et al.",
-      "novelty": 3,
-      "actionability": 4,
-      "score": 7,
-      "quadrant": "STANDING ORDERS",
-      "dek": "LLM agents locate correct vulnerability functions in 24% of attempts on Linux kernel bugs; failure modes suggest reasoning and evidence-acquisition gaps.",
-      "unproven": "whether SKILL-SIF self-improvement generalizes beyond Claude Code or kernel code; single model family and domain",
-      "scored_at": "2026-10-20T16:02:20.559401439Z"
-    },
-    {
       "id": "hn:50171986",
       "source": "hn",
       "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
@@ -401,6 +342,66 @@
       "dek": "Eight TLS certificates compromised; audit certificate pinning and CA trust policies, verify issuer controls.",
       "unproven": "scope of compromise, whether certificates were issued legitimately or through key extraction, remediation timeline",
       "scored_at": "2026-10-21T02:32:35.308109397Z"
+    },
+    {
+      "id": "arxiv:2610.28401v1",
+      "source": "arxiv",
+      "title": "SPECTER: Covert Data Exfiltration from Air-Gapped Systems via USB Power Modulation",
+      "url": "http://arxiv.org/abs/2610.28401v1",
+      "published": "2026-10-20T15:47:02Z",
+      "authors": "Hyeongjun Choi et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Covert channel exfiltrates data from air-gapped systems by modulating USB power signals at 0.2–1.0 bit/sec; requires admin privileges.",
+      "unproven": "Laboratory demonstration on two OS versions; applicability to hardened production environments and realistic secret sizes not established.",
+      "scored_at": "2026-10-21T08:59:31.026943386Z"
+    },
+    {
+      "id": "arxiv:2610.28397v1",
+      "source": "arxiv",
+      "title": "MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems",
+      "url": "http://arxiv.org/abs/2610.28397v1",
+      "published": "2026-10-20T15:44:37Z",
+      "authors": "Mohammad Kachuee et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Unified guardrail framework for single and multi-agent LLM systems combines local task experts, semantic checks, and deterministic structural controls.",
+      "unproven": "Prototype framework; no field deployment data or head-to-head comparison with production agent safeguarding tooling.",
+      "scored_at": "2026-10-21T08:59:31.026943626Z"
+    },
+    {
+      "id": "arxiv:2610.28364v1",
+      "source": "arxiv",
+      "title": "Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG",
+      "url": "http://arxiv.org/abs/2610.28364v1",
+      "published": "2026-10-20T15:26:15Z",
+      "authors": "Abhishek Rai",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "0.5B-parameter semantic firewall detects indirect prompt injection in RAG pipelines with 0.994 recall and 0.026 false-positive rate.",
+      "unproven": "Held-out test set only; generalization to unseen attack families, real deployment latency, and integration with production RAG tooling unproven.",
+      "scored_at": "2026-10-21T08:59:31.026944428Z"
+    },
+    {
+      "id": "arxiv:2610.28067v1",
+      "source": "arxiv",
+      "title": "Contextual Candour: Role-Aware Graduated Disclosure for LLMs over Mixed-Sensitivity Contexts",
+      "url": "http://arxiv.org/abs/2610.28067v1",
+      "published": "2026-10-20T11:50:25Z",
+      "authors": "Devansh Srivastav et al.",
+      "novelty": 3,
+      "actionability": 3,
+      "score": 6,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Graduated disclosure framework calibrates LLM response detail to user authorization level rather than binary grant-deny, reducing leakage on enterprise and clinical benchmarks.",
+      "unproven": "Evaluation limited to two benchmark domains; no evidence the approach scales to production agent-in-SDLC workflows or survives adversarial prompt injection at authorization boundaries.",
+      "scored_at": "2026-10-21T08:59:46.1205955Z"
     }
   ],
   "noise": [
