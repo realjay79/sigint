@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-21T22:53:41.256025471Z",
-  "edition": 89,
+  "generated": "2026-10-22T02:28:10.490926397Z",
+  "edition": 90,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -35,52 +35,20 @@
       "scored_at": "2026-10-21T08:59:31.026941903Z"
     },
     {
-      "id": "kev:CVE-2026-96652",
+      "id": "kev:CVE-2026-110936",
       "source": "kev",
-      "title": "CVE-2026-96652 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+      "title": "CVE-2026-110936 — Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
       "published": "2026-10-20T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
+      "dek": "Siemens Software Center. Confirmed exploited in the wild. Federal remediation due 3 November.",
       "cves": [
-        "CVE-2026-96652"
+        "CVE-2026-110936"
       ],
-      "scored_at": "2026-10-20T22:49:23.991183282Z"
-    },
-    {
-      "id": "kev:CVE-2026-96654",
-      "source": "kev",
-      "title": "CVE-2026-96654 — Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
-      "cves": [
-        "CVE-2026-96654"
-      ],
-      "scored_at": "2026-10-20T22:49:23.99118202Z"
-    },
-    {
-      "id": "kev:CVE-2026-96655",
-      "source": "kev",
-      "title": "CVE-2026-96655 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
-      "cves": [
-        "CVE-2026-96655"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991180086Z"
+      "scored_at": "2026-10-20T22:49:23.991184725Z"
     },
     {
       "id": "kev:CVE-2026-106931",
@@ -99,6 +67,38 @@
       "scored_at": "2026-10-20T22:49:23.991175217Z"
     },
     {
+      "id": "kev:CVE-2026-96655",
+      "source": "kev",
+      "title": "CVE-2026-96655 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+      "published": "2026-10-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
+      "cves": [
+        "CVE-2026-96655"
+      ],
+      "scored_at": "2026-10-20T22:49:23.991180086Z"
+    },
+    {
+      "id": "kev:CVE-2026-96654",
+      "source": "kev",
+      "title": "CVE-2026-96654 — Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
+      "published": "2026-10-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
+      "cves": [
+        "CVE-2026-96654"
+      ],
+      "scored_at": "2026-10-20T22:49:23.99118202Z"
+    },
+    {
       "id": "kev:CVE-2026-96656",
       "source": "kev",
       "title": "CVE-2026-96656 — Plex Media Server External Control of File Name or Path Vulnerability",
@@ -115,20 +115,20 @@
       "scored_at": "2026-10-20T22:49:23.991177942Z"
     },
     {
-      "id": "kev:CVE-2026-110936",
+      "id": "kev:CVE-2026-96652",
       "source": "kev",
-      "title": "CVE-2026-110936 — Siemens Software Center Uncontrolled Search Path Element Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
+      "title": "CVE-2026-96652 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
       "published": "2026-10-20T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Siemens Software Center. Confirmed exploited in the wild. Federal remediation due 3 November.",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
       "cves": [
-        "CVE-2026-110936"
+        "CVE-2026-96652"
       ],
-      "scored_at": "2026-10-20T22:49:23.991184725Z"
+      "scored_at": "2026-10-20T22:49:23.991183282Z"
     },
     {
       "id": "arxiv:2610.27244v1",
@@ -436,20 +436,20 @@
       "scored_at": "2026-10-21T02:32:35.308112782Z"
     },
     {
-      "id": "hn:50146625",
+      "id": "hn:50155245",
       "source": "hn",
-      "title": "William Gibson and the trademarking of cyberspace",
-      "url": "https://colo.to/cyberspace.html",
-      "published": "2026-10-18T23:37:57Z",
-      "authors": "Eric_Gullichsen",
-      "points": 254,
-      "novelty": 1,
-      "actionability": 1,
-      "score": 2,
+      "title": "Mercury 3: Diffusion at scale",
+      "url": "https://inceptionlabs.ai/blog/introducing-mercury-3",
+      "published": "2026-10-19T17:27:11Z",
+      "authors": "cmrdporcupine",
+      "points": 206,
+      "novelty": 2,
+      "actionability": 2,
+      "score": 4,
       "quadrant": "NOISE FLOOR",
-      "dek": "Historical piece on William Gibson's cyberspace trademark and cultural impact.",
-      "unproven": "entirely outside application security remit",
-      "scored_at": "2026-10-19T17:58:01.612605073Z"
+      "dek": "Mercury 3 diffusion model from commercial vendor; marketing for a product.",
+      "unproven": "whether claims hold outside vendor benchmarks or differ meaningfully from prior releases",
+      "scored_at": "2026-10-19T23:12:47.233613939Z"
     }
   ]
 }
