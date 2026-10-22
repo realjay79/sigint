@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T09:01:17.868211314Z",
+  "generated": "2026-10-22T16:17:24.969941523Z",
   "edition": 90,
   "name": "SIGINT",
   "mark": "^C",
@@ -13,8 +13,8 @@
       "kev": 6
     },
     "by_quadrant": {
-      "BREAK GLASS": 4,
-      "NEW GROUND": 8,
+      "BREAK GLASS": 2,
+      "NEW GROUND": 10,
       "NOISE FLOOR": 3,
       "STANDING ORDERS": 10
     }
@@ -36,22 +36,6 @@
       "scored_at": "2026-10-21T08:59:31.026941903Z"
     },
     {
-      "id": "kev:CVE-2026-96656",
-      "source": "kev",
-      "title": "CVE-2026-96656 — Plex Media Server External Control of File Name or Path Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
-      "cves": [
-        "CVE-2026-96656"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991177942Z"
-    },
-    {
       "id": "kev:CVE-2026-96654",
       "source": "kev",
       "title": "CVE-2026-96654 — Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
@@ -68,20 +52,36 @@
       "scored_at": "2026-10-20T22:49:23.99118202Z"
     },
     {
-      "id": "kev:CVE-2026-106931",
+      "id": "kev:CVE-2026-96656",
       "source": "kev",
-      "title": "CVE-2026-106931 — EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+      "title": "CVE-2026-96656 — Plex Media Server External Control of File Name or Path Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
       "published": "2026-10-20T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "EG Secure Solutions SiteGuard Server Edition. Confirmed exploited in the wild. Federal remediation due 23 October.",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
       "cves": [
-        "CVE-2026-106931"
+        "CVE-2026-96656"
       ],
-      "scored_at": "2026-10-20T22:49:23.991175217Z"
+      "scored_at": "2026-10-20T22:49:23.991177942Z"
+    },
+    {
+      "id": "kev:CVE-2026-96655",
+      "source": "kev",
+      "title": "CVE-2026-96655 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+      "published": "2026-10-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
+      "cves": [
+        "CVE-2026-96655"
+      ],
+      "scored_at": "2026-10-20T22:49:23.991180086Z"
     },
     {
       "id": "kev:CVE-2026-110936",
@@ -100,20 +100,20 @@
       "scored_at": "2026-10-20T22:49:23.991184725Z"
     },
     {
-      "id": "kev:CVE-2026-96655",
+      "id": "kev:CVE-2026-106931",
       "source": "kev",
-      "title": "CVE-2026-96655 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+      "title": "CVE-2026-106931 — EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
       "published": "2026-10-20T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
+      "dek": "EG Secure Solutions SiteGuard Server Edition. Confirmed exploited in the wild. Federal remediation due 23 October.",
       "cves": [
-        "CVE-2026-96655"
+        "CVE-2026-106931"
       ],
-      "scored_at": "2026-10-20T22:49:23.991180086Z"
+      "scored_at": "2026-10-20T22:49:23.991175217Z"
     },
     {
       "id": "kev:CVE-2026-96652",
@@ -145,36 +145,6 @@
       "dek": "AutoRedClaw generates end-to-end attacks on persistent agent systems with poisoned configuration files and memory; execution-based validation ensures realism.",
       "unproven": "Evaluated on internal agents; attack success rates and coverage metrics on production claw-style systems not disclosed; generalization to other agent architectures unclear.",
       "scored_at": "2026-10-21T16:18:35.931408068Z"
-    },
-    {
-      "id": "arxiv:2610.26501v1",
-      "source": "arxiv",
-      "title": "Connection Escrow: Holding AI-Agent Pod Egress in the Kernel Until an Isolated Verifier Rules",
-      "url": "http://arxiv.org/abs/2610.26501v1",
-      "published": "2026-10-19T14:36:05Z",
-      "authors": "Ashok Subbabhatta Gopalakrishna",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "Connection escrow eBPF program holds outbound TCP from supervised pods at kernel connect() until separate verifier signs verdict.",
-      "unproven": "tested on adversarial suite in lab environment; does not measure performance overhead in production workloads or interaction with real agent frameworks; verifier latency impact unclear",
-      "scored_at": "2026-10-20T16:01:44.254852896Z"
-    },
-    {
-      "id": "arxiv:2610.26438v1",
-      "source": "arxiv",
-      "title": "Fake News, Real Crashes: Information Injection Attacks on LLM Financial Trading Agents",
-      "url": "http://arxiv.org/abs/2610.26438v1",
-      "published": "2026-10-19T13:58:50Z",
-      "authors": "Mengxiao Wang et al.",
-      "novelty": 4,
-      "actionability": 4,
-      "score": 8,
-      "quadrant": "BREAK GLASS",
-      "dek": "LLM trading agents fail on information injection (62% attack success) far worse than prompt injection (14%), with surface-form cues mattering more than content.",
-      "unproven": "tested only on 15 U.S. stocks and five injection vectors; generalization to other asset classes and agent architectures not established.",
-      "scored_at": "2026-10-20T16:01:57.229007459Z"
     },
     {
       "id": "arxiv:2610.28484v1",
@@ -402,6 +372,36 @@
       "dek": "Graduated disclosure framework calibrates LLM response detail to user authorization level rather than binary grant-deny, reducing leakage on enterprise and clinical benchmarks.",
       "unproven": "Evaluation limited to two benchmark domains; no evidence the approach scales to production agent-in-SDLC workflows or survives adversarial prompt injection at authorization boundaries.",
       "scored_at": "2026-10-21T08:59:46.1205955Z"
+    },
+    {
+      "id": "arxiv:2610.27971v1",
+      "source": "arxiv",
+      "title": "Execution-Time Validation of Context-Carrying Action Intents in Industrial Cyber-Physical Systems",
+      "url": "http://arxiv.org/abs/2610.27971v1",
+      "published": "2026-10-20T10:16:08Z",
+      "authors": "Luca D'Agati et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Action Intent Schema formalizes the execution gap in cyber-physical systems and closes it with version-conditional commands, eliminating unprotected intervals in controlled ablations.",
+      "unproven": "Limited to emulated and small-scale physical testbeds; no deployment evidence in production industrial cells or against realistic failure modes and operator workflows.",
+      "scored_at": "2026-10-21T08:59:46.1205958Z"
+    },
+    {
+      "id": "arxiv:2610.27653v1",
+      "source": "arxiv",
+      "title": "A Unified Attack Framework against Statistical Generative Watermarks for Large Language Models",
+      "url": "http://arxiv.org/abs/2610.27653v1",
+      "published": "2026-10-20T05:12:12Z",
+      "authors": "Romina Omidi et al.",
+      "novelty": 4,
+      "actionability": 2,
+      "score": 6,
+      "quadrant": "NEW GROUND",
+      "dek": "Black-box attack defeats seven LLM watermarking schemes by exploiting score-ratio alignment; detection rates drop to 0.05.",
+      "unproven": "whether the attack transfers to production watermarking deployments with additional defenses or detection pipelines beyond the tested schemes.",
+      "scored_at": "2026-10-21T08:59:58.948997591Z"
     }
   ],
   "noise": [
