@@ -1,109 +1,4 @@
 {
-  "arxiv:2609.28378v1": {
-    "id": "arxiv:2609.28378v1",
-    "source": "arxiv",
-    "title": "ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control",
-    "url": "http://arxiv.org/abs/2609.28378v1",
-    "published": "2026-09-23T16:54:25Z",
-    "authors": "Xukun Luan et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Method to selectively unlearn motions from reinforcement-learning humanoid control policies while preserving others.",
-    "unproven": "robotics research unrelated to application security engineering, SDLC tooling, or agent governance in software delivery",
-    "scored_at": "2026-09-27T22:42:20.401461921Z"
-  },
-  "arxiv:2609.28608v1": {
-    "id": "arxiv:2609.28608v1",
-    "source": "arxiv",
-    "title": "CONCURDEP: Event-Guided Analysis of Dependency Invalidation in CPython Concurrency",
-    "url": "http://arxiv.org/abs/2609.28608v1",
-    "published": "2026-09-23T16:44:30Z",
-    "authors": "Baihong Chen et al.",
-    "novelty": 4,
-    "actionability": 2,
-    "score": 6,
-    "quadrant": "NEW GROUND",
-    "dek": "Static analysis detects dependency invalidation races in CPython native code as GIL removal exposes new concurrency conditions.",
-    "unproven": "CPython internals tool; reader does not develop CPython extensions; applicability to application security decisions unclear",
-    "scored_at": "2026-09-27T22:42:20.401462023Z"
-  },
-  "arxiv:2609.28613v1": {
-    "id": "arxiv:2609.28613v1",
-    "source": "arxiv",
-    "title": "Decision Hijacking: Prompt Injection Attacks on Jev's Typed Probabilistic Decisions",
-    "url": "http://arxiv.org/abs/2609.28613v1",
-    "published": "2026-09-23T17:47:53Z",
-    "authors": "Tiantong Wu et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Prompt injection on schema-constrained decision models shifts action probabilities but rarely forces target selection; adaptive attacks raise success from 1.8% to 3.5%.",
-    "unproven": "limited to one non-generative model (Jev); 3.5% success rate does not establish practical threat; no evaluation on production decision systems",
-    "scored_at": "2026-09-27T22:42:20.401460845Z"
-  },
-  "arxiv:2609.28659v1": {
-    "id": "arxiv:2609.28659v1",
-    "source": "arxiv",
-    "title": "\"What I See is What I Hear\": Deepfake Detection Across Diverse Hearing Abilities",
-    "url": "http://arxiv.org/abs/2609.28659v1",
-    "published": "2026-09-23T18:04:51Z",
-    "authors": "Magdalena Pasternak et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Deaf and hard-of-hearing participants show lower deepfake detection accuracy, particularly for audio-only and audio-visual manipulations.",
-    "unproven": "accessibility equity study; outside the reader's remit as application security engineer",
-    "scored_at": "2026-09-27T22:42:20.401460455Z"
-  },
-  "arxiv:2609.28693v1": {
-    "id": "arxiv:2609.28693v1",
-    "source": "arxiv",
-    "title": "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery",
-    "url": "http://arxiv.org/abs/2609.28693v1",
-    "published": "2026-09-23T18:31:44Z",
-    "authors": "Michael Stettler et al.",
-    "novelty": 3,
-    "actionability": 4,
-    "score": 7,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Role-scoped tool access for LLM agents reduces context bloat and enforces policy via server-gated capability delivery rather than prompt advice.",
-    "unproven": "evaluation limited to six model families and 13 synthetic tasks; no deployment in real enterprise environments with actual governance conflicts",
-    "scored_at": "2026-09-27T22:42:20.401459385Z"
-  },
-  "arxiv:2609.28699v1": {
-    "id": "arxiv:2609.28699v1",
-    "source": "arxiv",
-    "title": "zkSAS: Practical Zero-Knowledge Proofs for Verifiable Spectrum Access Management",
-    "url": "http://arxiv.org/abs/2609.28699v1",
-    "published": "2026-09-23T18:36:58Z",
-    "authors": "Nishat F. Purbasha et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Zero-knowledge proofs for spectrum access control add privacy to regulatory verification in centralized and blockchain SAS deployments.",
-    "unproven": "entirely outside the reader's remit; domain-specific radio spectrum governance unrelated to application security or SDLC",
-    "scored_at": "2026-09-27T22:42:20.4014582Z"
-  },
-  "arxiv:2609.28725v1": {
-    "id": "arxiv:2609.28725v1",
-    "source": "arxiv",
-    "title": "Unmasking Shortcut Learning in IoT Intrusion Detection: A Forensic, Multi-Paradigm Evaluation of Feature Dependence and Data Leakage",
-    "url": "http://arxiv.org/abs/2609.28725v1",
-    "published": "2026-09-23T19:07:27Z",
-    "authors": "Uday Shankar Roy et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "IoT intrusion detection models exploit dataset shortcuts: timestamps boost tree-based F1 to 99.28%, while behavioral features alone cap at 92.58%.",
-    "unproven": "whether shortcut-robust models maintain accuracy on new testbeds and attack types; whether PCAP-disjoint splits fully eliminate data leakage",
-    "scored_at": "2026-09-27T16:02:16.543086527Z"
-  },
   "arxiv:2609.28843v1": {
     "id": "arxiv:2609.28843v1",
     "source": "arxiv",
@@ -716,21 +611,6 @@
     "dek": "Quantum channel Stein theorem showing adaptive testing confers no asymptotic advantage; outside application security remit entirely.",
     "unproven": "not applicable to reader's domain",
     "scored_at": "2026-09-28T18:57:57.132246021Z"
-  },
-  "arxiv:2609.30325v1": {
-    "id": "arxiv:2609.30325v1",
-    "source": "arxiv",
-    "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
-    "url": "http://arxiv.org/abs/2609.30325v1",
-    "published": "2026-09-23T19:47:33Z",
-    "authors": "Shane Caldwell et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "ScopeBench measures scope adherence in agentic penetration testing; rates of boundary violation under goal pressure inform safe deployment thresholds.",
-    "unproven": "whether 30 dead-end tasks correlate with real engagement violations; transferability to novel scopes; whether agentic judge grading matches human auditors.",
-    "scored_at": "2026-09-28T10:18:31.222979921Z"
   },
   "arxiv:2609.30345v1": {
     "id": "arxiv:2609.30345v1",
@@ -34547,6 +34427,22 @@
     ],
     "scored_at": "2026-10-20T22:49:23.991175217Z"
   },
+  "kev:CVE-2026-110447": {
+    "id": "kev:CVE-2026-110447",
+    "source": "kev",
+    "title": "CVE-2026-110447 — Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447",
+    "published": "2026-10-23T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Collabora Collabora Online – Built-in CODE Server. Confirmed exploited in the wild. Federal remediation due 26 October.",
+    "cves": [
+      "CVE-2026-110447"
+    ],
+    "scored_at": "2026-10-23T22:44:56.15381976Z"
+  },
   "kev:CVE-2026-110936": {
     "id": "kev:CVE-2026-110936",
     "source": "kev",
@@ -34562,6 +34458,22 @@
       "CVE-2026-110936"
     ],
     "scored_at": "2026-10-20T22:49:23.991184725Z"
+  },
+  "kev:CVE-2026-114625": {
+    "id": "kev:CVE-2026-114625",
+    "source": "kev",
+    "title": "CVE-2026-114625 — Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625",
+    "published": "2026-10-23T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 26 October.",
+    "cves": [
+      "CVE-2026-114625"
+    ],
+    "scored_at": "2026-10-23T22:44:56.153815973Z"
   },
   "kev:CVE-2026-21589": {
     "id": "kev:CVE-2026-21589",
