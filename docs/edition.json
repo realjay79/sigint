@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-22T22:52:23.934380336Z",
-  "edition": 90,
+  "generated": "2026-10-23T02:33:36.004206052Z",
+  "edition": 91,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -8,15 +8,14 @@
   "counts": {
     "total": 25,
     "by_source": {
-      "arxiv": 15,
-      "hn": 4,
-      "kev": 6
+      "arxiv": 20,
+      "hn": 5
     },
     "by_quadrant": {
       "BREAK GLASS": 1,
       "NEW GROUND": 9,
-      "NOISE FLOOR": 4,
-      "STANDING ORDERS": 11
+      "NOISE FLOOR": 10,
+      "STANDING ORDERS": 5
     }
   },
   "items": [
@@ -34,102 +33,6 @@
       "dek": "Benchmark shows prompt-injected payloads persist across agent sessions without decay; 101 attack tasks across five frontier models.",
       "unproven": "Tested on simulated scenarios; transfer to production agent workloads and real memory/task architectures unconfirmed.",
       "scored_at": "2026-10-21T08:59:31.026941903Z"
-    },
-    {
-      "id": "kev:CVE-2026-96652",
-      "source": "kev",
-      "title": "CVE-2026-96652 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
-      "cves": [
-        "CVE-2026-96652"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991183282Z"
-    },
-    {
-      "id": "kev:CVE-2026-110936",
-      "source": "kev",
-      "title": "CVE-2026-110936 — Siemens Software Center Uncontrolled Search Path Element Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Siemens Software Center. Confirmed exploited in the wild. Federal remediation due 3 November.",
-      "cves": [
-        "CVE-2026-110936"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991184725Z"
-    },
-    {
-      "id": "kev:CVE-2026-106931",
-      "source": "kev",
-      "title": "CVE-2026-106931 — EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "EG Secure Solutions SiteGuard Server Edition. Confirmed exploited in the wild. Federal remediation due 23 October.",
-      "cves": [
-        "CVE-2026-106931"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991175217Z"
-    },
-    {
-      "id": "kev:CVE-2026-96654",
-      "source": "kev",
-      "title": "CVE-2026-96654 — Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
-      "cves": [
-        "CVE-2026-96654"
-      ],
-      "scored_at": "2026-10-20T22:49:23.99118202Z"
-    },
-    {
-      "id": "kev:CVE-2026-96655",
-      "source": "kev",
-      "title": "CVE-2026-96655 — Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 3 November.",
-      "cves": [
-        "CVE-2026-96655"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991180086Z"
-    },
-    {
-      "id": "kev:CVE-2026-96656",
-      "source": "kev",
-      "title": "CVE-2026-96656 — Plex Media Server External Control of File Name or Path Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
-      "published": "2026-10-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Plex Media Server. Confirmed exploited in the wild. Federal remediation due 23 October.",
-      "cves": [
-        "CVE-2026-96656"
-      ],
-      "scored_at": "2026-10-20T22:49:23.991177942Z"
     },
     {
       "id": "arxiv:2610.28484v1",
@@ -402,6 +305,97 @@
       "quadrant": "STANDING ORDERS",
       "dek": "PHP critical release announced; monitor for CVE details and patch timing relevant to production inventory.",
       "scored_at": "2026-10-21T02:32:35.308112051Z"
+    },
+    {
+      "id": "arxiv:2610.28324v1",
+      "source": "arxiv",
+      "title": "Latency-Neutral Passive Cyber Monitoring for Grid-Edge Operational Technology Networks",
+      "url": "http://arxiv.org/abs/2610.28324v1",
+      "published": "2026-10-20T14:59:10Z",
+      "authors": "Damian Byrne et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Passive monitoring framework for grid-edge OT networks achieves sub-0.12ms latency overhead on Modbus TCP and IEC 61850 protocols.",
+      "unproven": "Laboratory validation on single power-monitoring loop; scalability to large-scale grid deployments and full attack detection efficacy unconfirmed.",
+      "scored_at": "2026-10-21T08:59:31.026944638Z"
+    },
+    {
+      "id": "arxiv:2610.28239v1",
+      "source": "arxiv",
+      "title": "Observable-Level Framework for Finite-Key Security in Coherent-One-Way Quantum Key Distribution",
+      "url": "http://arxiv.org/abs/2610.28239v1",
+      "published": "2026-10-20T14:04:04Z",
+      "authors": "Aryan Kuntal et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "QKD finite-key security framework for Coherent-One-Way systems; vocabulary for quantum cryptography without developer guidance.",
+      "unproven": "limited to COW protocol; post-quantum migration planning requires broader PQC assessment beyond QKD",
+      "scored_at": "2026-10-21T16:19:04.078046145Z"
+    },
+    {
+      "id": "arxiv:2610.27828v1",
+      "source": "arxiv",
+      "title": "Raise or Check? Predicting the Necessity of Additional Fuzzing for Continuous Fuzzing",
+      "url": "http://arxiv.org/abs/2610.27828v1",
+      "published": "2026-10-20T08:18:57Z",
+      "authors": "Riku Kato et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "RAISE uses vulnerability-risk estimates to allocate fuzzing resources, achieving cross-project classification at 2.28% vulnerability-day prevalence on 15 C/C++ projects.",
+      "unproven": "One model family tested; no evidence the classifier generalizes to languages, build systems, or projects outside the OSS-Fuzz corpus; does not change how an AppSec engineer runs continuous fuzzing in-house.",
+      "scored_at": "2026-10-21T08:59:46.120596231Z"
+    },
+    {
+      "id": "hn:50160877",
+      "source": "hn",
+      "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+      "url": "https://github.com/golang/go/issues/82345",
+      "published": "2026-10-20T03:05:07Z",
+      "authors": "mendym",
+      "points": 86,
+      "novelty": 2,
+      "actionability": 3,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "Go runtime will reject eight specific compromised certificate authorities, requiring review of internal PKI and service certificates.",
+      "unproven": "whether the eight SPKIs cover all relevant internal CAs in financial services deployments; timing of Go version rollout across the reader's estate.",
+      "scored_at": "2026-10-20T08:59:59.512818775Z"
+    },
+    {
+      "id": "arxiv:2610.27543v1",
+      "source": "arxiv",
+      "title": "KNOX: Hardware-assisted Regulatory Sandbox for Generative Models",
+      "url": "http://arxiv.org/abs/2610.27543v1",
+      "published": "2026-10-20T02:57:19Z",
+      "authors": "Vasisht Duddu et al.",
+      "novelty": 3,
+      "actionability": 2,
+      "score": 5,
+      "quadrant": "NOISE FLOOR",
+      "dek": "KNOX uses TEEs to build regulatory sandboxes for generative models, attesting compliance via policy manifests and control-flow integrity.",
+      "unproven": "performance overhead on realistic model inference, whether attestation formats meet regulator interoperability requirements, or evidence of actual regulatory acceptance.",
+      "scored_at": "2026-10-21T08:59:58.948999074Z"
+    },
+    {
+      "id": "arxiv:2610.28231v1",
+      "source": "arxiv",
+      "title": "Dynamical Mean-Field Theory for Real Materials using Variational Quantum Compressed Time Evolution on a Quantum Computer",
+      "url": "http://arxiv.org/abs/2610.28231v1",
+      "published": "2026-10-20T13:58:05Z",
+      "authors": "Stefan Wolf et al.",
+      "novelty": 3,
+      "actionability": 1,
+      "score": 4,
+      "quadrant": "NOISE FLOOR",
+      "dek": "DMFT solver on NISQ hardware achieves partial accuracy; materials science application outside security remit.",
+      "unproven": "single material system; authors acknowledge inadequate accuracy for production deployment",
+      "scored_at": "2026-10-21T16:19:04.078046235Z"
     }
   ],
   "noise": [
