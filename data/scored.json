@@ -1,64 +1,4 @@
 {
-  "arxiv:2609.30614v1": {
-    "id": "arxiv:2609.30614v1",
-    "source": "arxiv",
-    "title": "Subjects, Not Authors: The Authorship Hazard in Agentic Dataspaces",
-    "url": "http://arxiv.org/abs/2609.30614v1",
-    "published": "2026-09-24T22:58:16Z",
-    "authors": "Seungho Lee et al.",
-    "novelty": 4,
-    "actionability": 3,
-    "score": 7,
-    "quadrant": "NEW GROUND",
-    "dek": "Agents writing governance policies that bind themselves creates an 80-decision reversal risk; authorization channels must be closed by construction.",
-    "unproven": "whether frozen corpus results generalize to live agent deployments or multi-agent systems; no evidence of adoption in production dataspaces.",
-    "scored_at": "2026-09-28T10:18:31.222976505Z"
-  },
-  "arxiv:2609.30632v1": {
-    "id": "arxiv:2609.30632v1",
-    "source": "arxiv",
-    "title": "A Novel $q$-Derivative Framework with Applications to $q$-Deformed Thermodynamics and Leakage Suppression in Superconducting Qubits",
-    "url": "http://arxiv.org/abs/2609.30632v1",
-    "published": "2026-09-24T23:36:57Z",
-    "authors": "André A. A. Marinho et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "q-derivative framework for deformed thermodynamics and leakage suppression in superconducting-qubit DRAG pulse corrections.",
-    "unproven": "analytical pulse-shaping corrections derived theoretically; experimental validation on transmon hardware not reported",
-    "scored_at": "2026-09-28T18:57:48.819591407Z"
-  },
-  "arxiv:2609.30657v1": {
-    "id": "arxiv:2609.30657v1",
-    "source": "arxiv",
-    "title": "Prompt Injection Detection for Email Agents Through Attack Chain Modeling",
-    "url": "http://arxiv.org/abs/2609.30657v1",
-    "published": "2026-09-25T00:51:56Z",
-    "authors": "Ahmad Hashmi et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Prompt injection detector for email agents models multi-stage attack chains; outperforms binary classifiers under temporal and cross-dataset transfer.",
-    "unproven": "whether framework generalizes to production email agents with full attachment and calendar handling; evaluation on datasets derived from existing prompt-injection corpora, not real email-agent deployments",
-    "scored_at": "2026-09-28T02:35:50.15075987Z"
-  },
-  "arxiv:2609.30683v1": {
-    "id": "arxiv:2609.30683v1",
-    "source": "arxiv",
-    "title": "A Large-Scale Empirical Study of Modern Phishing Email Content",
-    "url": "http://arxiv.org/abs/2609.30683v1",
-    "published": "2026-09-25T01:41:03Z",
-    "authors": "Jaehwan Park et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Large-scale measurement of 2.9M phishing emails over 13 months reveals attacker diversification in theme, CTA, and impersonation tactics using LLM content analysis.",
-    "unproven": "that LLM annotation matches expert phishing analyst judgment; evaluation against human-annotated samples not detailed; temporal generalization of findings unclear",
-    "scored_at": "2026-09-28T02:35:50.15075977Z"
-  },
   "arxiv:2609.30719v1": {
     "id": "arxiv:2609.30719v1",
     "source": "arxiv",
@@ -33638,38 +33578,6 @@
     ],
     "scored_at": "2026-10-15T19:40:56.908494645Z"
   },
-  "kev:CVE-2026-65660": {
-    "id": "kev:CVE-2026-65660",
-    "source": "kev",
-    "title": "CVE-2026-65660 — Microsoft SharePoint Code Injection Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
-    "published": "2026-09-25T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Microsoft SharePoint. Confirmed exploited in the wild. Federal remediation due 28 September.",
-    "cves": [
-      "CVE-2026-65660"
-    ],
-    "scored_at": "2026-09-25T16:08:50.360741357Z"
-  },
-  "kev:CVE-2026-67279": {
-    "id": "kev:CVE-2026-67279",
-    "source": "kev",
-    "title": "CVE-2026-67279 — Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67279",
-    "published": "2026-09-25T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "MikroTik RouterOS. Confirmed exploited in the wild. Federal remediation due 28 September.",
-    "cves": [
-      "CVE-2026-67279"
-    ],
-    "scored_at": "2026-09-25T16:08:50.360737858Z"
-  },
   "kev:CVE-2026-76504": {
     "id": "kev:CVE-2026-76504",
     "source": "kev",
@@ -33717,22 +33625,6 @@
       "CVE-2026-86950"
     ],
     "scored_at": "2026-09-29T17:16:04.431255919Z"
-  },
-  "kev:CVE-2026-87902": {
-    "id": "kev:CVE-2026-87902",
-    "source": "kev",
-    "title": "CVE-2026-87902 — WordPress Core Remote File Inclusion Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87902",
-    "published": "2026-09-25T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "WordPress Core. Confirmed exploited in the wild. Federal remediation due 28 September.",
-    "cves": [
-      "CVE-2026-87902"
-    ],
-    "scored_at": "2026-09-25T22:57:32.825952518Z"
   },
   "kev:CVE-2026-88771": {
     "id": "kev:CVE-2026-88771",
