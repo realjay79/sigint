@@ -1,15 +1,58 @@
 {
-  "generated": "2026-10-26T17:54:56.437158524Z",
+  "generated": "2026-10-26T23:27:47.960887104Z",
   "edition": 94,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 0,
-    "by_source": {},
-    "by_quadrant": {}
+    "total": 2,
+    "by_source": {
+      "kev": 2
+    },
+    "by_quadrant": {
+      "STANDING ORDERS": 2
+    }
   },
-  "items": null,
+  "items": [
+    {
+      "id": "kev:CVE-2026-109618",
+      "source": "kev",
+      "title": "CVE-2026-109618 — PHP Memory Corruption Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+      "published": "2026-10-26T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "PHP Group PHP. Confirmed exploited in the wild. Federal remediation due 29 October.",
+      "cves": [
+        "CVE-2026-109618"
+      ],
+      "prior_title": "Tell HN: 2x PHP RCE CVEs with CVSS 10.0 Incoming",
+      "prior_url": "https://news.ycombinator.com/item?id=50167754",
+      "prior_days": 5,
+      "scored_at": "2026-10-26T23:27:47.032141452Z"
+    },
+    {
+      "id": "kev:CVE-2026-109619",
+      "source": "kev",
+      "title": "CVE-2026-109619 — PHP Stale Internal Request-State Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+      "published": "2026-10-26T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "PHP Group PHP. Confirmed exploited in the wild. Federal remediation due 29 October.",
+      "cves": [
+        "CVE-2026-109619"
+      ],
+      "prior_title": "Tell HN: 2x PHP RCE CVEs with CVSS 10.0 Incoming",
+      "prior_url": "https://news.ycombinator.com/item?id=50167754",
+      "prior_days": 5,
+      "scored_at": "2026-10-26T23:27:47.032143615Z"
+    }
+  ],
   "noise": null
 }

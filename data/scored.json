@@ -1,79 +1,4 @@
 {
-  "arxiv:2609.32911v1": {
-    "id": "arxiv:2609.32911v1",
-    "source": "arxiv",
-    "title": "Quantum Machine Learning for Cybersecurity Applications: Simulation and Hardware Validation",
-    "url": "http://arxiv.org/abs/2609.32911v1",
-    "published": "2026-09-26T20:02:51Z",
-    "authors": "Zirui Zhu et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Hybrid quantum-classical networks match classical threat detection on NSL-KDD and Ling-Spam datasets under resource constraints.",
-    "unproven": "quantum advantage on realistic production datasets, scalability beyond 4 qubits, whether resource constraints in finance differ from benchmarks",
-    "scored_at": "2026-09-29T23:16:59.39795586Z"
-  },
-  "arxiv:2609.32915v1": {
-    "id": "arxiv:2609.32915v1",
-    "source": "arxiv",
-    "title": "AgentTell: Behavioural Side-Channel Leakage in Browser-Use Agents",
-    "url": "http://arxiv.org/abs/2609.32915v1",
-    "published": "2026-09-26T20:09:16Z",
-    "authors": "Asif Shahriar et al.",
-    "novelty": 4,
-    "actionability": 4,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "Browser agents leak secrets through action selection: 61.1% of sessions reveal prior private facts despite explicit instruction to conceal.",
-    "unproven": "Applicability to agents deployed in production financial/healthcare systems; mitigation effectiveness of memory wipes or context filtering.",
-    "scored_at": "2026-09-29T23:16:47.440439314Z"
-  },
-  "arxiv:2609.32978v1": {
-    "id": "arxiv:2609.32978v1",
-    "source": "arxiv",
-    "title": "Analyzing 10 Petabit/s Network Data with Accelerated Associative (Token) Arrays",
-    "url": "http://arxiv.org/abs/2609.32978v1",
-    "published": "2026-09-26T22:15:13Z",
-    "authors": "Jeremy Kepner et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Associative arrays on GPUs scale network analysis to petabit rates; benchmark of D4M prototype on MIT/IEEE/Amazon challenge data.",
-    "unproven": "Outside application security remit; network analytics infrastructure not part of SDLC, SAST/DAST/SCA tooling, or agent governance.",
-    "scored_at": "2026-09-29T23:16:47.440439172Z"
-  },
-  "arxiv:2609.32988v1": {
-    "id": "arxiv:2609.32988v1",
-    "source": "arxiv",
-    "title": "Coordinated Electromagnetic Side-Channel Attacks for Voter--Ballot Linking: A Case Study of the Brazilian E-Polling System",
-    "url": "http://arxiv.org/abs/2609.32988v1",
-    "published": "2026-09-26T22:37:37Z",
-    "authors": "Leandro Hyeda et al.",
-    "novelty": 4,
-    "actionability": 1,
-    "score": 5,
-    "quadrant": "NEW GROUND",
-    "dek": "Coordinated EM side-channel attack reconstructs Brazilian e-voting machine display and links vote to voter via timing coordination.",
-    "unproven": "Applicability to official EVM hardware; distance and shielding required for practical attack; voter linkage mechanism implementation.",
-    "scored_at": "2026-09-29T23:16:47.440439053Z"
-  },
-  "arxiv:2609.33004v1": {
-    "id": "arxiv:2609.33004v1",
-    "source": "arxiv",
-    "title": "On the Usage of Verifiable Credentials in Privacy-Preserving Federated Analytics",
-    "url": "http://arxiv.org/abs/2609.33004v1",
-    "published": "2026-09-26T22:57:54Z",
-    "authors": "Andreea-Elena Drăgnoiu et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Feasibility sketch of coupling verifiable credentials to federated analytics; no evaluation, architecture, or implementation.",
-    "unproven": "Entire proposal; no data, code, or baseline comparison.",
-    "scored_at": "2026-09-29T23:16:47.440438907Z"
-  },
   "arxiv:2609.33066v1": {
     "id": "arxiv:2609.33066v1",
     "source": "arxiv",
@@ -31925,6 +31850,44 @@
       "CVE-2026-106931"
     ],
     "scored_at": "2026-10-20T22:49:23.991175217Z"
+  },
+  "kev:CVE-2026-109618": {
+    "id": "kev:CVE-2026-109618",
+    "source": "kev",
+    "title": "CVE-2026-109618 — PHP Memory Corruption Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+    "published": "2026-10-26T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "PHP Group PHP. Confirmed exploited in the wild. Federal remediation due 29 October.",
+    "cves": [
+      "CVE-2026-109618"
+    ],
+    "prior_title": "Tell HN: 2x PHP RCE CVEs with CVSS 10.0 Incoming",
+    "prior_url": "https://news.ycombinator.com/item?id=50167754",
+    "prior_days": 5,
+    "scored_at": "2026-10-26T23:27:47.032141452Z"
+  },
+  "kev:CVE-2026-109619": {
+    "id": "kev:CVE-2026-109619",
+    "source": "kev",
+    "title": "CVE-2026-109619 — PHP Stale Internal Request-State Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+    "published": "2026-10-26T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "PHP Group PHP. Confirmed exploited in the wild. Federal remediation due 29 October.",
+    "cves": [
+      "CVE-2026-109619"
+    ],
+    "prior_title": "Tell HN: 2x PHP RCE CVEs with CVSS 10.0 Incoming",
+    "prior_url": "https://news.ycombinator.com/item?id=50167754",
+    "prior_days": 5,
+    "scored_at": "2026-10-26T23:27:47.032143615Z"
   },
   "kev:CVE-2026-110447": {
     "id": "kev:CVE-2026-110447",
