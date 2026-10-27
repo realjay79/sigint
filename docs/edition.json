@@ -1,38 +1,51 @@
 {
-  "generated": "2026-10-27T17:01:31.350421368Z",
+  "generated": "2026-10-27T23:20:51.908663582Z",
   "edition": 95,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 2,
+    "total": 4,
     "by_source": {
-      "kev": 2
+      "kev": 4
     },
     "by_quadrant": {
-      "STANDING ORDERS": 2
+      "STANDING ORDERS": 4
     }
   },
   "items": [
     {
-      "id": "kev:CVE-2026-109618",
+      "id": "kev:CVE-2026-48356",
       "source": "kev",
-      "title": "CVE-2026-109618 — PHP Memory Corruption Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
-      "published": "2026-10-26T00:00:00Z",
+      "title": "CVE-2026-48356 — Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
+      "published": "2026-10-27T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "PHP Group PHP. Confirmed exploited in the wild. Federal remediation due 29 October.",
+      "dek": "Adobe Commerce and Magento. Confirmed exploited in the wild. Federal remediation due 10 November.",
       "cves": [
-        "CVE-2026-109618"
+        "CVE-2026-48356"
       ],
-      "prior_title": "Tell HN: 2x PHP RCE CVEs with CVSS 10.0 Incoming",
-      "prior_url": "https://news.ycombinator.com/item?id=50167754",
-      "prior_days": 5,
-      "scored_at": "2026-10-26T23:27:47.032141452Z"
+      "scored_at": "2026-10-27T23:20:51.03551555Z"
+    },
+    {
+      "id": "kev:CVE-2026-111497",
+      "source": "kev",
+      "title": "CVE-2026-111497 — Google Brotli Unchecked Return Value Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+      "published": "2026-10-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Google Brotli. Confirmed exploited in the wild. Federal remediation due 10 November.",
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "scored_at": "2026-10-27T23:20:51.035518616Z"
     },
     {
       "id": "kev:CVE-2026-109619",
@@ -52,6 +65,25 @@
       "prior_url": "https://news.ycombinator.com/item?id=50167754",
       "prior_days": 5,
       "scored_at": "2026-10-26T23:27:47.032143615Z"
+    },
+    {
+      "id": "kev:CVE-2026-109618",
+      "source": "kev",
+      "title": "CVE-2026-109618 — PHP Memory Corruption Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+      "published": "2026-10-26T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "PHP Group PHP. Confirmed exploited in the wild. Federal remediation due 29 October.",
+      "cves": [
+        "CVE-2026-109618"
+      ],
+      "prior_title": "Tell HN: 2x PHP RCE CVEs with CVSS 10.0 Incoming",
+      "prior_url": "https://news.ycombinator.com/item?id=50167754",
+      "prior_days": 5,
+      "scored_at": "2026-10-26T23:27:47.032141452Z"
     }
   ],
   "noise": null
