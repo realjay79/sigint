@@ -1,94 +1,4 @@
 {
-  "arxiv:2609.36474v1": {
-    "id": "arxiv:2609.36474v1",
-    "source": "arxiv",
-    "title": "FinRT: Distilling Adaptive Red-Teaming Strategies into Reusable Adversarial Generators in Consumer Finance",
-    "url": "http://arxiv.org/abs/2609.36474v1",
-    "published": "2026-09-29T01:33:31Z",
-    "authors": "Rikhiya Ghosh et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Reusable adversarial generators distilled from red-teaming achieve 32.9% attack success on consumer-finance LLMs with cross-model transferability.",
-    "unproven": "Evaluation limited to consumer finance domain and six models; transferability to financial services enterprise deployment and integration into hardening practices for internal agents is unproven.",
-    "scored_at": "2026-09-30T03:00:57.802317749Z"
-  },
-  "arxiv:2609.36485v1": {
-    "id": "arxiv:2609.36485v1",
-    "source": "arxiv",
-    "title": "From Reconnaissance to Response: Quantitative Risk Parameterization and Game Theoretic Containment in Modern Enterprise Attack",
-    "url": "http://arxiv.org/abs/2609.36485v1",
-    "published": "2026-09-29T01:45:20Z",
-    "authors": "Shadeeb Hossain",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Dynamic Bayesian game-theoretic model maps CVSS exploitability to containment decisions using SIEM arrival rates and Monte Carlo simulation.",
-    "unproven": "Targets SOC operations and incident response, not application security engineering, SDLC process design, or agent/post-quantum planning; reader does not perform threat hunting or response.",
-    "scored_at": "2026-09-30T03:00:57.802317579Z"
-  },
-  "arxiv:2609.36494v1": {
-    "id": "arxiv:2609.36494v1",
-    "source": "arxiv",
-    "title": "Know the Normal, Track the Attack: Context-Grounded and Stateful LLM Investigation over System Provenance",
-    "url": "http://arxiv.org/abs/2609.36494v1",
-    "published": "2026-09-29T01:49:17Z",
-    "authors": "Lijie Zheng et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Provenance-based IR system uses LLM reasoning with deployment-context baselines and stateful attack tracking to correlate anomalies into narratives.",
-    "unproven": "Reader does not run a SOC, hunt threats, or perform IR; system targets incident-response workflow, not secure SDLC or agent security in development.",
-    "scored_at": "2026-09-30T03:00:57.802317388Z"
-  },
-  "arxiv:2609.36570v1": {
-    "id": "arxiv:2609.36570v1",
-    "source": "arxiv",
-    "title": "CounterSteer: Suppressing Indirect Prompt Injection with Activation Steering",
-    "url": "http://arxiv.org/abs/2609.36570v1",
-    "published": "2026-09-29T02:51:31Z",
-    "authors": "Mark Russinovich",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Activation steering applied at inference time suppresses indirect prompt injection in tool-using agents without fine-tuning or auxiliary models.",
-    "unproven": "Defense requires white-box model access and tool-result span boundaries; applicability to closed-source models and integration into agent-hardening workflows is unclear.",
-    "scored_at": "2026-09-30T03:00:57.802317208Z"
-  },
-  "arxiv:2609.36573v1": {
-    "id": "arxiv:2609.36573v1",
-    "source": "arxiv",
-    "title": "CyberPersistBench: Evaluating LLM-Based Cyber Attackers on Installation and Persistence",
-    "url": "http://arxiv.org/abs/2609.36573v1",
-    "published": "2026-09-29T02:52:18Z",
-    "authors": "Sujin Chen et al.",
-    "novelty": 4,
-    "actionability": 3,
-    "score": 7,
-    "quadrant": "NEW GROUND",
-    "dek": "First benchmark for LLM persistence post-compromise shows frontier agents maintain footholds only 27–44% of the time across system disruptions.",
-    "unproven": "Measures agent behavior in lab environments with sandbox host mechanisms; does not establish whether results transfer to defended enterprise infrastructure or inform defensive posture for agents in SDLC.",
-    "scored_at": "2026-09-30T03:00:57.802317008Z"
-  },
-  "arxiv:2609.36603v1": {
-    "id": "arxiv:2609.36603v1",
-    "source": "arxiv",
-    "title": "Self-Evolving Defense: Continual Security Policy Learning for LLM Agents",
-    "url": "http://arxiv.org/abs/2609.36603v1",
-    "published": "2026-09-29T03:19:11Z",
-    "authors": "Minh Nhat Le et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Training-free policy distillation from adversarial trajectories reduces prompt-injection and code-generation attacks on open LLMs.",
-    "unproven": "Tested on three models with published benchmarks; effectiveness against adversaries not in training data and generalization to proprietary models and internal agents remain undemonstrated.",
-    "scored_at": "2026-09-30T03:00:57.802316827Z"
-  },
   "arxiv:2609.36667v1": {
     "id": "arxiv:2609.36667v1",
     "source": "arxiv",
@@ -27308,22 +27218,6 @@
     "dek": "Phase transitions in dipolar quantum gases shift between discontinuous and continuous regimes with dipole tilt and finite-temperature effects.",
     "scored_at": "2026-10-21T16:18:47.147679802Z"
   },
-  "hn:49886278": {
-    "id": "hn:49886278",
-    "source": "hn",
-    "title": "Its not just the f*cking sandbox",
-    "url": "https://twitter.com/joedaroo/status/2104335929293127851",
-    "published": "2026-09-29T00:18:34Z",
-    "authors": "jumploops",
-    "points": 34,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Twitter thread on sandbox escape mechanics; establishes no new technique or measurement applicable to SDLC tooling.",
-    "unproven": "submission lacks sufficient detail to assess; likely opinion or commentary rather than research finding",
-    "scored_at": "2026-09-30T17:15:24.276525971Z"
-  },
   "hn:49888937": {
     "id": "hn:49888937",
     "source": "hn",
@@ -30076,22 +29970,6 @@
       "CVE-2026-76519"
     ],
     "scored_at": "2026-10-14T22:50:43.088419119Z"
-  },
-  "kev:CVE-2026-86950": {
-    "id": "kev:CVE-2026-86950",
-    "source": "kev",
-    "title": "CVE-2026-86950 — Apple Multiple Products Out-of-Bounds Write Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950",
-    "published": "2026-09-29T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Apple Multiple Products. Confirmed exploited in the wild. Federal remediation due 2 October.",
-    "cves": [
-      "CVE-2026-86950"
-    ],
-    "scored_at": "2026-09-29T17:16:04.431255919Z"
   },
   "kev:CVE-2026-88779": {
     "id": "kev:CVE-2026-88779",

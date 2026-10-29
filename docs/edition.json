@@ -1,36 +1,20 @@
 {
-  "generated": "2026-10-28T23:43:33.329419488Z",
-  "edition": 96,
+  "generated": "2026-10-29T03:29:30.182281217Z",
+  "edition": 97,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 6,
+    "total": 4,
     "by_source": {
-      "kev": 6
+      "kev": 4
     },
     "by_quadrant": {
-      "STANDING ORDERS": 6
+      "STANDING ORDERS": 4
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-41709",
-      "source": "kev",
-      "title": "CVE-2026-41709 — Broadcom VMWare ESX Insufficient Logging Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
-      "published": "2026-10-28T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Broadcom VMware ESX. Confirmed exploited in the wild. Federal remediation due 11 November.",
-      "cves": [
-        "CVE-2026-41709"
-      ],
-      "scored_at": "2026-10-28T23:43:32.54482353Z"
-    },
     {
       "id": "kev:CVE-2026-46300",
       "source": "kev",
@@ -46,6 +30,22 @@
         "CVE-2026-46300"
       ],
       "scored_at": "2026-10-28T23:43:32.544826362Z"
+    },
+    {
+      "id": "kev:CVE-2026-41709",
+      "source": "kev",
+      "title": "CVE-2026-41709 — Broadcom VMWare ESX Insufficient Logging Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
+      "published": "2026-10-28T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Broadcom VMware ESX. Confirmed exploited in the wild. Federal remediation due 11 November.",
+      "cves": [
+        "CVE-2026-41709"
+      ],
+      "scored_at": "2026-10-28T23:43:32.54482353Z"
     },
     {
       "id": "kev:CVE-2026-111497",
@@ -78,44 +78,6 @@
         "CVE-2026-48356"
       ],
       "scored_at": "2026-10-27T23:20:51.03551555Z"
-    },
-    {
-      "id": "kev:CVE-2026-109618",
-      "source": "kev",
-      "title": "CVE-2026-109618 — PHP Memory Corruption Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
-      "published": "2026-10-26T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "PHP Group PHP. Confirmed exploited in the wild. Federal remediation due 29 October.",
-      "cves": [
-        "CVE-2026-109618"
-      ],
-      "prior_title": "Tell HN: 2x PHP RCE CVEs with CVSS 10.0 Incoming",
-      "prior_url": "https://news.ycombinator.com/item?id=50167754",
-      "prior_days": 5,
-      "scored_at": "2026-10-26T23:27:47.032141452Z"
-    },
-    {
-      "id": "kev:CVE-2026-109619",
-      "source": "kev",
-      "title": "CVE-2026-109619 — PHP Stale Internal Request-State Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
-      "published": "2026-10-26T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "PHP Group PHP. Confirmed exploited in the wild. Federal remediation due 29 October.",
-      "cves": [
-        "CVE-2026-109619"
-      ],
-      "prior_title": "Tell HN: 2x PHP RCE CVEs with CVSS 10.0 Incoming",
-      "prior_url": "https://news.ycombinator.com/item?id=50167754",
-      "prior_days": 5,
-      "scored_at": "2026-10-26T23:27:47.032143615Z"
     }
   ],
   "noise": null
