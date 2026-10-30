@@ -1,36 +1,20 @@
 {
-  "generated": "2026-10-29T23:42:41.082959307Z",
-  "edition": 97,
+  "generated": "2026-10-30T03:32:24.507046551Z",
+  "edition": 98,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 6,
+    "total": 4,
     "by_source": {
-      "kev": 6
+      "kev": 4
     },
     "by_quadrant": {
-      "STANDING ORDERS": 6
+      "STANDING ORDERS": 4
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-97229",
-      "source": "kev",
-      "title": "CVE-2026-97229 — GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
-      "published": "2026-10-29T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "GitLab Community Edition and Enterprise Edition. Confirmed exploited in the wild. Federal remediation due 1 November.",
-      "cves": [
-        "CVE-2026-97229"
-      ],
-      "scored_at": "2026-10-29T23:42:40.173764652Z"
-    },
     {
       "id": "kev:CVE-2026-76418",
       "source": "kev",
@@ -46,6 +30,22 @@
         "CVE-2026-76418"
       ],
       "scored_at": "2026-10-29T23:42:40.173770142Z"
+    },
+    {
+      "id": "kev:CVE-2026-97229",
+      "source": "kev",
+      "title": "CVE-2026-97229 — GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+      "published": "2026-10-29T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "GitLab Community Edition and Enterprise Edition. Confirmed exploited in the wild. Federal remediation due 1 November.",
+      "cves": [
+        "CVE-2026-97229"
+      ],
+      "scored_at": "2026-10-29T23:42:40.173764652Z"
     },
     {
       "id": "kev:CVE-2026-46300",
@@ -78,38 +78,6 @@
         "CVE-2026-41709"
       ],
       "scored_at": "2026-10-28T23:43:32.54482353Z"
-    },
-    {
-      "id": "kev:CVE-2026-111497",
-      "source": "kev",
-      "title": "CVE-2026-111497 — Google Brotli Unchecked Return Value Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
-      "published": "2026-10-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Google Brotli. Confirmed exploited in the wild. Federal remediation due 10 November.",
-      "cves": [
-        "CVE-2026-111497"
-      ],
-      "scored_at": "2026-10-27T23:20:51.035518616Z"
-    },
-    {
-      "id": "kev:CVE-2026-48356",
-      "source": "kev",
-      "title": "CVE-2026-48356 — Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
-      "published": "2026-10-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Adobe Commerce and Magento. Confirmed exploited in the wild. Federal remediation due 10 November.",
-      "cves": [
-        "CVE-2026-48356"
-      ],
-      "scored_at": "2026-10-27T23:20:51.03551555Z"
     }
   ],
   "noise": null

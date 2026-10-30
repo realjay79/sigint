@@ -1,79 +1,4 @@
 {
-  "arxiv:2609.38668v1": {
-    "id": "arxiv:2609.38668v1",
-    "source": "arxiv",
-    "title": "Z-Sigil: A Public-Key Cryptosystem with Chained Selection over a Fiber Bundle of Module-Lattice Keys",
-    "url": "http://arxiv.org/abs/2609.38668v1",
-    "published": "2026-09-29T23:48:15Z",
-    "authors": "Andrea Rondelli",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Module-lattice public-key scheme using fiber-bundle key selection and torsion-point indexing; no concrete security level established.",
-    "unproven": "no cryptanalytic comparison to NIST-standardized lattice schemes, no implementation, no decoding-failure measurement on realistic parameter sets",
-    "scored_at": "2026-10-01T10:34:34.057631026Z"
-  },
-  "arxiv:2609.38720v1": {
-    "id": "arxiv:2609.38720v1",
-    "source": "arxiv",
-    "title": "Does the Readout Bypass Leak the Input? A Feature-Visibility Audit of Hybrid Quantum-Classical Models",
-    "url": "http://arxiv.org/abs/2609.38720v1",
-    "published": "2026-09-30T00:54:03Z",
-    "authors": "Guilin Zhang et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Gradient-based input reconstruction from hybrid quantum-classical models achieves 73–96 dB PSNR on six-input tabular circuits; membership attack remains near chance.",
-    "unproven": "limited to six inputs and single-example gradient leakage, does not cover aggregated or multi-step training, quantum circuit family is too small to generalize threat model",
-    "scored_at": "2026-10-01T10:34:34.057630944Z"
-  },
-  "arxiv:2609.38722v1": {
-    "id": "arxiv:2609.38722v1",
-    "source": "arxiv",
-    "title": "Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes",
-    "url": "http://arxiv.org/abs/2609.38722v1",
-    "published": "2026-09-30T00:56:24Z",
-    "authors": "Zewei Deng et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Error-correcting-code watermarks detect and localize post-generation edits in LLM outputs with 99.7% block-level TPR and 7.6% FAR.",
-    "unproven": "tested on three model families at modest scale, does not establish robustness to adversarial post-processing beyond insertion/deletion/substitution, no deployment path to production watermarking systems",
-    "scored_at": "2026-10-01T10:34:34.057630849Z"
-  },
-  "arxiv:2609.38830v1": {
-    "id": "arxiv:2609.38830v1",
-    "source": "arxiv",
-    "title": "SparLeak: Privacy Leakage from Sparse Attention in LLM Inference on Shared GPUs",
-    "url": "http://arxiv.org/abs/2609.38830v1",
-    "published": "2026-09-30T02:52:28Z",
-    "authors": "Fahao Chen et al.",
-    "novelty": 4,
-    "actionability": 3,
-    "score": 7,
-    "quadrant": "NEW GROUND",
-    "dek": "GPU side-channel attack extracts LLM query attributes and response tokens from sparse-attention key-value cache access patterns with 87–91% success.",
-    "unproven": "evaluated on shared-GPU lab setting only, does not measure attack feasibility on production isolation (cgroup, SEV, TEE), no defense tested",
-    "scored_at": "2026-10-01T10:34:34.057630746Z"
-  },
-  "arxiv:2609.38872v1": {
-    "id": "arxiv:2609.38872v1",
-    "source": "arxiv",
-    "title": "SoK: A Large-Scale Empirical Study of Emulation-Based Dynamic Analysis Research for ARM Cortex-M Firmware (Extended Version)",
-    "url": "http://arxiv.org/abs/2609.38872v1",
-    "published": "2026-09-30T03:20:54Z",
-    "authors": "Hongyuan Li et al.",
-    "novelty": 2,
-    "actionability": 2,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Systematization of 24 MCU firmware emulation tools across 4,571 ARM samples finds only 34.5% reach the diagnosis stage, revealing tool composition gaps.",
-    "unproven": "limited to ARM Cortex-M, does not assess whether identified gaps stem from tool design or fundamental emulation limits, no fix or architectural recommendation provided",
-    "scored_at": "2026-10-01T10:34:34.057629586Z"
-  },
   "arxiv:2609.38894v1": {
     "id": "arxiv:2609.38894v1",
     "source": "arxiv",
@@ -28189,22 +28114,6 @@
       "CVE-2026-76418"
     ],
     "scored_at": "2026-10-29T23:42:40.173770142Z"
-  },
-  "kev:CVE-2026-76504": {
-    "id": "kev:CVE-2026-76504",
-    "source": "kev",
-    "title": "CVE-2026-76504 — Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
-    "published": "2026-09-30T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Cisco Catalyst SD-WAN Manager. Confirmed exploited in the wild. Federal remediation due 3 October.",
-    "cves": [
-      "CVE-2026-76504"
-    ],
-    "scored_at": "2026-09-30T23:19:43.380120924Z"
   },
   "kev:CVE-2026-76519": {
     "id": "kev:CVE-2026-76519",
