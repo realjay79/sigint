@@ -1,35 +1,51 @@
 {
-  "generated": "2026-10-30T17:27:22.393762214Z",
+  "generated": "2026-10-30T23:22:34.052484941Z",
   "edition": 98,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 4,
+    "total": 6,
     "by_source": {
-      "kev": 4
+      "kev": 6
     },
     "by_quadrant": {
-      "STANDING ORDERS": 4
+      "STANDING ORDERS": 6
     }
   },
   "items": [
     {
-      "id": "kev:CVE-2026-97229",
+      "id": "kev:CVE-2026-111357",
       "source": "kev",
-      "title": "CVE-2026-97229 — GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
-      "published": "2026-10-29T00:00:00Z",
+      "title": "CVE-2026-111357 — Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+      "published": "2026-10-30T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "GitLab Community Edition and Enterprise Edition. Confirmed exploited in the wild. Federal remediation due 1 November.",
+      "dek": "Ivanti Connect Secure. Confirmed exploited in the wild. Federal remediation due 2 November.",
       "cves": [
-        "CVE-2026-97229"
+        "CVE-2026-111357"
       ],
-      "scored_at": "2026-10-29T23:42:40.173764652Z"
+      "scored_at": "2026-10-30T23:22:33.336759588Z"
+    },
+    {
+      "id": "kev:CVE-2026-118527",
+      "source": "kev",
+      "title": "CVE-2026-118527 — Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+      "published": "2026-10-30T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ivanti Connect Secure. Confirmed exploited in the wild. Federal remediation due 13 November.",
+      "cves": [
+        "CVE-2026-118527"
+      ],
+      "scored_at": "2026-10-30T23:22:33.336754278Z"
     },
     {
       "id": "kev:CVE-2026-76418",
@@ -46,6 +62,22 @@
         "CVE-2026-76418"
       ],
       "scored_at": "2026-10-29T23:42:40.173770142Z"
+    },
+    {
+      "id": "kev:CVE-2026-97229",
+      "source": "kev",
+      "title": "CVE-2026-97229 — GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+      "published": "2026-10-29T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "GitLab Community Edition and Enterprise Edition. Confirmed exploited in the wild. Federal remediation due 1 November.",
+      "cves": [
+        "CVE-2026-97229"
+      ],
+      "scored_at": "2026-10-29T23:42:40.173764652Z"
     },
     {
       "id": "kev:CVE-2026-46300",
