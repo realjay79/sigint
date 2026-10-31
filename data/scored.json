@@ -1,64 +1,4 @@
 {
-  "arxiv:2610.00839v1": {
-    "id": "arxiv:2610.00839v1",
-    "source": "arxiv",
-    "title": "Do Defenses Against LLM Extraction Work Across Attacks? A Lifecycle Benchmark of Black-Box Model Extraction",
-    "url": "http://arxiv.org/abs/2610.00839v1",
-    "published": "2026-09-30T23:51:54Z",
-    "authors": "Shuze Liu et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Unified benchmark evaluates six extraction attacks, ten defenses, and two adaptive attacks against LLM APIs, showing defenses do not generalize across attack variants.",
-    "unproven": "limited to text-only API threat model; query budgets and model sizes not representative of production deployments; long-term extraction risks over weeks or months unaddressed.",
-    "scored_at": "2026-10-02T17:02:47.505750906Z"
-  },
-  "arxiv:2610.00850v1": {
-    "id": "arxiv:2610.00850v1",
-    "source": "arxiv",
-    "title": "AuraForge: Scaling Security Supervision for Training Coding Agents",
-    "url": "http://arxiv.org/abs/2610.00850v1",
-    "published": "2026-10-01T00:07:01Z",
-    "authors": "Danqing Wang et al.",
-    "novelty": 4,
-    "actionability": 4,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "AuraForge synthesizes executable security tests from real repositories to train coding agents; AuraGym provides 679 tasks across Python, JavaScript, TypeScript covering 177 CWEs.",
-    "unproven": "agent security improvement measured only on AuraGym tasks; transfer to code in the wild not demonstrated; task synthesis coverage and false-test rates not quantified.",
-    "scored_at": "2026-10-02T17:02:47.505750756Z"
-  },
-  "arxiv:2610.00883v1": {
-    "id": "arxiv:2610.00883v1",
-    "source": "arxiv",
-    "title": "DeBERTa-ConPara: Attack-Aware and Deployment-Realistic Detection of AI-Generated Text",
-    "url": "http://arxiv.org/abs/2610.00883v1",
-    "published": "2026-10-01T00:57:33Z",
-    "authors": "Mohamed Mady et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "DeBERTa-ConPara detects AI-generated text by applying Unicode normalization only at inference, not training, reaching 99.61% AUROC on RAID but gains limited to homoglyph and zero-width attacks.",
-    "unproven": "performance relies on two specific attack classes; threshold calibration method for domain shift not established; generalization to future generators undemonstrated.",
-    "scored_at": "2026-10-02T17:02:47.505750606Z"
-  },
-  "arxiv:2610.00977v1": {
-    "id": "arxiv:2610.00977v1",
-    "source": "arxiv",
-    "title": "ABSENTIA: Detecting Broken Access Control Vulnerabilities in Web Applications",
-    "url": "http://arxiv.org/abs/2610.00977v1",
-    "published": "2026-10-01T03:11:45Z",
-    "authors": "André V. Duarte et al.",
-    "novelty": 4,
-    "actionability": 4,
-    "score": 8,
-    "quadrant": "BREAK GLASS",
-    "dek": "ABSENTIA scaffolds LLM agents to systematically detect broken access control by mapping routes to code and applying invariant falsification across a testable graph.",
-    "unproven": "BAC-Bench limited to 30 advisories across 25 repositories; false-positive rate and coverage completeness on real applications not quantified; language scope narrow.",
-    "scored_at": "2026-10-02T17:02:47.505750425Z"
-  },
   "arxiv:2610.01009v1": {
     "id": "arxiv:2610.01009v1",
     "source": "arxiv",
@@ -23328,21 +23268,6 @@
     "dek": "Phase transitions in dipolar quantum gases shift between discontinuous and continuous regimes with dipole tilt and finite-temperature effects.",
     "scored_at": "2026-10-21T16:18:47.147679802Z"
   },
-  "hn:49916955": {
-    "id": "hn:49916955",
-    "source": "hn",
-    "title": "Cities Are Forced to Funnel License Plate Data to a Federal Surveillance Program",
-    "url": "https://404media.co/how-cities-are-forced-to-funnel-license-plate-data-to-a-massive-federal-surveillance-program-hidta",
-    "published": "2026-10-01T02:26:17Z",
-    "authors": "ripe",
-    "points": 92,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Surveillance reporting on license plate data collection; policy and civil liberties issue, not application security.",
-    "scored_at": "2026-10-02T10:09:57.956105709Z"
-  },
   "hn:49917378": {
     "id": "hn:49917378",
     "source": "hn",
@@ -25602,22 +25527,6 @@
       "CVE-2026-102764"
     ],
     "scored_at": "2026-10-16T19:09:01.488135025Z"
-  },
-  "kev:CVE-2026-104286": {
-    "id": "kev:CVE-2026-104286",
-    "source": "kev",
-    "title": "CVE-2026-104286 — Fortinet FortiMail Path Traversal Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
-    "published": "2026-10-01T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Fortinet FortiMail. Confirmed exploited in the wild. Federal remediation due 4 October.",
-    "cves": [
-      "CVE-2026-104286"
-    ],
-    "scored_at": "2026-10-01T23:34:04.657447431Z"
   },
   "kev:CVE-2026-104935": {
     "id": "kev:CVE-2026-104935",
