@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T03:15:07.964492777Z",
+  "generated": "2026-11-01T10:53:52.39546521Z",
   "edition": 100,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,22 +16,6 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-118527",
-      "source": "kev",
-      "title": "CVE-2026-118527 — Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
-      "published": "2026-10-30T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ivanti Connect Secure. Confirmed exploited in the wild. Federal remediation due 13 November.",
-      "cves": [
-        "CVE-2026-118527"
-      ],
-      "scored_at": "2026-10-30T23:22:33.336754278Z"
-    },
-    {
       "id": "kev:CVE-2026-111357",
       "source": "kev",
       "title": "CVE-2026-111357 — Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
@@ -46,6 +30,22 @@
         "CVE-2026-111357"
       ],
       "scored_at": "2026-10-30T23:22:33.336759588Z"
+    },
+    {
+      "id": "kev:CVE-2026-118527",
+      "source": "kev",
+      "title": "CVE-2026-118527 — Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+      "published": "2026-10-30T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Ivanti Connect Secure. Confirmed exploited in the wild. Federal remediation due 13 November.",
+      "cves": [
+        "CVE-2026-118527"
+      ],
+      "scored_at": "2026-10-30T23:22:33.336754278Z"
     }
   ],
   "noise": null
