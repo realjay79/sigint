@@ -1,79 +1,4 @@
 {
-  "arxiv:2610.02569v1": {
-    "id": "arxiv:2610.02569v1",
-    "source": "arxiv",
-    "title": "Pincer: Resource Authorization for Agents using a Digital Twin",
-    "url": "http://arxiv.org/abs/2610.02569v1",
-    "published": "2026-10-01T23:03:12Z",
-    "authors": "Mayank Rathee et al.",
-    "novelty": 3,
-    "actionability": 4,
-    "score": 7,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Pincer enforces dynamic least-privilege resource policies via digital twin for coding agents, operating alongside tool-call classifiers without sacrificing functionality.",
-    "unproven": "No deployment data on real coding agents; user fatigue and policy decay empirically unquantified; scalability to long-horizon agent sessions unclear.",
-    "scored_at": "2026-10-05T10:59:35.002737621Z"
-  },
-  "arxiv:2610.02636v1": {
-    "id": "arxiv:2610.02636v1",
-    "source": "arxiv",
-    "title": "Where Quantum Fourier Sampling Stops Short: A Three-Gate Audit Protocol for Delay-PUF Security Models",
-    "url": "http://arxiv.org/abs/2610.02636v1",
-    "published": "2026-10-02T00:53:09Z",
-    "authors": "Owen Friedewald et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Quantum Fourier sampling for PUF auditability does not exceed classical baselines; geometric difference correlates with classical Gram matrix conditioning.",
-    "unproven": "Evaluation confined to synthetic XOR models; no deployed PUF systems tested; unclear whether findings generalize beyond idealized challenge sets.",
-    "scored_at": "2026-10-05T10:59:35.002737271Z"
-  },
-  "arxiv:2610.02641v1": {
-    "id": "arxiv:2610.02641v1",
-    "source": "arxiv",
-    "title": "When Normalization Selects the Sign: Auditing Robustness Ablations in Quantum Attention",
-    "url": "http://arxiv.org/abs/2610.02641v1",
-    "published": "2026-10-02T00:57:53Z",
-    "authors": "Owen Friedewald et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Ablation studies on quantum attention models confound perturbation rules with robustness claims; retraining after module removal restores detection but changes predictions.",
-    "unproven": "Limited to ten seeds and four-qubit systems; no demonstration on production quantum hardware or realistic scale.",
-    "scored_at": "2026-10-05T10:59:35.00273696Z"
-  },
-  "arxiv:2610.02716v1": {
-    "id": "arxiv:2610.02716v1",
-    "source": "arxiv",
-    "title": "Differential Privacy of Gradient Descent on Perturbed Objectives",
-    "url": "http://arxiv.org/abs/2610.02716v1",
-    "published": "2026-10-02T02:52:50Z",
-    "authors": "Austin Watkins et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Theoretical analysis of gradient descent on objective-perturbed problems proves diffeomorphism conditions for privacy-profile bounds; no empirical validation.",
-    "unproven": "Pure theory with no experimental validation; no code or reproducible artifacts; no connection to the reader's SDLC or agent-security challenges.",
-    "scored_at": "2026-10-05T10:59:22.250561001Z"
-  },
-  "arxiv:2610.02738v1": {
-    "id": "arxiv:2610.02738v1",
-    "source": "arxiv",
-    "title": "Inner Momentum for Differentially Private Muon",
-    "url": "http://arxiv.org/abs/2610.02738v1",
-    "published": "2026-10-02T03:10:53Z",
-    "authors": "Bishnu Bhusal et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Differentially private Muon optimizer with history-based gradient averaging improves fine-tuning BLEU and ROUGE-L by 2–4% over baseline.",
-    "unproven": "Differential privacy in model training is orthogonal to reader's SAST/DAST/SCA remit; evaluation on E2E and DART only; no security implication measured.",
-    "scored_at": "2026-10-05T10:59:22.250560901Z"
-  },
   "arxiv:2610.02805v1": {
     "id": "arxiv:2610.02805v1",
     "source": "arxiv",
@@ -1023,21 +948,6 @@
     "dek": "SpiderCSS generates fault-tolerant quantum state preparation for CSS codes with reduced depth and qubit footprint up to distance 15.",
     "unproven": "Monte Carlo simulations only; no hardware implementation; does not establish practical scalability beyond distance 15 or comparison to deployed quantum error correction in real systems.",
     "scored_at": "2026-10-05T20:06:34.855419502Z"
-  },
-  "arxiv:2610.03818v1": {
-    "id": "arxiv:2610.03818v1",
-    "source": "arxiv",
-    "title": "Control OSWorld: An AI Control Environment for GUI Computer Use Agents",
-    "url": "http://arxiv.org/abs/2610.03818v1",
-    "published": "2026-10-02T00:31:34Z",
-    "authors": "Maria Sanchez del Rio et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Control evaluation shows monitors detecting malicious GUI agents at 97% recall but dropping sharply when scoring actions in real time.",
-    "unproven": "Evaluation on 318 tasks with synthetic side tasks; no evidence that step-by-step monitoring is deployable in production agent systems or that agents cannot learn to evade detection.",
-    "scored_at": "2026-10-06T01:04:05.778688554Z"
   },
   "arxiv:2610.03820v1": {
     "id": "arxiv:2610.03820v1",
@@ -21031,53 +20941,6 @@
     "dek": "Phase transitions in dipolar quantum gases shift between discontinuous and continuous regimes with dipole tilt and finite-temperature effects.",
     "scored_at": "2026-10-21T16:18:47.147679802Z"
   },
-  "hn:49928121": {
-    "id": "hn:49928121",
-    "source": "hn",
-    "title": "Several vulnerabilities have been discovered in the Linux kernel",
-    "url": "https://lwn.net/Articles/1097401",
-    "published": "2026-10-01T23:10:44Z",
-    "authors": "luispa",
-    "points": 308,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "LWN summary of Linux kernel vulnerabilities; standard security reporting without technical depth or CVE details.",
-    "scored_at": "2026-10-02T10:09:57.956103966Z"
-  },
-  "hn:49928361": {
-    "id": "hn:49928361",
-    "source": "hn",
-    "title": "C++ Insights – See your source code with the eyes of a Compiler",
-    "url": "https://github.com/andreasfertig/cppinsights",
-    "published": "2026-10-01T23:53:36Z",
-    "authors": "rramadass",
-    "points": 57,
-    "novelty": 2,
-    "actionability": 2,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "C++ metaprogramming tool shows compiler transformation of source; useful for code review literacy, not a change to SAST/DAST/SCA practice.",
-    "unproven": "whether this catches classes of defects SAST misses, or changes rule development workflow",
-    "scored_at": "2026-10-03T15:24:56.319854844Z"
-  },
-  "hn:49929391": {
-    "id": "hn:49929391",
-    "source": "hn",
-    "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-    "url": "https://youtube.com/watch?v=NnV_cWeoo5Q",
-    "published": "2026-10-02T02:51:27Z",
-    "authors": "usernomdeguerre",
-    "points": 238,
-    "novelty": 2,
-    "actionability": 2,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Kernel maintainer discusses LLM security considerations in talk format.",
-    "unproven": "specific findings and recommendations cannot be evaluated from video metadata alone",
-    "scored_at": "2026-10-03T09:31:49.082837268Z"
-  },
   "hn:49931031": {
     "id": "hn:49931031",
     "source": "hn",
@@ -23196,38 +23059,6 @@
       "CVE-2026-0322"
     ],
     "scored_at": "2026-10-14T22:50:43.088422445Z"
-  },
-  "kev:CVE-2026-102489": {
-    "id": "kev:CVE-2026-102489",
-    "source": "kev",
-    "title": "CVE-2026-102489 — Zammad GmbH Zammad Session Fixation Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489",
-    "published": "2026-10-02T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Zammad GmbH Zammad. Confirmed exploited in the wild. Federal remediation due 5 October.",
-    "cves": [
-      "CVE-2026-102489"
-    ],
-    "scored_at": "2026-10-02T17:02:25.040190047Z"
-  },
-  "kev:CVE-2026-102490": {
-    "id": "kev:CVE-2026-102490",
-    "source": "kev",
-    "title": "CVE-2026-102490 — Zammad GmbH Zammad Improper Privilege Management Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490",
-    "published": "2026-10-02T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Zammad GmbH Zammad. Confirmed exploited in the wild. Federal remediation due 5 October.",
-    "cves": [
-      "CVE-2026-102490"
-    ],
-    "scored_at": "2026-10-02T17:02:25.040186931Z"
   },
   "kev:CVE-2026-102764": {
     "id": "kev:CVE-2026-102764",
