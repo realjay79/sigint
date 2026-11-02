@@ -1,52 +1,15 @@
 {
-  "generated": "2026-11-01T23:13:49.650995904Z",
-  "edition": 100,
+  "generated": "2026-11-02T03:26:01.412652935Z",
+  "edition": 101,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 2,
-    "by_source": {
-      "kev": 2
-    },
-    "by_quadrant": {
-      "STANDING ORDERS": 2
-    }
+    "total": 0,
+    "by_source": {},
+    "by_quadrant": {}
   },
-  "items": [
-    {
-      "id": "kev:CVE-2026-118527",
-      "source": "kev",
-      "title": "CVE-2026-118527 — Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
-      "published": "2026-10-30T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ivanti Connect Secure. Confirmed exploited in the wild. Federal remediation due 13 November.",
-      "cves": [
-        "CVE-2026-118527"
-      ],
-      "scored_at": "2026-10-30T23:22:33.336754278Z"
-    },
-    {
-      "id": "kev:CVE-2026-111357",
-      "source": "kev",
-      "title": "CVE-2026-111357 — Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
-      "published": "2026-10-30T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Ivanti Connect Secure. Confirmed exploited in the wild. Federal remediation due 2 November.",
-      "cves": [
-        "CVE-2026-111357"
-      ],
-      "scored_at": "2026-10-30T23:22:33.336759588Z"
-    }
-  ],
+  "items": null,
   "noise": null
 }
