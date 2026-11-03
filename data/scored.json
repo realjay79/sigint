@@ -1,94 +1,4 @@
 {
-  "arxiv:2610.05323v1": {
-    "id": "arxiv:2610.05323v1",
-    "source": "arxiv",
-    "title": "Grammar-Guided Code Watermarking with Green Temperature",
-    "url": "http://arxiv.org/abs/2610.05323v1",
-    "published": "2026-10-04T15:45:19Z",
-    "authors": "Hyundong Jin et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Grammar-constrained watermarking for code generation achieves 73.61% AUROC across five models by restricting tokens to grammar-admissible continuations during embedding.",
-    "unproven": "whether watermark robustness holds against adversarial stripping and whether quality penalties affect production code generation workflows.",
-    "scored_at": "2026-10-06T10:54:52.030896135Z"
-  },
-  "arxiv:2610.05335v1": {
-    "id": "arxiv:2610.05335v1",
-    "source": "arxiv",
-    "title": "StateSync-GKR: Machine-Checking the Trust Chain from Sparse-Merkle State Transitions to GKR Verification",
-    "url": "http://arxiv.org/abs/2610.05335v1",
-    "published": "2026-10-04T15:56:51Z",
-    "authors": "Jinwook Kim",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Formal verification in Isabelle/HOL connects GKR arithmetic-circuit proofs to sparse-Merkle state transitions, with an accompanying Rust prover.",
-    "unproven": "applicability to systems the reader operates and whether formal verification improves real-world deployment assurance beyond existing practices.",
-    "scored_at": "2026-10-06T10:54:52.030891169Z"
-  },
-  "arxiv:2610.05346v1": {
-    "id": "arxiv:2610.05346v1",
-    "source": "arxiv",
-    "title": "Reflections and Fragments: Securing LLMs Against Sequential Mosaic Attacks",
-    "url": "http://arxiv.org/abs/2610.05346v1",
-    "published": "2026-10-04T16:12:52Z",
-    "authors": "Emanuele La Malfa et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Multi-turn mosaic attacks evade fixed-window safety checks; an online state mechanism can defend with zero failures under explicit assumptions, though exact detection may require exponential complexity.",
-    "unproven": "whether the theoretical assumptions hold in adversarial practice and whether exponential-state bounds prevent practical implementation.",
-    "scored_at": "2026-10-06T10:54:52.030891052Z"
-  },
-  "arxiv:2610.05369v1": {
-    "id": "arxiv:2610.05369v1",
-    "source": "arxiv",
-    "title": "AutoDP-LLM: Automating Data Pre-processing for Intrusion Detection Systems using Large Language Models",
-    "url": "http://arxiv.org/abs/2610.05369v1",
-    "published": "2026-10-04T16:50:21Z",
-    "authors": "Bao-Phong Nguyen et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "LLM agents autonomously generate data pre-processing pipelines for intrusion detection without manual trial-and-error on two benchmark datasets.",
-    "unproven": "generalization to production network traffic and comparison against hand-tuned pipelines used in real deployments.",
-    "scored_at": "2026-10-06T10:54:52.03089095Z"
-  },
-  "arxiv:2610.05453v1": {
-    "id": "arxiv:2610.05453v1",
-    "source": "arxiv",
-    "title": "The Poisoned Conversation: Privacy-Leaking Watermarks in Unified Multimodal Models",
-    "url": "http://arxiv.org/abs/2610.05453v1",
-    "published": "2026-10-04T18:53:31Z",
-    "authors": "Tobias Braun et al.",
-    "novelty": 4,
-    "actionability": 3,
-    "score": 7,
-    "quadrant": "NEW GROUND",
-    "dek": "Malicious multimodal models can embed hidden watermarks in later-generated images keyed to earlier sensitive text in the same conversation, leaking privacy from local deployments.",
-    "unproven": "whether detection remains feasible under adversarial watermark design and whether practical deployment scenarios encounter this threat model.",
-    "scored_at": "2026-10-06T10:54:52.030890846Z"
-  },
-  "arxiv:2610.05541v1": {
-    "id": "arxiv:2610.05541v1",
-    "source": "arxiv",
-    "title": "Don't Judge an LLM Only by Its Activations: Discovering Suppressed Safety Features via Counterfactual Activation Potential",
-    "url": "http://arxiv.org/abs/2610.05541v1",
-    "published": "2026-10-04T21:13:06Z",
-    "authors": "Swadesh Swain et al.",
-    "novelty": 4,
-    "actionability": 2,
-    "score": 6,
-    "quadrant": "NEW GROUND",
-    "dek": "Inactive neural features suppress safety refusals in LLMs; flipping suppressed features turns compliance attacks invisible to standard mechanistic interpretability tools.",
-    "unproven": "whether this attack succeeds against defenses deployed in production systems and generalizes across model families beyond those tested.",
-    "scored_at": "2026-10-06T10:54:52.030890747Z"
-  },
   "arxiv:2610.05561v1": {
     "id": "arxiv:2610.05561v1",
     "source": "arxiv",
@@ -19122,22 +19032,6 @@
     "dek": "Phase transitions in dipolar quantum gases shift between discontinuous and continuous regimes with dipole tilt and finite-temperature effects.",
     "scored_at": "2026-10-21T16:18:47.147679802Z"
   },
-  "hn:49956003": {
-    "id": "hn:49956003",
-    "source": "hn",
-    "title": "Xray-core concealed a certificate verification bypass vulnerability",
-    "url": "https://github.com/net4people/bbs/issues/672",
-    "published": "2026-10-04T17:38:54Z",
-    "authors": "timbill",
-    "points": 61,
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Xray-core had a certificate verification bypass; no exploitation details or patch status provided.",
-    "unproven": "whether the vulnerability is exploitable in reader's deployment, patch availability, or prevalence in financial services networks",
-    "scored_at": "2026-10-05T03:02:19.206730566Z"
-  },
   "hn:49958850": {
     "id": "hn:49958850",
     "source": "hn",
@@ -21222,6 +21116,22 @@
       "CVE-2026-118527"
     ],
     "scored_at": "2026-10-30T23:22:33.336754278Z"
+  },
+  "kev:CVE-2026-119977": {
+    "id": "kev:CVE-2026-119977",
+    "source": "kev",
+    "title": "CVE-2026-119977 — WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+    "published": "2026-11-03T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "WordPress WordPress Core. Confirmed exploited in the wild. Federal remediation due 6 November.",
+    "cves": [
+      "CVE-2026-119977"
+    ],
+    "scored_at": "2026-11-03T21:21:38.387689414Z"
   },
   "kev:CVE-2026-21589": {
     "id": "kev:CVE-2026-21589",
