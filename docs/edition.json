@@ -1,20 +1,36 @@
 {
-  "generated": "2026-11-04T19:04:26.813083044Z",
-  "edition": 103,
+  "generated": "2026-11-05T00:38:11.283359308Z",
+  "edition": 104,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 1,
+    "total": 2,
     "by_source": {
-      "kev": 1
+      "kev": 2
     },
     "by_quadrant": {
-      "STANDING ORDERS": 1
+      "STANDING ORDERS": 2
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2024-27834",
+      "source": "kev",
+      "title": "CVE-2024-27834 — Apple Multiple Products Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
+      "published": "2026-11-04T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Apple Multiple Products. Confirmed exploited in the wild. Federal remediation due 18 November.",
+      "cves": [
+        "CVE-2024-27834"
+      ],
+      "scored_at": "2026-11-05T00:38:10.582669508Z"
+    },
     {
       "id": "kev:CVE-2026-119977",
       "source": "kev",
