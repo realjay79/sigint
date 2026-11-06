@@ -1,20 +1,36 @@
 {
-  "generated": "2026-11-06T18:40:53.874451575Z",
+  "generated": "2026-11-06T23:52:39.156712192Z",
   "edition": 105,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 1,
+    "total": 2,
     "by_source": {
-      "kev": 1
+      "kev": 2
     },
     "by_quadrant": {
-      "STANDING ORDERS": 1
+      "STANDING ORDERS": 2
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-19868",
+      "source": "kev",
+      "title": "CVE-2026-19868 — SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
+      "published": "2026-11-06T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "SonicWall SonicOS SSLVPN. Confirmed exploited in the wild. Federal remediation due 20 November.",
+      "cves": [
+        "CVE-2026-19868"
+      ],
+      "scored_at": "2026-11-06T23:52:38.357343258Z"
+    },
     {
       "id": "kev:CVE-2024-27834",
       "source": "kev",
