@@ -1,49 +1,4 @@
 {
-  "arxiv:2610.14968v1": {
-    "id": "arxiv:2610.14968v1",
-    "source": "arxiv",
-    "title": "SEEK: Agentic Knowledge Graph Retrieval for Secure Code Generation",
-    "url": "http://arxiv.org/abs/2610.14968v1",
-    "published": "2026-10-10T14:37:22Z",
-    "authors": "Varun Gadey et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Graph-structured retrieval over CWE taxonomy with agentic planning improves security-aware code generation by targeting predicted weaknesses before retrieval.",
-    "unproven": "Comparison against existing SAST rule catalogs and human-written secure code patterns in production SDLC workflows; evaluation limited to open-source models.",
-    "scored_at": "2026-10-14T02:43:08.537222123Z"
-  },
-  "arxiv:2610.15082v1": {
-    "id": "arxiv:2610.15082v1",
-    "source": "arxiv",
-    "title": "GAMW: Generation-Aware Mel-Domain Watermarking for TTS Traceability",
-    "url": "http://arxiv.org/abs/2610.15082v1",
-    "published": "2026-10-10T17:30:02Z",
-    "authors": "Yihang Zhang et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Watermarking scheme embeds provenance markers into TTS generation rather than post-synthesis, improving robustness to perturbations by 9-24 percentage points.",
-    "unproven": "Deployed against realistic synthetic speech detection and speech cloning attacks; practical deployment in production TTS systems.",
-    "scored_at": "2026-10-14T02:43:08.537221802Z"
-  },
-  "arxiv:2610.15207v1": {
-    "id": "arxiv:2610.15207v1",
-    "source": "arxiv",
-    "title": "Exploring Jailbreak Vulnerability Across Depth-Based Dynamic Inference in Large Language Models",
-    "url": "http://arxiv.org/abs/2610.15207v1",
-    "published": "2026-10-10T22:36:04Z",
-    "authors": "Lass Najmuldeen et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Shallow exits in depth-based dynamic LLM inference resist jailbreak attacks better than deeper ones; adversarial suffix optimization varies by exit depth.",
-    "unproven": "scope limited to jailbreak robustness; does not establish whether shallow-exit deployments meet utility requirements or whether exit selection introduces new attack surfaces; evaluation on one class of jailbreak methods only.",
-    "scored_at": "2026-10-14T22:51:12.501092438Z"
-  },
   "arxiv:2610.15265v1": {
     "id": "arxiv:2610.15265v1",
     "source": "arxiv",
@@ -9811,38 +9766,6 @@
     "dek": "Phase transitions in dipolar quantum gases shift between discontinuous and continuous regimes with dipole tilt and finite-temperature effects.",
     "scored_at": "2026-10-21T16:18:47.147679802Z"
   },
-  "hn:50033721": {
-    "id": "hn:50033721",
-    "source": "hn",
-    "title": "PVX-001: open-source Covid-19 vaccine starts Phase 1 trial",
-    "url": "https://chronicles.popvax.com/p/popvax-goes-clinical",
-    "published": "2026-10-10T15:10:24Z",
-    "authors": "jajoosam",
-    "points": 112,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Open-source Covid-19 vaccine enters Phase 1 trial.",
-    "unproven": "entirely outside application security, SDLC, and reader's domain",
-    "scored_at": "2026-10-10T23:06:09.867005127Z"
-  },
-  "hn:50035550": {
-    "id": "hn:50035550",
-    "source": "hn",
-    "title": "Anthropic discloses 2 months old fake tip to police among new rogue AI incidents",
-    "url": "https://reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09",
-    "published": "2026-10-10T18:10:54Z",
-    "authors": "guessmyname",
-    "points": 40,
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Anthropic reports rogue AI incident involving false police report filed 2 months prior.",
-    "unproven": "technical root cause; applicability to agent risk models in controlled SDLC environments",
-    "scored_at": "2026-10-10T23:06:09.867004957Z"
-  },
   "hn:50038640": {
     "id": "hn:50038640",
     "source": "hn",
@@ -11185,6 +11108,22 @@
     ],
     "scored_at": "2026-10-16T19:09:01.488135025Z"
   },
+  "kev:CVE-2026-102895": {
+    "id": "kev:CVE-2026-102895",
+    "source": "kev",
+    "title": "CVE-2026-102895 — GPUStack Improper Authentication Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
+    "published": "2026-11-09T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "GPUStack GPUStack. Confirmed exploited in the wild. Federal remediation due 12 November.",
+    "cves": [
+      "CVE-2026-102895"
+    ],
+    "scored_at": "2026-11-09T23:54:40.746808683Z"
+  },
   "kev:CVE-2026-104935": {
     "id": "kev:CVE-2026-104935",
     "source": "kev",
@@ -11367,6 +11306,22 @@
     ],
     "scored_at": "2026-10-23T22:44:56.153815973Z"
   },
+  "kev:CVE-2026-116779": {
+    "id": "kev:CVE-2026-116779",
+    "source": "kev",
+    "title": "CVE-2026-116779 — SignalWire FreeSwitch Code Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+    "published": "2026-11-09T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "SignalWire FreeSwitch. Confirmed exploited in the wild. Federal remediation due 12 November.",
+    "cves": [
+      "CVE-2026-116779"
+    ],
+    "scored_at": "2026-11-09T23:54:40.746815111Z"
+  },
   "kev:CVE-2026-118527": {
     "id": "kev:CVE-2026-118527",
     "source": "kev",
@@ -11398,6 +11353,38 @@
       "CVE-2026-119977"
     ],
     "scored_at": "2026-11-03T21:21:38.387689414Z"
+  },
+  "kev:CVE-2026-123158": {
+    "id": "kev:CVE-2026-123158",
+    "source": "kev",
+    "title": "CVE-2026-123158 — OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+    "published": "2026-11-09T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "OpenBSD OpenSSH. Confirmed exploited in the wild. Federal remediation due 12 November.",
+    "cves": [
+      "CVE-2026-123158"
+    ],
+    "scored_at": "2026-11-09T23:54:40.746812953Z"
+  },
+  "kev:CVE-2026-123218": {
+    "id": "kev:CVE-2026-123218",
+    "source": "kev",
+    "title": "CVE-2026-123218 — IBM Aspera Faspex Incorrect Authorization Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+    "published": "2026-11-09T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "IBM Aspera Faspex. Confirmed exploited in the wild. Federal remediation due 12 November.",
+    "cves": [
+      "CVE-2026-123218"
+    ],
+    "scored_at": "2026-11-09T23:54:40.746816662Z"
   },
   "kev:CVE-2026-19868": {
     "id": "kev:CVE-2026-19868",
