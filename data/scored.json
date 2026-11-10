@@ -1,34 +1,4 @@
 {
-  "arxiv:2610.15265v1": {
-    "id": "arxiv:2610.15265v1",
-    "source": "arxiv",
-    "title": "Asymptotics of Random-Lattice Enumeration: Beyond HKZ via Dense Sublattices",
-    "url": "http://arxiv.org/abs/2610.15265v1",
-    "published": "2026-10-11T01:26:34Z",
-    "authors": "Thijs Laarhoven",
-    "novelty": 4,
-    "actionability": 1,
-    "score": 5,
-    "quadrant": "NEW GROUND",
-    "dek": "Asymptotic analysis of lattice enumeration on random bases establishes tree-size exponent bounds; proves quasi-HKZ bases achieve c ≈ 0.1839.",
-    "unproven": "theoretical result on random lattices; no implementation, no empirical validation against deployed cryptographic systems; relevance to post-quantum migration planning does not extend beyond abstract feasibility.",
-    "scored_at": "2026-10-14T22:51:12.501091286Z"
-  },
-  "arxiv:2610.15314v1": {
-    "id": "arxiv:2610.15314v1",
-    "source": "arxiv",
-    "title": "Accuracy and Uncertainty in Machine Deception Detection (Research White Paper)",
-    "url": "http://arxiv.org/abs/2610.15314v1",
-    "published": "2026-10-11T03:38:54Z",
-    "authors": "Heng-Sheng Chang",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Machine Deception Detector reads all LLM layers and calibrates alarm threshold; ensemble measures detection uncertainty on Liars' Bench across six Qwen3 models.",
-    "unproven": "evaluation limited to instructed honest/deceptive statements on one benchmark; generalization to real-world deception contexts undemonstrated; false-positive rates and confidence thresholds not reported for adversarial or out-of-distribution deception.",
-    "scored_at": "2026-10-14T22:51:12.501091166Z"
-  },
   "arxiv:2610.15390v1": {
     "id": "arxiv:2610.15390v1",
     "source": "arxiv",
@@ -9765,38 +9735,6 @@
     "quadrant": "NOISE FLOOR",
     "dek": "Phase transitions in dipolar quantum gases shift between discontinuous and continuous regimes with dipole tilt and finite-temperature effects.",
     "scored_at": "2026-10-21T16:18:47.147679802Z"
-  },
-  "hn:50038640": {
-    "id": "hn:50038640",
-    "source": "hn",
-    "title": "Generative AI scandal has come to one of Nikon's competitions",
-    "url": "https://dpreview.com/news/generative-ai-scandal-has-come-to-one-of-nikons-competitions",
-    "published": "2026-10-11T00:47:37Z",
-    "authors": "DASD",
-    "points": 33,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Photography competition reports generative AI entries; outside application security engineering scope.",
-    "unproven": "not relevant to reader's remit in SAST, DAST, SCA, or secure SDLC",
-    "scored_at": "2026-10-11T10:26:20.052608615Z"
-  },
-  "hn:50039627": {
-    "id": "hn:50039627",
-    "source": "hn",
-    "title": "Satya Nadella says we should assume all AI models are 'compromised'",
-    "url": "https://theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-    "published": "2026-10-11T03:41:53Z",
-    "authors": "jonbaer",
-    "points": 36,
-    "novelty": 1,
-    "actionability": 2,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Microsoft executive urges assuming AI models are compromised; offers no mechanism or detection method.",
-    "unproven": "no technical definition of 'compromised' or guidance applicable to SDLC model vetting",
-    "scored_at": "2026-10-11T10:26:20.052606912Z"
   },
   "hn:50042333": {
     "id": "hn:50042333",
