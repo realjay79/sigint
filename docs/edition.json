@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T05:13:58.581078288Z",
+  "generated": "2026-11-10T15:56:28.203096007Z",
   "edition": 109,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,22 +16,6 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-116779",
-      "source": "kev",
-      "title": "CVE-2026-116779 — SignalWire FreeSwitch Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
-      "published": "2026-11-09T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "SignalWire FreeSwitch. Confirmed exploited in the wild. Federal remediation due 12 November.",
-      "cves": [
-        "CVE-2026-116779"
-      ],
-      "scored_at": "2026-11-09T23:54:40.746815111Z"
-    },
-    {
       "id": "kev:CVE-2026-123158",
       "source": "kev",
       "title": "CVE-2026-123158 — OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
@@ -46,6 +30,22 @@
         "CVE-2026-123158"
       ],
       "scored_at": "2026-11-09T23:54:40.746812953Z"
+    },
+    {
+      "id": "kev:CVE-2026-116779",
+      "source": "kev",
+      "title": "CVE-2026-116779 — SignalWire FreeSwitch Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+      "published": "2026-11-09T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "SignalWire FreeSwitch. Confirmed exploited in the wild. Federal remediation due 12 November.",
+      "cves": [
+        "CVE-2026-116779"
+      ],
+      "scored_at": "2026-11-09T23:54:40.746815111Z"
     },
     {
       "id": "kev:CVE-2026-123218",
