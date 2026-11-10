@@ -1,154 +1,4 @@
 {
-  "arxiv:2610.15721v1": {
-    "id": "arxiv:2610.15721v1",
-    "source": "arxiv",
-    "title": "To Cache or Not to Cache: Understanding and Mitigating Safety Incompatibility in Cross-Model KV Cache Reuse",
-    "url": "http://arxiv.org/abs/2610.15721v1",
-    "published": "2026-10-11T16:00:13Z",
-    "authors": "Zhiwei Lin et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Cross-model KV cache reuse causes safety incompatibility; value reuse increases attack success to 57% on receiver models, mitigated by VReparo affine alignment.",
-    "unproven": "two model pairs only; HarmBench and StrongREJECT benchmarks measure adversarial robustness, not operational safety drift in production deployment; unclear if cache sharing enters financial services SDLC",
-    "scored_at": "2026-10-14T22:50:57.727055294Z"
-  },
-  "arxiv:2610.15725v1": {
-    "id": "arxiv:2610.15725v1",
-    "source": "arxiv",
-    "title": "SkillMarker: A KGW-Based Watermarking Method for Agent Skill Ownership Verification",
-    "url": "http://arxiv.org/abs/2610.15725v1",
-    "published": "2026-10-11T16:04:26Z",
-    "authors": "Alan Tang et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "SkillMarker embeds watermarks in agent skill instructions for ownership verification and leakage tracing while preserving functionality.",
-    "unproven": "watermarking as a supply-chain primitive is known; evaluation limited to skill corpus; no evidence this applies to agent skills entering SDLC or solves real skill-reuse governance problems",
-    "scored_at": "2026-10-14T22:50:57.727055134Z"
-  },
-  "arxiv:2610.15729v1": {
-    "id": "arxiv:2610.15729v1",
-    "source": "arxiv",
-    "title": "LLM-based Code Auditing by Inferring and Evaluating Developer Assumptions",
-    "url": "http://arxiv.org/abs/2610.15729v1",
-    "published": "2026-10-11T16:07:53Z",
-    "authors": "Junming Liu et al.",
-    "novelty": 3,
-    "actionability": 3,
-    "score": 6,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Creed infers developer security assumptions (e.g., from null checks) to detect semantic flaws like timing side channels that syntax-based SAST tools miss.",
-    "unproven": "no benchmark results, baselines, or false-positive rates reported; claim about semantic flaw detection not yet validated against standard vulnerability datasets",
-    "scored_at": "2026-10-14T22:50:57.727054973Z"
-  },
-  "arxiv:2610.15804v1": {
-    "id": "arxiv:2610.15804v1",
-    "source": "arxiv",
-    "title": "Privacy Conductor: An Architectural Enforcement of Contextual Integrity in LLM-Based Document Retrieval",
-    "url": "http://arxiv.org/abs/2610.15804v1",
-    "published": "2026-10-11T17:48:21Z",
-    "authors": "Ryan Thornton et al.",
-    "novelty": 3,
-    "actionability": 4,
-    "score": 7,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Privacy Conductor gates LLM document retrieval with deterministic policy enforcement; LLM-labeled documents degrade access-control recall to 23%, creating audit liability.",
-    "unproven": "synthetic clinical corpus and seven model configurations; HIPAA case study is small (214 flows); no measurement in production retrieval systems or with real organizational policy complexity",
-    "scored_at": "2026-10-14T22:50:57.727054823Z"
-  },
-  "arxiv:2610.15865v1": {
-    "id": "arxiv:2610.15865v1",
-    "source": "arxiv",
-    "title": "Penetrating the Reality Wall: Long-Range and Through-Wall AR/VR Privacy Eavesdropping via Wireless Power Side Channel",
-    "url": "http://arxiv.org/abs/2610.15865v1",
-    "published": "2026-10-11T19:37:17Z",
-    "authors": "Tao Ni et al.",
-    "novelty": 4,
-    "actionability": 2,
-    "score": 6,
-    "quadrant": "NEW GROUND",
-    "dek": "MetaSpy infers AR/VR user behavior by analyzing wireless power side channels in Wi-Fi signals from 5–8 meters away through walls.",
-    "unproven": "proof-of-concept on controlled test bed; no evidence of exploitation in production VR platforms or organizational networks; outside reader's SDLC remit",
-    "scored_at": "2026-10-14T22:50:57.727053751Z"
-  },
-  "arxiv:2610.15872v1": {
-    "id": "arxiv:2610.15872v1",
-    "source": "arxiv",
-    "title": "The Role of Generative Artificial Intelligence in Testing and Automation of Open RAN Systems: GNG-OTA Framework",
-    "url": "http://arxiv.org/abs/2610.15872v1",
-    "published": "2026-10-11T19:44:05Z",
-    "authors": "Aly Sabri Abdalla et al.",
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "GNG-OTA framework applies generative AI and graph neural networks to O-RAN testing and interoperability automation.",
-    "unproven": "abstract-level proposal with no experimental results, baselines, or comparison to existing O-RAN test methods; outside reader's remit entirely",
-    "scored_at": "2026-10-14T22:50:57.727053581Z"
-  },
-  "arxiv:2610.15883v1": {
-    "id": "arxiv:2610.15883v1",
-    "source": "arxiv",
-    "title": "What the Model Cannot See: Covert and Provable Text Invisibility in LLMs",
-    "url": "http://arxiv.org/abs/2610.15883v1",
-    "published": "2026-10-11T20:00:37Z",
-    "authors": "Mark Russinovich",
-    "novelty": 4,
-    "actionability": 3,
-    "score": 7,
-    "quadrant": "NEW GROUND",
-    "dek": "Text wrapped in a trigger can be made behaviorally invisible to LLMs via span veto; verified as noninterference property across ten models and 0.5B–120B parameters, with backdoor variants that suppress planted vulnerabilities.",
-    "unproven": "code review application is proof-of-concept only; no measurement of false-positive rate or integration with real SAST/DAST tooling",
-    "scored_at": "2026-10-14T22:50:57.72705288Z"
-  },
-  "arxiv:2610.15884v1": {
-    "id": "arxiv:2610.15884v1",
-    "source": "arxiv",
-    "title": "RetryBench: Separating Retry Permission from Recovery Outcomes in GPT Tool Use",
-    "url": "http://arxiv.org/abs/2610.15884v1",
-    "published": "2026-10-11T20:00:44Z",
-    "authors": "You Liu et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "RetryBench isolates false retry permission from recovery outcomes in GPT tool use; models retry unsupported operations 60–75% of the time under changed contracts.",
-    "unproven": "single-model family tested; no evidence this shifts how AI security enters the SDLC or changes agent integration policy",
-    "scored_at": "2026-10-14T22:50:57.727051807Z"
-  },
-  "arxiv:2610.15902v1": {
-    "id": "arxiv:2610.15902v1",
-    "source": "arxiv",
-    "title": "Forensic Text Recovery from Document Thumbnails Using Text-Aware U-Net",
-    "url": "http://arxiv.org/abs/2610.15902v1",
-    "published": "2026-10-11T20:30:07Z",
-    "authors": "Mohit Ajaykumar Dhabuwala et al.",
-    "novelty": 3,
-    "actionability": 1,
-    "score": 4,
-    "quadrant": "NOISE FLOOR",
-    "dek": "U-Net with OCR-guided loss recovers text from degraded Word document thumbnails in forensic analysis.",
-    "unproven": "tested only on synthetic thumbnails; no validation on real deleted-document artifacts or actual forensic workflows",
-    "scored_at": "2026-10-14T22:50:57.727051277Z"
-  },
-  "arxiv:2610.15924v1": {
-    "id": "arxiv:2610.15924v1",
-    "source": "arxiv",
-    "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
-    "url": "http://arxiv.org/abs/2610.15924v1",
-    "published": "2026-10-11T21:10:19Z",
-    "authors": "Chong Zeng et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Hacker-fixer loop automatically hardens agent environment verifiers against reward hacking; reduces attack success on Terminal Bench, KernelBench, SETA.",
-    "unproven": "Whether defense scales to adversarial model capabilities unknown at hardening time; cost of compute budget versus generalization gain; applicability beyond benchmark environments to open-ended agent tasks.",
-    "scored_at": "2026-10-14T16:11:11.9807947Z"
-  },
   "arxiv:2610.15951v1": {
     "id": "arxiv:2610.15951v1",
     "source": "arxiv",
@@ -11044,6 +10894,38 @@
     ],
     "scored_at": "2026-10-27T23:20:51.035518616Z"
   },
+  "kev:CVE-2026-111560": {
+    "id": "kev:CVE-2026-111560",
+    "source": "kev",
+    "title": "CVE-2026-111560 — Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
+    "published": "2026-11-10T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Barracuda Networks Multiple Products. Confirmed exploited in the wild. Federal remediation due 13 November.",
+    "cves": [
+      "CVE-2026-111560"
+    ],
+    "scored_at": "2026-11-10T21:36:14.378980406Z"
+  },
+  "kev:CVE-2026-111793": {
+    "id": "kev:CVE-2026-111793",
+    "source": "kev",
+    "title": "CVE-2026-111793 — Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
+    "published": "2026-11-10T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Openwave Messaging Limited Webtop Media Transcoder. Confirmed exploited in the wild. Federal remediation due 24 November.",
+    "cves": [
+      "CVE-2026-111793"
+    ],
+    "scored_at": "2026-11-10T21:36:14.378977331Z"
+  },
   "kev:CVE-2026-114625": {
     "id": "kev:CVE-2026-114625",
     "source": "kev",
@@ -11059,6 +10941,22 @@
       "CVE-2026-114625"
     ],
     "scored_at": "2026-10-23T22:44:56.153815973Z"
+  },
+  "kev:CVE-2026-116606": {
+    "id": "kev:CVE-2026-116606",
+    "source": "kev",
+    "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
+    "published": "2026-11-10T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Barracuda Networks Barracuda Email Security Gateway (ESG). Confirmed exploited in the wild. Federal remediation due 13 November.",
+    "cves": [
+      "CVE-2026-116606"
+    ],
+    "scored_at": "2026-11-10T21:36:14.378982328Z"
   },
   "kev:CVE-2026-116779": {
     "id": "kev:CVE-2026-116779",
@@ -11140,6 +11038,38 @@
     ],
     "scored_at": "2026-11-09T23:54:40.746816662Z"
   },
+  "kev:CVE-2026-124194": {
+    "id": "kev:CVE-2026-124194",
+    "source": "kev",
+    "title": "CVE-2026-124194 — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
+    "published": "2026-11-10T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Microsoft Office. Confirmed exploited in the wild. Federal remediation due 24 November.",
+    "cves": [
+      "CVE-2026-124194"
+    ],
+    "scored_at": "2026-11-10T21:36:14.378974687Z"
+  },
+  "kev:CVE-2026-125350": {
+    "id": "kev:CVE-2026-125350",
+    "source": "kev",
+    "title": "CVE-2026-125350 — Google Chromium Use-After-Free Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
+    "published": "2026-11-10T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Google Chromium. Confirmed exploited in the wild. Federal remediation due 24 November.",
+    "cves": [
+      "CVE-2026-125350"
+    ],
+    "scored_at": "2026-11-10T21:36:14.378983771Z"
+  },
   "kev:CVE-2026-19868": {
     "id": "kev:CVE-2026-19868",
     "source": "kev",
@@ -11155,6 +11085,22 @@
       "CVE-2026-19868"
     ],
     "scored_at": "2026-11-06T23:52:38.357343258Z"
+  },
+  "kev:CVE-2026-20320": {
+    "id": "kev:CVE-2026-20320",
+    "source": "kev",
+    "title": "CVE-2026-20320 — Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
+    "published": "2026-11-10T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Cisco BroadWorks. Confirmed exploited in the wild. Federal remediation due 24 November.",
+    "cves": [
+      "CVE-2026-20320"
+    ],
+    "scored_at": "2026-11-10T21:36:14.378979054Z"
   },
   "kev:CVE-2026-21589": {
     "id": "kev:CVE-2026-21589",

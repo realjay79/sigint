@@ -1,20 +1,116 @@
 {
-  "generated": "2026-11-10T15:56:28.203096007Z",
+  "generated": "2026-11-10T21:36:15.117936813Z",
   "edition": 109,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 4,
+    "total": 10,
     "by_source": {
-      "kev": 4
+      "kev": 10
     },
     "by_quadrant": {
-      "STANDING ORDERS": 4
+      "STANDING ORDERS": 10
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-124194",
+      "source": "kev",
+      "title": "CVE-2026-124194 — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
+      "published": "2026-11-10T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Microsoft Office. Confirmed exploited in the wild. Federal remediation due 24 November.",
+      "cves": [
+        "CVE-2026-124194"
+      ],
+      "scored_at": "2026-11-10T21:36:14.378974687Z"
+    },
+    {
+      "id": "kev:CVE-2026-20320",
+      "source": "kev",
+      "title": "CVE-2026-20320 — Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
+      "published": "2026-11-10T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco BroadWorks. Confirmed exploited in the wild. Federal remediation due 24 November.",
+      "cves": [
+        "CVE-2026-20320"
+      ],
+      "scored_at": "2026-11-10T21:36:14.378979054Z"
+    },
+    {
+      "id": "kev:CVE-2026-125350",
+      "source": "kev",
+      "title": "CVE-2026-125350 — Google Chromium Use-After-Free Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
+      "published": "2026-11-10T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Google Chromium. Confirmed exploited in the wild. Federal remediation due 24 November.",
+      "cves": [
+        "CVE-2026-125350"
+      ],
+      "scored_at": "2026-11-10T21:36:14.378983771Z"
+    },
+    {
+      "id": "kev:CVE-2026-111793",
+      "source": "kev",
+      "title": "CVE-2026-111793 — Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
+      "published": "2026-11-10T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Openwave Messaging Limited Webtop Media Transcoder. Confirmed exploited in the wild. Federal remediation due 24 November.",
+      "cves": [
+        "CVE-2026-111793"
+      ],
+      "scored_at": "2026-11-10T21:36:14.378977331Z"
+    },
+    {
+      "id": "kev:CVE-2026-116606",
+      "source": "kev",
+      "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
+      "published": "2026-11-10T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Barracuda Networks Barracuda Email Security Gateway (ESG). Confirmed exploited in the wild. Federal remediation due 13 November.",
+      "cves": [
+        "CVE-2026-116606"
+      ],
+      "scored_at": "2026-11-10T21:36:14.378982328Z"
+    },
+    {
+      "id": "kev:CVE-2026-111560",
+      "source": "kev",
+      "title": "CVE-2026-111560 — Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
+      "published": "2026-11-10T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Barracuda Networks Multiple Products. Confirmed exploited in the wild. Federal remediation due 13 November.",
+      "cves": [
+        "CVE-2026-111560"
+      ],
+      "scored_at": "2026-11-10T21:36:14.378980406Z"
+    },
     {
       "id": "kev:CVE-2026-123158",
       "source": "kev",
@@ -32,22 +128,6 @@
       "scored_at": "2026-11-09T23:54:40.746812953Z"
     },
     {
-      "id": "kev:CVE-2026-116779",
-      "source": "kev",
-      "title": "CVE-2026-116779 — SignalWire FreeSwitch Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
-      "published": "2026-11-09T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "SignalWire FreeSwitch. Confirmed exploited in the wild. Federal remediation due 12 November.",
-      "cves": [
-        "CVE-2026-116779"
-      ],
-      "scored_at": "2026-11-09T23:54:40.746815111Z"
-    },
-    {
       "id": "kev:CVE-2026-123218",
       "source": "kev",
       "title": "CVE-2026-123218 — IBM Aspera Faspex Incorrect Authorization Vulnerability",
@@ -62,6 +142,22 @@
         "CVE-2026-123218"
       ],
       "scored_at": "2026-11-09T23:54:40.746816662Z"
+    },
+    {
+      "id": "kev:CVE-2026-116779",
+      "source": "kev",
+      "title": "CVE-2026-116779 — SignalWire FreeSwitch Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+      "published": "2026-11-09T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "SignalWire FreeSwitch. Confirmed exploited in the wild. Federal remediation due 12 November.",
+      "cves": [
+        "CVE-2026-116779"
+      ],
+      "scored_at": "2026-11-09T23:54:40.746815111Z"
     },
     {
       "id": "kev:CVE-2026-102895",
