@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T01:44:13.203436154Z",
+  "generated": "2026-11-12T12:00:37.270593552Z",
   "edition": 111,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,36 +16,20 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-124194",
+      "id": "kev:CVE-2026-116606",
       "source": "kev",
-      "title": "CVE-2026-124194 — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
+      "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
       "published": "2026-11-10T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Microsoft Office. Confirmed exploited in the wild. Federal remediation due 24 November.",
+      "dek": "Barracuda Networks Barracuda Email Security Gateway (ESG). Confirmed exploited in the wild. Federal remediation due 13 November.",
       "cves": [
-        "CVE-2026-124194"
+        "CVE-2026-116606"
       ],
-      "scored_at": "2026-11-10T21:36:14.378974687Z"
-    },
-    {
-      "id": "kev:CVE-2026-125350",
-      "source": "kev",
-      "title": "CVE-2026-125350 — Google Chromium Use-After-Free Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
-      "published": "2026-11-10T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Google Chromium. Confirmed exploited in the wild. Federal remediation due 24 November.",
-      "cves": [
-        "CVE-2026-125350"
-      ],
-      "scored_at": "2026-11-10T21:36:14.378983771Z"
+      "scored_at": "2026-11-10T21:36:14.378982328Z"
     },
     {
       "id": "kev:CVE-2026-111793",
@@ -64,36 +48,36 @@
       "scored_at": "2026-11-10T21:36:14.378977331Z"
     },
     {
-      "id": "kev:CVE-2026-111560",
+      "id": "kev:CVE-2026-125350",
       "source": "kev",
-      "title": "CVE-2026-111560 — Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
+      "title": "CVE-2026-125350 — Google Chromium Use-After-Free Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
       "published": "2026-11-10T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Barracuda Networks Multiple Products. Confirmed exploited in the wild. Federal remediation due 13 November.",
+      "dek": "Google Chromium. Confirmed exploited in the wild. Federal remediation due 24 November.",
       "cves": [
-        "CVE-2026-111560"
+        "CVE-2026-125350"
       ],
-      "scored_at": "2026-11-10T21:36:14.378980406Z"
+      "scored_at": "2026-11-10T21:36:14.378983771Z"
     },
     {
-      "id": "kev:CVE-2026-116606",
+      "id": "kev:CVE-2026-124194",
       "source": "kev",
-      "title": "CVE-2026-116606 — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
+      "title": "CVE-2026-124194 — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
       "published": "2026-11-10T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Barracuda Networks Barracuda Email Security Gateway (ESG). Confirmed exploited in the wild. Federal remediation due 13 November.",
+      "dek": "Microsoft Office. Confirmed exploited in the wild. Federal remediation due 24 November.",
       "cves": [
-        "CVE-2026-116606"
+        "CVE-2026-124194"
       ],
-      "scored_at": "2026-11-10T21:36:14.378982328Z"
+      "scored_at": "2026-11-10T21:36:14.378974687Z"
     },
     {
       "id": "kev:CVE-2026-20320",
@@ -110,6 +94,22 @@
         "CVE-2026-20320"
       ],
       "scored_at": "2026-11-10T21:36:14.378979054Z"
+    },
+    {
+      "id": "kev:CVE-2026-111560",
+      "source": "kev",
+      "title": "CVE-2026-111560 — Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
+      "published": "2026-11-10T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Barracuda Networks Multiple Products. Confirmed exploited in the wild. Federal remediation due 13 November.",
+      "cves": [
+        "CVE-2026-111560"
+      ],
+      "scored_at": "2026-11-10T21:36:14.378980406Z"
     }
   ],
   "noise": null
