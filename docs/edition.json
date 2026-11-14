@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T00:33:24.721753091Z",
+  "generated": "2026-11-14T11:05:12.673087754Z",
   "edition": 113,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,22 +16,6 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-123039",
-      "source": "kev",
-      "title": "CVE-2026-123039 — Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
-      "published": "2026-11-13T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Check Point Multiple Products. Confirmed exploited in the wild. Federal remediation due 16 November.",
-      "cves": [
-        "CVE-2026-123039"
-      ],
-      "scored_at": "2026-11-13T18:56:24.970075266Z"
-    },
-    {
       "id": "kev:CVE-2026-114713",
       "source": "kev",
       "title": "CVE-2026-114713 — UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
@@ -46,6 +30,22 @@
         "CVE-2026-114713"
       ],
       "scored_at": "2026-11-13T18:56:24.97007222Z"
+    },
+    {
+      "id": "kev:CVE-2026-123039",
+      "source": "kev",
+      "title": "CVE-2026-123039 — Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039",
+      "published": "2026-11-13T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Check Point Multiple Products. Confirmed exploited in the wild. Federal remediation due 16 November.",
+      "cves": [
+        "CVE-2026-123039"
+      ],
+      "scored_at": "2026-11-13T18:56:24.970075266Z"
     }
   ],
   "noise": null
