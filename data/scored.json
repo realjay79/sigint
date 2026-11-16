@@ -1,34 +1,4 @@
 {
-  "arxiv:2610.24359v1": {
-    "id": "arxiv:2610.24359v1",
-    "source": "arxiv",
-    "title": "Can Agents Keep Secrets They Were Never Told? Benchmarking Latent Privacy Risks Across Sessions with MemJoin",
-    "url": "http://arxiv.org/abs/2610.24359v1",
-    "published": "2026-10-17T01:20:36Z",
-    "authors": "Qishun Yang et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "MemJoin benchmark of 288 cases shows agent memory systems can leak sensitive relations across sessions even when no single session contains enough information to infer them.",
-    "unproven": "benchmark uses synthetic analysis cases; does not test against production agent memory implementations or measure leakage rates under real multi-turn interaction patterns",
-    "scored_at": "2026-10-20T22:50:00.500981938Z"
-  },
-  "arxiv:2610.24379v1": {
-    "id": "arxiv:2610.24379v1",
-    "source": "arxiv",
-    "title": "Defending Against Dormant Poisoning Attacks Across Language and Multimodal Agents",
-    "url": "http://arxiv.org/abs/2610.24379v1",
-    "published": "2026-10-17T02:26:09Z",
-    "authors": "Wonjun Lee et al.",
-    "novelty": 3,
-    "actionability": 2,
-    "score": 5,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Safety Buffer defense constructs benign reference responses from a poisoned model to mitigate dormant malicious behaviors activated by fine-tuning in language and multimodal agents.",
-    "unproven": "evaluated on synthetic poisoning scenarios; does not test against adaptive attacks where attacker knows the defense, or measure robustness across diverse fine-tuning distributions",
-    "scored_at": "2026-10-20T22:50:00.500981687Z"
-  },
   "arxiv:2610.24477v1": {
     "id": "arxiv:2610.24477v1",
     "source": "arxiv",
@@ -2230,37 +2200,6 @@
     "quadrant": "NOISE FLOOR",
     "dek": "Phase transitions in dipolar quantum gases shift between discontinuous and continuous regimes with dipole tilt and finite-temperature effects.",
     "scored_at": "2026-10-21T16:18:47.147679802Z"
-  },
-  "hn:50127572": {
-    "id": "hn:50127572",
-    "source": "hn",
-    "title": "A skeptic's first contact with Kubernetes (2024)",
-    "url": "https://blog.davidv.dev/posts/first-contact-with-k8s",
-    "published": "2026-10-17T03:16:25Z",
-    "authors": "pmoriarty",
-    "points": 58,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Opinion piece on Kubernetes adoption friction; no measurement, no security finding, no bearing on secure SDLC tooling decisions.",
-    "scored_at": "2026-10-17T21:52:18.62704033Z"
-  },
-  "hn:50127586": {
-    "id": "hn:50127586",
-    "source": "hn",
-    "title": "Source code of the Estonian online voting system",
-    "url": "https://github.com/valimised/ivxv",
-    "published": "2026-10-17T03:18:39Z",
-    "authors": "theanonymousone",
-    "points": 112,
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Estonian e-voting system source code made public; outside reader's SDLC scope and governance domain.",
-    "unproven": "applicability to financial services application security; reader does not audit voting infrastructure",
-    "scored_at": "2026-10-17T21:52:18.627039439Z"
   },
   "hn:50131881": {
     "id": "hn:50131881",
