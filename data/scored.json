@@ -1,34 +1,4 @@
 {
-  "arxiv:2610.25420v1": {
-    "id": "arxiv:2610.25420v1",
-    "source": "arxiv",
-    "title": "Adaptive Cyber-Defense for Evolving Attacker Capabilities using Reinforcement Learning and Behavior Trees",
-    "url": "http://arxiv.org/abs/2610.25420v1",
-    "published": "2026-10-18T17:22:51Z",
-    "authors": "Nicholas Potteiger et al.",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Reinforcement learning with behavior trees adapts defender policies to new attacker capabilities in a benchmark network scenario.",
-    "unproven": "whether results transfer to real enterprise networks; limited to CAGE Challenge Scenario 2 benchmark",
-    "scored_at": "2026-10-20T16:02:20.55940188Z"
-  },
-  "arxiv:2610.25636v1": {
-    "id": "arxiv:2610.25636v1",
-    "source": "arxiv",
-    "title": "Formalization of Rényi Differential Privacy in Isabelle/HOL (Draft version)",
-    "url": "http://arxiv.org/abs/2610.25636v1",
-    "published": "2026-10-19T01:27:16Z",
-    "authors": "Tetsuya Sato",
-    "novelty": 2,
-    "actionability": 1,
-    "score": 3,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Isabelle/HOL formalization of Rényi differential privacy enables machine-checked proofs of privacy properties.",
-    "unproven": "whether formal verification catches practical implementation errors or is used in production privacy audits",
-    "scored_at": "2026-10-20T16:02:20.55940164Z"
-  },
   "arxiv:2610.25705v1": {
     "id": "arxiv:2610.25705v1",
     "source": "arxiv",
@@ -1691,37 +1661,6 @@
     "dek": "Phase transitions in dipolar quantum gases shift between discontinuous and continuous regimes with dipole tilt and finite-temperature effects.",
     "scored_at": "2026-10-21T16:18:47.147679802Z"
   },
-  "hn:50144066": {
-    "id": "hn:50144066",
-    "source": "hn",
-    "title": "Free Pascal compiler now supports dynamic packages",
-    "url": "https://getlazarus.org/dynamic",
-    "published": "2026-10-18T18:48:04Z",
-    "authors": "sysrpl",
-    "points": 75,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Free Pascal compiler feature release; no security implications for application security tooling.",
-    "scored_at": "2026-10-18T22:03:09.730184812Z"
-  },
-  "hn:50146625": {
-    "id": "hn:50146625",
-    "source": "hn",
-    "title": "William Gibson and the trademarking of cyberspace",
-    "url": "https://colo.to/cyberspace.html",
-    "published": "2026-10-18T23:37:57Z",
-    "authors": "Eric_Gullichsen",
-    "points": 254,
-    "novelty": 1,
-    "actionability": 1,
-    "score": 2,
-    "quadrant": "NOISE FLOOR",
-    "dek": "Historical piece on William Gibson's cyberspace trademark and cultural impact.",
-    "unproven": "entirely outside application security remit",
-    "scored_at": "2026-10-19T17:58:01.612605073Z"
-  },
   "hn:50148601": {
     "id": "hn:50148601",
     "source": "hn",
@@ -2219,6 +2158,22 @@
       "CVE-2026-114713"
     ],
     "scored_at": "2026-11-13T18:56:24.97007222Z"
+  },
+  "kev:CVE-2026-115731": {
+    "id": "kev:CVE-2026-115731",
+    "source": "kev",
+    "title": "CVE-2026-115731 — Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
+    "published": "2026-11-17T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Perforce Puppet Enterprise. Confirmed exploited in the wild. Federal remediation due 1 December.",
+    "cves": [
+      "CVE-2026-115731"
+    ],
+    "scored_at": "2026-11-18T01:57:27.697646506Z"
   },
   "kev:CVE-2026-116606": {
     "id": "kev:CVE-2026-116606",
