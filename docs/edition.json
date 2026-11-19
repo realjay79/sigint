@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T22:46:16.980892446Z",
-  "edition": 117,
+  "generated": "2026-11-19T05:02:13.629371764Z",
+  "edition": 118,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -15,22 +15,6 @@
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-90817",
-      "source": "kev",
-      "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
-      "published": "2026-11-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Vanderbilt University Research Electronic Data Capture (REDCap). Confirmed exploited in the wild. Federal remediation due 21 November.",
-      "cves": [
-        "CVE-2026-90817"
-      ],
-      "scored_at": "2026-11-18T22:46:16.244267478Z"
-    },
     {
       "id": "kev:CVE-2026-40217",
       "source": "kev",
@@ -78,6 +62,22 @@
         "CVE-2026-90436"
       ],
       "scored_at": "2026-11-18T22:46:16.244269151Z"
+    },
+    {
+      "id": "kev:CVE-2026-90817",
+      "source": "kev",
+      "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
+      "published": "2026-11-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Vanderbilt University Research Electronic Data Capture (REDCap). Confirmed exploited in the wild. Federal remediation due 21 November.",
+      "cves": [
+        "CVE-2026-90817"
+      ],
+      "scored_at": "2026-11-18T22:46:16.244267478Z"
     },
     {
       "id": "kev:CVE-2026-115731",
