@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T05:02:13.629371764Z",
+  "generated": "2026-11-19T16:56:11.735498292Z",
   "edition": 118,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,20 +16,20 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-40217",
+      "id": "kev:CVE-2026-90817",
       "source": "kev",
-      "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
+      "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
       "published": "2026-11-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "BerriAI LiteLLM. Confirmed exploited in the wild. Federal remediation due 2 December.",
+      "dek": "Vanderbilt University Research Electronic Data Capture (REDCap). Confirmed exploited in the wild. Federal remediation due 21 November.",
       "cves": [
-        "CVE-2026-40217"
+        "CVE-2026-90817"
       ],
-      "scored_at": "2026-11-18T22:46:16.244265304Z"
+      "scored_at": "2026-11-18T22:46:16.244267478Z"
     },
     {
       "id": "kev:CVE-2024-10441",
@@ -64,20 +64,20 @@
       "scored_at": "2026-11-18T22:46:16.244269151Z"
     },
     {
-      "id": "kev:CVE-2026-90817",
+      "id": "kev:CVE-2026-40217",
       "source": "kev",
-      "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
+      "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
       "published": "2026-11-18T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Vanderbilt University Research Electronic Data Capture (REDCap). Confirmed exploited in the wild. Federal remediation due 21 November.",
+      "dek": "BerriAI LiteLLM. Confirmed exploited in the wild. Federal remediation due 2 December.",
       "cves": [
-        "CVE-2026-90817"
+        "CVE-2026-40217"
       ],
-      "scored_at": "2026-11-18T22:46:16.244267478Z"
+      "scored_at": "2026-11-18T22:46:16.244265304Z"
     },
     {
       "id": "kev:CVE-2026-115731",
