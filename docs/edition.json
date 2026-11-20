@@ -1,20 +1,100 @@
 {
-  "generated": "2026-11-20T12:19:49.958894697Z",
+  "generated": "2026-11-20T22:26:13.671331104Z",
   "edition": 119,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 4,
+    "total": 8,
     "by_source": {
-      "kev": 4
+      "kev": 8
     },
     "by_quadrant": {
-      "STANDING ORDERS": 4
+      "STANDING ORDERS": 8
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-76466",
+      "source": "kev",
+      "title": "CVE-2026-76466 — Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+      "published": "2026-11-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Expressway Series. Confirmed exploited in the wild. Federal remediation due 23 November.",
+      "cves": [
+        "CVE-2026-76466"
+      ],
+      "scored_at": "2026-11-20T22:26:13.203398286Z"
+    },
+    {
+      "id": "kev:CVE-2025-42884",
+      "source": "kev",
+      "title": "CVE-2025-42884 — SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
+      "published": "2026-11-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "SAP NetWeaver. Confirmed exploited in the wild. Federal remediation due 23 November.",
+      "cves": [
+        "CVE-2025-42884"
+      ],
+      "scored_at": "2026-11-20T22:26:13.203396162Z"
+    },
+    {
+      "id": "kev:CVE-2026-129448",
+      "source": "kev",
+      "title": "CVE-2026-129448 — Apache Roller Deserialization of Untrusted Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
+      "published": "2026-11-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Apache Roller. Confirmed exploited in the wild. Federal remediation due 23 November.",
+      "cves": [
+        "CVE-2026-129448"
+      ],
+      "scored_at": "2026-11-20T22:26:13.203390251Z"
+    },
+    {
+      "id": "kev:CVE-2026-123890",
+      "source": "kev",
+      "title": "CVE-2026-123890 — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+      "published": "2026-11-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 23 November.",
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "scored_at": "2026-11-20T22:26:13.203393387Z"
+    },
+    {
+      "id": "kev:CVE-2026-90436",
+      "source": "kev",
+      "title": "CVE-2026-90436 — Apache Axis Unsafe Reflection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
+      "published": "2026-11-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Apache Axis. Confirmed exploited in the wild. Federal remediation due 21 November.",
+      "cves": [
+        "CVE-2026-90436"
+      ],
+      "scored_at": "2026-11-18T22:46:16.244269151Z"
+    },
     {
       "id": "kev:CVE-2026-90817",
       "source": "kev",
@@ -46,22 +126,6 @@
         "CVE-2026-40217"
       ],
       "scored_at": "2026-11-18T22:46:16.244265304Z"
-    },
-    {
-      "id": "kev:CVE-2026-90436",
-      "source": "kev",
-      "title": "CVE-2026-90436 — Apache Axis Unsafe Reflection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
-      "published": "2026-11-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Apache Axis. Confirmed exploited in the wild. Federal remediation due 21 November.",
-      "cves": [
-        "CVE-2026-90436"
-      ],
-      "scored_at": "2026-11-18T22:46:16.244269151Z"
     },
     {
       "id": "kev:CVE-2024-10441",
