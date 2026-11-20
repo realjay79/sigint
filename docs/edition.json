@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T01:32:03.733738081Z",
+  "generated": "2026-11-20T12:19:49.958894697Z",
   "edition": 119,
   "name": "SIGINT",
   "mark": "^C",
@@ -15,22 +15,6 @@
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-90436",
-      "source": "kev",
-      "title": "CVE-2026-90436 — Apache Axis Unsafe Reflection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
-      "published": "2026-11-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Apache Axis. Confirmed exploited in the wild. Federal remediation due 21 November.",
-      "cves": [
-        "CVE-2026-90436"
-      ],
-      "scored_at": "2026-11-18T22:46:16.244269151Z"
-    },
     {
       "id": "kev:CVE-2026-90817",
       "source": "kev",
@@ -48,22 +32,6 @@
       "scored_at": "2026-11-18T22:46:16.244267478Z"
     },
     {
-      "id": "kev:CVE-2024-10441",
-      "source": "kev",
-      "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
-      "published": "2026-11-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Synology DiskStation Manager (DSM). Confirmed exploited in the wild. Federal remediation due 21 November.",
-      "cves": [
-        "CVE-2024-10441"
-      ],
-      "scored_at": "2026-11-18T22:46:16.244262509Z"
-    },
-    {
       "id": "kev:CVE-2026-40217",
       "source": "kev",
       "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
@@ -78,6 +46,38 @@
         "CVE-2026-40217"
       ],
       "scored_at": "2026-11-18T22:46:16.244265304Z"
+    },
+    {
+      "id": "kev:CVE-2026-90436",
+      "source": "kev",
+      "title": "CVE-2026-90436 — Apache Axis Unsafe Reflection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
+      "published": "2026-11-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Apache Axis. Confirmed exploited in the wild. Federal remediation due 21 November.",
+      "cves": [
+        "CVE-2026-90436"
+      ],
+      "scored_at": "2026-11-18T22:46:16.244269151Z"
+    },
+    {
+      "id": "kev:CVE-2024-10441",
+      "source": "kev",
+      "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
+      "published": "2026-11-18T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Synology DiskStation Manager (DSM). Confirmed exploited in the wild. Federal remediation due 21 November.",
+      "cves": [
+        "CVE-2024-10441"
+      ],
+      "scored_at": "2026-11-18T22:46:16.244262509Z"
     }
   ],
   "noise": null
