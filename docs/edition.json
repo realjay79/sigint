@@ -1,20 +1,36 @@
 {
-  "generated": "2026-11-20T22:26:13.671331104Z",
-  "edition": 119,
+  "generated": "2026-11-21T04:48:41.48115496Z",
+  "edition": 120,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 8,
+    "total": 4,
     "by_source": {
-      "kev": 8
+      "kev": 4
     },
     "by_quadrant": {
-      "STANDING ORDERS": 8
+      "STANDING ORDERS": 4
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-123890",
+      "source": "kev",
+      "title": "CVE-2026-123890 — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+      "published": "2026-11-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 23 November.",
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "scored_at": "2026-11-20T22:26:13.203393387Z"
+    },
     {
       "id": "kev:CVE-2026-76466",
       "source": "kev",
@@ -62,86 +78,6 @@
         "CVE-2026-129448"
       ],
       "scored_at": "2026-11-20T22:26:13.203390251Z"
-    },
-    {
-      "id": "kev:CVE-2026-123890",
-      "source": "kev",
-      "title": "CVE-2026-123890 — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
-      "published": "2026-11-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 23 November.",
-      "cves": [
-        "CVE-2026-123890"
-      ],
-      "scored_at": "2026-11-20T22:26:13.203393387Z"
-    },
-    {
-      "id": "kev:CVE-2026-90436",
-      "source": "kev",
-      "title": "CVE-2026-90436 — Apache Axis Unsafe Reflection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
-      "published": "2026-11-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Apache Axis. Confirmed exploited in the wild. Federal remediation due 21 November.",
-      "cves": [
-        "CVE-2026-90436"
-      ],
-      "scored_at": "2026-11-18T22:46:16.244269151Z"
-    },
-    {
-      "id": "kev:CVE-2026-90817",
-      "source": "kev",
-      "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
-      "published": "2026-11-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Vanderbilt University Research Electronic Data Capture (REDCap). Confirmed exploited in the wild. Federal remediation due 21 November.",
-      "cves": [
-        "CVE-2026-90817"
-      ],
-      "scored_at": "2026-11-18T22:46:16.244267478Z"
-    },
-    {
-      "id": "kev:CVE-2026-40217",
-      "source": "kev",
-      "title": "CVE-2026-40217 — BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
-      "published": "2026-11-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "BerriAI LiteLLM. Confirmed exploited in the wild. Federal remediation due 2 December.",
-      "cves": [
-        "CVE-2026-40217"
-      ],
-      "scored_at": "2026-11-18T22:46:16.244265304Z"
-    },
-    {
-      "id": "kev:CVE-2024-10441",
-      "source": "kev",
-      "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
-      "published": "2026-11-18T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Synology DiskStation Manager (DSM). Confirmed exploited in the wild. Federal remediation due 21 November.",
-      "cves": [
-        "CVE-2024-10441"
-      ],
-      "scored_at": "2026-11-18T22:46:16.244262509Z"
     }
   ],
   "noise": null
