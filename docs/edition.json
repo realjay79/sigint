@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T04:02:31.661457144Z",
+  "generated": "2026-11-22T15:46:56.207362549Z",
   "edition": 121,
   "name": "SIGINT",
   "mark": "^C",
@@ -16,20 +16,20 @@
   },
   "items": [
     {
-      "id": "kev:CVE-2026-123890",
+      "id": "kev:CVE-2026-76466",
       "source": "kev",
-      "title": "CVE-2026-123890 — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+      "title": "CVE-2026-76466 — Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
       "published": "2026-11-20T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 23 November.",
+      "dek": "Cisco Expressway Series. Confirmed exploited in the wild. Federal remediation due 23 November.",
       "cves": [
-        "CVE-2026-123890"
+        "CVE-2026-76466"
       ],
-      "scored_at": "2026-11-20T22:26:13.203393387Z"
+      "scored_at": "2026-11-20T22:26:13.203398286Z"
     },
     {
       "id": "kev:CVE-2026-129448",
@@ -48,6 +48,22 @@
       "scored_at": "2026-11-20T22:26:13.203390251Z"
     },
     {
+      "id": "kev:CVE-2026-123890",
+      "source": "kev",
+      "title": "CVE-2026-123890 — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+      "published": "2026-11-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Broadcom VMware vCenter. Confirmed exploited in the wild. Federal remediation due 23 November.",
+      "cves": [
+        "CVE-2026-123890"
+      ],
+      "scored_at": "2026-11-20T22:26:13.203393387Z"
+    },
+    {
       "id": "kev:CVE-2025-42884",
       "source": "kev",
       "title": "CVE-2025-42884 — SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
@@ -62,22 +78,6 @@
         "CVE-2025-42884"
       ],
       "scored_at": "2026-11-20T22:26:13.203396162Z"
-    },
-    {
-      "id": "kev:CVE-2026-76466",
-      "source": "kev",
-      "title": "CVE-2026-76466 — Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
-      "published": "2026-11-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Expressway Series. Confirmed exploited in the wild. Federal remediation due 23 November.",
-      "cves": [
-        "CVE-2026-76466"
-      ],
-      "scored_at": "2026-11-20T22:26:13.203398286Z"
     }
   ],
   "noise": null
