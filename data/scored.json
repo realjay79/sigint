@@ -101,22 +101,6 @@
     "prior_days": 5,
     "scored_at": "2026-10-26T23:27:47.032143615Z"
   },
-  "kev:CVE-2026-110447": {
-    "id": "kev:CVE-2026-110447",
-    "source": "kev",
-    "title": "CVE-2026-110447 — Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447",
-    "published": "2026-10-23T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Collabora Collabora Online – Built-in CODE Server. Confirmed exploited in the wild. Federal remediation due 26 October.",
-    "cves": [
-      "CVE-2026-110447"
-    ],
-    "scored_at": "2026-10-23T22:44:56.15381976Z"
-  },
   "kev:CVE-2026-111357": {
     "id": "kev:CVE-2026-111357",
     "source": "kev",
@@ -180,22 +164,6 @@
       "CVE-2026-111793"
     ],
     "scored_at": "2026-11-10T21:36:14.378977331Z"
-  },
-  "kev:CVE-2026-114625": {
-    "id": "kev:CVE-2026-114625",
-    "source": "kev",
-    "title": "CVE-2026-114625 — Arista VeloCloud Orchestrator SQL Injection Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625",
-    "published": "2026-10-23T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Arista VeloCloud Orchestrator. Confirmed exploited in the wild. Federal remediation due 26 October.",
-    "cves": [
-      "CVE-2026-114625"
-    ],
-    "scored_at": "2026-10-23T22:44:56.153815973Z"
   },
   "kev:CVE-2026-114713": {
     "id": "kev:CVE-2026-114713",

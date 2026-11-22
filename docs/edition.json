@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21T21:19:32.757952562Z",
-  "edition": 120,
+  "generated": "2026-11-22T04:02:31.661457144Z",
+  "edition": 121,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
@@ -15,22 +15,6 @@
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2025-42884",
-      "source": "kev",
-      "title": "CVE-2025-42884 — SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
-      "published": "2026-11-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "SAP NetWeaver. Confirmed exploited in the wild. Federal remediation due 23 November.",
-      "cves": [
-        "CVE-2025-42884"
-      ],
-      "scored_at": "2026-11-20T22:26:13.203396162Z"
-    },
     {
       "id": "kev:CVE-2026-123890",
       "source": "kev",
@@ -48,22 +32,6 @@
       "scored_at": "2026-11-20T22:26:13.203393387Z"
     },
     {
-      "id": "kev:CVE-2026-76466",
-      "source": "kev",
-      "title": "CVE-2026-76466 — Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
-      "published": "2026-11-20T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Cisco Expressway Series. Confirmed exploited in the wild. Federal remediation due 23 November.",
-      "cves": [
-        "CVE-2026-76466"
-      ],
-      "scored_at": "2026-11-20T22:26:13.203398286Z"
-    },
-    {
       "id": "kev:CVE-2026-129448",
       "source": "kev",
       "title": "CVE-2026-129448 — Apache Roller Deserialization of Untrusted Data Vulnerability",
@@ -78,6 +46,38 @@
         "CVE-2026-129448"
       ],
       "scored_at": "2026-11-20T22:26:13.203390251Z"
+    },
+    {
+      "id": "kev:CVE-2025-42884",
+      "source": "kev",
+      "title": "CVE-2025-42884 — SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
+      "published": "2026-11-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "SAP NetWeaver. Confirmed exploited in the wild. Federal remediation due 23 November.",
+      "cves": [
+        "CVE-2025-42884"
+      ],
+      "scored_at": "2026-11-20T22:26:13.203396162Z"
+    },
+    {
+      "id": "kev:CVE-2026-76466",
+      "source": "kev",
+      "title": "CVE-2026-76466 — Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+      "published": "2026-11-20T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Cisco Expressway Series. Confirmed exploited in the wild. Federal remediation due 23 November.",
+      "cves": [
+        "CVE-2026-76466"
+      ],
+      "scored_at": "2026-11-20T22:26:13.203398286Z"
     }
   ],
   "noise": null
