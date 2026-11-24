@@ -373,6 +373,54 @@
     ],
     "scored_at": "2026-11-20T22:26:13.203390251Z"
   },
+  "kev:CVE-2026-131914": {
+    "id": "kev:CVE-2026-131914",
+    "source": "kev",
+    "title": "CVE-2026-131914 — Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+    "published": "2026-11-24T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Idunno AntiCsrf. Confirmed exploited in the wild. Federal remediation due 27 November.",
+    "cves": [
+      "CVE-2026-131914"
+    ],
+    "scored_at": "2026-11-24T19:12:48.367531825Z"
+  },
+  "kev:CVE-2026-132165": {
+    "id": "kev:CVE-2026-132165",
+    "source": "kev",
+    "title": "CVE-2026-132165 — Drupal Core Remote Code Execution Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+    "published": "2026-11-24T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Drupal Core. Confirmed exploited in the wild. Federal remediation due 27 November.",
+    "cves": [
+      "CVE-2026-132165"
+    ],
+    "scored_at": "2026-11-24T19:12:48.367533586Z"
+  },
+  "kev:CVE-2026-132224": {
+    "id": "kev:CVE-2026-132224",
+    "source": "kev",
+    "title": "CVE-2026-132224 — Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+    "published": "2026-11-24T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Optimizely Web Experimentation. Confirmed exploited in the wild. Federal remediation due 27 November.",
+    "cves": [
+      "CVE-2026-132224"
+    ],
+    "scored_at": "2026-11-24T19:12:48.36752928Z"
+  },
   "kev:CVE-2026-133968": {
     "id": "kev:CVE-2026-133968",
     "source": "kev",

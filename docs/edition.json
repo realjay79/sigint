@@ -1,20 +1,68 @@
 {
-  "generated": "2026-11-24T04:31:08.433782538Z",
+  "generated": "2026-11-24T19:12:48.841655982Z",
   "edition": 123,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 2,
+    "total": 5,
     "by_source": {
-      "kev": 2
+      "kev": 5
     },
     "by_quadrant": {
-      "STANDING ORDERS": 2
+      "STANDING ORDERS": 5
     }
   },
   "items": [
+    {
+      "id": "kev:CVE-2026-132224",
+      "source": "kev",
+      "title": "CVE-2026-132224 — Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+      "published": "2026-11-24T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Optimizely Web Experimentation. Confirmed exploited in the wild. Federal remediation due 27 November.",
+      "cves": [
+        "CVE-2026-132224"
+      ],
+      "scored_at": "2026-11-24T19:12:48.36752928Z"
+    },
+    {
+      "id": "kev:CVE-2026-132165",
+      "source": "kev",
+      "title": "CVE-2026-132165 — Drupal Core Remote Code Execution Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+      "published": "2026-11-24T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Drupal Core. Confirmed exploited in the wild. Federal remediation due 27 November.",
+      "cves": [
+        "CVE-2026-132165"
+      ],
+      "scored_at": "2026-11-24T19:12:48.367533586Z"
+    },
+    {
+      "id": "kev:CVE-2026-131914",
+      "source": "kev",
+      "title": "CVE-2026-131914 — Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+      "published": "2026-11-24T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Idunno AntiCsrf. Confirmed exploited in the wild. Federal remediation due 27 November.",
+      "cves": [
+        "CVE-2026-131914"
+      ],
+      "scored_at": "2026-11-24T19:12:48.367531825Z"
+    },
     {
       "id": "kev:CVE-2026-133968",
       "source": "kev",
