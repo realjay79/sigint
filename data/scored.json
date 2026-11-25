@@ -1,4 +1,36 @@
 {
+  "kev:CVE-2023-25914": {
+    "id": "kev:CVE-2023-25914",
+    "source": "kev",
+    "title": "CVE-2023-25914 — Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
+    "published": "2026-11-25T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Danfoss AK-SM 800A Series. Confirmed exploited in the wild. Federal remediation due 28 November.",
+    "cves": [
+      "CVE-2023-25914"
+    ],
+    "scored_at": "2026-11-25T23:53:47.460667699Z"
+  },
+  "kev:CVE-2023-25915": {
+    "id": "kev:CVE-2023-25915",
+    "source": "kev",
+    "title": "CVE-2023-25915 — Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915",
+    "published": "2026-11-25T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Danfoss AK-SM 800A Series. Confirmed exploited in the wild. Federal remediation due 28 November.",
+    "cves": [
+      "CVE-2023-25915"
+    ],
+    "scored_at": "2026-11-25T23:53:47.460669112Z"
+  },
   "kev:CVE-2024-10441": {
     "id": "kev:CVE-2024-10441",
     "source": "kev",
@@ -31,6 +63,22 @@
     ],
     "scored_at": "2026-11-05T00:38:10.582669508Z"
   },
+  "kev:CVE-2025-41450": {
+    "id": "kev:CVE-2025-41450",
+    "source": "kev",
+    "title": "CVE-2025-41450 — Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
+    "published": "2026-11-25T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Danfoss AK-SM 800A Series. Confirmed exploited in the wild. Federal remediation due 9 December.",
+    "cves": [
+      "CVE-2025-41450"
+    ],
+    "scored_at": "2026-11-25T23:53:47.460666176Z"
+  },
   "kev:CVE-2025-42884": {
     "id": "kev:CVE-2025-42884",
     "source": "kev",
@@ -62,6 +110,22 @@
       "CVE-2026-102895"
     ],
     "scored_at": "2026-11-09T23:54:40.746808683Z"
+  },
+  "kev:CVE-2026-103406": {
+    "id": "kev:CVE-2026-103406",
+    "source": "kev",
+    "title": "CVE-2026-103406 — Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+    "published": "2026-11-25T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router. Confirmed exploited in the wild. Federal remediation due 28 November.",
+    "cves": [
+      "CVE-2026-103406"
+    ],
+    "scored_at": "2026-11-25T23:53:47.460661167Z"
   },
   "kev:CVE-2026-111357": {
     "id": "kev:CVE-2026-111357",
@@ -382,6 +446,102 @@
       "CVE-2026-132224"
     ],
     "scored_at": "2026-11-24T19:12:48.36752928Z"
+  },
+  "kev:CVE-2026-133275": {
+    "id": "kev:CVE-2026-133275",
+    "source": "kev",
+    "title": "CVE-2026-133275 — Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
+    "published": "2026-11-25T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
+    "cves": [
+      "CVE-2026-133275"
+    ],
+    "scored_at": "2026-11-25T23:53:47.460672568Z"
+  },
+  "kev:CVE-2026-133303": {
+    "id": "kev:CVE-2026-133303",
+    "source": "kev",
+    "title": "CVE-2026-133303 — Mitel MiCollab XML Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+    "published": "2026-11-25T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
+    "cves": [
+      "CVE-2026-133303"
+    ],
+    "scored_at": "2026-11-25T23:53:47.460675383Z"
+  },
+  "kev:CVE-2026-133311": {
+    "id": "kev:CVE-2026-133311",
+    "source": "kev",
+    "title": "CVE-2026-133311 — Mitel MiCollab Weak Authentication Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311",
+    "published": "2026-11-25T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 9 December.",
+    "cves": [
+      "CVE-2026-133311"
+    ],
+    "scored_at": "2026-11-25T23:53:47.460674091Z"
+  },
+  "kev:CVE-2026-133323": {
+    "id": "kev:CVE-2026-133323",
+    "source": "kev",
+    "title": "CVE-2026-133323 — Mitel MiCollab OS Command Injection Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+    "published": "2026-11-25T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
+    "cves": [
+      "CVE-2026-133323"
+    ],
+    "scored_at": "2026-11-25T23:53:47.460676646Z"
+  },
+  "kev:CVE-2026-133324": {
+    "id": "kev:CVE-2026-133324",
+    "source": "kev",
+    "title": "CVE-2026-133324 — Mitel MiCollab Not Failing Securely Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324",
+    "published": "2026-11-25T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
+    "cves": [
+      "CVE-2026-133324"
+    ],
+    "scored_at": "2026-11-25T23:53:47.460670695Z"
+  },
+  "kev:CVE-2026-133469": {
+    "id": "kev:CVE-2026-133469",
+    "source": "kev",
+    "title": "CVE-2026-133469 — Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
+    "published": "2026-11-25T00:00:00Z",
+    "novelty": 3,
+    "actionability": 5,
+    "score": 8,
+    "quadrant": "STANDING ORDERS",
+    "dek": "Vates Xen Orchestra. Confirmed exploited in the wild. Federal remediation due 28 November.",
+    "cves": [
+      "CVE-2026-133469"
+    ],
+    "scored_at": "2026-11-25T23:53:47.460664193Z"
   },
   "kev:CVE-2026-133968": {
     "id": "kev:CVE-2026-133968",
