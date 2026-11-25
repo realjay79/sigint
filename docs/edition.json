@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T03:15:23.023091733Z",
+  "generated": "2026-11-25T13:43:29.246918337Z",
   "edition": 124,
   "name": "SIGINT",
   "mark": "^C",
@@ -32,22 +32,6 @@
       "scored_at": "2026-11-24T19:12:48.367531825Z"
     },
     {
-      "id": "kev:CVE-2026-132224",
-      "source": "kev",
-      "title": "CVE-2026-132224 — Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
-      "published": "2026-11-24T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Optimizely Web Experimentation. Confirmed exploited in the wild. Federal remediation due 27 November.",
-      "cves": [
-        "CVE-2026-132224"
-      ],
-      "scored_at": "2026-11-24T19:12:48.36752928Z"
-    },
-    {
       "id": "kev:CVE-2026-132165",
       "source": "kev",
       "title": "CVE-2026-132165 — Drupal Core Remote Code Execution Vulnerability",
@@ -64,20 +48,20 @@
       "scored_at": "2026-11-24T19:12:48.367533586Z"
     },
     {
-      "id": "kev:CVE-2026-134624",
+      "id": "kev:CVE-2026-132224",
       "source": "kev",
-      "title": "CVE-2026-134624 — N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
-      "published": "2026-11-23T00:00:00Z",
+      "title": "CVE-2026-132224 — Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+      "published": "2026-11-24T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "N-able MailAssure. Confirmed exploited in the wild. Federal remediation due 26 November.",
+      "dek": "Optimizely Web Experimentation. Confirmed exploited in the wild. Federal remediation due 27 November.",
       "cves": [
-        "CVE-2026-134624"
+        "CVE-2026-132224"
       ],
-      "scored_at": "2026-11-24T04:31:07.727329106Z"
+      "scored_at": "2026-11-24T19:12:48.36752928Z"
     },
     {
       "id": "kev:CVE-2026-133968",
@@ -94,6 +78,22 @@
         "CVE-2026-133968"
       ],
       "scored_at": "2026-11-24T04:31:07.72732599Z"
+    },
+    {
+      "id": "kev:CVE-2026-134624",
+      "source": "kev",
+      "title": "CVE-2026-134624 — N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
+      "published": "2026-11-23T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "N-able MailAssure. Confirmed exploited in the wild. Federal remediation due 26 November.",
+      "cves": [
+        "CVE-2026-134624"
+      ],
+      "scored_at": "2026-11-24T04:31:07.727329106Z"
     }
   ],
   "noise": null
