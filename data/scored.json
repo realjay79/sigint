@@ -143,22 +143,6 @@
     ],
     "scored_at": "2026-10-30T23:22:33.336759588Z"
   },
-  "kev:CVE-2026-111497": {
-    "id": "kev:CVE-2026-111497",
-    "source": "kev",
-    "title": "CVE-2026-111497 — Google Brotli Unchecked Return Value Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
-    "published": "2026-10-27T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Google Brotli. Confirmed exploited in the wild. Federal remediation due 10 November.",
-    "cves": [
-      "CVE-2026-111497"
-    ],
-    "scored_at": "2026-10-27T23:20:51.035518616Z"
-  },
   "kev:CVE-2026-111560": {
     "id": "kev:CVE-2026-111560",
     "source": "kev",
@@ -654,22 +638,6 @@
       "CVE-2026-46300"
     ],
     "scored_at": "2026-10-28T23:43:32.544826362Z"
-  },
-  "kev:CVE-2026-48356": {
-    "id": "kev:CVE-2026-48356",
-    "source": "kev",
-    "title": "CVE-2026-48356 — Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
-    "published": "2026-10-27T00:00:00Z",
-    "novelty": 3,
-    "actionability": 5,
-    "score": 8,
-    "quadrant": "STANDING ORDERS",
-    "dek": "Adobe Commerce and Magento. Confirmed exploited in the wild. Federal remediation due 10 November.",
-    "cves": [
-      "CVE-2026-48356"
-    ],
-    "scored_at": "2026-10-27T23:20:51.03551555Z"
   },
   "kev:CVE-2026-76418": {
     "id": "kev:CVE-2026-76418",

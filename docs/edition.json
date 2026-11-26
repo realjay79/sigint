@@ -1,35 +1,35 @@
 {
-  "generated": "2026-11-25T23:53:48.296409441Z",
-  "edition": 124,
+  "generated": "2026-11-26T05:57:33.990771211Z",
+  "edition": 125,
   "name": "SIGINT",
   "mark": "^C",
   "standfirst": "Security research and practitioner news, scored for novelty and actionability.",
   "colophon": "sigint.wtf — the correct response to most of these CVEs. Scored by machine against a hand-written rubric; ranking is opinion, not fact.",
   "counts": {
-    "total": 15,
+    "total": 13,
     "by_source": {
-      "kev": 15
+      "kev": 13
     },
     "by_quadrant": {
-      "STANDING ORDERS": 15
+      "STANDING ORDERS": 13
     }
   },
   "items": [
     {
-      "id": "kev:CVE-2025-41450",
+      "id": "kev:CVE-2026-133303",
       "source": "kev",
-      "title": "CVE-2025-41450 — Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
+      "title": "CVE-2026-133303 — Mitel MiCollab XML Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
       "published": "2026-11-25T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Danfoss AK-SM 800A Series. Confirmed exploited in the wild. Federal remediation due 9 December.",
+      "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
       "cves": [
-        "CVE-2025-41450"
+        "CVE-2026-133303"
       ],
-      "scored_at": "2026-11-25T23:53:47.460666176Z"
+      "scored_at": "2026-11-25T23:53:47.460675383Z"
     },
     {
       "id": "kev:CVE-2023-25915",
@@ -48,52 +48,20 @@
       "scored_at": "2026-11-25T23:53:47.460669112Z"
     },
     {
-      "id": "kev:CVE-2023-25914",
+      "id": "kev:CVE-2025-41450",
       "source": "kev",
-      "title": "CVE-2023-25914 — Danfoss AK-SM 800A Series Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
+      "title": "CVE-2025-41450 — Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
       "published": "2026-11-25T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Danfoss AK-SM 800A Series. Confirmed exploited in the wild. Federal remediation due 28 November.",
+      "dek": "Danfoss AK-SM 800A Series. Confirmed exploited in the wild. Federal remediation due 9 December.",
       "cves": [
-        "CVE-2023-25914"
+        "CVE-2025-41450"
       ],
-      "scored_at": "2026-11-25T23:53:47.460667699Z"
-    },
-    {
-      "id": "kev:CVE-2026-133275",
-      "source": "kev",
-      "title": "CVE-2026-133275 — Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
-      "published": "2026-11-25T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
-      "cves": [
-        "CVE-2026-133275"
-      ],
-      "scored_at": "2026-11-25T23:53:47.460672568Z"
-    },
-    {
-      "id": "kev:CVE-2026-133323",
-      "source": "kev",
-      "title": "CVE-2026-133323 — Mitel MiCollab OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
-      "published": "2026-11-25T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
-      "cves": [
-        "CVE-2026-133323"
-      ],
-      "scored_at": "2026-11-25T23:53:47.460676646Z"
+      "scored_at": "2026-11-25T23:53:47.460666176Z"
     },
     {
       "id": "kev:CVE-2026-103406",
@@ -112,6 +80,22 @@
       "scored_at": "2026-11-25T23:53:47.460661167Z"
     },
     {
+      "id": "kev:CVE-2026-133275",
+      "source": "kev",
+      "title": "CVE-2026-133275 — Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
+      "published": "2026-11-25T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
+      "cves": [
+        "CVE-2026-133275"
+      ],
+      "scored_at": "2026-11-25T23:53:47.460672568Z"
+    },
+    {
       "id": "kev:CVE-2026-133469",
       "source": "kev",
       "title": "CVE-2026-133469 — Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
@@ -126,22 +110,6 @@
         "CVE-2026-133469"
       ],
       "scored_at": "2026-11-25T23:53:47.460664193Z"
-    },
-    {
-      "id": "kev:CVE-2026-133303",
-      "source": "kev",
-      "title": "CVE-2026-133303 — Mitel MiCollab XML Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
-      "published": "2026-11-25T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
-      "cves": [
-        "CVE-2026-133303"
-      ],
-      "scored_at": "2026-11-25T23:53:47.460675383Z"
     },
     {
       "id": "kev:CVE-2026-133324",
@@ -174,6 +142,38 @@
         "CVE-2026-133311"
       ],
       "scored_at": "2026-11-25T23:53:47.460674091Z"
+    },
+    {
+      "id": "kev:CVE-2023-25914",
+      "source": "kev",
+      "title": "CVE-2023-25914 — Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
+      "published": "2026-11-25T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Danfoss AK-SM 800A Series. Confirmed exploited in the wild. Federal remediation due 28 November.",
+      "cves": [
+        "CVE-2023-25914"
+      ],
+      "scored_at": "2026-11-25T23:53:47.460667699Z"
+    },
+    {
+      "id": "kev:CVE-2026-133323",
+      "source": "kev",
+      "title": "CVE-2026-133323 — Mitel MiCollab OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+      "published": "2026-11-25T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
+      "cves": [
+        "CVE-2026-133323"
+      ],
+      "scored_at": "2026-11-25T23:53:47.460676646Z"
     },
     {
       "id": "kev:CVE-2026-132165",
@@ -222,38 +222,6 @@
         "CVE-2026-131914"
       ],
       "scored_at": "2026-11-24T19:12:48.367531825Z"
-    },
-    {
-      "id": "kev:CVE-2026-133968",
-      "source": "kev",
-      "title": "CVE-2026-133968 — Project MONAI MONAI Label Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
-      "published": "2026-11-23T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Project MONAI MONAI Label. Confirmed exploited in the wild. Federal remediation due 26 November.",
-      "cves": [
-        "CVE-2026-133968"
-      ],
-      "scored_at": "2026-11-24T04:31:07.72732599Z"
-    },
-    {
-      "id": "kev:CVE-2026-134624",
-      "source": "kev",
-      "title": "CVE-2026-134624 — N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
-      "published": "2026-11-23T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "N-able MailAssure. Confirmed exploited in the wild. Federal remediation due 26 November.",
-      "cves": [
-        "CVE-2026-134624"
-      ],
-      "scored_at": "2026-11-24T04:31:07.727329106Z"
     }
   ],
   "noise": null
