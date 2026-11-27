@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27T02:33:02.906196597Z",
+  "generated": "2026-11-27T13:19:04.527884632Z",
   "edition": 126,
   "name": "SIGINT",
   "mark": "^C",
@@ -32,54 +32,6 @@
       "scored_at": "2026-11-25T23:53:47.460669112Z"
     },
     {
-      "id": "kev:CVE-2026-133303",
-      "source": "kev",
-      "title": "CVE-2026-133303 — Mitel MiCollab XML Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
-      "published": "2026-11-25T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
-      "cves": [
-        "CVE-2026-133303"
-      ],
-      "scored_at": "2026-11-25T23:53:47.460675383Z"
-    },
-    {
-      "id": "kev:CVE-2026-133323",
-      "source": "kev",
-      "title": "CVE-2026-133323 — Mitel MiCollab OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
-      "published": "2026-11-25T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
-      "cves": [
-        "CVE-2026-133323"
-      ],
-      "scored_at": "2026-11-25T23:53:47.460676646Z"
-    },
-    {
-      "id": "kev:CVE-2023-25914",
-      "source": "kev",
-      "title": "CVE-2023-25914 — Danfoss AK-SM 800A Series Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
-      "published": "2026-11-25T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Danfoss AK-SM 800A Series. Confirmed exploited in the wild. Federal remediation due 28 November.",
-      "cves": [
-        "CVE-2023-25914"
-      ],
-      "scored_at": "2026-11-25T23:53:47.460667699Z"
-    },
-    {
       "id": "kev:CVE-2025-41450",
       "source": "kev",
       "title": "CVE-2025-41450 — Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
@@ -94,6 +46,22 @@
         "CVE-2025-41450"
       ],
       "scored_at": "2026-11-25T23:53:47.460666176Z"
+    },
+    {
+      "id": "kev:CVE-2026-103406",
+      "source": "kev",
+      "title": "CVE-2026-103406 — Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+      "published": "2026-11-25T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router. Confirmed exploited in the wild. Federal remediation due 28 November.",
+      "cves": [
+        "CVE-2026-103406"
+      ],
+      "scored_at": "2026-11-25T23:53:47.460661167Z"
     },
     {
       "id": "kev:CVE-2026-133469",
@@ -144,6 +112,22 @@
       "scored_at": "2026-11-25T23:53:47.460674091Z"
     },
     {
+      "id": "kev:CVE-2026-133323",
+      "source": "kev",
+      "title": "CVE-2026-133323 — Mitel MiCollab OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+      "published": "2026-11-25T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
+      "cves": [
+        "CVE-2026-133323"
+      ],
+      "scored_at": "2026-11-25T23:53:47.460676646Z"
+    },
+    {
       "id": "kev:CVE-2026-133324",
       "source": "kev",
       "title": "CVE-2026-133324 — Mitel MiCollab Not Failing Securely Vulnerability",
@@ -160,20 +144,36 @@
       "scored_at": "2026-11-25T23:53:47.460670695Z"
     },
     {
-      "id": "kev:CVE-2026-103406",
+      "id": "kev:CVE-2023-25914",
       "source": "kev",
-      "title": "CVE-2026-103406 — Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+      "title": "CVE-2023-25914 — Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
       "published": "2026-11-25T00:00:00Z",
       "novelty": 3,
       "actionability": 5,
       "score": 8,
       "quadrant": "STANDING ORDERS",
-      "dek": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router. Confirmed exploited in the wild. Federal remediation due 28 November.",
+      "dek": "Danfoss AK-SM 800A Series. Confirmed exploited in the wild. Federal remediation due 28 November.",
       "cves": [
-        "CVE-2026-103406"
+        "CVE-2023-25914"
       ],
-      "scored_at": "2026-11-25T23:53:47.460661167Z"
+      "scored_at": "2026-11-25T23:53:47.460667699Z"
+    },
+    {
+      "id": "kev:CVE-2026-133303",
+      "source": "kev",
+      "title": "CVE-2026-133303 — Mitel MiCollab XML Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+      "published": "2026-11-25T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Mitel MiCollab. Confirmed exploited in the wild. Federal remediation due 28 November.",
+      "cves": [
+        "CVE-2026-133303"
+      ],
+      "scored_at": "2026-11-25T23:53:47.460675383Z"
     }
   ],
   "noise": null
