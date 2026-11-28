@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-28T05:30:46.724380505Z",
+  "generated": "2026-11-28T16:29:27.023117605Z",
   "edition": 127,
   "name": "SIGINT",
   "mark": "^C",
@@ -15,22 +15,6 @@
     }
   },
   "items": [
-    {
-      "id": "kev:CVE-2026-136716",
-      "source": "kev",
-      "title": "CVE-2026-136716 — Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
-      "published": "2026-11-27T00:00:00Z",
-      "novelty": 3,
-      "actionability": 5,
-      "score": 8,
-      "quadrant": "STANDING ORDERS",
-      "dek": "Drupal Core. Confirmed exploited in the wild. Federal remediation due 30 November.",
-      "cves": [
-        "CVE-2026-136716"
-      ],
-      "scored_at": "2026-11-27T23:49:47.514109129Z"
-    },
     {
       "id": "kev:CVE-2026-120705",
       "source": "kev",
@@ -62,6 +46,22 @@
         "CVE-2026-129243"
       ],
       "scored_at": "2026-11-27T23:49:47.514106876Z"
+    },
+    {
+      "id": "kev:CVE-2026-136716",
+      "source": "kev",
+      "title": "CVE-2026-136716 — Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
+      "published": "2026-11-27T00:00:00Z",
+      "novelty": 3,
+      "actionability": 5,
+      "score": 8,
+      "quadrant": "STANDING ORDERS",
+      "dek": "Drupal Core. Confirmed exploited in the wild. Federal remediation due 30 November.",
+      "cves": [
+        "CVE-2026-136716"
+      ],
+      "scored_at": "2026-11-27T23:49:47.514109129Z"
     }
   ],
   "noise": null
